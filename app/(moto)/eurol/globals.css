@@ -83,14 +83,14 @@ body {
 /* Laptop Screen (1024px - 1279px) */
 @media (min-width: 1024px) and (max-width: 1279px) {
   .custom-container {
-    max-width: 85%;
+    max-width: 90%;
   }
 }
 
 /* Desktop PC Screen (1280px - 1535px) */
 @media (min-width: 1280px) and (max-width: 1535px) {
   .custom-container {
-    max-width: 85%;
+    max-width: 90%;
   }
 }
 
