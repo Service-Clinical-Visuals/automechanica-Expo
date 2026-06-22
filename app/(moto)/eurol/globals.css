@@ -150,7 +150,7 @@ body {
 /* 4K Ultra-wide Screen / Max Cover (3800px and above) */
 @media (min-width: 3800px) {
   .custom-container {
-    max-width: 85%;
+    max-width: 90%;
   }
 
   /* h2 {
@@ -173,7 +173,8 @@ body {
 /* 2K / QHD Monitors (2560px wide) - Maintain 1920px design proportions */
 @media (min-width: 2560px) {
   .eurol-root {
-    zoom: 1.5;
+    zoom: 1.38
+    ;
     transform-origin: top center;
   }
 }
@@ -181,7 +182,7 @@ body {
 /* 4K UHD Monitors (3840px wide) - Maintain 1920px design proportions */
 @media (min-width: 3840px) {
   .eurol-root {
-    zoom: 2.0;
+    zoom: 1.75;
     transform-origin: top center;
   }
 }
