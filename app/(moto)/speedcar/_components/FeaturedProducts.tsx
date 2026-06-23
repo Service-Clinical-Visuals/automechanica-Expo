@@ -39,7 +39,7 @@ const FeaturedProducts = () => {
             href="#products"
             data-aos="fade-left"
             data-aos-delay="150"
-            className="bg-primary px-5 py-3 content-white hover:bg-primary/90 transition-colors shrink-0 flex items-center"
+            className="bg-primary font-bold px-5 py-3 content-white hover:bg-primary/90 transition-colors shrink-0 flex items-center"
           >
             View All Products
           </a>
