@@ -21,7 +21,7 @@ export default function StillLooking() {
           Are you still looking for something?
         </h2>
         
-        {/* <p className="text-gray-300 text-sm md:text-[15px] max-w-3xl mx-auto mb-10 md:mb-12 leading-relaxed font-sans" data-aos="fade-up" data-aos-delay="100"> */}
+      
         <p className="text-[#ffffff] max-w-8xl mx-auto text-sm md:text-[18px] leading-[1.5] max-w-3xl mx-auto mb-10 md:mb-12" data-aos="fade-up" data-aos-delay="100">
           You will find additional important links here, for example to contact us directly. We will be very pleased to assist you when you still have questions.
         </p>

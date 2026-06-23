@@ -45,7 +45,6 @@ export default function OilFinder() {
         </div>
 
         {/* Top Two Columns with OR */}
-        {/* Top Two Columns with OR */}
         <div className="relative flex flex-col md:flex-row items-center md:items-end justify-between gap-14 md:gap-28 lg:gap-32 mb-16 w-full lg:w-[100%] mx-auto">
           <div className="flex-1 w-full flex flex-col gap-3 relative z-10" data-aos="fade-right">
             <p className="text-white font-bold text-sm md:text-[18px]">Do you have your manual/service logbook to hand?</p>
