@@ -37,7 +37,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-[30fr_20fr_25fr_25fr] gap-10 xl:gap-8 mb-10">
 
             {/* Col 1: Logo + description */}
-            <div className="flex flex-col gap-5 items-start">
+            <div data-aos="fade-up" className="flex flex-col gap-5 items-start">
               <img
                 src="/moto/speedcar/logo2.png"
                 alt="SpeedCar Logo"
@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
 
             {/* Col 2: Quick Links */}
-            <div className="xl:pl-8">
+            <div data-aos="fade-up" data-aos-delay="100" className="xl:pl-8">
               <h4 className="content-white text-[20px]! font-semibold underline underline-offset-4 decoration-white/60 mb-5">
                 Quick Links
               </h4>
@@ -74,7 +74,7 @@ const Footer = () => {
             </div>
 
             {/* Col 3: Contact */}
-            <div>
+            <div data-aos="fade-up" data-aos-delay="200">
               <h4 className="content-white text-[20px]! font-semibold underline underline-offset-4 decoration-white/60 mb-5">
                 Contact
               </h4>
@@ -99,7 +99,7 @@ const Footer = () => {
             </div>
 
             {/* Col 4: Newsletter */}
-            <div>
+            <div data-aos="fade-up" data-aos-delay="300">
               <h4 className="content-white text-[20px]! font-semibold underline underline-offset-4 decoration-white/60 mb-5">
                 Subscribe for Newsletter
               </h4>

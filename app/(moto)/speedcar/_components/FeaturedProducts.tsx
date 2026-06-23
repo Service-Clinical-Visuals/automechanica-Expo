@@ -29,7 +29,7 @@ const FeaturedProducts = () => {
       <Container>
         {/* Header Row */}
         <div className="flex items-start justify-between mb-12">
-          <div>
+          <div data-aos="fade-right">
             <h2 className="heading-white">
               Our Featured Products
             </h2>
@@ -37,6 +37,8 @@ const FeaturedProducts = () => {
           </div>
           <a
             href="#products"
+            data-aos="fade-left"
+            data-aos-delay="150"
             className="bg-primary px-5 py-3 content-white hover:bg-primary/90 transition-colors shrink-0 flex items-center"
           >
             View All Products

@@ -30,7 +30,7 @@ const QualityProducts = () => {
 
           {/* Left: Text */}
           <div className="w-full xl:w-[48%]">
-            <div className="mb-5">
+            <div className="mb-5" data-aos="fade-right">
               <h2 className="heading-white">
                 Quality Products for Every Industry
               </h2>
@@ -38,13 +38,13 @@ const QualityProducts = () => {
             </div>
 
             <div className="space-y-4 mb-8 tracking-[0%]! leading-[28px]!">
-              <p className="content-white">
+              <p data-aos="fade-up" data-aos-delay="100" className="content-white">
                 We offer a comprehensive range of high-quality products designed to meet the diverse needs of
                 automotive, industrial, transport, and agricultural sectors. Manufactured using premium-grade
                 materials and advanced technologies, our solutions deliver reliable performance, enhanced
                 efficiency, and long-lasting protection for equipment and machinery.
               </p>
-              <p className="content-white">
+              <p data-aos="fade-up" data-aos-delay="200" className="content-white">
                 We provide a wide range of premium products engineered for durability, performance, and
                 reliability. With a strong focus on quality and customer satisfaction, our solutions are designed to
                 keep vehicles, machinery, and industrial operations running at their best.
@@ -53,6 +53,8 @@ const QualityProducts = () => {
 
             <a
               href="#contact"
+              data-aos="fade-up"
+              data-aos-delay="300"
               className="inline-block bg-primary px-6 py-3 content-white font-bold hover:bg-primary/90 transition-colors"
             >
               Explore Our Services
@@ -60,7 +62,7 @@ const QualityProducts = () => {
           </div>
 
           {/* Right: Video placeholder */}
-          <div className="w-full xl:w-[52%]">
+          <div className="w-full xl:w-[52%]" data-aos="fade-left" data-aos-delay="150">
             <div className="w-full aspect-[4/3] md:aspect-video rounded-lg flex items-center justify-center overflow-hidden relative">
                 <DynamicVideoPlayer type="short-1" />
             </div>
@@ -76,6 +78,8 @@ const QualityProducts = () => {
           {features.map((feature, idx) => (
             <div
               key={idx}
+              data-aos="fade-up"
+              data-aos-delay={idx * 100}
               className="bg-[#FFFFFF26] p-8 flex flex-col items-center text-center gap-4"
             >
               <div className="bg-primary w-16 h-12 flex items-center justify-center shrink-0">
