@@ -132,7 +132,7 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="content">
-        <div className="mx-auto max-w-[90%] py-4 flex flex-wrap items-center justify-center gap-1 text-gray-500">
+        <div className="mx-auto max-w-[90%] py-4 flex flex-wrap items-center justify-center gap-1 text-gray-500 ">
           <span>Synmar© 2026</span>
           <span>|</span>
           <a href="#" className="hover:text-[#c9a84c] transition-colors">Terms and Conditions</a>
