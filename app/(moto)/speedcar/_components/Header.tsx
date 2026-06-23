@@ -69,7 +69,7 @@ const Header = () => {
     <>
       <div className="h-[85px] w-full shrink-0" aria-hidden="true" />
       <header
-        className={`top-0 left-0 w-full block z-50 transition-all duration-500 transform ${isSticky || (mobileMenuOpen && !isTop)
+        className={`top-0 left-0 w-full block z-70 transition-all duration-500 transform ${isSticky || (mobileMenuOpen && !isTop)
           ? "fixed translate-y-0 opacity-100 shadow-md border-b border-gray-100 bg-white"
           : isTop
             ? "absolute translate-y-0 opacity-100"
