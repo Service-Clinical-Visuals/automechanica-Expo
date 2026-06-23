@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import { Search, ShoppingBag, Globe, Phone, Mail } from "lucide-react";
+import { Search, ShoppingBag, Globe, Phone, Mail, Droplet } from "lucide-react";
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -10,10 +10,11 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 0) {
+      // Show header when scrolled past half of the viewport height
+      if (window.scrollY > window.innerHeight / 2) {
         setIsVisible(true);
       } else {
-        setIsVisible(true);
+        setIsVisible(false);
       }
     };
 
@@ -33,9 +34,11 @@ export default function Header() {
   ];
 
   return (
-    <header className={`w-full fixed top-0 left-0 z-[100] transition-all duration-300 bg-white shadow-sm`}>
+    <header className={`w-full fixed top-0 left-0 z-[100] transition-all duration-500 shadow-sm ${
+      isVisible ? "translate-y-0 bg-white" : "-translate-y-full bg-transparent pointer-events-none"
+    }`}>
       {/* Top Red Bar */}
-      <div className="w-full bg-[#e61919] text-white py-2 hidden md:block">
+      <div className="w-full bg-[#e61919] text-white py-2 hidden lg:block">
         <div className="custom-container flex justify-between items-center text-[13px] font-medium">
           <div className="flex items-center gap-6">
             <a href="tel:+49624159060" className="flex items-center gap-2 hover:opacity-80">
@@ -109,8 +112,11 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <div className="xl:hidden flex items-center gap-4">
-            <button className="text-gray-800">
-              <Search size={20} />
+            <button className="text-gray-800 hover:text-[#e61919] transition-colors">
+              <ShoppingBag size={20} strokeWidth={1.5} />
+            </button>
+            <button className="text-gray-800 hover:text-[#e61919] transition-colors">
+              <Search size={20} strokeWidth={1.5} />
             </button>
             <button 
               className="text-gray-800 focus:outline-none"
@@ -134,17 +140,31 @@ export default function Header() {
       {isMobileMenuOpen && (
         <div className="xl:hidden absolute top-full left-0 w-full bg-white shadow-lg border-t border-gray-100 flex flex-col z-50 max-h-[80vh] overflow-y-auto">
           {/* Top Bar Info for Mobile */}
-          <div className="bg-gray-50 px-6 py-4 flex flex-col gap-3 text-sm text-gray-600 border-b border-gray-100">
-             <a href="tel:+49624159060" className="flex items-center gap-2"><Phone size={14} /> +49 6241 5906 0</a>
-             <a href="mailto:info@rowe-oil.com" className="flex items-center gap-2"><Mail size={14} /> info@rowe-oil.com</a>
+          <div className="lg:hidden bg-gray-50 py-4 border-b border-gray-100">
+            <div className="custom-container flex flex-col gap-4 text-sm text-gray-700 font-medium">
+               <a href="tel:+49624159060" className=" text-[#e61919] flex items-center gap-3"><Phone size={16} className="text-[#e61919]" /> +49 6241 5906 0</a>
+               <a href="mailto:info@rowe-oil.com" className=" text-[#e61919] flex items-center gap-3"><Mail size={16} className="text-[#e61919]" /> info@rowe-oil.com</a>
+               <Link href="#" className="text-[#e61919] flex items-center gap-3" onClick={() => setIsMobileMenuOpen(false)}>
+                 <div className="w-4 flex justify-center"><div className="w-2 h-2 rounded-full bg-[#e61919]"></div></div> Contact
+               </Link>
+               <Link href="#" className="text-[#e61919] flex items-center gap-3" onClick={() => setIsMobileMenuOpen(false)}>
+                 <div className="w-4 flex justify-center"><div className="w-2 h-2 rounded-full bg-[#e61919]"></div></div> Distributor Locator
+               </Link>
+               <Link href="#" className=" text-[#e61919] flex items-center gap-3" onClick={() => setIsMobileMenuOpen(false)}>
+                 <Droplet size={16} className="text-[#e61919]" /> Oil finder
+               </Link>
+               <div className="text-[#e61919] flex items-center gap-3">
+                 <Globe size={16} className="text-[#e61919]" /> <span>EN</span>
+               </div>
+            </div>
           </div>
-          <nav className="flex flex-col py-2">
+          <nav className="custom-container flex flex-col py-2">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
                 href={link.href}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className={`block px-6 py-4 text-base font-semibold border-b border-gray-50 last:border-0 flex justify-between items-center ${
+                className={`block py-4 text-base font-semibold border-b border-gray-50 last:border-0 flex justify-between items-center ${
                   link.active ? "text-[#e61919]" : "text-gray-800"
                 }`}
               >

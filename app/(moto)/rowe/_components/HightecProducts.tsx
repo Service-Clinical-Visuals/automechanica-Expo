@@ -32,7 +32,7 @@ export default function HightecProducts() {
           </div>
 
           {/* Right Image */}
-          <div className="w-full  flex items-center justify-center relative  xl:aspect-auto xl:h-[400px] " data-aos="fade-left">
+          <div className="w-full flex items-center justify-center relative aspect-[4/3] md:aspect-[16/9] xl:aspect-auto xl:h-[400px]" data-aos="fade-left">
             <img 
               src="/moto/rowe/hightecproduct.png" 
               alt="HIGHTEC Products" 

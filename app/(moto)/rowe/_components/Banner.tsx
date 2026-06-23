@@ -6,12 +6,12 @@ import Link from "next/link";
 
 export default function Banner() {
   return (
-    <section className="relative w-full h-[60vh] md:h-screen overflow-hidden bg-[#000B29] mt-[70px] md:mt-[104px]">
+    <section className="relative w-full h-screen  overflow-hidden ">
       {/* Background Media */}
       <div className="absolute inset-0 z-0 select-none">
         <DynamicVideoPlayer
           type="banner"
-          className="absolute inset-0 w-full h-full object-cover"
+           className="absolute inset-0 w-full h-full object-cover object-center"
         />
        
       </div>
