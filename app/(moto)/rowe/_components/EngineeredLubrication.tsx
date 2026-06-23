@@ -42,10 +42,10 @@ export default function EngineeredLubrication() {
 
           {/* Right: Text Content */}
           <div className="flex flex-col items-start" data-aos="fade-left">
-            <h3 className="text-xl md:text-2xl font-medium tracking-wide mb-4">
+            <h2 className="text-xl md:text-2xl lg:text-[28px] font-semibold tracking-wide mb-4">
               Engineered Lubrication for {" "}
               <span className="text-[#e61919] orbitron">Every Application</span>
-            </h3>
+            </h2>
             
             <div className="text-gray-500 text-sm md:text-[15px] leading-relaxed space-y-6 mb-8 font-sans">
               <p className="text-[#666666] max-w-8xl mx-auto text-sm md:text-[18px] leading-[1.8] ">

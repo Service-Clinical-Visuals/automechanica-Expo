@@ -11,7 +11,7 @@ export default function About() {
         
         {/* Top Header Section */}
         <div className="flex flex-col items-center text-center mb-16" data-aos="fade-up">
-          <h2 className="text-2xl md:text-3xl font-bold tracking-wide mb-4">
+          <h2 className="text-xl md:text-2xl lg:text-[28px] font-semibold tracking-wide mb-4">
             <b className="text-[#1a1a1a] orbitron font-bold">About </b>
             <b className="text-[#e4170f] orbitron font-bold">Rowe</b>
           </h2>
@@ -25,7 +25,7 @@ export default function About() {
           
           {/* Left Column */}
           <div className="flex flex-col justify-center xl:col-span-5" data-aos="fade-right">
-            <h2 className="text-2xl md:text-3xl font-bold tracking-wide mb-4">
+            <h2 className="text-xl md:text-2xl lg:text-[28px] font-semibold tracking-wide mb-4">
               One of the most modern <b className="text-[#e61919] orbitron font-bold">lubricant factories</b>
             </h2>
             

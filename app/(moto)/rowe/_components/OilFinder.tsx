@@ -38,7 +38,7 @@ export default function OilFinder() {
         
         {/* Title */}
         <div className="flex justify-center items-center gap-3 mb-16" data-aos="fade-down">
-         <h2 className="text-white text-2xl md:text-3xl font-bold tracking-wide orbitron">
+         <h2 className="text-white text-xl md:text-2xl lg:text-[28px] font-semibold tracking-wide orbitron">
             OIL FINDER
           </h2>
           <img src="/moto/rowe/mdi_oil1.png" alt="Oil Finder" className="max-w-12 item-center object-contain " />
@@ -82,7 +82,7 @@ export default function OilFinder() {
         <div className="w-full h-[1px] bg-white/80 mb-12" data-aos="fade-up"></div>
 
         {/* Vehicle Search Section */}
-        <h2 className="text-white text-2xl md:text-3xl font-bold tracking-wide orbitron text-center mb-10" data-aos="fade-up">
+        <h2 className="text-white text-xl md:text-2xl lg:text-[28px] font-semibold tracking-wide orbitron text-center mb-10" data-aos="fade-up">
           Vehicle Search
         </h2>
 
@@ -92,16 +92,16 @@ export default function OilFinder() {
             <button
               key={idx}
               onClick={() => setActiveCategory(cat.name)}
-              className={`bg-white  p-3 sm:p-4 flex flex-col items-center justify-center text-center gap-2 aspect-square transition-all duration-300 ${
+              className={`bg-white flex flex-col items-center justify-center text-center gap-2 py-4 sm:py-6 px-2 transition-all duration-300 ${
                 activeCategory === cat.name 
                   ? 'border-b-[4px] border-[#e61919] shadow-lg' 
                   : 'border-b-[4px] border-transparent hover:border-gray-200'
               }`}
             >
-              <div className={`flex-shrink-0 h-14 sm:h-16 md:h-18 flex items-center justify-center mb-2 transition-colors duration-300 ${activeCategory === cat.name ? 'opacity-100' : 'opacity-80'}`}>
+              <div className={`flex-shrink-0 h-12 sm:h-14 md:h-16 flex items-center justify-center mb-2 transition-colors duration-300 `}>
                 <img src={cat.icon} alt="" className="max-h-full max-w-full object-contain" />
               </div>
-              <div className="text-black font-medium leading-snug w-full px-1 mt-2 flex items-start justify-center h-[44px] md:h-[56px]">
+              <div className="text-black font-medium leading-snug w-full px-1 mt-2 flex items-start justify-center h-[40px] md:h-[50px]">
                <p className="text-sm md:text-[18px] line-clamp-2"> {cat.name} </p>
               </div>
             </button>

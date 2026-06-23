@@ -26,7 +26,7 @@ export default function Partners() {
         
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-center mb-12 md:mb-16">
-          <h2 className="text-[#1a1a1a] text-2xl md:text-3xl font-bold tracking-wide orbitron  mb-6">
+          <h2 className="text-[#1a1a1a] text-xl md:text-2xl lg:text-[28px] font-semibold tracking-wide orbitron  mb-6">
             Partner for all <span className="text-[#e61919] orbitron">our customers</span>
           </h2>
           <div data-aos="fade-left">

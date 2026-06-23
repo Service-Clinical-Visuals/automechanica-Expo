@@ -17,7 +17,7 @@ export default function StillLooking() {
       ></div>
 
       <div className="custom-container relative z-10 flex flex-col items-center text-center">
-        <h2 className="text-white text-2xl md:text-3xl font-medium tracking-wide mb-6" data-aos="fade-down">
+        <h2 className="text-white text-xl md:text-2xl lg:text-[28px] font-semibold tracking-wide mb-6" data-aos="fade-down">
           Are you still looking for something?
         </h2>
         

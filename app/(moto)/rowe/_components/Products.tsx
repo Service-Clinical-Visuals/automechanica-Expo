@@ -27,7 +27,7 @@ export default function Products() {
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-center mb-12 md:mb-16">
           {/* <h2 className="text-[28px] md:text-3xl lg:text-4xl font-bold font-sans text-[#000B29] mb-6 md:mb-0"> */}
-          <h2 className="text-2xl md:text-3xl font-medium tracking-wide" data-aos="fade-up">
+          <h2 className="text-xl md:text-2xl lg:text-[28px] font-semibold tracking-wide" data-aos="fade-up">
             Our Products
           </h2>
           <div data-aos="fade-left">

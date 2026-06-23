@@ -14,7 +14,7 @@ export default function Liqwotec() {
           {/* Left Text */}
           <div className="flex flex-col items-start" data-aos="fade-right">
             {/* <h2 className="text-[28px] md:text-3xl lg:text-4xl font-bold font-sans text-white mb-6 tracking-wide"> */}
-            <h2 className="text-[#ffffff] text-2xl md:text-3xl font-bold tracking-wide orbitron  mb-6">
+            <h2 className="text-[#ffffff] text-xl md:text-2xl lg:text-[28px] font-semibold tracking-wide orbitron  mb-6">
               liqwotec GmbH
             </h2>
             

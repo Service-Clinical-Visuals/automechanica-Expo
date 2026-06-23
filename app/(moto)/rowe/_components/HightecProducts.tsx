@@ -16,7 +16,7 @@ export default function HightecProducts() {
           {/* Left Text */}
           <div className="flex flex-col items-start" data-aos="fade-right">
           
-            <h2 className="text-[#1a1a1a] text-2xl md:text-3xl font-bold tracking-wide orbitron uppercase mb-6" data-aos="fade-up">
+            <h2 className="text-[#1a1a1a] text-xl md:text-2xl lg:text-[28px] font-semibold tracking-wide orbitron uppercase mb-6" data-aos="fade-up">
               HIGHTEC PRODUCTS – <b className="text-[#e61919] orbitron tracking-wide font-bold">100% MADE IN GERMANY</b>
             </h2>
             
@@ -66,7 +66,7 @@ export default function HightecProducts() {
           {/* Right Text */}
           <div className="flex flex-col items-start" data-aos="fade-left">
           
-            <h2 className="text-[#1a1a1a] text-2xl md:text-3xl font-bold tracking-wide orbitron mb-6" data-aos="fade-up">
+            <h2 className="text-[#1a1a1a] text-xl md:text-2xl lg:text-[28px] font-semibold tracking-wide orbitron mb-6" data-aos="fade-up">
               Innovation Driven <b className="text-[#e61919] orbitron tracking-wide font-bold">by Performance</b>
             </h2>
             
@@ -78,11 +78,11 @@ export default function HightecProducts() {
 
             <div className="flex flex-col gap-5 mt-2">
               <div className="font-sans">
-                <span className="font-bold text-[#000B29] orbitron text-sm md:text-[18px]">Premium Quality Formulations: </span> 
+                <span className="font-bold text-[#000B29] orbitron text-sm md:text-[18px] font-semibold">Premium Quality Formulations: </span> 
                 <span className="text-[#666666] text-sm md:text-[18px] leading-[1.8]">Developed using high-quality base oils and advanced additive technologies.</span>
               </div>
               <div className="font-sans">
-                <span className="font-bold text-[#000B29] orbitron text-sm md:text-[18px]">OEM & Industry Compliance: </span> 
+                <span className="font-bold text-[#000B29] orbitron text-sm md:text-[18px] font-semibold">OEM & Industry Compliance: </span> 
                 <span className="text-[#666666] text-sm md:text-[18px] leading-[1.8]">Designed to meet leading manufacturer specifications and international standards.</span>
               </div>
             </div>

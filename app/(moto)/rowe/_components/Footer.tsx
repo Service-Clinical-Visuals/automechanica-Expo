@@ -61,11 +61,19 @@ export default function Footer() {
           <div className="flex flex-col gap-8 md:gap-10">
             <div className="flex flex-col gap-4 md:gap-5">
               <h4 className="text-base md:text-lg lg:text-[18px] font-medium orbitron text-white tracking-wide underline underline-offset-4">Socials</h4>
-              <div className="flex gap-3">
-                <img src="/moto/rowe/facebook.png" alt="Facebook" className="w-8 h-8 md:w-10 md:h-10 cursor-pointer hover:opacity-80 transition-opacity object-contain" />
-                <img src="/moto/rowe/twitter.png" alt="Twitter" className="w-8 h-8 md:w-10 md:h-10 cursor-pointer hover:opacity-80 transition-opacity object-contain" />
-                <img src="/moto/rowe/linkedin.png" alt="Linkedin" className="w-8 h-8 md:w-10 md:h-10 cursor-pointer hover:opacity-80 transition-opacity object-contain" />
-                <img src="/moto/rowe/instagram.png" alt="Instagram" className="w-8 h-8 md:w-10 md:h-10 cursor-pointer hover:opacity-80 transition-opacity object-contain" />  
+              <div className="flex gap-1 md:gap-2">
+                <a href="#" className="bg-white w-[40px] h-[34px] md:w-[46px] md:h-[38px] flex items-center justify-center hover:bg-gray-200 transition-colors">
+                  <img src="/moto/rowe/facebook.png" alt="Facebook" className="w-5 h-5 md:w-[22px] md:h-[22px] object-contain" />
+                </a>
+                <a href="#" className="bg-white w-[40px] h-[34px] md:w-[46px] md:h-[38px] flex items-center justify-center hover:bg-gray-200 transition-colors">
+                  <img src="/moto/rowe/twitter.png" alt="Twitter" className="w-5 h-5 md:w-[22px] md:h-[22px] object-contain" />
+                </a>
+                <a href="#" className="bg-white w-[40px] h-[34px] md:w-[46px] md:h-[38px] flex items-center justify-center hover:bg-gray-200 transition-colors">
+                  <img src="/moto/rowe/linkedin.png" alt="Linkedin" className="w-5 h-5 md:w-[22px] md:h-[22px] object-contain" />
+                </a>
+                <a href="#" className="bg-white w-[40px] h-[34px] md:w-[46px] md:h-[38px] flex items-center justify-center hover:bg-gray-200 transition-colors">
+                  <img src="/moto/rowe/instagram.png" alt="Instagram" className="w-5 h-5 md:w-[22px] md:h-[22px] object-contain" />
+                </a>  
               </div>
             </div>
             
