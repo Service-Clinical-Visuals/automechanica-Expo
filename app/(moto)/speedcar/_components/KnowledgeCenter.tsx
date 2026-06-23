@@ -29,7 +29,7 @@ const KnowledgeCenter = () => {
 
         {/* Header Row */}
         <div className="flex items-start justify-between mb-10">
-          <div>
+          <div data-aos="fade-right">
             <h2 className="heading">
               Our News &amp; Articles
             </h2>
@@ -37,6 +37,8 @@ const KnowledgeCenter = () => {
           </div>
           <a
             href="#news"
+            data-aos="fade-left"
+            data-aos-delay="150"
             className="inline-block bg-primary px-3 py-2 content-white font-bold hover:bg-primary/90 transition-colors shrink-0"
           >
             View All News
@@ -46,7 +48,7 @@ const KnowledgeCenter = () => {
         {/* Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {articles.map((article, idx) => (
-            <div key={idx} className="flex flex-col group cursor-pointer">
+            <div key={idx} data-aos="fade-up" data-aos-delay={idx * 120} className="flex flex-col group cursor-pointer">
               {/* Image */}
               <div className="w-full aspect-[530/323] overflow-hidden">
                 <img

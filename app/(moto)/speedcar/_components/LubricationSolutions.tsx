@@ -25,10 +25,10 @@ const LubricationSolutions = () => {
 
           {/* Left Content */}
           <div className="w-full xl:w-1/2">
-            <Typography variant="h2" color="dark" className="heading font-bold not-italic! mb-4">
+            <Typography variant="h2" color="dark" data-aos="fade-right" className="heading font-bold not-italic! mb-4">
               360° Engine Oil Product Showcase Video
             </Typography>
-            <Typography variant="body" className="content mb-8 text-justify tracking-[0%]! leading-[28px]!">
+            <Typography variant="body" data-aos="fade-up" data-aos-delay="100" className="content mb-8 text-justify tracking-[0%]! leading-[28px]!">
               Premium engine oils formulated to provide superior lubrication, reduce engine wear, and maximize performance in all driving conditions. Designed with advanced additive technology, they help improve fuel efficiency, maintain engine cleanliness, and extend engine life.
             </Typography>
 
@@ -39,7 +39,7 @@ const LubricationSolutions = () => {
 
             <div className="space-y-6">
               {listItems.map((item, idx) => (
-                <div key={idx} className="group">
+                <div key={idx} data-aos="fade-up" data-aos-delay={idx * 100} className="group">
                   <div className="flex gap-4 items-center mb-2">
                     <div className="bg-primary w-12 h-12 flex items-center justify-center shrink-0">
                       <Wrench size={22} className="text-white" />
@@ -57,7 +57,7 @@ const LubricationSolutions = () => {
           </div>
 
           {/* Desktop Video Placeholder */}
-          <div className="hidden xl:flex w-full xl:w-1/2 justify-center">
+          <div data-aos="fade-left" data-aos-delay="150" className="hidden xl:flex w-full xl:w-1/2 justify-center">
             <div className="w-full bg-[#f0f0f0] aspect-[4/3] md:aspect-video rounded flex items-center justify-center border border-gray-100 overflow-hidden relative">
               <DynamicVideoPlayer type="360" />
             </div>
