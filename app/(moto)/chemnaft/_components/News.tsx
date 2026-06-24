@@ -50,10 +50,10 @@ export default function News() {
                 />
               </div>
               <div className="flex flex-col items-center py-5 px-4 gap-3">
-                <p className="heading2 text-[18px]! text-[#10355F]! text-center">{item.title}</p>
+                <p className="heading2 text-[22px]! text-[#10355F]! text-center">{item.title}</p>
                 <a
                   href="#"
-                  className="flex items-center content text-[#333333]! font-bold underline underline-offset-2"
+                  className="flex text-[22px]! items-center content text-[#333333]! font-bold underline underline-offset-2"
                 >
                   Read More <ArrowIcon />
                 </a>
