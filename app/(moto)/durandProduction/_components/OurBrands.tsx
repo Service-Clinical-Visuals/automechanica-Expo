@@ -29,7 +29,7 @@ export default function OurBrands() {
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 lg:gap-10">
             
             {/* Valco Card */}
-            <div className="bg-white rounded-[20px] p-8 md:p-10 shadow-2xl flex flex-col h-full transform transition-all duration-300 hover:-translate-y-4 hover:shadow-red-900/40" data-aos="fade-right">
+            <div className="bg-white rounded-t-2xl p-8 md:p-10 shadow-2xl flex flex-col h-full transform transition-all duration-300 hover:-translate-y-4 hover:shadow-red-900/40" data-aos="fade-right">
               <div className="flex justify-between items-center mb-6">
                 <h2 className="text-[#1a1a1a] text-2xl md:text-3xl lg:text-4xl heading font-medium tracking-wider leading-none">
                   Valco
@@ -46,7 +46,7 @@ export default function OurBrands() {
             </div>
 
             {/* Areca Card */}
-            <div className="bg-white rounded-[20px] p-8 md:p-10 shadow-2xl flex flex-col h-full transform transition-all duration-300 hover:-translate-y-4 hover:shadow-red-900/40" data-aos="fade-left">
+            <div className="bg-white rounded-t-2xl p-8 md:p-10 shadow-2xl flex flex-col h-full transform transition-all duration-300 hover:-translate-y-4 hover:shadow-red-900/40" data-aos="fade-left">
               <div className="flex justify-between items-center mb-6">
                 <h2 className="text-[#1a1a1a] text-2xl md:text-3xl lg:text-4xl heading font-medium tracking-wider leading-none">
                   Areca

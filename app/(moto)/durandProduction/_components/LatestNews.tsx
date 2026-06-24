@@ -44,7 +44,7 @@ export default function LatestNews() {
               {newsList.map((news) => (
                 <Link key={news.id} href="#" className="bg-white flex items-center p-4 gap-4 group hover:shadow-xl transition-all duration-300">
                   {/* Image */}
-                  <div className="w-[100px] h-[100px] md:w-[120px] md:h-[95px] 2xl:w-[160px] 2xl:h-[120px] flex-shrink-0 border border-[#FF131C] bg-white">
+                  <div className="w-[100px] h-[100px] md:w-[100px] md:h-[70px] 2xl:w-[120px] 2xl:h-[120px] flex-shrink-0 border border-[#FF131C] bg-white">
                     <img src={news.image} alt={news.title} className="w-full h-full object-cover" />
                   </div>
                   {/* Title */}
@@ -71,7 +71,7 @@ export default function LatestNews() {
           {/* Right Column: Featured News */}
           <div className="bg-white border-2 border-[#FF131C] p-6 md:p-8 flex flex-col h-full mt-4 lg:mt-0" data-aos="fade-left">
             {/* Top row: Image & Title */}
-            <div className="flex flex-col sm:flex-row gap-6 mb-6 md:mb-8">
+            <div className="flex flex-col sm:flex-row gap-6 mb-2 md:mb-2 xl:mb-4 ">
               <div className="w-full sm:w-[30%] xl:w-[25%] flex-shrink-0 border border-[#FF131C]">
                 <img src="/moto/durandProduction/news4.png" alt="EcoVadis Bronze Medal" className="w-full h-auto object-cover shadow-sm border border-gray-100" />
               </div>
