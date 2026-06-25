@@ -384,31 +384,31 @@ body {
 /* Extra Large PC / 2K Screen (1920px - 2499px) */
 @media (min-width: 1920px) and (max-width: 2499px) {
   .custom-container {
-    max-width: 85%;
+    max-width: 90%;
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 1.1;
   }
 
   h2 {
-    font-size: 3.3rem !important;
+    font-size: 2.1rem !important;
     line-height: 1.15;
   }
 
   h3 {
-    font-size: 3.038rem;
+    font-size: 2rem;
     line-height: 1.2;
   }
 
   h4 {
-    font-size: 2.363rem;
+    font-size: 2.3rem !important;
     line-height: 1.25;
   }
 
   h5 {
-    font-size: 2.025rem;
+    font-size: 1.7rem;
     line-height: 1.35;
   }
 
@@ -418,7 +418,7 @@ body {
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1.8;
   }
 
@@ -428,16 +428,16 @@ body {
   }
 
   span {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
-  /*a { font-size: 1.3rem; } */
+  .sub-title { font-size: 2.1rem !important; }
   .download {
     font-size: 1.1rem !important;
   }
 
   .navbar {
-    font-size: 1.2rem;
+    font-size: 1.1rem !important;
     line-height: 1.6;
   }
 
@@ -449,6 +449,9 @@ body {
   .copyright {
     font-size: 1.1rem !important;
     line-height: 1.8;
+  }
+  .button-font{
+    font-size: 1.2rem !important;
   }
 }
 

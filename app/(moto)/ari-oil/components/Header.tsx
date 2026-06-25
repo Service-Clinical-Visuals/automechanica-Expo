@@ -71,8 +71,8 @@ export default function Header() {
         </nav>
 
         {/* Right Button */}
-        <div className="hidden lg:block">
-          <Button text="Schedule Eval" href="#" variant="primary" />
+        <div className="hidden lg:block  ">
+          <Button text="Schedule Eval" href="#" variant="primary" className="sub-title" />
         </div>
 
         {/* Mobile Menu Toggle */}

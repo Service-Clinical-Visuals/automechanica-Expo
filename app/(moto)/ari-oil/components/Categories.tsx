@@ -81,10 +81,10 @@ export default function Categories() {
 
                   {/* Content */}
                   <div className="p-6 pt-5 flex flex-col grow">
-                    <Typography variant="h4" color="primary" weight="bold" className="mb-2 text-[1.25rem]">
+                    <Typography variant="h5" color="primary" weight="bold" className="mb-2 ">
                       {category.title}
                     </Typography>
-                    <Typography variant="p" color="dark" className=" font-oswald mb-6 text-[0.85rem] !leading-relaxed">
+                    <Typography variant="p" color="dark" className=" font-oswald mb-6  !leading-relaxed">
                       {category.description}
                     </Typography>
 

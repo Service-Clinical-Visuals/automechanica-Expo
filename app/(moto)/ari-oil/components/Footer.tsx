@@ -37,7 +37,7 @@ export default function Footer() {
       <div className="custom-container">
         <div className="bg-white shadow-[0_4px_30px_rgba(0,0,0,0.08)] w-full flex flex-col">
           {/* Main Footer Content */}
-          <div className="px-8 py-12 md:px-12 md:py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-7 gap-x-8 gap-y-12">
+          <div className="px-8 py-12 md:px-12 md:py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-7 gap-x-2 gap-y-12">
 
             {/* Logo Column */}
             <div className="flex flex-col gap-6 xl:col-span-2 pr-4" data-aos="fade-up">
@@ -49,8 +49,8 @@ export default function Footer() {
 
             {/* Links Columns */}
             {links.map((column, idx) => (
-              <div key={idx} className="flex flex-col gap-6" data-aos="fade-up" data-aos-delay={(idx + 1) * 100}>
-                <Typography variant="h6" color="primary" weight="extrabold" className="font-exo2  tracking-wide">
+              <div key={idx} className="flex flex-col gap-8" data-aos="fade-up" data-aos-delay={(idx + 1) * 100}>
+                <Typography variant="span" color="primary" weight="extrabold" className="font-exo2  tracking-wide">
                   {column.title}
                 </Typography>
                 <span>
@@ -71,7 +71,7 @@ export default function Footer() {
           </div>
 
           {/* Copyright Section */}
-          <div className="border-t border-gray-300 py-6 text-center">
+          <div className="copyright border-t border-gray-300 py-6 text-center">
             <Typography variant="p" className=" font-oswald text-[#484848]">
               © Copyright 2026 - ARI OIL
             </Typography>

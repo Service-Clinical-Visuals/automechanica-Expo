@@ -64,7 +64,7 @@ export default function AboutUs() {
             <div className="absolute top-8 right-8 w-10 h-10 rounded-full bg-secondary text-white flex items-center justify-center">
               <ArrowUpRight size={20} strokeWidth={2.5} />
             </div>
-            <Typography variant="h2" color="primary" weight="bold" className="mb-4">
+            <Typography variant="h2" color="primary" weight="bold" className="mb-4 sub-title">
               Our Vision
             </Typography>
             <Typography variant="p" color="dark" className="pr-12">
