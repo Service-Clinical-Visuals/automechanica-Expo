@@ -25,7 +25,7 @@ export default function About() {
   return (
     <section className="w-full bg-white py-16 md:py-24">
       <div className="custom-container">
-        <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 xl:gap-15 items-start">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 xl:gap-14 items-start">
           
           {/* Left Column - Content */}
           <div className="flex flex-col xl:col-span-7 " data-aos="fade-right">

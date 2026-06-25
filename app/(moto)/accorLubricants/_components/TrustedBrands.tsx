@@ -7,8 +7,16 @@ import Button from "./Button";
 export default function TrustedBrands() {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);
-  
   const TOTAL_DOTS = 3;
+
+  const getCardWidth = () => {
+    if (!scrollContainerRef.current) return 0;
+    const cards = scrollContainerRef.current.querySelectorAll('.snap-start');
+    if (cards.length === 0) return 0;
+    const card = cards[0] as HTMLElement;
+    // The gap is gap-6 which is 24px (1.5rem)
+    return card.offsetWidth + 24; 
+  };
 
   const handleScroll = () => {
     if (!scrollContainerRef.current) return;
@@ -19,10 +27,13 @@ export default function TrustedBrands() {
       return;
     }
 
-    const scrollPercentage = scrollLeft / (scrollWidth - clientWidth);
-    let index = Math.round(scrollPercentage * (TOTAL_DOTS - 1));
+    const maxScroll = scrollWidth - clientWidth;
+    const scrollPercentage = scrollLeft / maxScroll;
     
+    // Map progress to dot index [0, TOTAL_DOTS - 1]
+    let index = Math.round(scrollPercentage * (TOTAL_DOTS - 1));
     index = Math.max(0, Math.min(index, TOTAL_DOTS - 1));
+    
     if (index !== activeIndex) {
       setActiveIndex(index);
     }
@@ -41,29 +52,38 @@ export default function TrustedBrands() {
       left: targetScroll,
       behavior: "smooth"
     });
-    setActiveIndex(index);
   };
 
   // Auto-scrolling logic
   useEffect(() => {
     const interval = setInterval(() => {
-      setActiveIndex((prev) => {
-        const nextIndex = (prev + 1) % TOTAL_DOTS;
-        
-        if (scrollContainerRef.current) {
-          const { scrollWidth, clientWidth } = scrollContainerRef.current;
-          const maxScroll = scrollWidth - clientWidth;
-          if (maxScroll > 0) {
-            const targetScroll = (maxScroll / (TOTAL_DOTS - 1)) * nextIndex;
-            scrollContainerRef.current.scrollTo({
-              left: targetScroll,
-              behavior: "smooth"
-            });
-          }
-        }
-        
-        return nextIndex;
+      if (!scrollContainerRef.current) return;
+      const { scrollLeft, scrollWidth, clientWidth } = scrollContainerRef.current;
+      const maxScroll = scrollWidth - clientWidth;
+      
+      if (maxScroll <= 0) return;
+
+      const cardWidth = getCardWidth();
+      if (!cardWidth) return;
+
+      // Check if we are at or very close to the end
+      if (Math.ceil(scrollLeft) >= maxScroll - 10) {
+        scrollContainerRef.current.scrollTo({
+          left: 0,
+          behavior: "smooth"
+        });
+        return;
+      }
+
+      const currentCardIndex = Math.round(scrollLeft / cardWidth);
+      let targetScroll = (currentCardIndex + 1) * cardWidth;
+      targetScroll = Math.min(targetScroll, maxScroll);
+      
+      scrollContainerRef.current.scrollTo({
+        left: targetScroll,
+        behavior: "smooth"
       });
+      
     }, 4000); // scrolls every 4 seconds
 
     return () => clearInterval(interval);
@@ -186,7 +206,7 @@ export default function TrustedBrands() {
         </div>
 
         {/* Custom Pagination/Slider Indicators */}
-        <div className="flex justify-center gap-3 mt-12">
+        <div className="flex justify-center flex-wrap gap-3 mt-12">
           {[...Array(TOTAL_DOTS)].map((_, i) => (
             <button 
               key={i}

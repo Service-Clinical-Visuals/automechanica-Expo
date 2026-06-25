@@ -9,7 +9,7 @@ export default function Explore360() {
       <div className="custom-container">
 
         {/* Top Section */}
-        <div className="grid grid-cols-1 xl:grid-cols-12 gap-12 xl:gap-16 items-center mb-20">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 xl:gap-14 items-center mb-20">
 
           {/* Left Column - 360 Viewer */}
           <div className="w-full aspect-video xl:col-span-8" data-aos="fade-right">
@@ -37,18 +37,18 @@ export default function Explore360() {
             </p>
 
             <div>
-              <Button href="#">Explore Our Product</Button>
+              <Button href="#">Technical Specifications</Button>
             </div>
           </div>
         </div>
 
         {/* Bottom Section - Feature Cards */}
-        <div className="flex flex-col xl:flex-row gap-8 xl:gap-16 pt-12">
+        <div className="flex flex-col xl:flex-row gap-8 xl:gap-14 ">
 
           {/* Card 1 */}
-          <div className="flex-1 ml-[75px] md:ml-[85px] lg:ml-[95px] xl:ml-[105px] relative bg-white shadow-xl rounded-none flex flex-col justify-center h-[135px] md:h-[155px] lg:h-[175px] xl:h-[190px]" data-aos="fade-up" data-aos-delay="100">
+          <div className="flex-1 ml-[75px] md:ml-[85px] lg:ml-[95px] xl:ml-[105px] relative bg-white shadow-xl rounded-none flex flex-col justify-center h-[135px] md:h-[155px] lg:h-[175px] xl:h-[170px]" data-aos="fade-up" data-aos-delay="100">
             {/* The circle MUST be larger than the fixed height of the card at EVERY breakpoint to guarantee the sharp pointy tips at the top and bottom edges! */}
-            <div className="absolute -left-[75px] md:-left-[85px] lg:-left-[95px] xl:-left-[105px] top-1/2 -translate-y-1/2 w-[130px] h-[130px] md:w-[140px] md:h-[140px] lg:w-[190px] lg:h-[190px] xl:w-[210px] xl:h-[210px] bg-[#E41B13] rounded-full border-[8px] md:border-[10px] lg:border-[12px] border-[#1e1e1e] flex items-center justify-center z-10">
+            <div className="absolute -left-[75px] md:-left-[85px] lg:-left-[95px] xl:-left-[105px] top-1/2 -translate-y-1/2 w-[130px] h-[130px] md:w-[140px] md:h-[140px] lg:w-[190px] lg:h-[190px] xl:w-[180px] xl:h-[180px] bg-[#E41B13] rounded-full border-[8px] md:border-[10px] lg:border-[10px] border-[rgb(30,30,30)] flex items-center justify-center z-10">
               <img src="/moto/accorLubricants/lubricant1.png" alt="icon" className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 xl:w-20 xl:h-20 object-contain" />
             </div>
             
@@ -63,9 +63,9 @@ export default function Explore360() {
           </div>
 
           {/* Card 2 */}
-          <div className="flex-1 ml-[75px] md:ml-[85px] lg:ml-[95px] xl:ml-[105px] relative bg-white shadow-xl mt-12 xl:mt-0 rounded-none flex flex-col justify-center h-[135px] md:h-[155px] lg:h-[175px] xl:h-[190px]" data-aos="fade-up" data-aos-delay="200">
+          <div className="flex-1 ml-[75px] md:ml-[85px] lg:ml-[95px] xl:ml-[105px] relative bg-white shadow-xl mt-12 xl:mt-0 rounded-none flex flex-col justify-center h-[135px] md:h-[155px] lg:h-[175px] xl:h-[170px]" data-aos="fade-up" data-aos-delay="200">
             {/* The circle MUST be larger than the fixed height of the card at EVERY breakpoint to guarantee the sharp pointy tips at the top and bottom edges! */}
-            <div className="absolute -left-[75px] md:-left-[85px] lg:-left-[95px] xl:-left-[105px] top-1/2 -translate-y-1/2 w-[135px] h-[135px] md:w-[140px] md:h-[140px] lg:w-[190px] lg:h-[190px] xl:w-[210px] xl:h-[210px] bg-[#E41B13] rounded-full border-[8px] md:border-[10px] lg:border-[12px] border-[#1e1e1e] flex items-center justify-center z-10">
+            <div className="absolute -left-[75px] md:-left-[85px] lg:-left-[95px] xl:-left-[105px] top-1/2 -translate-y-1/2 w-[135px] h-[135px] md:w-[140px] md:h-[140px] lg:w-[190px] lg:h-[190px] xl:w-[180px] xl:h-[180px] bg-[#E41B13] rounded-full border-[8px] md:border-[10px] lg:border-[10px] border-[#1e1e1e] flex items-center justify-center z-10">
               <img src="/moto/accorLubricants/lubricant2.png" alt="icon" className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 xl:w-20 xl:h-20 object-contain" />
             </div>
             

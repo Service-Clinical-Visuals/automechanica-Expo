@@ -9,7 +9,7 @@ export default function ProductPerformance() {
       <div className="custom-container">
         
         {/* Top Section */}
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-12 xl:gap-20 items-center mb-16">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 xl:gap-14 items-center mb-12">
           
           {/* Left Column - Content */}
           <div className="flex flex-col" data-aos="fade-right">
@@ -28,7 +28,7 @@ export default function ProductPerformance() {
             </p>
 
             <div>
-              <Button href="#">Explore Our Product</Button>
+              <Button href="#">Request Information</Button>
             </div>
           </div>
 
@@ -46,7 +46,7 @@ export default function ProductPerformance() {
         <div className="w-full h-[1px] bg-gray-200 mb-12"></div>
 
         {/* Bottom Section - Feature Cards */}
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 xl:gap-12">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 xl:gap-14">
           
           {/* Card 1 */}
           <div className=" border border-gray-100 shadow-[0_8px_75px_rgba(0,0,0,0.12)] p-8 lg:p-10 transition-transform duration-300 hover:-translate-y-1" data-aos="fade-up" data-aos-delay="100">

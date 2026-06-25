@@ -34,7 +34,7 @@ export default function Header() {
   return (
     <header 
       className={`w-full fixed top-0 left-0 z-[100] transition-all duration-500 ${
-        isScrolled ? "pt-0" : "pt-4 lg:pt-6"
+        isScrolled ? "pt-0" : "pt-2 lg:pt-3"
       }`}
     >
       <div className="relative flex justify-center w-full">
@@ -75,7 +75,7 @@ export default function Header() {
           </nav>
 
           <div className="hidden lg:flex items-center">
-            <Button href="#">Get In touch with Us</Button>
+            <Button href="#">Explore Products</Button>
           </div>
 
           {/* Mobile Menu Button */}

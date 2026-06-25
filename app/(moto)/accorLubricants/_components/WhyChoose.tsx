@@ -98,7 +98,7 @@ export default function WhyChoose() {
 
         {/* Bottom Button */}
         <div className="flex justify-center pr-4" data-aos="fade-up">
-          <Button href="#">Know More About Synmar</Button>
+          <Button href="#">Discover Our Advantages</Button>
         </div>
 
       </div>
