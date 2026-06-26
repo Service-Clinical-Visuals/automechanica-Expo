@@ -33,7 +33,7 @@ export default function ExolLayout({
   return (
     <div className={`${rajdhani.variable} ${outfit.variable} antialiased exol-root bg-white min-h-screen flex flex-col font-rajdhani`}>
       <SmoothAOS />
-      <VideoProvider website="exol">
+      <VideoProvider >
         {children}
       </VideoProvider>
     </div>
