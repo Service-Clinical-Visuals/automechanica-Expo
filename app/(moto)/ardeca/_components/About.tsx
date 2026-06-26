@@ -7,7 +7,7 @@ export default function About() {
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 lg:gap-8 items-center">
           
           {/* Left Side: Images Collage */}
-          <div className="relative w-full aspect-square md:aspect-[16/10] lg:aspect-[4/3] xl:aspect-[5/4] 2xl:aspect-[4/3] flex gap-2 order-2 xl:order-1">
+          <div className="relative w-full aspect-square md:aspect-[16/10] lg:aspect-[4/3] xl:aspect-[5/4] 2xl:aspect-[4/3] flex gap-2 order-2 xl:order-1" data-aos="fade-right" data-aos-duration="1000">
             {/* Main Image */}
             <div className="w-[60%] h-full rounded-bl-2xl overflow-hidden shadow-[0_4px_15px_rgba(0,0,0,0.05)]">
               <img src="/moto/ardeca/abt1.png" alt="Ardeca Team" className="w-full h-full object-cover" />
@@ -29,7 +29,7 @@ export default function About() {
           </div>
 
           {/* Right Side: Text Content */}
-          <div className="flex flex-col text-black order-1 xl:order-2">
+          <div className="flex flex-col text-black order-1 xl:order-2" data-aos="fade-left" data-aos-duration="1000">
             <div className="inline-flex items-center border  border-[#CE0E2D] rounded-full px-4 py-1.5 mb-6 self-start">
               <span className="text-[#CE0E2D] text-[16px]  font-semibold chakra-petch flex items-center">
                 <span className="mr-2 text-[16px]  leading-none  ">&bull;</span> About Us
@@ -55,7 +55,7 @@ export default function About() {
       </div>
 
       {/* Glowing Red Banner */}
-      <div className="w-full mt-8 md:mt-12 relative py-8 sm:py-10 md:py-16 flex justify-center items-center overflow-hidden">
+      <div className="w-full mt-8 md:mt-12 relative py-8 sm:py-10 md:py-16 flex justify-center items-center overflow-hidden" data-aos="zoom-in" data-aos-duration="1000">
         {/* Glow effect layer */}
         <div className="absolute inset-0 w-full flex items-center justify-center pointer-events-none">
           <div 

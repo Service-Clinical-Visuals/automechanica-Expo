@@ -28,7 +28,7 @@ export default function News() {
       <div className="custom-container">
         
         {/* Header */}
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-5 gap-6">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-5 gap-6" data-aos="fade-up" data-aos-duration="1000">
           <div>
             <h2 className="text-3xl md:text-4xl lg:text-[32px] font-semibold mb-4 !text-black chakra-petch leading-tight">
               News
@@ -46,7 +46,7 @@ export default function News() {
         {/* News Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
           {newsItems.map((news, idx) => (
-            <div key={idx} className="flex flex-col border-t border-[#CE0E2D] pt-6 group cursor-pointer">
+            <div key={idx} className="flex flex-col border-t border-[#CE0E2D] pt-6 group cursor-pointer" data-aos="fade-up" data-aos-duration="1000" data-aos-delay={idx * 200}>
               
               {/* Image */}
               <div className="w-full  mb-6 overflow-hidden rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.06)]">

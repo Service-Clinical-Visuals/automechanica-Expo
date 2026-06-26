@@ -140,7 +140,7 @@ export default function Category() {
     <section className="w-full bg-white py-20 lg:py-28 overflow-hidden">
       <div className="custom-container">
         {/* Header */}
-        <div className="flex flex-col items-center text-center mb-16">
+        <div className="flex flex-col items-center text-center mb-16" data-aos="fade-up" data-aos-duration="1000">
           <div className="inline-flex items-center border border-[#CE0E2D] rounded-full px-4 py-1 mb-4">
              <span className="text-[#CE0E2D] text-[16px] font-semibold chakra-petch flex items-center">
                 <span className="mr-2 text-[16px] leading-none">&bull;</span> Product Range
@@ -161,6 +161,7 @@ export default function Category() {
           className="relative w-full"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
+          data-aos="fade-up" data-aos-duration="1000"
         >
           <div 
             ref={scrollContainerRef}
@@ -202,7 +203,7 @@ export default function Category() {
         </div>
 
         {/* Jelly Ball Progress Indicator */}
-        <div className="flex items-center justify-start mt-8 md:mt-12 relative w-[88px] mx-auto h-4">
+        <div className="flex items-center justify-start mt-8 md:mt-12 relative w-[88px] mx-auto h-4" data-aos="fade-up" data-aos-duration="1000">
           
           {/* Connector Line behind dots (Gray) */}
           <div className="absolute top-1/2 left-[5px] w-[78px] h-[2px] bg-[#484848] -translate-y-1/2 z-0"></div>

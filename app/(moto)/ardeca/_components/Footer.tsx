@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row gap-10 lg:gap-8 xl:gap-0 justify-between mb-12">
           
           {/* Column 1: Brand & Socials */}
-          <div className="w-full md:w-[25%] lg:w-[28%] xl:w-[30%] flex flex-col">
+          <div className="w-full md:w-[25%] lg:w-[28%] xl:w-[30%] flex flex-col" data-aos="fade-right" data-aos-duration="1000">
             <img src="/moto/ardeca/logo.png" alt="Ardeca Lubricants" className="w-[180px] md:w-[200px] lg:w-[220px] mb-6 object-contain" />
             <p className="text-[#ffffff] text-sm md:text-[16px] oxanium leading-[1.8] mb-6">
               By carrying out this strategy successfully the company managed to increase its production volume significantly over the last years and became an important player in the worldwide market with local distributors in more than 65 countries.
@@ -25,7 +25,7 @@ export default function Footer() {
           </div>
 
           {/* Right Columns Container (Links & Contact) */}
-          <div className="w-full md:w-[60%] lg:w-[70%] xl:w-[65%] grid grid-cols-2 xl:grid-cols-12 gap-x-4 gap-y-8 xl:gap-8">
+          <div className="w-full md:w-[60%] lg:w-[70%] xl:w-[65%] grid grid-cols-2 xl:grid-cols-12 gap-x-4 gap-y-8 xl:gap-8" data-aos="fade-left" data-aos-duration="1000">
             
             {/* Column 2: Quick links */}
             <div className="col-span-1 xl:col-span-2 flex flex-col">
@@ -101,7 +101,7 @@ export default function Footer() {
         </div>
 
         {/* Footer Bottom */}
-        <div className="pt-4 border-t border-[#ffffff]/40 flex flex-col  lg:flex-row justify-between items-center gap-4">
+        <div className="pt-4 border-t border-[#ffffff]/40 flex flex-col  lg:flex-row justify-between items-center gap-4" data-aos="fade-up" data-aos-duration="1000">
            <p className="text-[#ffffff] text-sm md:text-[16px] oxanium leading-[1.8]">
             Copyrights@2026 Ardeca .All rights Reserved
           </p>
