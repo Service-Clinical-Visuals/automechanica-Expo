@@ -1,0 +1,506 @@
+@import "tailwindcss";
+@import "aos/dist/aos.css";
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-primary: #0084F0;
+  --color-primary-hover: #006bc7;
+  --color-secondary: #1E1E1E;
+  --color-secondary-hover: #111111;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-rajdhani: var(--font-rajdhani), 'Rajdhani', ui-sans-serif, system-ui, sans-serif;
+  --font-outfit: var(--font-outfit), 'Outfit', ui-sans-serif, system-ui, sans-serif;
+}
+
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-rajdhani);
+}
+
+
+/* Custom container class with individual media queries for easy customization */
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Mobile Portrait Screen (up to 480px) */
+@media (max-width: 480px) {
+  .custom-container {
+    max-width: 95%;
+  }
+
+  h1 {
+    font-size: 1.95rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.35rem;
+  }
+
+  h4 {
+    font-size: 1.05rem;
+  }
+
+  h5 {
+    font-size: 0.9rem;
+  }
+
+  h6 {
+    font-size: 0.75rem;
+  }
+
+  p {
+    font-size: 0.938rem;
+  }
+
+  span {
+    font-size: 0.825rem;
+  }
+}
+
+/* Mobile Landscape Screen (481px - 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container {
+    max-width: 92%;
+  }
+
+  h1 {
+    font-size: 2.275rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.575rem;
+  }
+
+  h4 {
+    font-size: 1.225rem;
+  }
+
+  h5 {
+    font-size: 1.05rem;
+  }
+
+  h6 {
+    font-size: 0.875rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  span {
+    font-size: 0.88rem;
+  }
+}
+
+/* Tablet / Tab Screen (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2.762rem;
+  }
+
+  h2 {
+    font-size: 2.125rem;
+  }
+
+  h3 {
+    font-size: 1.912rem;
+  }
+
+  h4 {
+    font-size: 1.488rem;
+  }
+
+  h5 {
+    font-size: 1.275rem;
+  }
+
+  h6 {
+    font-size: 1.063rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+
+  span {
+    font-size: 0.99rem;
+  }
+
+  .navbar {
+    font-size: 2rem !important;
+  }
+
+}
+
+/* Laptop Screen (1024px - 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 3.087rem;
+  }
+
+  h2 {
+    font-size: 2.375rem;
+  }
+
+  h3 {
+    font-size: 2.137rem;
+  }
+
+  h4 {
+    font-size: 1.662rem;
+  }
+
+  h5 {
+    font-size: 1.425rem;
+  }
+
+  h6 {
+    font-size: 1.188rem;
+  }
+
+  p {
+    font-size: 1.188rem;
+  }
+
+  span {
+    font-size: 1rem;
+  }
+
+  .navbar {
+    font-size: 1rem;
+  }
+
+}
+
+/* Desktop PC Screen (1280px - 1535px) */
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container {
+    max-width: 85%;
+  }
+
+  h1 {
+    font-size: 3.25rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  h3 {
+    font-size: 2.25rem;
+  }
+
+  h4 {
+    font-size: 1.75rem;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+  }
+
+  h6 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+
+  span {
+    font-size: 1.1rem;
+  }
+
+  .download {
+    font-size: 1rem !important;
+  }
+
+  .navbar {
+    font-size: 1rem;
+  }
+
+  li {
+    font-size: 1.1rem;
+  }
+
+  /* Swiper Custom Pagination */
+  .custom-swiper-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+  }
+
+  .custom-swiper-pagination .swiper-pagination-bullet {
+    width: 2rem !important;
+    height: 0.375rem !important;
+    border-radius: 0 !important;
+    background-color: #D1D5DB !important;
+    opacity: 1 !important;
+    transform: skewX(-25deg);
+    transition: background-color 0.3s ease;
+    margin: 0 !important;
+  }
+
+  .custom-swiper-pagination .swiper-pagination-bullet-active {
+    background-color: var(--secondary) !important;
+  }
+
+  .copyright {
+    font-size: 1rem !important;
+  }
+}
+
+/* Large Desktop PC Screen (1536px - 1919px) */
+@media (min-width: 1536px) and (max-width: 1919px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2.587rem;
+  }
+
+  h4 {
+    font-size: 2.012rem;
+  }
+
+  h5 {
+    font-size: 1.725rem;
+  }
+
+  h6 {
+    font-size: 1.438rem;
+  }
+
+  p {
+    font-size: 1.375rem;
+  }
+
+  span {
+    font-size: 1.21rem;
+  }
+
+  .download {
+    font-size: 1rem !important;
+  }
+
+  .navbar {
+    font-size: 1rem;
+  }
+
+  li {
+    font-size: 1.1rem;
+  }
+
+  .copyright {
+    font-size: 1.1rem !important;
+  }
+}
+
+/* Extra Large PC / 2K Screen (1920px - 2499px) */
+@media (min-width: 1920px) and (max-width: 2499px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2.1rem !important;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 2.3rem !important;
+  }
+
+  h5 {
+    font-size: 1.7rem;
+  }
+
+  h6 {
+    font-size: 1.688rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  li {
+    font-size: 1.5rem;
+  }
+
+  span {
+    font-size: 1.2rem;
+  }
+
+  .sub-title {
+    font-size: 2.1rem !important;
+  }
+
+  .download {
+    font-size: 1.1rem !important;
+  }
+
+  .navbar {
+    font-size: 1.1rem !important;
+  }
+
+  li {
+    font-size: 1.1rem;
+  }
+
+  .copyright {
+    font-size: 1.1rem !important;
+  }
+
+}
+
+/* Ultra-wide Screen / Max Cover (2500px - 3799px) */
+@media (min-width: 2500px) and (max-width: 3799px) {
+  .custom-container {
+    max-width: 93%;
+  }
+
+  h1 {
+    font-size: 5.362rem;
+  }
+
+  h2 {
+    font-size: 4.125rem;
+  }
+
+  h3 {
+    font-size: 3.712rem;
+  }
+
+  h4 {
+    font-size: 2.887rem;
+  }
+
+  h5 {
+    font-size: 2.475rem;
+  }
+
+  h6 {
+    font-size: 2.063rem;
+  }
+
+  p {
+    font-size: 1.813rem !important;
+  }
+
+  span {
+    font-size: 1.595rem;
+  }
+
+  .download {
+    font-size: 1.5rem !important;
+    font-weight: 500;
+  }
+
+  a {
+    font-size: 1.3rem !important;
+  }
+
+  li {
+    font-size: 1.5rem;
+  }
+
+  .copyright {
+    font-size: 1.5rem !important;
+  }
+
+  .navbar {
+    font-size: 1.6rem;
+  }
+}
+
+/* 4K Ultra-wide Screen / Max Cover (3800px and above) */
+@media (min-width: 3800px) {
+  .custom-container {
+    max-width: 93%;
+  }
+
+  h1 {
+    font-size: 6.825rem;
+  }
+
+  h2 {
+    font-size: 5.25rem;
+  }
+
+  h3 {
+    font-size: 4.725rem;
+  }
+
+  h4 {
+    font-size: 3.675rem;
+  }
+
+  h5 {
+    font-size: 3.15rem;
+  }
+
+  h6 {
+    font-size: 2.625rem;
+  }
+
+  p {
+    font-size: 2.25rem;
+  }
+
+  span {
+    font-size: 1.98rem;
+  }
+
+  a {
+    font-size: 2.5rem;
+  }
+}
