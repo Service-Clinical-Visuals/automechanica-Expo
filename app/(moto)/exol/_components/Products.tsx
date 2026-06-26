@@ -55,7 +55,11 @@ export default function Products() {
             Most Popular Products
           </Typography>
 
-          <div className="w-[23%] h-px bg-[#1E1E1E66] mb-6"></div>
+          <div className="relative w-[24%] mb-3 ">
+            <div className="h-[2px]  bg-gray-300"></div>
+
+            <div className="absolute right-0 top-1/2 -translate-y-1/2 h-2.5 w-2.5 border-2 border-gray-500 bg-white"></div>
+          </div>
 
           <Typography variant="p" className="text-[#666666] xl:max-w-[70%] w-full mx-auto text-sm md:text-base leading-relaxed">
             Our range of automotive products is designed to deliver dependable performance, enhanced protection, and long-lasting reliability across a variety of vehicle applications. From engine oils and gear lubricants to batteries and cooling fluids, each product is developed to help improve efficiency, protect critical components, and ensure smooth operation in demanding conditions.
@@ -96,7 +100,7 @@ export default function Products() {
             className="w-full h-auto !pb-4"
           >
             {products.map((product, index) => (
-              <SwiperSlide key={product.id} className="h-auto">
+              <SwiperSlide key={product.id} className="!h-auto flex">
                 <div
                   className="bg-white border-2 border-gray-100 p-2 md:p-5 w-full shadow-sm hover:shadow-md transition-shadow flex flex-col h-full"
                 >

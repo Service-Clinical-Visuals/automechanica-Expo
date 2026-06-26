@@ -37,22 +37,22 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-6 mb-12">
 
           {/* Column 1: Logo & Info */}
-          <div className="flex col-span-4 flex-col gap-6 lg:pr-4">
-            <Link href="/" className="inline-block w-[45%] xl:w-[70%]">
+          <div className="flex col-span-4 flex-col gap-6 lg:pr-4" data-aos="fade-up">
+            <Link href="/" className="inline-block w-[45%] xl:w-[50%]">
               <img
                 src="/moto/exol/logo.jpg"
                 alt="EXOL Logo"
                 className="w-full h-auto object-contain"
               />
             </Link>
-            <Typography variant="p" className="text-white text-sm leading-relaxed">
-              Since 1974, Arı Petroleum Chemical Company is producing and selling all types of lubricants and industrial oils with its experienced & qualified team.
+            <Typography variant="span" className="text-white text-sm max-w-[90%] leading-relaxed">
+              Exxol Lubricants is a UK-based manufacturer and blender of lubricants, supplying automotive, commercial, industrial, marine, and agricultural sectors. The company develops and manufactures its own lubricants and also offers private-label solutions.
             </Typography>
           </div>
 
           {/* Column 2: Quick Links */}
-          <div className="flex col-span-2 flex-col gap-6">
-            <Typography variant="h6" weight="bold" color="white" className="text-[18px]">
+          <div className="flex col-span-2 flex-col gap-6" data-aos="fade-up" data-aos-delay="100">
+            <Typography variant="span" weight="semibold" color="white" className="underline">
               Quick Links
             </Typography>
             <ul className="flex flex-col gap-3">
@@ -67,8 +67,8 @@ export default function Footer() {
           </div>
 
           {/* Column 3: Product Categories */}
-          <div className="flex  col-span-2 flex-col gap-6">
-            <Typography variant="h6" weight="bold" color="white" className="text-[16px]">
+          <div className="flex  col-span-2 flex-col gap-6" data-aos="fade-up" data-aos-delay="200">
+            <Typography variant="span" weight="semibold" color="white" className="underline">
               Product Categories
             </Typography>
             <ul className="flex flex-col gap-3">
@@ -83,8 +83,8 @@ export default function Footer() {
           </div>
 
           {/* Column 4: Why Choose EXXOL */}
-          <div className="flex col-span-2 flex-col gap-6">
-            <Typography variant="h6" weight="bold" color="white" className="text-[16px]">
+          <div className="flex col-span-2 flex-col gap-6" data-aos="fade-up" data-aos-delay="300">
+            <Typography variant="span" weight="semibold" color="white" className="underline">
               Why Choose EXXOL
             </Typography>
             <ul className="flex flex-col gap-3">
@@ -97,8 +97,8 @@ export default function Footer() {
           </div>
 
           {/* Column 5: Contact Info */}
-          <div className="flex col-span-2 flex-col gap-6">
-            <Typography variant="h6" weight="bold" color="white" className="text-[16px]">
+          <div className="flex col-span-2 flex-col gap-6" data-aos="fade-up" data-aos-delay="400">
+            <Typography variant="span" weight="semibold" color="white" className="underline">
               Contact Information
             </Typography>
             <ul className="flex flex-col gap-4 text-white text-sm">
@@ -114,7 +114,7 @@ export default function Footer() {
         <div className="w-full h-px bg-white/50 mb-8"></div>
 
         {/* Bottom Copyright */}
-        <div className="flex flex-col md:flex-row justify-center items-center text-center">
+        <div className="flex flex-col md:flex-row justify-center items-center text-center" data-aos="fade-up" data-aos-delay="500">
           <Typography variant="p" className="text-white text-sm copyright">
             Exxol &copy; {new Date().getFullYear()}. All rights reserved. - Shop made by - Selltico.
           </Typography>

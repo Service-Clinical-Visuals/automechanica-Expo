@@ -32,8 +32,10 @@ export default function Protection() {
               </Typography>
 
               {/* Decorative line */}
-              <div className="w-[90%] border-b border-[#FFFFFF66]  relative my-2">
+              <div className="relative w-[90%] mt-4">
+                <div className="h-[2px]  bg-gray-300"></div>
 
+                <div className="absolute right-0 top-1/2 -translate-y-1/2 h-2.5 w-2.5 border-2 border-gray-500 bg-white"></div>
               </div>
 
               <Typography variant="p" color="white" className="mt-2 mb-4">

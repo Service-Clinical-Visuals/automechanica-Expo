@@ -20,27 +20,32 @@ const Button = ({
   className = "",
   showIcon = true,
 }: ButtonProps) => {
-  const baseStyles = "relative inline-flex items-center justify-center font-outfit transition-all duration-300 active:scale-95 select-none cursor-pointer  font-medium";
+  const baseStyles = "relative inline-flex items-center justify-center font-outfit transition-all duration-300 active:scale-95 select-none cursor-pointer ";
 
   let variantStyles = "";
+  let iconStyles = "";
 
   if (variant === "primary") {
-    variantStyles = "bg-primary text-white hover:bg-primary-hover py-2 px-2 xl:py-2 xl:px-3 text-[14px] md:text-[16px]";
+    variantStyles = "bg-primary text-white hover:bg-primary-hover button-responsive";
+    iconStyles = "bg-white text-primary";
   } else if (variant === "secondary") {
-    variantStyles = "bg-white text-primary hover:bg-gray-50 py-2 px-3 xl:py-2 xl:px-3 text-[15px] md:text-[16px] shadow-sm";
+    variantStyles = "bg-white text-primary hover:bg-gray-50 button-responsive shadow-sm";
+    iconStyles = "bg-primary text-white";
   } else if (variant === "outline") {
-    variantStyles = "border-2 border-primary text-primary hover:bg-primary hover:text-white py-2.5 px-6 md:py-2.5 md:px-8 text-[16px] md:text-[18px]";
+    variantStyles = "border-2 border-primary text-primary hover:bg-primary hover:text-white button-responsive";
+    iconStyles = "bg-primary text-white group-hover:bg-white group-hover:text-primary";
   } else if (variant === "iconOnly") {
     variantStyles = "bg-primary text-white hover:bg-primary-hover w-10 h-10 md:w-12 md:h-12 flex items-center justify-center";
+    iconStyles = "text-white";
   }
 
   const content = (
-    <div className="relative z-10 flex items-center justify-center gap-3">
+    <div className="relative z-10 flex items-center justify-center gap-2 md:gap-3">
       {variant !== "iconOnly" && <div>{text}</div>}
       {showIcon && (
-        <div className="bg-white text-primary p-1.5 flex items-center justify-center shrink-0 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform">
+        <div className={`${iconStyles} p-1 md:p-1.5 flex items-center justify-center shrink-0 group-hover:translate-x-1 group-hover:-translate-y-1 transition-colors duration-300 transform`}>
           <div
-            className="w-5 h-5 bg-current"
+            className="w-4 h-4 md:w-5 md:h-5 bg-current"
             style={{
               WebkitMaskImage: 'url(/moto/exol/arrow1.png)',
               WebkitMaskSize: 'contain',

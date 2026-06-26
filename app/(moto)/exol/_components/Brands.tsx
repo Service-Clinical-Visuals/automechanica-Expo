@@ -19,12 +19,16 @@ export default function Brands() {
       <div className="custom-container flex flex-col items-center">
 
         {/* Header Section */}
-        <div className="flex flex-col items-center text-center mb-16" data-aos="fade-up">
+        <div className="flex flex-col items-center text-center mb-10" data-aos="fade-up">
           <Typography variant="h2" color="primary" weight="bold" className="mb-2">
             Our Trusted Brands
           </Typography>
 
-          <div className="w-[15%] min-w-[20%] h-px bg-[#1E1E1E66] mb-6"></div>
+          <div className="relative w-[20%] mb-3 ">
+            <div className="h-[2px]  bg-gray-300"></div>
+
+            <div className="absolute right-0 top-1/2 -translate-y-1/2 h-2.5 w-2.5 border-2 border-gray-500 bg-white"></div>
+          </div>
 
           <Typography variant="p" className="text-[#666666] xl:max-w-[70%] w-full mx-auto  leading-relaxed">
             At the heart of our success is a diverse portfolio of trusted lubricant brands designed to meet the evolving needs of automotive, commercial, industrial, and agricultural markets. Each brand is developed with a focus on quality, performance, and reliability, offering specialized solutions for different vehicle types, operating conditions, and customer requirements.
@@ -32,11 +36,11 @@ export default function Brands() {
         </div>
 
         {/* Brands Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full  mb-12">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-6 w-full  mb-10">
           {brands.map((brand, index) => (
             <div
               key={index}
-              className="bg-white border border-gray-100 p-2 shadow-lg hover:shadow-md transition-shadow aspect-[12/5] flex items-center justify-center rounded-sm"
+              className="bg-white border border-gray-100 p-3  shadow-lg hover:shadow-md transition-shadow aspect-[12/5] flex items-center justify-center rounded-sm"
               data-aos="fade-up"
               data-aos-delay={index * 100}
             >
