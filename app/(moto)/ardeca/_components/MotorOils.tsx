@@ -10,7 +10,7 @@ export default function MotorOils() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           
           {/* Left Side: Text Content */}
-          <div className="flex flex-col text-white lg:col-span-5">
+          <div className="flex flex-col text-white lg:col-span-5" data-aos="fade-right" data-aos-duration="1000">
             <div className="inline-flex items-center border border-[#444] rounded-full px-4 py-1.5 mb-6 self-start">             
               <span className="text-[#ffffff] text-sm md:text-base font-semibold chakra-petch flex items-center">
                 <span className="mr-2 text-[16px]  leading-none text-white">&bull;</span> Motor Oils
@@ -50,7 +50,7 @@ export default function MotorOils() {
           </div>
           
           {/* Right Side: Video Player */}
-          <div className="relative w-full aspect-video lg:col-span-7 border-8 border-[#CE0E2D] shadow-[0_0_20px_rgba(206,14,45,0.3)]">
+          <div className="relative w-full aspect-video lg:col-span-7 border-8 border-[#CE0E2D] shadow-[0_0_20px_rgba(206,14,45,0.3)]" data-aos="fade-left" data-aos-duration="1000">
             <div className="border-3 border-[#484848]"> 
                <DynamicVideoPlayer
               type="360" // Placeholder type, maps to actual video or shows 360 text

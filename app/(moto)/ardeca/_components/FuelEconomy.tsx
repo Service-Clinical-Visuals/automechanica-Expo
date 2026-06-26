@@ -15,7 +15,7 @@ export default function FuelEconomy() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           
           {/* Left Side: Video Player (Span 7) */}
-          <div className="relative w-full aspect-video lg:col-span-7">
+          <div className="relative w-full aspect-video lg:col-span-7" data-aos="fade-right" data-aos-duration="1000">
             <DynamicVideoPlayer
               type="short-1" 
               className="w-full h-full object-cover"
@@ -23,7 +23,7 @@ export default function FuelEconomy() {
           </div>
 
           {/* Right Side: Text Content (Span 5) */}
-          <div className="flex flex-col text-white lg:col-span-5">
+          <div className="flex flex-col text-white lg:col-span-5" data-aos="fade-left" data-aos-duration="1000">
            <h2 className="text-3xl md:text-4xl lg:text-[32px] font-semibold mb-8 !text-white chakra-petch leading-tight">
               Fuel Economy & Engine Protection
             </h2>

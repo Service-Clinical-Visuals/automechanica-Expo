@@ -11,7 +11,7 @@ export default function Academy() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 items-center mb-10">
           
           {/* Left Side: Text */}
-          <div className="flex flex-col">
+          <div className="flex flex-col" data-aos="fade-right" data-aos-duration="1000">
             <h2 className="text-3xl md:text-4xl lg:text-[32px] font-semibold mb-8 !text-black chakra-petch leading-tight">
               Academy
             </h2>
@@ -36,7 +36,7 @@ export default function Academy() {
           </div>
           
           {/* Right Side: Image */}
-          <div className="w-full h-auto shadow-[0_4px_20px_rgba(0,0,0,0.08)]">
+          <div className="w-full h-auto shadow-[0_4px_20px_rgba(0,0,0,0.08)]" data-aos="fade-left" data-aos-duration="1000">
             <img 
               src="/moto/ardeca/academy.png" 
               alt="Ardeca Rally Car" 
@@ -48,7 +48,7 @@ export default function Academy() {
         {/* Bottom Part: Two Action Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
           
-          <Link href="#" className="flex items-center justify-between border border-[#CE0E2D] bg-white p-4 md:p-6 lg:px-6 group hover:shadow-lg transition-all duration-300">
+          <Link href="#" className="flex items-center justify-between border border-[#CE0E2D] bg-white p-4 md:p-6 lg:px-6 group hover:shadow-lg transition-all duration-300" data-aos="fade-up" data-aos-duration="1000">
            
             <h4 className="text-base md:text-xl lg:text-2xl font-semibold  text-black! chakra-petch leading-tight pr-4 tracking-wide"> PRODUCT UPDATES – API SQ & ILSAC GF-7A</h4>
             <div className="w-10 h-10 md:w-12 md:h-12 bg-[#CE0E2D] flex items-center justify-center flex-shrink-0 group-hover:bg-[#a50b24] transition-colors shadow-[0_4px_20px_rgba(0,0,0,0.08)]">
@@ -56,7 +56,7 @@ export default function Academy() {
             </div>
           </Link>
 
-          <Link href="#" className="flex items-center justify-between border border-[#CE0E2D] bg-white p-4 md:p-6 lg:px-8 group hover:shadow-lg transition-all duration-300">
+          <Link href="#" className="flex items-center justify-between border border-[#CE0E2D] bg-white p-4 md:p-6 lg:px-8 group hover:shadow-lg transition-all duration-300" data-aos="fade-up" data-aos-duration="1200">
             
             <h4 className="text-base md:text-xl lg:text-2xl font-semibold  text-black! chakra-petch leading-tight pr-4 tracking-wide"> WHEN TO CHANGE YOUR MOTOR OIL?</h4>
             <div className="w-10 h-10 md:w-12 md:h-12 bg-[#CE0E2D] flex items-center justify-center flex-shrink-0 group-hover:bg-[#a50b24] transition-colors shadow-[0_4px_20px_rgba(0,0,0,0.08)]">
