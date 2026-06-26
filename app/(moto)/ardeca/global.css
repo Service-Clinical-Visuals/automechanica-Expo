@@ -1,0 +1,162 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #CE0E2D;
+  --color-secondary: #0a0a0a !important;
+  --color-dark: #000000;
+  --color-text: #ffffff;
+  --color-gray-light: #1f1f1f;
+  --color-border: #333333;
+  
+  --font-sans: var(--font-oxanium);
+  --font-heading: var(--font-chakra-petch);
+}
+
+.chakra-petch {
+  font-family: var(--font-chakra-petch);
+}
+
+.oxanium {
+  font-family: var(--font-oxanium);
+}
+
+section{
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+html,
+body {
+  color: var(--color-text);
+  background-color: #000000;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden !important;
+  width: 100%;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  p,
+  .paragraph {
+    font-family: var(--font-oxanium);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-text);
+  }
+
+  span {
+    font-family: var(--font-oxanium);
+  }
+
+  a {
+    font-family: var(--font-oxanium);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-chakra-petch) ;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+  }
+}
+
+/* Custom container class with individual media queries for easy customization */
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Mobile Portrait Screen (up to 480px) */
+@media (max-width: 480px) {
+  .custom-container {
+    max-width: 95%;
+  }
+}
+
+/* Mobile Landscape Screen (481px - 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container {
+    max-width: 92%;
+  }
+}
+
+/* Tablet / Tab Screen (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Laptop Screen (1024px - 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container {
+    max-width: 85%;
+  }
+}
+
+/* Desktop PC Screen (1280px - 1535px) */
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container {
+    max-width: 85%;
+  }
+}
+
+/* Large Desktop PC Screen (1536px - 1919px) */
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Extra Large PC / 2K Screen (1920px - 2559px) */
+@media (min-width: 1921px) and (max-width: 2559px) {
+  .custom-container {
+    max-width:90%;
+  }
+  h2 { font-size: 32px !important; }
+  h3 { font-size: 24px !important; }
+  h4 { font-size: 22px !important ; }
+  p { font-size: 20px !important; }
+  span { font-size: 18px !important; }
+  a, button { font-size: 18px !important; }
+}
+
+/* Ultra-wide Screen / Max Cover (2560px and above) */
+@media (min-width: 2560px) and (max-width: 3800px) {
+  .custom-container {
+    max-width: 90%; 
+  }
+  h2 { font-size: 1.4vw !important; }
+  h3 { font-size: 1vw !important; }
+  h4 { font-size: 0.94vw !important; }
+  p { font-size: 0.86vw !important; }
+  span { font-size: 18px !important; }
+  a, button { font-size: 18px !important; }
+}
+ 
+/* 4K Ultra-wide Screen / Max Cover (3800px and above) */
+@media (min-width: 3800px) {
+  .custom-container {
+    max-width: 90%;
+  }
+  h1 { font-size: 44px !important; }
+  h2 { font-size: 42px !important; }
+  h3 { font-size: 38px !important; }
+  h4 { font-size: 35px !important; }
+  p { font-size: 30px !important; }
+  span { font-size: 24px !important; }
+  a, button { font-size: 24px !important; }
+
+
+
+}
