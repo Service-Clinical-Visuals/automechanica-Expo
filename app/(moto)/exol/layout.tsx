@@ -15,6 +15,8 @@ const outfit = Outfit({
   weight: ["300", "400", "500", "600", "700"],
 });
 
+import SmoothAOS from "./_components/SmoothAOS";
+
 export const metadata: Metadata = {
   title: "EXOL",
   description: "Exol manufactures a range of lubricants and associated products",
@@ -30,6 +32,7 @@ export default function ExolLayout({
 }>) {
   return (
     <div className={`${rajdhani.variable} ${outfit.variable} antialiased exol-root bg-white min-h-screen flex flex-col font-rajdhani`}>
+      <SmoothAOS />
       <VideoProvider website="exol">
         {children}
       </VideoProvider>

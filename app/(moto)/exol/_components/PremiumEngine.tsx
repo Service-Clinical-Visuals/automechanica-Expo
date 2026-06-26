@@ -27,7 +27,11 @@ export default function PremiumEngine() {
               <Typography variant="h2" color="white" weight="bold" className="mb-2">
                 Premium Engine Oils By EXXOL
               </Typography>
-              <div className="w-[62%] h-px bg-[#FFFFFF66] mb-6"></div>
+              <div className="relative w-[62%] mb-3 ">
+                <div className="h-[2px]  bg-gray-300"></div>
+
+                <div className="absolute right-0 top-1/2 -translate-y-1/2 h-2.5 w-2.5 border-2 border-gray-500 bg-white"></div>
+              </div>
             </div>
 
             <div className="flex flex-col gap-4 text-white leading-relaxed">

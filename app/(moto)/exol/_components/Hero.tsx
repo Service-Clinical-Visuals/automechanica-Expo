@@ -7,7 +7,7 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function Hero() {
   return (
-    <section className="w-full relative pt-2 lg:z-50 md:pt-4 pb-3">
+    <section className="w-full h-screen relative  lg:z-50 md:pt-2 pb-5">
       <div className="custom-container">
         <div className="relative w-full h-screen flex items-end pb-12 md:pb-35 overflow-hidden pointer-events-none rounded-sm">
 

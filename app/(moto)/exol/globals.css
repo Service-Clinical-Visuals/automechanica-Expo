@@ -4,6 +4,16 @@
 html,
 body {
   scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
 }
 
 :root {
@@ -39,6 +49,12 @@ body {
 }
 
 /* Mobile Portrait Screen (up to 480px) */
+
+.button-responsive {
+  padding: 0.375rem 0.75rem;
+  font-size: 13px !important;
+}
+
 @media (max-width: 480px) {
   .custom-container {
     max-width: 95%;
@@ -158,6 +174,11 @@ body {
     font-size: 2rem !important;
   }
 
+
+  .button-responsive {
+    padding: 0.5rem 1rem;
+    font-size: 14px !important;
+  }
 }
 
 /* Laptop Screen (1024px - 1279px) */
@@ -167,7 +188,7 @@ body {
   }
 
   h1 {
-    font-size: 3.087rem;
+    font-size: 2.5rem;
   }
 
   h2 {
@@ -202,16 +223,21 @@ body {
     font-size: 1rem;
   }
 
+
+  .button-responsive {
+    padding: 0.375rem 1rem;
+    font-size: 15px !important;
+  }
 }
 
 /* Desktop PC Screen (1280px - 1535px) */
 @media (min-width: 1280px) and (max-width: 1535px) {
   .custom-container {
-    max-width: 85%;
+    max-width: 90%;
   }
 
   h1 {
-    font-size: 3.25rem;
+    font-size: 2.5rem;
   }
 
   h2 {
@@ -240,10 +266,6 @@ body {
 
   span {
     font-size: 1.1rem;
-  }
-
-  .download {
-    font-size: 1rem !important;
   }
 
   .navbar {
@@ -280,6 +302,10 @@ body {
 
   .copyright {
     font-size: 1rem !important;
+  }
+
+  .button-responsive {
+    font-size: 16px !important;
   }
 }
 
@@ -321,10 +347,6 @@ body {
     font-size: 1.21rem;
   }
 
-  .download {
-    font-size: 1rem !important;
-  }
-
   .navbar {
     font-size: 1rem;
   }
@@ -333,8 +355,10 @@ body {
     font-size: 1.1rem;
   }
 
-  .copyright {
-    font-size: 1.1rem !important;
+
+  .button-responsive {
+    padding: 0.375rem 1rem;
+    font-size: 18px !important;
   }
 }
 
@@ -384,10 +408,6 @@ body {
     font-size: 2.1rem !important;
   }
 
-  .download {
-    font-size: 1.1rem !important;
-  }
-
   .navbar {
     font-size: 1.1rem !important;
   }
@@ -396,10 +416,10 @@ body {
     font-size: 1.1rem;
   }
 
-  .copyright {
-    font-size: 1.1rem !important;
+  .button-responsive {
+    padding: 0.75rem 1rem;
+    font-size: 1.3rem !important;
   }
-
 }
 
 /* Ultra-wide Screen / Max Cover (2500px - 3799px) */
@@ -409,7 +429,7 @@ body {
   }
 
   h1 {
-    font-size: 5.362rem;
+    font-size: 4rem;
   }
 
   h2 {
@@ -440,11 +460,6 @@ body {
     font-size: 1.595rem;
   }
 
-  .download {
-    font-size: 1.5rem !important;
-    font-weight: 500;
-  }
-
   a {
     font-size: 1.3rem !important;
   }
@@ -459,6 +474,11 @@ body {
 
   .navbar {
     font-size: 1.6rem;
+  }
+
+  .button-responsive {
+    padding: 1rem 1.5rem;
+    font-size: 1.3rem !important;
   }
 }
 
@@ -502,5 +522,9 @@ body {
 
   a {
     font-size: 2.5rem;
+  }
+
+  .button-responsive {
+    padding: 2rem 2.5rem;
   }
 }
