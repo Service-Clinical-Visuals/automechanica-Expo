@@ -8,7 +8,7 @@ import Button from "./Button";
 
 export default function Banner() {
   return (
-    <section className="w-full pt-4 xl:pt-4" data-aos="fade-up">
+    <section className="w-full pt-4 xl:pt-4">
       <div className="custom-container">
        
         {/* Banner Container */}
@@ -21,12 +21,12 @@ export default function Banner() {
           {/* Content */}
           <div className="absolute inset-0 z-20 p-8 md:p-16 lg:px-20 lg:pb-24 flex flex-col justify-end items-start">
              <div className="max-w-4xl text-left flex flex-col gap-6">
-               <h1 className="!text-white text-3xl md:text-4xl lg:text-[40px] font-normal amaranth leading-[1.25] tracking-wide">
+               <h1 className="!text-white text-3xl md:text-4xl lg:text-[40px] font-normal amaranth leading-[1.25] tracking-wide" data-aos="fade-right" data-aos-delay="300">
                   More than 60 years manufacturing <br className="hidden md:block" />
                   chemicals for car maintenance and care.
                </h1>
                
-               <div>
+               <div data-aos="fade-up" data-aos-delay="500">
                   <Button href="#" className="border border-[#ffffff]">Explore Products</Button>
                </div>
              </div>

@@ -73,11 +73,11 @@ export default function Blog() {
   }, [maxIndex]);
 
   return (
-    <section className="w-full py-20 bg-[#202020]" data-aos="fade-up">
+    <section className="w-full py-20 bg-[#202020]">
       <div className="custom-container">
         
         {/* Header Section */}
-        <div className="flex flex-col xl:flex-row justify-between items-start xl:items-center gap-8 mb-12">
+        <div className="flex flex-col xl:flex-row justify-between items-start xl:items-center gap-8 mb-12" data-aos="fade-down">
           <div className="max-w-6xl">
             <h2 className="text-3xl md:text-4xl lg:text-[38px] !font-normal !text-[#ffffff] leading-tight amaranth mb-6">
               News, Blog & Insights
@@ -92,7 +92,7 @@ export default function Blog() {
         </div>
 
         {/* Blog Cards Slider */}
-        <div className="overflow-hidden relative mx-[-12px] px-[12px]">
+        <div className="overflow-hidden relative mx-[-12px] px-[12px]" data-aos="fade-up">
           <div 
             className="flex transition-transform duration-500 ease-in-out"
             style={{ transform: `translateX(-${currentIndex * (100 / itemsPerView)}%)` }}

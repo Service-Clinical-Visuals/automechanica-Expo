@@ -51,11 +51,11 @@ export default function Products() {
   };
 
   return (
-    <section className="w-full py-16" data-aos="fade-up">
+    <section className="w-full py-16">
       <div className="custom-container">
         
         {/* Header Section */}
-        <div className="flex flex-col xl:flex-row justify-between items-start xl:items-end gap-6 mb-8">
+        <div className="flex flex-col xl:flex-row justify-between items-start xl:items-end gap-6 mb-8" data-aos="fade-down">
           <div className="max-w-6xl">
             <h2 className="text-3xl md:text-4xl lg:text-[38px] !font-normal text-[#1e1e1e] leading-tight amaranth">
               High-Performance Automotive Solutions
@@ -109,7 +109,7 @@ export default function Products() {
         {/* Product Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {productData[activeCategory]?.map((card, index) => (
-            <div key={index} className="bg-white shadow-sm border border-gray-100 overflow-hidden flex flex-col group hover:shadow-md transition-all duration-300 p-4">
+            <div key={index} className="bg-white shadow-sm border border-gray-100 overflow-hidden flex flex-col group hover:shadow-md transition-all duration-300 p-4" data-aos="fade-up" data-aos-delay={index * 100}>
               {/* Image Container with Inner Border */}
            
                 <img 

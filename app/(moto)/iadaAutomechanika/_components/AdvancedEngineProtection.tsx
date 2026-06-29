@@ -8,11 +8,11 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 export default function AdvancedEngineProtection() {
   return (
-    <section className="w-full py-20 bg-[#1e1e1e]" data-aos="fade-up">
+    <section className="w-full py-20 bg-[#1e1e1e]">
       <div className="custom-container">
         
         {/* Title */}
-        <div className="text-center mb-8">
+        <div className="text-center mb-8" data-aos="fade-down">
            <h2 className="text-3xl md:text-4xl lg:text-[38px] !font-normal !text-[#ffffff] leading-tight amaranth">
              Advanced Engine Protection
            </h2>
@@ -25,12 +25,12 @@ export default function AdvancedEngineProtection() {
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 xl:gap-10 items-center mb-20">
           
           {/* Left side: Placeholder Image/Video */}
-          <div className="w-full aspect-video  shadow-md overflow-hidden relative" >
+          <div className="w-full aspect-video  shadow-md overflow-hidden relative" data-aos="fade-right">
              <DynamicVideoPlayer type="360" className="w-full h-full object-cover" />
           </div>
 
           {/* Right side: Text Content */}
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6" data-aos="fade-left">
             <p className="!text-[#ffffff] text-sm md:text-[18px] leading-[1.8] text-justify font-normal amaranth">
                At IADA, we develop high-quality engine oils that provide outstanding protection, efficiency, and reliability for today's modern engines. Manufactured using carefully selected base oils and advanced additive technology, our engine oils are designed to reduce friction, minimize wear, and maintain exceptional engine cleanliness under a wide range of operating conditions.
             </p>
@@ -53,7 +53,7 @@ export default function AdvancedEngineProtection() {
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 lg:gap-12">
            
            {/* Card 01 */}
-           <div className="flex items-stretch relative group">
+           <div className="flex items-stretch relative group" data-aos="fade-up">
               {/* Hexagon */}
               <div className="w-[100px] h-[115px] bg-[#C00027] flex items-center justify-center text-[#ffffff]/68 amaranth text-5xl  flex-shrink-0 z-10 transition-transform group-hover:scale-105"
                    style={{ 
@@ -76,7 +76,7 @@ export default function AdvancedEngineProtection() {
            </div>
 
            {/* Card 02 */}
-           <div className="flex items-stretch relative group">
+           <div className="flex items-stretch relative group" data-aos="fade-up" data-aos-delay="150">
               {/* Hexagon */}
               <div className="w-[100px] h-[115px] bg-[#C00027] flex items-center justify-center text-[#ffffff]/68 amaranth text-5xl  flex-shrink-0 z-10 transition-transform group-hover:scale-105"
                    style={{ 

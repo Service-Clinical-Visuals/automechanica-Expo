@@ -15,14 +15,14 @@ const FeatureItem = ({ text }: { text: string }) => (
 
 export default function About() {
   return (
-    <section className="w-full py-16" data-aos="fade-up">
+    <section className="w-full py-16">
       <div className="custom-container">
         
         {/* Top Section: Images & Text */}
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-12 items-center">
           
           {/* Left side: Images */}
-          <div className="relative w-full aspect-auto rounded-2xl mb-8 lg:mb-0">
+          <div className="relative w-full aspect-auto rounded-2xl mb-8 lg:mb-0" data-aos="fade-right">
             {/* Main image */}
             <div className="w-full h-full rounded-2xl overflow-hidden">
                <img 
@@ -35,7 +35,7 @@ export default function About() {
           </div>
 
           {/* Right side: Text Content */}
-          <div className="flex flex-col gap-6 pt-12 lg:pt-0">
+          <div className="flex flex-col gap-6 pt-12 lg:pt-0" data-aos="fade-left">
             <div className="border-b border-gray-300 pb-4 mb-2">
                <h2 className="text-3xl md:text-4xl lg:text-[38px] !font-normal text-[#1e1e1e] leading-tight amaranth">
                  About Our Company
@@ -57,7 +57,7 @@ export default function About() {
         </div>
         
         {/* Bottom Features Box */}
-        <div className="mt-20 md:mt-24 bg-white rounded-3xl shadow-[0_0_15px_rgba(0,0,0,0.2)] p-6 md:p-10 px-8 md:px-20 lg:px-30">
+        <div className="mt-20 md:mt-24 bg-white rounded-3xl shadow-[0_0_15px_rgba(0,0,0,0.2)] p-6 md:p-10 px-8 md:px-20 lg:px-30" data-aos="fade-up" data-aos-delay="150">
            <div className="grid grid-cols-1 xl:grid-cols-3">
              
              {/* Column 1 */}

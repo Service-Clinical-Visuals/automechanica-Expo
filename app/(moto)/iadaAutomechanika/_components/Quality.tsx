@@ -7,13 +7,13 @@ import Button from "./Button";
 
 export default function Quality() {
   return (
-    <section className="w-full bg-[#202020] py-16 text-white" data-aos="fade-up">
+    <section className="w-full bg-[#202020] py-16 text-white">
       <div className="custom-container">
         
         {/* Top Section */}
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 xl:gap-10 items-center mb-16">
           {/* Text Content */}
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 pt-12 lg:pt-0" data-aos="fade-right">
             <h2 className="text-3xl md:text-4xl lg:text-[38px] !font-normal !text-[#ffffff] leading-tight amaranth">
               Quality
             </h2>
@@ -42,7 +42,7 @@ export default function Quality() {
           </div>
 
           {/* Right Image */}
-          <div className="w-full aspect-video md:aspect-[16/9] lg:aspect-auto lg:h-[420px] rounded-sm overflow-hidden border border-gray-800">
+          <div className="relative w-full aspect-square md:aspect-video lg:aspect-auto h-full min-h-[400px] rounded-2xl overflow-hidden border border-gray-800" data-aos="fade-left">
              <img 
                src="/moto/iadaAutomechanika/quality1.jpg" 
                alt="Quality Assurance" 
@@ -55,7 +55,7 @@ export default function Quality() {
         <hr className="border-[#ffffff]/70 mb-12 opacity-50" />
 
         {/* Bottom Cards */}
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-8" data-aos="fade-up">
           
           {/* Card 1: Customer Service */}
           <div className="border border-[#ffffff]/30 p-5 flex flex-col sm:flex-row gap-6 items-center bg-[#202020] hover:bg-[#252525] transition-colors duration-300">
