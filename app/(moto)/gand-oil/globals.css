@@ -1,0 +1,286 @@
+@layer base {
+  :root {
+    --font-body-family: var(--font-anton), sans-serif;
+    --font-heading-family: var(--font-oswald), sans-serif;
+  }
+}
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #24397E;
+  --color-primary-hover: #1b2b61;
+  --color-secondary: #212121;
+  --color-secondary-hover: #0c0c0c;
+  --color-dark: #1A1A1A;
+  --color-text: #1A1A1A;
+  --color-gray-light: #f8f9fa;
+  --color-border: #e2e8f0;
+
+  --font-anton: var(--font-anton), 'Anton', ui-sans-serif, system-ui, sans-serif;
+  --font-oswald: var(--font-oswald), 'oswald', ui-sans-serif, sans-serif;
+}
+
+html,
+body {
+  font-family: var(--font-anton);
+  color: var(--color-text);
+  background-color: white;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden !important;
+  width: 100%;
+
+}
+
+.navlink{
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.8px;
+  color: #1A1A1A;
+  font-weight: normal;
+  font-family: var(--font-oswald);
+}
+
+.heading{
+  font-size: 38px;
+  line-height: 150%;
+  letter-spacing: 0.8px;
+  color: #FFFFFF;
+  font-family: var(--font-anton);
+}
+
+.heading2{
+  font-size: 213px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF0F;
+  font-family: var(--font-anton);
+}
+
+.subheading{
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  font-family: var(--font-oswald);
+}
+
+.content{
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.8px;
+  color: #FFFFFF;
+  font-family: var(--font-oswald);
+}
+
+.subheading-white{
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #ffffff;
+  font-family: var(--font-anton);
+}
+
+.content-white{
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: #ffffff;
+  font-family: var(--font-oswald);
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.rounded-4xl {
+  border-radius: 2rem;
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+
+
+/* Custom container class with individual media queries for easy customization */
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Mobile Portrait Screen (up to 480px) */
+@media (max-width: 480px) {
+  .custom-container {
+    max-width: 95%;
+  }
+  .heading2{
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF0F;
+    font-family: var(--font-anton);
+  }
+
+}
+
+/* Mobile Landscape Screen (481px - 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container {
+    max-width: 92%;
+  }
+
+  .heading2{
+    font-size: 100px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF0F;
+    font-family: var(--font-anton);
+  }
+}
+
+/* Tablet / Tab Screen (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  .heading2{
+    font-size: 110px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF0F;
+    font-family: var(--font-anton);
+  }
+}
+
+/* Laptop Screen (1024px - 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container {
+    max-width: 90%;
+  }
+  .heading2{
+    font-size: 120px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF0F;
+    font-family: var(--font-anton);
+  }
+}
+
+/* Desktop PC Screen (1280px - 1535px) */
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container {
+    max-width: 90%;
+  }
+  .heading2{
+    font-size: 160px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF0F;
+    font-family: var(--font-anton);
+  }
+}
+
+/* Large Desktop PC Screen (1536px - 1919px) */
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .custom-container {
+    max-width: 90%;
+  }
+  .heading2{
+    font-size: 180px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF0F;
+    font-family: var(--font-anton);
+  }
+}
+
+/* Extra Large PC / 2K Screen (1920px - 2499px) */
+@media (min-width: 1921px) and (max-width: 2499px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  /* h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 20px;
+  } */
+}
+
+/* Ultra-wide Screen / Max Cover (2500px and above) */
+@media (min-width: 2500px) and (max-width: 3800px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  /* h2 {
+    font-size: 90px;
+  }
+
+  h3 {
+    font-size: 36px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 20px;
+  } */
+}
+
+/* 4K Ultra-wide Screen / Max Cover (3800px and above) */
+@media (min-width: 3800px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  /* h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 20px;
+  } */
+}
+
+/* 2K / QHD Monitors (2560px wide) - Maintain 1920px design proportions */
+@media (min-width: 2560px) {
+  .eurol-root {
+    zoom: 1.38
+    ;
+    transform-origin: top center;
+  }
+}
+
+/* 4K UHD Monitors (3840px wide) - Maintain 1920px design proportions */
+@media (min-width: 3840px) {
+  .eurol-root {
+    zoom: 1.75;
+    transform-origin: top center;
+  }
+}
