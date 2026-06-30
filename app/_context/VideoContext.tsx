@@ -83,7 +83,7 @@ export const VideoProvider = ({ children, website, apiUrl: apiUrlProp }: { child
           return;
         }
 
-        const response = await fetch(`${resolvedApiUrl}?businessName=${resolvedBusinessName}`);
+        const response = await fetch(`${resolvedApiUrl}?businessName=${window.location.origin+"/"+resolvedBusinessName}`);
 
 
         if (!response.ok) {
