@@ -73,7 +73,7 @@ const Header = () => {
   return (
     <>
       {/* Spacer to push content down so header doesn't overlay the hero section initially */}
-      <div className="h-[110px] sm:h-[118px] md:h-[118px] w-full shrink-0" aria-hidden="true" />
+      <div className="h-[110px]  mt-[-0.3vh] sm:h-[118px] md:h-[118px] xl:h-[120px] w-full shrink-0" aria-hidden="true" />
       <header
         className={`top-0 left-0 w-full z-50 transition-all duration-500 transform ${isTop || mobileMenuOpen
           ? "absolute translate-y-0 opacity-100"
@@ -128,7 +128,7 @@ const Header = () => {
               <img
                 src="/moto/mapetrol/logo.png"
                 alt="Mapetrol Logo"
-                className="h-6 sm:h-8 md:h-8 w-auto object-contain"
+                className="h-6 sm:h-8 md:h-8 xl:h-10 w-auto object-contain"
               />
             </Link>
 
@@ -146,7 +146,7 @@ const Header = () => {
                       <Typography
                         variant="h6"
                         color="white"
-                        className="font-orbitron  tracking-wide hover:text-gray-300 transition-colors"
+                        className="font-orbitron navbar tracking-wide hover:text-gray-300 transition-colors"
                       >
                         {link.name}
                       </Typography>
@@ -160,14 +160,14 @@ const Header = () => {
             </nav>
 
             {/* Right Action: Search Box */}
-            <div className="hidden lg:flex items-center w-[180px] lg:w-[220px] xl:w-[240px] shrink-0">
-              <div className="flex items-center bg-[#606060] pl-3 pr-2 overflow-hidden h-[34px] w-full border border-gray-500 rounded-sm">
+            <div className="hidden lg:flex items-center w-[180px] lg:w-[220px] xl:w-[260px] 2xl:w-[280px] shrink-0">
+              <div className="flex items-center bg-[#606060] pl-3 pr-2 overflow-hidden h-[34px] xl:h-[40px] w-full border border-gray-500 rounded-sm">
                 <input
                   type="text"
                   placeholder="Search"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="bg-transparent border-0 font-orbitron outline-none text-[13px] text-white placeholder-gray-300 w-full h-full"
+                  className="bg-transparent border-0 font-orbitron outline-none text-[13px] xl:text-[15px] text-white placeholder-gray-300 w-full h-full"
                 />
                 <button
                   type="button"

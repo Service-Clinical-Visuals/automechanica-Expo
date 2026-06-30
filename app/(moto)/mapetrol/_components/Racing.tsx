@@ -14,7 +14,7 @@ export default function Racing() {
         <div className="flex flex-col xl:flex-row gap-8 xl:gap-8 w-full items-stretch mb-16">
 
           {/* Left: Image */}
-          <div className="w-full xl:w-1/2 min-h-[300px] xl:min-h-full order-2 xl:order-1" data-aos="fade-right">
+          <div className="w-full xl:w-3/4 min-h-[300px] xl:min-h-full order-2 xl:order-1" data-aos="fade-right">
             <div className="w-full h-full  overflow-hidden bg-[#1a1a1a]">
               <img
                 src="/moto/mapetrol/section4.png"
@@ -26,7 +26,7 @@ export default function Racing() {
 
           {/* Right: Content */}
           <div className="w-full xl:w-1/2 flex flex-col justify-center space-y-6 order-1 xl:order-2" data-aos="fade-left" data-aos-delay="200">
-            <Typography variant="h5" color="white" weight="semibold" className="leading-tight font-orbitron tracking-wide font-medium text-[24px] md:text-[32px]">
+            <Typography variant="h4" color="white" weight="semibold" className="leading-tight font-orbitron tracking-wide font-medium text-[24px] md:text-[32px]">
               Mapetrol & Lema Racing Powering The AMG GT4
             </Typography>
 

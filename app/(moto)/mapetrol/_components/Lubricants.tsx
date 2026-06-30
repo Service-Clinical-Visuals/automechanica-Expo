@@ -12,11 +12,11 @@ export default function Lubricants() {
 
         {/* Header Section */}
         <div className="flex flex-col items-center text-center max-w-full mx-auto mb-10 space-y-6" data-aos="fade-up">
-          <Typography variant="h5" color="white" weight="semibold" className="mb-4 font-orbitron">
+          <Typography variant="h4" color="white" weight="semibold" className="mb-4 font-orbitron">
             Premium Lubricants For Every Drive
           </Typography>
 
-          <Typography variant="p" className="text-white max-w-[90%] md:max-w-[80%] mx-auto leading-relaxed text-[13px] md:text-[14px]">
+          <Typography variant="p" className="text-white max-w-[90%] md:max-w-[80%] mx-auto leading-relaxed  ">
             Mapetrol provides a complete range of high-performance lubricants and automotive fluids designed to meet the needs of modern vehicles and industrial applications. Engineered with advanced formulations, our products deliver exceptional engine protection, improved efficiency, and reliable performance under all driving conditions. Whether for passenger cars, motorcycles, commercial fleets, or specialized equipment, Mapetrol ensures lasting quality and dependable lubrication for every journey.
           </Typography>
         </div>

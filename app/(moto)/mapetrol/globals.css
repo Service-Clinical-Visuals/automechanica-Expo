@@ -214,11 +214,11 @@ body {
   }
 
   h1 {
-    font-size: 2.55rem;
+    font-size: 2.4rem;
   }
 
   h2 {
-    font-size: 2.762rem;
+    font-size: 2.3rem;
   }
 
   h3 {
@@ -267,23 +267,23 @@ body {
   }
 
   h1 {
-    font-size: 2.85rem;
+    font-size: 2.5rem;
   }
 
   h2 {
-    font-size: 3.087rem;
+    font-size: 2.4rem;
   }
 
   h3 {
-    font-size: 1.425rem;
+    font-size: 1.42rem;
   }
 
   h4 {
-    font-size: 1.543rem;
+    font-size: 1.5rem;
   }
 
   h5 {
-    font-size: 2.137rem;
+    font-size: 2.13rem;
   }
 
   h6 {
@@ -347,11 +347,11 @@ body {
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   h3 {
@@ -359,7 +359,7 @@ body {
   }
 
   h4 {
-    font-size: 1.625rem;
+    font-size: 1.6rem;
   }
 
   h5 {
@@ -371,7 +371,7 @@ body {
   }
 
   p {
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
 
   span {
@@ -400,43 +400,43 @@ body {
   }
 
   h1 {
-    font-size: 3.9rem;
+    font-size: 2rem;
   }
 
   h2 {
-    font-size: 3.3rem !important;
+    font-size: 2.6rem !important;
   }
 
   h3 {
-    font-size: 1.95rem;
+    font-size: 1.6rem;
   }
 
   h4 {
-    font-size: 2.112rem;
+    font-size: 1.7rem;
   }
 
   h5 {
-    font-size: 2.925rem;
+    font-size: 2.3rem;
   }
 
   h6 {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   p {
-    font-size: 1.462rem;
+    font-size: 1.1rem;
   }
 
   span {
-    font-size: 1.573rem;
+    font-size: 1.1rem;
   }
 
   li {
-    font-size: 1.43rem;
+    font-size: 1.1rem;
   }
 
   .navbar {
-    font-size: 1.3rem !important;
+    font-size: 1.2rem !important;
   }
 
   .sub-title {
@@ -445,51 +445,51 @@ body {
 
   .button-responsive {
 
-    font-size: 1.3rem !important;
-    padding: 0.7rem;
+    font-size: 18px !important;
+    padding: 0.8rem;
   }
 }
 
 /* Ultra-wide Screen / Max Cover (2500px - 3799px) - Ratio 1.7x */
 @media (min-width: 2500px) and (max-width: 3799px) {
   .custom-container {
-    max-width: 93%;
+    max-width: 90%;
   }
 
   h1 {
-    font-size: 5.1rem;
+    font-size: 3.6rem;
   }
 
   h2 {
-    font-size: 5.525rem;
+    font-size: 3.5rem;
   }
 
   h3 {
-    font-size: 2.55rem;
+    font-size: 2rem;
   }
 
   h4 {
-    font-size: 2.762rem;
+    font-size: 2rem;
   }
 
   h5 {
-    font-size: 3.825rem;
+    font-size: 2.5rem;
   }
 
   h6 {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 
   p {
-    font-size: 1.912rem !important;
+    font-size: 1.5rem !important;
   }
 
   span {
-    font-size: 2.057rem;
+    font-size: 1.4rem;
   }
 
   li {
-    font-size: 1.87rem;
+    font-size: 1.4rem;
   }
 
   a {
@@ -512,54 +512,55 @@ body {
   }
 }
 
-/* 4K Ultra-wide Screen / Max Cover (3800px and above) - Ratio 2.2x */
+/* 4K Ultra-wide Screen / Max Cover (3800px and above) - Ratio ~1.3x */
 @media (min-width: 3800px) {
   .custom-container {
-    max-width: 93%;
+    max-width: 90%;
   }
 
   h1 {
-    font-size: 6.6rem;
+    font-size: 5rem;
   }
 
   h2 {
-    font-size: 7.15rem;
+    font-size: 4rem;
   }
 
   h3 {
-    font-size: 3.3rem;
+    font-size: 2rem;
   }
 
   h4 {
-    font-size: 3.575rem;
+    font-size: 3.3rem;
   }
 
   h5 {
-    font-size: 4.95rem;
+    font-size: 3rem;
   }
 
   h6 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   p {
-    font-size: 2.475rem;
+    font-size: 2rem;
   }
 
   span {
-    font-size: 2.662rem;
+    font-size: 1.3rem;
   }
 
   li {
-    font-size: 2.42rem;
+    font-size: 1.43rem;
   }
 
   a {
-    font-size: 2.5rem;
+    font-size: 1.43rem;
   }
 
   .button-responsive {
-    font-size: 1.32rem !important;
-    padding: 0.7rem;
+    font-size: 2rem !important;
+    padding: 2rem;
+    width: 100%;
   }
 }
