@@ -14,7 +14,7 @@ export default function Banner() {
           </div>
 
       <div className="custom-container relative z-10 h-full flex flex-col justify-end pb-20 md:pb-32 lg:pb-40">
-        <div className="max-w-6xl" data-aos="fade-up">
+        <div className="max-w-3xl md:max-w-2xl lg:max-w-3xl 2xl:max-w-4xl" data-aos="fade-up">
           <h1 className="text-white font-normal leading-tight mb-8 oswald banner-title">
             The resulting findings and recommendations are documented in a consulting report.
           </h1>

@@ -52,7 +52,7 @@ export default function WhyChooseUs() {
           <div className="block xl:hidden xl:col-span-12 relative z-20 mb-12" data-aos="fade-up">
              <div className="relative w-full h-[400px] sm:h-[500px] rounded-[24px] overflow-hidden shadow-xl">
                 <Image 
-                  src="/moto/bluechem/whychoose.png" 
+                  src="/moto/bluechem/whychooseimg.png" 
                   alt="Bluechem Group Building" 
                   fill 
                   className="object-cover object-center"

@@ -69,7 +69,7 @@ export default function ProductCategories() {
               key={category.id} 
               data-aos="fade-up"
               data-aos-delay={index * 100}
-              className="bg-[#fcfcfc] hover:bg-[#0E4194] rounded-md py-8 px-6 md:px-8 flex flex-col justify-between items-center text-center shadow-lg hover:-translate-y-2 transition-all duration-300 min-h-[300px] group border border-gray-100"
+              className="bg-[#fcfcfc] hover:bg-[#0E4194] rounded-md py-4 px-6 md:px-8 flex flex-col justify-between items-center text-center shadow-lg hover:-translate-y-2 transition-all duration-300 min-h-[300px] group border border-gray-100"
             >
               {/* Number Badge (Inside the box) */}
               <div className="w-12 h-12 bg-[#0E4194] group-hover:bg-white rounded-full flex items-center justify-center text-white group-hover:text-[#0E4194] oswald font-semibold text-lg shadow-md transition-colors duration-300 mb-6 shrink-0">
@@ -81,7 +81,7 @@ export default function ProductCategories() {
                 <h3 className="text-[#0E4194] group-hover:text-white oswald font-semibold text-xl md:text-2xl mb-4 transition-colors duration-300">
                   {category.title}
                 </h3>
-                <p className="text-[#484848] group-hover:text-gray-200 text-[15px] sm:text-[16px] lg:text-[18px] font-medium leading-relaxed mb-8 transition-colors duration-300 oxanium">
+                <p className="text-[#484848] group-hover:text-gray-200 text-[15px] sm:text-[16px] lg:text-[18px] font-medium leading-relaxed mb-6 transition-colors duration-300 oxanium">
                   {category.description}
                 </p>
               </div>

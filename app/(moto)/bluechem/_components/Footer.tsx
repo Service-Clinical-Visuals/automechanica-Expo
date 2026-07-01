@@ -10,19 +10,19 @@ export default function Footer() {
         {/* Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-12 gap-10 xl:gap-8 mb-8" data-aos="fade-up">
           {/* Column 1: Logo & Info */}
-          <div className="flex flex-col md:col-span-3 xl:col-span-4 xl:pr-8">
+          <div className="flex flex-col md:col-span-3 xl:col-span-5 xl:pr-8">
             <div className="flex items-center gap-2 mb-6">
               <div className="flex flex-col">
                <img src="/moto/bluechem/icon.png" alt="Logo"  className="object-contain" />
               </div>
             </div>
-            <p className="text-[#484848] font-normal text-[16px] md:text-[18px] oxanium leading-relaxed pr-4">
+            <p className="text-[#484848] font-normal text-[16px] md:text-[18px] oxanium leading-relaxed pr-4 xl:pr-12">
               Under the Thuringian state government&apos;s consulting guidelines, our company receives funding for consulting and process support.
             </p>
           </div>
 
           {/* Links & Products (Grouped for Mobile row) */}
-          <div className="grid grid-cols-2 gap-4 sm:gap-10 xl:gap-8 md:col-span-2 xl:col-span-4 xl:col-start-7">
+          <div className="grid grid-cols-2 gap-4 sm:gap-10 xl:gap-8 md:col-span-2 xl:col-span-4">
             {/* Column 2: Quick Links */}
             <div className="flex flex-col">
               <h3 className="text-[#0E4194] font-semibold oswald text-[18px] md:text-[20px] 4xl:text-[22px] mb-4 ">Quick links</h3>
@@ -48,7 +48,7 @@ export default function Footer() {
           </div>
 
           {/* Column 4: Contact Info */}
-          <div className="flex flex-col md:col-span-1 xl:col-span-2">
+          <div className="flex flex-col md:col-span-1 xl:col-span-3">
             <h3 className="text-[#0E4194] oswald font-bold text-lg mb-6">Contact Info</h3>
             <div className="flex flex-col gap-5">
               <div className="flex items-start gap-3">
@@ -107,7 +107,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Section */}
-        <div className="pt-4 text-center" data-aos="fade-up" data-aos-delay="200">
+        <div className="pt-4 text-center" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">
           <p className="text-[#0E4194] font-semibold text-xs md:text-sm">
             Copyrights@2026 Bluechem group .All rights Reserved
           </p>

@@ -149,7 +149,7 @@ body {
   .custom-container { max-width: 90%; }
   .nav-link { font-size: 18px; }
   .btn-text { font-size: 18px; }
-  .banner-title { font-size: 60px; }
+  .banner-title { font-size:34px; }
   .logo-title { font-size: 36px; }
   .logo-subtitle { font-size: 32px; }
 }
@@ -181,7 +181,7 @@ body {
   p { font-size: 0.86vw !important; }
   span { font-size: 18px !important; }
   a, button { font-size: 18px !important; }
-  .nav-link { font-size: 1vw; }
+  .nav-link { font-size: 20px !important; }
   .btn-text { font-size: 1vw; }
   .banner-title { font-size: 3vw; }
   .logo-title { font-size: 1.5vw; }
@@ -198,7 +198,7 @@ body {
   p { font-size: 30px !important; }
   span { font-size: 24px !important; }
   a, button { font-size: 24px !important; }
-  .nav-link { font-size: 26px; }
+  .nav-link { font-size: 26px !important;  }
   .btn-text { font-size: 26px; }
   .banner-title { font-size: 84px; }
   .logo-title { font-size: 48px; }
