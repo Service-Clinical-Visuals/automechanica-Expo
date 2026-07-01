@@ -30,7 +30,7 @@ export default function Products() {
 
         {/* Header Section */}
         <div className="flex flex-col items-center text-center max-w-full mx-auto mb-16 space-y-4" data-aos="fade-up">
-          <Typography variant="h4" color="white" className="font-orbitron font-medium tracking-wide">
+          <Typography variant="h3" color="white" className="font-orbitron font-medium tracking-wide">
             Our Most Popular Products
           </Typography>
           <Typography variant="p" className="text-white text-[14px]">

@@ -12,7 +12,7 @@ export default function Lubricants() {
 
         {/* Header Section */}
         <div className="flex flex-col items-center text-center max-w-full mx-auto mb-10 space-y-6" data-aos="fade-up">
-          <Typography variant="h4" color="white" weight="semibold" className="mb-4 font-orbitron">
+          <Typography variant="h3" color="white" weight="semibold" className="mb-4 font-orbitron">
             Premium Lubricants For Every Drive
           </Typography>
 
@@ -22,7 +22,7 @@ export default function Lubricants() {
         </div>
 
         {/* 360 Degree Video Player */}
-        <div className="w-full lg:h-[calc(100vh-100px)]  mx-auto rounded-xl overflow-hidden shadow-2xl relative bg-[#2a2a2a] aspect-video flex items-center justify-center border border-gray-800" data-aos="zoom-in" data-aos-delay="200">
+        <div className="w-full xl:h-[calc(100vh-100px)]  mx-auto rounded-xl overflow-hidden shadow-2xl relative bg-[#2a2a2a] aspect-video flex items-center justify-center border border-gray-800" data-aos="zoom-in" data-aos-delay="200">
           <DynamicVideoPlayer type="360" />
         </div>
 

@@ -26,7 +26,7 @@ export default function Racing() {
 
           {/* Right: Content */}
           <div className="w-full xl:w-1/2 flex flex-col justify-center space-y-6 order-1 xl:order-2" data-aos="fade-left" data-aos-delay="200">
-            <Typography variant="h4" color="white" weight="semibold" className="leading-tight font-orbitron tracking-wide font-medium text-[24px] md:text-[32px]">
+            <Typography variant="h3" color="white" weight="semibold" className="leading-tight font-orbitron tracking-wide font-medium text-[24px] md:text-[32px]">
               Mapetrol & Lema Racing Powering The AMG GT4
             </Typography>
 
@@ -63,7 +63,7 @@ export default function Racing() {
             "Fast and reliable\nlogistics support"
           ].map((text, i) => (
             <div key={i} className="bg-[#484848] rounded-[12px] p-6 md:p-8 flex items-center justify-center text-center hover:bg-[#555] transition-colors cursor-pointer">
-              <Typography variant="h3" color="white" className="font-orbitron font-medium whitespace-pre-line text-[13px] md:text-[15px] leading-relaxed">
+              <Typography variant="h4" color="white" className="font-orbitron font-medium whitespace-pre-line text-[13px] md:text-[15px] leading-relaxed">
                 {text}
               </Typography>
             </div>
