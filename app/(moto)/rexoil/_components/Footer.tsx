@@ -108,7 +108,7 @@ export default function Footer() {
         <hr className="border-t border-white/80 my-6 md:my-8" />
 
         {/* Bottom Bar */}
-        <div className="flex flex-col lg:flex-row justify-between items-center gap-4 text-center lg:text-left" data-aos="fade-up" data-aos-delay="600">
+        <div className="flex flex-col lg:flex-row justify-between items-center gap-4 text-center lg:text-left" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0" >
           <p className="text-[#ffffff] section-text niramit text-sm">
             Protection of Personal Data Law Clarification Text | Explicit Consent Text | Explicit Consent Text
           </p>

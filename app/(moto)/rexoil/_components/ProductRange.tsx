@@ -86,12 +86,12 @@ export default function ProductRange() {
               spaceBetween: 32,
             }
           }}
-          className="w-full pb-4"
+          className="w-full pb-12 pt-2 px-2"
         >
           {products.map((product, index) => (
             <SwiperSlide key={index}>
               <div 
-                className="border border-gray-100 rounded-xl p-4 bg-white shadow-[0_1px_4px_1px_rgba(0,0,0,0.08)] hover:shadow-[0_8px_30px_-5px_rgba(0,0,0,0.12)] transition-all duration-300 flex flex-col h-full"
+                className="border border-gray-100 rounded-xl p-4 bg-white shadow-[0_3px_6px_rgba(0,0,0,0.06)]  transition-all duration-300 flex flex-col h-full mb-2"
                 data-aos="fade-up"
                 data-aos-delay={(index % 4) * 100}
               >
@@ -110,7 +110,7 @@ export default function ProductRange() {
                 </p>
                 <a 
                   href="#" 
-                  className="card-title text-[#A27F41] font-semibold niramit btn-text hover:text-[#8b6b37] transition-colors mt-auto inline-block underline decoration-2 underline-offset-4"
+                  className="card-title text-[#A27F41] font-semibold niramit btn-text hover:text-[#8b6b37] transition-colors mt-auto mb-3 inline-block underline decoration-2 underline-offset-4"
                 >
                   {product.link}
                 </a>

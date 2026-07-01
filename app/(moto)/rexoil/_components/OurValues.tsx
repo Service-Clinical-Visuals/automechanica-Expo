@@ -69,7 +69,7 @@ export default function OurValues() {
         {/* Bottom Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10">
           {/* Card 1 */}
-          <div className="bg-white rounded-xl p-6 md:p-8 shadow-lg border border-gray-100" data-aos="fade-up" data-aos-delay="100">
+          <div className="bg-white rounded-xl p-6 md:p-8 shadow-xl border border-gray-100" data-aos="fade-up" data-aos-delay="100">
             <h3 className="product-card-title font-semibold text-[#f26828] mb-3 exo-2" >
               Our Vision
             </h3>
@@ -79,7 +79,7 @@ export default function OurValues() {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-white rounded-xl p-6 md:p-8 shadow-lg border border-gray-100" data-aos="fade-up" data-aos-delay="200">
+          <div className="bg-white rounded-xl p-6 md:p-8 shadow-xl border border-gray-100" data-aos="fade-up" data-aos-delay="200">
             <h3 className="product-card-title font-semibold text-[#f26828] mb-3 exo-2" >
               Our Mission
             </h3>
