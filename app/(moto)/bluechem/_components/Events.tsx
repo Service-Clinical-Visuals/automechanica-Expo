@@ -79,7 +79,7 @@ export default function Events() {
                 className="bg-white rounded-xl border border-gray-200 shadow-sm p-6 flex items-center justify-between hover:shadow-md transition-shadow duration-300 group cursor-pointer"
               >
                 <div className="flex-1 pr-4">
-                  <div className="bg-[#0E4194] text-white text-[11px] md:text-xs font-normal px-8 py-1 rounded-full inline-block mb-3 oswald  tracking-wide group-hover:bg-[#ffffff] group-hover:text-[#0E4194] group-hover:border group-hover:border-[#0E4194]">
+                  <div className="bg-[#0E4194] text-white text-[12px] md:text-sm font-normal px-8 py-1 rounded-full inline-block mb-3 oswald  tracking-wide group-hover:bg-[#ffffff] group-hover:text-[#0E4194] group-hover:border group-hover:border-[#0E4194]">
                     {event.status}
                   </div>
              

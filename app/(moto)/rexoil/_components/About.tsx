@@ -54,9 +54,9 @@ export default function About() {
               REXOIL delivers premium lubrication solutions through advanced manufacturing, innovative technology, and strict quality standards. Our products are designed to provide reliable protection, improved performance, and long-lasting efficiency for automotive, industrial, marine, and commercial applications.
             </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mb-10">
               {/* Card 1 */}
-              <div className="border border-gray-200 p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
+              <div className="border border-gray-200 p-4 bg-white shadow-sm hover:shadow-md transition-shadow">
                 <h3 className="card-title font-semibold text-[#11121B] mb-3 exo-2">Premium Quality Assurance</h3>
                 <p className="section-text text-[#515151] mb-4 niramit">
                   Manufactured with advanced technology to deliver consistent quality and dependable performance.
@@ -64,7 +64,7 @@ export default function About() {
               </div>
 
               {/* Card 2 */}
-              <div className="border border-gray-200 p-6 bg-white shadow-sm hover:shadow-md transition-shadow">
+              <div className="border border-gray-200 p-4 bg-white shadow-sm hover:shadow-md transition-shadow">
                 <h3 className="card-title font-bold text-black mb-3 exo-2">Advanced Protection</h3>
                 <p className="section-text text-gray-600 niramit">
                   Reduces friction, minimizes wear, and helps extend equipment life and durability.

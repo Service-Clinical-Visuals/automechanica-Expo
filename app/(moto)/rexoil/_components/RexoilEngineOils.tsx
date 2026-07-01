@@ -44,12 +44,12 @@ export default function RexoilEngineOils() {
             </div>
 
             {/* 2 Cards on the Left */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-auto">
-              <div className="border border-gray-200 rounded-xl p-6 bg-white shadow-sm hover:shadow-md transition-shadow text-center flex flex-col items-center justify-center">
-                <h3 className="product-card-title font-semibold text-[#A27F41] mb-3 exo-2">Advanced Protection</h3>``
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-auto">
+              <div className="border border-gray-200 rounded-xl p-4 bg-white shadow-[0_3px_6px_rgba(0,0,0,0.06)] hover:shadow-[0_6px_12px_rgba(0,0,0,0.1)] transition-shadow text-center flex flex-col items-center justify-center">
+                <h3 className="product-card-title font-semibold text-[#A27F41] mb-3 exo-2">Advanced Protection</h3>
                 <p className="section-text text-[#515151] niramit leading-relaxed">Provides a strong protective oil film to reduce friction and enhance engine performance.</p>
               </div>
-              <div className="border border-gray-200 rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition-shadow text-center flex flex-col items-center justify-center">
+              <div className="border border-gray-200 rounded-xl p-4 bg-white shadow-[0_3px_6px_rgba(0,0,0,0.06)] hover:shadow-[0_6px_12px_rgba(0,0,0,0.1)] transition-shadow text-center flex flex-col items-center justify-center">
                 <h3 className="product-card-title font-semibold text-[#A27F41] mb-3 exo-2">High Performance</h3>
                 <p className="section-text text-[#515151] niramit leading-relaxed">Engineered for modern engines, REXOIL delivers smooth acceleration, responsive performance, and consistent power output.</p>
               </div>
@@ -70,11 +70,11 @@ export default function RexoilEngineOils() {
         </div>
 
         {/* Bottom 4 Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8 mb-12">
           {bottomCards.map((card, idx) => (
             <div 
               key={idx} 
-              className="border border-gray-200 rounded-lg p-6 bg-white shadow-sm hover:shadow-md transition-shadow text-center flex flex-col items-center justify-center" 
+              className="border border-gray-200 rounded-xl p-6 bg-white shadow-[0_3px_6px_rgba(0,0,0,0.06)] hover:shadow-[0_6px_12px_rgba(0,0,0,0.1)] transition-shadow text-center flex flex-col items-center justify-center" 
               data-aos="fade-up" 
               data-aos-delay={idx * 100}
             >

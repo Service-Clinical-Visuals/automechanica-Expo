@@ -87,7 +87,7 @@ export default function News() {
           {newsItems.map((item, index) => (
             <SwiperSlide key={index}>
               <div 
-                className="bg-white rounded-xl p-5 shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col h-full"
+                className="bg-white rounded-xl p-5  transition-shadow border border-gray-100 flex flex-col h-full"
                 data-aos="fade-up"
                 data-aos-delay={(index % 3) * 100}
               >

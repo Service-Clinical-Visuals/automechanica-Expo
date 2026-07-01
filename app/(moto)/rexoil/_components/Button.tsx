@@ -11,7 +11,7 @@ export default function Button({
   className = "",
   ...props
 }: ButtonProps) {
-  const baseStyles = "font-semibold px-8 py-3 transition-colors exo2  btn-text rounded-xs shrink-0 inline-flex items-center justify-center cursor-pointer ";
+  const baseStyles = "font-semibold px-8 py-2 transition-colors exo2  btn-text rounded-xs shrink-0 inline-flex items-center justify-center cursor-pointer ";
   
   const variantStyles = {
     "primary-outline": "border-2 border-[#F1AA1D] text-black hover:bg-[#A27F41] hover:text-white",
