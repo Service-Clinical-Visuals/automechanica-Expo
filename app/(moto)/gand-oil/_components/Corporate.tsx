@@ -210,13 +210,13 @@ export default function Corporate() {
 
         {/* Dot navigation */}
         <div className="relative z-10 flex justify-center gap-1.5 mt-8">
-          {[0, 1, 2].map((i) => {
-            const activeBar = Math.round((active / (news.length - 1)) * 2);
+          {news.map((data ,i) => {
+            const activeBar = active;
             const isActive = activeBar === i;
             return (
               <button
                 key={i}
-                onClick={() => goTo(i === 0 ? 0 : i === 1 ? Math.floor(news.length / 2) : news.length - 1)}
+                onClick={() => goTo(i)}
                 className={`transition-all duration-300 -skew-x-[25deg] ${
                   isActive ? "w-12 h-2 bg-[#7ec142]" : "w-10 h-2 bg-[#D9D9D9] hover:bg-white"
                 }`}
