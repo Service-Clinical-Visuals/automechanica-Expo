@@ -209,16 +209,20 @@ export default function Corporate() {
         </div>
 
         {/* Dot navigation */}
-        <div className="relative z-10 flex justify-center gap-2 mt-8">
-          {news.map((_, i) => (
-            <button
-              key={i}
-              onClick={() => goTo(i)}
-              className={`rounded-full transition-all duration-300 ${
-                i === active ? "w-8 h-2 bg-[#7ec142]" : "w-6 h-2 bg-white/30 hover:bg-white/50"
-              }`}
-            />
-          ))}
+        <div className="relative z-10 flex justify-center gap-1.5 mt-8">
+          {[0, 1, 2].map((i) => {
+            const activeBar = Math.round((active / (news.length - 1)) * 2);
+            const isActive = activeBar === i;
+            return (
+              <button
+                key={i}
+                onClick={() => goTo(i === 0 ? 0 : i === 1 ? Math.floor(news.length / 2) : news.length - 1)}
+                className={`transition-all duration-300 -skew-x-[25deg] ${
+                  isActive ? "w-12 h-2 bg-[#7ec142]" : "w-10 h-2 bg-[#D9D9D9] hover:bg-white"
+                }`}
+              />
+            );
+          })}
         </div>
       </Container>
     </section>

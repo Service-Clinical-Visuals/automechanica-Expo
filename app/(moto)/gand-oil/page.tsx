@@ -17,7 +17,7 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <main className="relative min-h-screen bg-white overflow-x-hidden">
+    <main className="relative min-h-screen bg-white overflow-x-hidden overflow-y-hidden">
       <AosInit />
       <Header />
       <Hero />

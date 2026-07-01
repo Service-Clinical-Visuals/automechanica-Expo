@@ -21,6 +21,12 @@
   --font-oswald: var(--font-oswald), 'oswald', ui-sans-serif, sans-serif;
 }
 
+.section{
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+  
+}
+
 html,
 body {
   font-family: var(--font-anton);
