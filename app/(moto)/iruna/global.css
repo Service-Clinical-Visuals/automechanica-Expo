@@ -1,0 +1,248 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-primary: #CF0A2C;
+  --color-secondary: #0a0a0a !important;
+  --color-dark: #000000;
+  --color-text: #484848;
+  --color-gray-light: #1f1f1f;
+  --color-border: #333333;
+  
+  --font-sans: var(--font-sora);
+  --font-heading: var(--font-oxanium);
+}
+
+.oxanium, .oxanium-font {
+  font-family: var(--font-oxanium), 'Oxanium';
+}
+
+.sora, .sora-font {
+  font-family: var(--font-sora), 'Sora';
+}
+
+section {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+html,
+body {
+  color: var(--color-text);
+  background-color: #ffffff;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden !important;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  p,
+  .paragraph {
+    font-family: var(--font-sora), 'Sora', sans-serif;
+    font-weight: 400;
+    color: #333333;
+  }
+
+  span, a, input, button {
+    font-family: var(--font-sora), 'Sora', sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-oxanium), 'Oxanium', sans-serif;
+    color: #000000;
+    font-weight: 700;
+  }
+}
+
+/* Custom container class with individual media queries for easy customization */
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Font sizes */
+.header-link {
+  font-size: 14px;
+}
+.banner-title {
+  font-size: 32px;
+}
+.btn-text {
+  font-size: 14px;
+}
+.banner-subtitle {
+  font-size: 16px;
+}
+.section-title {
+  font-size: 28px;
+}
+.section-text {
+  font-size: 15px;
+}
+.card-title {
+  font-size: 18px;
+}
+.card-text {
+  font-size: 14px;
+}
+
+/* Responsive Custom Container & Font Sizes */
+@media (max-width: 480px) {
+  .custom-container { max-width: 95%; }
+  .banner-title { font-size: 28px; }
+  .section-title { font-size: 24px; }
+  .section-text { font-size: 16px; }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container { max-width: 92%; }
+  .banner-title { font-size: 32px; }
+  .section-title { font-size: 24px; }
+  .section-text { font-size: 16px; }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container { max-width: 90%; }
+  .header-link { font-size: 14px; }
+  .banner-title { font-size: 36px; }
+  .btn-text { font-size: 14px; }
+  .bttn-text { font-size: 15px; }
+  .section-title { font-size: 26px; }
+  .section-text { font-size: 14px; }
+  .card-title { font-size: 17px; }
+
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container { max-width: 85%; }
+  .header-link { font-size: 15px; }
+  .banner-title { font-size: 38px; }
+  .btn-text { font-size: 15px; }
+  .bttn-text { font-size: 16px; }
+  .section-title { font-size: 28px; }
+  .section-text { font-size: 15px; }
+  .card-title { font-size: 18px; }
+
+}
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container { max-width: 85%; }
+  .header-link { font-size: 16px; }
+  .banner-title { font-size: 40px; }
+  .btn-text { font-size: 16px; }
+  .bttn-text { font-size: 17px; }
+  .section-title { font-size: 30px; }
+  .section-text { font-size: 16px; }
+  .card-title { font-size: 20px; }
+
+}
+
+/* as per figma */
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .custom-container { max-width: 90%; }
+  .header-link { font-size: 16px; }
+  .banner-title { font-size: 40px; }
+  .btn-text { font-size: 18px; }
+  .bttn-text { font-size: 20px; }
+  .section-title { font-size: 32px; }
+  .section-text { font-size: 16px; }
+  .card-title { font-size: 24px; }
+}
+@media (min-width: 1921px) and (max-width: 2559px) {
+  .custom-container { max-width: 90%; }
+  .header-link { font-size: 18px; }
+  .banner-title { font-size: 46px; }
+  .btn-text { font-size: 18px; }
+  .bttn-text { font-size: 20px; }
+  .section-title { font-size: 38px; }
+  .section-text { font-size: 18px; }
+  .card-title { font-size: 28px; }
+}
+
+/* 2k Monitor */
+@media (min-width: 2560px) and (max-width: 3800px) {
+  .custom-container { max-width: 90%; }
+  .header-link { font-size: 20px; }
+  .banner-title { font-size: 52px; }
+  .btn-text { font-size: 20px; }
+  .bttn-text { font-size: 22px; }
+  .section-title { font-size: 48px; }
+  .section-text { font-size: 24px; }
+  .card-title { font-size: 32px; }
+}
+@media (min-width: 3800px) {
+  .custom-container { max-width: 90%; }
+  .header-link { font-size: 24px; }
+  .banner-title { font-size: 58px; }
+  .btn-text { font-size: 24px; }
+  .bttn-text { font-size: 26px; }
+  .section-title { font-size: 52px; }
+  .section-text { font-size: 30px; }
+  .card-title { font-size: 36px; }
+
+}
+
+@keyframes slowSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-slow-spin {
+  animation: slowSpin 12s linear infinite;
+}
+
+@keyframes bounceUp {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25%);
+  }
+}
+
+@keyframes bounceDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(25%);
+  }
+}
+
+.animate-bounce-up {
+  animation: bounceUp 1.5s ease-in-out infinite;
+}
+
+.animate-bounce-down {
+  animation: bounceDown 1.5s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideUpFade {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
