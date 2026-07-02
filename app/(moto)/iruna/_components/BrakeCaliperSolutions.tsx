@@ -31,10 +31,9 @@ export default function BrakeCaliperSolutions() {
           <div className="xl:col-span-5 flex flex-col h-full justify-center" data-aos="fade-left">
             <div className="relative inline-block mb-8 self-start">
               <h2 className="section-title font-bold oxanium-font text-black relative z-10 leading-tight">
-                Our Brake Caliper Solutions <span className="text-[#CF0A2C]">05</span>
+                Our Brake Caliper Solutions <span className="text-[#CF0A2C] oxanium section-title ml-1">05</span>
               </h2>
-              {/* The pinkish stripe behind the text */}
-              <div className="absolute left-0 top-[55%] -translate-y-1/2 h-[4px] w-[91%] bg-[#e78596] z-0"></div>
+             
             </div>
             
             <ul className="space-y-5 mb-10">

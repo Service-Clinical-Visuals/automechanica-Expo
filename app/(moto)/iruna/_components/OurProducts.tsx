@@ -83,19 +83,20 @@ export default function OurProducts() {
             <div>
               <div className="relative inline-block mb-6 self-start">
                 <h2 className="section-title font-bold oxanium text-black relative z-10 leading-tight">
-                  Our Products <span className="text-[#CF0A2C] oxanium section-title">03</span>
+                  Our Products <span className="text-[#CF0A2C] oxanium section-title ml-1">03</span>
                 </h2>
-                {/* The pinkish stripe */}
-                <div className="absolute left-0 top-[55%] -translate-y-1/2 h-[4px] w-[85%] bg-[#e78596] z-0"></div>
+               
               </div>
               
-              <h3 className="text-[#CF0A2C] card-title font-semibold oxanium mb-4">
-                {currentProduct.title}
-              </h3>
-              
-              <p className="sora text-[#484848] section-text leading-[1.8]  text-justify">
-                {currentProduct.description}
-              </p>
+              <div key={currentProduct.title} className="animate-[slideUpFade_0.5s_ease-out]">
+                <h3 className="text-[#CF0A2C] card-title font-semibold oxanium mb-4">
+                  {currentProduct.title}
+                </h3>
+                
+                <p className="sora text-[#484848] section-text leading-[1.8]  text-justify">
+                  {currentProduct.description}
+                </p>
+              </div>
             </div>
             
             <div className="flex items-center gap-3 mb-6 mt-4 md:mt-0">
@@ -127,7 +128,7 @@ export default function OurProducts() {
                     src={currentProduct.image} 
                     alt={currentProduct.title}
                     key={currentProduct.image} // Force re-render for animation on image change
-                    className="w-full h-full object-contain  animate-[fadeIn_0.5s_ease-in-out]" 
+                    className="w-full h-full object-contain  animate-[fadeIn_0.8s_ease-in-out]" 
                   />
                 </div>
                 </div>
@@ -138,14 +139,14 @@ export default function OurProducts() {
           
           {/* Column 3: Features */}
           <div className="flex flex-col h-full justify-between md:col-span-2 xl:col-span-1 mt-8 lg:mt-0" data-aos="fade-left" data-aos-delay="200">
-            <div>
+            <div key={currentProduct.featuresTitle} className="animate-[slideUpFade_0.5s_ease-out]">
               <h3 className="text-[#CF0A2C] card-title font-semibold oxanium mb-6 mt-10">
                 {currentProduct.featuresTitle}
               </h3>
               
               <ul className="space-y-6 ">
                 {currentProduct.features.map((feature, idx) => (
-                  <li key={`${currentProduct.title}-${idx}`} className="flex items-start gap-4 animate-[fadeIn_0.5s_ease-in-out] mb-6">
+                  <li key={`${currentProduct.title}-${idx}`} className="flex items-start gap-4 mb-6">
                     <img src="/moto/iruna/brlwheel.png" alt="Icon" className="w-[18px] h-[18px] object-contain flex-shrink-0 mt-0.5" />
                     <span className="sora text-[#484848] section-text leading-[1.6]">
                       {feature}
@@ -155,7 +156,7 @@ export default function OurProducts() {
               </ul>
             </div>
             
-            <button className='bg-[#CF0A2C] hover:bg-[#b30824] text-white px-4 py-2.5 transition-colors shadow-md text-[16px] lg:text-[20px] 2xl:text-[24px] font-semibold oxanium mb-8 mt-4 ' >
+            <button className='bg-[#CF0A2C] hover:bg-[#b30824] text-white px-4 py-2 transition-colors shadow-md bttn-text font-semibold oxanium mb-8 mt-4 ' >
               Download Catalog
             </button>
           </div>

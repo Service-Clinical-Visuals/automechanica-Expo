@@ -22,10 +22,9 @@ export default function BrakeCaliper() {
           <div className="flex flex-col justify-center py-12 md:py-24 gap-6 lg:gap-8 lg:pr-6 xl:pr-8" data-aos="fade-right">
             <div className="relative inline-block self-start">
               <h2 className="section-title font-bold oxanium text-white relative z-10 leading-tight">
-                Brake Caliper <span className="text-[#CF0A2C] oxanium section-title">02</span>
+                Brake Caliper <span className="text-[#CF0A2C] oxanium section-title ml-1">02</span>
               </h2>
-              {/* The maroon/red stripe behind the text */}
-              <div className="absolute left-0 top-[55%] -translate-y-1/2 h-[4px] w-[85%] bg-[#CF0A2C] z-0"></div>
+             
             </div>
             
             <div className="space-y-6 leading-[1.8]">

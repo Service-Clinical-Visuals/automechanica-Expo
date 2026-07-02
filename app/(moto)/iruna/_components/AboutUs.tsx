@@ -40,10 +40,9 @@ export default function AboutUs() {
           <div className="flex flex-col items-start justify-center" data-aos="fade-left">
             <div className="relative inline-block mb-8">
               <h2 className="section-title font-bold oxanium-font text-black relative z-10 leading-tight">
-                About Us <span className="text-[#CF0A2C] oxanium-font section-title">01</span>
+                About Us <span className="text-[#CF0A2C] oxanium-font section-title ml-1">01</span>
               </h2>
-              {/* The pinkish/red stripe behind the text */}
-              <div className="absolute left-0 top-[50%] -translate-y-1/2 h-[4px] w-[78%] bg-[#e78596] z-0"></div>
+           
             </div>
             
             <div className="space-y-6 leading-[1.8]">

@@ -112,6 +112,7 @@ body {
   .header-link { font-size: 14px; }
   .banner-title { font-size: 36px; }
   .btn-text { font-size: 14px; }
+  .bttn-text { font-size: 15px; }
   .section-title { font-size: 26px; }
   .section-text { font-size: 14px; }
   .card-title { font-size: 17px; }
@@ -122,6 +123,7 @@ body {
   .header-link { font-size: 15px; }
   .banner-title { font-size: 38px; }
   .btn-text { font-size: 15px; }
+  .bttn-text { font-size: 16px; }
   .section-title { font-size: 28px; }
   .section-text { font-size: 15px; }
   .card-title { font-size: 18px; }
@@ -132,6 +134,7 @@ body {
   .header-link { font-size: 16px; }
   .banner-title { font-size: 40px; }
   .btn-text { font-size: 16px; }
+  .bttn-text { font-size: 17px; }
   .section-title { font-size: 30px; }
   .section-text { font-size: 16px; }
   .card-title { font-size: 20px; }
@@ -143,7 +146,8 @@ body {
   .custom-container { max-width: 90%; }
   .header-link { font-size: 16px; }
   .banner-title { font-size: 40px; }
-  .btn-text { font-size: 16px; }
+  .btn-text { font-size: 18px; }
+  .bttn-text { font-size: 20px; }
   .section-title { font-size: 32px; }
   .section-text { font-size: 16px; }
   .card-title { font-size: 24px; }
@@ -153,6 +157,7 @@ body {
   .header-link { font-size: 18px; }
   .banner-title { font-size: 46px; }
   .btn-text { font-size: 18px; }
+  .bttn-text { font-size: 20px; }
   .section-title { font-size: 38px; }
   .section-text { font-size: 18px; }
   .card-title { font-size: 28px; }
@@ -164,6 +169,7 @@ body {
   .header-link { font-size: 20px; }
   .banner-title { font-size: 52px; }
   .btn-text { font-size: 20px; }
+  .bttn-text { font-size: 22px; }
   .section-title { font-size: 48px; }
   .section-text { font-size: 24px; }
   .card-title { font-size: 32px; }
@@ -173,6 +179,7 @@ body {
   .header-link { font-size: 24px; }
   .banner-title { font-size: 58px; }
   .btn-text { font-size: 24px; }
+  .bttn-text { font-size: 26px; }
   .section-title { font-size: 52px; }
   .section-text { font-size: 30px; }
   .card-title { font-size: 36px; }
@@ -226,5 +233,16 @@ body {
   to {
     opacity: 1;
     transform: scale(1);
+  }
+}
+
+@keyframes slideUpFade {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

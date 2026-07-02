@@ -31,10 +31,9 @@ export default function IndustryWeServe() {
           <div className="flex flex-col h-full" data-aos="fade-right">
             <div className="relative inline-block mb-6 self-start">
               <h2 className="section-title font-bold oxanium text-white relative z-10 leading-tight">
-                Industry We Serve <span className="text-[#CF0A2C] oxanium">04</span>
+                Industry We Serve <span className="text-[#CF0A2C] oxanium section-title ml-1">04</span>
               </h2>
-              {/* The maroon/red stripe behind the text */}
-              <div className="absolute left-0 top-[55%] -translate-y-1/2 h-[4px] w-[85%] bg-[#CF0A2C] z-0"></div>
+              
             </div>
             
             <p className="sora text-[#ffffff] section-text leading-[1.8] text-left">

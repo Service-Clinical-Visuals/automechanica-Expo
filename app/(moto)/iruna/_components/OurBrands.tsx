@@ -12,10 +12,9 @@ export default function OurBrands() {
         <div className="flex flex-col items-center text-center max-w-6xl 2xl:max-w-[1500px] min-[2560px]:max-w-[2000px] min-[3800px]:max-w-[2600px] mx-auto w-full" data-aos="fade-up">
           <div className="relative inline-block mb-6">
             <h2 className="section-title font-bold oxanium text-black relative z-10 leading-tight">
-              Our Brands <span className="text-[#CF0A2C] oxanium">06</span>
+              Our Brands <span className="text-[#CF0A2C] oxanium section-title ml-1">06</span>
             </h2>
-            {/* The pinkish stripe behind the text */}
-            <div className="absolute left-0 top-[55%] -translate-y-1/2 h-[4px] w-[85%] bg-[#e78596] z-0"></div>
+           
           </div>
           
           <p className="sora text-[#484848] section-text leading-[1.8]">
