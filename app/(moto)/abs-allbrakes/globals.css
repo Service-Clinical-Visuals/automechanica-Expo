@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+@import "tailwindcss";
+@import "aos/dist/aos.css";
+
+html,
+body {
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-primary: #E72E39;
+  --color-primary-hover: #cc2530;
+  --color-secondary: #212121;
+  --color-secondary-hover: #111111;
+  --color-background: var(--background);
+  --color-foreground: #6E777D;
+  --font-oswald: var(--font-oswald), 'Oswald', ui-sans-serif, system-ui, sans-serif;
+  --font-lato: var(--font-lato), 'Lato', ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--color-secondary);
+  font-family: var(--font-lato);
+}
+
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Base Typogrpahy (Desktop 1024px and up by default) */
+h1 {
+  font-size: 2.4375rem;
+  font-family: var(--font-oswald);
+}
+
+/* 39px */
+h2 {
+  font-size: 2rem;
+  font-family: var(--font-oswald);
+}
+
+/* 32px */
+h3 {
+  font-size: 1.5rem;
+
+}
+
+/* 24px */
+h4 {
+  font-size: 1.125rem;
+}
+
+/* 18px */
+h5 {
+  font-size: 1rem;
+}
+
+/* 16px */
+h6 {
+  font-size: 0.875rem;
+}
+
+/* 14px */
+p {
+  font-size: 1rem;
+}
+
+/* 18px */
+span {
+  font-size: 1.125rem;
+}
+
+.navbar {
+  font-size: 1.125rem;
+}
+
+/* Mobile Portrait Screen (up to 480px) */
+@media (max-width: 480px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  h5 {
+    font-size: 0.875rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  span {
+    font-size: 1rem;
+  }
+
+  .navbar {
+    font-size: 1rem;
+  }
+
+  .footer-heading {
+    font-size: 16px;
+  }
+
+  .footer-body {
+    font-size: 14px;
+  }
+}
+
+/* Mobile Landscape Screen (481px - 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container {
+    max-width: 92%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.35rem;
+  }
+
+  h4 {
+    font-size: 1.05rem;
+  }
+
+  h5 {
+    font-size: 0.95rem;
+  }
+
+  p {
+    font-size: 1.05rem;
+  }
+
+  span {
+    font-size: 1.05rem;
+  }
+
+  .navbar {
+    font-size: 1.0625rem;
+  }
+
+  .footer-heading {
+    font-size: 17px;
+  }
+
+  .footer-body {
+    font-size: 15px;
+  }
+}
+
+/* Tablet / Tab Screen (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.875rem;
+  }
+
+  h3 {
+    font-size: 1.45rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+
+  h5 {
+    font-size: 0.98rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  span {
+    font-size: 1.1rem;
+  }
+
+  .navbar {
+    font-size: 1.125rem;
+  }
+
+  .footer-heading {
+    font-size: 18px;
+  }
+
+  .footer-body {
+    font-size: 15.5px;
+  }
+}
+
+/* Laptop Screen (1024px - 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Desktop PC Screen (1280px - 1535px) */
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Large Desktop PC Screen (1536px - 1919px) */
+@media (min-width: 1536px) and (max-width: 1919px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  h3 {
+    font-size: 1.7rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+
+  p {
+    font-size: 1rem;
+  }
+
+  .footer-heading {
+    font-size: 19px !important;
+  }
+
+  .footer-body {
+    font-size: 16px !important;
+  }
+}
+
+/* Extra Large PC / 2K Screen (1920px - 2499px) */
+@media (min-width: 1920px) and (max-width: 2499px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2.35rem;
+  }
+
+  h2 {
+    font-size: 2.0rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1.13rem;
+  }
+
+  .footer-heading {
+    font-size: 19px !important;
+  }
+
+  .footer-body {
+    font-size: 16px !important;
+  }
+}
+
+/* Ultra-wide Screen / Max Cover (2500px - 3799px) */
+@media (min-width: 2500px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  h4 {
+    font-size: 1.8rem;
+  }
+
+  h5 {
+    font-size: 1.45rem;
+  }
+
+  p {
+    font-size: 1.75rem;
+  }
+
+  .footer-heading {
+    font-size: 32px;
+  }
+
+  .footer-body {
+    font-size: 26px;
+  }
+}
+
+/* 4K Ultra-wide Screen / Max Cover (3800px and above) */
+@media (min-width: 3800px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 3.5rem;
+  }
+
+  h4 {
+    font-size: 2.5rem;
+  }
+
+  h5 {
+    font-size: 1.55rem;
+  }
+
+  p {
+    font-size: 2.25rem;
+  }
+
+  .footer-heading-19px {
+    font-size: 42px;
+  }
+
+  .footer-body-16px {
+    font-size: 34px;
+  }
+}
+
+/* Footer Typography Classes */
+.footer-heading-19px {
+  font-size: 19px;
+  font-family: var(--font-oswald);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.05em;
+}
+
+.footer-body-16px {
+  font-size: 16px;
+  font-family: var(--font-lato);
+  color: white;
+  /* Tailwind gray-300 */
+  line-height: 1.6;
+}
+
+/* Custom Swiper Pagination */
+.swiper-pagination-bullet {
+  width: 32px !important;
+  height: 8px !important;
+  border-radius: 9999px !important;
+  background-color: #d1d5db !important;
+  /* Tailwind gray-300 */
+  opacity: 1 !important;
+  transition: all 0.3s ease !important;
+  display: block !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--color-primary) !important;
+}
