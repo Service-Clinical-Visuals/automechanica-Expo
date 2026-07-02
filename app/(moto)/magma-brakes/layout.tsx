@@ -19,8 +19,8 @@ const teko = Teko({
 });
 
 export const metadata: Metadata = {
-  title: "Petrovöll | German Lubricants & Chemicals",
-  description: "Advanced high performance lubricants for automotive and industrial markets.",
+  title: "Magma Brakes | High Performance Brake Systems",
+  description: "Advanced high performance brake systems for automotive and industrial markets.",
 };
 
 export default function PetrovollLayout({

@@ -7,31 +7,50 @@ import Typography from "./Typography";
 
 export default function Banner() {
   return (
-    <section className="relative w-full h-screen overflow-hidden flex items-end pb-16 md:pb-24 lg:pb-32 pt-[100px]">
-      {/* Background Video / Fallback Overlay */}
-      <div className="absolute inset-0 z-0 bg-[#111111]">
-        <DynamicVideoPlayer
-          type="banner"
-          className="absolute inset-0 w-full h-full object-cover object-center opacity-70"
-        />
+    <section
+      id="home"
+      className="w-full relative  lg:z-50  pb-3"
+    >
+      <div className="custom-container">
+        {/* Boxed Hero Content */}
+        <div className="relative w-full h-screen flex items-end pb-10 md:pb-[8%] overflow-hidden pointer-events-none ">
 
-      </div>
-
-      {/* Main Content Container */}
-      <div className="relative z-20 custom-container w-full px-4 sm:px-6">
-        <div className="flex flex-col items-start gap-6 md:gap-8 max-w-4xl" data-aos="fade-up" data-aos-duration="1000">
-          {/* Main Title */}
-          <Typography variant="h1" color="white" weight="bold" className="font-oswald tracking-wide leading-[1.1] ">
-            At Magma, We Use Fire To Fight Fire
-          </Typography>
-
-          {/* Solid Flat Button */}
-          <div className="pt-2">
-            <Button
-              text="EXPLORE PRODUCTS"
-              href="#products"
-              showIcon={false}
+          {/* Background Video / Fallback Overlay */}
+          <div className="absolute h-screen  inset-0 z-0 pointer-events-none bg-black">
+            <DynamicVideoPlayer
+              type="banner"
+              className="absolute inset-0 w-full h-screen object-cover pointer-events-none z-0"
             />
+            {/* Dark overlay for readability, more performant than opacity on video */}
+            <div className="absolute inset-0 bg-[#111111]/70 z-10 pointer-events-none"></div>
+          </div>
+
+          {/* Content inside the boxed hero */}
+          <div className="relative z-20 w-full px-6 md:px-12 lg:px-20 mb-1 md:mb-[-0.2]">
+            <div
+              className="max-w-3xl text-left space-y-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              {/* Main Title */}
+              <Typography
+                variant="h1"
+                color="white"
+                weight="bold"
+                className="leading-[1.1] tracking-wide text-white font-oswald"
+              >
+                At Magma, We Use Fire To Fight Fire
+              </Typography>
+
+              {/* Action Button */}
+              <div className="inline-flex pt-2 pointer-events-auto">
+                <Button
+                  text="EXPLORE PRODUCTS"
+                  href="#products"
+                  showIcon={false}
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
