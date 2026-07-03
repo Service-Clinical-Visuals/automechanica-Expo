@@ -25,7 +25,7 @@ export default function BrakePads() {
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 xl:gap-10 items-start">
           {/* Left: 360 Video */}
           <div 
-            className="relative w-full aspect-video  rounded-2xl overflow-hidden bg-gray-100  flex items-center justify-center"
+            className="order-2 xl:order-1 relative w-full aspect-video  rounded-2xl overflow-hidden bg-gray-100  flex items-center justify-center"
             data-aos="fade-right"
           >
             <DynamicVideoPlayer
@@ -36,7 +36,7 @@ export default function BrakePads() {
           </div>
 
           {/* Right: Content */}
-          <div data-aos="fade-left">
+          <div data-aos="fade-left" className="order-1 xl:order-2">
             <h2 className="section-title text-[var(--color-primary)] font-medium oswald  mb-6">
               Confident Braking For Every Journey
             </h2>
@@ -47,7 +47,7 @@ export default function BrakePads() {
             <div className="flex flex-col gap-4 mb-10">
               {topFeatures.map((feature, idx) => (
                 <div key={idx} className="flex gap-4 items-start">
-                  <div className="flex-shrink-0 mt-1">
+                  <div className="flex-shrink-0 ">
                  
                     <img src="/moto/denckermann/settings.png" alt="Parts Finder Icon" className="object-cover" />
                   </div>
@@ -59,14 +59,14 @@ export default function BrakePads() {
             </div>
 
             {/* Action Button */}
-            <Button text="Learn More" className="border-[var(--color-primary)]" />
+            <Button text="Learn More"  />
           </div>
         </div>
 
         {/* Bottom Row */}
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 xl:gap-10 items-start">
           {/* Left: Content */}
-          <div data-aos="fade-right" className="order-2 xl:order-1">
+          <div data-aos="fade-right">
             <h2 className="section-title text-[var(--color-primary)] font-medium oswald  mb-6">
               Why Choose DENCKERMANN Brake Pads?
             </h2>
@@ -77,7 +77,7 @@ export default function BrakePads() {
             <div className="flex flex-col gap-4">
               {bottomFeatures.map((feature, idx) => (
                 <div key={idx} className="flex gap-4 items-start">
-                  <div className="flex-shrink-0 mt-1">
+                  <div className="flex-shrink-0 ">
                    
                     <img src="/moto/denckermann/settings.png" alt="Parts Finder Icon" className="object-cover" />
                   </div>
@@ -91,7 +91,7 @@ export default function BrakePads() {
 
           {/* Right: Image */}
           <div 
-            className="order-1 xl:order-2 relative w-full h-full min-h-[300px] rounded-2xl overflow-hidden "
+            className="relative w-full h-full min-h-[300px] rounded-2xl overflow-hidden "
             data-aos="fade-left"
           >          
             <img src="/moto/denckermann/brake.png" alt="Denckermann Brake Pads" className="w-full h-full object-cover" />

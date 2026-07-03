@@ -55,7 +55,7 @@ export default function Products() {
           </p>
           
           {/* Action Button */}
-          <Button text="View All Products" className="border-white/80" />
+          <Button text="View All Products"  />
         </div>
       </div>
     </section>

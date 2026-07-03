@@ -108,30 +108,42 @@ body {
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .custom-container { max-width: 90%; }
+  .header-top-link { font-size: 14px; }
   .header-link { font-size: 14px; }
-  .banner-title { font-size: 36px; }
+  .banner-title { font-size: 30px; }
   .btn-text { font-size: 14px; }
-  .section-title { font-size: 26px; }
+  .section-title { font-size: 24px; }
   .section-text { font-size: 14px; }
   .card-title { font-size: 17px; }
+  .card-number { font-size: 16px; }
+  .product-title {font-size: 18px;}
+  .stayup-title {font-size: 26px;}
 }
 @media (min-width: 1024px) and (max-width: 1279px) {
   .custom-container { max-width: 85%; }
-  .header-link { font-size: 15px; }
-  .banner-title { font-size: 38px; }
-  .btn-text { font-size: 15px; }
-  .section-title { font-size: 28px; }
-  .section-text { font-size: 15px; }
+  .header-top-link { font-size: 14px; }
+  .header-link { font-size: 16px; }
+  .banner-title { font-size: 30px; }
+  .btn-text { font-size: 14px; }
+  .section-title { font-size: 24px; }
+  .section-text { font-size: 14px; }
   .card-title { font-size: 18px; }
+  .card-number { font-size: 16px; }
+  .product-title {font-size: 20px;}
+  .stayup-title {font-size: 28px;}
 }
 @media (min-width: 1280px) and (max-width: 1535px) {
   .custom-container { max-width: 85%; }
-  .header-link { font-size: 16px; }
-  .banner-title { font-size: 40px; }
-  .btn-text { font-size: 16px; }
-  .section-title { font-size: 30px; }
-  .section-text { font-size: 16px; }
+  .header-top-link { font-size: 15px; }
+  .header-link { font-size: 17px; }
+  .banner-title { font-size: 34px; }
+  .btn-text { font-size: 15px; }
+  .section-title { font-size: 26px; }
+  .section-text { font-size: 15px; }
   .card-title { font-size: 20px; }
+  .card-number { font-size: 18px; }
+  .product-title {font-size: 22px;}
+  .stayup-title {font-size: 30px;}
 }
 
 /* as per figma */
@@ -146,15 +158,21 @@ body {
   .card-title { font-size: 22px; }
   .card-number { font-size: 20px; }
   .product-title {font-size: 24px;}
+  .stayup-title {font-size: 32px;}
+  
 }
 @media (min-width: 1921px) and (max-width: 2559px) {
   .custom-container { max-width: 90%; }
-  .header-link { font-size: 18px; }
+  .header-top-link { font-size: 18px; }
+  .header-link { font-size: 20px; }
   .banner-title { font-size: 46px; }
-  .btn-text { font-size: 18px; }
+  .btn-text { font-size: 20px; }
   .section-title { font-size: 38px; }
-  .section-text { font-size: 18px; }
-  .card-title { font-size: 28px; }
+  .section-text { font-size: 20px; }
+  .card-title { font-size: 26px; }
+   .card-number { font-size: 22px; }
+  .product-title {font-size: 24px;}
+  .stayup-title {font-size: 32px;}
 }
 /* 2k */
 @media (min-width: 2560px) and (max-width: 3800px) {
@@ -168,6 +186,7 @@ body {
   .card-title { font-size: 28px; }
   .card-number { font-size: 22px; }
   .product-title {font-size: 24px;}
+  .stayup-title {font-size: 34px;}
 }
 @media (min-width: 3800px) {
   .custom-container { max-width: 90%; }
@@ -180,6 +199,7 @@ body {
   .card-title { font-size: 36px; }
   .card-number { font-size: 26px; }
   .product-title {font-size: 32px;}
+  .stayup-title {font-size: 36px;}
 }
 
 @keyframes fadeIn {
