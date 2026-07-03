@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+@import "tailwindcss";
+@import "aos/dist/aos.css";
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-primary: #00467C;
+  --color-primary-hover: #003662;
+  --color-secondary: #FFFFFF;
+  --color-secondary-hover: #F0F0F0;
+  --color-background: var(--background);
+  --color-foreground: #6E777D;
+  --font-oswald: var(--font-oswald), 'Oswald', ui-sans-serif, system-ui, sans-serif;
+  --font-lato: var(--font-lato), 'Lato', ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--color-secondary);
+  font-family: var(--font-lato);
+}
+
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Base Typogrpahy (Desktop 1024px and up by default) */
+h1 {
+  font-size: 2.5rem;
+  /* 40px */
+  font-family: var(--font-oswald);
+}
+
+h2 {
+  font-size: 2.375rem;
+  /* 38px */
+  font-family: var(--font-oswald);
+}
+
+h3 {
+  font-size: 1.3125rem;
+  /* 21px */
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+p {
+  font-size: 1.125rem;
+  /* 18px */
+  font-family: var(--font-lato);
+}
+
+span {
+  font-size: 1.125rem;
+}
+
+.navbar {
+  font-size: 1rem;
+  /* 16px */
+}
+
+/* Footer Typography Classes */
+.footer-heading {
+  font-size: 1.1875rem;
+  /* 19px */
+  font-family: var(--font-oswald);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.05em;
+}
+
+.footer-body {
+  font-size: 1rem;
+  /* 16px */
+  font-family: var(--font-lato);
+  color: white;
+  line-height: 1.6;
+}
+
+/* Mobile Portrait Screen (up to 480px) */
+@media (max-width: 480px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  h4 {
+    font-size: 0.875rem;
+  }
+
+  h5 {
+    font-size: 0.75rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  span {
+    font-size: 0.875rem;
+  }
+
+  .navbar {
+    font-size: 0.8125rem;
+  }
+
+  .footer-heading {
+    font-size: 0.8rem;
+  }
+
+  .footer-body {
+    font-size: 0.7rem;
+  }
+}
+
+/* Mobile Landscape Screen (481px - 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container {
+    max-width: 92%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.875rem;
+  }
+
+  h3 {
+    font-size: 1.125rem;
+  }
+
+  h4 {
+    font-size: 0.9375rem;
+  }
+
+  h5 {
+    font-size: 0.875rem;
+  }
+
+  p {
+    font-size: 0.9375rem;
+  }
+
+  span {
+    font-size: 0.9375rem;
+  }
+
+  .navbar {
+    font-size: 0.875rem;
+  }
+
+  .footer-heading {
+    font-size: 1rem;
+  }
+
+  .footer-body {
+    font-size: 0.875rem;
+  }
+}
+
+/* Tablet / Tab Screen (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  h2 {
+    font-size: 2.125rem;
+  }
+
+  h3 {
+    font-size: 1.1875rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  h5 {
+    font-size: 0.9375rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  span {
+    font-size: 1rem;
+  }
+
+  .navbar {
+    font-size: 0.9375rem;
+  }
+
+  .footer-heading {
+    font-size: 1.0625rem;
+  }
+
+  .footer-body {
+    font-size: 0.9375rem;
+  }
+}
+
+/* Laptop Screen (1024px - 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Desktop PC Screen (1280px - 1535px) */
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Large Desktop PC Screen (1536px - 1919px) */
+@media (min-width: 1536px) and (max-width: 1919px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    /* 40px */
+    font-family: var(--font-oswald);
+  }
+
+  h2 {
+    font-size: 2.375rem;
+    /* 38px */
+    font-family: var(--font-oswald);
+  }
+
+  h3 {
+    font-size: 1.3125rem;
+    /* 21px */
+  }
+
+  h4 {
+    font-size: 1.125rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  h6 {
+    font-size: 0.875rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+    /* 18px */
+    font-family: var(--font-lato);
+  }
+
+  span {
+    font-size: 1.125rem;
+  }
+
+  .navbar {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
+
+/* Extra Large PC / 2K Screen (1920px - 2499px) */
+@media (min-width: 1920px) and (max-width: 2499px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-family: var(--font-oswald) !important;
+  }
+
+  h2 {
+    font-size: 2.375rem;
+    /* 38px */
+    font-family: var(--font-oswald);
+  }
+
+  h3 {
+    font-size: 1.3125rem;
+    /* 21px */
+  }
+
+  h4 {
+    font-size: 1.125rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  h6 {
+    font-size: 0.875rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+    /* 18px */
+    font-family: var(--font-lato);
+  }
+
+  span {
+    font-size: 1.125rem;
+  }
+
+  .navbar {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .footer-heading {
+    font-size: 1.3125rem;
+  }
+
+  .footer-body {
+    font-size: 1.125rem;
+  }
+}
+
+/* Ultra-wide Screen / Max Cover (2500px - 3799px) */
+@media (min-width: 2500px) and (max-width: 3799px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.75rem;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+
+  span {
+    font-size: 1.6875rem;
+  }
+
+  .navbar {
+    font-size: 1.5rem;
+  }
+
+  .footer-heading {
+    font-size: 1.6rem;
+  }
+
+  .footer-body {
+    font-size: 1.5rem;
+  }
+}
+
+/* 4K Ultra-wide Screen / Max Cover (3800px and above) */
+@media (min-width: 3800px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 4.75rem;
+  }
+
+  h3 {
+    font-size: 2.625rem;
+  }
+
+  h4 {
+    font-size: 2.25rem;
+  }
+
+  h5 {
+    font-size: 1.875rem;
+  }
+
+  p {
+    font-size: 2.25rem;
+  }
+
+  span {
+    font-size: 2.25rem;
+  }
+
+  .navbar {
+    font-size: 2rem;
+  }
+
+  .footer-heading {
+    font-size: 2.375rem;
+  }
+
+  .footer-body {
+    font-size: 2rem;
+  }
+}
+
+
+/* Custom Swiper Pagination */
+.swiper-pagination-bullet {
+  width: 32px !important;
+  height: 8px !important;
+  border-radius: 9999px !important;
+  background-color: #d1d5db !important;
+  opacity: 1 !important;
+  transition: all 0.3s ease !important;
+  display: block !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--color-primary) !important;
+}
+
+/* Custom Swiper Pagination for Meyle Products */
+.meyle-bullet {
+  width: 32px !important;
+  height: 8px !important;
+  border-radius: 9999px !important;
+  background-color: #d1d5db !important;
+  opacity: 1 !important;
+  transition: all 0.3s ease !important;
+  display: inline-block !important;
+  cursor: pointer;
+  margin: 0 4px;
+}
+
+.custom-meyle-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meyle-bullet-active {
+  background-color: var(--color-primary) !important;
+}
