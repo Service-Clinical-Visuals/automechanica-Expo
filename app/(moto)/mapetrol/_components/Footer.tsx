@@ -34,12 +34,12 @@ export default function Footer() {
 
                     {/* Column 2: Menu */}
                     <div className="flex flex-col space-y-4" data-aos="fade-up" data-aos-delay="100">
-                        <Typography variant="h6" color="white" className="font-orbitron font-medium text-[16px]">
+                        <div className="font-orbitron font-medium footer-heading text-white">
                             Menu
-                        </Typography>
+                        </div>
                         <nav className="flex flex-col space-y-3">
                             {['Products', 'Technology, Innovations and design', 'About Us', 'Contact Us'].map((item) => (
-                                <Link key={item} href="#" className="text-white hover:text-white text-[16px] transition-colors">
+                                <Link key={item} href="#" className="text-white hover:text-gray-300 footer-body transition-colors">
                                     {item}
                                 </Link>
                             ))}
@@ -48,14 +48,14 @@ export default function Footer() {
 
                     {/* Column 3: Contact */}
                     <div className="flex flex-col space-y-4" data-aos="fade-up" data-aos-delay="200">
-                        <Typography variant="h6" color="white" className="font-orbitron font-medium text-[16px]">
+                        <div className="font-orbitron font-medium footer-heading text-white">
                             Contact
-                        </Typography>
+                        </div>
                         <div className="flex flex-col space-y-3">
-                            <a href="mailto:info@mapetrol.si" className="text-white hover:text-white text-[16px] transition-colors">
+                            <a href="mailto:info@mapetrol.si" className="text-white hover:text-gray-300 footer-body transition-colors">
                                 info@mapetrol.si
                             </a>
-                            <a href="tel:+38622302880" className="text-white hover:text-white text-[16px] transition-colors">
+                            <a href="tel:+38622302880" className="text-white hover:text-gray-300 footer-body transition-colors">
                                 +386 2 230 28 80
                             </a>
                         </div>
@@ -63,9 +63,9 @@ export default function Footer() {
 
                     {/* Column 4: Certifications */}
                     <div className="flex flex-col space-y-4" data-aos="fade-up" data-aos-delay="300">
-                        <Typography variant="h6" color="white" className="font-orbitron font-medium text-[16px]">
+                        <div className="font-orbitron font-medium footer-heading text-white">
                             Our Certifications
-                        </Typography>
+                        </div>
                         <div className="flex items-center gap-8 lg:gap-15 pt-2">
                             <img
                                 src="/moto/mapetrol/certificate1.png"
@@ -84,9 +84,9 @@ export default function Footer() {
 
                 {/* Divider & Copyright */}
                 <div className="pt-6 border-t border-[#3a3a3a] flex flex-col md:flex-row items-center justify-center text-center" data-aos="fade-in" data-aos-delay="400">
-                    <Typography variant="p" className="text-white text-[12px]">
+                    <div className="text-white footer-body">
                         © 2026 MAPETROL. All rights reserved. Design and development: Business Solutions
-                    </Typography>
+                    </div>
                 </div>
 
             </Container>
