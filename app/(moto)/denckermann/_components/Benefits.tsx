@@ -11,7 +11,7 @@ function ImageSlider({ slides }: { slides: SlideData[] }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   return (
-    <div className="relative w-full rounded-2xl md:rounded-3xl overflow-hidden aspect-[4/3] md:aspect-[16/10] xl:aspect-[16/11] group shadow-sm bg-gray-900">
+    <div className="relative w-full rounded-2xl md:rounded-3xl overflow-hidden aspect-[3/2] md:aspect-[16/9] xl:aspect-[16/9] group shadow-sm bg-gray-900">
       {slides.map((slide, idx) => (
         <div
           key={idx}
