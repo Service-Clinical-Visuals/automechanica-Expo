@@ -92,7 +92,7 @@ const AboutUs = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 md:mt-24">
 
           <div className="border border-[#2a2a2a] font-orbitron rounded-[10px] p-6 sm:p-8 bg-transparent transition-colors flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="0">
-            <Typography variant="h4" color="white" className="mb-4 w-full border-b border-white pb-4 text-[16px] md:text-[18px]">
+            <Typography variant="h5" color="white" className="mb-4 w-full border-b border-white pb-4">
               Strict Standards
             </Typography>
             <Typography variant="p" className=" text-white leading-relaxed">
@@ -101,7 +101,7 @@ const AboutUs = () => {
           </div>
 
           <div className="border border-[#2a2a2a]  font-orbitron rounded-[10px] p-6 sm:p-8 bg-transparent transition-colors flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="150">
-            <Typography variant="h4" color="white" className="mb-4 w-full border-b border-white pb-4 text-[16px] md:text-[18px]">
+            <Typography variant="h5" color="white" className="mb-4 w-full border-b border-white pb-4">
               Innovative Technology
             </Typography>
             <Typography variant="p" className=" text-white leading-relaxed">
@@ -110,7 +110,7 @@ const AboutUs = () => {
           </div>
 
           <div className="border border-[#2a2a2a]  font-orbitron rounded-[10px] p-6 sm:p-8 bg-transparent transition-colors flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="300">
-            <Typography variant="h4" color="white" className="mb-4 w-full border-b border-white pb-4 text-[16px] md:text-[18px]">
+            <Typography variant="h5" color="white" className="mb-4 w-full border-b border-white pb-4">
               Design Aesthetics
             </Typography>
             <Typography variant="p" className="text-white leading-relaxed">
