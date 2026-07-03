@@ -42,7 +42,7 @@ export default function Protection() {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <Typography variant="h4" color="white" className="font-orbitron">
+                  <Typography variant="h6" color="white" className="font-orbitron">
                     Advanced Protection
                   </Typography>
                   <Typography variant="p" className="text-white leading-relaxed">
@@ -59,10 +59,10 @@ export default function Protection() {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <Typography variant="h4" color="white" className="font-orbitron">
+                  <Typography variant="h6" color="white" className="font-orbitron">
                     Superior Performance
                   </Typography>
-                  <Typography variant="p" className="text-white text-[12px] leading-relaxed">
+                  <Typography variant="p" className="text-white leading-relaxed">
                     Guaranteeing a seamless driving experience, our system is designed to perform exceptionally well in a variety of driving conditions, whether it's rain, snow, or bright sunshine.
                   </Typography>
                 </div>
@@ -73,7 +73,7 @@ export default function Protection() {
 
         {/* Bottom Bar */}
         <div className="mt-16 pt-10 border-t border-white/70 flex flex-col md:flex-row items-center justify-between gap-6" data-aos="fade-up" data-aos-delay="400">
-          <Typography variant="h3" color="white" className="text-[15px] md:text-[16px] leading-relaxed max-w-[70%] text-center md:text-left font-orbitron font-medium">
+          <Typography variant="h4" color="white" className="leading-relaxed max-w-[70%] text-center md:text-left font-orbitron font-medium">
             We are committed to delivering premium lubricants that combine advanced technology with dependable performance.
           </Typography>
           <div className="shrink-0 ">

@@ -1,19 +1,18 @@
 @import "tailwindcss";
 @import "aos/dist/aos.css";
 
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
 html,
 body {
   scroll-behavior: smooth;
-  -ms-overflow-style: none;
-  /* IE and Edge */
-  scrollbar-width: none;
-  /* Firefox */
-}
-
-/* Hide scrollbar for Chrome, Safari and Opera */
-html::-webkit-scrollbar,
-body::-webkit-scrollbar {
-  display: none;
 }
 
 :root {
@@ -50,7 +49,6 @@ body {
   color: transparent;
 }
 
-/* Custom container class with individual media queries for easy customization */
 .custom-container {
   width: 100%;
   margin-left: auto;
@@ -58,8 +56,44 @@ body {
 }
 
 .button-responsive {
-
   font-size: 13px !important;
+}
+
+/* Base Typography */
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.375rem;
+}
+
+h6 {
+  font-size: 1.25rem;
+}
+
+p,
+span,
+li,
+.navbar,
+.footer-body {
+  font-size: 1rem;
+}
+
+.footer-heading {
+  font-size: 1.125rem;
 }
 
 /* Mobile Portrait Screen (up to 480px) - Ratio 0.55x */
@@ -69,42 +103,39 @@ body {
   }
 
   h1 {
-    font-size: 1.65rem;
+    font-size: 1.238rem;
   }
 
   h2 {
-    font-size: 1.787rem;
+    font-size: 1.650rem;
   }
 
   h3 {
-    font-size: 0.825rem;
+    font-size: 0.963rem;
   }
 
   h4 {
-    font-size: 0.893rem;
+    font-size: 0.825rem;
   }
 
   h5 {
-    font-size: 1.237rem;
+    font-size: 0.756rem;
   }
 
   h6 {
-    font-size: 0.75rem;
+    font-size: 0.688rem;
   }
 
-  /* Clamped */
-  p {
-    font-size: 0.8125rem;
+  p,
+  span,
+  li,
+  .navbar,
+  .footer-body {
+    font-size: 0.77rem;
   }
 
-  /* Clamped */
-  span {
-    font-size: 0.8125rem;
-  }
-
-  /* Clamped */
-  li {
-    font-size: 0.8125rem;
+  .footer-heading {
+    font-size: 0.950rem;
   }
 }
 
@@ -115,42 +146,39 @@ body {
   }
 
   h1 {
-    font-size: 1.95rem;
+    font-size: 1.463rem;
   }
 
   h2 {
-    font-size: 2.112rem;
+    font-size: 1.950rem;
   }
 
   h3 {
-    font-size: 0.975rem;
+    font-size: 1.137rem;
   }
 
   h4 {
-    font-size: 1.056rem;
+    font-size: 0.975rem;
   }
 
   h5 {
-    font-size: 1.462rem;
+    font-size: 0.894rem;
   }
 
   h6 {
-    font-size: 0.75rem;
+    font-size: 0.813rem;
   }
 
-  /* Clamped */
-  p {
-    font-size: 0.8125rem;
-  }
-
-  /* Clamped */
-  span {
+  p,
+  span,
+  li,
+  .navbar,
+  .footer-body {
     font-size: 0.875rem;
   }
 
-  /* Clamped */
-  li {
-    font-size: 0.875rem;
+  .footer-heading {
+    font-size: 0.950rem;
   }
 }
 
@@ -161,152 +189,137 @@ body {
   }
 
   h1 {
-    font-size: 2.25rem;
+    font-size: 1.688rem;
   }
 
   h2 {
-    font-size: 2.437rem;
+    font-size: 2.250rem;
   }
 
   h3 {
-    font-size: 1.125rem;
+    font-size: 1.313rem;
   }
 
   h4 {
-    font-size: 1.218rem;
+    font-size: 1.125rem;
   }
 
   h5 {
-    font-size: 1.687rem;
+    font-size: 1.031rem;
   }
 
   h6 {
-    font-size: 0.75rem;
+    font-size: 0.938rem;
   }
 
-  p {
-    font-size: 0.843rem;
+  p,
+  span,
+  li,
+  .navbar,
+  .footer-body {
+    font-size: 0.875rem;
   }
 
-  span {
-    font-size: 0.907rem;
-  }
-
-  li {
-    font-size: 0.907rem;
-  }
-
-  .navbar {
-    font-size: 1.5rem !important;
+  .footer-heading {
+    font-size: 0.950rem;
   }
 
   .button-responsive {
-
     font-size: 14px !important;
     padding: 0.5rem;
   }
 }
 
-/* Laptop Screen (1024px - 1279px) - Ratio 0.85x */
+/* Laptop Screen (1024px - 1279px) - Ratio 1x */
 @media (min-width: 1024px) and (max-width: 1279px) {
   .custom-container {
     max-width: 90%;
   }
 
   h1 {
-    font-size: 2.4rem;
+    font-size: 2.250rem;
   }
 
   h2 {
-    font-size: 2.3rem;
+    font-size: 3.000rem;
   }
 
   h3 {
-    font-size: 1.275rem;
+    font-size: 1.750rem;
   }
 
   h4 {
-    font-size: 1.381rem;
+    font-size: 1.500rem;
   }
 
   h5 {
-    font-size: 1.912rem;
+    font-size: 1.375rem;
   }
 
   h6 {
-    font-size: 0.85rem;
+    font-size: 1.250rem;
   }
 
-  p {
-    font-size: 0.956rem;
+  p,
+  span,
+  li,
+  .navbar,
+  .footer-body {
+    font-size: 1.000rem;
   }
 
-  span {
-    font-size: 1.028rem;
-  }
-
-  li {
-    font-size: 0.935rem;
-  }
-
-  .navbar {
-    font-size: 1rem;
+  .footer-heading {
+    font-size: 1.125rem;
   }
 
   .button-responsive {
-
     font-size: 15px !important;
     padding: 0.3rem;
   }
 }
 
-/* Desktop PC Screen (1280px - 1535px) - Ratio 0.95x */
+/* Desktop PC Screen (1280px - 1535px) - Ratio 1x */
 @media (min-width: 1280px) and (max-width: 1535px) {
   .custom-container {
     max-width: 90%;
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.250rem;
   }
 
   h2 {
-    font-size: 2.4rem;
+    font-size: 3.000rem;
   }
 
   h3 {
-    font-size: 1.42rem;
+    font-size: 1.750rem;
   }
 
   h4 {
-    font-size: 1.5rem;
+    font-size: 1.500rem;
   }
 
   h5 {
-    font-size: 2.13rem;
+    font-size: 1.375rem;
   }
 
   h6 {
-    font-size: 0.95rem;
+    font-size: 1.250rem;
   }
 
-  p {
-    font-size: 1.068rem;
+  p,
+  span,
+  li,
+  .navbar,
+  .footer-body {
+    font-size: 1.000rem;
   }
 
-  span {
-    font-size: 1.149rem;
+  .footer-heading {
+    font-size: 1.125rem;
   }
 
-  li {
-    font-size: 1.045rem;
-  }
-
-  .navbar {
-    font-size: 1rem;
-  }
-
-  /* Swiper Custom Pagination */
   .custom-swiper-pagination {
     display: flex;
     justify-content: center;
@@ -340,103 +353,94 @@ body {
   }
 }
 
-/* Large Desktop PC Screen (1536px - 1919px) - Ratio 1.0x (THE BASE) */
+/* Large Desktop PC Screen (1536px - 1919px) - THE BASE - Ratio 1x */
 @media (min-width: 1536px) and (max-width: 1919px) {
   .custom-container {
     max-width: 90%;
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.250rem;
   }
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 3.000rem;
   }
 
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.750rem;
   }
 
   h4 {
-    font-size: 1.6rem;
+    font-size: 1.500rem;
   }
 
   h5 {
-    font-size: 2.25rem;
+    font-size: 1.375rem;
   }
 
   h6 {
-    font-size: 1rem;
+    font-size: 1.250rem;
   }
 
-  p {
-    font-size: 1rem;
+  p,
+  span,
+  li,
+  .navbar,
+  .footer-body {
+    font-size: 1.000rem;
   }
 
-  span {
-    font-size: 1rem;
-  }
-
-  li {
-    font-size: 1.1rem;
-  }
-
-  .navbar {
-    font-size: 1rem;
+  .footer-heading {
+    font-size: 1.125rem;
   }
 
   .button-responsive {
-
     font-size: 18px !important;
     padding: 0.7rem;
   }
 }
 
-/* Extra Large PC / 2K Screen (1920px - 2499px) - Ratio 1.3x */
+/* Extra Large PC / 2K Screen (1920px - 2499px) - Ratio 1x */
 @media (min-width: 1920px) and (max-width: 2499px) {
   .custom-container {
     max-width: 90%;
   }
 
   h1 {
-    font-size: 2.29rem;
+    font-size: 2.250rem;
   }
 
   h2 {
-    font-size: 3.0rem !important;
+    font-size: 3.000rem;
   }
 
   h3 {
-    font-size: 1.755rem;
+    font-size: 1.750rem;
   }
 
   h4 {
-    font-size: 1.15rem;
+    font-size: 1.500rem;
   }
 
   h5 {
-    font-size: 2.3rem;
+    font-size: 1.375rem;
   }
 
   h6 {
-    font-size: 1rem;
+    font-size: 1.250rem;
   }
 
-  p {
-    font-size: 1rem;
+  p,
+  span,
+  li,
+  .navbar,
+  .footer-body {
+    font-size: 1.000rem;
   }
 
-  span {
-    font-size: 1.1rem;
-  }
-
-  li {
-    font-size: 1.1rem;
-  }
-
-  .navbar {
-    font-size: 1rem !important;
+  .footer-heading {
+    font-size: 1.125rem;
   }
 
   .sub-title {
@@ -444,7 +448,6 @@ body {
   }
 
   .button-responsive {
-
     font-size: 18px !important;
     padding: 0.8rem;
   }
@@ -457,105 +460,91 @@ body {
   }
 
   h1 {
-    font-size: 3.6rem;
+    font-size: 3.825rem;
   }
 
   h2 {
-    font-size: 3.5rem;
+    font-size: 5.100rem;
   }
 
   h3 {
-    font-size: 2rem;
+    font-size: 2.975rem;
   }
 
   h4 {
-    font-size: 2rem;
+    font-size: 2.550rem;
   }
 
   h5 {
-    font-size: 2.5rem;
+    font-size: 2.337rem;
   }
 
   h6 {
-    font-size: 1.3rem;
+    font-size: 2.125rem;
   }
 
-  p {
-    font-size: 1.5rem !important;
+  p,
+  span,
+  li,
+  .navbar,
+  .footer-body {
+    font-size: 1.700rem;
   }
 
-  span {
-    font-size: 1.4rem;
-  }
-
-  li {
-    font-size: 1.4rem;
-  }
-
-  a {
-    font-size: 1.3rem !important;
+  .footer-heading {
+    font-size: 1.912rem;
   }
 
   .copyright {
     font-size: 1.5rem !important;
   }
 
-  .navbar {
-    font-size: 1.7rem;
-  }
-
   .button-responsive {
-
     font-size: 1.3rem !important;
     padding: 0.7rem;
-
   }
 }
 
-/* 4K Ultra-wide Screen / Max Cover (3800px and above) - Ratio ~1.3x */
+/* 4K Ultra-wide Screen / Max Cover (3800px and above) - Ratio 2x */
 @media (min-width: 3800px) {
   .custom-container {
     max-width: 90%;
   }
 
   h1 {
-    font-size: 5rem;
+    font-size: 4.500rem;
   }
 
   h2 {
-    font-size: 4rem;
+    font-size: 6.000rem;
   }
 
   h3 {
-    font-size: 2rem;
+    font-size: 3.500rem;
   }
 
   h4 {
-    font-size: 3.3rem;
+    font-size: 3.000rem;
   }
 
   h5 {
-    font-size: 3rem;
+    font-size: 2.750rem;
   }
 
   h6 {
-    font-size: 2rem;
+    font-size: 2.500rem;
   }
 
-  p {
-    font-size: 2rem;
+  p,
+  span,
+  li,
+  .navbar,
+  .footer-body {
+    font-size: 2.000rem;
   }
 
-  span {
-    font-size: 1.3rem;
-  }
-
-  li {
-    font-size: 1.43rem;
-  }
-
-  a {
-    font-size: 1.43rem;
+  .footer-heading {
+    font-size: 2.250rem;
   }
 
   .button-responsive {

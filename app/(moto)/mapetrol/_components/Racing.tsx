@@ -26,24 +26,24 @@ export default function Racing() {
 
           {/* Right: Content */}
           <div className="w-full xl:w-1/2 flex flex-col justify-center space-y-6 order-1 xl:order-2" data-aos="fade-left" data-aos-delay="200">
-            <Typography variant="h3" color="white" weight="semibold" className="leading-tight font-orbitron tracking-wide font-medium text-[24px] md:text-[32px]">
+            <Typography variant="h3" color="white" weight="semibold" className="leading-tight font-orbitron tracking-wide font-medium">
               Mapetrol & Lema Racing Powering The AMG GT4
             </Typography>
 
-            <Typography variant="p" className="text-white/60 font-orbitron text-[14px] md:text-[16px] font-medium">
+            <Typography variant="p" className="text-white/60 font-orbitron font-medium">
               Unstoppable performance on the racetrack
             </Typography>
 
-            <Typography variant="p" className="text-white text-[13px] leading-relaxed">
+            <Typography variant="p" className="text-white leading-relaxed">
               By reducing engine wear, this technology significantly prolongs the lifespan of various components, ensuring they operate efficiently for a longer period. This not only enhances performance but also leads to lower maintenance costs over time.
             </Typography>
 
-            <Typography variant="p" className="text-white text-[13px] leading-relaxed">
+            <Typography variant="p" className="text-white leading-relaxed">
               By providing lubricants and oils specifically designed for racing, we help the racing team achieve the best results on the track. We support a talented young driver who is currently competing in the World Series Karting and a five-time freestyle stunt champion.
             </Typography>
 
             <div className=" my-2">
-              <Typography variant="p" className="text-white/60 tracking-wider text-[14px] leading-relaxed font-orbitron">
+              <Typography variant="p" className="text-white/60 tracking-wider leading-relaxed font-orbitron">
                 "Motorsports has always been our passion, so we support talented drivers in pursuing this passion."
               </Typography>
             </div>
@@ -63,7 +63,7 @@ export default function Racing() {
             "Fast and reliable\nlogistics support"
           ].map((text, i) => (
             <div key={i} className="bg-[#484848] rounded-[12px] p-6 md:p-8 flex items-center justify-center text-center hover:bg-[#555] transition-colors cursor-pointer">
-              <Typography variant="h4" color="white" className="font-orbitron font-medium whitespace-pre-line text-[13px] md:text-[15px] leading-relaxed">
+              <Typography variant="h4" color="white" weight="normal" className="font-orbitron font-medium whitespace-pre-line leading-relaxed">
                 {text}
               </Typography>
             </div>

@@ -33,7 +33,7 @@ export default function Products() {
           <Typography variant="h3" color="white" className="font-orbitron font-medium tracking-wide">
             Our Most Popular Products
           </Typography>
-          <Typography variant="p" className="text-white text-[14px]">
+          <Typography variant="p" className="text-white">
             Our equipment and professional staff are ready to take care of your order.
           </Typography>
         </div>
