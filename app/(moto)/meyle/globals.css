@@ -94,10 +94,9 @@ span {
   font-size: 1.1875rem;
   /* 19px */
   font-family: var(--font-oswald);
-  font-weight: 700;
-  text-transform: uppercase;
+  font-weight: 600;
   color: white;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.02em;
 }
 
 .footer-body {
@@ -364,11 +363,11 @@ span {
   }
 
   .footer-heading {
-    font-size: 1.3125rem;
+    font-size: 1.125rem;
   }
 
   .footer-body {
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
 }
 

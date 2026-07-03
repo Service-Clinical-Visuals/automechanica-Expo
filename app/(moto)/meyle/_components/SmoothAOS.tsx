@@ -8,7 +8,7 @@ import "aos/dist/aos.css";
 export default function SmoothAOS() {
   useEffect(() => {
     const lenis = new Lenis({
-      lerp: 0.08,
+      lerp: 0.10,
       smoothWheel: true,
     });
 

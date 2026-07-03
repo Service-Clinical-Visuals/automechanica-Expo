@@ -23,7 +23,7 @@ export default function Solutions() {
   ];
 
   return (
-    <section className="relative w-full py-16 md:py-30 bg-[var(--color-primary)] overflow-hidden" id="solutions">
+    <section className="relative w-full py-16 md:py-20 bg-[var(--color-primary)] overflow-hidden" id="solutions">
       <div className="custom-container relative z-10 flex flex-col">
 
         {/* Main Layout Grid - Stacks until 2xl */}

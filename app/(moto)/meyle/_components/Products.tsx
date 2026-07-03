@@ -24,7 +24,7 @@ export default function Products() {
   ];
 
   return (
-    <section className="relative w-full bg-white py-16 md:py-24" id="products">
+    <section className="relative w-full bg-white py-16 md:py-15" id="products">
       <div className="custom-container">
 
         {/* Section Header */}

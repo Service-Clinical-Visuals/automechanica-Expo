@@ -23,10 +23,10 @@ export default function Footer() {
 
   return (
     <footer className="bg-[var(--color-primary)] pt-16 pb-8 border-t border-white/10" id="contact">
-      <div className="custom-container">
+      <div className="custom-container" data-aos="fade-up">
 
         {/* Top Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-6 items-start" data-aos="fade-up">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-6 items-start" >
 
           {/* Col 1: Logo & Info */}
           <div className="lg:col-span-3 flex flex-col gap-4">
@@ -42,7 +42,7 @@ export default function Footer() {
 
           {/* Col 2: Quick Links */}
           <div className="lg:col-span-2 flex flex-col">
-            <div className="footer-heading font-oswald tracking-tight font-bold text-white mb-6">
+            <div className="footer-heading font-oswald tracking-tight text-white mb-6">
               Quick Links
             </div>
             <ul className="flex flex-col gap-3">
@@ -98,16 +98,16 @@ export default function Footer() {
               Social Media Links
             </div>
             <div className="flex gap-3">
-              <a href="#" className="w-9 h-9 rounded-full bg-[#7CA2C4] flex items-center justify-center hover:bg-white hover:text-[#7CA2C4] transition-colors text-white">
+              <a href="#" className="w-9 h-9 rounded-full bg-[#86BCE6] flex items-center justify-center hover:bg-white hover:text-[#7CA2C4] transition-colors text-white">
                 <Linkedin size={18} fill="currentColor" />
               </a>
-              <a href="#" className="w-9 h-9 rounded-full bg-[#7CA2C4] flex items-center justify-center hover:bg-white hover:text-[#7CA2C4] transition-colors text-white">
+              <a href="#" className="w-9 h-9 rounded-full bg-[#86BCE6] flex items-center justify-center hover:bg-white hover:text-[#7CA2C4] transition-colors text-white">
                 <Instagram size={18} />
               </a>
-              <a href="#" className="w-9 h-9 rounded-full bg-[#7CA2C4] flex items-center justify-center hover:bg-white hover:text-[#7CA2C4] transition-colors text-white">
+              <a href="#" className="w-9 h-9 rounded-full bg-[#86BCE6] flex items-center justify-center hover:bg-white hover:text-[#7CA2C4] transition-colors text-white">
                 <Facebook size={18} fill="currentColor" />
               </a>
-              <a href="#" className="w-9 h-9 rounded-full bg-[#7CA2C4] flex items-center justify-center hover:bg-white hover:text-[#7CA2C4] transition-colors text-white">
+              <a href="#" className="w-9 h-9 rounded-full bg-[#86BCE6] flex items-center justify-center hover:bg-white hover:text-[#7CA2C4] transition-colors text-white">
                 <Youtube size={18} />
               </a>
             </div>
@@ -116,10 +116,10 @@ export default function Footer() {
         </div>
 
         {/* Separator */}
-        <hr className="w-full border-t border-white/20 mt-16 mb-6" data-aos="fade-up" data-aos-delay="200" />
+        <hr className="w-full border-t border-white/20 mt-16 mb-6" />
 
         {/* Bottom Section */}
-        <div className="text-center" data-aos="fade-up" data-aos-delay="300">
+        <div className="text-center" >
           <div className="footer-body font-lato text-white">
             InterCar S.p.A. - Via Bonfadina, 2/4 - 25046 Cazzago San Martino (BS) - Italy - C.F. 00300510179 - P.I.00552580987 - Copyright 2026 ©
           </div>

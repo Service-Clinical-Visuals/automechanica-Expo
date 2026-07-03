@@ -3,6 +3,7 @@ import "./globals.css";
 import { VideoProvider } from "@/app/_context/VideoContext";
 
 import { Oswald, Lato } from "next/font/google";
+import SmoothAOS from "./_components/SmoothAOS";
 
 const oswald = Oswald({
   subsets: ["latin"],
@@ -29,9 +30,9 @@ export default function PetrovollLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className={`magma-root ${oswald.variable} ${lato.variable} min-h-screen bg-white font-sans antialiased overflow-x-hidden relative w-full`}>
-
-      <VideoProvider website="magma-brakes">
+    <div className={`meyle-root ${oswald.variable} ${lato.variable} min-h-screen bg-white font-sans antialiased overflow-x-hidden relative w-full`}>
+      <SmoothAOS />
+      <VideoProvider >
         {children}
       </VideoProvider>
     </div>

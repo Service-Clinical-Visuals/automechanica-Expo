@@ -27,7 +27,7 @@ export default function Superior() {
   ];
 
   return (
-    <section className="relative w-full py-16 md:py-24 bg-[var(--color-primary)] overflow-hidden">
+    <section className="relative w-full py-16 md:py-20 bg-[var(--color-primary)] overflow-hidden">
       <div className="custom-container relative z-10 flex flex-col">
         {/* Top Header Section */}
         <div className="w-full flex flex-row justify-between items-center gap-6 lg:gap-12 text-left mb-8" data-aos="fade-up">

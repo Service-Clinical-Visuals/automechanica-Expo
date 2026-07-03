@@ -5,7 +5,7 @@ import Typography from "./Typography";
 
 export default function Partner() {
   return (
-    <section className="relative w-full py-16 md:py-24 bg-white">
+    <section className="relative w-full py-16 md:py-18 bg-white">
       <div className="custom-container flex flex-col items-center">
         {/* Top Header Section */}
         <div className="w-full flex flex-col text-center mb-10 md:mb-16" data-aos="fade-up">

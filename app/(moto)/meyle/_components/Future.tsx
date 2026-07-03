@@ -6,7 +6,7 @@ import Button from "./Button";
 
 export default function Future() {
   return (
-    <section className="w-full py-16 md:py-24 bg-[var(--color-background)] relative" id="sustainability">
+    <section className="w-full py-16 md:py-15 bg-[var(--color-background)] relative" id="sustainability">
       <div className="custom-container flex flex-col items-center">
 
         {/* Header Text */}
