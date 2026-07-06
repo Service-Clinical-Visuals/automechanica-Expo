@@ -17,7 +17,7 @@ export default function Footer() {
             <Link href="#" className="mb-8">
               <img src="/moto/bbt/logo1.png" alt="BBT Logo" className="w-[200px] h-auto object-contain" />
             </Link>
-            <p className="linkheadings font-medium oswald-font  mb-4">Social Links</p>
+            <p className="linkheadings font-medium oswald-font  mb-4">Social</p>
             <Link href="#" className="w-10 h-10 bg-white rounded flex items-center justify-center hover:bg-gray-200 transition-colors">
               <img src="/moto/bbt/insta.png" alt="Instagram" className="w-7 h-7 object-contain" />
             </Link>
