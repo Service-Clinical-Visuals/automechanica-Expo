@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import Link from 'next/link';
 import { ArrowUpRight, ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -79,6 +79,25 @@ export default function ProductRange() {
     if (newIndex > products.length - 1) newIndex = products.length - 1;
     scrollTo(newIndex);
   };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveIndex((prevIndex) => {
+        const nextIndex = prevIndex >= products.length - 1 ? 0 : prevIndex + 1;
+        if (scrollRef.current && scrollRef.current.children.length > 0) {
+          const cardWidth = scrollRef.current.children[0].clientWidth;
+          const gap = 24;
+          scrollRef.current.scrollTo({
+            left: nextIndex * (cardWidth + gap),
+            behavior: 'smooth'
+          });
+        }
+        return nextIndex;
+      });
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, [products.length]);
 
   return (
     <section className="w-full bg-white py-16 md:py-24 overflow-hidden relative">

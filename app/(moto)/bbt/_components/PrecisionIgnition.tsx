@@ -15,7 +15,7 @@ export default function PrecisionIgnition() {
         <div className="grid grid-cols-1 xl:grid-cols-12 gap-6 xl:gap-10 items-center mb-6 md:mb-10">
           
           {/* Left Column: Text & Cards */}
-          <div className="xl:col-span-4" data-aos="fade-right">
+          <div className="xl:col-span-6 2xl:col-span-4" data-aos="fade-right">
             <h2 className="section-title font-medium oswald-font mb-6 leading-tight">
               Precision Ignition Technology
             </h2>
@@ -51,7 +51,7 @@ export default function PrecisionIgnition() {
           </div>
 
           {/* Right Column: Video / Image Placeholder */}
-          <div className="xl:col-span-8 relative w-full aspect-video rounded-2xl overflow-hidden" data-aos="fade-left">
+          <div className="xl:col-span-6 2xl:col-span-8 relative w-full aspect-video rounded-2xl overflow-hidden" data-aos="fade-left">
          
             
             {/* Video Player */}

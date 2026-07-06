@@ -51,7 +51,7 @@ export default function Header() {
               <Link
                 key={link.name}
                 href={link.href}
-                className={`header-link transition-colors py-2 whitespace-nowrap ${
+                className={`header-link transition-colors py-2 whitespace-nowrap oswald ${
                   link.active
                     ? "text-white underline underline-offset-4 border-white font-medium"
                     : "text-gray-200 hover:text-white font-semobold hover:underline underline-offset-4 "
@@ -99,8 +99,8 @@ export default function Header() {
                 onClick={() => setIsMobileMenuOpen(false)}
                 className={`block px-6 py-4 border-b border-blue-800 last:border-0 ${
                   link.active
-                    ? "text-white font-bold"
-                    : "text-gray-200 hover:text-white font-medium"
+                    ? "text-white font-medium oswald"
+                    : "text-gray-200 hover:text-white font-medium oswald"
                 }`}
               >
                 {link.name}

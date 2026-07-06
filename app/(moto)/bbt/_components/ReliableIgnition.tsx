@@ -52,7 +52,7 @@ export default function ReliableIgnition() {
         <hr className="border-t border-white mb-6 md:mb-10" />
 
         {/* Bottom Section */}
-        <div className="flex flex-col md:flex-row justify-between items-end gap-8" data-aos="fade-up">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-8" data-aos="fade-up">
           <div className="max-w-6xl">
             <h2 className="section-title font-medium oswald-font mb-6 leading-tight">
               Powering Every Spark with Precision

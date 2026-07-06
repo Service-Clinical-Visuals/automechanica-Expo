@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="custom-container">
         
         {/* Footer Top Section */}
-        <div className="grid grid-cols-2 xl:grid-cols-12 gap-8 gap-y-10 xl:gap-8 mb-10">
+        <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-12 gap-8 gap-y-10 xl:gap-8 mb-10">
           
           {/* Column 1: Logo & Socials */}
           <div className="flex flex-col col-span-2 md:col-span-1 xl:col-span-3">
@@ -55,7 +55,7 @@ export default function Footer() {
           </div>
 
           {/* Column 4: Links */}
-          <div className="flex flex-col col-span-2 md:col-span-1 xl:col-span-1 whitespace-nowrap xl:mr-2">
+          <div className="flex flex-col col-span-1 whitespace-nowrap xl:mr-2">
             <h4 className="font-medium oswald-font linkheadings mb-4">Links</h4>
             <nav className="flex flex-col space-y-2 lato-font text-white font-normal footer-links">
               <Link href="#" className="text-white hover:font-semibold transition-colors">Imprint</Link>
@@ -64,20 +64,20 @@ export default function Footer() {
           </div>
 
           {/* Column 5: Newsletter */}
-          <div className="flex flex-col col-span-2 xl:col-span-4 xl:ml-4">
+          <div className="flex flex-col col-span-1 md:col-span-2 xl:col-span-4 xl:ml-4 ">
             <h4 className="font-medium oswald-font linkheadings mb-6">Subscribe For More Information</h4>
             <p className="oswald-font text-white font-normal footer-links leading-[1.6] mb-6">
               Stay informed with the latest product launches, industry news, technical updates, and innovations from bbt-automotive
             </p>
-            <form className="flex w-full bg-white rounded-lg p-1" onSubmit={(e) => e.preventDefault()}>
+            <form className="flex w-full sm:w-fit bg-white rounded-lg p-1" onSubmit={(e) => e.preventDefault()}>
               <input 
                 type="email" 
                 placeholder="Email Address..." 
-                className="flex-1 bg-transparent border-none outline-none text-[#333333] px-3 py-1.5 lato-font footer-links"
+                className="w-full min-w-0 sm:w-[250px] xl:w-[280px] bg-transparent border-none outline-none text-[#333333] px-2 sm:px-3 py-1.5 oswald-font footer-links"
                 required
               />
-              <button type="submit" className="bg-[#0c3274] w-10 h-10 rounded flex items-center justify-center text-white hover:bg-blue-800 transition-colors flex-shrink-0">
-                <ArrowRight size={18} strokeWidth={2} />
+              <button type="submit" className="bg-[#0c3274] w-8 h-8 sm:w-10 sm:h-10 rounded flex items-center justify-center text-white hover:bg-blue-800 transition-colors flex-shrink-0">
+                <ArrowRight className="w-4 h-4 sm:w-[18px] sm:h-[18px]" strokeWidth={2} />
               </button>
             </form>
           </div>

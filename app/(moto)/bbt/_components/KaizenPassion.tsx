@@ -42,7 +42,7 @@ export default function KaizenPassion() {
         <hr className="border-t border-gray-300 mb-16 md:mb-10" />
 
         {/* Bottom Section */}
-        <div className="flex flex-col md:flex-row justify-between items-end gap-8" data-aos="fade-up">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-8" data-aos="fade-up">
           <div className="max-w-6xl">
             <h2 className="section-title font-medium oswald-font text-[#0c3274] mb-4 leading-tight">
               We are innovative, active, proactive and digital.
