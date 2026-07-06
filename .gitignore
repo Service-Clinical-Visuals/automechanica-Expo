@@ -42,3 +42,7 @@ next-env.d.ts
 
 #remove
 .claude/
+
+
+#playwright claude files
+.playwright-mcp
