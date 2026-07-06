@@ -43,7 +43,7 @@ export default function KaizenPassion() {
 
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-end gap-8" data-aos="fade-up">
-          <div className="max-w-5xl">
+          <div className="max-w-6xl">
             <h2 className="section-title font-medium oswald-font text-[#0c3274] mb-4 leading-tight">
               We are innovative, active, proactive and digital.
             </h2>

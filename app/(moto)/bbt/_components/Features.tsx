@@ -23,7 +23,7 @@ export default function Features() {
 
   return (
     <div className="w-full ">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-10">
           
           {features.map((feature, index) => (
             <div 

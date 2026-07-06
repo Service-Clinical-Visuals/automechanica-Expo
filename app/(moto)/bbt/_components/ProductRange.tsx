@@ -85,7 +85,7 @@ export default function ProductRange() {
       <div className="custom-container relative">
         
         {/* Header */}
-        <div className="max-w-5xl mx-auto text-center mb-10 md:mb-14" data-aos="fade-up">
+        <div className="max-w-6xl mx-auto text-center mb-10 md:mb-14" data-aos="fade-up">
           <h2 className="section-title font-medium oswald-font text-[#0c3274] mb-4">
             Our Product Range
           </h2>

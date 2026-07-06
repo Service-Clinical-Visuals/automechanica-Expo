@@ -67,7 +67,7 @@ export default function PrecisionIgnition() {
         <hr className="border-t border-white mb-6 md:mb-10" />
 
         {/* Bottom Section */}
-        <div className="max-w-4xl mx-auto text-center" data-aos="fade-up">
+        <div className="max-w-3xl mx-auto text-center" data-aos="fade-up">
           <h2 className="section-title font-medium oswald-font mb-6 leading-tight">
             Reliable Spark, Every Drive
           </h2>

@@ -15,10 +15,10 @@ export default function Footer() {
           {/* Column 1: Logo & Socials */}
           <div className="flex flex-col col-span-2 md:col-span-1 xl:col-span-3">
             <Link href="#" className="mb-8">
-              <img src="/moto/bbt/logo1.png" alt="BBT Logo" className="w-[200px] h-auto object-contain" />
+              <img src="/moto/bbt/logo1.png" alt="BBT Logo" className="w-[230px] h-auto object-contain" />
             </Link>
-            <p className="linkheadings font-medium oswald-font  mb-4">Social</p>
-            <Link href="#" className="w-10 h-10 bg-white rounded flex items-center justify-center hover:bg-gray-200 transition-colors">
+            <p className="linkheadings font-medium oswald-font  mb-3">Social</p>
+            <Link href="#" className="w-10 h-10 bg-white rounded-lg flex items-center justify-center hover:bg-gray-200 transition-colors">
               <img src="/moto/bbt/insta.png" alt="Instagram" className="w-7 h-7 object-contain" />
             </Link>
           </div>
@@ -55,7 +55,7 @@ export default function Footer() {
           </div>
 
           {/* Column 4: Links */}
-          <div className="flex flex-col col-span-2 md:col-span-1 xl:col-span-2 whitespace-nowrap">
+          <div className="flex flex-col col-span-2 md:col-span-1 xl:col-span-1 whitespace-nowrap xl:mr-2">
             <h4 className="font-medium oswald-font linkheadings mb-4">Links</h4>
             <nav className="flex flex-col space-y-2 lato-font text-white font-normal footer-links">
               <Link href="#" className="text-white hover:font-semibold transition-colors">Imprint</Link>
@@ -64,9 +64,9 @@ export default function Footer() {
           </div>
 
           {/* Column 5: Newsletter */}
-          <div className="flex flex-col col-span-2 xl:col-span-3">
+          <div className="flex flex-col col-span-2 xl:col-span-4 xl:ml-4">
             <h4 className="font-medium oswald-font linkheadings mb-6">Subscribe For More Information</h4>
-            <p className="lato-font text-white font-normal footer-links leading-[1.6] mb-6">
+            <p className="oswald-font text-white font-normal footer-links leading-[1.6] mb-6">
               Stay informed with the latest product launches, industry news, technical updates, and innovations from bbt-automotive
             </p>
             <form className="flex w-full bg-white rounded-lg p-1" onSubmit={(e) => e.preventDefault()}>

@@ -19,7 +19,7 @@ export default function Button({
   onClick
 }: ButtonProps) {
   
-  const baseClasses = "group inline-flex items-center justify-center gap-3 px-4 py-1.5 font-medium btn-text transition-all oswald";
+  const baseClasses = "group inline-flex items-center justify-center gap-5 px-8 py-1.5 font-medium btn-text transition-all oswald";
   
   let variantClasses = "";
   let iconFilter = "";

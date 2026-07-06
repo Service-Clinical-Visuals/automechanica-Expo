@@ -62,8 +62,9 @@ export default function AboutUs() {
             {/* Bullet Points */}
             <div className="space-y-4 mb-10 w-full">
               {bulletPoints.map((point, index) => (
-                <div key={index} className="flex items-start gap-3">
-                  <CheckCircle2 className="w-7 h-7 text-[#0c3274] fill-[#0c3274] text-white flex-shrink-0 mt-1" strokeWidth={2} />
+                <div key={index} className="flex items-center gap-3">
+               
+                  <img src='/moto/bbt/tick.png' className='size-5 mt-1'></img>
                   <p className="lato-font text-[#333333] section-text font-medium">
                     <span className="font-medium">{point.title}</span> – {point.description}
                   </p>
