@@ -1,36 +1,38 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { VideoProvider } from "@/app/_context/VideoContext";
+import SmoothAOS from "./_components/SmoothAOS";
+import { Exo_2, Poppins } from "next/font/google";
 
-import { Oswald, Teko } from "next/font/google";
-
-const oswald = Oswald({
+const exo2 = Exo_2({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-oswald",
+  variable: "--font-exo",
   display: "swap",
 });
 
-const teko = Teko({
+const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-teko",
+  variable: "--font-poppins",
   display: "swap",
 });
+
+
 
 export const metadata: Metadata = {
-  title: "Magma Brakes | High Performance Brake Systems",
-  description: "Advanced high performance brake systems for automotive and industrial markets.",
+  title: "EFI Aftermarket",
+  description: "",
 };
 
-export default function PetrovollLayout({
+export default function EFIAftermarketLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <div className={`abs-root ${oswald.variable} ${teko.variable} min-h-screen bg-white font-sans antialiased overflow-x-hidden relative w-full`}>
-
+    <div className={`efi-aftermarket-root ${exo2.variable} ${poppins.variable} min-h-screen bg-white font-sans antialiased overflow-x-hidden relative w-full`}>
+      <SmoothAOS />
       <VideoProvider >
         {children}
       </VideoProvider>

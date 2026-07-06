@@ -31,7 +31,7 @@ export default function Efficiency() {
           
           {/* Left: Video Player */}
           <div 
-            className="relative w-full aspect-video rounded-2xl overflow-hidden  shadow-xl flex items-center justify-center"
+            className="order-2 xl:order-1 relative w-full aspect-video rounded-2xl overflow-hidden  shadow-xl flex items-center justify-center"
             data-aos="fade-right"
           >
             <DynamicVideoPlayer
@@ -42,7 +42,7 @@ export default function Efficiency() {
           </div>
 
           {/* Right: Text Content */}
-          <div data-aos="fade-left" className="flex flex-col items-start">
+          <div data-aos="fade-left" className="flex flex-col items-start order-1 xl:order-2">
             <h2 className="section-title text-[var(--color-primary)] font-medium oswald mb-6">
               Efficiency Through Innovation
             </h2>
@@ -55,7 +55,7 @@ export default function Efficiency() {
             </p>
 
             {/* Action Button */}
-            <Button text="Explore Products" className="border-[var(--color-primary)]" />
+            <Button text="Explore Products"  />
           </div>
 
         </div>

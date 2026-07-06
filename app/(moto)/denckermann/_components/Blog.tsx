@@ -47,7 +47,7 @@ export default function Blog() {
           
           <div data-aos="fade-left">
             {/* Action Button */}
-            <Button text="View All News" className="border-[var(--color-primary)] shrink-0" />
+            <Button text="View All News" />
           </div>
         </div>
 

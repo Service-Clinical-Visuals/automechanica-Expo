@@ -22,7 +22,7 @@ export default function Banner() {
             A Comprehensive Supplier Of Auto<br className="hidden md:block"/> Parts For Professionals
           </h1>
           
-          <Button text="Explore Products" className="border-white/30" />
+          <Button text="Explore Products"  />
         </div>
       </div>
     </section>

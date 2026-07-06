@@ -63,17 +63,17 @@ export default function Footer() {
 
             {/* Social Icons */}
             <div className="flex items-center gap-3 mt-4">
-              <Link href="#" className="hover:opacity-80 transition-opacity">
-                <Image src="/moto/denckermann/fb.png" alt="Facebook" width={32} height={32} className="object-contain" />
+              <Link href="#" className=" transition-opacity">
+                <img src="/moto/denckermann/fb.png" alt="Facebook" className="object-contain hover:scale-110 transition-opacity" />
               </Link>
-              <Link href="#" className="hover:opacity-80 transition-opacity">
-                <Image src="/moto/denckermann/insta.png" alt="Instagram" width={32} height={32} className="object-contain" />
+              <Link href="#" className=" transition-opacity">
+                <img src="/moto/denckermann/insta.png" alt="Instagram" className="object-contain hover:scale-110" />
               </Link>
-              <Link href="#" className="hover:opacity-80 transition-opacity">
-                <Image src="/moto/denckermann/in.png" alt="LinkedIn" width={32} height={32} className="object-contain" />
+              <Link href="#" className="transition-opacity">
+                <img src="/moto/denckermann/in.png" alt="LinkedIn" className="object-contain hover:scale-110" />
               </Link>
-              <Link href="#" className="hover:opacity-80 transition-opacity">
-                <Image src="/moto/denckermann/you.png" alt="YouTube" width={32} height={32} className="object-contain" />
+              <Link href="#" className="transition-opacity">
+                <img src="/moto/denckermann/you.png" alt="YouTube" className="object-contain hover:scale-110" />
               </Link>
             </div>
           </div>
