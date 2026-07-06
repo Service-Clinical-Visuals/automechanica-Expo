@@ -7,15 +7,15 @@ import Container from "./Container";
 
 const AboutUs = () => {
   return (
-    <section id="about" className="py-20 md:py-15 bg-[#F8F9FA] ">
+    <section id="about" className="py-20 md:py-20 bg-[#F8F9FA] ">
       <Container>
         {/* Section Heading */}
-        <div className="flex flex-col items-center justify-center text-center mb-16" data-aos="fade-up">
-          <div className="relative inline-block mb-4">
+        <div className="flex flex-col items-center justify-center text-center " data-aos="fade-up">
+          <div className="relative inline-block mb-10">
             <Typography variant="h2" color="primary" className="font-semibold text-[var(--color-secondary)]">
               About Us
             </Typography>
-            <div className="absolute -left-4 md:-left-6 -bottom-2 w-16 md:w-20 h-1 rounded-xl bg-[var(--color-primary)]"></div>
+            <div className="absolute -left-4 md:-left-6 -bottom-1 w-16 md:w-20 h-1 rounded-xl bg-[var(--color-primary)]"></div>
           </div>
         </div>
 

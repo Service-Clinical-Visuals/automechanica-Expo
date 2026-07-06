@@ -74,12 +74,12 @@ const Products = () => {
     <section id="products" className="py-10 md:py-15 bg-[#F8F9FA]">
       <Container>
         {/* Section Heading */}
-        <div className="flex flex-col items-center justify-center text-center mb-8 md:mb-8" data-aos="fade-up">
-          <div className="relative inline-block mb-4">
+        <div className="flex flex-col items-center justify-center text-center mb-10" data-aos="fade-up">
+          <div className="relative inline-block mb-8">
             <Typography variant="h2" color="dark" className="font-semibold">
               Our Product Range
             </Typography>
-            <div className="absolute -left-4 md:-left-6 -bottom-2 w-16 md:w-20 h-1 rounded-xl bg-[var(--color-primary)]"></div>
+            <div className="absolute -left-4 md:-left-6 -bottom-1 w-16 md:w-20 h-1 rounded-xl bg-[var(--color-primary)]"></div>
           </div>
           <Typography variant="p" color="dark" className="max-w-[70%] text-black mx-auto text-center leading-relaxed">
             Our products improve passengers' comfort and safety and help to make vehicles more economical, intelligent and safe. Marketed under our three brands, including the globally recognised Bougicord® brand, (re)discover the variety of sensor and ignition product families that make up our offering.

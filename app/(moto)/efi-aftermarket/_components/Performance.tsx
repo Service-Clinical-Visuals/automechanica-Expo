@@ -18,7 +18,7 @@ const Performance = () => {
             className="col-span-1 xl:col-span-5 flex flex-col justify-center space-y-8 order-1"
             data-aos="fade-right"
           >
-            <div className="relative inline-block mb-4">
+            <div className="relative inline-block mb-8">
               <Typography variant="h2" color="dark" className="font-bold leading-tight">
                 Precision Ignition. <div className="inline text-[var(--color-primary)]">Reliable Performance.</div>
               </Typography>

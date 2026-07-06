@@ -26,7 +26,7 @@ const Hero = () => {
       {/* Content Container */}
       <Container className="relative z-20 w-full">
         <div
-          className="md:max-w-[30%] max-w-full text-left space-y-6 pointer-events-auto"
+          className="2xl:max-w-[30%] max-w-full text-left space-y-6 pointer-events-auto"
           data-aos="fade-up"
           data-aos-delay="200"
         >
