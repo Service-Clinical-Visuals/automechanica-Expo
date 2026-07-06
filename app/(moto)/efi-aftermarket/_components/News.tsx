@@ -36,7 +36,7 @@ const News = () => {
   const renderCard = (item: any, index: number) => (
     <div
       key={index}
-      className="group  flex flex-col justify-between p-8 xl:p-10 rounded-[2rem] border-[1.5px] border-[var(--color-primary)] bg-white hover:bg-[var(--color-primary)] transition-colors duration-300 min-h-[420px] cursor-pointer h-full"
+      className="group  flex flex-col justify-between p-6 rounded-[2rem] border-[1.5px] border-[var(--color-primary)] bg-white hover:bg-[var(--color-primary)] transition-colors duration-300 min-h-[420px] cursor-pointer h-full"
       data-aos="fade-up"
       data-aos-delay={index * 100}
     >
@@ -52,9 +52,9 @@ const News = () => {
         </Typography>
       </div>
 
-      <div className="mt-5 pt-4 flex justify-center w-full">
-        <div className="w-full">
-          <Button text="View Details" variant="secondary" />
+      <div className="mt-5 pt-3 flex w-full">
+        <div className="w-full flex justify-center">
+          <Button text="View Details" variant="secondary" className="w-full" />
         </div>
       </div>
     </div>
@@ -64,12 +64,12 @@ const News = () => {
     <section id="news" className="py-10 md:py-15 mb-10 bg-white">
       <Container>
         {/* Section Heading */}
-        <div className="flex flex-col items-center justify-center text-center mb-16" data-aos="fade-up">
-          <div className="relative inline-block mb-4">
+        <div className="flex flex-col  items-center justify-center text-center " data-aos="fade-up">
+          <div className="relative inline-block  mb-10">
             <Typography variant="h2" color="dark" className="font-semibold">
               Our Recent News
             </Typography>
-            <div className="absolute -left-4 md:-left-6 -bottom-2 w-16 md:w-20 h-1 rounded-xl bg-[var(--color-primary)]"></div>
+            <div className="absolute -left-4 md:-left-6 -bottom-1 w-16 md:w-20 h-1 rounded-xl bg-[var(--color-primary)]"></div>
           </div>
         </div>
 

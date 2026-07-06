@@ -6,9 +6,9 @@ import { Divide, MapPin, Phone } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer id="footer" className="bg-[#1E1E1E] py-16">
+    <footer id="footer" className="bg-[#1E1E1E] pt-15  ">
       <Container>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 pb-10 gap-8">
 
           {/* Column 1: Logo & Subscribe */}
           <div className="flex flex-col pr-0 xl:pr-8" data-aos="fade-up" data-aos-delay="0">
@@ -38,7 +38,7 @@ const Footer = () => {
           {/* Column 2: Quick Links */}
           <div className="bg-[#2D2D2D] p-8 flex flex-col" data-aos="fade-up" data-aos-delay="100">
             <div className="footer-heading font-semibold text-white font-exo">Quick Links</div>
-            <div className="w-full h-[1px] bg-white/20 my-6"></div>
+            <div className="w-full h-[1px] bg-white/80 my-6"></div>
 
             <div className="grid grid-cols-2 gap-y-5 gap-x-4">
               <div className="flex flex-col gap-5">
@@ -60,7 +60,7 @@ const Footer = () => {
           {/* Column 3: Our Company */}
           <div className="bg-[#2D2D2D] p-8 flex flex-col" data-aos="fade-up" data-aos-delay="200">
             <div className="footer-heading font-semibold  text-white font-exo">Our Company</div>
-            <div className="w-full h-[1px] bg-white/20 my-6"></div>
+            <div className="w-full h-[1px] bg-white/80 my-6"></div>
 
             <div className="flex flex-col gap-5">
               <a href="#" className="footer-body text-white hover:text-primary transition-colors font-poppins">Our CSR commitment</a>
@@ -74,7 +74,7 @@ const Footer = () => {
           {/* Column 4: Contact */}
           <div className="bg-[#2D2D2D] p-8 flex flex-col" data-aos="fade-up" data-aos-delay="300">
             <div className="footer-heading font-semibold text-white font-exo">Contact</div>
-            <div className="w-full h-[1px] bg-white/20 my-6"></div>
+            <div className="w-full h-[1px] bg-white/80 my-6"></div>
 
             <div className="flex flex-col gap-6">
               <div className="flex items-start gap-3">
@@ -96,7 +96,11 @@ const Footer = () => {
           </div>
 
         </div>
+
       </Container>
+      <div className="bg-white w-full ietmes-end justify-end ">
+        <div className="footer-body font-bold tect-[#484848] opacity-75 items-center justify-center flex  text-center font-poppins py-3 " > Copyright © 2026 EFI Aftermarket Sp. z o. o</div>
+      </div>
     </footer>
   );
 };

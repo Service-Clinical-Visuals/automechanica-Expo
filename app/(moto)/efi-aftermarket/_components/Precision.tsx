@@ -11,12 +11,12 @@ const Precision = () => {
     <section id="precision" className="py-10 md:py-10 bg-[#F8F9FA]">
       <Container>
         {/* Section Heading */}
-        <div className="flex flex-col items-center justify-center text-center mb-8" data-aos="fade-up">
-          <div className="relative inline-block mb-4">
+        <div className="flex flex-col items-center justify-center text-center " data-aos="fade-up">
+          <div className="relative inline-block mb-10">
             <Typography variant="h2" color="dark" className="font-semibold">
               Precision Ignition Starts Here
             </Typography>
-            <div className="absolute -left-4 md:-left-6 -bottom-2 w-16 md:w-20 h-1 rounded-xl bg-[var(--color-primary)]"></div>
+            <div className="absolute -left-4 md:-left-6 -bottom-1 w-16 md:w-20 h-1 rounded-xl bg-[var(--color-primary)]"></div>
           </div>
         </div>
 
