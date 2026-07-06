@@ -29,9 +29,9 @@ export default function PetrovollLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className={`magma-root ${oswald.variable} ${teko.variable} min-h-screen bg-white font-sans antialiased overflow-x-hidden relative w-full`}>
+    <div className={`abs-root ${oswald.variable} ${teko.variable} min-h-screen bg-white font-sans antialiased overflow-x-hidden relative w-full`}>
 
-      <VideoProvider website="magma-brakes">
+      <VideoProvider >
         {children}
       </VideoProvider>
     </div>
