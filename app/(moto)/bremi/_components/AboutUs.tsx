@@ -8,9 +8,9 @@ export default function AboutUs() {
       <div className="custom-container">
         <div className="bremi-grid items-stretch">
           {/* Left Column */}
-          <div className="lg:col-span-6 flex flex-col justify-between h-full" data-aos="fade-right">
+          <div className="lg:col-span-5 flex flex-col justify-between h-full" data-aos="fade-right">
             <div>
-              <h2 className="section-title text-[#E72E39] font-bold mb-6 lg:mb-6 underline">About Us</h2>
+              <h2 className="section-title text-[#E72E39] font-bold mb-6 lg:mb-8 underline">About Us</h2>
               <div className="flex flex-col gap-5 text-[#4c4c4c]">
                 <p className="section-text leading-[1.6] font-normal mb-2">
                   Since Our Foundation In 1927, BREMI Has Stood For Outstanding Quality And Innovation In Ignition Technology. As A Long-Standing And Reliable Original Equipment Manufacturer, We Offer The Largest Market Coverage, Which Also Includes The Field Of Sensor Technology. Our History And Expertise Make Us A Leading Specialist In These Areas.
@@ -22,9 +22,9 @@ export default function AboutUs() {
             </div>
             
             {/* Small Image */}
-            <div className="relative w-full h-[250px] md:h-[300px] lg:h-[300px] overflow-hidden mt-6 lg:mt-8">
+            <div className="relative w-full h-[250px] md:h-[300px] lg:h-[300px] overflow-hidden mt-6 shadow-lg">
               <img 
-                src="/moto/bremi/abt1.png" 
+                src="/moto/bremi/abt1.jpg" 
                 alt="Bremi Warehouse" 
                 className="w-full h-full object-cover"
               />
@@ -32,8 +32,8 @@ export default function AboutUs() {
           </div>
           
           {/* Right Column (Large Image) */}
-          <div className="lg:col-span-6 mt-8 lg:mt-0" data-aos="fade-left" data-aos-delay="100">
-             <div className="relative w-full h-full min-h-[300px] overflow-hidden">
+          <div className="lg:col-span-7 mt-8 lg:mt-0" data-aos="fade-left" data-aos-delay="100">
+             <div className="relative w-full h-full min-h-[300px] overflow-hidden shadow-lg">
               <img 
                 src="/moto/bremi/abt.jpg" 
                 alt="Bremi Exhibition Stand" 
@@ -44,7 +44,7 @@ export default function AboutUs() {
         </div>
 
         {/* Separator / Divider (Optional, using margin top instead) */}
-        <div className="w-full h-[2px] bg-gray-200 my-8 lg:my-10"></div>
+        <div className="w-full h-[1px] bg-gray-300 my-8 lg:my-14"></div>
 
         {/* Features Boxes */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
