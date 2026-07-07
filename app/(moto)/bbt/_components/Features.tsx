@@ -28,7 +28,7 @@ export default function Features() {
           {features.map((feature, index) => (
             <div 
               key={index} 
-              className="bg-white p-8 lg:p-10 drop-shadow-[1px_4px_3px_rgba(0,0,0,0.10)] flex flex-col xl:flex-row items-start xl:items-center gap-6"
+              className="bg-white p-8 lg:p-10 shadow-[1px_4px_10px_rgba(0,0,0,0.20)] flex flex-col xl:flex-row items-start xl:items-center gap-6"
               data-aos="fade-up" 
               data-aos-delay={index * 100}
             >

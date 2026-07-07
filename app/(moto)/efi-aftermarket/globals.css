@@ -93,7 +93,7 @@ span {
 }
 
 .footer-heading {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: var(--font-exo);
 }
 
@@ -179,8 +179,7 @@ span {
   }
 
   p,
-  li,
-  .footer-body {
+  li {
     font-size: 0.844rem;
   }
 
@@ -193,7 +192,11 @@ span {
   }
 
   .footer-heading {
-    font-size: 1.313rem;
+    font-size: 1.21rem;
+  }
+
+  .footer-body {
+    font-size: 0.9rem;
   }
 
   .button {
@@ -228,8 +231,7 @@ span {
   }
 
   p,
-  li,
-  .footer-body {
+  li {
     font-size: 0.956rem;
   }
 
@@ -242,7 +244,12 @@ span {
   }
 
   .footer-heading {
-    font-size: 1.488rem;
+    font-size: 1.3rem;
+  }
+
+  .footer-body {
+    font-size: 0.9rem;
+
   }
 
   .button {
@@ -277,8 +284,7 @@ span {
   }
 
   p,
-  li,
-  .footer-body {
+  li {
     font-size: 1.125rem;
   }
 
@@ -291,7 +297,11 @@ span {
   }
 
   .footer-heading {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
+  }
+
+  .footer-body {
+    font-size: 1rem;
   }
 
   .button {
@@ -326,8 +336,7 @@ span {
   }
 
   p,
-  li,
-  .footer-body {
+  li {
     font-size: 1.125rem;
   }
 
@@ -340,7 +349,11 @@ span {
   }
 
   .footer-heading {
-    font-size: 1.75rem;
+    font-size: 1.3rem;
+  }
+
+  .footer-body {
+    font-size: 1rem;
   }
 
   .button {
@@ -389,7 +402,7 @@ span {
   }
 
   .footer-heading {
-    font-size: 1.75rem;
+    font-size: 1.55rem;
   }
 
   .button {
@@ -438,7 +451,7 @@ span {
   }
 
   .footer-heading {
-    font-size: 1.75rem;
+    font-size: 1.55rem;
   }
 
 
@@ -488,7 +501,7 @@ span {
   }
 
   .footer-heading {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
   }
 
   .button {
@@ -537,7 +550,7 @@ span {
   }
 
   .footer-heading {
-    font-size: 3.500rem;
+    font-size: 3rem;
   }
 
   .button {

@@ -190,14 +190,14 @@ body {
 }
 @media (min-width: 3800px) {
   .custom-container { max-width: 90%; }
-  .header-link { font-size: 24px; }
+  .header-link { font-size: 26px; }
   .banner-title { font-size: 48px; }
-  .btn-text { font-size: 24px; }
+  .btn-text { font-size: 26px; }
   .section-title { font-size: 46px; }
-  .section-text { font-size: 24px; }
+  .section-text { font-size: 26px; }
   .card-title { font-size: 30px; }
-  .footer-links { font-size: 24px; }
-  .linkheadings { font-size: 26px; }
+  .footer-links { font-size: 22px; }
+  .linkheadings { font-size: 24px; }
 }
 
 .bg{
