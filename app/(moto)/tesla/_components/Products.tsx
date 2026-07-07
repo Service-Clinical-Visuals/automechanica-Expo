@@ -41,16 +41,17 @@ export default function Products() {
         {/* Header Section */}
         <div className="flex flex-col md:flex-row justify-between items-end gap-6 mb-12">
           <div data-aos="fade-down-right" data-aos-duration="1000">
-            <div className="flex gap-1.5 mb-3">
-              <div className="w-2.5 h-2.5 bg-primary"></div>
-              <div className="w-2.5 h-2.5 bg-primary"></div>
-            </div>
+            <div className="mb-1">
+              <div className="flex gap-1.5 mb-[-15] ml-1">
+                <div className="w-2.5 h-2.5 bg-primary"></div>
+                <div className="w-2.5 h-2.5 bg-primary"></div>
+              </div></div>
             <Typography variant="h2" color="dark" className="">
               Automotive Products
             </Typography>
           </div>
           <div data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="200">
-            <Button text="View All" variant="primary" showIcon={false} />
+            <Button text="Shop Now" variant="primary" showIcon={true} />
           </div>
         </div>
 
@@ -72,7 +73,7 @@ export default function Products() {
               <div className="absolute top-0 right-0 w-[72px] h-[72px] border-b-[2px] border-l-[2px] border-[#143B7D] rounded-bl-[16px]"></div>
 
               {/* Number Box */}
-              <div className="absolute top-[2px] right-[2px] w-[65px] h-[65px] rounded-xl bg-[#2B2B2B] flex items-center justify-center  shadow-sm transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 z-10">
+              <div className="absolute top-[2px] right-[2px] w-[65px] h-[65px] rounded-none rounded-bl-[14px] bg-[#2B2B2B] flex items-center justify-center  shadow-sm transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 z-10">
                 <Typography variant="h1" color="none" className="text-white  leading-none m-0">
                   {product.id}
                 </Typography>

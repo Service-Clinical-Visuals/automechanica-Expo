@@ -81,7 +81,7 @@ const Header = () => {
             </Link>
 
             {/* Desktop Navbar Links */}
-            <nav className="hidden lg:flex items-center space-x-6 xl:space-x-10 shrink-0">
+            <nav className="hidden xl:flex items-center space-x-6 2xl:space-x-10 shrink-0">
               {navLinks.map((link) => {
                 const isActive = activeLink === link.id;
                 return (
@@ -108,22 +108,22 @@ const Header = () => {
             </nav>
 
             {/* Right Action: Search */}
-            <div className="hidden lg:flex items-center shrink-0">
-              <div className="flex bg-white rounded overflow-hidden">
+            <div className="hidden xl:flex items-center shrink-0">
+              <div className="flex gap-2">
                 <input
                   type="text"
                   placeholder="Search Product"
-                  className="px-4 py-2 outline-none text-black font-urbanist w-[200px]"
+                  className="px-4 py-2 outline-none text-black font-urbanist w-[200px] rounded-md bg-white"
                 />
-                <button className="bg-white px-3 flex items-center justify-center border-l border-gray-200">
-                  <Search className="w-5 h-5 font-iceland text-primary" />
+                <button className="bg-white px-3 py-2 flex items-center justify-center rounded-md hover:bg-gray-50 transition-colors">
+                  <Search className="w-5 h-5 text-primary" />
                 </button>
               </div>
             </div>
 
             {/* Mobile Menu Toggle Button */}
             <button
-              className="lg:hidden text-white p-2 transition-colors"
+              className="xl:hidden text-white p-2 transition-colors"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               aria-label="Toggle Navigation Menu"
             >
@@ -134,7 +134,7 @@ const Header = () => {
 
         {/* Mobile Navigation Dropdown */}
         {mobileMenuOpen && (
-          <div className="lg:hidden absolute top-full left-0 w-full bg-[var(--color-primary)] shadow-2xl py-6 px-6 flex flex-col space-y-4 max-h-[calc(100vh-70px)] overflow-y-auto border-t border-white/20">
+          <div className="xl:hidden absolute top-full left-0 w-full bg-[var(--color-primary)] shadow-2xl py-6 px-6 flex flex-col space-y-4 max-h-[calc(100vh-70px)] overflow-y-auto border-t border-white/20">
             {navLinks.map((link) => {
               const isActive = activeLink === link.id;
               return (
@@ -154,14 +154,14 @@ const Header = () => {
                 </div>
               );
             })}
-            <div className="pt-4 flex bg-white rounded overflow-hidden">
+            <div className="pt-4 flex gap-2">
               <input
                 type="text"
                 placeholder="Search Product"
-                className="px-4 py-3 outline-none text-black font-urbanist w-full"
+                className="px-4 py-3 outline-none text-black font-urbanist w-full rounded-md bg-white"
               />
-              <button className="bg-white px-4 flex items-center justify-center border-l border-gray-200">
-                <Search className="w-6 h-6 text-[var(--color-primary)]" />
+              <button className="bg-white px-4 py-3 flex items-center justify-center rounded-md hover:bg-gray-50 transition-colors">
+                <Search className="w-6 h-6 text-primary" />
               </button>
             </div>
           </div>

@@ -50,11 +50,12 @@ export default function Ignition() {
 
           {/* Text Content */}
           <div className="col-span-1 xl:col-span-5 flex flex-col order-1 xl:order-1" data-aos="fade-right">
-            <div className="flex gap-1.5 mb-3">
-              <div className="w-2.5 h-2.5 bg-white"></div>
-              <div className="w-2.5 h-2.5 bg-white"></div>
+            <div className="mb-1">
+              <div className="flex gap-1.5 mb-[-15] ml-0.5">
+                <div className="w-2.5 h-2.5 bg-white"></div>
+                <div className="w-2.5 h-2.5 bg-white"></div>
+              </div>
             </div>
-
             <Typography variant="h2" color="white" className=" mb-6">
               Ignition coil
             </Typography>
@@ -117,7 +118,7 @@ export default function Ignition() {
                     <Typography variant="h4" color="dark" className="font-[400] mb-0">
                       {item.title}
                     </Typography>
-                    <div className="w-[70%] mx-auto h-[2px] rounded border-gray-100 bg-white shadow-[0px_6px_25px_rgba(0,2,4,6)] mb-4"></div>
+                    <div className="w-[70%] mx-auto h-[2px] rounded  bg-white/10 shadow-[0px_5px_40px_rgba(0,2,10,10)] mb-4"></div>
                     <Typography variant="p" color="dark" className="leading-relaxed text-gray-600">
                       {item.desc}
                     </Typography>

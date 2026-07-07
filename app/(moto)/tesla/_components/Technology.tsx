@@ -16,8 +16,8 @@ export default function Technology() {
           <div className="col-span-1 xl:col-span-5 flex flex-col order-2 xl:order-1" data-aos="fade-down-right" data-aos-duration="1200">
 
             {/* Title Block */}
-            <div className="mb-2">
-              <div className="flex gap-1.5 mb-4">
+            <div className="mb-1">
+              <div className="flex gap-1.5 mb-[-15] ml-1">
                 <div className="w-2.5 h-2.5 bg-primary"></div>
                 <div className="w-2.5 h-2.5 bg-primary"></div>
                 <div className="w-2.5 h-2.5 bg-primary"></div>

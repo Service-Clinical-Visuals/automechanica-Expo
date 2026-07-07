@@ -25,9 +25,10 @@ export default function AboutUs() {
           {/* Text Container */}
           <div className="w-full xl:w-1/2 flex flex-col order-1 xl:order-2" data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="300">
             {/* Section Dots */}
-            <div className="flex gap-1.5 mb-3">
-              <div className="w-2.5 h-2.5 bg-[var(--color-primary)]"></div>
-            </div>
+            <div className="mb-1">
+              <div className="flex gap-1.5 mb-[-15px] ml-1 ">
+                <div className="w-2.5 h-2.5 bg-[var(--color-primary)]"></div>
+              </div></div>
 
             <Typography variant="h2" color="dark" className=" mb-6">
               About Us
