@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Urbanist:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+@import "aos/dist/aos.css";
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #1E1E1E;
+}
+
+@theme inline {
+  --color-primary: #002060;
+  --color-primary-hover: #001030;
+  --color-secondary: #1E1E1E;
+  --color-secondary-hover: #111111;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-iceland: var(--font-iceland), 'Iceland', ui-sans-serif, system-ui, sans-serif;
+  --font-urbanist: var(--font-urbanist), 'Urbanist', ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-urbanist);
+}
+
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Base Typography */
+h1 {
+  font-size: 2.625rem;
+  font-family: var(--font-iceland);
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: var(--font-iceland);
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: var(--font-iceland);
+}
+
+h4 {
+  font-size: 1.75rem;
+  font-family: var(--font-iceland);
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-family: var(--font-iceland);
+}
+
+h6 {
+  font-size: 1.25rem;
+  font-family: var(--font-iceland);
+}
+
+p,
+li,
+.footer-body {
+  font-size: 1rem;
+  font-family: var(--font-urbanist);
+}
+
+span {
+  font-size: 1.5rem;
+  font-family: var(--font-urbanist);
+}
+
+.navbar {
+  font-size: 1.5rem;
+  font-family: var(--font-iceland);
+  font-weight: 400;
+}
+
+.footer-heading {
+  font-size: 1.75rem;
+  font-family: var(--font-iceland);
+}
+
+.button {
+  font-size: 1.5rem;
+  font-family: var(--font-iceland) !important;
+  font-weight: 500;
+}
+
+/* Mobile Portrait Screen (up to 480px) */
+@media (max-width: 480px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 1.706rem;
+  }
+
+  h2 {
+    font-size: 1.625rem;
+  }
+
+  h3 {
+    font-size: 1.300rem;
+  }
+
+  h4 {
+    font-size: 1.137rem;
+  }
+
+  h5 {
+    font-size: 0.975rem;
+  }
+
+  h6 {
+    font-size: 0.812rem;
+  }
+
+  p,
+  li,
+  .footer-body {
+    font-size: 0.650rem;
+  }
+
+  span {
+    font-size: 0.975rem;
+  }
+
+  .navbar {
+    font-size: 0.975rem;
+  }
+
+  .footer-heading {
+    font-size: 1.137rem;
+  }
+
+  .button {
+    font-size: 0.975rem;
+  }
+}
+
+/* Mobile Landscape Screen (481px - 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container {
+    max-width: 92%;
+  }
+
+  h1 {
+    font-size: 1.969rem;
+  }
+
+  h2 {
+    font-size: 1.875rem;
+  }
+
+  h3 {
+    font-size: 1.500rem;
+  }
+
+  h4 {
+    font-size: 1.312rem;
+  }
+
+  h5 {
+    font-size: 1.125rem;
+  }
+
+  h6 {
+    font-size: 0.938rem;
+  }
+
+  p,
+  li,
+  .footer-body {
+    font-size: 0.750rem;
+  }
+
+  span {
+    font-size: 1.125rem;
+  }
+
+  .navbar {
+    font-size: 1.125rem;
+  }
+
+  .footer-heading {
+    font-size: 1.312rem;
+  }
+
+  .button {
+    font-size: 1.125rem;
+  }
+}
+
+/* Tablet / Tab Screen (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2.231rem;
+  }
+
+  h2 {
+    font-size: 2.125rem;
+  }
+
+  h3 {
+    font-size: 1.700rem;
+  }
+
+  h4 {
+    font-size: 1.488rem;
+  }
+
+  h5 {
+    font-size: 1.275rem;
+  }
+
+  h6 {
+    font-size: 1.062rem;
+  }
+
+  p,
+  li,
+  .footer-body {
+    font-size: 0.850rem;
+  }
+
+  span {
+    font-size: 1.275rem;
+  }
+
+  .navbar {
+    font-size: 1.275rem;
+  }
+
+  .footer-heading {
+    font-size: 1.488rem;
+  }
+
+  .button {
+    font-size: 1.275rem;
+  }
+}
+
+/* Laptop Screen (1024px - 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2.625rem;
+  }
+
+  h2 {
+    font-size: 2.500rem;
+  }
+
+  h3 {
+    font-size: 2.000rem;
+  }
+
+  h4 {
+    font-size: 1.750rem;
+  }
+
+  h5 {
+    font-size: 1.500rem;
+  }
+
+  h6 {
+    font-size: 1.250rem;
+  }
+
+  p,
+  li,
+  .footer-body {
+    font-size: 1.000rem;
+  }
+
+  span {
+    font-size: 1.500rem;
+  }
+
+  .navbar {
+    font-size: 1.500rem;
+  }
+
+  .footer-heading {
+    font-size: 1.750rem;
+  }
+
+  .button {
+    font-size: 1.500rem;
+  }
+}
+
+/* Desktop PC Screen (1280px - 1535px) */
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2.625rem;
+  }
+
+  h2 {
+    font-size: 2.500rem;
+  }
+
+  h3 {
+    font-size: 2.000rem;
+  }
+
+  h4 {
+    font-size: 1.750rem;
+  }
+
+  h5 {
+    font-size: 1.500rem;
+  }
+
+  h6 {
+    font-size: 1.250rem;
+  }
+
+  p,
+  li,
+  .footer-body {
+    font-size: 1.000rem;
+  }
+
+  span {
+    font-size: 1.500rem;
+  }
+
+  .navbar {
+    font-size: 1.500rem;
+  }
+
+  .footer-heading {
+    font-size: 1.750rem;
+  }
+
+  .button {
+    font-size: 1.500rem;
+  }
+}
+
+/* Large Desktop PC Screen (1536px - 1919px) */
+@media (min-width: 1536px) and (max-width: 1919px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2.625rem;
+  }
+
+  h2 {
+    font-size: 2.500rem;
+  }
+
+  h3 {
+    font-size: 2.000rem;
+  }
+
+  h4 {
+    font-size: 1.750rem;
+  }
+
+  h5 {
+    font-size: 1.500rem;
+  }
+
+  h6 {
+    font-size: 1.250rem;
+  }
+
+  p,
+  li,
+  .footer-body {
+    font-size: 1.000rem;
+  }
+
+  span {
+    font-size: 1.500rem;
+  }
+
+  .navbar {
+    font-size: 1.500rem;
+  }
+
+  .footer-heading {
+    font-size: 1.750rem;
+  }
+
+  .button {
+    font-size: 1.500rem;
+  }
+}
+
+/* Extra Large PC / 2K Screen (1920px - 2499px) */
+@media (min-width: 1920px) and (max-width: 2499px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2.625rem;
+  }
+
+  h2 {
+    font-size: 2.500rem;
+  }
+
+  h3 {
+    font-size: 2.000rem;
+  }
+
+  h4 {
+    font-size: 1.750rem;
+  }
+
+  h5 {
+    font-size: 1.500rem;
+  }
+
+  h6 {
+    font-size: 1.250rem;
+  }
+
+  p,
+  li,
+  .footer-body {
+    font-size: 1.000rem;
+  }
+
+  span {
+    font-size: 1.500rem;
+  }
+
+  .navbar {
+    font-size: 1.500rem;
+  }
+
+  .footer-heading {
+    font-size: 1.750rem;
+  }
+
+  .button {
+    font-size: 1.500rem;
+  }
+}
+
+/* Ultra-wide Screen / Max Cover (2500px - 3799px) */
+@media (min-width: 2500px) and (max-width: 3799px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 3.938rem;
+  }
+
+  h2 {
+    font-size: 3.750rem;
+  }
+
+  h3 {
+    font-size: 3.000rem;
+  }
+
+  h4 {
+    font-size: 2.625rem;
+  }
+
+  h5 {
+    font-size: 2.250rem;
+  }
+
+  h6 {
+    font-size: 1.875rem;
+  }
+
+  p,
+  li,
+  .footer-body {
+    font-size: 1.500rem;
+  }
+
+  span {
+    font-size: 2.250rem;
+  }
+
+  .navbar {
+    font-size: 2.250rem;
+  }
+
+  .footer-heading {
+    font-size: 2.625rem;
+  }
+
+  .button {
+    font-size: 2.250rem;
+  }
+}
+
+/* 4K Ultra-wide Screen / Max Cover (3800px and above) */
+@media (min-width: 3800px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 5.250rem;
+  }
+
+  h2 {
+    font-size: 5.000rem;
+  }
+
+  h3 {
+    font-size: 4.000rem;
+  }
+
+  h4 {
+    font-size: 3.500rem;
+  }
+
+  h5 {
+    font-size: 3.000rem;
+  }
+
+  h6 {
+    font-size: 2.500rem;
+  }
+
+  p,
+  li,
+  .footer-body {
+    font-size: 2.000rem;
+  }
+
+  span {
+    font-size: 3.000rem;
+  }
+
+  .navbar {
+    font-size: 3.000rem;
+  }
+
+  .footer-heading {
+    font-size: 3.500rem;
+  }
+
+  .button {
+    font-size: 3.000rem;
+  }
+}
