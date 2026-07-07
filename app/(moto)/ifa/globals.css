@@ -197,6 +197,21 @@ body {
     padding-right: 70px;
   }
 
+  .content{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #484848;
+    font-family: var(--font-manrope);
+  }
+
+  .content-white{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #ffffff;
+    font-family: var(--font-manrope);
+  }
   /* h2 {
     font-size: 36px;
   }
@@ -218,6 +233,23 @@ body {
 @media (min-width: 2500px) and (max-width: 3800px) {
   .custom-container {
     max-width: 90%;
+  }
+
+
+  .content{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #484848;
+    font-family: var(--font-manrope);
+  }
+
+  .content-white{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #ffffff;
+    font-family: var(--font-manrope);
   }
 
   /* h2 {
@@ -245,6 +277,22 @@ body {
     padding-right: 70px;
   }
 
+  .content{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #484848;
+    font-family: var(--font-manrope);
+  }
+
+  .content-white{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #ffffff;
+    font-family: var(--font-manrope);
+  }
+
   /* h2 {
     font-size: 36px;
   }
@@ -264,7 +312,7 @@ body {
 
 /* 2K / QHD Monitors (2560px wide) - Maintain 1920px design proportions */
 @media (min-width: 2560px) {
-  .eurol-root {
+  .container-root {
     zoom: 1.38;
     transform-origin: top center;
   }
@@ -272,7 +320,7 @@ body {
 
 /* 4K UHD Monitors (3840px wide) - Maintain 1920px design proportions */
 @media (min-width: 3840px) {
-  .eurol-root {
+  .container-root {
     zoom: 1.75;
     transform-origin: top center;
   }

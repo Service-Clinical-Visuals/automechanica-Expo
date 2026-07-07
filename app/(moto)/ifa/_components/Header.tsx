@@ -63,14 +63,14 @@ export default function Header() {
             <input
               type="text"
               placeholder="Search product"
-              className="content w-45 xl:w-64 border-1 shadow-[#0000003D] shadow-md px-4 py-2 text-sm! text-[#484848]! placeholder:text-gray-400 focus:outline-none focus:border-primary"
+              className="content w-45 xl:w-64 border-2 border-primary shadow-[#0000003D] shadow-sm px-4 py-2 text-sm! text-[#484848]! placeholder:text-gray-400 focus:outline-none focus:border-primary"
             />
             <button
               type="button"
               aria-label="Search"
-              className="flex items-center justify-center shadow-[#0000003D] shadow-md w-11 -ml-px transition-colors hover:bg-primary hover:text-white"
+              className="flex items-center text-primary! justify-center shadow-[#0000003D] shadow-md w-11 -ml-px transition-colors hover:bg-primary hover:text-white"
             >
-              <Search size={18} />
+              <Search className="text-primary! " size={18} />
             </button>
           </div>
 
