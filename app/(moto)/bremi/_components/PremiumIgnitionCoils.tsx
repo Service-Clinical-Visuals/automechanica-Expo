@@ -13,7 +13,7 @@ export default function PremiumIgnitionCoils() {
       <div className="custom-container relative z-10 pt-10 md:pt-15 lg:pt-15 xl:pt-15">
         <div className="bremi-grid items-center xl:items-start 2xl:items-center">
           {/* Left Column (Video) */}
-          <div className="lg:col-span-8 aspect-video xl:mt-4 2xl:mt-0" data-aos="fade-right">
+          <div className="xl:col-span-8 aspect-video xl:mt-4 2xl:mt-0" data-aos="fade-right">
            
                {/* 360 Deg Video Placeholder / Player */}
                <DynamicVideoPlayer 
@@ -23,7 +23,7 @@ export default function PremiumIgnitionCoils() {
           </div>
           
           {/* Right Column (Text) */}
-          <div className="lg:col-span-4 mt-10 lg:mt-30 xl:mt-32 2xl:mt-30 pl-1 lg:pl-4" data-aos="fade-left" data-aos-delay="100">
+          <div className="xl:col-span-4 mt-10 lg:mt-30 xl:mt-32 2xl:mt-30 pl-1 lg:pl-4" data-aos="fade-left" data-aos-delay="100">
             <h2 className="section-title text-[#E72E39] font-bold mb-6 lg:mb-4 underline">
               Premium Ignition Coils
             </h2>

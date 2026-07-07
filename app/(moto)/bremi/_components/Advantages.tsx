@@ -27,7 +27,7 @@ export default function Advantages() {
   return (
     <section className="relative w-full pb-16 lg:pb-24 bg-white">
       {/* Dark Background Top Half */}
-      <div className="absolute top-0 left-0 w-full h-[65%] lg:h-[55%] bg-[#1e1e1e] z-0"></div>
+      <div className="absolute top-0 left-0 w-full h-[65%] 2xl:h-[55%] bg-[#1e1e1e] z-0"></div>
 
       <div className="custom-container relative z-10 pt-16 lg:pt-24">
         {/* Heading & Subtitle */}
@@ -41,7 +41,7 @@ export default function Advantages() {
         </div>
 
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12 lg:mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-10 mb-12 lg:mb-16">
            {advantagesData.map((item, index) => (
              <div 
                key={index} 

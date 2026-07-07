@@ -57,7 +57,7 @@ export default function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-6 xl:gap-10">
+          <nav className="hidden xl:flex items-center gap-6 xl:gap-10">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
@@ -74,12 +74,12 @@ export default function Header() {
           </nav>
 
           {/* Search Bar */}
-          <div className="hidden lg:flex items-center">
+          <div className="hidden xl:flex items-center">
             <HexagonButton type="search" className="w-[120px] xl:w-[150px]" />
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="lg:hidden flex items-center">
+          <div className="xl:hidden flex items-center">
             <button 
               className="text-white focus:outline-none p-2"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -96,7 +96,7 @@ export default function Header() {
 
       {/* Mobile Navigation Menu */}
       {isMobileMenuOpen && (
-        <div className={`lg:hidden absolute left-4 right-4 bg-black rounded-xl shadow-2xl border border-gray-800 flex flex-col z-50 overflow-hidden transition-all duration-300 ${isScrolled ? "top-[70px]" : "top-[90px]"}`}>
+        <div className={`xl:hidden absolute left-4 right-4 bg-black rounded-xl shadow-2xl border border-gray-800 flex flex-col z-50 overflow-hidden transition-all duration-300 ${isScrolled ? "top-[70px]" : "top-[90px]"}`}>
           <nav className="flex flex-col">
             {navLinks.map((link) => (
               <Link

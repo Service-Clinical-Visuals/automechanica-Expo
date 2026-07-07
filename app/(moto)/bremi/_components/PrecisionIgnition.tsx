@@ -46,7 +46,7 @@ export default function PrecisionIgnition() {
         <div className="bremi-grid items-center">
           
           {/* Left Column (Text & Features) */}
-          <div className="lg:col-span-4" data-aos="fade-right">
+          <div className="xl:col-span-4" data-aos="fade-right">
             <h3 className="card-title font-medium text-[#E72E39] mb-4">
               Engineered For Reliable Ignition
             </h3>
@@ -54,8 +54,8 @@ export default function PrecisionIgnition() {
               Our ignition coils help optimize fuel efficiency, reduce engine misfires, lower exhaust emissions, and improve overall engine responsiveness. Their precision-engineered construction contributes to longer service life while minimizing maintenance requirements, making them a trusted choice for automotive professionals and vehicle owners worldwide.
             </p>
 
-            {/* Feature List */}
-            <div className="flex flex-col gap-5 lg:gap-6 pt-2">
+            {/* Feature List (Hidden on xl to move to bottom row) */}
+            <div className="flex flex-col gap-5 lg:gap-6 pt-2 xl:hidden 2xl:flex">
               {features.map((feature, idx) => (
                  <div key={idx} className="relative flex items-center bg-white shadow-[0_4px_15px_rgba(0,0,0,0.06)] rounded-sm border border-gray-100 ml-6 lg:ml-8 xl:ml-6 2xl:ml-8 min-h-[85px] lg:min-h-[100px] xl:min-h-[85px] 2xl:min-h-[100px]">
                     
@@ -94,11 +94,42 @@ export default function PrecisionIgnition() {
           </div>
 
           {/* Right Column (Video) */}
-          <div className="lg:col-span-8 mt-12 lg:mt-0 lg:pl-4 aspect-video xl:-mt-12 2xl:mt-0" data-aos="fade-left">
+          <div className="xl:col-span-8 mt-12 lg:mt-0 lg:pl-10 aspect-video" data-aos="fade-left">
           {/* Video Player */}
                  <DynamicVideoPlayer type="short-1" className="w-full h-full object-cover" />
           </div>
           
+        </div>
+
+        {/* Bottom Feature Cards Row (Only visible on xl / 1440px) */}
+        <div className="hidden xl:grid 2xl:hidden grid-cols-3 gap-6 mt-12" data-aos="fade-up">
+          {features.map((feature, idx) => (
+             <div key={`bottom-${idx}`} className="relative flex items-center bg-white shadow-[0_4px_15px_rgba(0,0,0,0.06)] rounded-sm border border-gray-100 ml-6 min-h-[100px]">
+                
+                {/* Recessed Notch */}
+                <div className="absolute left-[-24px] top-1/2 -translate-y-1/2 w-[60px] h-[60px] z-10 flex-shrink-0">
+                   <div className="absolute inset-0 bg-white rounded-md"></div>
+                   <div className="absolute top-0 bottom-0 right-0 left-[24px] overflow-hidden rounded-r-md pointer-events-none">
+                      <div className="absolute top-0 bottom-0 right-0 w-[60px] shadow-[inset_0_2px_8px_rgba(0,0,0,0.15)] rounded-md"></div>
+                   </div>
+                   <div className="absolute inset-0 p-[6px] flex items-center justify-center">
+                      <div className="bg-[#E72E39] w-full h-full flex items-center justify-center shadow-[0_2px_4px_rgba(0,0,0,0.1)]">
+                         <span className="oxanium text-white font-normal tracking-wider number-text text-[32px]">0{idx + 1}</span>
+                      </div>
+                   </div>
+                </div>
+
+                {/* Text Content */}
+                <div className="relative z-10 py-4 pr-4 pl-[48px] flex items-start gap-2 w-full">
+                   <div className="flex-shrink-0 mt-0.5">
+                      <img src="/moto/bremi/check.png" alt="Check" className="w-5 h-5 xl:w-7 xl:h-7 object-contain" />
+                    </div>
+                   <p className="section-text text-[#4c4c4c] font-normal leading-[1.6]">
+                     <span className="font-semibold">{feature.title}</span> – {feature.desc}
+                   </p>
+                </div>
+             </div>
+          ))}
         </div>
       </div>
     </section>

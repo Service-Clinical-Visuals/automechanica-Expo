@@ -47,7 +47,7 @@ export default function AboutUs() {
         <div className="w-full h-[1px] bg-gray-300 my-8 lg:my-14"></div>
 
         {/* Features Boxes */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 lg:gap-8">
           {/* Box 1 */}
           <div className="bg-white border border-gray-100 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.3)] p-4 lg:p-6 flex items-start gap-2" data-aos="fade-up">
             <div className="flex-shrink-0 mt-1">

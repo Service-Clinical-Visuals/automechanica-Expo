@@ -88,12 +88,14 @@ export default function ProductRange() {
             style={{ transform: `translateX(-${currentSlide * 100}%)` }}
           >
             {/* Slide 1 */}
-            <div className="w-full flex-shrink-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 lg:gap-6">
+            <div className="w-full flex-shrink-0 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-6 2xl:grid-cols-5 gap-4 lg:gap-6">
               {products.slice(0, 5).map((product, index) => (
                 <div 
                   key={index} 
-                  className={`bg-white relative p-4 lg:p-5 flex flex-col h-full group ${
-                    index === 4 ? "sm:col-span-2 sm:w-[calc(50%-8px)] sm:mx-auto lg:col-span-1 lg:w-auto lg:mx-0" : ""
+                  className={`bg-white relative p-4 lg:p-5 flex flex-col h-full group xl:col-span-2 2xl:col-span-1 ${
+                    index === 3 ? "xl:col-start-2 2xl:col-start-auto" : ""
+                  } ${
+                    index === 4 ? "sm:col-span-2 sm:w-[calc(50%-8px)] sm:mx-auto xl:w-auto xl:mx-0" : ""
                   }`}
                   data-aos="fade-up" 
                   data-aos-delay={index * 100}
@@ -130,12 +132,14 @@ export default function ProductRange() {
             </div>
 
             {/* Slide 2 */}
-            <div className="w-full flex-shrink-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 lg:gap-6">
+            <div className="w-full flex-shrink-0 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-6 2xl:grid-cols-5 gap-4 lg:gap-6">
               {products.slice(5, 10).map((product, index) => (
                 <div 
                   key={index + 5} 
-                  className={`bg-white relative p-4 lg:p-5 flex flex-col h-full group ${
-                    index === 4 ? "sm:col-span-2 sm:w-[calc(50%-8px)] sm:mx-auto lg:col-span-1 lg:w-auto lg:mx-0" : ""
+                  className={`bg-white relative p-4 lg:p-5 flex flex-col h-full group xl:col-span-2 2xl:col-span-1 ${
+                    index === 3 ? "xl:col-start-2 2xl:col-start-auto" : ""
+                  } ${
+                    index === 4 ? "sm:col-span-2 sm:w-[calc(50%-8px)] sm:mx-auto xl:w-auto xl:mx-0" : ""
                   }`}
                 >
                   {/* Red Triangle in top left with black diagonal border */}
