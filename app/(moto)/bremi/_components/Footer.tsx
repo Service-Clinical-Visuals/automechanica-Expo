@@ -52,7 +52,7 @@ export default function Footer() {
           </div>
 
           {/* Col 4: Legals */}
-          <div className="col-span-1 md:col-span-6 lg:col-span-2 flex flex-col">
+          <div className="col-span-1 md:col-span-6 lg:col-span-2 xl:col-span-1 flex flex-col">
             <h4 className="font-bold text-white mb-6 section-text tracking-wide">Legals</h4>
             <div className="flex flex-col gap-3">
               <Link href="#" className="text-[#ffffff] hover:text-[#E72E39] transition-colors font-normal footer-links">Legal notice</Link>
@@ -62,9 +62,9 @@ export default function Footer() {
           </div>
 
           {/* Col 5: Certificate */}
-          <div className="col-span-1 md:col-span-6 lg:col-span-3 flex justify-start lg:justify-end lg:col-start-10 items-start">
+          <div className="col-span-1 md:col-span-6 lg:col-span-3 xl:col-span-4 flex justify-start lg:justify-end lg:col-start-10 xl:col-start-9 items-start">
              <div className="shadow-sm inline-block w-full">
-               <img src="/moto/bremi/certificate.jpg" alt="TUV SUD ISO 9001 Certificate" className="w-full max-w-[240px] xl:max-w-[400px] h-auto object-contain" />
+               <img src="/moto/bremi/certificate.jpg" alt="TUV SUD ISO 9001 Certificate" className="w-full max-w-[260px] xl:max-w-[450px] h-auto object-contain" />
              </div>
           </div>
 

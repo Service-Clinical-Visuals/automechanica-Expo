@@ -18,7 +18,7 @@ export default function Banner() {
       {/* Constrained Text Overlay aligned with Header Logo */}
       <div className="absolute inset-0 z-10 pointer-events-none pt-[80px] md:pt-[90px] lg:pt-[110px] pb-8">
         <div className="custom-container h-full relative">
-          <div className="absolute bottom-0 left-0 mb-12 md:mb-16 text-left  pointer-events-auto" data-aos="fade-up" data-aos-delay="200">
+          <div className="absolute bottom-0 left-5 md:left-20 mb-12 md:mb-16 text-left  pointer-events-auto" data-aos="fade-up" data-aos-delay="200">
             <h1 className=" max-w-3xl banner-title font-bold text-white leading-tight mb-4 lg:mb-6">
               100 Years Of Car Systems
             </h1>

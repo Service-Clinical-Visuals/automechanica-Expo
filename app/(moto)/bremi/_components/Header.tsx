@@ -75,7 +75,7 @@ export default function Header() {
 
           {/* Search Bar */}
           <div className="hidden lg:flex items-center">
-            <HexagonButton type="search" className="w-[180px] xl:w-[200px]" />
+            <HexagonButton type="search" className="w-[120px] xl:w-[150px]" />
           </div>
 
           {/* Mobile Menu Button */}
