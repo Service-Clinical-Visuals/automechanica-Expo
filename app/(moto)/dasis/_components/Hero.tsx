@@ -25,7 +25,7 @@ export default function Banner() {
             </h1>
           </div>
           <button
-              className="heading rounded-tr-[16px] rounded-bl-[16px] mt-4 text-[24px]! uppercase  bg-white px-6 py-1.5 hover:bg-white/90 transition-colors"
+              className="heading text-primary! rounded-tr-[16px] rounded-bl-[16px] mt-4 text-[24px]! uppercase  bg-white px-6 py-1.5 hover:bg-white/90 transition-colors"
           >
               Explore Products
           </button>

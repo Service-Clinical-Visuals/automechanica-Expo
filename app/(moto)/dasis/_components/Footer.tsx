@@ -7,7 +7,7 @@ const portfolioLinks = ["Motor Vehicles", "Rail Transport", "Services"];
 
 export default function Footer() {
   return (
-    <footer className="bg-primary text-white pt-35 overflow-y-hidden">
+    <footer className="bg-primary text-white ptclass overflow-y-hidden">
       <Container data-aos="fade-up">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[35fr_16.25fr_16.25fr_16.25fr_16.25fr] gap-10 mb-10">
           {/* Newsletter */}

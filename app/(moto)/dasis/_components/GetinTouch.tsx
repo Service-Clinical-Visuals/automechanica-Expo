@@ -19,7 +19,7 @@ export default function GetinTouch() {
             commercial or industrial customer.
           </p>
             <button
-                className="heading rounded-tr-[16px] rounded-bl-[16px] text-[24px]! uppercase  bg-white px-10 py-0.5 hover:bg-white/90 transition-colors"
+                className="heading text-primary! rounded-tr-[16px] rounded-bl-[16px] text-[24px]! uppercase  bg-white px-10 py-0.5 hover:bg-white/90 transition-colors"
             >
                 contact
             </button>

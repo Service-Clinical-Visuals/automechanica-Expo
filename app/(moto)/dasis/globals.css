@@ -42,6 +42,10 @@ body {
   font-family: var(--font-albert-sans);
 }
 
+.ptclass{
+  padding-top:140px;
+}
+
 .heading{
   font-size: 34px;
   line-height: 150%;
@@ -212,6 +216,11 @@ body {
     color: #ffffff;
     font-family: var(--font-albert-sans);
   }
+
+  .ptclass{
+    padding-top:140px;
+  }
+  
   /* h2 {
     font-size: 36px;
   }
@@ -252,6 +261,9 @@ body {
     font-family: var(--font-albert-sans);
   }
 
+  .ptclass{
+    padding-top:400px;
+  }
   /* h2 {
     font-size: 90px;
   }
