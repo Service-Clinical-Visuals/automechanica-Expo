@@ -9,7 +9,7 @@ export default function InteriorAirFilters() {
         <div className="grid grid-cols-1 xl:grid-cols-12 gap-6 lg:gap-10 items-center">
           
           {/* Left: Video Section */}
-          <div data-aos="fade-right" className="xl:col-span-7 w-full relative aspect-video flex items-center justify-center bg-white shadow-lg overflow-hidden order-2 xl:order-1 mt-8 xl:mt-0">
+          <div data-aos="fade-right" className="xl:col-span-6 w-full relative aspect-video flex items-center justify-center bg-white shadow-lg overflow-hidden order-2 xl:order-1 mt-8 xl:mt-0">
             
              
              {/* Dynamic Video */}
@@ -21,7 +21,7 @@ export default function InteriorAirFilters() {
           </div>
           
           {/* Right: Content Section */}
-          <div data-aos="fade-left" className="xl:col-span-5 flex flex-col gap-5 order-1 xl:order-2">
+          <div data-aos="fade-left" className="xl:col-span-6 flex flex-col gap-5 order-1 xl:order-2">
             <h2 className="section-title text-[#212121] font-medium tracking-wide">
               CAR INTERIOR AIR FILTERS
             </h2>
@@ -38,7 +38,7 @@ export default function InteriorAirFilters() {
             </div>
             
             {/* Cards Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 lg:gap-12 mt-10 pl-6 md:pl-8 xl:hidden 2xl:grid">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 lg:gap-15 mt-10 pl-6 md:pl-8 xl:hidden 2xl:grid">
               {/* Card 1 */}
               <div className="relative border border-[#0D3374] rounded-xl px-3 pb-4 pt-6 text-center bg-white flex flex-col items-center">
                 {/* Overlapping Icon */}
