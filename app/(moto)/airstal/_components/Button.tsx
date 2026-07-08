@@ -2,9 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
-import Typography from "./Typography";
-
+import { TrendingUp } from "lucide-react";
 interface ButtonProps {
   text: string;
   href?: string;
@@ -25,7 +23,7 @@ const Button = ({
     <div className={`relative z-10 flex items-center justify-center gap-2 px-6 py-3 bg-primary text-white hover:bg-primary-hover transition-colors rounded-tl-[24px] rounded-br-[24px] rounded-tr-none rounded-bl-none button ${className}`}>
       <div className="button whitespace-nowrap font-primary leading-none tracking-wide">{text}</div>
       {showIcon && (
-        <ArrowUpRight className="w-5 h-5 shrink-0" strokeWidth={2} />
+        <TrendingUp className="w-5 h-5 shrink-0" strokeWidth={2} />
       )}
     </div>
   );

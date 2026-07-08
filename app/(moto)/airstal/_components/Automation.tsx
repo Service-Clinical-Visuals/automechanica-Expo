@@ -8,7 +8,7 @@ export default function Automation() {
       <div className="custom-container flex flex-col gap-8 lg:gap-8">
 
         {/* Top Content: Heading and Description */}
-        <div className="flex flex-col items-center text-center max-w-[70%] mx-auto gap-4" data-aos="fade-up">
+        <div className="flex flex-col items-center text-center lg:max-w-[70%] mx-auto gap-4" data-aos="fade-up">
           <Typography variant="h2" color="dark" className="font-bold">
             Driving Automotive Progress Since 1957
           </Typography>
@@ -38,7 +38,7 @@ export default function Automation() {
 
         {/* Bottom Content: Description and Button */}
         <div className="pt-8 border-t border-gray-400 flex flex-col xl:flex-row items-start xl:items-center justify-between gap-8" data-aos="fade-up" data-aos-delay="200">
-          <div className="max-w-[60%]">
+          <div className="lg:max-w-[60%]">
             <Typography variant="p" color="muted" className="leading-relaxed">
               With a strong commitment to innovation, sustainability, and customer satisfaction, Airstal has established a reputation for producing high-performance products that meet or exceed OEM specifications. Every compressor undergoes a rigorous remanufacturing process, ensuring
             </Typography>

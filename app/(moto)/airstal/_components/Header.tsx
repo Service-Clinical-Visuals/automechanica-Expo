@@ -55,12 +55,12 @@ export default function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-6 xl:gap-8">
+          <nav className="hidden xl:flex items-center gap-6 2xl:gap-8">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
                 href={link.href}
-                className={`navbar transition-colors py-2 border-b-2 ${link.active
+                className={`navbar transition-colors py-2 border-b-2 whitespace-nowrap ${link.active
                   ? "text-primary border-primary font-bold"
                   : "text-secondary border-transparent hover:text-primary"
                   }`}
@@ -70,12 +70,12 @@ export default function Header() {
             ))}
           </nav>
 
-          <div className="hidden lg:flex items-center lg:pr-2">
-            <Button text="Explore Products" href="#" />
+          <div className="hidden xl:flex items-center xl:pr-2">
+            <Button text="Explore Products" href="#" className="scale-90 2xl:scale-100 origin-right" />
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="lg:hidden flex items-center pr-4">
+          <div className="xl:hidden flex items-center pr-4">
             <button
               className="text-secondary focus:outline-none p-2"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -96,7 +96,7 @@ export default function Header() {
 
       {/* Mobile Navigation Menu */}
       {isMobileMenuOpen && (
-        <div className={`lg:hidden absolute left-4 right-4 bg-white rounded-2xl shadow-2xl border border-gray-100 flex flex-col z-50 overflow-hidden transition-all duration-300 ${isScrolled ? "top-[70px]" : "top-[90px]"}`}>
+        <div className={`xl:hidden absolute left-4 right-4 bg-white rounded-2xl shadow-2xl border border-gray-100 flex flex-col z-50 overflow-hidden transition-all duration-300 ${isScrolled ? "top-[70px]" : "top-[90px]"}`}>
           <nav className="flex flex-col">
             {navLinks.map((link) => (
               <Link

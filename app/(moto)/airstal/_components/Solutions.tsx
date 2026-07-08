@@ -7,19 +7,19 @@ export default function Solutions() {
   const solutions = [
     {
       image: "/moto/airstal/solution1.png",
-      title: "Automotive AC Compressors",
+      title: "Compressors",
     },
     {
       image: "/moto/airstal/solution2.png",
-      title: "AC Compressor Components",
+      title: "Parts",
     },
     {
       image: "/moto/airstal/solution3.png",
-      title: "Specialized AC Tools",
+      title: "Chemicals and oils",
     },
     {
       image: "/moto/airstal/solution4.png",
-      title: "Chemicals & Oils",
+      title: "Refrigerants",
     },
   ];
 
@@ -30,20 +30,20 @@ export default function Solutions() {
           Complete Air Conditioning Solutions
         </Typography>
 
-        <div className="w-[50%]  h-px bg-gray-400 mb-6"></div>
+        <div className="w-[50%] h-px bg-gray-400 mb-6"></div>
 
-        <Typography variant="p" color="muted" className="text-center max-w-[80%] leading-relaxed mb-12">
-          Airstal provides an extensive selection of automotive air conditioning solutions tailored for optimal performance and reliability. Our offerings include high-quality compressors, essential replacement components, specialized oils, advanced chemicals, and eco-friendly refrigerants. Each product is crafted to meet rigorous quality benchmarks, guaranteeing consistent performance across various vehicle types. Whether you're looking for routine maintenance, urgent repairs, or complete system upgrades,
+        <Typography variant="p" color="muted" className="text-center lg:max-w-[80%] leading-relaxed mb-12">
+          Airstal offers a comprehensive range of automotive air conditioning products designed for performance, durability, and efficiency. From premium compressors and replacement parts to oils, chemicals, and refrigerants, every product meets strict quality standards, ensuring dependable operation across a wide range of vehicles. Whether for maintenance, repair, or system replacement, Airstal delivers trusted solutions that keep air conditioning systems performing at their best.
         </Typography>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full mb-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6 w-full mb-12">
           {solutions.map((solution, index) => (
-            <div key={index} className="flex flex-col border border-gray-200 shadow-sm hover:shadow-md transition-shadow overflow-hidden bg-white group" data-aos="fade-up" data-aos-delay={index * 100}>
-              <div className="w-full aspect-[4/3] sm:aspect-video md:aspect-[4/3] overflow-hidden p-4">
-                <img src={solution.image} alt={solution.title} className="w-full h-full object-cover border border-gray-100 shadow-sm rounded-sm group-hover:scale-105 transition-transform duration-300" />
+            <div key={index} className="flex flex-col border border-gray-200 shadow-sm hover:shadow-md transition-shadow bg-white group" data-aos="fade-up" data-aos-delay={index * 100}>
+              <div className="w-full aspect-square flex items-center justify-center p-3 sm:p-6 lg:p-8">
+                <img src={solution.image} alt={solution.title} className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300" />
               </div>
-              <div className="w-full p-2 mb-5 text-center ">
-                <Typography variant="h5" color="dark" weight="bold" className="font-primary">
+              <div className="w-full p-2 sm:p-4 pt-0 mb-2 sm:mb-4 text-center">
+                <Typography variant="h6" color="dark" weight="bold" className="font-primary text-[13px] sm:text-[15px] lg:text-[16px]">
                   {solution.title}
                 </Typography>
               </div>

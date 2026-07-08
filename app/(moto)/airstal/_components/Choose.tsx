@@ -14,17 +14,17 @@ export default function Choose() {
           Why Choose Airstal Compressors?
         </Typography>
 
-        <div className="w-full max-w-[65%] aspect-video  mb-10 relative shadow-2xl" data-aos="zoom-in">
+        <div className="w-full lg:max-w-[65%] aspect-video  mb-10 relative shadow-2xl" data-aos="zoom-in">
           <DynamicVideoPlayer type="360" className="absolute top-0 left-0 w-full h-full object-cover" />
         </div>
 
         <div className="w-full border-t border-white/30 pt-8 mt-4 flex flex-col md:flex-row items-center justify-between gap-6" data-aos="fade-up">
-          <Typography variant="p" color="white" className="leading-relaxed max-w-[60%]  text-left">
+          <Typography variant="p" color="white" className="leading-relaxed max-w-full lg:max-w-[60%]  text-left">
             Airstal compressors deliver reliable cooling, OEM-quality performance, and long-lasting durability. Designed for precise fitment and thoroughly tested, they ensure efficient operation across a wide range of vehicles in demanding driving conditions.
           </Typography>
-          <div className="rounded-full w-20 h-20 flex items-center justify-center p-1 bg-[#579CCC] ">
+          <div className="rounded-full w-10 h-10 lg:w-20 lg:h-20 flex items-center justify-center p-1 bg-[#579CCC] ">
 
-            <TrendingUp className="w-12 h-12   " /> </div>
+            <TrendingUp className="lg:w-16 lg:h-16  h-15   " /> </div>
 
 
         </div>
