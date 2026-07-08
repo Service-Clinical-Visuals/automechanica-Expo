@@ -40,7 +40,7 @@ export default function Compressors() {
 
           {/* Content (Ordered first on smaller screens < 1536px) */}
           <div className="w-full 2xl:col-span-4 flex flex-col gap-2 order-1 2xl:order-2" data-aos="fade-left">
-            <Typography variant="h3" color="white" weight="bold" className="font-primary leading-tight">
+            <Typography variant="h3" color="white" weight="medium" className="font-primary leading-tight">
               Precision Cooling. Reliable Performance. Built to Last.
             </Typography>
             <Typography variant="p" color="white" className=" leading-relaxed mb-4">
@@ -70,7 +70,7 @@ export default function Compressors() {
 
         {/* Bottom Content Area */}
         <div className="w-full pt-8 border-t border-white/30 flex flex-col xl:flex-row items-start xl:items-center justify-between gap-8" data-aos="fade-up">
-          <div className="max-w-[60%]">
+          <div className="lg:max-w-[60%]">
             <Typography variant="p" color="white" className="leading-relaxed">
               Airstal SP is a company founded in 2004 by Danish specialists, located near Łódź, in central Poland. Thanks to years of experience, we have become one of the European leaders in the remanufacturing of air conditioning compressors for passenger cars, trucks, delivery vans, buses, agricultural and construction
             </Typography>

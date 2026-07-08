@@ -16,7 +16,7 @@ export default function Footer() {
             <Link href="/" className="inline-block mb-2 ">
               <img src="/moto/airstal/logo.png" alt="Airstal Logo" className="h-25  w-auto object-contain " />
             </Link>
-            <Typography variant="p" color="muted" className="footer-body leading-relaxed max-w-[90%] text-[13px] md:text-sm">
+            <Typography variant="p" color="dark" className="footer-body leading-relaxed max-w-[90%] text-[13px] md:text-sm">
               Airstal SP is a company founded in 2004 by Danish specialists, located near Łódź in central Poland.
             </Typography>
           </div>
@@ -28,7 +28,7 @@ export default function Footer() {
             </Typography>
             <div className="flex flex-col gap-4">
               {['About the company', 'News', 'Downloads', 'Catalogs', 'EU funds'].map((link) => (
-                <Link key={link} href="#" className="footer-body text-gray-600 hover:text-primary transition-colors text-[13px] md:text-sm">
+                <Link key={link} href="#" className="footer-body text-dark hover:text-primary transition-colors text-[13px] md:text-sm">
                   {link}
                 </Link>
               ))}
@@ -42,7 +42,7 @@ export default function Footer() {
             </Typography>
             <div className="flex flex-col gap-4">
               {['Compressors', 'Chemicals and oils', 'Parts', 'Refrigerants'].map((link) => (
-                <Link key={link} href="#" className="footer-body text-gray-600 hover:text-primary transition-colors text-[13px] md:text-sm">
+                <Link key={link} href="#" className="footer-body text-dark hover:text-primary transition-colors text-[13px] md:text-sm">
                   {link}
                 </Link>
               ))}
@@ -57,19 +57,19 @@ export default function Footer() {
             <div className="flex flex-col gap-4">
               <div className="flex items-start gap-3">
                 <Phone className="w-[18px] h-[18px] text-[#183A59] shrink-0 mt-0.5" />
-                <Typography variant="p" color="muted" className="footer-body text-[13px] md:text-sm">
+                <Typography variant="p" color="dark" className="footer-body text-[13px] md:text-sm">
                   +48 46 874 66 46
                 </Typography>
               </div>
               <div className="flex items-start gap-3">
                 <Mail className="w-[18px] h-[18px] text-[#183A59] shrink-0 mt-0.5" />
-                <Typography variant="p" color="muted" className="footer-body break-all text-[13px] md:text-sm">
+                <Typography variant="p" color="dark" className="footer-body break-all text-[13px] md:text-sm">
                   Airstal@Airstal.Com
                 </Typography>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="w-[18px] h-[18px] text-[#183A59] shrink-0 mt-0.5" />
-                <Typography variant="p" color="muted" className="footer-body text-[13px] md:text-sm leading-relaxed">
+                <Typography variant="p" color="dark" className="footer-body text-[13px] md:text-sm leading-relaxed">
                   Ul. Nasienna 7<br />
                   95-040 Koluszki<br />
                   Voivodeship: Lodz Voivodeship, Poland
@@ -83,7 +83,7 @@ export default function Footer() {
             <Typography variant="h6" color="dark" weight="bold" className="footer-heading text-[#183A59]">
               Subscribe For More Information
             </Typography>
-            <Typography variant="p" color="muted" className="footer-body leading-relaxed text-[13px] md:text-sm">
+            <Typography variant="p" color="dark" className="footer-body leading-relaxed text-[13px] md:text-sm">
               Stay informed with the latest product launches, industry news, technical updates, and innovations from airstal
             </Typography>
             <form className="flex w-full relative mt-2" onSubmit={(e) => e.preventDefault()}>
