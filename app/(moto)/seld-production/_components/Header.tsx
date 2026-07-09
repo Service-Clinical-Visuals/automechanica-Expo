@@ -22,14 +22,14 @@ export default function Header() {
     <header className="fixed left-0 top-0 z-50 w-full pt-3 sm:pt-4">
       <Container className="!px-0 !max-w-[95%]">
         <div className="rounded-2xl bg-white shadow-lg">
-          <div className="flex items-center h-[64px] sm:h-[80px] px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center h-[64px] sm:h-[80px] px-4 sm:px-4 lg:px-12.5">
             {/* Logo */}
             <div className="flex items-center shrink-0">
-              <img src="/moto/seld-production/logo.png" alt="InterCar" className="h-8 sm:h-15 w-auto" />
+              <img src="/moto/seld-production/logo.png" alt="InterCar" className="h-10 md:h-12 xl:h-15 w-auto" />
             </div>
 
             {/* Desktop Nav — centered in the remaining space */}
-            <nav className="hidden lg:flex flex-1 items-center justify-center gap-6 xl:gap-7">
+            <nav className="hidden lg:flex flex-1 items-center justify-center gap-1.5 xl:gap-7">
               {navLinks.map((link) => (
                 <button
                   key={link.label}
@@ -95,7 +95,7 @@ export default function Header() {
                     {link.label}
                   </button>
                 ))}
-                <div className="mt-4 flex items-center bg-secondary rounded-sm overflow-hidden">
+                <div className="mt-4 flex items-center rounded-sm overflow-hidden">
                   <button
                     type="button"
                     className="flex lg:hidden heading-white font-medium! rounded-br-[24px] rounded-tl-[24px] text-[20px]! items-center bg-primary justify-center px-8 py-2.5 text-white hover:bg-black/10 transition-colors"

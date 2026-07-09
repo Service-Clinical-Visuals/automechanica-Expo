@@ -66,12 +66,12 @@ export default function Header() {
             {/* Logo */}
             <div className="flex-shrink-0">
               <Link href="/">
-                <img src="/moto/dasis/logo.png" alt="DASIS" className="w-[150px] md:w-[190px] h-auto object-contain" />
+                <img src="/moto/dasis/logo.png" alt="DASIS" className="w-[150px] xl:w-[190px] h-auto object-contain" />
               </Link>
             </div>
 
             {/* Desktop Navigation */}
-            <nav className="hidden lg:flex navlink items-center gap-6 xl:gap-8">
+            <nav className="hidden lg:flex navlink items-center gap-3 xl:gap-8">
               {navLinks.map((link) => (
                 <div key={link.name} className="relative group py-4">
                   <Link

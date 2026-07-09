@@ -13,7 +13,7 @@ export default function About() {
     <section className="bg-white py-16">
       <Container>
         {/* Top heading */}
-        <div className="px-6 mb-10 flex flex-col lg:flex-row items-center justify-center lg:justify-between" data-aos="fade-up">
+        <div className="mb-10 flex flex-col lg:flex-row items-center justify-center lg:justify-between" data-aos="fade-up">
           <h2 className="heading mb-4 max-w-[620px] text-[36px]! text-center lg:text-left leading-[150%]!">Engineering High-Performance Solutions for Every Industry</h2>
           <div className="flex flex-col items-center lg:items-end gap-4">
             <p className="content text-primary! font-bold text-right">Engineered for Superior Performance</p>
