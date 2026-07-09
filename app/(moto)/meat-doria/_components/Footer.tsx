@@ -18,11 +18,11 @@ export default function Footer() {
             <input
               type="email"
               placeholder="Please Enter Email"
-              className="flex-1 min-w-0 heading border-[#0D3374] border-1 text-[18px]! px-4 py-2.5 outline-none placeholder-[#21212180]!"
+              className="flex-1 min-w-0 rounded-lg heading border-[#0D3374] border-1 text-[18px]! px-4 py-2.5 outline-none placeholder-[#21212180]!"
             />
             <button
               type="button"
-              className="content-white bg-primary ml-2 font-medium! px-6 whitespace-nowrap hover:bg-primary-hover transition-colors"
+              className="content-white rounded-lg bg-primary ml-2 font-medium! px-6 whitespace-nowrap hover:bg-primary-hover transition-colors"
             >
               Subscribe
             </button>
@@ -30,7 +30,7 @@ export default function Footer() {
         </div>
 
         {/* Blue box */}
-        <div className="bg-primary text-white p-12 py-14 rounded-2xl" data-aos="fade-up">
+        <div className="bg-primary text-white p-3 md:p-12 py-14 rounded-2xl" data-aos="fade-up">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[31fr_23fr_23fr_23fr] gap-10">
             {/* Logo + tagline */}
             <div>
@@ -98,7 +98,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-6 text-center">
-          <p className="heading text-[20px]!">
+          <p className="heading text-[20px]! leading-[150%]!">
             Copyrights @ 2026{" "}
             <a href="#" className="text-[#1C6E9F]! underline">
               Meat &amp; Doria SRL.
