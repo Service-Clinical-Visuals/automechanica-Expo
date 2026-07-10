@@ -57,26 +57,30 @@ export default function Products() {
   const activeProducts = categoryData[activeTab] || [];
 
   return (
-    <section className="relative w-full py-16 bg-white" data-aos="fade-up">
+    <section className="relative w-full py-16 bg-white">
       <div className="custom-container flex flex-col items-center">
 
         {/* Header Section */}
         <div className="max-w-[90%] md:max-w-[80%] mx-auto mb-10 flex flex-col items-center text-center">
-          <Typography variant="h1" font="oswald" color="primary" className="mb-6 tracking-wide  font-bold">
-            Complete Automotive Solutions
-          </Typography>
-          <Typography variant="p" font="lato" className="text-gray-600 leading-relaxed max-w-[95%] md:max-w-[85%]">
-            Metelli Group offers a comprehensive range of OEM-quality automotive components engineered for performance, safety, and reliability. Manufactured with advanced technology and precision, our products deliver dependable performance, perfect fitment, and long-lasting durability across a wide range of vehicles.
-          </Typography>
+          <div data-aos="fade-down" data-aos-duration="800">
+            <Typography variant="h1" font="oswald" color="primary" className="mb-6 tracking-wide  font-bold">
+              Complete Automotive Solutions
+            </Typography>
+          </div>
+          <div data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800">
+            <Typography variant="p" font="lato" className="text-gray-600 leading-relaxed max-w-[95%] md:max-w-[85%]">
+              Metelli Group offers a comprehensive range of OEM-quality automotive components engineered for performance, safety, and reliability. Manufactured with advanced technology and precision, our products deliver dependable performance, perfect fitment, and long-lasting durability across a wide range of vehicles.
+            </Typography>
+          </div>
         </div>
 
         {/* Tabs */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12 w-full">
+        <div className="flex flex-wrap justify-center gap-4 mb-12 w-full" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
           {tabs.map((tab) => (
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
-              className={`px-6 lg:px-8 py-3 font-semibold font-primary uppercase tracking-wide transition-colors border shadow-sm ${activeTab === tab
+              className={`text-[13px] md:text-sm 2xl:text-base px-5 md:px-6 2xl:px-8 py-2.5 md:py-3 2xl:py-4 font-semibold font-primary uppercase tracking-wide transition-colors border shadow-sm ${activeTab === tab
                 ? "bg-primary  border-primary"
                 : "text-[#4A4A4A] border-gray-100 hover:border-gray-300"
                 }`}
@@ -114,8 +118,9 @@ export default function Products() {
               <SwiperSlide key={index} className="h-auto pb-4 pt-1 px-2">
                 <div
                   className="bg-white border border-gray-100 shadow-md p-4 flex flex-col h-full min-h-[380px] relative group hover:shadow-xl transition-shadow cursor-pointer"
-                  data-aos="zoom-in"
-                  data-aos-delay={Math.min(index * 100, 300)}
+                  data-aos="zoom-in-up"
+                  data-aos-delay={200 + (index * 150)}
+                  data-aos-duration="600"
                 >
                   {/* Product Image */}
                   <div className="w-full aspect-square flex items-center justify-center mt-2 mb-4 p-4 ">

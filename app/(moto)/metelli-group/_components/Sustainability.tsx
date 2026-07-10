@@ -29,11 +29,11 @@ const sustainabilityData = [
 
 export default function Sustainability() {
   return (
-    <section className="relative w-full py-16 bg-[#F5F5F5]" data-aos="fade-up">
+    <section className="relative w-full py-16 bg-[#F5F5F5]" >
       <div className="custom-container flex flex-col">
 
         {/* Top Header Row */}
-        <div className="flex flex-col lg:flex-row justify-between items-start lg:items-start gap-6 mb-8 border-b border-gray-300 pb-10">
+        <div className="flex flex-col lg:flex-row justify-between items-start lg:items-start gap-6 mb-8 border-b border-gray-300 pb-10" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
           <div className="flex flex-col w-full lg:w-2/3 max-w-[90%] order-1">
             <Typography variant="h1" font="oswald" color="primary" className="mb-4 tracking-wide font-bold">
               Committed to Sustainable Growth
@@ -70,7 +70,7 @@ export default function Sustainability() {
             {sustainabilityData.map((item, index) => (
               <SwiperSlide key={index} className="h-auto pb-4 px-1">
                 <div className="flex flex-col group h-full" data-aos="fade-up" data-aos-delay={Math.min(index * 100, 300)}>
-                  <div className="w-full aspect-[79/43] relative overflow-hidden rounded-md mb-6">
+                  <div className="w-full aspect-[4/3] lg:aspect-[3/2] relative overflow-hidden rounded-md mb-6 shadow-sm">
                     <img
                       src={item.image}
                       alt={item.title}
