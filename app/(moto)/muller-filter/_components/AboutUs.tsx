@@ -17,7 +17,7 @@ export default function AboutUs() {
             <div className="w-1.5 h-10 lg:h-12 bg-[#F3DD01] rounded-full"></div>
             <h2 className="section-title font-semibold font-chakra m-0 tracking-wide">About Our Company</h2>
           </div>
-          <p className="max-w-6xl section-text leading-[1.6] font-mulish mt-6 mb-6 mx-auto text-center font-semibold">
+          <p className="max-w-4xl section-text leading-[1.6] font-mulish mt-6 mb-6 mx-auto text-center font-semibold">
             With 40 years experience in OE filter development, places itself like an European Independent
             {/* <br className="hidden lg:block"/> */}
             After market key supplier, offering an original quality range with a continuous product extension.
