@@ -65,16 +65,16 @@ export default function PremiumAirFilter() {
           </div>
 
           {/* Bottom Cards Section */}
-          <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 lg:gap-8 items-stretch">
+          <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 lg:gap-10 items-stretch">
             {cards.map((card, index) => (
               <Link 
                 href="#" 
                 key={index}
-                className="bg-[#1C1C1C] hover:bg-black text-white rounded-[20px] p-6 lg:p-8 xl:p-5 2xl:p-8 flex items-center gap-4 lg:gap-6 xl:gap-4 2xl:gap-6 transition-colors duration-300 shadow-md group h-full"
+                className="bg-[#1C1C1C] hover:bg-black text-white rounded-[20px] p-6 lg:p-8 xl:p-5 2xl:p-8 flex items-center gap-4  transition-colors duration-300 shadow-md group h-full"
                 data-aos="fade-up"
                 data-aos-delay={index * 100}
               >
-                <div className="flex-shrink-0 w-14 h-14 lg:w-20 lg:h-20 xl:w-16 xl:h-16 2xl:w-20 2xl:h-20 mt-1">
+                <div className="flex-shrink-0 w-14 h-14 lg:w-25 lg:h-25 mt-1">
                   <img src={card.icon} alt={card.title} className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300" />
                 </div>
                 <div>

@@ -20,7 +20,7 @@ export default function Footer() {
             <p className="text-[#333333] section-text font-chakra  max-w-lg font-semibold">
               All the production processes follow the international operating procedures.
             </p>
-            <div className="flex w-[100%] md:w-[90%] mt-2 shadow-sm  overflow-hidden gap-2">
+            <div className="flex w-[100%] md:w-[80%] lg:w-[70%] xl:w-[70%] 2xl:w-[50%] mt-2 shadow-sm  overflow-hidden gap-2">
               <input 
                 type="email" 
                 placeholder="Please Enter Email" 
@@ -38,7 +38,7 @@ export default function Footer() {
               <div className="w-1.5 h-10 lg:h-12 bg-[#F3DD01] rounded-full"></div>
               <h4 className="font-bold font-chakra text-[#1e1e1e] sub-title">Quick Links</h4>
             </div>
-            <ul className="flex flex-col gap-4 header-link font-mulish font-semibold">
+            <ul className="flex flex-col gap-4 header-link font-chakra font-semibold">
               <li><Link href="#" className="text-[#008F33]">Home</Link></li>
               <li><Link href="#" className="text-[#333333] hover:text-[#008F33] transition-colors">Company</Link></li>
               <li><Link href="#" className="text-[#333333] hover:text-[#008F33] transition-colors">Products</Link></li>
@@ -53,7 +53,7 @@ export default function Footer() {
               <div className="w-1.5 h-10 lg:h-12 bg-[#F3DD01] rounded-full"></div>
               <h4 className="font-bold font-chakra text-[#1e1e1e] sub-title">Our Company</h4>
             </div>
-            <ul className="flex flex-col gap-4 header-link font-mulish font-semibold">
+            <ul className="flex flex-col gap-4 header-link font-chakra font-semibold">
               <li><Link href="#" className="text-[#333333] hover:text-[#008F33] transition-colors">Privacy Policy</Link></li>
               <li><Link href="#" className="text-[#333333] hover:text-[#008F33] transition-colors">CGV Italia</Link></li>
               <li><Link href="#" className="text-[#333333] hover:text-[#008F33] transition-colors">CGV International</Link></li>
@@ -66,22 +66,22 @@ export default function Footer() {
               <div className="w-1.5 h-10 lg:h-12 bg-[#F3DD01] rounded-full"></div>
               <h4 className="font-bold font-chakra text-[#1e1e1e] sub-title">Contact Info</h4>
             </div>
-            <ul className="flex flex-col gap-5 header-link font-mulish font-semibold text-[#333333]">
-              <li className="flex items-start gap-4">
+            <ul className="flex flex-col gap-5 font-chakra font-semibold text-[#333333]">
+              <li className="flex items-start gap-4 ">
                 <img src="/moto/muller-filter/map.png" alt="Address" className="w-[20px] h-[20px] object-contain mt-0.5" />
-                <span className="leading-[1.4]">Stradale Circonvallazione 16<br/>10060 Bricherasio (TO) – Italy</span>
+                <span className="leading-[1.4] header-link cursor-pointer">Stradale Circonvallazione 16<br/>10060 Bricherasio (TO) – Italy</span>
               </li>
-              <li className="flex items-center gap-4">
+              <li className="flex items-center gap-4 ">
                 <img src="/moto/muller-filter/phone.png" alt="Phone" className="w-[20px] h-[20px] object-contain" />
-                <span>+39 0121 598089</span>
+                <span className="header-link cursor-pointer">+39 0121 598089</span>
               </li>
-              <li className="flex items-center gap-4">
+              <li className="flex items-center gap-4 ">
                 <img src="/moto/muller-filter/printer.png" alt="Fax" className="w-[20px] h-[20px] object-contain" />
-                <span>+39 0121 598551</span>
+                <span className="header-link cursor-pointer">+39 0121 598551</span>
               </li>
-              <li className="flex items-center gap-4">
+              <li className="flex items-center gap-4 ">
                 <img src="/moto/muller-filter/mail.png" alt="Email" className="w-[20px] h-[20px] object-contain" />
-                <span>info@mullerfilter.com</span>
+                <span className="header-link cursor-pointer">info@mullerfilter.com</span>
               </li>
             </ul>
           </div>

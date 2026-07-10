@@ -16,7 +16,7 @@ export default function RecentNews() {
     },
     {
       title: "AUTOMECHANIKA Frankfurt 2018",
-      image: "/moto/muller-filter/news4.png",
+      image: "/moto/muller-filter/news3.png",
       link: "#"
     }
   ];
