@@ -80,7 +80,7 @@ export default function News() {
                 </Link>
                 <Link
                   href={item.href}
-                  className="text-[#FFCB05] text-[14px]! font-semibold underline underline-offset-2 mt-1"
+                  className="text-[#FFCB05]! heading text-[18px]! font-medium! underline underline-offset-2 mt-1"
                 >
                   Read More&gt;&gt;
                 </Link>

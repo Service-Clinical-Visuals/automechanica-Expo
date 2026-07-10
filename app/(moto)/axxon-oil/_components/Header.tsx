@@ -95,7 +95,7 @@ export default function Header() {
       {/* Mobile Navigation Menu */}
       {isMobileMenuOpen && (
         <div className="lg:hidden absolute top-full left-0 w-full bg-white shadow-lg flex flex-col z-50 border-t border-gray-100">
-          <nav className="flex flex-col py-2">
+          <nav className="flex navlink flex-col py-2">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
