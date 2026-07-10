@@ -6,8 +6,8 @@ import { Oswald } from "next/font/google";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-white pt-16 pb-8 border-t border-gray-200" data-aos="fade-up">
-      <div className="custom-container flex flex-col">
+    <footer className="w-full bg-white pt-16 pb-8 border-t border-gray-200" >
+      <div className="custom-container flex flex-col" data-aos="fade-up">
 
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 mb-12">
@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Column 1: Logo & Info */}
           <div className="flex flex-col gap-6 lg:col-span-3">
             <Link href="/" className="inline-block mb-2">
-              <img src="/moto/metelli-group/footer-logo.png" alt="Metelli Group Logo" className="h-16 lg:h-20 w-[50%] w-auto  max-w-[300px] object-contain" />
+              <img src="/moto/metelli-group/footer-logo.png" alt="Metelli Group Logo" className="h-10 w-10   max-w-[90%]  w-auto   object-contain" />
             </Link>
             <Typography variant="p" className="footer-body leading-relaxed max-w-[95%] text-[13px] md:text-sm text-[#5D5D5D]">
               More than sixty years ago the Metelli Group was just a mechanical engineering workshop.

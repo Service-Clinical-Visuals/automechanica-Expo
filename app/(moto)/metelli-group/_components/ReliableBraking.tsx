@@ -35,31 +35,35 @@ export default function ReliableBraking() {
   ];
 
   return (
-    <section className="relative w-full py-16 lg:py-24 bg-primary" data-aos="fade-up">
+    <section className="relative w-full py-16 lg:py-24 bg-primary">
       <div className="custom-container flex flex-col items-center">
 
         {/* Header Content */}
         <div className="max-w-[90%] md:max-w-[80%] mx-auto mb-12 flex flex-col items-center text-center">
-          <Typography variant="h1" font="oswald" color="white" className="mb-6  font-bold tracking-wide">
-            Reliable Braking. Maximum Safety. Every Journey.
-          </Typography>
-          <Typography variant="p" font="lato" color="white" className="leading-relaxed max-w-[95%] md:max-w-[85%] opacity-95">
-            Metelli Group Brake Pads are engineered to deliver outstanding braking performance, exceptional safety, and long-lasting durability for modern vehicles. Designed using advanced friction materials and manufactured with precision, they provide consistent stopping power, excellent thermal stability, and reliable performance in both everyday driving and demanding conditions.
-          </Typography>
+          <div data-aos="fade-down" data-aos-duration="200">
+            <Typography variant="h1" font="oswald" color="white" className="mb-6  font-bold tracking-wide">
+              Reliable Braking. Maximum Safety. Every Journey.
+            </Typography>
+          </div>
+          <div data-aos="fade-right" data-aos-delay="300" data-aos-duration="800">
+            <Typography variant="p" font="lato" color="white" className="leading-relaxed max-w-[95%] md:max-w-[85%] opacity-95">
+              Metelli Group Brake Pads are engineered to deliver outstanding braking performance, exceptional safety, and long-lasting durability for modern vehicles. Designed using advanced friction materials and manufactured with precision, they provide consistent stopping power, excellent thermal stability, and reliable performance in both everyday driving and demanding conditions.
+            </Typography>
+          </div>
         </div>
 
         {/* 12-Column Grid Area */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 w-full">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 lg:gap-12 w-full">
 
           {/* Left: Dynamic Video (Span 7) */}
-          <div className="lg:col-span-7 w-full aspect-video relative rounded-lg overflow-hidden shadow-2xl bg-white/10 flex items-center justify-center" data-aos="fade-right" data-aos-delay="100">
+          <div className="xl:col-span-7 w-full aspect-video relative rounded-lg overflow-hidden shadow-2xl bg-white/10 flex items-center justify-center order-2 xl:order-1" data-aos="zoom-out-right" data-aos-duration="1000">
             <DynamicVideoPlayer type="short-1" className="absolute inset-0 w-full h-full object-cover" />
           </div>
 
           {/* Right: Features List (Span 5) */}
-          <div className="lg:col-span-5 flex flex-col justify-center gap-6" data-aos="fade-left" data-aos-delay="200">
+          <div className="xl:col-span-5 flex flex-col justify-center gap-6 order-2 xl:order-1">
             {features.map((feature, index) => (
-              <div key={index} className="flex gap-4 items-start">
+              <div key={index} className="flex gap-4 items-start" data-aos="fade-left" data-aos-delay={200 + (index * 150)} data-aos-duration="600">
                 <div className="shrink-0 mt-1">
                   <CheckCircle2 className="w-7 h-7 text-primary fill-white" />
                 </div>
@@ -72,7 +76,7 @@ export default function ReliableBraking() {
             ))}
 
             {/* Learn More Button */}
-            <div className="mt-4">
+            <div className="mt-4" data-aos="flip-up" data-aos-delay={300 + (features.length * 150)} data-aos-duration="800">
               <Button text="Learn More" variant="secondary" href="#" />
             </div>
           </div>

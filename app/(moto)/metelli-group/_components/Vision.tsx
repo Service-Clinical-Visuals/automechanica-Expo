@@ -7,14 +7,14 @@ import Button from "./Button";
 export default function Vision() {
   return (
     <section
-      className="relative w-full h-[80vh] py-16 bg-cover bg-center bg-no-repeat"
+      className="relative w-full h-[40vh] md:h-[60vh] xl:h-[80vh] py-16 bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('/moto/metelli-group/background.png')" }}
-      data-aos="fade-up"
+
     >
       {/* Optional Overlay if text is hard to read. Image 7 looks clear, but we add a subtle gradient just in case */}
       <div className="absolute   inset-0 bg-gradient-to-b from-black/20 to-black/10 z-0"></div>
 
-      <div className="custom-container relative z-10 flex flex-col items-center text-center">
+      <div className="custom-container relative z-10 flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
 
         <div className="max-w-[90%] top-3 md:max-w-[75%] lg:max-w-[60%] flex flex-col items-center">
           <Typography
