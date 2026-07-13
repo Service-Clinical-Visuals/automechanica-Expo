@@ -78,10 +78,10 @@ export default function ProductSolutions() {
                     setActiveCategory(category);
                     setCurrentPage(0);
                   }}
-                  className={`px-6 py-2 rounded-md font-normal header-link transition-colors anton-font tracking-wider border ${
+                  className={`px-6 py-2 rounded-xl font-normal header-link transition-colors anton-font tracking-wider border ${
                     activeCategory === category
                       ? "bg-[#FDCC0B] text-[#050404] border-[#FDCC0B]"
-                      : "bg-transparent text-white border-gray-600 hover:border-gray-400"
+                      : "bg-transparent text-white border-[#ffffff]/80 hover:border-gray-400"
                   }`}
                 >
                   {category}

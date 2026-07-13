@@ -20,14 +20,14 @@ export default function WeCare() {
           </p>
           
           <ul className="flex flex-col gap-4 mb-10">
-            <li className="flex items-start gap-3">
-              <CheckCircle2 className="w-5 md:w-6 h-5 md:h-6 text-white flex-shrink-0 mt-0.5" fill="white" color="#101010" />
+            <li className="flex items-center gap-3">
+              <CheckCircle2 className="w-6 md:w-8 h-6 md:h-8 text-white flex-shrink-0 mt-0.5" fill="white" color="#101010" />
               <p className="section-text text-[#ffffff] font-normal leading-tight oswald-font">
                 Committed to Sustainability – Driving responsible business practices.
               </p>
             </li>
-            <li className="flex items-start gap-3">
-              <CheckCircle2 className="w-5 md:w-6 h-5 md:h-6 text-white flex-shrink-0 mt-0.5" fill="white" color="#101010" />
+            <li className="flex items-center gap-3">
+              <CheckCircle2 className="w-6 md:w-8 h-6 md:h-8 text-white flex-shrink-0 mt-0.5" fill="white" color="#101010" />
               <p className="section-text text-[#ffffff] font-normal leading-tight oswald-font">
                 Reducing CO₂ Emissions – Lowering environmental impact continuously.
               </p>

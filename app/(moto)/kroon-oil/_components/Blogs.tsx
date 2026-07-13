@@ -79,7 +79,7 @@ export default function Blogs() {
         </div>
 
         {/* Desktop Accordion (lg and up) */}
-        <div className="hidden xl:flex h-[700px] mb-12 w-full overflow-hidden" data-aos="fade-up">
+        <div className="hidden xl:flex h-[600px] mb-12 w-full overflow-hidden gap-4 xl:gap-8" data-aos="fade-up">
           {blogs.map((blog, idx) => {
             const isCurrentPage = Math.floor(idx / itemsPerPage) === currentPage;
             const isActive = activeIdx === idx;
@@ -90,7 +90,7 @@ export default function Blogs() {
                 onClick={() => setActiveIdx(idx)}
                 className={`relative rounded-2xl overflow-hidden cursor-pointer group flex-shrink-0 ${isCurrentPage ? "border border-gray-800" : "border-0"}`}
                 style={{
-                  flex: isCurrentPage ? (isActive ? 3 : 1) : 0,
+                  flex: isCurrentPage ? (isActive ? 2.8 : 1.2) : 0,
                   opacity: isCurrentPage ? 1 : 0,
                   marginRight: (isCurrentPage && (idx % itemsPerPage !== itemsPerPage - 1)) ? "16px" : "0px",
                   transition: "all 600ms cubic-bezier(0.4, 0, 0.2, 1)"
@@ -157,11 +157,11 @@ export default function Blogs() {
 
           {/* Carousel Navigation Arrows */}
           <div className="flex items-center gap-4 w-full sm:w-auto justify-center sm:justify-end">
-             <button onClick={handlePrev} className="bg-[#FFCB05] hover:bg-[#e6b700] transition-colors rounded-full w-11 md:w-12 h-11 md:h-12 flex items-center justify-center flex-shrink-0 shadow-sm group cursor-pointer">
-               <ArrowLeft className="w-5 h-5 text-black transform group-hover:-translate-x-1 transition-transform" strokeWidth={2.5} />
+             <button onClick={handlePrev} className="bg-[#FFCB05] hover:bg-[#e6b700] transition-colors rounded-full w-13 md:w-15 h-13 md:h-15 flex items-center justify-center flex-shrink-0 shadow-sm group cursor-pointer">
+               <ArrowLeft className="w-7 h-7 text-[#050404] transform group-hover:-translate-x-1 transition-transform" strokeWidth={2.5} />
              </button>
-             <button onClick={handleNext} className="bg-[#FFCB05] hover:bg-[#e6b700] transition-colors rounded-full w-11 md:w-12 h-11 md:h-12 flex items-center justify-center flex-shrink-0 shadow-sm group cursor-pointer">
-               <ArrowRight className="w-5 h-5 text-black transform group-hover:translate-x-1 transition-transform" strokeWidth={2.5} />
+             <button onClick={handleNext} className="bg-[#FFCB05] hover:bg-[#e6b700] transition-colors rounded-full w-13 md:w-15 h-13 md:h-15 flex items-center justify-center flex-shrink-0 shadow-sm group cursor-pointer">
+               <ArrowRight className="w-7 h-7 text-[#050404] transform group-hover:translate-x-1 transition-transform" strokeWidth={2.5} />
              </button>
           </div>
         </div>

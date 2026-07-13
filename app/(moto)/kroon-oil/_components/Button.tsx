@@ -31,7 +31,7 @@ export default function Button({ text, href = "#", className = "", variant = "pr
       {/* White Pill */}
       <Link 
         href={href} 
-        className="bg-white text-[#2f2f2f] hover:bg-gray-100 transition-colors rounded-full px-8 py-3 flex items-center justify-center btn-text oswald-font font-semibold whitespace-nowrap shadow-sm"
+        className="bg-white text-[#2f2f2f] hover:bg-gray-100 transition-colors rounded-full px-8 py-4 flex items-center justify-center btn-text oswald-font font-semibold whitespace-nowrap shadow-sm"
       >
         {text}
       </Link>

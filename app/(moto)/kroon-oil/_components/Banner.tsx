@@ -18,7 +18,7 @@ export default function Banner() {
               </div>
               {/* Content */}
               <div className="absolute inset-0 z-20 p-6 pb-10 md:p-12 xl:px-24 xl:pb-32 xl:px-32 xl:pb-40 flex flex-col justify-end items-start">
-                 <div className="max-w-3xl text-left flex flex-col gap-4">
+                 <div className="max-w-lg mx-auo text-left flex flex-col gap-4">
                    <h1 className="!text-white banner-title font-normal anton-font  tracking-wide " data-aos="fade-right" data-aos-delay="300">
                      THE EXPERTS’ CHOICE                      
                    </h1>

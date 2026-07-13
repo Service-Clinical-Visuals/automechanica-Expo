@@ -10,7 +10,7 @@ export default function AdvancedTechnology() {
       <div className="custom-container">
         
         {/* Header Section */}
-        <div className="flex flex-col items-center text-center max-w-6xl mx-auto mb-10 xl:mb-14" data-aos="fade-up">
+        <div className="flex flex-col items-center text-center max-w-5xl mx-auto mb-10 xl:mb-14" data-aos="fade-up">
           <h2 className="section-title font-normal text-white  tracking-wide anton-font mb-4 xl:mb-6">
             Advanced Lubrication Technology
           </h2>

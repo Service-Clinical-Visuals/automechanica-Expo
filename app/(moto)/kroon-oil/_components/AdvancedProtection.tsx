@@ -32,7 +32,7 @@ export default function AdvancedProtection() {
           <h2 className="section-title font-normal text-white  tracking-wide anton-font mb-6">
             Advanced Protection For Every Journey
           </h2>
-          <p className="section-text text-[#ffffff] font-normal leading-[1.8] oswald-font max-w-7xl mx-auto">
+          <p className="section-text text-[#ffffff] font-normal leading-[1.8] oswald-font max-w-5xl mx-auto">
             Our premium engine oils are formulated with advanced additive technology to deliver exceptional engine protection, improved performance, and long-lasting reliability. Designed for modern gasoline and diesel engines, they help reduce friction, prevent wear, and maintain engine cleanliness under all driving conditions.
           </p>
         </div>
