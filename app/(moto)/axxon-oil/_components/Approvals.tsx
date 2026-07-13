@@ -2,8 +2,13 @@
 
 import React, { useRef, useState } from "react";
 import Link from "next/link";
-import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
 import Container from "./Container";
+
+import "swiper/css";
+import "swiper/css/pagination";
 
 const logos = [
   "/moto/axon-oil/approvals/1.png",
@@ -14,34 +19,35 @@ const logos = [
   "/moto/axon-oil/approvals/6.png",
 ];
 
+const DESKTOP_ITEMS_PER_VIEW = 4;
+
 export default function Approvals() {
-  const scrollRef = useRef<HTMLDivElement>(null);
-  const [activeIndex, setActiveIndex] = useState(0);
+  // Desktop carousel (lg+) — pages of DESKTOP_ITEMS_PER_VIEW cards advance per step
+  const desktopScrollRef = useRef<HTMLDivElement>(null);
+  const [desktopActivePage, setDesktopActivePage] = useState(0);
+  const desktopPageCount = Math.max(1, Math.ceil(logos.length / DESKTOP_ITEMS_PER_VIEW));
 
-  const getSlideStep = () => {
-    const el = scrollRef.current;
-    if (!el) return 0;
-    const card = el.querySelector<HTMLElement>(".snap-start");
-    if (!card) return 0;
-    const gap = parseFloat(window.getComputedStyle(el).columnGap || "0");
-    return card.offsetWidth + gap;
+  const handleDesktopScroll = () => {
+    const el = desktopScrollRef.current;
+    if (!el) return;
+    const maxScrollLeft = el.scrollWidth - el.clientWidth;
+    if (maxScrollLeft <= 0) {
+      setDesktopActivePage(0);
+      return;
+    }
+    const ratio = el.scrollLeft / maxScrollLeft;
+    const page = Math.round(ratio * (desktopPageCount - 1));
+    setDesktopActivePage(Math.max(0, Math.min(page, desktopPageCount - 1)));
   };
 
-  const handleScroll = () => {
-    if (!scrollRef.current) return;
-    const step = getSlideStep();
-    if (!step) return;
-    const index = Math.round(scrollRef.current.scrollLeft / step);
-    setActiveIndex(Math.max(0, Math.min(index, logos.length - 1)));
+  const scrollDesktopToPage = (page: number) => {
+    const el = desktopScrollRef.current;
+    if (!el) return;
+    const clamped = Math.max(0, Math.min(page, desktopPageCount - 1));
+    const maxScrollLeft = el.scrollWidth - el.clientWidth;
+    const target = desktopPageCount > 1 ? (clamped / (desktopPageCount - 1)) * maxScrollLeft : 0;
+    el.scrollTo({ left: target, behavior: "smooth" });
   };
-
-  const scrollToSlide = (index: number) => {
-    if (!scrollRef.current) return;
-    scrollRef.current.scrollTo({ left: index * getSlideStep(), behavior: "smooth" });
-  };
-
-  const prevSlide = () => scrollToSlide(Math.max(0, activeIndex - 1));
-  const nextSlide = () => scrollToSlide(Math.min(logos.length - 1, activeIndex + 1));
 
   return (
     <section className="w-full bg-primary py-16 md:py-20 overflow-hidden">
@@ -74,11 +80,41 @@ export default function Approvals() {
 
         <div className="h-px bg-[#FFFFFF54] my-10" />
 
-        {/* Logos carousel */}
-        <div className="relative flex">
+        {/* Logos carousel — mobile / tablet (< lg) */}
+        <div
+          className="lg:hidden"
+          style={{
+            "--swiper-pagination-color": "#facc15",
+            "--swiper-pagination-bullet-inactive-color": "#ffffff",
+            "--swiper-pagination-bullet-inactive-opacity": "0.5",
+          } as React.CSSProperties}
+        >
+          <Swiper
+            modules={[Pagination]}
+            slidesPerView={1}
+            spaceBetween={24}
+            breakpoints={{ 640: { slidesPerView: 2, spaceBetween: 24 } }}
+            pagination={{ clickable: true }}
+            className="pb-10!"
+          >
+            {logos.map((logo, index) => (
+              <SwiperSlide key={logo}>
+                <div
+                  className="aspect-square bg-transparent flex items-center justify-center"
+                  data-aos-delay={index * 80}
+                >
+                  <img src={logo} alt="OEM approval" className="max-w-full max-h-full object-contain" />
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+
+        {/* Logos carousel — desktop (lg+) */}
+        <div className="hidden lg:flex relative">
           <div
-            ref={scrollRef}
-            onScroll={handleScroll}
+            ref={desktopScrollRef}
+            onScroll={handleDesktopScroll}
             className="flex overflow-x-auto snap-x snap-mandatory gap-6"
             style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
           >
@@ -87,44 +123,25 @@ export default function Approvals() {
             {logos.map((logo, index) => (
               <div
                 key={logo}
-                className="snap-start shrink-0 w-[85vw] sm:w-[calc(50%-12px)] lg:w-[calc(25%-18px)] aspect-square bg-transparent flex items-center justify-center"
-                // data-aos="fade-up"
+                className="snap-start shrink-0 w-[calc(25%-18px)] aspect-square bg-transparent flex items-center justify-center"
                 data-aos-delay={index * 80}
               >
-                <img src={logo} alt="OEM approval" className="max-w-full max-h-full  object-contain left-[10px] relative" />
+                <img src={logo} alt="OEM approval" className="max-w-full max-h-full object-contain left-[10px] relative" />
               </div>
             ))}
           </div>
-
-          {/* Small-screen carousel arrows */}
-          <button
-            type="button"
-            aria-label="Previous slide"
-            onClick={prevSlide}
-            className="lg:hidden absolute left-1 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white/90 hover:bg-white flex items-center justify-center transition-colors cursor-pointer"
-          >
-            <ChevronLeft size={20} className="text-primary" />
-          </button>
-          <button
-            type="button"
-            aria-label="Next slide"
-            onClick={nextSlide}
-            className="lg:hidden absolute right-1 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white/90 hover:bg-white flex items-center justify-center transition-colors cursor-pointer"
-          >
-            <ChevronRight size={20} className="text-primary" />
-          </button>
         </div>
 
-        {/* Pagination bars */}
-        {logos.length > 1 && (
+        {/* Pagination bars — desktop */}
+        {desktopPageCount > 1 && (
           <div className="hidden lg:flex justify-center gap-3 mt-10">
-            {logos.map((logo, i) => (
+            {Array.from({ length: desktopPageCount }).map((_, i) => (
               <button
-                key={logo}
-                onClick={() => scrollToSlide(i)}
-                aria-label={`Go to slide ${i + 1}`}
+                key={i}
+                onClick={() => scrollDesktopToPage(i)}
+                aria-label={`Go to page ${i + 1}`}
                 className={`h-1.5 w-14 transition-colors duration-300 focus:outline-none ${
-                  activeIndex === i ? "bg-yellow-400" : "bg-white/30 hover:bg-white/50"
+                  desktopActivePage === i ? "bg-yellow-400" : "bg-white/30 hover:bg-white/50"
                 }`}
               />
             ))}

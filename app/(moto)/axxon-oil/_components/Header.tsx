@@ -41,12 +41,12 @@ export default function Header() {
           {/* Logo */}
           <div className="shrink-0">
             <Link href="/">
-              <img src="/moto/axon-oil/logo.png" alt="AxonOil" className="w-[130px] md:w-[150px] h-auto object-contain" />
+              <img src="/moto/axon-oil/logo.png" alt="AxonOil" className="w-[120px] xl:w-[150px] h-auto object-contain" />
             </Link>
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex navlink items-center gap-4 xl:gap-6">
+          <nav className="hidden xl:flex navlink items-center gap-4 xl:gap-6">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
@@ -65,7 +65,7 @@ export default function Header() {
           {/* Explore Products Button */}
           <Link
             href="#"
-            className="hidden max-w-[180px] lg:flex items-center relative shrink-0 group bg-primary text-white pl-6 pr-16 py-1.5"
+            className="hidden max-w-[180px] xl:flex items-center relative shrink-0 group bg-primary text-white pl-6 pr-16 py-1.5"
           >
             <span className="navlink text-white! whitespace-nowrap">Explore Products</span>
             <span className="absolute right-[-25px] top-1/2 -translate-y-1/2 w-11 h-12 shrink-0">
@@ -77,7 +77,7 @@ export default function Header() {
           </Link>
 
           {/* Mobile Menu Button */}
-          <div className="lg:hidden flex items-center gap-4">
+          <div className="xl:hidden flex items-center gap-4">
             <button
               className="text-black focus:outline-none"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -94,7 +94,7 @@ export default function Header() {
 
       {/* Mobile Navigation Menu */}
       {isMobileMenuOpen && (
-        <div className="lg:hidden absolute top-full left-0 w-full bg-white shadow-lg flex flex-col z-50 border-t border-gray-100">
+        <div className="xl:hidden absolute top-full left-0 w-full bg-white shadow-lg flex flex-col z-50 border-t border-gray-100">
           <nav className="flex navlink flex-col py-2">
             {navLinks.map((link) => (
               <Link
@@ -112,7 +112,7 @@ export default function Header() {
           <div className="px-6 py-4">
           <Link
             href="#"
-            className="flex max-w-[180px] lg:hidden items-center relative shrink-0 group bg-primary text-white pl-6 pr-16 py-1.5"
+            className="flex max-w-[180px] xl:hidden items-center relative shrink-0 group bg-primary text-white pl-6 pr-16 py-1.5"
           >
             <span className="navlink text-white! whitespace-nowrap">Explore Products</span>
             <span className="absolute right-[-25px] top-1/2 -translate-y-1/2 w-11 h-12 shrink-0">
