@@ -38,6 +38,7 @@ export default function Gallery () {
   const [fit, setFit] = useState(1);
   const [isMobile, setIsMobile] = useState(false);
   const stageRef = useRef<HTMLDivElement | null>(null);
+  const prevActiveRef = useRef(active);
   const touchStartX = useRef<number | null>(null);
   const dragStartX = useRef<number | null>(null);
   const isDragging = useRef(false);
@@ -91,6 +92,10 @@ export default function Gallery () {
     startCycle();
     return () => stopCycle();
   }, [startCycle, stopCycle]);
+
+  useEffect(() => {
+    prevActiveRef.current = active;
+  }, [active]);
 
   // Touch
   const onTouchStart = (e: React.TouchEvent) => {
@@ -218,47 +223,65 @@ export default function Gallery () {
             onMouseMove={onMouseMove}
             onMouseUp={onMouseUp}
           >
-            {slides.map((slide, i) => {
-              let pos = i - active;
-              // Wrap to shortest path for infinite loop
-              if (pos > slides.length / 2) pos -= slides.length;
-              if (pos < -slides.length / 2) pos += slides.length;
-              if (Math.abs(pos) > 3) return null;
-              const { x, width, height, scale, rotateY, z, opacity } = getConfig(pos, fit);
+            {(() => {
+              const half = slides.length / 2;
+              const prevActive = prevActiveRef.current;
+              let step = active - prevActive;
+              if (step > half) step -= slides.length;
+              if (step < -half) step += slides.length;
 
-              return (
-                <div
-                  key={slide.key}
-                  onClick={() => { if (!isDragging.current) setActive(i); }}
-                  className="group absolute cursor-pointer select-none transition-all duration-300"
-                  style={{
-                    width,
-                    height,
-                    zIndex: z,
-                    transform: `translateX(${x}px) scale(${scale}) rotateY(${rotateY}deg)`,
-                    opacity,
-                    transition: "transform 0.45s cubic-bezier(0.4,0,0.2,1), opacity 0.45s ease",
-                    transformStyle: "preserve-3d",
-                    overflow: "hidden",
-                  }}
-                >
-                  <Image
-                    src={slide.src}
-                    alt={`Gallery ${slide.key}`}
-                    fill
-                    className="object-cover"
-                    draggable={false}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-l from-black/75 via-black/15 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
-                  <span
-                    className="heading-white absolute right-0 top-1/2 text-white font-semibold text-[35px]! tracking-wide whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
-                    style={{ transform: "translateY(-50%) rotate(-90deg)" }}
+              return slides.map((slide, i) => {
+                let pos = i - active;
+                // Wrap to shortest path for infinite loop
+                if (pos > half) pos -= slides.length;
+                if (pos < -half) pos += slides.length;
+                if (Math.abs(pos) > 3) return null;
+
+                let oldPos = i - prevActive;
+                if (oldPos > half) oldPos -= slides.length;
+                if (oldPos < -half) oldPos += slides.length;
+                // A slide that just wrapped around the edge should snap into place
+                // instead of animating all the way across the stage.
+                const isWrapJump = pos - oldPos !== -step;
+
+                const { x, width, height, scale, rotateY, z, opacity } = getConfig(pos, fit);
+
+                return (
+                  <div
+                    key={slide.key}
+                    onClick={() => { if (!isDragging.current) setActive(i); }}
+                    className="group absolute cursor-pointer select-none"
+                    style={{
+                      width,
+                      height,
+                      zIndex: z,
+                      transform: `translateX(${x}px) scale(${scale}) rotateY(${rotateY}deg)`,
+                      opacity,
+                      transition: isWrapJump
+                        ? "none"
+                        : "transform 0.45s cubic-bezier(0.4,0,0.2,1), opacity 0.45s ease, width 0.45s cubic-bezier(0.4,0,0.2,1), height 0.45s cubic-bezier(0.4,0,0.2,1)",
+                      transformStyle: "preserve-3d",
+                      overflow: "hidden",
+                    }}
                   >
-                    {slide.hover}
-                  </span>
-                </div>
-              );
-            })}
+                    <Image
+                      src={slide.src}
+                      alt={`Gallery ${slide.key}`}
+                      fill
+                      className="object-cover"
+                      draggable={false}
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-l from-black/75 via-black/15 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+                    <span
+                      className="heading-white absolute right-0 top-1/2 text-white font-semibold text-[35px]! tracking-wide whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
+                      style={{ transform: "translateY(-50%) rotate(-90deg)" }}
+                    >
+                      {slide.hover}
+                    </span>
+                  </div>
+                );
+              });
+            })()}
           </div>
         )}
 
