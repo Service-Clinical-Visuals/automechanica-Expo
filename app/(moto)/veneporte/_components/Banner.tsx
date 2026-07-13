@@ -5,7 +5,7 @@ import Button from "./Button";
 
 export default function Banner() {
   return (
-    <section className="relative w-full h-screen bg-gray-900 overflow-hidden flex items-center pt-20">
+    <section className="relative w-full h-screen bg-gray-900 overflow-hidden flex items-center">
       {/* Background container */}
       <div className="absolute inset-0 z-0">
         <div className="relative w-full h-full">

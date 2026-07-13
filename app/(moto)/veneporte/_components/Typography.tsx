@@ -27,7 +27,7 @@ export default function Typography({
 }: TypographyProps & { outline?: boolean; style?: React.CSSProperties } & React.HTMLAttributes<HTMLElement>) {
   
   // HTML tags to render for each variant
-  const componentMap: Record<Variant, keyof JSX.IntrinsicElements> = {
+  const componentMap: Record<Variant, keyof React.JSX.IntrinsicElements> = {
     'h1': 'h1', 'h2': 'h2', 'h3': 'h3', 'h4': 'h4', 'h5': 'h5', 'h6': 'h6', 'h7': 'h6',
     'p': 'p', 'span': 'span', 'button': 'span', 'navbar': 'span', 'footer-heading': 'h4', 'footer-body': 'p'
   };
