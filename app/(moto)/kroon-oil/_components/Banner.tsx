@@ -7,7 +7,7 @@ export default function Banner() {
   return (
  
      <section className="w-full pt-[100px]  ">
-          <div className="custom-container px-5 xl:px-8">
+          <div className="custom-container ">
            
             {/* Banner Container */}
             <div className="relative overflow-hidden w-full h-[100dvh] xl:h-auto xl:aspect-video rounded-[12px] xl:rounded-[24px]" data-aos="zoom-in" data-aos-delay="100">

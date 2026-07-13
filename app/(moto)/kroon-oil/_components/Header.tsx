@@ -33,11 +33,11 @@ export default function Header() {
 
   return (
     <header 
-      className={`w-full fixed top-0 left-0 z-[100] transition-all duration-300 px-5 xl:px-8 ${
+      className={`w-full fixed top-0 left-0 z-[100] transition-all duration-300  ${
         isScrolled ? "pt-0" : "pt-4 xl:pt-2 "
       }`}
     >
-      <div className={`mx-auto flex items-center justify-between bg-[#0a0a0a] transition-all duration-300 ${
+      <div className={`mx-auto flex items-center justify-between bg-[#0a0a0a] transition-all duration-300 px-8 ${
         isScrolled 
           ? "w-full px-4 xl:px-10 py-3 border-b border-[#ffffff]/30 shadow-2xl" 
           : "custom-container border border-[#ffffff]/30 rounded-2xl px-4 xl:px-10 py-3"
@@ -100,13 +100,13 @@ export default function Header() {
                 className={`block px-8  py-3 header-link oswald-font border-b border-gray-800/50 ${
                   link.active
                     ? "text-[#FFCB05] font-medium"
-                    : "text-white hover:text-[#FFCB05] font-medium"
+                    : "text-white hover:text-[#FFCB05] font-medium "
                 }`}
               >
                 {link.name}
               </Link>
             ))}
-            <div className="p-6 flex gap-2">
+            <div className="px-8 py-6 flex gap-2">
               <Button text="Explore Products" />
             </div>
           </nav>
