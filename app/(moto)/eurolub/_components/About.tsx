@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section className="relative py-16 md:py-24 bg-white overflow-hidden" id="about-us">
       <Container className="relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-[50fr_50fr] gap-14 items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-[50fr_50fr] gap-14 items-center">
           {/* Text content */}
           <div data-aos="fade-right">
             <div className="flex items-center gap-2 mb-4">
