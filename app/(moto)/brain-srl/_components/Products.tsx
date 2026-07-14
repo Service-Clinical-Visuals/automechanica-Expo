@@ -45,7 +45,7 @@ export default function Products() {
             </Typography>
           </div>
 
-          <div className="flex flex-wrap gap-3 mt-4 lg:mt-0">
+          <div className="flex flex-wrap gap-3 mt-4 ">
             <button
               onClick={() => setActiveTab('automotive')}
               className={`px-6 py-1 md:px-7 md:py-2 button font-['Bebas_Neue',_sans-serif] tracking-wider transition-all duration-300 rounded-tl-[1.25rem] rounded-br-[1.25rem] rounded-tr-none rounded-bl-none ${activeTab === 'automotive'
@@ -103,12 +103,12 @@ export default function Products() {
             {displayProducts.map((product, index) => (
               <SwiperSlide key={`${product.id}-${index}`} className="!h-auto pb-4 !flex flex-col">
                 <div
-                  className="bg-white flex flex-col p-6 shadow-lg rounded-none w-full flex-1 min-h-[488px]"
+                  className="bg-white flex flex-col p-6 shadow-lg rounded-none w-full flex-1 min-h-[400px]"
                   data-aos="fade-up"
                   data-aos-delay={index * 100}
                   data-aos-duration="800"
                 >
-                  <div className="w-full aspect-[4/3] max-h-[400px] mb-6 flex items-center justify-center relative overflow-hidden">
+                  <div className="w-full aspect-[4/3] max-h-[400px]  mb-6 flex items-center justify-center relative overflow-hidden">
                     <img
                       src={product.image}
                       alt={product.title}
@@ -121,7 +121,7 @@ export default function Products() {
                     </Typography>
 
                     <div className="flex justify-center mt-auto w-full">
-                      <Button text="EXPLORE OUR PRODUCT" showIcon={true} className="!w-full max-w-[280px]" />
+                      <Button text="EXPLORE OUR PRODUCT" showIcon={true} className="!w-full max-w-[290px]" />
                     </div>
                   </div>
                 </div>

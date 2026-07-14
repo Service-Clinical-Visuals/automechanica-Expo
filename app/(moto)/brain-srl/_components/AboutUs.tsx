@@ -62,8 +62,8 @@ export default function AboutUs() {
 
       {/* Full-width Dark Blue Banner at the bottom */}
       <div className="w-full bg-[#192B3C] py-12 md:py-16 px-4">
-        <div className="custom-container  mx-auto text-center" data-aos="fade-up" data-aos-duration="1000">
-          <Typography variant="h2" color="white" weight="light" className="uppercase w-[50%] mx-auto tracking-wider leading-snug">
+        <div className="custom-container max-w-[80%]  text-center" data-aos="fade-up" data-aos-duration="1000">
+          <Typography variant="h2" color="white" weight="light" className="uppercase xl:max-w-[50%]  mx-auto tracking-wider leading-snug">
             We are the first Italian company to have fully developed the production of the metal catalytic converter in the automotive and industrial sectors
           </Typography>
         </div>

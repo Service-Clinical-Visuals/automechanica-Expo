@@ -116,7 +116,7 @@ export default function Header() {
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="flex items-center justify-between px-6 py-2.5 w-full bg-white transition-colors group"
                 >
-                  <Typography variant="navbar" color="dark" font="bebas" className="uppercase tracking-wide group-hover:text-primary transition-colors">
+                  <Typography variant="navbar" color="dark" font="lato" weight="normal" className="uppercase tracking-wide group-hover:text-primary transition-colors">
                     {link.name}
                   </Typography>
                   {link.hasDropdown && <ChevronDown size={14} className="text-gray-500" />}
@@ -176,7 +176,7 @@ export default function Header() {
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="flex items-center justify-between px-6 py-2.5 w-full bg-white transition-colors group"
                 >
-                  <Typography variant="navbar" color="dark" font="bebas" className="uppercase tracking-wide group-hover:text-primary transition-colors">
+                  <Typography variant="navbar" color="dark" font="lato" weight="normal" className="uppercase tracking-wide group-hover:text-primary transition-colors">
                     {link.name}
                   </Typography>
                   {link.hasDropdown && <ChevronDown size={14} className="text-gray-500" />}
