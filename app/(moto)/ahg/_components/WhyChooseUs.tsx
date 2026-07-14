@@ -85,7 +85,7 @@ export default function WhyChooseUs() {
         </div>
 
         {/* Bottom Section */}
-        <div className="pt-8 border-t border-gray-200 mt-4" data-aos="fade-up">
+        <div className="pt-8 border-t border-gray-300 mt-4" data-aos="fade-up">
           <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 items-center">
             <div className="xl:col-span-8">
                <p className="section-text font-normal oswald-font text-[#585858] leading-[1.6] max-w-5xl tracking-wider">

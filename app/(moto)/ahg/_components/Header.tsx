@@ -26,7 +26,7 @@ export default function Header() {
     { name: "Home", href: "#", active: true },
     { name: "Car parts & services", href: "#" },
     { name: "Diesel particulate filter", href: "#" },
-    { name: "catalyst", href: "#" },
+    { name: "Catalyst", href: "#" },
     { name: "About us", href: "#" },
   ];
 

@@ -6,7 +6,7 @@ import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 export default function Banner() {
   return (
      <section className="w-full pt-[100px] bg-white">
-          <div className="custom-container">
+          <div className="custom-container pt-2 xl:pt-2">
             {/* Banner Container */}
             <div className="relative overflow-hidden w-full h-[100dvh] xl:h-auto xl:aspect-video rounded-b-3xl " data-aos="zoom-in" data-aos-delay="100">
               

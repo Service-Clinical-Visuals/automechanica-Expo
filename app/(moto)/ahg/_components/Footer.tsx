@@ -20,7 +20,7 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-2 xl:grid-cols-12 gap-x-4 gap-y-10 xl:gap-8 pb-12">
           
           {/* Logo & Intro (Col 1) */}
-          <div className="col-span-2 md:col-span-1 xl:col-span-2 flex flex-col gap-6" data-aos="fade-up">
+          <div className="col-span-2 md:col-span-1 xl:col-span-3 flex flex-col gap-6 xl:pr-8" data-aos="fade-up">
             <Link href="#">
               <img src="/moto/ahg/logo.png" alt="AHG Logo" className="h-25 w-auto object-contain" />
             </Link>
@@ -30,7 +30,7 @@ export default function Footer() {
           </div>
 
           {/* Quick Links (Col 2) */}
-          <div className="col-span-1 md:col-span-1 xl:col-span-3 flex flex-col gap-6 xl:ml-8 xl:justify-center xl:items-center" data-aos="fade-up" data-aos-delay="100">
+          <div className="col-span-1 md:col-span-1 xl:col-span-2 flex flex-col gap-6 xl:ml-10" data-aos="fade-up" data-aos-delay="100">
             <h4 className="card-title font-bold tracking-wide oswald-font text-[#212121]">
               Quick Links
             </h4>
@@ -49,7 +49,7 @@ export default function Footer() {
           </div>
 
           {/* Contact Us (Col 3) */}
-          <div className="col-span-1 md:col-span-1 xl:col-span-3 flex flex-col gap-6 xl:justify-center xl:items-center" data-aos="fade-up" data-aos-delay="200">
+          <div className="col-span-1 md:col-span-1 xl:col-span-3 flex flex-col gap-6 xl:ml-8" data-aos="fade-up" data-aos-delay="200">
            <h4 className="card-title font-bold tracking-wide oswald-font text-[#212121]">
               Contact Us
             </h4>
@@ -78,7 +78,7 @@ export default function Footer() {
           </div>
 
           {/* Subscribe (Col 4) */}
-          <div className="col-span-2 md:col-span-1 xl:col-span-4 flex flex-col gap-6 xl:ml-8 items-start" data-aos="fade-up" data-aos-delay="300">
+          <div className="col-span-2 md:col-span-1 xl:col-span-4 flex flex-col gap-6 xl:ml-4 items-start" data-aos="fade-up" data-aos-delay="300">
             <h4 className="card-title font-bold tracking-wide oswald-font text-[#212121]">
               Subscribe For More Information
             </h4>

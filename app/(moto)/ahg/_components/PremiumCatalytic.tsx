@@ -54,17 +54,19 @@ export default function PremiumCatalytic() {
               {benefits.map((text, idx) => {
                 const parts = text.split(" – ");
                 return (
-                  <div key={idx} className="bg-white rounded-t-4xl rounded-bl-4xl px-6 py-4 xl:px-12 xl:py-6 flex items-start gap-3 shadow-sm flex-1" data-aos="fade-left" data-aos-delay={idx * 100}>
-                    <img src="/moto/ahg/bluechk.png" alt="Check" className="w-6 h-6 object-contain flex-shrink-0 mt-1" />
-                    <span className="header-link font-normal oswald-font text-[#2f2f2f] leading-[1.6]">
-                      {parts.length > 1 ? (
-                        <>
-                          {parts[0]} – {parts[1]}
-                        </>
-                      ) : (
-                        text
-                      )}
-                    </span>
+                  <div key={idx} className="bg-white rounded-t-4xl rounded-bl-4xl px-6 py-4 xl:px-12 xl:py-6 flex items-center shadow-sm flex-1" data-aos="fade-left" data-aos-delay={idx * 100}>
+                    <div className="flex items-start gap-3 w-full">
+                      <img src="/moto/ahg/bluechk.png" alt="Check" className="w-5 h-5 xl:w-6 xl:h-6 object-contain flex-shrink-0 mt-1 lg:mt-1.5 " />
+                      <span className="header-link font-normal oswald-font text-[#2f2f2f] leading-[1.6]">
+                        {parts.length > 1 ? (
+                          <>
+                            {parts[0]} – {parts[1]}
+                          </>
+                        ) : (
+                          text
+                        )}
+                      </span>
+                    </div>
                   </div>
                 );
               })}
