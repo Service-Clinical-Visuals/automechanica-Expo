@@ -44,7 +44,7 @@ export default function AdvancedCatalytic() {
           </div>
 
           {/* Divider */}
-          <hr className="border-t border-gray-600/50 my-8 xl:my-12" />
+          <hr className="border-t border-[#ffffff]/60 my-8 xl:my-12" />
 
           {/* Bottom Section: Video and Features */}
           <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 xl:gap-12 xl:items-center">

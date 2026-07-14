@@ -14,7 +14,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="w-full bg-white pt-16 xl:pt-20 border-t border-gray-100">
+    <footer className="w-full bg-white pt-16 xl:pt-">
       <div className="custom-container px-4 xl:px-15 ">
         
         <div className="grid grid-cols-2 md:grid-cols-2 xl:grid-cols-12 gap-x-4 gap-y-10 xl:gap-8 pb-12">

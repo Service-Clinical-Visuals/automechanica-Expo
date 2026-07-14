@@ -15,7 +15,7 @@ export default function Button({ text, href = "#", className = "", variant = "pr
   const isWhite = variant === "white";
   
   return (
-    <div className={`flex items-center group cursor-pointer relative w-fit pr-4 ${className}`}>
+    <div className={`flex items-center group cursor-pointer relative w-fit  ${className}`}>
       {/* Main Button Body */}
       <Link 
         href={href} 

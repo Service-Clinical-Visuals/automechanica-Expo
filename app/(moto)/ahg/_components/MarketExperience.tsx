@@ -64,7 +64,7 @@ export default function MarketExperience() {
                 data-aos-delay={idx * 150}
               >
                 {/* Overlapping Icon Circle */}
-                <div className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 md:left-10 md:top-8 xl:top-10 md:-translate-y-0 w-[90px] h-[90px] md:w-[100px] md:h-[100px] xl:w-[130px] xl:h-[130px] bg-white rounded-full border-[8px] xl:border-[10px] border-[#212121] flex items-center justify-center p-3 xl:p-4">
+                <div className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 md:left-10 md:top-8 xl:top-10 md:-translate-y-0 w-[90px] h-[90px] md:w-[120px] md:h-[120px] xl:w-[160px] xl:h-[160px] bg-white rounded-full border-[8px] xl:border-[10px] border-[#212121] flex items-center justify-center p-3 xl:p-4">
                   {card.icon}
                 </div>
                 

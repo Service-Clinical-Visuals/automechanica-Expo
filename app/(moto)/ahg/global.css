@@ -74,7 +74,7 @@
 
 /* as per figma */
 @media (min-width: 1536px) and (max-width: 1920px) {
-  .custom-container { max-width: 95%; }
+  .custom-container { max-width: 90%; }
   .header-link { font-size: 18px; }
   .banner-title { font-size: 38px; }
   .btn-text { font-size: 16px; }

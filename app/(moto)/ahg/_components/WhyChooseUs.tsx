@@ -23,7 +23,7 @@ export default function WhyChooseUs() {
           
           {/* Left Card */}
           <div 
-            className="xl:col-span-3 bg-white border border-gray-100 shadow-[0_8px_30px_rgb(0,0,0,0.15)] rounded-tl-4xl rounded-br-4xl p-8 xl:p-10 flex flex-col justify-center gap-8"
+            className="xl:col-span-3 bg-white border border-gray-100 drop-shadow-lg rounded-tl-4xl rounded-br-4xl p-8 xl:p-10 flex flex-col justify-center gap-8"
             data-aos="fade-right"
           >
             <div className="flex flex-col gap-4">
@@ -48,7 +48,7 @@ export default function WhyChooseUs() {
           </div>
 
           {/* Center Image */}
-          <div className="xl:col-span-6 h-[300px] xl:h-auto rounded-tl-4xl rounded-br-4xl overflow-hidden shadow-sm" data-aos="zoom-in">
+          <div className="xl:col-span-6 h-[300px] xl:h-auto rounded-tl-4xl rounded-br-4xl overflow-hidden drop-shadow-lg" data-aos="zoom-in">
             <img 
               src="/moto/ahg/whychoose.png" 
               alt="AHG Facility" 
@@ -58,7 +58,7 @@ export default function WhyChooseUs() {
 
           {/* Right Card */}
           <div 
-            className="xl:col-span-3 bg-white border border-gray-100 shadow-[0_8px_30px_rgb(0,0,0,0.15)] rounded-tl-4xl rounded-br-4xl p-8 xl:p-10 flex flex-col justify-center gap-8"
+            className="xl:col-span-3 bg-white border border-gray-100 drop-shadow-lg rounded-tl-4xl rounded-br-4xl p-8 xl:p-10 flex flex-col justify-center gap-8"
             data-aos="fade-left"
           >
             <div className="flex flex-col gap-4">

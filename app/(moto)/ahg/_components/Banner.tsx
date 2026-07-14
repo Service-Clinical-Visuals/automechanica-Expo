@@ -17,11 +17,11 @@ export default function Banner() {
 
               {/* Content Overlay */}
               <div className="absolute inset-0 z-20 pb-10 px-4 xl:px-20 xl:pb-32 flex flex-col justify-end items-start">
-                 <div className="max-w-2xl text-left flex flex-col gap-4">
+                 <div className=" text-left flex flex-col gap-4">
                    <h1 className="!text-white banner-title font-normal oswald-font tracking-wide" data-aos="fade-right" data-aos-delay="300">
                      Specialists In Exhaust Technology
                    </h1>
-                   <p className="section-text font-normal oswald-font text-[#ffffff]" data-aos="fade-right" data-aos-delay="300">
+                   <p className="section-text font-normal oswald-font text-[#ffffff] max-w-md" data-aos="fade-right" data-aos-delay="300">
                      Development, manufacturing and distribution of exhaust and exhaust gas purification systems for motor vehicles.
                    </p>
                  </div>

@@ -40,11 +40,11 @@ export default function ProductRange() {
         </div>
 
         {/* Product Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 px-5 lg:px-12">
           {products.map((product, idx) => (
             <div 
               key={idx} 
-              className={`bg-white rounded-[24px] shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-gray-100 p-6 xl:p-8 flex flex-col h-full ${
+              className={`bg-white rounded-[24px] drop-shadow-lg  border border-gray-100 p-6 xl:p-8 flex flex-col h-full ${
                 idx === 2 ? "md:col-span-2 xl:col-span-1 md:w-[calc(50%-1rem)] xl:w-auto md:mx-auto xl:mx-0" : ""
               }`}
               data-aos="fade-up" 
