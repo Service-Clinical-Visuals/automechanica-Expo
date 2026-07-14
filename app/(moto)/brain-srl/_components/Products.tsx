@@ -32,7 +32,7 @@ export default function Products() {
 
   return (
     <section className="w-full bg-primary py-16  flex flex-col">
-      <div className="custom-container px-4 md:px-8 max-w-[1920px] mx-auto w-full">
+      <div className="custom-container px-4 md:px-8 mx-auto w-full">
 
         {/* Top Header & Tabs */}
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-8 gap-8  border-b border-white pb-6" data-aos="fade-up">
@@ -48,7 +48,7 @@ export default function Products() {
           <div className="flex flex-wrap gap-3 mt-4 lg:mt-0">
             <button
               onClick={() => setActiveTab('automotive')}
-              className={`px-6 py-1 md:px-7 md:py-2 text-lg md:text-xl font-['Bebas_Neue',_sans-serif] tracking-wider transition-all duration-300 rounded-tl-[1.25rem] rounded-br-[1.25rem] rounded-tr-none rounded-bl-none ${activeTab === 'automotive'
+              className={`px-6 py-1 md:px-7 md:py-2 button font-['Bebas_Neue',_sans-serif] tracking-wider transition-all duration-300 rounded-tl-[1.25rem] rounded-br-[1.25rem] rounded-tr-none rounded-bl-none ${activeTab === 'automotive'
                 ? 'bg-white text-primary border border-white'
                 : 'bg-transparent text-white border border-white hover:bg-white/10'
                 }`}
@@ -57,7 +57,7 @@ export default function Products() {
             </button>
             <button
               onClick={() => setActiveTab('industrial')}
-              className={`px-6 py-1 md:px-7 md:py-2 text-lg md:text-xl font-['Bebas_Neue',_sans-serif] tracking-wider transition-all duration-300 rounded-tl-[1.25rem] rounded-br-[1.25rem] rounded-tr-none rounded-bl-none ${activeTab === 'industrial'
+              className={`px-6 py-1 md:px-7 md:py-2 button font-['Bebas_Neue',_sans-serif] tracking-wider transition-all duration-300 rounded-tl-[1.25rem] rounded-br-[1.25rem] rounded-tr-none rounded-bl-none ${activeTab === 'industrial'
                 ? 'bg-white text-primary border border-white'
                 : 'bg-transparent text-white border border-white hover:bg-white/10'
                 }`}
@@ -66,7 +66,7 @@ export default function Products() {
             </button>
             <button
               onClick={() => setActiveTab('all')}
-              className={`px-6 py-1 md:px-7 md:py-2 text-lg md:text-xl font-['Bebas_Neue',_sans-serif] tracking-wider transition-all duration-300 rounded-tl-[1.25rem] rounded-br-[1.25rem] rounded-tr-none rounded-bl-none ${activeTab === 'all'
+              className={`px-6 py-1 md:px-7 md:py-2 button font-['Bebas_Neue',_sans-serif] tracking-wider transition-all duration-300 rounded-tl-[1.25rem] rounded-br-[1.25rem] rounded-tr-none rounded-bl-none ${activeTab === 'all'
                 ? 'bg-white text-primary border border-white'
                 : 'bg-transparent text-white border border-white hover:bg-white/10'
                 }`}
@@ -101,18 +101,18 @@ export default function Products() {
             className="w-full !pb-8"
           >
             {displayProducts.map((product, index) => (
-              <SwiperSlide key={`${product.id}-${index}`} className="h-auto pb-4">
+              <SwiperSlide key={`${product.id}-${index}`} className="!h-auto pb-4 !flex flex-col">
                 <div
-                  className="bg-white flex flex-col p-6 shadow-lg rounded-none w-full max-w-[375px] mx-auto xl:h-[488px] h-auto"
+                  className="bg-white flex flex-col p-6 shadow-lg rounded-none w-full flex-1 min-h-[488px]"
                   data-aos="fade-up"
                   data-aos-delay={index * 100}
                   data-aos-duration="800"
                 >
-                  <div className="w-full h-[250px] xl:h-[280px] mb-6 flex items-center justify-center ">
+                  <div className="w-full aspect-[4/3] max-h-[400px] mb-6 flex items-center justify-center relative overflow-hidden">
                     <img
                       src={product.image}
                       alt={product.title}
-                      className="max-w-full max-h-full object-contain hover:scale-105 transition-transform duration-500"
+                      className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
                     />
                   </div>
                   <div className="flex-grow flex flex-col justify-between">
