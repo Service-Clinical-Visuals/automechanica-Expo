@@ -72,7 +72,7 @@ const Header = () => {
           }`}
       >
         <div className="h-[70px] sm:h-[80px] md:h-[90px] flex items-center relative z-10">
-          <div className="custom-container flex items-center justify-between gap-4 xl:gap-8 w-full">
+          <div className="custom-container flex items-center justify-between gap-4 xl:gap-5 w-full">
             {/* Logo Section */}
             <Link href="/" className="flex items-center shrink-0">
               <img
@@ -83,7 +83,7 @@ const Header = () => {
             </Link>
 
             {/* Desktop Navbar Links */}
-            <nav className="hidden xl:flex items-center space-x-2 2xl:space-x-6 shrink-0">
+            <nav className="hidden xl:flex items-center space-x-2 2xl:space-x-3 shrink-0">
               {navLinks.map((link) => {
                 const isActive = activeLink === link.id;
                 return (
@@ -107,10 +107,10 @@ const Header = () => {
             </nav>
 
             {/* Right Action: Contact */}
-            <div className="hidden xl:flex items-center shrink-0 border-l border-white/20 pl-6 gap-6">
-              <Search className="w-6 h-6 text-white hover:text-secondary cursor-pointer transition-colors" />
-              <div className="flex flex-col">
-                <Typography variant="h6" color="white" className="font-bold  uppercase leading-tight tracking-wider">
+            <div className="hidden xl:flex items-center shrink-0 gap-5">
+              <Search className="w-6 h-6 text-white hover:text-secondary cursor-pointer transition-colors" strokeWidth={2.5} />
+              <div className="flex flex-col border-l border-white/30 pl-5">
+                <Typography variant="h6" color="white" className="font-bold uppercase leading-tight tracking-wider">
                   CONTACT US
                 </Typography>
                 <Typography variant="h4" color="secondary" className="font-bold tracking-wide">
