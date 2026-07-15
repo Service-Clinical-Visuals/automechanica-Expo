@@ -35,7 +35,7 @@ export default function Reliable() {
               </p>
             </div>
 
-            <button className="flex items-center justify-center shrink-0 rounded-full bg-white text-[#00337F] hover:opacity-90 transition-opacity" style={{ width: 56, height: 56 }}>
+            <button className="hidden xl:flex items-center justify-center shrink-0 rounded-full bg-white text-[#00337F] hover:opacity-90 transition-opacity" style={{ width: 56, height: 56 }}>
               <ArrowUpRight size={30} strokeWidth={2} />
             </button>
           </div>

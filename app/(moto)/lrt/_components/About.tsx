@@ -40,7 +40,7 @@ export default function About() {
           </div>
 
           {/* Bottom: description + button */}
-          <div className="flex flex-col xl:flex-row items-start sm:items-center justify-between gap-6">
+          <div className="flex flex-col xl:flex-row items-center justify-between gap-6">
             <p className="content font-normal! text-center xl:text-left max-w-[920px]">
               We specialize in the production of high-quality exhaust system components, including
               exhaust manifolds, catalytic converters, diesel particulate filters, and flex pipes,

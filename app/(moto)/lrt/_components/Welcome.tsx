@@ -46,7 +46,7 @@ const categories = [
 
 export default function Welcome() {
   const [active, setActive] = useState(categories[0].key);
-  const scrollerRef = useRef(null);
+  const scrollerRef = useRef<HTMLDivElement>(null);
 
   const activeCategory = categories.find((c) => c.key === active);
 
@@ -70,7 +70,7 @@ export default function Welcome() {
               </p>
             </div>
 
-            <button className="flex items-center justify-center shrink-0 rounded-full bg-white text-[#121212] hover:opacity-90 transition-opacity" style={{ width: 56, height: 56 }}>
+            <button className="hidden xl:flex items-center justify-center shrink-0 rounded-full bg-white text-[#121212] hover:opacity-90 transition-opacity" style={{ width: 56, height: 56 }}>
               <ArrowUpRight size={24} strokeWidth={2} />
             </button>
           </div>
