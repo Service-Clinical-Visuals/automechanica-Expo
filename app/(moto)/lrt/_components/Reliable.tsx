@@ -43,10 +43,10 @@ export default function Reliable() {
           <hr className="border-t border-white/10 mb-8" />
 
           {/* Two-column layout */}
-          <div className="flex flex-col lg:flex-row gap-10 items-center">
+          <div className="flex flex-col xl:flex-row gap-10 items-center">
 
             {/* Left: image */}
-            <div className="w-full lg:w-[60%] shrink-0" data-aos="fade-right">
+            <div className="w-full xl:w-[60%] shrink-0" data-aos="fade-right">
               <img
                 src="/moto/lrt/reliable.png"
                 alt="LRT Automotive sustainable production"
@@ -56,7 +56,7 @@ export default function Reliable() {
             </div>
 
             {/* Right: text + checklist */}
-            <div className="w-full lg:w-[40%] space-y-5" data-aos="fade-left" data-aos-delay="150">
+            <div className="w-full xl:w-[40%] space-y-5" data-aos="fade-left" data-aos-delay="150">
               <h3 className="heading2 mb-8">
                 LRT Automotive GmbH has been a medium-sized production company
               </h3>

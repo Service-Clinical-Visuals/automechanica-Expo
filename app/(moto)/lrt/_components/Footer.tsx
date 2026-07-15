@@ -16,7 +16,7 @@ export default function Footer() {
     <footer className="bg-[#121212] py-16">
       <Container>
         <div className="px-4 sm:px-8 md:px-14 lg:px-[60px]">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[26fr_16fr_22fr_24fr_16fr] gap-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-[26fr_16fr_22fr_24fr_16fr] gap-10">
 
             {/* Col 1: Logo + tagline */}
             <div className="flex flex-col gap-4">

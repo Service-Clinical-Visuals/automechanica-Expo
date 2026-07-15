@@ -40,10 +40,10 @@ export default function Premium() {
           <hr className="border-t border-white/10 mb-8" />
 
           {/* Two-column layout */}
-          <div className="flex flex-col lg:flex-row gap-10 items-center">
+          <div className="flex flex-col xl:flex-row gap-10 items-center">
 
             {/* Left: 360 video */}
-            <div className="w-full lg:w-[65%] shrink-0" data-aos="fade-right">
+            <div className="w-full xl:w-[65%] shrink-0" data-aos="fade-right">
               <div
                 className="relative w-full rounded-2xl aspect-video flex items-center justify-center overflow-hidden"
                 style={{
@@ -58,7 +58,7 @@ export default function Premium() {
             </div>
 
             {/* Right: text + checklist */}
-            <div className="w-full lg:w-[35%] space-y-5" data-aos="fade-left" data-aos-delay="150">
+            <div className="w-full xl:w-[35%] space-y-5" data-aos="fade-left" data-aos-delay="150">
               <h3 className="heading2 mb-8 ">Catalytic Converters</h3>
 
               <p className="content">

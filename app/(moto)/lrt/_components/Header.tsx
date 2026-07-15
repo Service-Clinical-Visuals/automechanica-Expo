@@ -21,7 +21,7 @@ export default function Header() {
         <div className="flex items-center h-[75px] px-4 sm:px-8 md:px-14 lg:px-[60px]">
           {/* Logo */}
           <div className="flex-1 flex items-center">
-            <img src="/moto/lrt/logo.png" alt="LRT Automotive" className="h-9 w-auto" />
+            <img src="/moto/lrt/logo.png" alt="LRT Automotive" className="h-12 w-auto" />
           </div>
 
           {/* Desktop Nav — centered */}
