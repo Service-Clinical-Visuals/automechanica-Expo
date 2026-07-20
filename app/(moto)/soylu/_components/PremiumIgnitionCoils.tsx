@@ -3,6 +3,7 @@
 import React from "react";
 import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 import HexagonButton from "./HexagonButton";
+import Typography from "./Typography";
 
 export default function PremiumIgnitionCoils() {
   return (
@@ -12,7 +13,7 @@ export default function PremiumIgnitionCoils() {
           <Typography variant="h1" color="white">Advanced NOx Sensors</Typography>
           <Typography variant="p" color="white" className="mt-3 max-w-[70%] text-center">
             SOYLU EXHAUST & AUTOMOTIVE A.S. NOx Sensors deliver accurate emission monitoring, reliable engine performance, long-lasting durability, and exceptional efficiency for modern commercial vehicle applications.
-          </p>
+          </Typography>
         </div>
 
         <div className="max-w-[1100px] mx-auto mt-5" data-aos="zoom-in" data-aos-delay="150">

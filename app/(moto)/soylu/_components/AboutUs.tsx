@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Typography from "./Typography";
 
 export default function AboutUs() {
   return (
@@ -44,7 +45,7 @@ export default function AboutUs() {
                       <Typography variant="p" color="primary" className="font-semibold">Integrated Engineering Excellence -</Typography>
                       <Typography variant="p" color="muted" className="ml-2 leading-[1.7]">
                         From product design and tooling development to final production, every stage is managed in-house to ensure precision, efficiency, and consistent quality.
-                      </span>
+                      </Typography>
                     </div>
                   </div>
                 </div>
@@ -55,7 +56,7 @@ export default function AboutUs() {
                       <Typography variant="p" color="primary" className="font-semibold">Advanced In-House Manufacturing -</Typography>
                       <Typography variant="p" color="muted" className="ml-2 leading-[1.7]">
                         Our modern production facilities design and manufacture molds, jigs, and specialized equipment using cutting-edge technologies for superior accuracy and reliability.
-                      </span>
+                      </Typography>
                     </div>
                   </div>
                 </div>
@@ -81,7 +82,7 @@ export default function AboutUs() {
                 <Typography variant="p" color="primary" className="font-semibold">Established in 2001 -</Typography>
                 <Typography variant="p" color="muted" className="ml-2 leading-[1.7]">
                   Over two decades of manufacturing excellence.
-                </span>
+                </Typography>
               </div>
             </div>
           </div>
@@ -94,7 +95,7 @@ export default function AboutUs() {
                 <Typography variant="p" color="primary" className="font-semibold">Manufacturing Facility -</Typography>
                 <Typography variant="p" color="muted" className="ml-2 leading-[1.7]">
                   9,000 m² modern production plant with advanced technologies.
-                </span>
+                </Typography>
               </div>
             </div>
           </div>
@@ -107,7 +108,7 @@ export default function AboutUs() {
                 <Typography variant="p" color="primary" className="font-semibold">Digital Product Traceability -</Typography>
                 <Typography variant="p" color="muted" className="ml-2 leading-[1.7]">
                   QR code system providing transparency, quality, and reliability.
-                </span>
+                </Typography>
               </div>
             </div>
           </div>
@@ -120,7 +121,7 @@ export default function AboutUs() {
                 <Typography variant="p" color="primary" className="font-semibold">Logistics & Service Center -</Typography>
                 <Typography variant="p" color="muted" className="ml-2 leading-[1.7]">
                   1,500 m² facility providing efficient distribution and support.
-                </span>
+                </Typography>
               </div>
             </div>
           </div>

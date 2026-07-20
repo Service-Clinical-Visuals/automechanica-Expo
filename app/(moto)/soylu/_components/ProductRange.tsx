@@ -2,6 +2,9 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Typography from "./Typography";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
 
 const products = [
   {
@@ -77,7 +80,7 @@ export default function ProductRange() {
             </Typography>
             <Typography variant="p" color="muted" className="mt-4 max-w-[80%]">
               Our product catalogs have been updated to help you easily find the part you're looking for. All you have to do is enter the SOYLU or OEM reference in the "product search" section to find the part you need!
-            </p>
+            </Typography>
           </div>
           <Link
             href="#"
@@ -119,28 +122,26 @@ export default function ProductRange() {
                     />
                   </div>
 
-                      <div className="mt-5 flex items-start justify-between gap-4">
-                        <div className="max-w-[70%]">
-                          <h3 className="text-xl font-semibold text-[#163A2F] mb-3">
-                            {product.title}
-                          </h3>
-                          <p className="text-sm leading-6 text-[#5F6B65]">
-                            {product.description}
-                          </p>
-                        </div>
-                       
-                          <div className="flex h-8 w-8 items-center justify-center rounded-full bg-white shadow-[0_4px_20px_rgba(0,0,0,0.08)] transition-transform duration-300 group-hover:translate-x-1">
-                            <img
-                              src="/moto/soylu/Vector.png"
-                              alt="Arrow"
-                              className="h-4 w-4 object-contain p-1"
-                            />
-                          </div>
-                      </div>
+                  <div className="mt-5 flex items-start justify-between gap-4">
+                    <div className="max-w-[70%]">
+                      <h3 className="text-xl font-semibold text-[#163A2F] mb-3">
+                        {product.title}
+                      </h3>
+                      <p className="text-sm leading-6 text-[#5F6B65]">
+                        {product.description}
+                      </p>
                     </div>
-                  ))}
+                   
+                    <div className="flex h-8 w-8 items-center justify-center rounded-full bg-white shadow-[0_4px_20px_rgba(0,0,0,0.08)] transition-transform duration-300 group-hover:translate-x-1">
+                      <img
+                        src="/moto/soylu/Vector.png"
+                        alt="Arrow"
+                        className="h-4 w-4 object-contain p-1"
+                      />
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </SwiperSlide>
             ))}
           </Swiper>
           <div className="swiper-pagination-products" />
