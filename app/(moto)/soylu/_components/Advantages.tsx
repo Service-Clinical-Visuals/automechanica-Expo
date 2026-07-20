@@ -95,15 +95,16 @@ export default function Advantages() {
                 </div>
               </SwiperSlide>
             ))}
-          </div>
+          </Swiper>
 
           <button className="advantages-next hidden md:flex absolute -right-4 lg:-right-6 top-1/2 -translate-y-1/2 z-20 h-10 w-10 items-center justify-center rounded-full bg-primary text-white shadow-lg transition-transform hover:scale-105 cursor-pointer">
             <span className="text-xl"><ArrowRight></ArrowRight></span>
           </button>
         </div>
 
-
       </div>
     </section>
   );
 }
+
+

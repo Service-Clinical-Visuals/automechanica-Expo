@@ -18,7 +18,7 @@ export default function Banner() {
 
       {/* Content Overlay */}
       <div className="custom-container relative z-20 pb-20 md:pb-25 lg:pb-25">
-        <div className="max-w-xl text-left" data-aos="fade-up" data-aos-delay="200">
+        <div className="max-w-xl min-[2560px]:max-w-[1200px] min-[3800px]:max-w-[1800px] text-left" data-aos="fade-up" data-aos-delay="200">
           <h1 className="banner-title text-white leading-tight mb-8 font-Sora">
             Driving Engine Performance with German Precision
           </h1>

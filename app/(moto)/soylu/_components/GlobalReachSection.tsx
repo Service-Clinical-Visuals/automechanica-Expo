@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Typography from "./Typography";
 
 export default function GlobalReachSection() {
     return (
@@ -20,7 +21,7 @@ export default function GlobalReachSection() {
                 <Typography variant="h5" color="primary" className="leading-tight font-bold tracking-[0.06em] max-w-[80%]">
                     WE ARE ALL AROUND THE
                     <span className="block">WORLD!</span>
-                </h2>
+                </Typography>
                 <p className="max-w-3xl text-xs sm:text-sm text-[#4C5D4F] leading-7 tracking-[0.01em]">
                     Our products maintain their innovation in the toughest conditions around the world with expert engineering, unique craftsmanship quality, and the best selected material durability.
                 </p>

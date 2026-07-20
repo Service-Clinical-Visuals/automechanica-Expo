@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Typography from "./Typography";
 
 export default function Footer() {
   return (
@@ -15,7 +16,7 @@ export default function Footer() {
             </Link>
             <Typography color="white"  className="footer-body  max-w-full font-normal">
               Soylu Group is a privately owned company specializing in shipping, construction, and real estate management.
-            </p>
+            </Typography>
             <div className="flex items-center gap-3">
               <Link href="#" className="inline-flex h-9 w-9 items-center justify-center text-white transition hover:bg-white/20">
                 <span className="sr-only">LinkedIn</span>
