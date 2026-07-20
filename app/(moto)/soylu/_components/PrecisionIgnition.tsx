@@ -22,7 +22,7 @@ const features = [
 
 export default function PrecisionIgnition() {
   return (
-    <section className="w-full py-16 lg:py-20 bg-white">
+    <section className="w-full py-10  bg-white">
       <div className="custom-container">
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start" data-aos="fade-up">
@@ -43,7 +43,7 @@ export default function PrecisionIgnition() {
             <ul className="flex flex-col gap-5">
               <li className="flex gap-3">
                 <div className="flex-shrink-0 mt-1">
-                  <img src="/moto/soylu/subtract.png" alt="check" className="w-4 h-4 object-contain" />
+                  <img src="/moto/soylu/Subtract.png" alt="check" className="w-4 h-4 object-contain" />
                 </div>
                 <div>
                   <strong className="text-[#163B30]">Fast & Stable Response</strong>
@@ -53,7 +53,7 @@ export default function PrecisionIgnition() {
 
               <li className="flex gap-3">
                 <div className="flex-shrink-0 mt-1">
-                  <img src="/moto/soylu/subtract.png" alt="check" className="w-4 h-4 object-contain" />
+                  <img src="/moto/soylu/Subtract.png" alt="check" className="w-4 h-4 object-contain" />
                 </div>
                 <div>
                   <strong className="text-[#163B30]">Enhanced Fuel Efficiency</strong>

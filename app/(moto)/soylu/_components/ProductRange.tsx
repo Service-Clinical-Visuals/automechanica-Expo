@@ -67,15 +67,15 @@ export default function ProductRange() {
   const nextSlide = () => setCurrentSlide(s => Math.min(slides.length - 1, s + 1));
 
   return (
-    <section className="w-full py-16 lg:py-20 bg-white">
+    <section className="w-full py-16  bg-white">
       <div className="custom-container overflow-hidden">
         {/* Header */}
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between lg:mb-5" data-aos="fade-up">
-          <div className="max-w-3xl">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#142B23] leading-tight">
+          <div className="max-w-[70%]">
+            <Typography variant="h1" color="primary" className="leading-tight">
               Product Catalogs
-            </h2>
-            <p className="mt-4 text-sm leading-7 text-[#575757] max-w-2xl">
+            </Typography>
+            <Typography variant="p" color="muted" className="mt-4 max-w-[80%]">
               Our product catalogs have been updated to help you easily find the part you're looking for. All you have to do is enter the SOYLU or OEM reference in the "product search" section to find the part you need!
             </p>
           </div>
@@ -91,40 +91,33 @@ export default function ProductRange() {
           <div className="h-0 w-[1680px] max-w-full border-t border-[#00000042]" />
         </div>
 
-        <div className="relative overflow-hidden" data-aos="fade-up" data-aos-delay="100">
-          {/* <button
-            onClick={prevSlide}
-            aria-label="Previous"
-            className="hidden md:flex absolute left-4 top-1/2 z-20 -translate-y-1/2 h-10 w-10 items-center justify-center rounded-full bg-[#0F3D26] text-white shadow-lg"
+        <div className="relative mt-8" data-aos="fade-up" data-aos-delay="100">
+          <Swiper
+            modules={[Pagination, Autoplay]}
+            spaceBetween={24}
+            slidesPerView={1}
+            breakpoints={{
+              640: { slidesPerView: 1, slidesPerGroup: 1 },
+              768: { slidesPerView: 2, slidesPerGroup: 2 },
+              1024: { slidesPerView: 3, slidesPerGroup: 3 },
+              1280: { slidesPerView: 3, slidesPerGroup: 3 },
+            }}
+            pagination={{ clickable: true, el: '.swiper-pagination-products' }}
+            autoplay={{ delay: 5000, disableOnInteraction: false }}
+            className="w-full pb-16 [&_.swiper-wrapper]:items-stretch"
           >
-            <span className="text-xl">‹</span>
-          </button>
-
-          <button
-            onClick={nextSlide}
-            aria-label="Next"
-            className="hidden md:flex absolute right-4 top-1/2 z-20 -translate-y-1/2 h-10 w-10 items-center justify-center rounded-full bg-[#0F3D26] text-white shadow-lg"
-          >
-            <span className="text-xl">›</span>
-          </button> */}
-
-          <div className="flex transition-transform duration-500 ease-in-out" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
-            {slides.map((slice, slideIndex) => (
-              <div key={slideIndex} className="w-full flex-shrink-0 px-2 sm:px-0">
-                <div className="grid gap-6 xl:grid-cols-3">
-                  {slice.map((product, index) => (
-                    <div
-                      key={index}
-                      className="group relative overflow-hidden rounded-[24px] bg-white px-6 pb-6 pt-5 shadow-[0_24px_60px_rgba(0,3px,8px,0.08)] box-shadow: 0px 3px 8px 0px #0000003D;
-"
-                    >
-                      <div className="relative overflow-hidden rounded-[18px] bg-[#F5F7F6] p-5">
-                        <img
-                          src={product.image}
-                          alt={product.title}
-                          className="h-[240px] w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                        />
-                      </div>
+            {products.map((product, index) => (
+              <SwiperSlide key={index} className="!h-auto">
+                <div
+                  className="group relative h-full flex flex-col overflow-hidden rounded-[16px] bg-white px-6 pb-6 pt-5 shadow-[0_3px_12px_rgba(0,0,0,0.06)] "
+                >
+                  <div className="relative overflow-hidden rounded-[12px] bg-white w-full">
+                    <img
+                      src={product.image}
+                      alt={product.title}
+                      className=" w-full object-contain transition-transform duration-500 group-hover:scale-105"
+                    />
+                  </div>
 
                       <div className="mt-5 flex items-start justify-between gap-4">
                         <div className="max-w-[70%]">
@@ -149,20 +142,11 @@ export default function ProductRange() {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-
-        <div className="flex justify-center items-center gap-3 mt-10">
-          {slides.map((_, index) => (
-            <button
-              key={index}
-              onClick={() => setSlide(index)}
-              className={`h-2.5 transition-all duration-300 ${currentSlide === index ? "w-16 bg-[#0F3D26]" : "w-10 bg-[#D9D9D9]"}`}
-              aria-label={`Go to slide ${index + 1}`}
-            />
-          ))}
+          </Swiper>
+          <div className="swiper-pagination-products" />
         </div>
       </div>
     </section>
   );
 }
+// triggering rebuild

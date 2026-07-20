@@ -550,3 +550,27 @@
     font-size: 22px;
   }
 }
+/* Custom Swiper Pagination */
+.swiper-pagination-products {
+  bottom: auto !important;
+  position: relative !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.swiper-pagination-products .swiper-pagination-bullet {
+  width: 30px !important;
+  height: 6px !important;
+  border-radius: 4px !important;
+  background-color: #E5E7EB !important;
+  opacity: 1 !important;
+  margin: 0 4px !important;
+  transition: background-color 0.3s ease;
+}
+
+.swiper-pagination-products .swiper-pagination-bullet-active {
+  background-color: var(--color-primary) !important;
+}

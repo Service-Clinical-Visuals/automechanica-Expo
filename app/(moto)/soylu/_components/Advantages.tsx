@@ -2,6 +2,13 @@
 
 import React from "react";
 import Link from "next/link";
+import Typography from "./Typography";
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Navigation } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import { ArrowBigDown, ArrowLeft, ArrowRight } from "lucide-react";
 
 const advantagesData = [
   {
@@ -44,23 +51,35 @@ export default function Advantages() {
           </div>
         </div>
 
-        {/* Cards Grid */}
-        <div className="relative mt-14">
-          <button aria-hidden className="hidden md:flex absolute left-0 lg:-left-6 top-1/2 -translate-y-1/2 z-20 h-10 w-10 items-center justify-center rounded-full bg-[#0F3D26] text-white shadow-lg">
-            <span className="text-lg">‹</span>
+        {/* Slider Area */}
+        <div className="relative mt-14" data-aos="fade-up" data-aos-delay="100">
+          <button className="advantages-prev hidden md:flex absolute -left-4 lg:-left-6 top-1/2 -translate-y-1/2 z-20 h-10 w-10 items-center justify-center rounded-full bg-primary text-white shadow-lg transition-transform hover:scale-105 cursor-pointer">
+            <span className="text-xl"><ArrowLeft></ArrowLeft></span>
           </button>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
+          <Swiper
+            modules={[Autoplay, Navigation]}
+            spaceBetween={32}
+            slidesPerView={1}
+            breakpoints={{
+              640: { slidesPerView: 1 },
+              768: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
+              1280: { slidesPerView: 3 },
+            }}
+            navigation={{
+              prevEl: '.advantages-prev',
+              nextEl: '.advantages-next',
+            }}
+            autoplay={{ delay: 5000, disableOnInteraction: false }}
+            className="w-full [&_.swiper-wrapper]:items-stretch"
+          >
             {advantagesData.map((item, index) => (
-              <div
-                key={index}
-                className="bg-white p-6 lg:p-8 shadow-[0_24px_80px_rgba(0,0,0,0.08)] flex flex-col items-start text-left transition-transform duration-300 hover:-translate-y-2 h-full border border-[#EFF1F3]"
-                data-aos="fade-up"
-                data-aos-delay={index * 100}
-              >
-                <div className="w-full rounded-sm border border-[#f2f4f3] bg-white p-6 flex items-center justify-center">
-                  <img src={item.image} alt={item.title} className="max-h-[220px] object-contain" />
-                </div>
+              <SwiperSlide key={index} className="!h-auto pb-4">
+                <div className="bg-white p-6  shadow-[0_24px_80px_rgba(0,0,0,0.08)] flex flex-col items-start text-left transition-transform duration-300 hover:-translate-y-2 h-full ">
+                  <div className="w-full rounded-sm   flex items-center justify-center">
+                    <img src={item.image} alt={item.title} className=" object-contain" />
+                  </div>
 
                 <h3 className="font-semibold font-Oswald text-[#004339] text-lg lg:text-xl mt-6 mb-3">
                   {item.title}
@@ -70,15 +89,16 @@ export default function Advantages() {
                   {item.desc}
                 </p>
 
-                <Link href="#" className="text-[#2F2F2F] font-Oswald text-sm underline underline-offset-2 hover:text-[#0F3D26]">
-                  View More &gt;&gt;
-                </Link>
-              </div>
+                  <Link href="#" className="text-secondary hover:text-[var(--color-primary)] mt-auto">
+                    <Typography variant="p" weight="bold" color="dark" className="underline underline-offset-2 font-bold">View More &gt;&gt;</Typography>
+                  </Link>
+                </div>
+              </SwiperSlide>
             ))}
           </div>
 
-          <button aria-hidden className="hidden md:flex absolute right-0 lg:-right-6 top-1/2 -translate-y-1/2 z-20 h-10 w-10 items-center justify-center rounded-full bg-[#0F3D26] text-white shadow-lg">
-            <span className="text-lg">›</span>
+          <button className="advantages-next hidden md:flex absolute -right-4 lg:-right-6 top-1/2 -translate-y-1/2 z-20 h-10 w-10 items-center justify-center rounded-full bg-primary text-white shadow-lg transition-transform hover:scale-105 cursor-pointer">
+            <span className="text-xl"><ArrowRight></ArrowRight></span>
           </button>
         </div>
 

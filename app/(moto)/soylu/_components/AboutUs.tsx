@@ -41,8 +41,8 @@ export default function AboutUs() {
                   <div className="flex items-start gap-3 mb-1">
                     <img src="/moto/soylu/Subtract.png" alt="Icon" className="h-5 w-5 mt-1 object-contain" />
                     <div className="flex-1">
-                      <span className="text-base font-semibold text-[#0F3D26]">Integrated Engineering Excellence -</span>
-                      <span className="ml-2 text-sm font-normal text-[#555] leading-[1.7]">
+                      <Typography variant="p" color="primary" className="font-semibold">Integrated Engineering Excellence -</Typography>
+                      <Typography variant="p" color="muted" className="ml-2 leading-[1.7]">
                         From product design and tooling development to final production, every stage is managed in-house to ensure precision, efficiency, and consistent quality.
                       </span>
                     </div>
@@ -52,8 +52,8 @@ export default function AboutUs() {
                   <div className="flex items-start gap-3 mb-2">
                     <img src="/moto/soylu/Subtract.png" alt="Icon" className="h-5 w-5 mt-1 object-contain" />
                     <div className="flex-1">
-                      <span className="text-base font-semibold text-[#0F3D26]">Advanced In-House Manufacturing -</span>
-                      <span className="ml-2 text-sm font-normal text-[#555] leading-[1.7]">
+                      <Typography variant="p" color="primary" className="font-semibold">Advanced In-House Manufacturing -</Typography>
+                      <Typography variant="p" color="muted" className="ml-2 leading-[1.7]">
                         Our modern production facilities design and manufacture molds, jigs, and specialized equipment using cutting-edge technologies for superior accuracy and reliability.
                       </span>
                     </div>
@@ -78,8 +78,8 @@ export default function AboutUs() {
             <div className="flex items-start gap-3">
               <img src="/moto/soylu/Subtract.png" alt="Icon" className="h-5 w-5 mt-1" />
               <div className="flex-1">
-                <span className="text-sm font-semibold text-[#0F3D26]">Established in 2001 -</span>
-                <span className="ml-2 text-sm font-normal text-[#555] leading-[1.7]">
+                <Typography variant="p" color="primary" className="font-semibold">Established in 2001 -</Typography>
+                <Typography variant="p" color="muted" className="ml-2 leading-[1.7]">
                   Over two decades of manufacturing excellence.
                 </span>
               </div>
@@ -91,8 +91,8 @@ export default function AboutUs() {
               <img src="/moto/soylu/Subtract.png" alt="Icon" className="h-5 w-5 mt-1" />
 
               <div className="flex-1">
-                <span className="text-sm font-semibold text-[#0F3D26]">Manufacturing Facility -</span>
-                <span className="ml-2 text-sm font-normal text-[#555] leading-[1.7]">
+                <Typography variant="p" color="primary" className="font-semibold">Manufacturing Facility -</Typography>
+                <Typography variant="p" color="muted" className="ml-2 leading-[1.7]">
                   9,000 m² modern production plant with advanced technologies.
                 </span>
               </div>
@@ -104,8 +104,8 @@ export default function AboutUs() {
               <img src="/moto/soylu/Subtract.png" alt="Icon" className="h-5 w-5 mt-1" />
 
               <div className="flex-1">
-                <span className="text-sm font-semibold text-[#0F3D26]">Digital Product Traceability -</span>
-                <span className="ml-2 text-sm font-normal text-[#555] leading-[1.7]">
+                <Typography variant="p" color="primary" className="font-semibold">Digital Product Traceability -</Typography>
+                <Typography variant="p" color="muted" className="ml-2 leading-[1.7]">
                   QR code system providing transparency, quality, and reliability.
                 </span>
               </div>
@@ -117,8 +117,8 @@ export default function AboutUs() {
               <img src="/moto/soylu/Subtract.png" alt="Icon" className="h-5 w-5 mt-1" />
 
               <div className="flex-1">
-                <span className="text-sm font-semibold text-[#0F3D26]">Logistics & Service Center -</span>
-                <span className="ml-2 text-sm font-normal text-[#555] leading-[1.7]">
+                <Typography variant="p" color="primary" className="font-semibold">Logistics & Service Center -</Typography>
+                <Typography variant="p" color="muted" className="ml-2 leading-[1.7]">
                   1,500 m² facility providing efficient distribution and support.
                 </span>
               </div>
