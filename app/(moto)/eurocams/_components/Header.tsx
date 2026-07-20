@@ -47,11 +47,10 @@ export default function Header() {
 
   return (
     <header className={headerClasses}>
-      <div className={`custom-container bg-[#101010]   relative p-3 md:p-5 flex items-center justify-between py-4 ${headerState === 'top' ? 'bg-transparent' : ''}`}>
+      <div className={`custom-container bg-[#101010] relative p-3 md:p-5 flex items-center justify-between py-4 ${headerState === 'top' ? 'lg:bg-transparent' : ''}`}>
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 z-50">
           <img src="/moto/eurocams/icon.png" alt="Eurocams" className="h-8 md:h-10 xl:h-12 w-auto object-contain" />
-          <span className="text-primary font-oswald font-bold text-2xl lg:text-3xl tracking-wide">Eurocams</span>
         </Link>
 
         {/* Desktop Nav */}
@@ -83,7 +82,7 @@ export default function Header() {
 
         {/* Mobile Nav Overlay */}
         <div
-          className={`absolute top-full left-0 w-full bg-secondary shadow-lg flex flex-col lg:hidden overflow-hidden transition-all duration-300 ease-in-out origin-top z-40 ${isOpen ? "max-h-[600px] opacity-100 border-t border-gray-700" : "max-h-0 opacity-0"}`}
+          className={`absolute top-full left-0 w-full bg-[#101010] shadow-lg flex flex-col lg:hidden overflow-hidden transition-all duration-300 ease-in-out origin-top z-40 ${isOpen ? "max-h-[600px] opacity-100 border-t border-gray-700" : "max-h-0 opacity-0"}`}
         >
           <nav className="flex flex-col px-6 py-4">
             {navLinks.map((link) => (

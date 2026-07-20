@@ -15,12 +15,12 @@ export default function PremiumEngine() {
         </Typography>
 
         {/* Description */}
-        <Typography variant="p" color="white" className=" max-w-[70%] mx-auto mb-12" data-aos="fade-up" data-aos-delay="100">
+        <Typography variant="p" color="white" className=" xl:max-w-[70%] mx-auto mb-12" data-aos="fade-up" data-aos-delay="100">
           Eurocams Ltd. manufactures premium engine components engineered to deliver exceptional performance, durability, and reliability. From camshafts and cylinder head components to valves and tappets, every product is precision-manufactured to meet the highest industry standards for modern automotive applications.
         </Typography>
 
         {/* Video Player Placeholder */}
-        <div className="w-full max-w-[80%] aspect-video rounded-xl overflow-hidden shadow-2xl relative bg-white flex items-center justify-center" data-aos="fade-up" data-aos-delay="200">
+        <div className="w-full xl:max-w-[80%] aspect-video rounded-xl overflow-hidden shadow-2xl relative bg-white flex items-center justify-center" data-aos="fade-up" data-aos-delay="200">
           <DynamicVideoPlayer type="360" className="absolute inset-0 w-full h-full object-cover" />
         </div>
 

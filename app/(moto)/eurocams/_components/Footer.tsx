@@ -77,11 +77,11 @@ export default function Footer() {
             <ul className="flex flex-col gap-6 footer-body text-[#4A4A4A]">
               <li className="flex items-start gap-3">
                 <Phone className="text-primary w-5 h-5 flex-shrink-0 mt-0.5" />
-                <span>+44 (0)1934 418830</span>
+                <div className="footer-body">+44 (0)1934 418830</div>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="text-primary w-5 h-5 flex-shrink-0 mt-0.5" />
-                <span className="leading-relaxed">Unit C3 Oldmixon<br/>Crescent, Weston-Super-<br/>Mare, BS24 9AY, GB</span>
+                <div className="footer-body leading-relaxed">Unit C3 Oldmixon<br/>Crescent, Weston-Super-<br/>Mare, BS24 9AY, GB</div>
               </li>
             </ul>
           </div>

@@ -76,7 +76,7 @@ export default function Solutions() {
           <Typography variant="h1" className="text-white font-bold mb-4">
             Complete Engine Component Solutions
           </Typography>
-          <Typography variant="p" color="white" className="max-w-[70%] leading-relaxed ">
+          <Typography variant="p" color="white" className="xl:max-w-[70%] leading-relaxed ">
             Eurocams offers a comprehensive range of precision-engineered engine components designed for exceptional durability, reliable performance, and long service life across diverse vehicle applications, meeting the highest standards of quality and reliability.
           </Typography>
         </div>
