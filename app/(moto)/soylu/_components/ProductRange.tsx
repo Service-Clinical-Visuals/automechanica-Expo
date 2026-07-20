@@ -56,15 +56,15 @@ const products = [
 export default function ProductRange() {
 
   return (
-    <section className="w-full py-16 lg:py-20 bg-white">
+    <section className="w-full py-16  bg-white">
       <div className="custom-container overflow-hidden">
         {/* Header */}
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between lg:mb-5" data-aos="fade-up">
-          <div className="max-w-3xl">
+          <div className="max-w-[70%]">
             <Typography variant="h1" color="primary" className="leading-tight">
               Product Catalogs
             </Typography>
-            <Typography variant="p" color="muted" className="mt-4 max-w-2xl">
+            <Typography variant="p" color="muted" className="mt-4 max-w-[80%]">
               Our product catalogs have been updated to help you easily find the part you're looking for. All you have to do is enter the SOYLU or OEM reference in the "product search" section to find the part you need!
             </Typography>
           </div>
@@ -78,10 +78,10 @@ export default function ProductRange() {
             spaceBetween={24}
             slidesPerView={1}
             breakpoints={{
-              640: { slidesPerView: 1 },
-              768: { slidesPerView: 2 },
-              1024: { slidesPerView: 3 },
-              1280: { slidesPerView: 3 },
+              640: { slidesPerView: 1, slidesPerGroup: 1 },
+              768: { slidesPerView: 2, slidesPerGroup: 2 },
+              1024: { slidesPerView: 3, slidesPerGroup: 3 },
+              1280: { slidesPerView: 3, slidesPerGroup: 3 },
             }}
             pagination={{ clickable: true, el: '.swiper-pagination-products' }}
             autoplay={{ delay: 5000, disableOnInteraction: false }}
@@ -90,13 +90,13 @@ export default function ProductRange() {
             {products.map((product, index) => (
               <SwiperSlide key={index} className="!h-auto">
                 <div
-                  className="group relative h-full flex flex-col overflow-hidden rounded-[16px] bg-white px-6 pb-6 pt-5 shadow-[0_3px_12px_rgba(0,0,0,0.06)] border border-[#E5E7EB]"
+                  className="group relative h-full flex flex-col overflow-hidden rounded-[16px] bg-white px-6 pb-6 pt-5 shadow-[0_3px_12px_rgba(0,0,0,0.06)] "
                 >
                   <div className="relative overflow-hidden rounded-[12px] bg-white w-full">
                     <img
                       src={product.image}
                       alt={product.title}
-                      className="h-[220px] w-full object-contain transition-transform duration-500 group-hover:scale-105"
+                      className=" w-full object-contain transition-transform duration-500 group-hover:scale-105"
                     />
                   </div>
 
@@ -118,10 +118,10 @@ export default function ProductRange() {
               </SwiperSlide>
             ))}
           </Swiper>
-          
-          <div className="swiper-pagination-products flex justify-center items-center mt-8 [&_.swiper-pagination-bullet]:w-[48px] [&_.swiper-pagination-bullet]:h-[6px] [&_.swiper-pagination-bullet]:rounded-none [&_.swiper-pagination-bullet]:bg-[#D9D9D9] [&_.swiper-pagination-bullet]:opacity-100 [&_.swiper-pagination-bullet]:-skew-x-[35deg] [&_.swiper-pagination-bullet]:mx-[6px] [&_.swiper-pagination-bullet]:transition-all [&_.swiper-pagination-bullet-active]:bg-primary" />
+          <div className="swiper-pagination-products" />
         </div>
       </div>
     </section>
   );
 }
+// triggering rebuild
