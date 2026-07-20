@@ -2,11 +2,10 @@
 
 import React from "react";
 import Link from "next/link";
-import Typography from "./Typography";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-primary pt-14 lg:pt-16 pb-10 text-white">
+    <footer className="w-full bg-[#0F3D26] pt-14 lg:pt-16 pb-10 text-white">
       <div className="custom-container">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-12 pb-10 border-b border-white/60">
 
@@ -16,7 +15,7 @@ export default function Footer() {
             </Link>
             <Typography color="white"  className="footer-body  max-w-full font-normal">
               Soylu Group is a privately owned company specializing in shipping, construction, and real estate management.
-            </Typography>
+            </p>
             <div className="flex items-center gap-3">
               <Link href="#" className="inline-flex h-9 w-9 items-center justify-center text-white transition hover:bg-white/20">
                 <span className="sr-only">LinkedIn</span>

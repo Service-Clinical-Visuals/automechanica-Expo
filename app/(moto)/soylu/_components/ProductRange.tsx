@@ -1,59 +1,70 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
-import Typography from "./Typography";
-import Button from "./Button";
-import { ArrowUpRight } from "lucide-react";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Autoplay } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/pagination';
 
 const products = [
   {
     title: "Fast - Moving Products",
     description: "Our new generation exhaust systems, which we have developed with our superior engineering and workmanship from our... ",
-    image: "/moto/soylu/products/product1.png"
+    image: "/moto/soylu/Euro1.png"
   },
   {
     title: "Euro I, II, III Exhaust Systems",
     description: "Engineered for Euro I, II, and III vehicles, our exhaust systems provide reliable performance and efficient exhaust flow.",
-    image: "/moto/soylu/products/product2.png"
+    image: "/moto/soylu/Euro2.png"
   },
   {
     title: "Euro IV, V Exhaust Systems",
     description: "High-quality exhaust systems engineered to meet Euro IV and Euro V emission standards with dependable performance.",
-    image: "/moto/soylu/products/product3.png"
+    image: "/moto/soylu/Euro3.png"
   },
   {
-    title: "Exhaust Systems for Buses",
-    description: "Engineered for reliable performance, durability, and efficient emission control in modern bus applications.",
-    image: "/moto/soylu/products/product4.png"
+    title: "Fast - Moving Products",
+    description: "Our new generation exhaust systems, which we have developed with our superior engineering and workmanship from our... ",
+    image: "/moto/soylu/Euro1.png"
   },
   {
-    title: "Universal Products",
-    description: "Our universal products deliver reliable performance and versatile compatibility across commercial vehicle applications.",
-    image: "/moto/soylu/products/product5.png"
+    title: "Euro I, II, III Exhaust Systems",
+    description: "Engineered for Euro I, II, and III vehicles, our exhaust systems provide reliable performance and efficient exhaust flow.",
+    image: "/moto/soylu/Euro2.png"
   },
   {
-    title: "NOx Sensors",
-    description: "Our NOx Sensors deliver precise emission monitoring, reliable engine performance, and long-lasting durability.",
-    image: "/moto/soylu/products/product6.png"
+    title: "Euro IV, V Exhaust Systems",
+    description: "High-quality exhaust systems engineered to meet Euro IV and Euro V emission standards with dependable performance.",
+    image: "/moto/soylu/Euro3.png"
   },
   {
-    title: "Temperature Sensors",
-    description: "Our Temperature Sensors deliver accurate monitoring, reliable performance, and durability for commercial vehicles.",
-    image: "/moto/soylu/products/product7.png"
+    title: "Fast - Moving Products",
+    description: "Our new generation exhaust systems, which we have developed with our superior engineering and workmanship from our... ",
+    image: "/moto/soylu/Euro1.png"
   },
   {
-    title: "Fuel Tanks",
-    description: "Our next-generation fuel tanks deliver superior durability, reliability, and long-lasting performance.",
-    image: "/moto/soylu/products/product8.png"
-  }
+    title: "Euro I, II, III Exhaust Systems",
+    description: "Engineered for Euro I, II, and III vehicles, our exhaust systems provide reliable performance and efficient exhaust flow.",
+    image: "/moto/soylu/Euro2.png"
+  },
+  {
+    title: "Euro IV, V Exhaust Systems",
+    description: "High-quality exhaust systems engineered to meet Euro IV and Euro V emission standards with dependable performance.",
+    image: "/moto/soylu/Euro3.png"
+  },
 ];
 
 export default function ProductRange() {
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const slides = [
+    products.slice(0, 3),
+    products.slice(3, 6),
+    products.slice(6, 9),
+  ];
+
+  const setSlide = (index: number) => {
+    setCurrentSlide(index);
+  };
+
+  const prevSlide = () => setCurrentSlide(s => Math.max(0, s - 1));
+  const nextSlide = () => setCurrentSlide(s => Math.min(slides.length - 1, s + 1));
 
   return (
     <section className="w-full py-16  bg-white">
@@ -66,11 +77,19 @@ export default function ProductRange() {
             </Typography>
             <Typography variant="p" color="muted" className="mt-4 max-w-[80%]">
               Our product catalogs have been updated to help you easily find the part you're looking for. All you have to do is enter the SOYLU or OEM reference in the "product search" section to find the part you need!
-            </Typography>
+            </p>
           </div>
-          <Button text="View All Products" variant="primary" />
+          <Link
+            href="#"
+            className="inline-flex items-center justify-center rounded-none rounded-tr-[20px] bg-[#0F3D26] text-xs px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-[#0b2c18]"
+          >
+            View All Products
+            <img src="/moto/soylu/arrow (1).png" alt="Arrow" className="ml-2 h-3 w-auto" />
+          </Link>
         </div>
-        <hr className="border-t border-[#E5E7EB] mt-4 mb-10 w-full" />
+        <div className="mt-6 mb-10">
+          <div className="h-0 w-[1680px] max-w-full border-t border-[#00000042]" />
+        </div>
 
         <div className="relative mt-8" data-aos="fade-up" data-aos-delay="100">
           <Swiper
@@ -100,22 +119,28 @@ export default function ProductRange() {
                     />
                   </div>
 
-                  <div className="mt-6 flex items-start justify-between gap-4 flex-grow">
-                    <div className="max-w-[75%]">
-                      <Typography variant="h3" color="primary" className="mb-2 text-lg font-semibold">
-                        {product.title}
-                      </Typography>
-                      <Typography variant="p" color="muted" className="text-sm line-clamp-3 leading-relaxed">
-                        {product.description}
-                      </Typography>
+                      <div className="mt-5 flex items-start justify-between gap-4">
+                        <div className="max-w-[70%]">
+                          <h3 className="text-xl font-semibold text-[#163A2F] mb-3">
+                            {product.title}
+                          </h3>
+                          <p className="text-sm leading-6 text-[#5F6B65]">
+                            {product.description}
+                          </p>
+                        </div>
+                       
+                          <div className="flex h-8 w-8 items-center justify-center rounded-full bg-white shadow-[0_4px_20px_rgba(0,0,0,0.08)] transition-transform duration-300 group-hover:translate-x-1">
+                            <img
+                              src="/moto/soylu/Vector.png"
+                              alt="Arrow"
+                              className="h-4 w-4 object-contain p-1"
+                            />
+                          </div>
+                      </div>
                     </div>
-                   
-                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white shadow-[0_2px_8px_rgba(0,0,0,0.08)] border border-gray-50 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 mt-1">
-                      <ArrowUpRight className="h-5 w-5 text-primary" strokeWidth={2.5} />
-                    </div>
-                  </div>
+                  ))}
                 </div>
-              </SwiperSlide>
+              </div>
             ))}
           </Swiper>
           <div className="swiper-pagination-products" />
