@@ -5,10 +5,10 @@ import Link from "next/link";
 import Typography from "./Typography";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Autoplay, Navigation } from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import { ArrowBigDown, ArrowLeft, ArrowRight } from "lucide-react";
 
 const advantagesData = [
   {
@@ -69,11 +69,11 @@ export default function Advantages() {
         {/* Slider Area */}
         <div className="relative mt-14" data-aos="fade-up" data-aos-delay="100">
           <button className="advantages-prev hidden md:flex absolute -left-4 lg:-left-6 top-1/2 -translate-y-1/2 z-20 h-10 w-10 items-center justify-center rounded-full bg-primary text-white shadow-lg transition-transform hover:scale-105 cursor-pointer">
-            <span className="text-xl">‹</span>
+            <span className="text-xl"><ArrowLeft></ArrowLeft></span>
           </button>
 
           <Swiper
-            modules={[Pagination, Autoplay, Navigation]}
+            modules={[Autoplay, Navigation]}
             spaceBetween={32}
             slidesPerView={1}
             breakpoints={{
@@ -86,15 +86,14 @@ export default function Advantages() {
               prevEl: '.advantages-prev',
               nextEl: '.advantages-next',
             }}
-            pagination={{ clickable: true, el: '.swiper-pagination-advantages' }}
             autoplay={{ delay: 5000, disableOnInteraction: false }}
             className="w-full [&_.swiper-wrapper]:items-stretch"
           >
             {advantagesData.map((item, index) => (
               <SwiperSlide key={index} className="!h-auto pb-4">
-                <div className="bg-white p-6 lg:p-8 shadow-[0_24px_80px_rgba(0,0,0,0.08)] flex flex-col items-start text-left transition-transform duration-300 hover:-translate-y-2 h-full border border-[#EFF1F3]">
-                  <div className="w-full rounded-sm border border-[#f2f4f3] bg-white p-6 flex items-center justify-center">
-                    <img src={item.image} alt={item.title} className="max-h-[220px] object-contain" />
+                <div className="bg-white p-6  shadow-[0_24px_80px_rgba(0,0,0,0.08)] flex flex-col items-start text-left transition-transform duration-300 hover:-translate-y-2 h-full ">
+                  <div className="w-full rounded-sm   flex items-center justify-center">
+                    <img src={item.image} alt={item.title} className=" object-contain" />
                   </div>
 
                   <Typography variant="h3" color="primary" className="mt-6 mb-3 font-semibold">
@@ -106,7 +105,7 @@ export default function Advantages() {
                   </Typography>
 
                   <Link href="#" className="text-secondary hover:text-[var(--color-primary)] mt-auto">
-                    <Typography variant="span" className="underline underline-offset-2 font-semibold">View More &gt;&gt;</Typography>
+                    <Typography variant="p" weight="bold" color="dark" className="underline underline-offset-2 font-bold">View More &gt;&gt;</Typography>
                   </Link>
                 </div>
               </SwiperSlide>
@@ -114,10 +113,8 @@ export default function Advantages() {
           </Swiper>
 
           <button className="advantages-next hidden md:flex absolute -right-4 lg:-right-6 top-1/2 -translate-y-1/2 z-20 h-10 w-10 items-center justify-center rounded-full bg-primary text-white shadow-lg transition-transform hover:scale-105 cursor-pointer">
-            <span className="text-xl">›</span>
+            <span className="text-xl"><ArrowRight></ArrowRight></span>
           </button>
-          
-          <div className="swiper-pagination-advantages flex justify-center items-center mt-10 [&_.swiper-pagination-bullet]:w-[48px] [&_.swiper-pagination-bullet]:h-[6px] [&_.swiper-pagination-bullet]:rounded-none [&_.swiper-pagination-bullet]:bg-[#D9D9D9] [&_.swiper-pagination-bullet]:opacity-100 [&_.swiper-pagination-bullet]:-skew-x-[35deg] [&_.swiper-pagination-bullet]:mx-[6px] [&_.swiper-pagination-bullet]:transition-all [&_.swiper-pagination-bullet-active]:bg-primary" />
         </div>
 
 

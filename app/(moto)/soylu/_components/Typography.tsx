@@ -31,7 +31,7 @@ export default function Typography({
     secondary: 'text-[var(--color-secondary)]',
     dark: 'text-[#121C22]',
     white: 'text-white',
-    muted: 'text-[#4B5563]',
+    muted: 'text-[#585858]',
     none: '',
   };
 

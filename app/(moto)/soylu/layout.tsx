@@ -10,12 +10,6 @@ const oswald = Oswald({
   display: "swap",
 });
 
-const oxanium = Oxanium({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  variable: "--font-oxanium",
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: "Bremi | 100 Years of Car Systems",
@@ -28,7 +22,7 @@ export default function BremiLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className={`${oswald.variable} ${oxanium.variable} font-sans`}>
+    <div className={`${oswald.variable} font-sans`}>
       <VideoProvider>{children}</VideoProvider>
     </div>
   );
