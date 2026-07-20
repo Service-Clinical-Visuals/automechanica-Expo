@@ -57,7 +57,7 @@ export default function Footer() {
           </div>
 
           {/* Column 4: Contact */}
-          <div className="flex flex-col space-y-4">
+          <div className="flex flex-col space-y-4 xl:pl-4 2xl:pl-2">
             <h4 className="card-title white font-semibold mb-3">Contact</h4>
             <div className="flex items-start gap-3 text-sm text-gray-200">
               <img src="/moto/liqui-moly/location.png" alt="Location" className="w-4 h-4 mt-1 object-contain" />

@@ -38,7 +38,7 @@ export default function Header() {
       <div className="py-4">
         <div className="custom-container">
           <div className="flex items-center justify-between gap-2">
-            <div className="flex items-center gap-10 xl:gap-20 ">
+            <div className="flex items-center gap-10 xl:gap-10 2xl:gap-20 ">
             
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
@@ -48,7 +48,7 @@ export default function Header() {
             </div>
 
             {/* Desktop Navigation */}
-            <nav className="hidden xl:flex items-center gap-4 xl:gap-8">
+            <nav className="hidden xl:flex items-center gap-4 xl:gap-5 2xl:gap-8">
               {navLinks.map((link) => (
                 <Link
                   key={link.name}
@@ -69,7 +69,7 @@ export default function Header() {
             {/* Right Side Actions */}
             <div className="hidden xl:flex items-center gap-4">
               {/* Search Box */}
-              <div className="relative flex items-center bg-gray-100 rounded-[4px] px-3 py-2 w-[350px]">
+              <div className="relative flex items-center bg-gray-100 rounded-[4px] px-3 py-2 w-[250px] 2xl:w-[350px]">
                 <img src="/moto/liqui-moly/search.png" alt="Search" className="w-3 h-3 mr-2" />
                 <input 
                   type="text" 

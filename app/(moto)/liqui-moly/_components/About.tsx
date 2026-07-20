@@ -6,7 +6,7 @@ export default function About() {
     <section className="w-full py-16 md:py-24 bg-white relative">
       <div className="custom-container flex flex-col items-center ">
         {/* Section Title */}
-        <div className="text-center mb-6 w-full md:max-w-3xl lg:max-w-5xl xl:max-w-5xl 2xl:max-w-6xl " data-aos="fade-up">
+        <div className="text-center mb-6 w-full md:max-w-3xl lg:max-w-4xl xl:max-w-4xl 2xl:max-w-5xl " data-aos="fade-up">
           <h2 className="section-title font-semibold text-[var(--color-primary)] mb-2 inline-block relative">
             About LIQUI MOLY
             {/* Underline Decoration */}
@@ -24,7 +24,7 @@ export default function About() {
         </div>
 
         {/* Image */}
-        <div className="w-full md:max-w-4xl lg:max-w-5xl xl:max-w-6xl 2xl:max-w-7xl mt-2 mb-2" data-aos="fade-up" data-aos-delay="100">
+        <div className="w-full md:max-w-4xl lg:max-w-5xl xl:max-w-7xl 2xl:max-w-7xl mt-2 mb-2" data-aos="fade-up" data-aos-delay="100">
           <img 
             src="/moto/liqui-moly/abt.jpg" 
             alt="LIQUI MOLY Products" 

@@ -58,7 +58,7 @@ export default function Brand() {
           
           {/* Card 1 */}
           <div className="bg-white rounded-md shadow-md p-6 md:p-8 pl-32 md:pl-36 relative mt-10 md:mt-0 mb-10 xl:mb-0 flex items-center min-h-[140px]" data-aos="fade-up" data-aos-delay="0">
-            <div className="absolute -top-6 left-6 w-25 h-25 bg-[#3267A1] rounded-md flex items-center justify-center shadow-lg">
+            <div className="absolute -top-6 left-6 w-25 h-25 bg-[var(--color-primary)]/80 rounded-md flex items-center justify-center shadow-lg">
               <img src="/moto/liqui-moly/blog1.png" alt="" className="w-15 h-15 object-contain" />
             </div>
             <div>
@@ -69,7 +69,7 @@ export default function Brand() {
 
           {/* Card 2 */}
           <div className="bg-white rounded-md shadow-md p-6 md:p-8 pl-32 md:pl-36 relative mt-10 md:mt-0 mb-10 xl:mb-0 flex items-center min-h-[140px]" data-aos="fade-up" data-aos-delay="100">
-            <div className="absolute -top-6 left-6 w-25 h-25 bg-[#3267A1] rounded-md flex items-center justify-center shadow-lg">
+            <div className="absolute -top-6 left-6 w-25 h-25 bg-[var(--color-primary)]/80 rounded-md flex items-center justify-center shadow-lg">
               <img src="/moto/liqui-moly/blog2.png" alt="" className="w-15 h-15 object-contain" />
             </div>
             <div>
@@ -81,7 +81,7 @@ export default function Brand() {
           {/* Card 3 */}
           
            <div className="bg-white rounded-md shadow-md p-6 md:p-8 pl-32 md:pl-36 relative mt-10 md:mt-0  flex items-center min-h-[140px]" data-aos="fade-up" data-aos-delay="100">
-            <div className="absolute -top-6 left-6 w-25 h-25 bg-[#3267A1] rounded-md flex items-center justify-center shadow-lg">
+            <div className="absolute -top-6 left-6 w-25 h-25 bg-[var(--color-primary)]/80 rounded-md flex items-center justify-center shadow-lg">
               <img src="/moto/liqui-moly/blog3.png" alt="" className="w-15 h-15 object-contain" />
             </div>
             <div>
