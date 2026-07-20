@@ -39,9 +39,9 @@ export default function Header() {
   ];
 
   let headerClasses = `w-full  z-50 transition-all duration-500 flex justify-center ${headerState === "top"
-    ? "absolute  top-4 lg:top-6 left-0 right-0 opacity-100"
+    ? "absolute custom-container rounded-tr-2xl rounded-tl-2xl rounded-br-none rounded-bl-none bg-[#111111] top-4 lg:top-6 left-0 right-0 opacity-100"
     : headerState === "hidden" && !isOpen
-      ? "fixed top-0 left-0 right-0 -translate-y-full opacity-0 pointer-events-none"
+      ? "fixed top-0 left-0 right-0  -translate-y-full opacity-0 pointer-events-none"
       : "fixed top-0 left-0 right-0 translate-y-0 opacity-100 z-[60] bg-[#111111] shadow-md"
     }`;
 
