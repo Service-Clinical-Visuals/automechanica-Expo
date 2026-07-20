@@ -5,78 +5,57 @@ import { Wrench } from 'lucide-react';
 
 export default function CabinAirFilter() {
   return (
-    <section className="py-16 md:py-24 bg-[#0D3374] text-white">
+    <section className="py-16 md:py-24 bg-[#0D3374] text-white bg-[url('/moto/leprinxol/bg.png')] bg-center bg-cover">
       <div className="custom-container">
         {/* Title Section */}
-        {/* <div className="flex flex-col items-center text-center mb-6" data-aos="fade-down">
-          <div className="flex items-center gap-3">
-            <img src="/moto/mistral/Polygon.png" alt="" className="w-7 h-7 object-contain" />
-            <h2 className="section-title text-[#ffffff] font-medium tracking-wide">
-              Andrea Campi Mistral – Cabin Air Filter
-            </h2>
-          </div>
-        </div> */}
-        
-        {/* Divider */}
-        {/* <div className="w-full h-[1px] bg-white/20 mb-12"></div> */}
+       
         
         {/* Main Content Grid */}
-        <div className="grid grid-cols-1 xl:grid-cols-12 gap-6 lg:gap-10">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-6 lg:gap-10 items-center">
           
           {/* Left: Text Content */}
-          <div data-aos="fade-right" className="xl:col-span-5 flex flex-col gap-5 text-[#ffffff] section-text lato-font">
-            <div className="flex flex-col gap-1">
+          <div data-aos="fade-right" className="xl:col-span-5 flex flex-col xl:justify-center 2xl:justify-start gap-5 text-[#ffffff] ">
+            <div className="flex flex-col ">
               <h3 className="section-title text-white font-bold">
-                Premium Cabin Air Filtration
+                Premium Engine Oil Performance
               </h3>
-              <span className="block w-14 h-[3px] bg-[#0D99FF]" />
+              <span className="block w-45 h-[2px] bg-[#ffffff]/80" />
             </div>
-
-            <p>
-              Our Air Filter is engineered to deliver clean, fresh air inside your vehicle by effectively
-              capturing dust, pollen, soot, and other airborne contaminants. Designed to meet OEM
-              quality standards, it ensures a precise fit and reliable performance across a wide range
-              of passenger vehicles. Available in both standard and activated carbon variants, the filter
-              enhances cabin comfort, protects the HVAC system, and helps create a healthier driving
-              environment for every journey.
+            <p className=" !section-text sora-font font-normal text-[#ffffff] leading-[1.8]">
+              The portfolio includes both standard lubricants and specialised products for particularly demanding automotive and industrial applications. In addition to classic mineral oil-based variants, sustainable solutions are increasingly being developed, including biodegradable lubricants based on renewable raw materials and high-performance synthetic products.
             </p>
 
             <div className="flex flex-col gap-6 xl:hidden 2xl:flex">
               {/* Feature 1 */}
               <div className="flex flex-col gap-2">
-                <h4 className="card-title text-white font-semibold">
-                  Reliable OEM-Fit Performance
+                <h4 className="section-title-2 text-white font-semibold sora-font">
+                  Advanced Engine Protection
                 </h4>
-                <p className="text-[#ffffff] section-text lato-font">
-                  It helps maintain consistent airflow while reducing dust, allergens, and unpleasant
-                  odors. Its durable construction and OEM-fit design ensure long-lasting performance,
-                  making it a dependable choice for comfortable, clean, and healthy driving in all
-                  conditions.
+                <p className="text-[#ffffff] header-sublink sora-font font-normal leading-relaxed">
+                 Provides a durable lubricating film that minimizes friction and protects critical engine components from wear, ensuring reliable long-term performance.
                 </p>
               </div>
 
               {/* Feature 2 */}
               <div className="flex flex-col gap-2">
-                <h4 className="card-title text-white font-semibold">
-                  Advanced Particle &amp; Odor Control
+                <h4 className="section-title-2 text-white font-semibold sora-font">
+                  Superior Thermal Stability
                 </h4>
-                <p className="text-[#ffffff] section-text lato-font">
-                  High-efficiency filtration captures dust, pollen, soot, and other airborne particles,
-                  while activated carbon variants help minimize unpleasant odors and harmful gases for
-                  a cleaner cabin environment.
+                <p className="text-[#ffffff] header-sublink sora-font font-normal leading-relaxed">
+                  Maintains consistent viscosity under high temperatures, helping prevent oil breakdown and ensuring optimal engine performance in demanding conditions.
                 </p>
               </div>
             </div>
 
             <div className="mt-2 xl:hidden 2xl:block">
-              <Button href="#" variant="solid-white">
-                Explore Products
-              </Button>
+              <Button href="#" variant="outline-white" size="large" className="font-small">
+            Explore Engine Oils
+          </Button>
             </div>
           </div>
           
           {/* Right: Video Section */}
-          <div data-aos="fade-left" className="xl:col-span-7 w-full relative aspect-video flex items-center justify-center bg-white shadow-lg overflow-hidden mt-8 xl:mt-0">
+          <div data-aos="fade-left" className="xl:col-span-7 w-full relative aspect-video flex items-center justify-center rounded-3xl shadow-lg overflow-hidden mt-8 xl:mt-0 ">
              
                       
              {/* Dynamic Video overlayed on top if present */}
@@ -93,10 +72,10 @@ export default function CabinAirFilter() {
             <div className="flex flex-row justify-between w-full gap-10">
               {/* Feature 1 */}
               <div className="flex flex-col gap-2 w-1/2">
-                <h4 className="card-title text-white font-semibold">
+                <h4 className="!card-title text-white font-semibold">
                   Reliable OEM-Fit Performance
                 </h4>
-                <p className="text-[#ffffff] section-text lato-font">
+                <p className="text-[#ffffff] section-text sora-font">
                   It helps maintain consistent airflow while reducing dust, allergens, and unpleasant
                   odors. Its durable construction and OEM-fit design ensure long-lasting performance,
                   making it a dependable choice for comfortable, clean, and healthy driving in all
@@ -106,10 +85,10 @@ export default function CabinAirFilter() {
 
               {/* Feature 2 */}
               <div className="flex flex-col gap-2 w-1/2">
-                <h4 className="card-title text-white font-semibold">
+                <h4 className="!card-title text-white font-semibold">
                   Advanced Particle &amp; Odor Control
                 </h4>
-                <p className="text-[#ffffff] section-text lato-font">
+                <p className="text-[#ffffff] section-text sora-font">
                   High-efficiency filtration captures dust, pollen, soot, and other airborne particles,
                   while activated carbon variants help minimize unpleasant odors and harmful gases for
                   a cleaner cabin environment.

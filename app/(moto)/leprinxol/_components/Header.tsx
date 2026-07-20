@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { Menu, X, Phone, Mail } from "lucide-react";
+import Button from "./Button";
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -47,7 +48,7 @@ export default function Header() {
             </div>
           </div>
           <div className="flex items-center gap-2">
-            <img src="/moto/leprinxol/flag-uk.png" alt="English" className="h-[14px] w-auto" />
+            <img src="/moto/leprinxol/flag-uk.png" alt="English" className="h-[20px] w-auto" />
             <span className="oswald header-sublink font-normal">EN</span>
           </div>
         </div>
@@ -70,7 +71,7 @@ export default function Header() {
                 <Link
                   key={link.name}
                   href={link.href}
-                  className="header-link transition-colors py-2 whitespace-nowrap oswald text-[#333333] hover:text-[#004F9F] font-normal"
+                  className="header-link transition-colors py-2 whitespace-nowrap oswald text-[#000000] hover:text-[#004F9F] font-normal hover:font-medium"
                 >
                   {link.name}
                 </Link>
@@ -79,22 +80,16 @@ export default function Header() {
 
             {/* Get In Touch Button */}
             <div className="oswald hidden xl:flex items-center">
-              <Link
-                href="#"
-                className="inline-flex items-center justify-center font-normal transition-all duration-300 oswald-font px-8 py-2.5 btn-text rounded-md bg-[#004F9F] text-white hover:bg-[#003d7a] shadow-[3px_4px_8px_rgba(0,0,0,0.35)]"
-              >
+              <Button variant="blue" href="#">
                 GET IN TOUCH
-              </Link>
+              </Button>
             </div>
 
             {/* Mobile Menu Button */}
-            <div className="oswald xl:hidden flex items-center gap-4">
-              <Link
-                href="#"
-                className="inline-flex items-center justify-center font-normal transition-all duration-300 oswald-font px-6 py-2 btn-text rounded-md bg-[#004F9F] text-white hover:bg-[#003d7a] shadow-[3px_4px_8px_rgba(0,0,0,0.35)]"
-              >
+            <div className=" xl:hidden flex items-center gap-4">
+              <Button variant="blue" href="#" className="px-6 py-2">
                 GET IN TOUCH
-              </Link>
+              </Button>
               <button
                 className="text-[#004F9F] focus:outline-none"
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}

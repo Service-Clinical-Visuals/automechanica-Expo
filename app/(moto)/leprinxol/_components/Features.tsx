@@ -5,10 +5,10 @@ import { ChevronRight, Play } from 'lucide-react';
 import Button from './Button';
 
 const PHOTO_SIZE_CLASSES = [
-  'h-[240px] md:h-[260px]',
-  'h-[240px] md:h-[260px] md:mt-8',
-  'h-[270px] md:h-[300px]',
-  'h-[270px] md:h-[300px]',
+  'aspect-[4/3]',
+  'aspect-[4/3] md:mt-8',
+  'aspect-[4/3]',
+  'aspect-[4/3] md:mt-8',
 ];
 
 const categories = [
@@ -86,40 +86,44 @@ export default function Features() {
     <section className="py-16 md:py-24 bg-white">
       <div className="custom-container">
         {/* Heading */}
-        <div data-aos="fade-up" className="flex flex-col items-center text-center mb-4">
-          <h2 className="section-title text-[#212121] font-bold pb-3 border-b-2 border-[#1a3a6e]">
-            Products For Every Application
-          </h2>
-        </div>
+       
+          <div className="w-fit mx-auto flex flex-col items-start mb-6">
+            <h3 className="section-title text-[#1e1e1e] font-semibold sora-font">
+              Products For Every Application
+            </h3>
+            <span className="block w-45 h-[2px] bg-[#1e1e1e]" />
+          </div>
 
         {/* Description */}
         <p
           data-aos="fade-up"
-          className="max-w-3xl mx-auto text-center text-[#333333] section-text lato-font mb-12 md:mb-16"
+          className="max-w-5xl mx-auto text-center text-[#333333] header-sublink sora-font mb-12 md:mb-16"
         >
           As a medium-sized, owner-managed company, we see ourselves as a reliable manufacturer
           and wholesale supplier of lubricants and white oils, both in Germany and for exporting.
         </p>
 
         {/* Content */}
-        <div className="grid grid-cols-1 xl:grid-cols-[1fr_2fr] gap-8 xl:gap-10 items-start">
+        <div className="grid grid-cols-1 xl:grid-cols-[1fr_3fr] gap-8 xl:gap-10 items-start">
           {/* Left: Category card */}
-          <div
-            data-aos="fade-right"
-            className="border border-gray-200 rounded-2xl p-6 flex flex-col gap-5"
-          >
-            <p className="text-center text-[#212121] font-semibold section-text leading-snug">
+          <div className='flex flex-col gap-10 max-w-2xl mx-auto'>
+          <p className="text-center text-[#212121] section-text-3 font-semibold section-text leading-snug sora-font">
               We have a broad product portfolio, and many additional lubricants for other
               applications are available on request:
             </p>
+          <div
+            data-aos="fade-right"
+            className="border border-gray-200 rounded-3xl p-10 flex flex-col gap-5"
+          >
+            
 
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-10 mb-6">
               {categories.map((category) => (
                 <button
                   key={category.key}
                   type="button"
                   onClick={() => handleCategoryClick(category.key)}
-                  className={`w-full text-center rounded-lg py-3 card-text font-semibold transition-colors duration-300 ${
+                  className={`w-full section-text sora-font text-center rounded-xl py-3 card-text font-semibold transition-colors duration-300 ${
                     activeKey === category.key
                       ? 'bg-[#1a1a1a] text-white'
                       : 'bg-[#F2F2F2] text-[#212121] hover:bg-[#e6e6e6]'
@@ -133,6 +137,7 @@ export default function Features() {
             <Button href="#" variant="primary" className="mx-auto uppercase !px-6 !py-2.5">
               Know more about us
             </Button>
+          </div>
           </div>
 
           {/* Right: Products grid / Video */}
@@ -152,12 +157,12 @@ export default function Features() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                   <div className="relative z-10 h-full flex flex-col justify-end p-5">
-                    <h3 className="text-white font-bold card-title oswald-font">
+                    <h3 className="text-white  img-text font-semibold card-title sora-font">
                       {product.title}
                     </h3>
                     <a
                       href="#"
-                      className="inline-flex items-center gap-1 text-white/90 card-text mt-1 hover:text-white transition-colors duration-300"
+                      className="inline-flex items-center gap-1 btn-text  sora-font text-white/90 card-text mt-1 hover:text-white transition-colors duration-300 border-b border-white w-fit"
                     >
                       View Products
                       <ChevronRight className="w-3.5 h-3.5" />

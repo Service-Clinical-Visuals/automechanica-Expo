@@ -13,11 +13,11 @@ const sora = Sora({
 
 
 export const metadata: Metadata = {
-  title: "Mistral Filters",
-  description: "Mistral Air Ventilation Filter Homepage",
+  title: "Leprinsol Group",
+  description: "Leprinsol Group",
 };
 
-export default function MistralLayout({
+export default function LeprinsolLayout({
   children,
 }: {
   children: React.ReactNode;

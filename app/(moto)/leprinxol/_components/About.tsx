@@ -8,29 +8,29 @@ export default function About() {
         {/* Top Block: Images + About Our Company */}
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 xl:gap-14 items-center">
           {/* Images */}
-          <div className="grid grid-cols-2 gap-4" data-aos="fade-right">
+          <div className="grid grid-cols-2 gap-5 order-2 lg:order-1" data-aos="fade-right">
             <img
               src="/moto/leprinxol/about2.jpg"
               alt="Leprinxol production line"
-              className="w-full h-[280px] sm:h-[340px] md:h-[475px] object-cover rounded-md shadow-md"
+              className="w-full h-[280px] sm:h-[340px] md:h-[475px] object-cover rounded-xl shadow-md"
             />
             <img
               src="/moto/leprinxol/about1.jpg"
               alt="Leprinxol lubricant products"
-              className="w-full h-[280px] sm:h-[340px] md:h-[475px] object-cover rounded-md shadow-md mt-[20px]"
+              className="w-full h-[280px] sm:h-[340px] md:h-[475px] object-cover rounded-xl shadow-md mt-[25px]"
             />
           </div>
 
           {/* Content */}
-          <div className="flex flex-col gap-5" data-aos="fade-left">
-            <div className="flex flex-col gap-1">
-              <h2 className="section-title text-[#212121] font-bold">
+          <div className="flex flex-col gap-5 order-1 lg:order-2" data-aos="fade-left">
+            <div className="flex flex-col ">
+              <h2 className="section-title text-[#1e1e1e] font-semibold">
                 About Our Company
               </h2>
-              <span className="block w-14 h-[3px] bg-[#004F9F]" />
+              <span className="block w-45 h-[2px] bg-[#004F9F]" />
             </div>
 
-            <div className="flex flex-col gap-4 text-[#333333] section-text lato-font">
+            <div className="flex flex-col gap-4 text-[#333333] header-sublink sora-font">
               <p>
                 Since 1868, the Leprinxol® brand has stood for reliability and innovation in the
                 field of lubricants. Thanks to a strong international network and clear strategic
@@ -65,7 +65,7 @@ export default function About() {
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 xl:gap-14 items-center">
           {/* Map */}
           <div
-            className="bg-[#F2F2F2] rounded-md p-6 md:p-10 flex items-center justify-center"
+            className="bg-[#F2F2F2] rounded-xl p-6 md:p-10 flex items-center justify-center order-2 xl:order-1"
             data-aos="fade-right"
           >
             <img
@@ -76,12 +76,12 @@ export default function About() {
           </div>
 
           {/* Content */}
-          <div className="flex flex-col gap-6" data-aos="fade-left">
+          <div className="flex flex-col gap-6 order-1 lg:order-2" data-aos="fade-left">
             <div className="flex flex-col gap-3">
-              <h3 className="section-title text-[#212121] font-bold">
+              <h3 className="section-title-2 text-[#212121] font-bold sora-font">
                 Sales territories and network:
               </h3>
-              <p className="text-[#333333] section-text lato-font">
+              <p className=" text-[#333333] header-sublink sora-font leading-[1.8]">
                 Egypt, Albania, Brazil, Chile, China, Denmark, Estonia, Finland, France, Georgia,
                 Ghana, Greece, Great Britain, Iraq, Italy, Kazakhstan, Kurdistan, Latvia, Lebanon,
                 Libya, Lithuania, Malaysia, Morocco, Mauritius, Namibia, Netherlands, Nigeria,
@@ -92,14 +92,14 @@ export default function About() {
             </div>
 
             <div className="flex flex-col gap-3">
-              <h3 className="section-title text-[#212121] font-bold">
+              <h3 className="section-title-2 text-[#212121] font-bold  sora-font">
                 Joint ventures:
               </h3>
-              <p className="text-[#333333] section-text lato-font">China, Malaysia</p>
+             <p className="section-text text-[#333333]  sora-font">China, Malaysia</p>
             </div>
 
             <div className="mt-2">
-              <Button href="#" variant="primary">
+              <Button href="#" variant="primary" className="uppercase" >
                 Know more about us
               </Button>
             </div>

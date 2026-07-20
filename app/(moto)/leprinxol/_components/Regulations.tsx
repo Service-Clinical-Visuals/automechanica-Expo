@@ -7,16 +7,23 @@ export default function Regulations() {
 
         {/* Heading */}
         <div data-aos="fade-up" className="flex flex-col items-center text-center mb-8">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#212121] pb-3 border-b-2 border-[#1a3a6e]">
+          {/* <h2 className="text-2xl md:text-3xl font-bold text-[#212121] pb-3 border-b-2 border-[#1a3a6e]">
             Made in Germany
-          </h2>
+          </h2> */}
+            <div className="flex flex-col ">
+              <h3 className="section-title text-[#1e1e1e] font-bold">
+                Made in Germany
+              </h3>
+              <span className="block w-45 h-[2px] bg-[#1e1e1e]/80" />
+            </div>
         </div>
 
         {/* Paragraph */}
-        <p
+        {/* <p
           data-aos="fade-up"
           className="max-w-4xl mx-auto text-center text-[#333333] section-text lato-font mb-12"
-        >
+        > */}
+          <p data-aos="fade-up" className="text-[#1e1e1e] header-sublink sora-font font-normal leading-relaxed max-w-4xl mx-auto text-center mb-12 max-w-4xl mx-auto">
           We produce our products (blending/bottling) at four different locations in Germany. Leprinxol offers
           state-of-the-art blending capacities, laboratory and R&amp;D resources and the most modern bottling
           facilities. This ensures the highest quality standards. Our R&amp;D team develops customized product
@@ -24,26 +31,26 @@ export default function Regulations() {
         </p>
 
         {/* Image Row */}
-        <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="w-full aspect-[4/3] overflow-hidden">
             <img
-              src="/moto/leprinxol/product1.jpg"
+              src="/moto/leprinxol/product3.jpg"
               alt="Bottling production line"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
           </div>
           <div className="w-full aspect-[4/3] overflow-hidden">
             <img
               src="/moto/leprinxol/product2.jpg"
               alt="Quality certification"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
           </div>
           <div className="w-full aspect-[4/3] overflow-hidden">
             <img
-              src="/moto/leprinxol/product3.jpg"
+              src="/moto/leprinxol/product1.jpg"
               alt="Production facility"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
           </div>
         </div>
