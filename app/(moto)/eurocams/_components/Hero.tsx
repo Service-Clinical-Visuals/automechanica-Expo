@@ -1,0 +1,42 @@
+"use client";
+
+import React from "react";
+import Typography from "./Typography";
+import Button from "./Button";
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+
+export default function Hero() {
+  return (
+    <section className="w-full mt-20 relative lg:z-10 pt-4 lg:pt-6">
+      <div className="custom-container h-full">
+        <div className="relative w-full h-screen xl:h-[101.5vh] flex items-end pb-16 md:pb-24 overflow-hidden rounded-3xl rounded-tr-none rounded-tl-none   pointer-events-none shadow-2xl">
+          
+          {/* Background Video using DynamicVideoPlayer */}
+          <div className="absolute inset-0 z-0 pointer-events-none">
+            <DynamicVideoPlayer
+              className="absolute inset-0 w-full h-full object-cover pointer-events-none z-0"
+              type="banner"
+            />
+          </div>
+
+          {/* Content */}
+          <div className="relative z-10 mb-[6%] w-full px-6 md:px-12 lg:px-16 pointer-events-auto">
+            <div className="max-w-[90%] sm:max-w-[80%] lg:max-w-[90%] flex flex-col gap-4">
+              <div data-aos="fade-up">
+                <Typography variant="h1" className="text-white font-oswald leading-tight">
+                  Quality Engine Parts for Leading Vehicle Brands.
+                </Typography>
+              </div>
+              <div data-aos="fade-up" data-aos-delay="100">
+                <Typography variant="p" color="white" className="font-oswald max-w-[50%]">
+                  Eurocams leads the way in the development, production and distribution of quality engine parts for all major vehicle brands.
+                </Typography>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  );
+}
