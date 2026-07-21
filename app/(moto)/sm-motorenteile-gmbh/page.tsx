@@ -14,7 +14,7 @@ import Footer from "./_components/Footer";
 
 export default function SigamPage() {
   return (
-    <main className="flex min-h-screen flex-col w-full bg-white overflow-x-hidden">
+    <main className="flex min-h-screen flex-col w-full bg-white overflow-x-hidden overflow-y-hidden">
       <SmoothAOS />
       <Header />
       <Banner />
