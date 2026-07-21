@@ -46,7 +46,7 @@ export default function PrecisionView() {
           <div className="order-1 xl:order-2 flex flex-col gap-6" data-aos="fade-left">
             {/* Heading */}
             <div className="flex items-center gap-3">
-              <Settings className="w-6 h-6 text-[#ED1C24]" />
+              <img src="/moto/sm-motorenteile-gmbh/setting.png" alt="Setting" className="w-auto h-auto object-contain" />
               <h2 className="section-title text-white orbitron-font font-semibold">Manufacturing Excellence</h2>
             </div>
 
@@ -73,7 +73,7 @@ export default function PrecisionView() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8" data-aos="fade-up" data-aos-delay="200">
           {features.map((feature, index) => (
             <div key={index} className="bg-white p-6 md:p-8 flex items-start gap-4 shadow-sm">
-              <Settings className="w-6 h-6 text-[#ED1C24] flex-shrink-0 mt-1" />
+              <img src="/moto/sm-motorenteile-gmbh/pipe.png" alt="pipe" className="w-6 h-6 flex-shrink-0 mt-1 object-contain" />
               <p className="section-text dmsans-font text-[#1D1D1B]">
                 <span className="font-bold">{feature.title}</span> - {feature.desc}
               </p>

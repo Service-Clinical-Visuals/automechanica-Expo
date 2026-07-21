@@ -20,7 +20,7 @@ export default function Partners() {
       <div className="custom-container">
         {/* Heading */}
         <div className="flex items-center justify-center gap-3 mb-10" data-aos="fade-up">
-          <Settings className="w-6 h-6 text-[#ED1C24]" />
+          <img src="/moto/sm-motorenteile-gmbh/setting.png" alt="Setting" className="w-auto h-auto object-contain" />
           <h2 className="section-title text-[#1D1D1B] orbitron-font font-semibold">
             Our Partners
           </h2>

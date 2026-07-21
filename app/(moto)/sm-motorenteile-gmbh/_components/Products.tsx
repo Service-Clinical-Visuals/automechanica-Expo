@@ -34,7 +34,7 @@ export default function Products() {
         {/* Header row: Heading (left) and Link (right) */}
         <div className="flex flex-col md:flex-row items-center justify-between mb-10 gap-4" data-aos="fade-up">
           <div className="flex items-center gap-3">
-            <Settings className="w-6 h-6 text-[#ED1C24]" />
+            <img src="/moto/sm-motorenteile-gmbh/setting.png" alt="Setting" className="w-auto h-auto object-contain" />
             <h2 className="section-title text-[#1D1D1B] orbitron-font font-semibold">
               Our Product Categories
             </h2>

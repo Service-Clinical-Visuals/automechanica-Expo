@@ -25,7 +25,7 @@ export default function EngineProtection() {
           <div className="flex flex-col gap-6 xl:col-span-5" data-aos="fade-right">
             {/* Heading */}
             <div className="flex items-center gap-3">
-              <Settings className="w-6 h-6 text-[#ED1C24]" />
+              <img src="/moto/sm-motorenteile-gmbh/setting.png" alt="Setting" className="w-auto h-auto object-contain" />
               <h2 className="section-title text-white orbitron-font font-semibold">Precision in Motion</h2>
             </div>
 
@@ -38,7 +38,7 @@ export default function EngineProtection() {
             <ul className="flex flex-col gap-4 mt-2">
               {features.map((feature, index) => (
                 <li key={index} className="flex items-start gap-4">
-                  <Settings className="w-5 h-5 text-[#ED1C24] flex-shrink-0 mt-0.5" />
+                  <img src="/moto/sm-motorenteile-gmbh/setting2.png" alt="Setting" className="w-5 h-5 flex-shrink-0 mt-0.5 object-contain" />
                   <p className="section-text dmsans-font text-gray-300 leading-relaxed">
                     {feature}
                   </p>
