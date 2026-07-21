@@ -45,12 +45,12 @@ export default function Header() {
           headerState === "hidden" ? "-translate-y-[150%] opacity-0" : "translate-y-0 opacity-100"
         } ${headerState === "scrolled" ? "top-0" : "top-5 bg-transparent"}`}
       >
-        <div className={headerState === "scrolled" ? "w-full" : "custom-container mx-auto"}>
+        <div className={headerState === "scrolled" ? "w-full" : "custom-container mx-auto xl:pb-5"}>
           <div
             className={`flex items-center transition-all duration-700 ease-in-out mx-auto ${
               headerState === "scrolled"
-                ? "bg-white shadow-md border-b border-gray-100 px-6 lg:px-12 h-[70px] w-full rounded-none"
-                : "bg-white shadow-md rounded-2xl px-6 lg:px-10 h-[70px] w-full"
+                ? "bg-white shadow-md border-b border-gray-100 px-6 xl:px-12 h-[70px] w-full rounded-none"
+                : "bg-white shadow-md rounded-2xl px-6 xl:px-10 h-[70px] w-full"
             }`}
           >
             {/* Logo — flex-1 balances the CTA's flex-1 so nav stays centered */}
@@ -59,12 +59,12 @@ export default function Header() {
             </div>
 
             {/* Desktop Nav — centered between logo and CTA */}
-            <nav className="hidden lg:flex items-center gap-7 navlink">
+            <nav className="hidden xl:flex items-center gap-7">
               {navLinks.map((link) => (
                 <button
                   key={link.label}
                   onClick={() => setActiveNav(link.label)}
-                  className={`whitespace-nowrap transition-colors flex items-center ${
+                  className={`header-link whitespace-nowrap transition-colors flex items-center ${
                     activeNav === link.label
                       ? "text-[#1a2e5a] font-bold border-b-2 border-[#1a2e5a]"
                       : "text-[#1E1E1E] hover:text-[#2a4a8a]"
@@ -76,12 +76,12 @@ export default function Header() {
             </nav>
 
             {/* Desktop CTA — flex-1 so nav stays centered */}
-            <div className="flex-1 hidden lg:flex items-center justify-end">
-              <Button text="Request a Demo" variant="secondary" showIcon className="px-6 py-2.5 rounded-full shrink-0" />
+            <div className="flex-1 hidden xl:flex items-center justify-end">
+              <Button text="Request a Demo" variant="secondary" showIcon className="px-6 py-2.5 shrink-0" />
             </div>
 
             {/* Mobile hamburger */}
-            <div className="flex lg:hidden items-center">
+            <div className="flex xl:hidden items-center">
               <button
                 onClick={() => setMenuOpen(!menuOpen)}
                 className="text-[#1a2e5a] p-1"
@@ -105,13 +105,13 @@ export default function Header() {
 
           {/* Mobile menu */}
           {menuOpen && (
-            <div className="lg:hidden absolute top-[calc(100%+0.5rem)] left-4 right-4 bg-white shadow-xl rounded-xl flex flex-col z-50 border border-gray-100 max-w-full">
+            <div className="xl:hidden absolute top-[calc(100%+0.5rem)] left-4 right-4 bg-white shadow-xl rounded-xl flex flex-col z-50 border border-gray-100 max-w-full">
               <nav className="flex flex-col px-6 py-4 gap-1">
                 {navLinks.map((link) => (
                   <button
                     key={link.label}
                     onClick={() => { setActiveNav(link.label); setMenuOpen(false); }}
-                    className={`navlink text-left py-3 text-sm border-b border-gray-100 last:border-0 transition-colors ${
+                    className={`header-link text-left py-3 text-sm border-b border-gray-100 last:border-0 transition-colors ${
                       activeNav === link.label
                         ? "text-[#1a2e5a] font-bold"
                         : "text-[#1a2e5a] hover:text-[#2a4a8a]"
@@ -120,7 +120,7 @@ export default function Header() {
                     {link.label}
                   </button>
                 ))}
-                <Button text="Request a Demo" variant="secondary" showIcon className="mt-4 rounded-full" />
+                <Button text="Request a Demo" variant="secondary" showIcon className="mt-4" />
               </nav>
             </div>
           )}

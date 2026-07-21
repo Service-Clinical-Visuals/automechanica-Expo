@@ -20,7 +20,7 @@ export default function News() {
   const goNext = () => setIndex((i) => (i + 1) % images.length);
 
   return (
-    <section className="bg-white py-10 sm:py-12 md:py-16">
+    <section className="bg-white py-10 sm:py-12 md:py-20">
       <Container>
         <div
           className="relative w-full aspect-[4/5] sm:aspect-[16/10] md:aspect-[16/9] lg:aspect-[21/9] max-h-[640px] overflow-hidden rounded-[1.5rem] md:rounded-[2rem] bg-black shadow-[0_15px_50px_rgba(0,0,0,0.18)]"
@@ -32,7 +32,7 @@ export default function News() {
               key={src}
               src={src}
               alt="North Sea Lubricants"
-              className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ease-in-out ${
+              className={`absolute inset-0 w-full h-full object-cover object-right lg:object-center transition-opacity duration-700 ease-in-out ${
                 i === index ? "opacity-100" : "opacity-0"
               }`}
             />
@@ -45,10 +45,10 @@ export default function News() {
           <div className="relative z-10 flex h-full items-center">
             <div className="w-full px-6 sm:px-10 md:px-12 lg:px-14">
               <div className="max-w-[300px] sm:max-w-[380px] md:max-w-[440px] lg:max-w-[480px]">
-                <p className="italic content-white text-[14px]! sm:text-[16px]! md:text-[18px]! mb-2 sm:mb-3">
+                <p className="section-title text-[#ffffff] font-normal mb-2 sm:mb-3">
                   &ldquo;Feel the power of our lubricants.&rdquo;
                 </p>
-                <h2 className="heading-white text-[30px]! sm:text-[40px]! md:text-[48px]! lg:text-[54px]! uppercase leading-[104%]! text-yellow-400! mb-5 sm:mb-7 md:mb-8">
+                <h2 className="card-title3 font-semibold uppercase leading-[104%]! text-yellow-400! mb-5 sm:mb-7 md:mb-8">
                   You&apos;ve Got
                   <br />
                   The Power!
