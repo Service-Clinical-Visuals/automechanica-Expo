@@ -69,7 +69,7 @@ export default function Solutions() {
                   : "border-white/50 text-white/60 hover:border-white hover:text-white bg-transparent"
               }`}
             >
-              <Typography variant="h4" color="inherit">
+              <Typography variant="h4" color="white">
                 {cat}
               </Typography>
             </button>
