@@ -31,7 +31,7 @@ body {
   width: 100%;
 
 }
-
+/* 
 .navlink{
   font-size: 18px;
   line-height: 150%;
@@ -98,7 +98,7 @@ body {
   letter-spacing: 0%;
   color: #ffffff;
   font-family: var(--font-oswald);
-}
+} */
 
 .rounded-3xl {
   border-radius: 1.5rem;
@@ -123,6 +123,17 @@ body {
   margin-right: auto;
 }
 
+  .header-link { font-size: 16px; }
+  .header-links { font-size: 14px; }
+  .btn-text { font-size: 16px; }
+  .banner-title { font-size: 36px; }  
+  .section-title { font-size: 28px; }
+  .section-text { font-size: 16px; }
+  .card-title { font-size: 24px; }
+  .card-title1 { font-size: 26px; }
+  .footer-text { font-size: 28px;}
+  .card-title3 { font-size: 32px; }
+
 /* Mobile Portrait Screen (up to 480px) */
 @media (max-width: 480px) {
   .custom-container {
@@ -142,6 +153,7 @@ body {
   .custom-container {
     max-width: 90%;
   }
+  .card-title3 { font-size: 48px; }
 }
 
 /* Laptop Screen (1024px - 1279px) */
@@ -149,6 +161,7 @@ body {
   .custom-container {
     max-width: 90%;
   }
+  .card-title3 { font-size: 54px; }
 }
 
 /* Desktop PC Screen (1280px - 1535px) */
@@ -156,19 +169,29 @@ body {
   .custom-container {
     max-width: 90%;
   }
+    .header-link { font-size: 18px; }
+  .btn-text { font-size: 18px; }
+  .banner-title { font-size: 40px; }  
+  .section-title { font-size: 38px; }
+  .section-text { font-size: 18px; }
+  .card-title { font-size: 22px; }
+  .card-title1 { font-size: 16px; }
+  .footer-text { font-size: 24px;}
+  .card-title3 { font-size: 80px; }
 }
 
 /* Large Desktop PC Screen (1536px - 1919px) */
 @media (min-width: 1536px) and (max-width: 1920px) {
   .custom-container {
-    max-width: 90%;
+    max-width: 95%;
   }
+  .card-title3 { font-size: 80px; }
 }
 
 /* Extra Large PC / 2K Screen (1920px - 2499px) */
 @media (min-width: 1921px) and (max-width: 2499px) {
   .custom-container {
-    max-width: 90%;
+    max-width: 95%;
   }
 
   /* h2 {
@@ -191,7 +214,7 @@ body {
 /* Ultra-wide Screen / Max Cover (2500px and above) */
 @media (min-width: 2500px) and (max-width: 3800px) {
   .custom-container {
-    max-width: 90%;
+    max-width: 95%;
   }
 
   /* h2 {
@@ -214,7 +237,7 @@ body {
 /* 4K Ultra-wide Screen / Max Cover (3800px and above) */
 @media (min-width: 3800px) {
   .custom-container {
-    max-width: 90%;
+    max-width: 95%;
   }
 
   /* h2 {

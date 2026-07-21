@@ -6,12 +6,12 @@ import Container from "./Container";
 
 const MAIN_CATEGORIES = [
   { id: "automotive", label: "Automotive", available: true },
-  { id: "heavy-duty", label: "Heavy Duty", available: false },
-  { id: "small-engine", label: "Small Engine", available: false },
-  { id: "agricultural", label: "Agricultural", available: false },
-  { id: "industrial", label: "Industrial", available: false },
-  { id: "marine", label: "Marine", available: false },
-  { id: "railroad", label: "Railroad", available: false },
+  { id: "heavy-duty", label: "Heavy Duty", available: true },
+  { id: "small-engine", label: "Small Engine", available: true },
+  { id: "agricultural", label: "Agricultural", available: true },
+  { id: "industrial", label: "Industrial", available: true },
+  { id: "marine", label: "Marine", available: true },
+  { id: "railroad", label: "Railroad", available: true },
 ];
 
 const automotiveSegments = [
@@ -90,9 +90,9 @@ function ProductCard({
       onMouseEnter={onEnter}
       onMouseLeave={onLeave}
       className="group relative flex flex-col bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden transition-[flex-grow] duration-500 ease-in-out"
-      style={{ flexGrow: expanded ? EXPANDED_UNIT : COLLAPSED_UNIT, flexBasis: 0 }}
+      style={{ flexGrow: expanded ? EXPANDED_UNIT : COLLAPSED_UNIT }}
     >
-      <div className="w-full h-72 sm:h-80 lg:h-96 bg-gray-50 overflow-hidden shrink-0">
+      <div className="w-full h-64 sm:h-72 lg:h-96 bg-gray-50 overflow-hidden shrink-0">
         <img
           src={segment.img}
           alt={segment.label}
@@ -101,14 +101,14 @@ function ProductCard({
       </div>
       <div className="flex items-center justify-between gap-3 p-5">
         <div className="min-w-0">
-          <h3 className="text-primary! font-bold text-lg mb-1 truncate">{segment.label}</h3>
-          <p className="text-gray-500 text-sm leading-snug line-clamp-2 mt-1">
+          <h3 className="text-primary! font-semibold card-title mb-1 truncate">{segment.label}</h3>
+          <p className="text-gray-500 card-title1! font-normal leading-snug line-clamp-2 mt-1">
             {segment.description}
           </p>
         </div>
         <a
           href="#"
-          className="shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-white border border-primary text-primary! hover:bg-primary hover:text-white transition-colors"
+          className="shrink-0 flex items-center justify-center w-10 h-10 rounded-full bg-white border border-primary text-primary! hover:bg-primary hover:!text-white transition-colors"
           aria-label={`View more about ${segment.label}`}
         >
           <ArrowUpRight size={18} strokeWidth={2.5} />
@@ -128,11 +128,24 @@ export default function Products() {
 
   function scrollTabs(direction: -1 | 1) {
     tabsRef.current?.scrollBy({ left: direction * 200, behavior: "smooth" });
+    const newPage = Math.max(0, Math.min(page + direction, TOTAL_DOTS - 1));
+    if (newPage !== page) {
+      handlePage(newPage);
+    }
+  }
+
+  function handleCategoryClick(catId: string, index: number) {
+    setActiveCategory(catId);
+    const targetPage = Math.min(index, TOTAL_DOTS - 1);
+    setPage(targetPage);
+    const hoveredIndex = index - targetPage;
+    setHovered(hoveredIndex >= 0 && hoveredIndex < VISIBLE ? hoveredIndex : 0);
   }
 
   function handlePage(i: number) {
     setPage(i);
     setHovered(null);
+    setActiveCategory(MAIN_CATEGORIES[i]?.id || "automotive");
   }
 
   return (
@@ -140,13 +153,13 @@ export default function Products() {
       <Container>
         {/* Heading */}
         <div className="max-w-[1200px] mx-auto text-center px-6 mb-10" data-aos="fade-up">
-          <h2 className="heading mb-4">Complete Lubrication Solutions</h2>
-          <p className="content">
+          <h2 className="section-title text-[#333333] font-bold  mb-4">Complete Lubrication Solutions</h2>
+          <p className="section-text font-normal text-[#585858] leading-relaxed">
             North Sea Lubricants offers a comprehensive range of premium lubrication solutions for automotive, commercial, industrial, agricultural, marine, and railway applications. Engineered to meet the highest performance standards, our products deliver reliable protection, maximum efficiency, and long-lasting performance across every industry.
           </p>
         </div>
 
-        <hr className="border-t border-gray-200 mb-10" />
+        <hr className="border-t border-gray-300 mb-10" />
 
         {/* Tabs */}
         <div className="flex items-center justify-center gap-3 mb-12 px-6" data-aos="fade-up" data-aos-delay="100">
@@ -159,17 +172,14 @@ export default function Products() {
           </button>
 
           <div ref={tabsRef} className="flex items-center gap-2 overflow-x-auto scrollbar-hide">
-            {MAIN_CATEGORIES.map((cat) => (
+            {MAIN_CATEGORIES.map((cat, index) => (
               <button
                 key={cat.id}
-                onClick={() => cat.available && setActiveCategory(cat.id)}
-                disabled={!cat.available}
-                className={`shrink-0 rounded-full px-5 py-2 text-sm font-semibold border transition-colors ${
+                onClick={() => handleCategoryClick(cat.id, index)}
+                className={`shrink-0 rounded-xl px-5 py-2 section-text font-normal text-[#585858] border transition-colors ${
                   activeCategory === cat.id
                     ? "bg-primary border-primary text-white"
-                    : cat.available
-                    ? "bg-white border-gray-300 text-primary! hover:bg-gray-50"
-                    : "bg-white border-gray-200 text-gray-400 cursor-not-allowed"
+                    : "bg-white border-primary  hover:bg-gray-50 text-gray-500"
                 }`}
               >
                 {cat.label}
@@ -187,7 +197,7 @@ export default function Products() {
         </div>
 
         {/* Cards: expand on hover, revert to the first card expanded on unhover */}
-        <div className="flex flex-col sm:flex-row gap-6 items-stretch" data-aos="fade-up" data-aos-delay="150">
+        <div className="max-w-[1600px] mx-auto flex flex-col lg:flex-row gap-6 items-stretch" data-aos="fade-up" data-aos-delay="150">
           {visible.map((segment, i) => (
             <ProductCard
               key={segment.id}
@@ -200,7 +210,7 @@ export default function Products() {
         </div>
 
         {/* Dots */}
-        <div className="flex justify-center gap-2 mt-8">
+        {/* <div className="flex justify-center gap-2 mt-8">
           {Array.from({ length: TOTAL_DOTS }).map((_, i) => (
             <button
               key={i}
@@ -211,7 +221,7 @@ export default function Products() {
               aria-label={`Page ${i + 1}`}
             />
           ))}
-        </div>
+        </div> */}
       </Container>
     </section>
   );

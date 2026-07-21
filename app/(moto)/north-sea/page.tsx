@@ -11,13 +11,13 @@ import Footer from "./_components/Footer";
 import AosInit from "./_components/AosInit";
 
 export const metadata = {
-  title: "Speedcar",
+  title: "North Sea Lubricants",
   description: "Engineering Performance You Can Trust",
 };
 
 export default function Page() {
   return (
-    <main className="relative min-h-screen bg-white overflow-x-hidden">
+    <main className="relative min-h-screen bg-[#ffffff] overflow-x-hidden">
       <AosInit />
       <Header />
       <Hero />
