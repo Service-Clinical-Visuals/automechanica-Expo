@@ -1,0 +1,149 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #E10600;
+  --color-secondary: #0a0a0a !important;
+  --color-dark: #000000;
+  --color-text: #ffffff;
+  
+  --font-sans: var(--font-outfit);
+  --font-heading: var(--font-oswald);
+}
+
+.oswald, .oswald-font {
+  font-family: var(--font-oswald), 'Oswald', sans-serif;
+}
+
+.outfit, .outfit-font {
+  font-family: var(--font-outfit), 'Outfit', sans-serif;
+}
+
+section {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+html,
+body {
+  color: var(--color-dark);
+  background-color: #ffffff;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden !important;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  p,
+  .paragraph {
+    font-family: var(--font-outfit), 'Outfit', sans-serif;
+    font-weight: 400;
+  }
+
+  span, a, input, button {
+    font-family: var(--font-outfit), 'Outfit', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-oswald), 'Oswald', sans-serif;
+    font-weight: 700;
+  }
+}
+
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Font sizes - as requested, use only global.css */
+ .header-link { font-size: 18px; }
+  .header-sublink { font-size: 16px; }
+  .btn-text { font-size: 16px; }
+  .banner-title { font-size: 38px; }  
+  .section-title { font-size: 34px; }
+  .section-text { font-size: 18px; }
+  .section-text-1 { font-size: 28px; }
+  .section-text-2 { font-size: 20px; }
+  .footer-link { font-size: 24px; }
+
+/* Responsive Custom Container & Font Sizes */
+
+@media (max-width: 480px) {
+  .custom-container { max-width: 95%; }
+  
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container { max-width: 92%; }
+ 
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container { max-width: 90%; }
+ 
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container { max-width: 85%; }
+  
+}
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container { max-width: 85%; }
+  
+}
+
+/* as per figma */
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .custom-container { max-width: 90%; }
+  .header-link { font-size: 18px; }
+  .header-sublink { font-size: 16px; }
+  .btn-text { font-size: 16px; }
+  .banner-title { font-size: 38px; }  
+  .section-title { font-size: 34px; }
+  .section-text { font-size: 18px; }
+  .section-text-1 { font-size: 28px; }
+  .section-text-2 { font-size: 20px; }
+  .footer-link { font-size: 24px; }
+}
+
+@media (min-width: 1921px) and (max-width: 2559px) {
+  .custom-container { max-width: 90%; }
+   .header-link { font-size: 18px; }
+  .header-sublink { font-size: 16px; }
+  .btn-text { font-size: 16px; }
+  .banner-title { font-size: 38px; }  
+  .section-title { font-size: 34px; }
+  .section-text { font-size: 18px; }
+  .section-text-1 { font-size: 28px; }
+  .section-text-2 { font-size: 20px; }
+  .footer-link { font-size: 24px; }
+}
+/* 2k */
+@media (min-width: 2560px) and (max-width: 3800px) {
+  .custom-container { max-width: 90%; }
+   .header-link { font-size: 20px; }
+  .header-sublink { font-size: 18px; }
+  .btn-text { font-size: 18px; }
+  .banner-title { font-size: 40px; }  
+  .section-title { font-size: 36px; }
+  .section-text { font-size: 20px; }
+  .section-text-1 { font-size: 30px; }
+  .section-text-2 { font-size: 22px; }
+  .footer-link { font-size: 26px; }
+  
+}
+@media (min-width: 3800px) {
+  .custom-container { max-width: 90%; }
+   .header-link { font-size: 22px; }
+  .header-sublink { font-size: 20px; }
+  .btn-text { font-size: 20px; }
+  .banner-title { font-size: 42px; }  
+  .section-title { font-size: 38px; }
+  .section-text { font-size: 24px; }
+  .section-text-1 { font-size: 32px; }
+  .section-text-2 { font-size: 24px; }
+  .footer-link { font-size: 28px; }
+}
