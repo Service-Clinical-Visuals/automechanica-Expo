@@ -23,11 +23,11 @@ export default function Performance() {
   ];
 
   return (
-    <section className="w-full py-16  bg-[#171717] overflow-hidden">
-      <div className="custom-container flex flex-col xl:flex-row xl:flex-wrap">
+    <section className="w-full py-16 bg-[#171717] overflow-hidden">
+      <div className="custom-container grid grid-cols-1 xl:grid-cols-12 gap-y-10 xl:gap-x-10 xl:gap-y-14">
         
         {/* Heading & Body */}
-        <div className="order-1 xl:order-1 w-full xl:w-2/3 xl:pb-12 xl:border-b border-white/40 flex flex-col gap-4" data-aos="fade-up">
+        <div className="order-1 xl:order-1 xl:col-span-8 xl:pb-12 xl:border-b border-white/40 flex flex-col gap-4" data-aos="fade-up">
           <Typography variant="h1" color="white" className="font-semibold leading-tight">
             Engineered For Lasting Performance
           </Typography>
@@ -37,17 +37,17 @@ export default function Performance() {
         </div>
 
         {/* Button */}
-        <div className="order-5 xl:order-2 w-full xl:w-1/3 xl:pb-12 xl:border-b border-white/40 flex justify-start xl:justify-end xl:items-end mt-10 xl:mt-0" data-aos="fade-up">
+        <div className="order-5 xl:order-2 xl:col-span-4 xl:pb-12 xl:border-b border-white/40 flex justify-start xl:justify-end xl:items-end mt-4 xl:mt-0" data-aos="fade-up">
           <Button text="Explore Products" href="#" showIcon={true} />
         </div>
 
         {/* Left: Video */}
-        <div className="order-3 xl:order-3 w-full xl:w-[60%] aspect-video relative overflow-hidden flex items-center justify-center mt-10 xl:mt-14 xl:pr-10" data-aos="fade-right">
+        <div className="order-3 xl:order-3 xl:col-span-7 aspect-video relative overflow-hidden flex items-center justify-center mt-2 xl:mt-0" data-aos="fade-right">
           <DynamicVideoPlayer type="short-1" />
         </div>
 
         {/* Right: Key Features */}
-        <div className="order-4 xl:order-4 w-full xl:w-[35%] flex flex-col justify-center ml-5  mt-10 xl:mt-14" data-aos="fade-left">
+        <div className="order-4 xl:order-4 xl:col-span-5 flex flex-col justify-center mt-2 xl:mt-0" data-aos="fade-left">
           <Typography variant="h2" color="white" className="font-semibold mb-6">
             Key Features
           </Typography>
@@ -56,7 +56,7 @@ export default function Performance() {
             {features.map((feature, idx) => (
               <div 
                 key={idx}
-                className="p-6  border border-white/40 bg-[#1a1a1a]/50 hover:bg-[#1a1a1a] transition-colors duration-300 flex flex-col gap-2"
+                className="p-6 border border-white/40 bg-[#1a1a1a]/50 hover:bg-[#1a1a1a] transition-colors duration-300 flex flex-col gap-2"
               >
                 <div className="flex items-center gap-3">
                   <CheckCircle2 className="w-5 h-5 text-white shrink-0" strokeWidth={2.5} />
