@@ -6,7 +6,7 @@ import Typography from "./Typography";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#0F3D26] pt-14 lg:pt-16 pb-10 text-white">
+    <footer className="w-full bg-primary pt-14 lg:pt-16 pb-10 text-white">
       <div className="custom-container">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-12 pb-10 border-b border-white/60">
 

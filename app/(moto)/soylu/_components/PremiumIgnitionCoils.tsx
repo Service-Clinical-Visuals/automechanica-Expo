@@ -2,12 +2,11 @@
 
 import React from "react";
 import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
-import HexagonButton from "./HexagonButton";
 import Typography from "./Typography";
 
 export default function PremiumIgnitionCoils() {
   return (
-    <section className="relative w-full bg-[#0F3D26] text-white py-16 lg:py-20">
+    <section className="relative w-full bg-primary text-white py-16 lg:py-20">
       <div className="custom-container mt-5">
         <div className="mx-auto text-center flex flex-col items-center" data-aos="fade-up">
           <Typography variant="h1" color="white">Advanced NOx Sensors</Typography>
@@ -18,7 +17,7 @@ export default function PremiumIgnitionCoils() {
 
         <div className="max-w-[1100px] mx-auto mt-5" data-aos="zoom-in" data-aos-delay="150">
           <div className="rounded-[12px] p-6  overflow-hidden">
-            <div className="w-full h-[420px] md:h-[480px] lg:h-[520px] rounded-[8px] overflow-hidden">
+            <div className="w-full aspect-video rounded-[8px] overflow-hidden">
               <DynamicVideoPlayer type="360" className="w-full h-full object-cover" />
             </div>
           </div>

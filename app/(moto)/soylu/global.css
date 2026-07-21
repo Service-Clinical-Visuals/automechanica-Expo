@@ -1,40 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
+@import "aos/dist/aos.css";
 
-@layer base {
-  :root {
-    --primary: #E72E39;
-  }
-
-  html,
-  body {
-    font-family: var(--font-oswald), sans-serif;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  a,
-  span,
-  div,
-  input,
-  button {
-    font-family: var(--font-oswald), sans-serif;
-  }
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-.oxanium {
-  font-family: var(--font-oxanium), sans-serif !important;
+*::-webkit-scrollbar {
+  display: none;
 }
 
-.oswald,
-.oswald-font,
-.font-oswald,
-.font-Oswald {
-  font-family: var(--font-oswald), sans-serif !important;
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #1E1E1E;
+}
+
+@theme inline {
+  --color-primary: #004339;
+  --color-secondary: #2F2F2F;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-primary: 'Oswald', ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-primary);
+}
+
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Base Typography (Desktop/Laptop sizes 1024px-2499px) */
+h1 {
+  font-size: 2.5rem;
+  /* 40px */
+  font-weight: 600;
+  font-family: var(--font-primary);
+}
+
+h2 {
+  font-size: 1.5rem;
+  /* 24px */
+  font-weight: 600;
+  font-family: var(--font-primary);
+}
+
+h3 {
+  font-size: 1.25rem;
+  /* 20px */
+  font-family: var(--font-primary);
+}
+
+h4 {
+  font-size: 1.125rem;
+  /* 18px */
+  font-weight: 600;
+  font-family: var(--font-primary);
+}
+
+h5 {
+  font-size: 4.375rem;
+  /* 70px */
+  font-family: var(--font-primary);
+}
+
+p,
+li {
+  font-size: 1.125rem;
+  /* 18px */
+  font-weight: 400;
+  font-family: var(--font-primary);
+}
+
+.navbar {
+  font-size: 1.125rem;
+  /* 18px */
+  font-weight: 400;
+  font-family: var(--font-primary);
+}
+
+.footer-heading {
+  font-size: 1.5rem;
+  /* 24px */
+  font-weight: 600;
+  font-family: var(--font-primary);
+}
+
+.footer-body {
+  font-size: 1.125rem;
+  /* 18px */
+  font-weight: 400;
+  font-family: var(--font-primary);
+}
+
+.button {
+  font-size: 1.125rem;
+  /* 18px */
+  font-weight: 400;
+  font-family: var(--font-primary);
 }
 
 .section {
@@ -48,506 +122,276 @@
   }
 }
 
-/* Custom container class with individual media queries for easy customization */
-.custom-container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Font sizes - base */
-.header-link {
-  font-size: 16px;
-}
-
-.banner-title {
-  font-size: 34px;
-}
-
-.btn-text {
-  font-size: 16px;
-}
-
-.section-title {
-  font-size: 30px;
-}
-
-.section-text {
-  font-size: 16px;
-}
-
-.card-title {
-  font-size: 26px;
-}
-
-.number-text {
-  font-size: 38px;
-}
-
-.img-title {
-  font-size: 20px;
-}
-
-.img-text {
-  font-size: 14px;
-}
-
-.card-title1 {
-  font-size: 26px;
-}
-
-.footer-links {
-  font-size: 14px;
-}
-
-/* Responsive Custom Container & Font Sizes */
+/* Mobile Portrait Screen (up to 480px) */
+/* Multiplier: ~0.65 */
 @media (max-width: 480px) {
   .custom-container {
-    max-width: 95%;
+    max-width: 90%;
   }
 
-  .header-link {
-    font-size: 16px;
+  h1 {
+    font-size: 1.625rem;
   }
 
-  .banner-title {
-    font-size: 34px;
+  h2 {
+    font-size: 0.975rem;
   }
 
-  .btn-text {
-    font-size: 16px;
+  h3 {
+    font-size: 0.8125rem;
   }
 
-  .section-title {
-    font-size: 30px;
+  h4 {
+    font-size: 0.73125rem;
   }
 
-  .section-text {
-    font-size: 16px;
+  h5 {
+    font-size: 2.84375rem;
   }
 
-  .card-title {
-    font-size: 26px;
+  p,
+  li {
+    font-size: 0.73125rem;
   }
 
-  .number-text {
-    font-size: 38px;
+  .navbar {
+    font-size: 0.73125rem;
   }
 
-  .img-title {
-    font-size: 20px;
+  .footer-heading {
+    font-size: 0.975rem;
   }
 
-  .img-text {
-    font-size: 14px;
+  .footer-body {
+    font-size: 0.73125rem;
   }
 
-  .card-title1 {
-    font-size: 26px;
-  }
-
-  .footer-links {
-    font-size: 14px;
+  .button {
+    font-size: 0.73125rem;
   }
 }
 
+/* Mobile Landscape Screen (481px - 767px) */
+/* Multiplier: ~0.75 */
 @media (min-width: 481px) and (max-width: 767px) {
   .custom-container {
     max-width: 92%;
   }
 
-  .header-link {
-    font-size: 16px;
+  h1 {
+    font-size: 1.875rem;
   }
 
-  .banner-title {
-    font-size: 34px;
+  h2 {
+    font-size: 1.125rem;
   }
 
-  .btn-text {
-    font-size: 16px;
+  h3 {
+    font-size: 0.9375rem;
   }
 
-  .section-title {
-    font-size: 30px;
+  h4 {
+    font-size: 0.84375rem;
   }
 
-  .section-text {
-    font-size: 16px;
+  h5 {
+    font-size: 3.28125rem;
   }
 
-  .card-title {
-    font-size: 26px;
+  p,
+  li {
+    font-size: 0.84375rem;
   }
 
-  .number-text {
-    font-size: 38px;
+  .navbar {
+    font-size: 0.84375rem;
   }
 
-  .img-title {
-    font-size: 20px;
+  .footer-heading {
+    font-size: 1.125rem;
   }
 
-  .img-text {
-    font-size: 14px;
+  .footer-body {
+    font-size: 0.84375rem;
   }
 
-  .card-title1 {
-    font-size: 26px;
-  }
-
-  .footer-links {
-    font-size: 14px;
+  .button {
+    font-size: 0.84375rem;
   }
 }
 
+/* Tablet / Tab Screen (768px - 1023px) */
+/* Multiplier: ~0.85 */
 @media (min-width: 768px) and (max-width: 1023px) {
   .custom-container {
     max-width: 90%;
   }
 
-  .header-link {
-    font-size: 16px;
+  h1 {
+    font-size: 2.125rem;
   }
 
-  .banner-title {
-    font-size: 34px;
+  h2 {
+    font-size: 1.275rem;
   }
 
-  .btn-text {
-    font-size: 16px;
+  h3 {
+    font-size: 1.0625rem;
   }
 
-  .section-title {
-    font-size: 30px;
+  h4 {
+    font-size: 0.95625rem;
   }
 
-  .section-text {
-    font-size: 16px;
+  h5 {
+    font-size: 3.71875rem;
   }
 
-  .card-title {
-    font-size: 26px;
+  p,
+  li {
+    font-size: 0.95625rem;
   }
 
-  .number-text {
-    font-size: 38px;
+  .navbar {
+    font-size: 0.95625rem;
   }
 
-  .img-title {
-    font-size: 20px;
+  .footer-heading {
+    font-size: 1.275rem;
   }
 
-  .img-text {
-    font-size: 14px;
+  .footer-body {
+    font-size: 0.95625rem;
   }
 
-  .card-title1 {
-    font-size: 26px;
-  }
-
-  .footer-links {
-    font-size: 14px;
+  .button {
+    font-size: 0.95625rem;
   }
 }
 
+/* Laptop Screen (1024px - 1279px) */
 @media (min-width: 1024px) and (max-width: 1279px) {
   .custom-container {
-    max-width: 85%;
-  }
-
-  .header-link {
-    font-size: 16px;
-  }
-
-  .banner-title {
-    font-size: 34px;
-  }
-
-  .btn-text {
-    font-size: 16px;
-  }
-
-  .section-title {
-    font-size: 30px;
-  }
-
-  .section-text {
-    font-size: 16px;
-  }
-
-  .card-title {
-    font-size: 26px;
-  }
-
-  .number-text {
-    font-size: 38px;
-  }
-
-  .img-title {
-    font-size: 20px;
-  }
-
-  .img-text {
-    font-size: 14px;
-  }
-
-  .card-title1 {
-    font-size: 26px;
-  }
-
-  .footer-links {
-    font-size: 14px;
+    max-width: 90%;
   }
 }
 
+/* Desktop PC Screen (1280px - 1535px) */
 @media (min-width: 1280px) and (max-width: 1535px) {
   .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Large Desktop PC Screen (1536px - 1919px) */
+@media (min-width: 1536px) and (max-width: 1919px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Extra Large PC / 2K Screen (1920px - 2499px) */
+@media (min-width: 1920px) and (max-width: 2499px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Ultra-wide Screen / Max Cover (2500px - 3799px) */
+/* Multiplier: ~1.5 */
+@media (min-width: 2500px) and (max-width: 3799px) {
+  .custom-container {
     max-width: 85%;
   }
 
-  .header-link {
-    font-size: 18px;
+  h1 {
+    font-size: 3.75rem;
   }
 
-  .banner-title {
-    font-size: 38px;
+  h2 {
+    font-size: 2.25rem;
   }
 
-  .btn-text {
-    font-size: 18px;
+  h3 {
+    font-size: 1.875rem;
   }
 
-  .section-title {
-    font-size: 32px;
+  h4 {
+    font-size: 1.6875rem;
   }
 
-  .section-text {
-    font-size: 18px;
+  h5 {
+    font-size: 6.5625rem;
   }
 
-  .card-title {
-    font-size: 28px;
+  p,
+  li {
+    font-size: 1.6875rem;
   }
 
-  .number-text {
-    font-size: 40px;
+  .navbar {
+    font-size: 1.6875rem;
   }
 
-  .img-title {
-    font-size: 22px;
+  .footer-heading {
+    font-size: 2.25rem;
   }
 
-  .img-text {
-    font-size: 16px;
+  .footer-body {
+    font-size: 1.6875rem;
   }
 
-  .card-title1 {
-    font-size: 28px;
-  }
-
-  .footer-links {
-    font-size: 16px;
+  .button {
+    font-size: 1.6875rem;
   }
 }
 
-/* as per fihma */
-@media (min-width: 1536px) and (max-width: 1920px) {
-  .custom-container {
-    max-width: 90%;
-  }
-
-  .header-link {
-    font-size: 18px;
-  }
-
-  .banner-title {
-    font-size: 38px;
-  }
-
-  .btn-text {
-    font-size: 18px;
-  }
-
-  .section-title {
-    font-size: 32px;
-  }
-
-  .section-text {
-    font-size: 18px;
-  }
-
-  .card-title {
-    font-size: 28px;
-  }
-
-  .number-text {
-    font-size: 40px;
-  }
-
-  .img-title {
-    font-size: 22px;
-  }
-
-  .img-text {
-    font-size: 16px;
-  }
-
-  .card-title1 {
-    font-size: 28px;
-  }
-
-  .footer-links {
-    font-size: 16px;
-  }
-}
-
-
-@media (min-width: 1921px) and (max-width: 2559px) {
-  .custom-container {
-    max-width: 90%;
-  }
-
-  .header-link-text {
-    font-size: 18px;
-  }
-
-  .banner-title {
-    font-size: 40px;
-  }
-
-  .btn-text {
-    font-size: 18px;
-  }
-
-  .section-title {
-    font-size: 34px;
-  }
-
-  .card-title {
-    font-size: 30px;
-  }
-
-  .number-text {
-    font-size: 40px;
-  }
-
-  .img-title {
-    font-size: 24px;
-  }
-
-  .img-text {
-    font-size: 16px;
-  }
-
-  .card-title1 {
-    font-size: 30px;
-  }
-
-  .footer-links {
-    font-size: 18px;
-  }
-
-}
-
-/* 2k */
-@media (min-width: 2560px) and (max-width: 3800px) {
-  .custom-container {
-    max-width: 90%;
-  }
-
-  .header-link {
-    font-size: 22px;
-  }
-
-  .banner-title {
-    font-size: 42px;
-  }
-
-  .btn-text {
-    font-size: 22px;
-  }
-
-  .section-title {
-    font-size: 36px;
-  }
-
-  .section-text {
-    font-size: 22px;
-  }
-
-  .card-title {
-    font-size: 32px;
-  }
-
-  .number-text {
-    font-size: 42px;
-  }
-
-  .img-title {
-    font-size: 26px;
-  }
-
-  .img-text {
-    font-size: 20px;
-  }
-
-  .card-title1 {
-    font-size: 32px;
-  }
-
-  .footer-links {
-    font-size: 20px;
-  }
-}
-
+/* 4K Ultra-wide Screen / Max Cover (3800px and above) */
+/* Multiplier: ~2.0 */
 @media (min-width: 3800px) {
   .custom-container {
     max-width: 90%;
   }
 
-  .header-link {
-    font-size: 26px;
+  h1 {
+    font-size: 5rem;
   }
 
-  .banner-title {
-    font-size: 50px;
+  h2 {
+    font-size: 3rem;
   }
 
-  .btn-text {
-    font-size: 26px;
+  h3 {
+    font-size: 2.5rem;
   }
 
-  .section-title {
-    font-size: 40px;
+  h4 {
+    font-size: 2.25rem;
   }
 
-  .section-text {
-    font-size: 26px;
+  h5 {
+    font-size: 8.75rem;
   }
 
-  .card-title {
-    font-size: 36px;
+  p,
+  li {
+    font-size: 2.25rem;
   }
 
-  .number-text {
-    font-size: 44px;
+  .navbar {
+    font-size: 2.25rem;
   }
 
-  .img-title {
-    font-size: 28px;
+  .footer-heading {
+    font-size: 3rem;
   }
 
-  .img-text {
-    font-size: 22px;
+  .footer-body {
+    font-size: 2.25rem;
   }
 
-  .card-title1 {
-    font-size: 36px;
-  }
-
-  .footer-links {
-    font-size: 22px;
+  .button {
+    font-size: 2.25rem;
   }
 }
 /* Custom Swiper Pagination */
