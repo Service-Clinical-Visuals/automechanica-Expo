@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Lato:wght@300;400;700;900&display=swap');
+@import "tailwindcss";
+@import "aos/dist/aos.css";
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #ffffff;
+}
+
+@theme inline {
+  --color-primary: #AD0F0F;
+  --color-primary-hover: #8f0d0d;
+  --color-secondary: #131312;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-primary: 'Oswald', ui-sans-serif, system-ui, sans-serif;
+  --font-secondary: 'Lato', ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-primary);
+}
+
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Base Typography (Desktop/Laptop sizes 1024px-2499px) */
+h1 {
+  font-size: 2.5rem;
+  /* 40px */
+  font-weight: 600;
+  font-family: var(--font-primary);
+}
+
+h2 {
+
+  font-size: 2.125rem;
+
+  /* 34px */
+
+  font-weight: 700;
+
+  font-family: var(--font-primary);
+
+}
+
+h3 {
+
+  font-size: 1.5rem;
+
+  /* 24px */
+
+  font-weight: 400;
+
+  font-family: var(--font-primary);
+
+}
+
+h4 {
+
+  font-size: 1.375rem;
+
+  /* 22px */
+
+  font-weight: 600;
+
+  font-family: var(--font-primary);
+
+}
+
+h5 {
+
+  font-size: 1.25rem;
+
+  /* 20px */
+
+  font-weight: 600;
+
+  font-family: var(--font-primary);
+
+}
+
+h6 {
+
+  font-size: 1.125rem;
+
+  /* 18px */
+
+  font-family: var(--font-primary);
+
+}
+
+p,
+
+li {
+
+  font-size: 1.125rem;
+
+  /* 18px */
+
+  font-weight: 400;
+
+  font-family: var(--font-primary);
+
+}
+
+span {
+
+  font-size: 0.875rem;
+
+  /* 14px */
+
+}
+
+.navbar {
+
+  font-size: 1.125rem;
+
+  /* 18px */
+
+  font-weight: 400;
+
+  font-family: var(--font-primary);
+
+}
+
+.footer-heading {
+
+  font-size: 1.5rem;
+
+  /* 24px */
+
+  font-weight: 700;
+
+  font-family: var(--font-primary);
+
+}
+
+.footer-body {
+
+  font-size: 1.0rem;
+
+  /* 16px */
+
+  font-weight: 400;
+
+}
+
+.button {
+
+  font-size: 1.25rem;
+
+  /* 20px */
+
+  font-weight: 400;
+
+  font-family: var(--font-primary) !important;
+
+}
+
+.product {
+  font-size: 1.75rem;
+  /* 28px */
+  font-weight: 600;
+  font-family: var(--font-primary);
+}
+
+/* Custom Swiper Pagination */
+.custom-swiper-pagination .swiper-pagination-bullets {
+  bottom: auto !important;
+  position: relative !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 20px;
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50% !important;
+  background-color: #D1D5DB !important;
+  opacity: 1 !important;
+  margin: 0 6px !important;
+  transition: all 0.3s ease !important;
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet-active {
+  width: 45px !important;
+  border-radius: 12px !important;
+  background-color: var(--color-primary) !important;
+}
+
+/* Mobile Portrait Screen (up to 480px) */
+@media (max-width: 480px) {
+  .custom-container {
+    max-width: 90%;
+  }
+  h1 { font-size: 2.22rem; /* ~35.5px */ }
+  h2 { font-size: 1.88rem; /* ~30.2px */ }
+  h3 { font-size: 1.33rem; /* ~21.3px */ }
+  h4 { font-size: 1.22rem; /* ~19.5px */ }
+  h5 { font-size: 1.11rem; /* ~17.7px */ }
+  h6 { font-size: 1.00rem; /* 16.0px */ }
+  p, li { font-size: 1.00rem; /* 16.0px */ }
+  span { font-size: 0.80rem; /* 12.8px */ }
+  .navbar { font-size: 1.00rem; /* 16.0px */ }
+  .footer-heading { font-size: 1.33rem; /* ~21.3px */ }
+  .footer-body { font-size: 0.88rem; /* ~14.2px */ }
+  .button { font-size: 1.11rem; /* ~17.7px */ }
+  .product { font-size: 1.55rem; /* ~24.8px */ }
+}
+
+/* Mobile Landscape Screen (481px - 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container {
+    max-width: 92%;
+  }
+  h1 { font-size: 2.30rem; /* ~36.8px */ }
+  h2 { font-size: 1.95rem; /* ~31.2px */ }
+  h3 { font-size: 1.38rem; /* ~22px */ }
+  h4 { font-size: 1.26rem; /* ~20px */ }
+  h5 { font-size: 1.15rem; /* ~18.4px */ }
+  h6 { font-size: 1.03rem; /* ~16.5px */ }
+  p, li { font-size: 1.03rem; /* ~16.5px */ }
+  span { font-size: 0.82rem; /* 13.1px */ }
+  .navbar { font-size: 1.03rem; /* ~16.5px */ }
+  .footer-heading { font-size: 1.38rem; /* ~22px */ }
+  .footer-body { font-size: 0.92rem; /* ~14.7px */ }
+  .button { font-size: 1.15rem; /* ~18.4px */ }
+  .product { font-size: 1.61rem; /* ~25.8px */ }
+}
+
+/* Tablet / Tab Screen (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container {
+    max-width: 90%;
+  }
+  h1 { font-size: 2.40rem; /* ~38.4px */ }
+  h2 { font-size: 2.04rem; /* ~32.6px */ }
+  h3 { font-size: 1.44rem; /* ~23px */ }
+  h4 { font-size: 1.32rem; /* ~21.1px */ }
+  h5 { font-size: 1.20rem; /* ~19.2px */ }
+  h6 { font-size: 1.08rem; /* ~17.2px */ }
+  p, li { font-size: 1.08rem; /* ~17.2px */ }
+  span { font-size: 0.85rem; /* 13.6px */ }
+  .navbar { font-size: 1.08rem; /* ~17.2px */ }
+  .footer-heading { font-size: 1.44rem; /* ~23px */ }
+  .footer-body { font-size: 0.96rem; /* ~15.3px */ }
+  .button { font-size: 1.20rem; /* ~19.2px */ }
+  .product { font-size: 1.68rem; /* ~26.9px */ }
+}
+
+/* Ultra-wide Screen / Max Cover (2500px - 3799px) */
+@media (min-width: 2500px) and (max-width: 3799px) {
+  .custom-container {
+    max-width: 85%;
+  }
+
+  h1 {
+
+    font-size: 3.75rem;
+
+    /* ~60px */
+
+  }
+
+  h2 {
+
+    font-size: 3.1875rem;
+
+    /* ~51px */
+
+  }
+
+  h3 {
+
+    font-size: 2.25rem;
+
+    /* ~36px */
+
+  }
+
+  h4 {
+
+    font-size: 2.0625rem;
+
+    /* ~33px */
+
+  }
+
+  h5 {
+
+    font-size: 1.875rem;
+
+    /* ~30px */
+
+  }
+
+  h6 {
+
+    font-size: 1.6875rem;
+
+    /* ~27px */
+
+  }
+
+  p,
+
+li {
+
+  font-size: 1.6875rem;
+
+  /* ~27.0px */
+
+}
+
+  span {
+
+    font-size: 1.3125rem;
+
+    /* ~21px */
+
+  }
+
+  .navbar {
+
+    font-size: 1.6875rem;
+
+    /* ~27px */
+
+  }
+
+  .footer-heading {
+
+    font-size: 2.25rem;
+
+    /* ~36px */
+
+  }
+
+  .footer-body {
+
+    font-size: 1.5rem;
+
+    /* ~24px */
+
+  }
+
+  .button {
+
+    font-size: 1.875rem;
+
+    /* ~30px */
+
+  }
+
+  .product {
+    font-size: 2.625rem;
+    /* ~42px */
+  }
+
+  .number {
+    font-size: 12rem;
+  }
+}
+
+/* 4K Ultra-wide Screen / Max Cover (3800px and above) */
+@media (min-width: 3800px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+
+    font-size: 5rem;
+
+    /* ~80px */
+
+  }
+
+  h2 {
+
+    font-size: 4.25rem;
+
+    /* ~68px */
+
+  }
+
+  h3 {
+
+    font-size: 3rem;
+
+    /* ~48px */
+
+  }
+
+  h4 {
+
+    font-size: 2.75rem;
+
+    /* ~44px */
+
+  }
+
+  h5 {
+
+    font-size: 2.5rem;
+
+    /* ~40px */
+
+  }
+
+  h6 {
+
+    font-size: 2.25rem;
+
+    /* ~36px */
+
+  }
+
+  p,
+
+li {
+
+  font-size: 2.25rem;
+
+  /* ~36.0px */
+
+}
+
+  span {
+
+    font-size: 1.75rem;
+
+    /* ~28px */
+
+  }
+
+  .navbar {
+
+    font-size: 2.25rem;
+
+    /* ~36px */
+
+  }
+
+  .footer-heading {
+
+    font-size: 3rem;
+
+    /* ~48px */
+
+  }
+
+  .footer-body {
+
+    font-size: 2rem;
+
+    /* ~32px */
+
+  }
+
+  .button {
+
+    font-size: 2.5rem;
+
+    /* ~40px */
+
+  }
+
+  .product {
+    font-size: 3.5rem;
+    /* ~56px */
+  }
+
+  .number {
+    font-size: 16rem;
+  }
+}
+
+/* Laptop Screen (1024px - 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Desktop PC Screen (1280px - 1535px) */
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Large Desktop PC Screen (1536px - 1919px) */
+@media (min-width: 1536px) and (max-width: 1919px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Extra Large PC / 2K Screen (1920px - 2499px) */
+@media (min-width: 1920px) and (max-width: 2499px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
