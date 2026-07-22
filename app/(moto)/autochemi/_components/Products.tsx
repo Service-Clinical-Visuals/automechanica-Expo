@@ -154,13 +154,13 @@ export default function Products() {
                       {category.brandTitle}
                     </Typography>
                     
-                    <div className="flex flex-wrap justify-center items-center gap-4 lg:gap-6 max-w-[480px] min-[2000px]:max-w-[75%] mx-auto w-full">
+                    <div className="flex flex-wrap justify-center items-center gap-4 xl:gap-8 max-w-[480px] md:max-w-[650px] min-[2000px]:max-w-[85%] mx-auto w-full">
                       {category.logos.map((logo, idx) => (
-                        <div key={idx} className="w-[calc(50%-8px)] lg:w-[calc(50%-12px)] aspect-[2/1] flex items-center justify-center border border-gray-200 p-4 min-[2000px]:p-12 min-[2500px]:p-20 rounded-xl xl:rounded-none bg-white">
+                        <div key={idx} className="w-[calc(50%-8px)] md:w-[293px] md:h-[129px] min-[2000px]:w-[350px] min-[2000px]:h-[155px] flex items-center justify-center border border-gray-200 p-4  rounded-xl xl:rounded-none bg-white">
                           <img 
                             src={logo} 
                             alt={`Brand Logo ${idx + 1}`} 
-                            className="max-w-full max-h-full object-contain"
+                            className="w-full h-full object-cover"
                           />
                         </div>
                       ))}
