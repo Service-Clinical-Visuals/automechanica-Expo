@@ -91,7 +91,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar: Copyright & Legal */}
-        <div className="pt-8 border-t border-white/20 flex flex-col sm:flex-row justify-between items-center gap-4" data-aos="fade-up" data-aos-delay="400">
+        <div className="pt-8 border-t border-white/20 flex flex-col sm:flex-row justify-between items-center gap-4" >
           <p className="footer-body text-white text-sm">
             Copyright &copy; 2025 Motive Components Ltd | All Rights Reserved.
           </p>

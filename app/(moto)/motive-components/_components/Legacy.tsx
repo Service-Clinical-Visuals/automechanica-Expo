@@ -49,7 +49,7 @@ const Legacy = () => {
 
         {/* Cards */}
         {/* Mobile/Tablet: Order 3, Desktop: Col 1-12, Row 3 */}
-        <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-6 order-3 xl:col-start-1 xl:col-span-12 xl:row-start-3 mt-4 xl:mt-8" data-aos="fade-up" data-aos-delay="100">
+        <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-6 order-3 xl:col-start-1 xl:col-span-12 xl:row-start-3 mt-3" data-aos="fade-up" data-aos-delay="100">
           
           {/* Card 1 */}
           <div className="flex items-center w-full">
@@ -57,7 +57,7 @@ const Legacy = () => {
                <img src="/moto/motive-components/vector1.png" alt="Product Range" className="w-[80%] h-[80%] object-contain filter brightness-0 invert" />
              </div>
              <div className="flex-1 bg-[#FFFFFF] rounded-xl shadow-[0_0px_30px_rgba(0,0,0,0.08)] border border-gray-50 py-5 xl:py-6 pl-12 xl:pl-14 pr-4 -ml-8 z-0 flex flex-col justify-center">
-                <Typography variant="h4" color="dark" className="font-bold leading-tight mb-1">
+                <Typography variant="h3" color="dark" className="font-bold leading-tight mb-1">
                   Product Range
                 </Typography>
                 <Typography variant="p" color="muted" className="text-sm xl:text-[15px]">
@@ -72,7 +72,7 @@ const Legacy = () => {
                <img src="/moto/motive-components/vector2.png" alt="Quality Assurance" className="w-[80%] h-[80%] object-contain filter brightness-0 invert" />
              </div>
              <div className="flex-1 bg-white rounded-xl shadow-[0_0px_30px_rgba(0,0,0,0.08)] border border-gray-50 py-5 xl:py-6 pl-12 xl:pl-14 pr-4 -ml-8 z-0 flex flex-col justify-center">
-                <Typography variant="h4" color="dark" className="font-bold leading-tight mb-1">
+                <Typography variant="h3" color="dark" className="font-bold leading-tight mb-1">
                   Quality Assurance
                 </Typography>
                 <Typography variant="p" color="muted" className="text-sm xl:text-[15px]">
@@ -87,7 +87,7 @@ const Legacy = () => {
                <img src="/moto/motive-components/vector3.png" alt="Customer Care" className="w-[80%] h-[80%] object-contain filter brightness-0 invert" />
              </div>
              <div className="flex-1 bg-white rounded-xl shadow-[0_0px_30px_rgba(0,0,0,0.08)] border border-gray-50 py-5 xl:py-6 pl-12 xl:pl-14 pr-4 -ml-8 z-0 flex flex-col justify-center">
-                <Typography variant="h4" color="dark" className="font-bold leading-tight mb-1">
+                <Typography variant="h3" color="dark" className="font-bold leading-tight mb-1">
                   Customer Care
                 </Typography>
                 <Typography variant="p" color="muted" className="text-sm xl:text-[15px]">
