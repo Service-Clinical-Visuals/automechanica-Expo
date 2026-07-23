@@ -31,7 +31,7 @@ export default function Company() {
             <img 
               src="/moto/rolf/section2.png" 
               alt="ROLF Headquarters" 
-              className="w-full xl:w-[820px] xl:h-[574px] border-[1px] border-white/70 object-cover rounded-2xl md:rounded-[2rem]" 
+              className="w-full h-full border-[1px] border-white/70 object-cover rounded-2xl md:rounded-[2rem]" 
             />
           </div>
 
