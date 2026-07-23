@@ -57,19 +57,19 @@ export default function Header() {
       {/* Content Layer */}
       <div className={`custom-container flex items-center justify-between transition-all duration-300 ${
         isScrolled 
-          ? "px-4 lg:px-0 border border-transparent" 
-          : "rounded-[1.5rem] border border-white/40  bg-[#171717]/80 backdrop-blur-sm px-6 lg:px-8 py-3"
+          ? "px-4 xl:px-0 border border-transparent" 
+          : "rounded-[1.5rem] border border-white/40  bg-[#171717]/80 backdrop-blur-sm px-6 xl:px-8 py-3"
       }`}>
           
           {/* Logo Area */}
-          <div className="flex-shrink-0 flex items-center w-[45%] sm:w-[35%] md:w-[25%] lg:w-[20%] xl:w-[15%]">
+          <div className="flex-shrink-0 flex items-center w-[45%] sm:w-[35%] md:w-[25%] xl:w-[15%]">
              <Link href="#" className="w-full">
-               <img src="/rolf/logo.png" alt="Rolf Logo" className="w-[90%] md:w-[85%] lg:w-full h-auto object-contain" />
+               <img src="/rolf/logo.png" alt="Rolf Logo" className="w-[90%] md:w-[85%] xl:w-full h-auto object-contain" />
              </Link>
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-6 xl:gap-8">
+          <nav className="hidden xl:flex items-center gap-6 xl:gap-8">
             {navLinks.map((link, idx) => (
               <Link
                 key={link.name}
@@ -84,12 +84,12 @@ export default function Header() {
           </nav>
 
           {/* Right Actions */}
-          <div className="hidden lg:flex items-center gap-4">
+          <div className="hidden xl:flex items-center gap-4">
             <Button text="Explore Solutions" href="#" showIcon={true} />
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="lg:hidden flex items-center">
+          <div className="xl:hidden flex items-center">
             <button 
               className="text-white focus:outline-none p-2"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -110,7 +110,7 @@ export default function Header() {
 
       {/* Mobile Navigation Menu */}
       {isMobileMenuOpen && (
-        <div className={`lg:hidden absolute left-0 w-full bg-[#171717] border-b border-gray-800 flex flex-col z-50 overflow-hidden transition-all duration-300 top-full`}>
+        <div className={`xl:hidden absolute left-0 w-full bg-[#171717] border-b border-gray-800 flex flex-col z-50 overflow-hidden transition-all duration-300 top-full`}>
           <nav className="flex flex-col py-4 custom-container">
             {navLinks.map((link) => (
               <Link

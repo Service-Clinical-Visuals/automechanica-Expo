@@ -26,8 +26,8 @@ export default function Performance() {
       <div className="custom-container flex flex-col gap-10 lg:gap-12 relative z-10">
         
         {/* Header Block */}
-        <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 border-b border-white/20 pb-8 " data-aos="fade-up">
-          <div className="flex flex-col gap-6 lg:w-[65%]">
+        <div className="flex flex-col xl:flex-row xl:items-end justify-between gap-8 border-b border-white/20 pb-8 " data-aos="fade-up">
+          <div className="flex flex-col gap-6 xl:w-[65%]">
             <Typography variant="h2" color="white" className="leading-tight">
               Premium Engine Oil Performance
             </Typography>
@@ -35,22 +35,22 @@ export default function Performance() {
               ROLF Lubricants GmbH Engine Oils are developed using advanced German technology and premium base oils to deliver outstanding engine protection, maximum efficiency, and long-lasting performance. Designed to meet international and OEM specifications, our lubricants provide reliable protection for passenger cars, commercial vehicles, and heavy-duty equipment.
             </Typography>
           </div>
-          <div className="flex-shrink-0 mb-1 lg:mb-2">
+          <div className="flex-shrink-0 mb-1 xl:mb-2">
             <Button text="View Specifications" href="#" showIcon={true} />
           </div>
         </div>
 
         {/* Content Block */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 w-full mt-2">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-10 w-full mt-2">
           <div className="hidden xl:block xl:col-span-2"></div>
           
           {/* Left: Video */}
-          <div className="w-full lg:col-span-6 xl:col-span-7 aspect-video rounded-[1rem] overflow-hidden flex items-center justify-center relative bg-transparent" data-aos="fade-right">
+          <div className="w-full xl:col-span-7 aspect-video rounded-[1rem] overflow-hidden flex items-center justify-center relative bg-transparent" data-aos="fade-right">
             <DynamicVideoPlayer type="short-1" className="absolute top-0 left-0 w-full h-full object-cover" />
           </div>
 
           {/* Right: Key Features */}
-          <div className="w-full lg:col-span-6 xl:col-span-3 flex flex-col justify-center" data-aos="fade-left">
+          <div className="w-full xl:col-span-3 flex flex-col justify-center" data-aos="fade-left">
             <Typography variant="h2" color="white" className="mb-10">
               Key Features
             </Typography>

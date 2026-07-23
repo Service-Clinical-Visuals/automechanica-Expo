@@ -38,14 +38,14 @@ export default function Innovation() {
         
 
         {/* Content Block */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8  items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-8  items-center">
           {/* Left: Image */}
-          <div className="lg:col-span-8 w-full rounded-[1rem] overflow-hidden" data-aos="fade-right">
+          <div className="xl:col-span-8 w-full rounded-[1rem] overflow-hidden" data-aos="fade-right">
             <img src="/moto/rolf/section44.png" alt="Innovation and Expertise" className="w-full h-auto object-cover" />
           </div>
 
           {/* Right: Text and List */}
-          <div className="flex flex-col gap-8 lg:col-span-4" data-aos="fade-left">
+          <div className="flex flex-col gap-8 xl:col-span-4" data-aos="fade-left">
             <Typography variant="p" color="white" className="leading-relaxed">
               Since its establishment, ROLF Lubricants GmbH has continuously expanded its expertise, production capabilities, and global presence. Through innovation, strategic partnerships, and advanced lubricant technologies, we have grown into a trusted supplier of premium lubricants serving customers across international markets.
             </Typography>
