@@ -5,10 +5,10 @@ import Button from "./Button";
 
 export default function Banner() {
   return (
-    <section className="relative w-full h-screen min-h-[600px] flex items-center bg-[#111]">
+    <section className="relative w-full h-screen  flex items-center ">
       {/* Background Video */}
       <div className="absolute inset-0 z-0 overflow-hidden">
-        <DynamicVideoPlayer type="banner" className="w-full h-full object-cover opacity-60" />
+        <DynamicVideoPlayer type="banner" className="w-full h-full object-cover " />
       </div>
       
     

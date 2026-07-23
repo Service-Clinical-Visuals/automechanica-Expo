@@ -26,8 +26,8 @@ export default function DiscoverPerformance() {
   return (
     <section className="relative w-full py-16 md:py-24 z-0">
       {/* Background split */}
-      <div className="absolute inset-x-0 top-0 h-[65%] bg-[#151515] -z-10"></div>
-      <div className="absolute inset-x-0 bottom-0 h-[35%] bg-white -z-10"></div>
+      <div className="absolute inset-x-0 top-0 h-[45%] bg-[#111111] -z-10"></div>
+      <div className="absolute inset-x-0 bottom-0 h-[55%] bg-white -z-10"></div>
 
       <div className="custom-container">
         

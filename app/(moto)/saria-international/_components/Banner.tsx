@@ -8,7 +8,7 @@ export default function Banner() {
       {/* Background Video using DynamicVideoPlayer */}
       <div className="absolute inset-0 w-full h-full z-0">
         <DynamicVideoPlayer
-          type="360"
+          type="banner"
           className="w-full h-full object-cover"
         />
       </div>

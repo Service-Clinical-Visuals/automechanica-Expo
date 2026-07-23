@@ -5,7 +5,7 @@ import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 
 export default function EngineeredToImpress() {
   return (
-    <section className="w-full bg-[#151515] py-16 md:py-24">
+    <section className="w-full bg-[#111111] py-16 md:py-24">
       <div className="custom-container">
         
         {/* Top Header Section */}

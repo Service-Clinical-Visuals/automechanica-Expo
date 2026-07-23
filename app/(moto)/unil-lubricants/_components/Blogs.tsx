@@ -37,8 +37,8 @@ export default function Blogs() {
   return (
     <section className="relative w-full py-16 md:py-24 z-0">
       {/* Background split */}
-      <div className="absolute inset-x-0 top-0 h-[60%] bg-[#151515] -z-10"></div>
-      <div className="absolute inset-x-0 bottom-0 h-[40%] bg-white -z-10"></div>
+      <div className="absolute inset-x-0 top-0 h-[45%] bg-[#111111] -z-10"></div>
+      <div className="absolute inset-x-0 bottom-0 h-[55%] bg-white -z-10"></div>
 
       <div className="custom-container">
         
@@ -55,7 +55,7 @@ export default function Blogs() {
         {/* Blogs Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 xl:gap-8">
           {blogs.map((blog, idx) => (
-            <div key={idx} className="bg-white border border-gray-200 shadow-md flex flex-col h-full" data-aos="fade-up" data-aos-delay={idx * 100}>
+            <div key={idx} className="bg-white   shadow-md flex flex-col h-full" data-aos="fade-up" data-aos-delay={idx * 100}>
               
               {/* Image Container */}
               <div className="relative w-full aspect-[4/3]">

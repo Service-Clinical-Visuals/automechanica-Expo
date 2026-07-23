@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="w-full">
       {/* Top Footer (Dark) */}
-      <div className="bg-[#151515] py-16 md:py-20 border-t border-gray-800">
+      <div className="bg-[#111111] py-16 md:py-20 border-t border-gray-800">
         <div className="custom-container">
           <div className="grid grid-cols-2 md:grid-cols-6 xl:grid-cols-12 gap-10 xl:gap-8">
             
@@ -17,11 +17,8 @@ export default function Footer() {
                 <img 
                   src="/moto/unil-lubricants/logo.png" 
                   alt="Unil Lubricants" 
-                  className="h-14 w-auto object-contain"
-                  onError={(e) => {
-                    e.currentTarget.style.display = 'none';
-                    e.currentTarget.nextElementSibling?.classList.remove('hidden');
-                  }}
+                  className="h-16 w-auto object-contain"
+                 
                 />
                 <span className="hidden oswald-font font-bold text-2xl text-white">
                   UNIL LUBRICANTS
@@ -33,7 +30,7 @@ export default function Footer() {
             </div>
 
             {/* Column 2: Quick Links */}
-            <div className="col-span-1 md:col-span-2 xl:col-span-2 xl:ml-12 flex flex-col gap-6" data-aos="fade-up" data-aos-delay="200">
+            <div className="col-span-1 md:col-span-2 xl:col-span-2 xl:ml-12 flex flex-col gap-6 lg:pl-15" data-aos="fade-up" data-aos-delay="200">
               <h3 className="oswald-font font-medium text-white card-text">Quick Links</h3>
               <ul className="flex flex-col gap-4">
                 {['Home', 'About Us', 'Products', 'Blogs'].map((link) => (
