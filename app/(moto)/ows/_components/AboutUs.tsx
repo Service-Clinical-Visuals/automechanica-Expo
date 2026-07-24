@@ -60,7 +60,7 @@ export default function AboutUs() {
           <div className="flex flex-col gap-4 mt-2">
             {checkItems.map((item, idx) => (
               <div key={idx} className="flex items-start gap-3">
-                <img src="/moto/ows/Vector1.png" alt="Check" className="w-5 h-5 object-contain shrink-0 mt-0.5" />
+                <img src="/moto/ows/Vector1.png" alt="Check" className="w-5 h-5 xl:w-7 xl:h-7 2xl:w-8 2xl:h-8 object-contain shrink-0 mt-0.5" />
                 <Typography variant="p" color="dark" className="leading-relaxed">
                   <span className="font-bold text-gray-900">{item.title}</span> – {item.text}
                 </Typography>

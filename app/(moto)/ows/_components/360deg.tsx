@@ -13,12 +13,12 @@ const Deg360 = () => {
       <div className="custom-container relative z-10 flex flex-col items-center justify-center text-center gap-8">
 
         {/* Heading and Text Block (Mobile: Order 1) */}
-        <div className="order-1 w-full max-w-[90%] 2xl:max-w-[65%] flex flex-col items-center gap-4" data-aos="fade-up">
+        <div className="order-1 w-full  flex flex-col items-center gap-4" data-aos="fade-up">
           <Typography variant="h2" color="white" className="leading-tight">
             See OWS Products from Every Angle
           </Typography>
           
-          <Typography variant="p" color="white" className="leading-relaxed ">
+          <Typography variant="p" color="white" className="leading-relaxed xl:max-w-[65%]  ">
             Experience OWS products from every angle with an interactive 360° view. Explore premium packaging, product details, and quality craftsmanship that reflect the precision, performance, and reliability behind every OWS automotive solution.
           </Typography>
         </div>

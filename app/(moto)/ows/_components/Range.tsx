@@ -25,21 +25,21 @@ const Range = () => {
           {/* 2x2 Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="bg-white p-4 rounded-sm flex items-start gap-3 shadow-sm">
-              <CheckCircle2 className="w-7 h-7 text-white fill-[#9C76A2] shrink-0 mt-0.5"  strokeWidth={1.5} />
+              <CheckCircle2 className="w-7 h-7 xl:w-8 xl:h-8 2xl:w-10 2xl:h-10 text-white fill-[#9C76A2] shrink-0 mt-0.5"  strokeWidth={1.5} />
               <Typography variant="p" color="dark" className="text-xs leading-relaxed">
                  <strong>Wide Product Range</strong> - Additives, lubricants, and technical sprays.
               </Typography>
             </div>
             
             <div className="bg-white p-4 rounded-sm flex items-start gap-3 shadow-sm">
-              <CheckCircle2 className="w-7 h-7 text-white fill-[#9C76A2] shrink-0 mt-0.5"  strokeWidth={1.5} />
+              <CheckCircle2 className="w-7 h-7 xl:w-8 xl:h-8 2xl:w-10 2xl:h-10 text-white fill-[#9C76A2] shrink-0 mt-0.5"  strokeWidth={1.5} />
               <Typography variant="p" color="dark" className="text-xs leading-relaxed">
                  <strong>Workshop Ready</strong> - Built for professional maintenance and repair.
               </Typography>
             </div>
 
             <div className="bg-white p-4 rounded-sm flex items-start gap-3 shadow-sm">
-              <CheckCircle2 className="w-7 h-7 text-white fill-[#9C76A2] shrink-0 mt-0.5"  strokeWidth={1.5} />
+              <CheckCircle2 className="w-7 h-7 xl:w-8 xl:h-8 2xl:w-10 2xl:h-10 text-white fill-[#9C76A2] shrink-0 mt-0.5"  strokeWidth={1.5} />
               <Typography variant="p" color="dark" className="text-xs leading-relaxed">
                  <strong>German Engineering</strong> - Precision, quality, and reliability.
               </Typography>

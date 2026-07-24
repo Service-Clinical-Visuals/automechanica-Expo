@@ -37,11 +37,11 @@ const News = () => {
         </div>
 
         {/* 3-Column Grid */}
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 xl:gap-12 2xl:gap-16">
           {qualityItems.map((item, index) => (
-            <div key={index} className="flex flex-col items-center text-center bg-white border border-gray-100 p-8 xl:p-12 shadow-sm rounded-sm" data-aos="fade-up" data-aos-delay={index * 100}>
-              <div className="h-28 flex items-center justify-center mb-6">
-                 <img src={item.img} alt={item.title} className="w-full h-full  object-contain" />
+            <div key={index} className="flex flex-col items-center text-center bg-white border border-gray-100 p-8 xl:p-12 2xl:p-16 shadow-sm rounded-sm" data-aos="fade-up" data-aos-delay={index * 100}>
+              <div className="h-28 xl:h-36 2xl:h-40 flex items-center justify-center mb-6">
+                 <img src={item.img} alt={item.title} className="w-full h-full object-contain" />
               </div>
               <Typography variant="h4" color="dark" className="font-bold mb-4">
                 {item.title}

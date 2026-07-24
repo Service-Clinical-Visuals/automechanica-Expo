@@ -26,7 +26,7 @@ const Products = () => {
           <Typography variant="h2" color="dark" className="font-bold leading-tight">
             Our Products
           </Typography>
-          <Typography variant="p" color="dark" className="leading-relaxed max-w-[70%]">
+          <Typography variant="p" color="dark" className="leading-relaxed xl:max-w-[70%]">
             OWS offers a comprehensive range of premium automotive additives, lubricants, and technical spray solutions engineered to enhance vehicle performance, protect critical components, and ensure long-lasting reliability. Developed with German engineering expertise, every product is designed to meet the demands of modern vehicles and professional automotive applications.
           </Typography>
         </div>
