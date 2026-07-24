@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@layer base {
+  .odibee-sans-font {
+    font-family: var(--font-odibee-sans), sans-serif;
+  }
+  .instrument-sans-font {
+    font-family: var(--font-instrument-sans), sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .custom-container {
+    @apply w-full max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16;
+  }
+}
+
+.section{
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+/* Font sizes - as requested, use only global.css */
+ .header-link { font-size: 24px; }
+  .header-sublink { font-size: 14px; }
+  .btn-text { font-size: 24px; }
+  .banner-title { font-size: 48px; }  
+  .section-title { font-size: 32px; }
+  .section-subtitle { font-size: 28px; }
+  .section-text { font-size: 16px; }
+  .link-text { font-size: 20px; }
+
+/* Responsive Custom Container & Font Sizes */
+
+@media (max-width: 480px) {
+  .custom-container { max-width: 95%; }
+  .banner-title { font-size: 32px; }
+  .banner-text { font-size: 14px; }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container { max-width: 95%; }
+  .banner-title { font-size: 36px; }
+  .banner-text { font-size: 16px; }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container { max-width: 95%; }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container { max-width: 95%; }
+}
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container { max-width: 95%; }
+}
+
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .custom-container { max-width: 95%; }
+  .header-link { font-size: 24px; }
+  .header-sublink { font-size: 14px; }
+  .btn-text { font-size: 24px; }
+  .banner-title { font-size: 48px; }  
+  .section-title { font-size: 32px; }
+  .section-subtitle { font-size: 28px; }
+  .section-text { font-size: 16px; }
+  .link-text { font-size: 20px; }
+  
+}
+
+@media (min-width: 1921px) and (max-width: 2559px) {
+  .custom-container { max-width: 1700px; margin: 0 auto; }
+  .header-link { font-size: 24px; }
+  .header-sublink { font-size: 14px; }
+  .btn-text { font-size: 24px; }
+  .banner-title { font-size: 48px; }  
+  .section-title { font-size: 32px; }
+  .section-subtitle { font-size: 28px; }
+  .section-text { font-size: 16px; }
+  .link-text { font-size: 20px; }
+}
+
+/* 2k */
+@media (min-width: 2560px) and (max-width: 3799px) {
+  .custom-container { max-width: 1920px; margin: 0 auto; }
+   .header-link { font-size: 26px; }
+  .header-sublink { font-size: 16px; }
+  .btn-text { font-size: 26px; }
+  .banner-title { font-size: 50px; }  
+  .section-title { font-size: 34px; }
+  .section-subtitle { font-size: 30x; }
+  .section-text { font-size: 18px; }
+  .link-text { font-size: 22px; }
+}
+
+@media (min-width: 3800px) {
+  .custom-container { max-width: 2000px; margin: 0 auto; }
+  .header-link { font-size: 28px; }
+  .header-sublink { font-size: 20px; }
+  .btn-text { font-size: 30px; }
+  .banner-title { font-size: 54px; }  
+  .section-title { font-size: 38px; }
+  .section-subtitle { font-size: 34x; }
+  .section-text { font-size: 22px; }
+  .link-text { font-size: 26px; }
+}
