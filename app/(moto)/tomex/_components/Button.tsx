@@ -24,7 +24,7 @@ const Button = ({
 
   const isPrimary = variant === "primary";
   
-  const baseStyles = "flex items-center justify-center px-8 py-3.5 transition-all duration-300 rounded-tl-[2rem] rounded-br-[2rem] shadow-md hover:shadow-lg group w-max";
+  const baseStyles = "flex items-center justify-center px-7 py-2.5 transition-all duration-300 rounded-tl-[2rem] rounded-br-[2rem] shadow-md hover:shadow-lg group w-max";
   
   const variantStyles = isPrimary 
     ? "bg-primary text-white hover:bg-primary-hover"

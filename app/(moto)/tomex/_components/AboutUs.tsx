@@ -18,19 +18,20 @@ const AboutUs = () => {
               Driven By Purpose. Focused On The Future.
             </Typography>
           </div>
+           
 
           {/* Body */}
           <div className="flex flex-col gap-6">
             <Typography variant="p" color="muted" className="leading-relaxed">
               An efficient braking system protects not only the driver and his passengers, but also other road users. TOMEX Brakes has set itself the goal of continuously improving all the brake components it supplies so that they operate efficiently and effectively in all conditions, ensuring maximum safety, reliability, and confidence for every journey.
             </Typography>
-            
+            <div className="w-full h-[1px] bg-black/40 my-1"></div>
             <Typography variant="p" color="muted" className="leading-relaxed">
               The company&apos;s products undergo constant quality checks and tests at all stages of creation: from the purchase of raw materials used in production, through mixing, pressing and grinding, to the packaging of finished products. The pads, shoes and other brake accessories manufactured by TOMEX have necessary certificates and approvals, and thanks to their high quality, reliability, reasonable prices and flexible approach to customer needs, we compete successfully on Polish and foreign markets.
             </Typography>
           </div>
 
-          <div className="w-full h-[1px] bg-gray-200 my-1"></div>
+         
 
           {/* Bullet Points */}
           <div className="flex flex-col gap-5 min-[2100px]:gap-8">

@@ -22,8 +22,8 @@ const Explore360 = () => {
             </Typography>
           </div>
           
-          <div className="hidden md:flex shrink-0 w-16 h-16 rounded-full bg-white/20 items-center justify-center hover:bg-white/30 transition-colors cursor-pointer">
-            <ArrowUpRight className="w-8 h-8 text-white" strokeWidth={2} />
+          <div className="hidden md:flex shrink-0 w-16 h-16 rounded-full bg-white/30 items-center justify-center hover:bg-white/39 transition-colors cursor-pointer">
+            <ArrowUpRight className="w-9 h-9 text-black/56" strokeWidth={2} />
           </div>
         </div>
         
