@@ -5,7 +5,7 @@ import Button from "./Button";
 
 export default function Banner() {
   return (
-    <section className="relative w-full pt-[80px] md:pt-[100px] lg:pt-[120px] pb-8 lg:pb-12" data-aos="fade-up">
+    <section className="relative w-full pt-[120px] md:pt-[140px] lg:pt-[160px] min-[2500px]:pt-[240px] min-[3800px]:pt-[320px] pb-8 lg:pb-12" data-aos="fade-up">
       {/* Extended Video Background */}
       <div className="custom-container relative">
         <div className="relative overflow-hidden w-full h-screen rounded-2xl md:rounded-[2rem] shadow-xl" data-aos="zoom-in" data-aos-delay="100">

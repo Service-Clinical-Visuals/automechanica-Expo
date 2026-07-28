@@ -15,15 +15,15 @@ const AboutUs = () => {
   ];
 
   return (
-    <section id="about" className="w-full py-16 bg-[#171717] overflow-hidden">
-      <div className="custom-container flex flex-col gap-6">
+    <section id="about" className="w-full py-16 2xl:py-24 min-[2500px]:py-32 min-[3800px]:py-40 bg-[#171717] overflow-hidden">
+      <div className="custom-container flex flex-col gap-6 min-[2500px]:gap-12 min-[3800px]:gap-16">
         
         {/* Top Box */}
         <div 
-          className="w-full bg-[#222222] border border-white/5 rounded-3xl p-8 2xl:p-12 flex flex-col 2xl:flex-row gap-8 2xl:gap-16 justify-between items-start 2xl:items-center"
+          className="w-full bg-[#222222] border border-white/5 rounded-3xl p-8 xl:p-12 min-[2500px]:p-16 min-[3800px]:p-24 flex flex-col xl:flex-row gap-8 xl:gap-16 min-[2500px]:gap-24 min-[3800px]:gap-32 justify-between items-start xl:items-center"
           data-aos="fade-up"
         >
-          <div className="flex flex-col gap-4 2xl:w-3/5">
+          <div className="flex flex-col gap-4 xl:w-3/5">
             <Typography variant="h2" color="white" className="font-semibold leading-tight">
               Engineering Reliable Sealing Solutions Since 1938
             </Typography>
@@ -32,20 +32,20 @@ const AboutUs = () => {
             </Typography>
           </div>
           
-          <div className="flex flex-col gap-4 items-start 2xl:items-end 2xl:w-2/5 2xl:text-right">
+          <div className="flex flex-col gap-4 items-start xl:items-end xl:w-2/5 xl:text-right">
             <Typography variant="h4" color="white" className="font-semibold leading-snug">
-              OEM-Quality Gaskets. Danish<br className="hidden 2xl:block"/> Expertise. Global Reach.
+              OEM-Quality Gaskets. Danish<br className="hidden xl:block"/> Expertise. Global Reach.
             </Typography>
             <Button text="Learn More" href="#about" showIcon={true} />
           </div>
         </div>
 
         {/* Bottom Section */}
-        <div className="w-full flex flex-col 2xl:flex-row gap-6">
+        <div className="w-full flex flex-col xl:flex-row gap-6 min-[2500px]:gap-12 min-[3800px]:gap-16">
           
           {/* Bottom Left Box - Key Highlights */}
           <div 
-            className="w-full 2xl:w-1/3 bg-[#222222] border border-white/5 rounded-3xl p-8 2xl:p-12 flex flex-col gap-8 order-1 2xl:order-1"
+            className="w-full xl:w-1/3 bg-[#222222] border border-white/5 rounded-3xl p-8 2xl:p-12 min-[2500px]:p-16 min-[3800px]:p-24 flex flex-col gap-8 min-[2500px]:gap-12 min-[3800px]:gap-16 order-1 2xl:order-1"
             data-aos="fade-up" 
             data-aos-delay="100"
           >
@@ -68,7 +68,7 @@ const AboutUs = () => {
 
           {/* Bottom Right Box - Image */}
           <div 
-            className="w-full 2xl:w-2/3 order-2 2xl:order-2"
+            className="w-full xl:w-2/3 order-2 xl:order-2"
             data-aos="fade-up" 
             data-aos-delay="200"
           >

@@ -84,11 +84,11 @@ export default function Header() {
           {/* Right Actions */}
           <div className="hidden lg:flex items-center">
             <div className="flex items-center w-max group">
-              <div className="flex items-center justify-center bg-white rounded-full pl-6 py-2.5 pr-7 shadow-sm z-0 relative">
-                <input type="text" placeholder="Search Here....." className="bg-transparent text-[15px] text-[#222] font-bold outline-none w-28 lg:w-32 placeholder:text-[#222] placeholder:font-bold" />
+              <div className="flex items-center justify-center bg-white rounded-full pl-6 min-[2500px]:pl-8 min-[3800px]:pl-10 py-2.5 min-[2500px]:py-4 min-[3800px]:py-6 pr-7 min-[2500px]:pr-10 min-[3800px]:pr-12 shadow-sm z-0 relative">
+                <input type="text" placeholder="Search Here....." className="bg-transparent text-[15px] min-[2500px]:text-xl min-[3800px]:text-3xl text-[#222] font-bold outline-none w-28 lg:w-32 min-[2500px]:w-48 min-[3800px]:w-64 placeholder:text-[#222] placeholder:font-bold" />
               </div>
-              <button className="w-12 h-12 flex items-center justify-center rounded-full bg-[#C21217] group-hover:bg-[#a50f14] transition-all duration-300 shadow-md z-10 -ml-4 flex-shrink-0">
-                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+              <button className="w-12 h-12 min-[2500px]:w-16 min-[2500px]:h-16 min-[3800px]:w-24 min-[3800px]:h-24 flex items-center justify-center rounded-full bg-[#C21217] group-hover:bg-[#a50f14] transition-all duration-300 shadow-md z-10 -ml-4 min-[2500px]:-ml-6 min-[3800px]:-ml-8 flex-shrink-0">
+                <svg className="w-5 h-5 min-[2500px]:w-7 min-[2500px]:h-7 min-[3800px]:w-10 min-[3800px]:h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
               </button>
             </div>
           </div>

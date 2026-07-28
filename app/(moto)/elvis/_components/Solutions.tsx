@@ -58,15 +58,15 @@ export default function Solutions() {
   ];
 
   return (
-    <section className="w-full py-16  bg-[#111111] overflow-hidden">
-      <div className="custom-container flex flex-col gap-12 lg:gap-16">
+    <section className="w-full py-16 2xl:py-24 min-[2500px]:py-32 min-[3800px]:py-40 bg-[#111111] overflow-hidden">
+      <div className="custom-container flex flex-col gap-12 lg:gap-16 min-[2500px]:gap-24 min-[3800px]:gap-32">
         
         {/* Header Block */}
-        <div className="flex flex-col items-center justify-center gap-6 text-center max-w-4xl mx-auto" data-aos="fade-up">
+        <div className="flex flex-col items-center justify-center gap-6 min-[2500px]:gap-10 min-[3800px]:gap-12 text-center mx-auto" data-aos="fade-up">
           <Typography variant="h2" color="white" className="font-semibold leading-tight">
             Comprehensive Gasket & Sealing Solutions
           </Typography>
-          <Typography variant="p" color="white" className="leading-relaxed opacity-80">
+          <Typography variant="p" color="white" className="leading-relaxed xl:max-w-[70%] ">
             Explore Elwis Royal's extensive range of OEM-quality gaskets, seals, and engine repair solutions, engineered to deliver exceptional sealing performance, precision fitment, and long-lasting reliability. From cylinder head gaskets and manifold gaskets to complete gasket sets and oil seals, our comprehensive portfolio is designed to meet the evolving needs of the global automotive aftermarket.
           </Typography>
         </div>
@@ -86,10 +86,12 @@ export default function Solutions() {
             pagination={{ clickable: true }}
             autoplay={{ delay: 3000, disableOnInteraction: false }}
             breakpoints={{
-              640: { slidesPerView: 2, slidesPerGroup: 3 },
-              1024: { slidesPerView: 3, slidesPerGroup: 3 },
-              1280: { slidesPerView: 4, slidesPerGroup: 3 },
-              1536: { slidesPerView: 4, slidesPerGroup: 3 },
+              640: { slidesPerView: 2, slidesPerGroup: 3, spaceBetween: 24 },
+              1024: { slidesPerView: 3, slidesPerGroup: 3, spaceBetween: 24 },
+              1280: { slidesPerView: 4, slidesPerGroup: 3, spaceBetween: 24 },
+              1536: { slidesPerView: 4, slidesPerGroup: 3, spaceBetween: 24 },
+              2500: { slidesPerView: 4, slidesPerGroup: 3, spaceBetween: 48 },
+              3800: { slidesPerView: 4, slidesPerGroup: 3, spaceBetween: 64 },
             }}
             className="w-full pb-16 custom-swiper-pagination"
           >

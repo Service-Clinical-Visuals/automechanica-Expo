@@ -35,17 +35,17 @@ export default function Quality() {
         <div className="w-full h-[1px] bg-white/40" data-aos="fade-up" data-aos-delay="100"></div>
 
         {/* Bottom Content Grid */}
-        <div className="flex flex-col items-center lg:grid lg:grid-cols-12 gap-12 mt-2 " data-aos="fade-up" data-aos-delay="200">
+        <div className="flex flex-col items-center xl:grid xl:grid-cols-12 gap-12 mt-2 " data-aos="fade-up" data-aos-delay="200">
           
           {/* Left: Video */}
-          <div className="lg:col-span-8 w-full h-full">
+          <div className="xl:col-span-8 w-full h-full">
             <div className="w-full aspect-video rounded-3xl overflow-hidden shadow-2xl">
               <DynamicVideoPlayer type="short-2" className="w-full h-full object-cover" />
             </div>
           </div>
 
           {/* Right: Content */}
-          <div className="lg:col-span-4 w-full flex flex-col gap-6">
+          <div className="xl:col-span-4 w-full flex flex-col gap-6">
             
             <div className="flex flex-col gap-4">
               <Typography variant="h2" color="white" className="font-semibold leading-tight">

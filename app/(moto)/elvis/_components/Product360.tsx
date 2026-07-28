@@ -13,22 +13,22 @@ export default function Product360() {
   ];
 
   return (
-    <section className="relative w-full py-16 lg:py-24 bg-[#171717] overflow-hidden">
+    <section className="relative w-full py-16 lg:py-24 bg-[#2B2B2B] overflow-hidden">
       
-      {/* Slanting Background - Downward Facing Triangle */}
-      <div className="absolute inset-0 w-full h-full bg-[#2B2B2B] [clip-path:polygon(0_0,100%_0,50%_100%)] z-0"></div>
+      {/* Decorative Black Triangle in Bottom-Left */}
+      <div className="absolute inset-0 w-full h-full bg-[#171717] [clip-path:polygon(0_35%,55%_100%,0_100%)] z-0 pointer-events-none"></div>
 
-      <div className="custom-container relative z-10 flex flex-col lg:grid lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+      <div className="custom-container relative z-10 flex flex-col xl:grid xl:grid-cols-12 gap-12 xl:gap-8 items-center">
         
         {/* Left Side (Video) */}
-        <div className="order-2 lg:order-1 lg:col-span-7 w-full" data-aos="fade-right">
+        <div className="order-2 xl:order-1 xl:col-span-7 w-full" data-aos="fade-right">
           <div className="w-full aspect-video rounded-3xl overflow-hidden shadow-2xl">
             <DynamicVideoPlayer type="short-1" className="w-full h-full object-cover" />
           </div>
         </div>
 
         {/* Right Side (Content) */}
-        <div className="order-1 lg:order-2 lg:col-span-5 w-full flex flex-col gap-6 lg:pl-8" data-aos="fade-left">
+        <div className="order-1 xl:order-2 xl:col-span-5 w-full flex flex-col gap-6 xl:pl-8" data-aos="fade-left">
           
           <Typography variant="h2" color="white" className="font-semibold leading-tight">
             360° Product Experience

@@ -17,11 +17,11 @@ const KeyFeatures = () => {
 
   return (
     <section className="w-full py-16 bg-[#2B2B2B] overflow-hidden">
-      <div className="custom-container flex flex-col 2xl:grid 2xl:grid-cols-12 gap-8 items-stretch">
+      <div className="custom-container flex flex-col xl:grid xl:grid-cols-12 gap-8 items-stretch">
         
         {/* Left Side (Video + Text) */}
         {/* Mobile: Order 2, Desktop: Col 1-7, Order 1 */}
-        <div className="flex flex-col gap-8 order-2 2xl:order-1 2xl:col-span-8 w-full" data-aos="fade-right">
+        <div className="flex flex-col gap-8 order-2 xl:order-1 xl:col-span-8 w-full" data-aos="fade-right">
           
           <div className="w-full aspect-video rounded-3xl overflow-hidden">
             <DynamicVideoPlayer type="short-1" className="w-full h-full object-cover" />
@@ -41,7 +41,7 @@ const KeyFeatures = () => {
         {/* Right Side (Features Box) */}
         {/* Mobile: Order 1, Desktop: Col 8-12, Order 2 */}
         <div 
-          className="flex flex-col gap-6 order-1 2xl:order-2 2xl:col-span-4 w-full bg-[#111111] rounded-3xl p-8 2xl:p-10"
+          className="flex flex-col gap-6 order-1 xl:order-2 xl:col-span-4 w-full bg-[#111111] rounded-3xl p-8 xl:p-10"
           data-aos="fade-left"
         >
           <div className="flex flex-col gap-4 mb-2">
