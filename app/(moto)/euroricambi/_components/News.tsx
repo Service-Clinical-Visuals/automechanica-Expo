@@ -139,7 +139,7 @@ export default function News() {
   return (
     <section className="relative">
       {/* Navy header band */}
-      <div className="bg-primary pt-16 pb-28 md:pb-36">
+      <div className="bg-primary pt-16 pb-28 md:pb-36 pbclass ">
         <Container>
           <div
             className="px-4 sm:px-8 md:px-10 lg:px-[40px] text-center max-w-[1120px] mx-auto"

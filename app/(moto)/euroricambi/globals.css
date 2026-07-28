@@ -267,3 +267,13 @@ body {
     padding-top: 140px;
   }
 }
+
+.pbclass{
+   padding-bottom: 15px;
+}
+
+@media (min-width: 2200px){
+  .pbclass{
+    padding-bottom: 40px;
+  }
+}
