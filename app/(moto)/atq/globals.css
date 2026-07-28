@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Rubik:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+@import "aos/dist/aos.css";
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #1E1E1E;
+}
+
+@theme inline {
+  --color-primary: #CD0847;
+  --color-primary-hover: #a60639;
+  --color-secondary: #34444B;
+  --color-secondary-hover: #263339;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-primary: 'Oswald', ui-sans-serif, system-ui, sans-serif;
+  --font-secondary: 'Lato', ui-sans-serif, system-ui, sans-serif;
+  --font-nav: 'Rubik', ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-secondary);
+}
+
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Base Typography (Desktop/Laptop sizes 1024px-2499px) */
+h1 {
+  font-size: 2.625rem; /* 42px */
+  font-weight: 500;
+  font-family: var(--font-primary);
+}
+
+h2 {
+  font-size: 2.375rem; /* 38px */
+  font-weight: 500;
+  font-family: var(--font-primary);
+}
+
+h3 {
+  font-size: 1.5rem; /* 24px */
+  font-weight: 500;
+  font-family: var(--font-primary);
+}
+
+h4 {
+  font-size: 1.125rem; /* 18px */
+  font-weight: 500;
+  font-family: var(--font-primary);
+}
+
+h5 {
+  font-size: 1.0625rem; /* 17px */
+  font-weight: 500;
+  font-family: var(--font-primary);
+}
+
+p, li {
+  font-size: 1rem; /* 16px */
+  font-weight: 400;
+  font-family: var(--font-secondary);
+}
+
+span {
+  font-size: 0.875rem; /* 14px */
+  font-family: var(--font-secondary);
+}
+
+.navbar {
+  font-size: 1rem; /* 16px */
+  font-weight: 600;
+  font-family: var(--font-nav);
+}
+
+.footer-heading {
+  font-size: 1.5rem; /* 24px */
+  font-weight: 400;
+  font-family: var(--font-primary);
+}
+
+.footer-body {
+  font-size: 1rem; /* 16px */
+  font-weight: 400;
+  font-family: var(--font-secondary);
+}
+
+.button {
+  font-size: 1.125rem; /* 18px */
+  font-weight: 500;
+  font-family: var(--font-primary) !important;
+}
+
+/* Custom Swiper Pagination */
+.custom-swiper-pagination .swiper-pagination-bullets {
+  bottom: auto !important;
+  position: relative !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 20px;
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet {
+  width: 40px !important;
+  height: 6px !important;
+  border-radius: 0 !important;
+  background-color: #E5E7EB !important;
+  opacity: 1 !important;
+  margin: 0 4px !important;
+  transition: background-color 0.3s;
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet-active {
+  background-color: var(--color-primary) !important;
+}
+
+/* Mobile Portrait Screen (up to 480px) */
+/* Multiplier: ~0.65 for headings, ~0.85 for body to retain legibility */
+@media (max-width: 480px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 { font-size: 1.7rem; }
+  h2 { font-size: 1.54rem; }
+  h3 { font-size: 0.97rem; }
+  h4 { font-size: 0.85rem; }
+  h5 { font-size: 0.8rem; }
+  
+  p, li { font-size: 0.85rem; }
+  span { font-size: 0.75rem; }
+  
+  .navbar { font-size: 0.85rem; }
+  .footer-heading { font-size: 0.97rem; }
+  .footer-body { font-size: 0.85rem; }
+  .button { font-size: 0.95rem; }
+}
+
+/* Mobile Landscape Screen (481px - 767px) */
+/* Multiplier: ~0.75 for headings, ~0.9 for body */
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container {
+    max-width: 92%;
+  }
+
+  h1 { font-size: 1.96rem; }
+  h2 { font-size: 1.78rem; }
+  h3 { font-size: 1.125rem; }
+  h4 { font-size: 0.95rem; }
+  h5 { font-size: 0.9rem; }
+  
+  p, li { font-size: 0.9rem; }
+  span { font-size: 0.8rem; }
+  
+  .navbar { font-size: 0.9rem; }
+  .footer-heading { font-size: 1.125rem; }
+  .footer-body { font-size: 0.9rem; }
+  .button { font-size: 1rem; }
+}
+
+/* Tablet / Tab Screen (768px - 1023px) */
+/* Multiplier: ~0.85 for headings, ~0.95 for body */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 { font-size: 2.23rem; }
+  h2 { font-size: 2.01rem; }
+  h3 { font-size: 1.275rem; }
+  h4 { font-size: 1rem; }
+  h5 { font-size: 0.95rem; }
+  
+  p, li { font-size: 0.95rem; }
+  span { font-size: 0.85rem; }
+  
+  .navbar { font-size: 0.95rem; }
+  .footer-heading { font-size: 1.275rem; }
+  .footer-body { font-size: 0.95rem; }
+  .button { font-size: 1.05rem; }
+}
+
+/* Laptop Screen (1024px - 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Desktop PC Screen (1280px - 1535px) */
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Large Desktop PC Screen (1536px - 1919px) */
+@media (min-width: 1536px) and (max-width: 1919px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Extra Large PC / 2K Screen (1920px - 2499px) */
+@media (min-width: 1920px) and (max-width: 2499px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Ultra-wide Screen / Max Cover (2500px - 3799px) */
+/* Multiplier: ~1.5 */
+@media (min-width: 2500px) and (max-width: 3799px) {
+  .custom-container {
+    max-width: 85%;
+  }
+
+  h1 { font-size: 3.93rem; }
+  h2 { font-size: 3.56rem; }
+  h3 { font-size: 2.25rem; }
+  h4 { font-size: 1.68rem; }
+  h5 { font-size: 1.59rem; }
+  
+  p, li { font-size: 1.5rem; }
+  span { font-size: 1.31rem; }
+  
+  .navbar { font-size: 1.5rem; }
+  .footer-heading { font-size: 2.25rem; }
+  .footer-body { font-size: 1.5rem; }
+  .button { font-size: 1.68rem; }
+}
+
+/* 4K Ultra-wide Screen / Max Cover (3800px and above) */
+/* Multiplier: ~2.0 */
+@media (min-width: 3800px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 { font-size: 5.25rem; }
+  h2 { font-size: 4.75rem; }
+  h3 { font-size: 3.0rem; }
+  h4 { font-size: 2.25rem; }
+  h5 { font-size: 2.12rem; }
+  
+  p, li { font-size: 2.0rem; }
+  span { font-size: 1.75rem; }
+  
+  .navbar { font-size: 2.0rem; }
+  .footer-heading { font-size: 3.0rem; }
+  .footer-body { font-size: 2.0rem; }
+  .button { font-size: 2.25rem; }
+}
+/* ATQ Solutions Pagination */
+.atq-solutions-pagination .swiper-pagination-bullet {
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50% !important;
+  background-color: #d1d5db !important;
+  opacity: 1 !important;
+  margin: 0 4px !important;
+  transition: all 0.3s ease !important;
+}
+.atq-solutions-pagination .swiper-pagination-bullet-active {
+  width: 32px !important;
+  border-radius: 9999px !important;
+  background-color: var(--color-primary) !important;
+}
+.atq-solutions-pagination.swiper-pagination-bullets,
+.atq-solutions-pagination .swiper-pagination-bullets {
+  bottom: auto !important;
+  position: relative !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 40px !important;
+}
