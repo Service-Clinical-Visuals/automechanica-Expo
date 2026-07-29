@@ -58,7 +58,7 @@ const Products = () => {
           {products.map((product, index) => (
             <div 
               key={index} 
-              className="flex flex-col bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300"
+              className="flex flex-col bg-white border border-gray-200 hover:border-primary transition-colors rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300"
               data-aos="fade-up" 
               data-aos-delay={index * 100}
             >
@@ -83,7 +83,7 @@ const Products = () => {
                 </Typography>
                 
                 {/* Button at the bottom */}
-                <div className="mt-auto w-full pt-2">
+                <div className="mt-auto pb-2 w-full pt-1">
                   <Button 
                     text={product.buttonText} 
                     href="#products" 

@@ -48,10 +48,10 @@ const Certificates = () => {
           {/* Custom Prev Button */}
           <button 
             onClick={() => swiperInstance?.slidePrev()}
-            className="hidden md:flex absolute left-0 z-10 w-12 h-12 min-[2100px]:w-16 min-[2100px]:h-16 min-[3800px]:w-24 min-[3800px]:h-24 rounded-full bg-[#F6F6F6] items-center justify-center hover:bg-gray-200 transition-colors shadow-sm focus:outline-none"
+            className="hidden md:flex absolute left-[10%] z-10 w-12 h-12 min-[2100px]:w-16 min-[2100px]:h-16 min-[3800px]:w-24 min-[3800px]:h-24 rounded-full bg-[#F6F6F6] items-center justify-center hover:bg-primary transition-colors shadow-sm focus:outline-none"
             aria-label="Previous Certificate"
           >
-            <ArrowLeft className="w-5 h-5 min-[2100px]:w-8 min-[2100px]:h-8 min-[3800px]:w-12 min-[3800px]:h-12 text-primary" strokeWidth={2.5} />
+            <ArrowLeft className="w-5 h-5 min-[2100px]:w-8 min-[2100px]:h-8 min-[3800px]:w-12 min-[3800px]:h-12 text-primary hover:text-white" strokeWidth={3} />
           </button>
 
           {/* Swiper Container */}
@@ -96,10 +96,10 @@ const Certificates = () => {
           {/* Custom Next Button */}
           <button 
             onClick={() => swiperInstance?.slideNext()}
-            className="hidden md:flex absolute right-0 z-10 w-12 h-12 min-[2100px]:w-16 min-[2100px]:h-16 min-[3800px]:w-24 min-[3800px]:h-24 rounded-full bg-[#F6F6F6] items-center justify-center hover:bg-gray-200 transition-colors shadow-sm focus:outline-none"
+            className="hidden md:flex absolute right-[10%] z-10 w-12 h-12 min-[2100px]:w-16 min-[2100px]:h-16 min-[3800px]:w-24 min-[3800px]:h-24 rounded-full bg-[#F6F6F6] items-center justify-center hover:bg-primary  transition-colors shadow-sm focus:outline-none"
             aria-label="Next Certificate"
           >
-            <ArrowRight className="w-5 h-5 min-[2100px]:w-8 min-[2100px]:h-8 min-[3800px]:w-12 min-[3800px]:h-12 text-primary" strokeWidth={2.5} />
+            <ArrowRight className="w-5 h-5 min-[2100px]:w-8 min-[2100px]:h-8 min-[3800px]:w-12 min-[3800px]:h-12 text-primary hover:text-white" strokeWidth={3} />
           </button>
           
         </div>

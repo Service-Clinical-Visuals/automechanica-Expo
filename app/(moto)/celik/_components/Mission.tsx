@@ -54,7 +54,7 @@ const Mission = () => {
           {cards.map((card, index) => (
             <div 
               key={index}
-              className="flex flex-col items-center text-center p-8 min-[2100px]:p-12 min-[3800px]:p-16 bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group"
+              className="flex flex-col items-center text-center hover:border-primary transition-colors p-8 min-[2100px]:p-12 min-[3800px]:p-16 bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group"
               data-aos="fade-up"
               data-aos-delay={index * 100}
             >
