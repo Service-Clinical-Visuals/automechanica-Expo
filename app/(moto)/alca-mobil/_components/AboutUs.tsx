@@ -6,7 +6,7 @@ import Button from "./Button";
 
 const AboutUs = () => {
   return (
-    <section id="about" className="w-full py-16 min-[3800px]:pt-25 bg-white overflow-hidden">
+    <section id="about" className="w-full py-10 xl:py-16 min-[3800px]:pt-25 bg-white overflow-hidden">
       <div className="custom-container flex flex-col xl:grid xl:grid-cols-12 gap-10  items-center">
         
         {/* Content Wrapper */}

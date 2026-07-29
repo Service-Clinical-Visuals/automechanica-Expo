@@ -39,7 +39,7 @@ const productCategories = [
 
 const Products = () => {
   return (
-    <section id="products" className="w-full py-16 min-[3800px]:pt-25 bg-white overflow-hidden">
+    <section id="products" className="w-full py-10 xl:py-16 min-[3800px]:pt-25 bg-white overflow-hidden">
       <div className="custom-container flex flex-col items-center text-center gap-12 ">
         
         {/* Header Section */}

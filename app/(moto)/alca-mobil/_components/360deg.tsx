@@ -10,7 +10,7 @@ const Deg360 = () => {
   return (
     <section 
       id="360deg" 
-      className="w-full py-16 min-[3800px]:pt-25 bg-[#F9F9F9] overflow-hidden"
+      className="w-full py-10 xl:py-16 min-[3800px]:pt-25 bg-[#F9F9F9] overflow-hidden"
     >
       <div className="custom-container flex flex-col xl:grid xl:grid-cols-12 gap-10  items-center">
 

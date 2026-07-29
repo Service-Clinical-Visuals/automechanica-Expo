@@ -6,7 +6,7 @@ import { Facebook, Twitter, Linkedin, Instagram, MapPin, Phone, Mail, ChevronRig
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-[#F9F9F9] pt-16 min-[3800px]:pt-25 pb-8 overflow-hidden font-inter border-t border-gray-200">
+    <footer className="w-full bg-[#F9F9F9] pt-10 xl:pt-16 min-[3800px]:pt-25 pb-8 overflow-hidden font-inter border-t border-gray-200">
       <div className="custom-container flex flex-col gap-12">
         
         {/* Top Section - 5 Columns */}

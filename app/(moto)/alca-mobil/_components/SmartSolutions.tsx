@@ -7,7 +7,7 @@ const SmartSolutions = () => {
   return (
     <section 
       id="smart-solutions" 
-      className="w-full py-16 min-[3800px]:pt-25"
+      className="w-full py-10 xl:py-16 min-[3800px]:pt-25"
     >
       <div className="custom-container">
         <div className="relative w-full min-h-[400px] xl:min-h-[650px] min-[3800px]:min-h-[2600px] flex items-end">
