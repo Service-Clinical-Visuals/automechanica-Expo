@@ -13,10 +13,10 @@ const AboutUs = () => {
 
   return (
     <section id="about" className="w-full py-16 min-[2100px]:py-24 min-[3800px]:py-32 bg-white overflow-hidden">
-      <div className="custom-container flex flex-col xl:flex-row gap-8 xl:gap-12 min-[2100px]:gap-20 min-[3800px]:gap-32 items-center xl:items-stretch">
+      <div className="custom-container flex flex-col xl:flex-row gap-8 xl:gap-12 min-[2100px]:gap-20 min-[3800px]:gap-15 items-center xl:items-stretch">
 
         {/* Mobile Header (Hidden on Desktop) */}
-        <div className="xl:hidden w-full flex flex-col gap-4" data-aos="fade-up">
+        <div className="xl:hidden w-full flex items-center justify-center flex-col gap-4" data-aos="fade-up">
           <Typography variant="h2" color="dark" className="font-bold leading-tight">
             A Legacy of Precision Since 1950
           </Typography>
@@ -26,19 +26,18 @@ const AboutUs = () => {
         </div>
 
         {/* Left: Main Image (Order 2 on Mobile, Order 1 on Desktop) */}
-        <div className="w-full xl:w-[50%] min-[2100px]:w-[55%] flex justify-center xl:justify-start shrink-0 order-2 xl:order-1" data-aos="fade-right">
-          {/* Section2 Image Constraints: 820x700 on extra large PC */}
-          <div className="w-full min-[2100px]:w-[820px] min-[2100px]:h-[700px]">
+        <div className="w-full xl:w-[50%] min-[2100px]:w-[50%] min-[3800px]:w-[55%] flex shrink-0 order-2 xl:order-1" data-aos="fade-right">
+          <div className="w-full aspect-[820/700] rounded-xl overflow-hidden shadow-lg border border-gray-100">
             <img
               src="/moto/koch/section2.jpg"
               alt="Wheel Alignment System"
-              className="w-full h-full object-cover rounded-xl "
+              className="w-full h-full object-cover"
             />
           </div>
         </div>
 
         {/* Right: Content (Order 3 on Mobile, Order 2 on Desktop) */}
-        <div className="w-full xl:w-[50%] min-[2100px]:w-[45%] flex flex-col gap-6 min-[2100px]:gap-8 min-[3800px]:gap-12 xl:pt-4 order-3 xl:order-2" data-aos="fade-left">
+        <div className="w-full xl:w-[50%] min-[2100px]:w-[50%] min-[3800px]:w-[45%] flex flex-col gap-6 min-[2100px]:gap-8 min-[3800px]:gap-12 xl:pt-4 order-3 xl:order-2" data-aos="fade-left">
 
           {/* Desktop Header (Hidden on Mobile) */}
           <div className="hidden xl:flex flex-col gap-4">
@@ -50,17 +49,17 @@ const AboutUs = () => {
             </Typography>
           </div>
 
-          {/* Profiles Grid: Separated layout with 247x205 on 4K */}
+          {/* Profiles Grid: Scaled proportionally with aspect-[247/205] */}
           <div className="grid grid-cols-3 gap-4 sm:gap-6 mt-2">
             {profiles.map((profile, idx) => (
               <div key={idx} className="flex flex-col items-center gap-3" data-aos="fade-up" data-aos-delay={100 * idx}>
 
-                {/* Person Image Constraints: 247x205 on extra large PC */}
-                <div className="w-full aspect-[4/5] min-[2100px]:aspect-auto min-[2100px]:w-[247px] min-[2100px]:h-[205px] rounded-xl overflow-hidden bg-gray-100 shadow-sm border border-gray-200">
+                {/* Seamless Aspect Ratio Scaling */}
+                <div className="w-full aspect-[247/205] rounded-xl overflow-hidden bg-gray-100 shadow-sm border border-gray-200">
                   <img src={profile.img} alt={profile.name} className="w-full h-full object-cover object-top" />
                 </div>
 
-                <Typography variant="h4" color="dark" className="text-center text-sm sm:text-base min-[2100px]:text-lg font-bold">
+                <Typography variant="h4" color="dark" className="text-center text-sm sm:text-base min-[2100px]:text-lg min-[3800px]:text-2xl font-bold mt-2">
                   {profile.name}
                 </Typography>
               </div>
