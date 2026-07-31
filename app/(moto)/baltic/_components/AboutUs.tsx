@@ -42,7 +42,7 @@ const AboutUs = () => {
         {/* Mobile: Order 1 (Top), Desktop: Col 1-6 (Left) */}
         <div className="w-full order-1 xl:col-span-6 flex justify-center xl:justify-start" data-aos="fade-right">
           <img
-            src="/moto/MC-filter/section2.jpg"
+            src="/moto/baltic/section2.jpg"
             alt="Baltic Filters Facility"
             className="w-full h-auto object-cover aspect-[930/524] rounded-lg shadow-sm"
           />

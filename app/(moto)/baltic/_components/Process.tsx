@@ -8,36 +8,36 @@ const processSteps = [
     num: "01",
     title: "Paper Pleating",
     desc: "High-quality filter media is precision-pleated to maximize filtration surface and efficiency.",
-    image: "/moto/MC-filter/image1.png",
-    icon: "/moto/MC-filter/icon1.png"
+    image: "/moto/baltic/image1.png",
+    icon: "/moto/baltic/icon1.png"
   },
   {
     num: "02",
     title: "Production Of Rigid Parts",
     desc: "Rigid components are produced with high precision to ensure strength, consistency and fit.",
-    image: "/moto/MC-filter/image2.png",
-    icon: "/moto/MC-filter/icon2.png"
+    image: "/moto/baltic/image2.png",
+    icon: "/moto/baltic/icon2.png"
   },
   {
     num: "03",
     title: "Assembly",
     desc: "All components are assembled with care to ensure perfect sealing, durability and performance.",
-    image: "/moto/MC-filter/image3.png",
-    icon: "/moto/MC-filter/icon3.png"
+    image: "/moto/baltic/image3.png",
+    icon: "/moto/baltic/icon3.png"
   },
   {
     num: "04",
     title: "Storage",
     desc: "Finished products are stored in optimal conditions to maintain quality until dispatch.",
-    image: "/moto/MC-filter/image4.png",
-    icon: "/moto/MC-filter/icon4.png"
+    image: "/moto/baltic/image4.png",
+    icon: "/moto/baltic/icon4.png"
   },
   {
     num: "05",
     title: "Delivery",
     desc: "Products are carefully packed and delivered to our partners and customers on time.",
-    image: "/moto/MC-filter/image5.png",
-    icon: "/moto/MC-filter/icon5.png"
+    image: "/moto/baltic/image5.png",
+    icon: "/moto/baltic/icon5.png"
   }
 ];
 

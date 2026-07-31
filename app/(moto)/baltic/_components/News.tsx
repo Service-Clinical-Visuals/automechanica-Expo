@@ -7,33 +7,33 @@ import { Calendar, ArrowUpRight } from "lucide-react";
 
 const newsData = [
   {
-    image: "/moto/MC-filter/news1.jpg",
+    image: "/moto/baltic/news1.jpg",
     badge: "Event",
-    icon: "/moto/MC-filter/vector1.png",
+    icon: "/moto/baltic/vector1.png",
     title: "Sirvintos marathon 2025",
     desc: "On June 28, a fun sporting event took place in Sirvintos — the Sirvintos Marathon. The event is intended for both beginners or sports enthusiasts Who want to test themselves...",
     date: "July 16, 2025"
   },
   {
-    image: "/moto/MC-filter/news2.jpg",
+    image: "/moto/baltic/news2.jpg",
     badge: null,
-    icon: "/moto/MC-filter/vector2.png",
+    icon: "/moto/baltic/vector2.png",
     title: "Small steps towards sustainability",
     desc: "We all understand the importance Of sustainability in the company's activities. so we try step by step to implement sustainable.",
     date: "June 01, 2026"
   },
   {
-    image: "/moto/MC-filter/news3.jpg",
+    image: "/moto/baltic/news3.jpg",
     badge: null,
-    icon: "/moto/MC-filter/vector3.png",
+    icon: "/moto/baltic/vector3.png",
     title: "\"Lithuanian Export Prize\" 2023 awards",
     desc: "March 28 at the ceremony Of awarding the annual \"Lithuanian Export Prize\" awards of the Lithuanian Chamber of Commerce.",
     date: "March 30, 2025"
   },
   {
-    image: "/moto/MC-filter/news4.png",
+    image: "/moto/baltic/news4.png",
     badge: null,
-    icon: "/moto/MC-filter/vector4.png",
+    icon: "/moto/baltic/vector4.png",
     title: "Happy Easter!",
     desc: "Our production and warehouse will be closed from 8th till 16th of April.",
     date: "March 29, 2025"

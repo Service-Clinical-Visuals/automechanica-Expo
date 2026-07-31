@@ -12,7 +12,7 @@ const Footer = () => {
 
           {/* Column 1: Logo & Welcome (Span 5) */}
           <div className="xl:col-span-5 flex flex-col gap-6">
-            <img src="/moto/MC-filter/logo.png" alt="Baltic Filter Logo" className="w-[200px] object-contain brightness-0 invert" data-aos="fade-up" />
+            <img src="/moto/baltic/logo.png" alt="Baltic Filter Logo" className="w-[200px] object-contain brightness-0 invert" data-aos="fade-up" />
             <p className="footer-body text-white leading-relaxed max-w-[90%]" data-aos="fade-up" data-aos-delay="100">
               Baltic Filter UAB is a Lithuania-based manufacturer of automotive and industrial filters, offering a wide range of high-quality filtration solutions. With decades of experience and advanced production technologies.
             </p>
