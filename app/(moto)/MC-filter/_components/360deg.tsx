@@ -20,6 +20,7 @@ const Deg360 = () => {
             <Typography variant="h5" color="primary" className="font-bold uppercase tracking-wider">
               CLEAN AIR
             </Typography>
+            <div className="w-[17%] h-[2px] bg-secondary mt-1"></div>
             <Typography variant="h2" color="dark" className="font-bold leading-tight">
               Explore Every Detail of Our Premium Cabin Air Filters
             </Typography>

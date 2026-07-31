@@ -92,13 +92,13 @@ const Header = () => {
               <img
                 src="/moto/mc-filter/logo.png"
                 alt="MC Filter Logo"
-                className="h-8 sm:h-10 md:h-[12%] w-auto object-contain"
+                className="h-8 sm:h-10 md:h-[5%] md:w-[50%] w-auto object-contain"
               />
             </Link>
 
             {/* Right Action: Search */}
             <div className="hidden xl:flex items-center justify-end shrink-0 flex-1">
-              <div className="flex items-center bg-white rounded text-primary px-3 py-2 w-64">
+              <div className="flex items-center bg-white rounded text-primary px-3 py-3 w-64">
                 <Search className="w-5 h-5 text-primary mr-3 shrink-0" strokeWidth={2} />
                 <input
                   type="text"

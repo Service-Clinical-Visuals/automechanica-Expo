@@ -26,15 +26,15 @@ const Button = ({
 
   const content = (
     <div className={`button flex items-center justify-center pl-[1.7em] pr-[0.4em] py-[0.4em] rounded-full transition-all duration-300 shadow-md ${isPrimary
-        ? 'bg-primary text-white hover:bg-primary/95'
-        : 'bg-white text-primary hover:bg-gray-50'
+      ? 'bg-primary text-white hover:bg-primary/95'
+      : 'bg-white text-primary hover:bg-gray-50'
       } ${className}`}>
       <div className="whitespace-nowrap mr-[2em]">
         {text}
       </div>
       {showIcon && (
-        <div className="flex items-center justify-center w-[2.8em] h-[2.8em] rounded-full bg-secondary group-hover:scale-105 transition-transform duration-300 shrink-0">
-          <ArrowUpRight className="w-[1.4em] h-[1.4em] text-primary group-hover:translate-x-[0.2em] group-hover:-translate-y-[0.2em] transition-transform duration-300" strokeWidth={2.5} />
+        <div className="flex items-center justify-center w-[3rem] h-[3rem] rounded-full bg-secondary group-hover:scale-105 transition-transform duration-300 shrink-0">
+          <ArrowUpRight className="w-[1.6em] h-[1.6em] text-primary group-hover:translate-x-[0.4em] group-hover:-translate-y-[0.4em] transition-transform duration-300" strokeWidth={2.5} />
         </div>
       )}
     </div>

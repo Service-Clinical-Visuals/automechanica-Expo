@@ -12,7 +12,7 @@ const Footer = () => {
 
           {/* Column 1: Logo & Description (Span 4) */}
           <div className="col-span-1 md:col-span-2 lg:col-span-4 flex flex-col gap-6 lg:pr-8">
-            <img src="/moto/mc-filter/footerlogo.png" alt="MC Filter Logo" className="w-[30%] lg:w-[40%] object-contain" data-aos="fade-up" />
+            <img src="/moto/mc-filter/footerlogo.png" alt="MC Filter Logo" className="w-[30%] lg:w-[30%] object-contain" data-aos="fade-up" />
             <p className="footer-body text-white leading-relaxed text-sm" data-aos="fade-up" data-aos-delay="100">
               Our goal is to become a leading and indispensable brand in the national market and a recognized brand in the international market, by providing the highest level of customer satisfaction.
             </p>
@@ -63,7 +63,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Section - Copyright & Socials */}
-      <div className="w-full border-t border-white/10">
+      <div className="w-full border-t border-white/40">
         <div className="custom-container flex flex-col md:flex-row justify-between items-center py-6 gap-4">
           <p className="text-white footer-body text-sm text-center md:text-left">
             © 2026 MC Filtre SAN. VE TİC. A.Ş. | Filters and Filter Systems
