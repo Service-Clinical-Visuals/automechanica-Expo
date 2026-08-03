@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+@import "aos/dist/aos.css";
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #FFFFFF;
+  --foreground: #404040;
+  --color-primary: #DD6D2D;
+  --color-primary-hover: #c65a1c;
+  --color-heading: #202020;
+  --color-para: #404040;
+}
+
+@theme inline {
+  --color-primary: #DD6D2D;
+  --color-primary-hover: #c65a1c;
+  --color-heading: #202020;
+  --color-para: #404040;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-primary: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+  --font-secondary: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--color-para);
+  font-family: var(--font-secondary);
+}
+
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Headings in Poppins */
+:where(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--font-primary);
+  color: var(--color-heading);
+}
+
+/* Base Typography (Desktop/Laptop sizes 1024px-2499px) */
+:where(h1) {
+  font-size: 2.375rem;
+  /* 38px */
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+:where(h2) {
+  font-size: 1.75rem;
+  /* 28px */
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+:where(h3) {
+  font-size: 1.375rem;
+  /* 22px */
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+:where(h4) {
+  font-size: 1.25rem;
+  /* 20px */
+  font-weight: 600;
+}
+
+:where(h5) {
+  font-size: 1.125rem;
+  /* 18px */
+  font-weight: 600;
+}
+
+:where(h6) {
+  font-size: 1rem;
+  /* 16px */
+  font-weight: 600;
+}
+
+/* Paragraphs and list items in Inter */
+:where(p, li) {
+  font-size: 1.1rem;
+  /* 17.6px */
+  font-weight: 400;
+  font-family: var(--font-secondary);
+  color: var(--color-para);
+  line-height: 1.65;
+}
+
+:where(span) {
+  font-size: 0.875rem;
+  /* 14px */
+}
+
+/* Footer white text override */
+footer,
+footer :where(h1, h2, h3, h4, h5, h6, p, li, span, a) {
+  color: #FFFFFF;
+}
+
+.sub-heading,
+.subheading {
+  font-size: 0.9375rem;
+  /* 15px */
+  font-weight: 600;
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.navbar {
+  font-size: 1.05rem;
+  /* ~17px */
+  font-weight: 500;
+  font-family: var(--font-primary);
+}
+
+.footer-heading {
+  font-size: 1.5rem;
+  /* 24px */
+  font-weight: 600;
+  font-family: var(--font-primary);
+  color: var(--color-heading);
+}
+
+.footer-body {
+  font-size: 1.125rem;
+  /* 18px */
+  font-weight: 400;
+  font-family: var(--font-secondary);
+  color: var(--color-para);
+}
+
+.button {
+  font-size: 1rem;
+  /* 16px */
+  font-weight: 600;
+  font-family: var(--font-primary) !important;
+}
+
+/* Custom Swiper Pagination */
+.custom-swiper-pagination .swiper-pagination-bullets {
+  bottom: auto !important;
+  position: relative !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 32px;
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet {
+  width: 6px !important;
+  height: 6px !important;
+  border-radius: 9999px !important;
+  background-color: #CBD5E1 !important;
+  opacity: 0.7 !important;
+  margin: 0 4px !important;
+  transition: all 0.3s ease;
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet-active {
+  width: 36px !important;
+  height: 6px !important;
+  border-radius: 9999px !important;
+  background-color: var(--color-primary) !important;
+  opacity: 1 !important;
+}
+
+/* Responsive typography adjustments */
+@media (max-width: 380px) {
+  .custom-container {
+    max-width: 92%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1.125rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  h5 {
+    font-size: 0.9375rem;
+  }
+
+  h6 {
+    font-size: 0.875rem;
+  }
+
+  p,
+  li {
+    font-size: 0.875rem;
+  }
+
+  span {
+    font-size: 0.75rem;
+  }
+
+  .sub-heading,
+  .subheading {
+    font-size: 0.75rem;
+  }
+
+  .navbar {
+    font-size: 0.875rem;
+  }
+
+  .footer-heading {
+    font-size: 1.125rem;
+  }
+
+  .footer-body {
+    font-size: 0.875rem;
+  }
+
+  .button {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 381px) and (max-width: 479px) {
+  .custom-container {
+    max-width: 92%;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.375rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  h4 {
+    font-size: 1.125rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  h6 {
+    font-size: 0.9375rem;
+  }
+
+  p,
+  li {
+    font-size: 0.9375rem;
+  }
+
+  span {
+    font-size: 0.8125rem;
+  }
+
+  .sub-heading,
+  .subheading {
+    font-size: 0.8125rem;
+  }
+
+  .navbar {
+    font-size: 0.9375rem;
+  }
+
+  .footer-heading {
+    font-size: 1.25rem;
+  }
+
+  .footer-body {
+    font-size: 0.9375rem;
+  }
+
+  .button {
+    font-size: 0.9375rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.375rem;
+  }
+
+  h4 {
+    font-size: 1.1875rem;
+  }
+
+  h5 {
+    font-size: 1.0625rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
+
+  p,
+  li {
+    font-size: 1rem;
+  }
+
+  span {
+    font-size: 0.875rem;
+  }
+
+  .sub-heading,
+  .subheading {
+    font-size: 0.875rem;
+  }
+
+  .navbar {
+    font-size: 1rem;
+  }
+
+  .footer-heading {
+    font-size: 1.375rem;
+  }
+
+  .footer-body {
+    font-size: 1rem;
+  }
+
+  .button {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2.125rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.375rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    font-size: 1.125rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
+
+  p,
+  li {
+    font-size: 1.05rem;
+  }
+
+  span {
+    font-size: 0.875rem;
+  }
+
+  .sub-heading,
+  .subheading {
+    font-size: 0.875rem;
+  }
+
+  .navbar {
+    font-size: 1.05rem;
+  }
+
+  .footer-heading {
+    font-size: 1.5rem;
+  }
+
+  .footer-body {
+    font-size: 1.0625rem;
+  }
+
+  .button {
+    font-size: 1rem;
+  }
+}
+
+/* Laptop Screen (1024px - 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Desktop PC Screen (1280px - 1535px) */
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Large Desktop PC Screen (1536px - 1919px) */
+@media (min-width: 1536px) and (max-width: 1919px) {
+  .custom-container {
+    max-width: 93%;
+  }
+}
+
+/* Extra Large PC / 2K Screen (1920px - 2499px) */
+@media (min-width: 1920px) and (max-width: 2499px) {
+  .custom-container {
+    max-width: 90%;
+  }
+}
+
+/* Ultra-wide Screen (2500px+) */
+@media (min-width: 2500px) {
+  .custom-container {
+    max-width: 88%;
+  }
+
+  h1 {
+    font-size: 4.75rem;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  h3 {
+    font-size: 2.75rem;
+  }
+
+  h4 {
+    font-size: 2.5rem;
+  }
+
+  h5 {
+    font-size: 2.375rem;
+  }
+
+  h6 {
+    font-size: 2rem;
+  }
+
+  p,
+  li {
+    font-size: 2.2rem;
+  }
+
+  span {
+    font-size: 1.75rem;
+  }
+
+  .sub-heading,
+  .subheading {
+    font-size: 1.875rem;
+  }
+
+  .navbar {
+    font-size: 2.25rem;
+  }
+
+  .footer-heading {
+    font-size: 3rem;
+  }
+
+  .footer-body {
+    font-size: 2.25rem;
+  }
+
+  .button {
+    font-size: 2rem;
+  }
+}
