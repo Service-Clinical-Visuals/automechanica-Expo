@@ -37,7 +37,7 @@ export default function IgnitionCoils() {
         </div>
 
         {/* Video & Features Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 xl:gap-14 items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 lg:gap-10 xl:gap-14 items-center">
           
           {/* Left Column: Short-2 Video Container */}
           <div className="lg:col-span-7 xl:col-span-9 w-full" data-aos="fade-right">

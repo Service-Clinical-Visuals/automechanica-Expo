@@ -11,7 +11,7 @@ export default function AboutUs() {
       <div className="custom-container flex flex-col gap-14 lg:gap-20 xl:gap-24">
         
         {/* Row 1: Content Left (6 cols on lg, 5 cols on xl+), Large Landscape Image Right (6 cols on lg, 7 cols on xl+) */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 xl:gap-14 items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 lg:gap-10 xl:gap-14 items-center">
           
           {/* Left Column: Heading & Paragraphs */}
           <div className="lg:col-span-6 xl:col-span-5 flex flex-col gap-4 lg:gap-5" data-aos="fade-right">
@@ -46,7 +46,7 @@ export default function AboutUs() {
         </div>
 
         {/* Row 2: Large Landscape Image Left (6 cols on lg, 7 cols on xl+), Content & Features Right (6 cols on lg, 5 cols on xl+) */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 xl:gap-14 items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 lg:gap-10 xl:gap-14 items-center">
           
           {/* Left Column: Big Landscape Support Image */}
           <div className="lg:col-span-6 xl:col-span-7 w-full h-full flex items-center order-2 lg:order-1" data-aos="fade-right">

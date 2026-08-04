@@ -99,9 +99,9 @@ export default function ProductCategories() {
             autoplay={{ delay: 4500, disableOnInteraction: false }}
             breakpoints={{
               480: { slidesPerView: 2, spaceBetween: 16 },
-              768: { slidesPerView: 3, spaceBetween: 18 },
-              1024: { slidesPerView: 4, spaceBetween: 20 },
-              1440: { slidesPerView: 5, spaceBetween: 20 },
+              768: { slidesPerView: 2, spaceBetween: 18 },
+              1024: { slidesPerView: 3, spaceBetween: 20 },
+              1440: { slidesPerView: 3, spaceBetween: 20 },
             }}
             className="w-full pb-14 custom-swiper-pagination"
           >

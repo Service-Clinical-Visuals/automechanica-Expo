@@ -67,7 +67,7 @@ export default function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-6 xl:gap-10">
+          <nav className="hidden xl:flex items-center gap-6 xl:gap-10">
             {navLinks.map((link, idx) => (
               <Link
                 key={link.name}
@@ -82,7 +82,7 @@ export default function Header() {
           </nav>
 
           {/* Right Actions */}
-          <div className="hidden lg:flex items-center gap-4">
+          <div className="hidden xl:flex items-center gap-4">
             <div className="flex bg-white/20 items-center justify-center w-10 h-10 rounded-full  hover:border-gray-400 transition-colors cursor-pointer text-white">
               <Globe className="w-7 h-7" strokeWidth={1.5} />
             </div>
@@ -90,7 +90,7 @@ export default function Header() {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="lg:hidden flex items-center">
+          <div className="xl:hidden flex items-center">
             <button 
               className="text-white focus:outline-none p-2"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -111,7 +111,7 @@ export default function Header() {
 
       {/* Mobile Navigation Menu */}
       {isMobileMenuOpen && (
-        <div className={`lg:hidden absolute left-0 w-full bg-[#1E1E1E] border-b border-gray-800 flex flex-col z-50 overflow-hidden transition-all duration-300 top-full`}>
+        <div className={`xl:hidden absolute left-0 w-full bg-[#1E1E1E] border-b border-gray-800 flex flex-col z-50 overflow-hidden transition-all duration-300 top-full`}>
           <nav className="flex flex-col py-4 custom-container">
             {navLinks.map((link) => (
               <Link
