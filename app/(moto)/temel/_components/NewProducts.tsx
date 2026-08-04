@@ -98,12 +98,12 @@ export default function NewProducts() {
           >
             {products.map((product, idx) => (
               <SwiperSlide key={idx} className="h-auto">
-                <div className="group relative w-full h-full border border-gray-200 bg-white flex flex-col justify-between transition-all duration-300 hover:shadow-xl hover:border-gray-300">
+                <div className="group relative w-full h-full border border-gray-200 bg-white flex flex-col justify-between transition-all duration-300 hover:shadow-xl hover:border-gray-300 p-2">
                   
                   {/* Top Image Container */}
                   <div className="relative w-full aspect-[4/3] bg-[#F7F7F8] p-6 flex items-center justify-center overflow-hidden">
                     {/* Orange 'New' Badge */}
-                    <span className="absolute top-3 left-3 bg-[var(--color-primary)] text-white text-xs font-semibold px-3 py-0.5 rounded-full shadow-sm font-primary">
+                    <span className="absolute top-0 left-0 bg-[var(--color-primary)] text-white text-xs font-semibold px-3.5 py-1 rounded-r-full shadow-sm font-primary">
                       New
                     </span>
 
@@ -116,10 +116,10 @@ export default function NewProducts() {
                   </div>
 
                   {/* Bottom Content Area */}
-                  <div className="p-5 sm:p-6 flex flex-col justify-between flex-grow gap-4">
+                  <div className="p-5 sm:p-2 sm:pt-4 flex flex-col justify-between flex-grow gap-4">
                     <div className="flex flex-col items-start">
                       {/* Orange Accent Bar */}
-                      <div className="w-10 h-[2px] bg-[var(--color-primary)] mb-3" />
+                      <div className="w-30 h-[2px] bg-[var(--color-primary)] mb-3" />
 
                       {/* Product Title */}
                       <h3 className="font-bold text-[#202020] font-primary line-clamp-2 leading-snug">

@@ -189,13 +189,13 @@ span {
 
   p,
   li {
-    font-size: 0.65rem;
-    /* ~10.4px */
+    font-size: 0.90rem;
+    /* ~14.4px */
   }
 
   span {
-    font-size: 0.5687rem;
-    /* ~9.1px */
+    font-size: 0.90rem;
+    /* ~14.4px */
   }
 
   .navbar {
@@ -214,8 +214,8 @@ span {
   }
 
   .button {
-    font-size: 0.65rem;
-    /* ~10.4px */
+    font-size: 0.90rem;
+    /* ~14.4px */
   }
 
   .number {
