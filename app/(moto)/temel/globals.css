@@ -56,7 +56,7 @@ body {
 
 /* Base Typography (Desktop/Laptop sizes 1024px-2499px) */
 :where(h1) {
-  font-size: 2.375rem;
+  font-size: 2rem;
   /* 38px */
   font-weight: 700;
   line-height: 1.2;
@@ -117,13 +117,13 @@ footer :where(h1, h2, h3, h4, h5, h6, p, li, span, a) {
 
 .sub-heading,
 .subheading {
-  font-size: 0.9375rem;
+  font-size: 0.9675rem;
   /* 15px */
   font-weight: 600;
   font-family: var(--font-primary);
   color: var(--color-primary);
   letter-spacing: 0.05em;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .navbar {

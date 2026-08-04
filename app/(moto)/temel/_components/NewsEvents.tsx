@@ -63,7 +63,7 @@ export default function NewsEvents() {
               className="group relative w-full border border-gray-200 bg-white flex flex-col justify-between transition-all duration-300 hover:shadow-xl hover:border-gray-300 overflow-hidden"
             >
               {/* Card Image */}
-              <div className="relative w-full aspect-[16/10] bg-[#F7F7F8] overflow-hidden">
+              <div className="relative w-full aspect-[16/10] p-2 bg-[#F7F7F8] overflow-hidden">
                 <img
                   src={item.img}
                   alt={item.title}

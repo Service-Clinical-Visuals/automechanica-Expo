@@ -9,7 +9,7 @@ export default function AboutUs() {
     <section className="w-full py-16 lg:py-20 bg-white overflow-hidden" id="about">
       <div className="custom-container">
         
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 xl:gap-16 items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 lg:gap-12 xl:gap-16 items-center">
           
           {/* Left Column: Content */}
           <div className="lg:col-span-6 flex flex-col gap-5 lg:gap-6" data-aos="fade-right">
@@ -52,7 +52,7 @@ export default function AboutUs() {
 
           {/* Right Column: Factory & Team Image */}
           <div className="lg:col-span-6 w-full" data-aos="fade-left" data-aos-delay="100">
-            <div className="relative w-full aspect-[4/3] rounded-sm overflow-hidden shadow-xl border border-gray-100 bg-gray-50">
+            <div className="relative w-full aspect-[4/2.5] rounded-sm overflow-hidden shadow-xl border border-gray-100 bg-gray-50">
               <img
                 src="/moto/temel/temel-ofc.png"
                 alt="Temel Conta Manufacturing Facility & Team"

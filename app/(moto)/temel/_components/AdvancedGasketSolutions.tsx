@@ -16,7 +16,7 @@ export default function AdvancedGasketSolutions() {
     <section className="w-full py-16 lg:py-20 bg-[#F8F9FA] overflow-hidden" id="sealing-solutions">
       <div className="custom-container">
         
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 xl:gap-16 items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 lg:gap-12 xl:gap-16 items-center">
           
           {/* Left Column: Video 02 Player */}
           <div className="lg:col-span-6 w-full order-2 lg:order-1" data-aos="fade-right">
@@ -40,12 +40,12 @@ export default function AdvancedGasketSolutions() {
             </div>
 
             {/* Main Section Heading */}
-            <Typography variant="h1" className="font-bold leading-tight max-w-lg lg:max-w-xl">
+            <Typography variant="h1" className="font-bold leading-tight">
               Comprehensive Gasket & Sealing Solutions
             </Typography>
 
             {/* Paragraphs */}
-            <div className="flex flex-col gap-3.5 max-w-xl lg:max-w-2xl">
+            <div className="flex flex-col gap-3.5">
               <Typography variant="p">
                 We offer a wide range of high-quality gasket and sealing products designed for automotive and industrial applications. From cylinder head gaskets to valve cover, manifold, and turbo gaskets, our solutions are engineered to ensure reliable sealing, durability, and optimal performance across modern engine systems.
               </Typography>
