@@ -2,7 +2,6 @@
 
 import React from "react";
 import Link from "next/link";
-import Logo from "./Logo";
 import { MapPin, Phone, Mail } from "lucide-react";
 
 export default function Footer() {
@@ -30,8 +29,12 @@ export default function Footer() {
           
           {/* Column 1: Brand Logo & Description */}
           <div className="lg:col-span-4 flex flex-col items-start gap-4">
-            <Link href="/temel" className="inline-block">
-              <Logo isDark={true} className="h-10 md:h-12 w-auto" />
+            <Link href="/temel" className="inline-flex items-center select-none h-10 md:h-12 xl:h-24 w-auto">
+              <img
+                src="/moto/temel/temel-logo.png"
+                alt="Temel Conta Logo"
+                className="h-full w-auto object-contain max-h-16"
+              />
             </Link>
 
             <p className="!text-white text-xs sm:text-sm font-secondary leading-relaxed mt-2" style={{ color: "#FFFFFF" }}>
@@ -87,31 +90,35 @@ export default function Footer() {
             <div className="flex flex-col gap-3.5 text-xs sm:text-sm font-secondary !text-white" style={{ color: "#FFFFFF" }}>
               <div className="flex items-start gap-3 !text-white" style={{ color: "#FFFFFF" }}>
                 <MapPin className="w-4 h-4 !text-white shrink-0 mt-0.5" />
-                <span className="leading-snug !text-white" style={{ color: "#FFFFFF" }}>
+                <p className="leading-snug !text-white" style={{ color: "#FFFFFF" }}>
                   Atatürk Caddesi No:162 Tunç Han 35210 İzmir-TÜRKİYE
-                </span>
+                </p>
               </div>
 
               <div className="flex items-center gap-3 !text-white" style={{ color: "#FFFFFF" }}>
                 <Phone className="w-4 h-4 !text-white shrink-0" />
-                <a
-                  href="tel:+902324361081"
-                  className="!text-white hover:!text-[var(--color-primary)] transition-colors"
-                  style={{ color: "#FFFFFF" }}
-                >
-                  +90 232 436 10 81
-                </a>
+                <p className="!text-white" style={{ color: "#FFFFFF" }}>
+                  <a
+                    href="tel:+902324361081"
+                    className="!text-white hover:!text-[var(--color-primary)] transition-colors"
+                    style={{ color: "#FFFFFF" }}
+                  >
+                    +90 232 436 10 81
+                  </a>
+                </p>
               </div>
 
               <div className="flex items-center gap-3 !text-white" style={{ color: "#FFFFFF" }}>
                 <Mail className="w-4 h-4 !text-white shrink-0" />
-                <a
-                  href="mailto:info@temelconta.com.tr"
-                  className="!text-white hover:!text-[var(--color-primary)] transition-colors"
-                  style={{ color: "#FFFFFF" }}
-                >
-                  info@temelconta.com.tr
-                </a>
+                <p className="!text-white" style={{ color: "#FFFFFF" }}>
+                  <a
+                    href="mailto:info@temelconta.com.tr"
+                    className="!text-white hover:!text-[var(--color-primary)] transition-colors"
+                    style={{ color: "#FFFFFF" }}
+                  >
+                    info@temelconta.com.tr
+                  </a>
+                </p>
               </div>
             </div>
           </div>
@@ -121,7 +128,7 @@ export default function Footer() {
 
       {/* Bottom Sub-footer */}
       <div className="w-full border-t border-white/20">
-        <div className="custom-container py-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-secondary !text-white" style={{ color: "#FFFFFF" }}>
+        <div className="custom-container py-6 flex flex-col sm:flex-row items-center justify-between gap-4 font-secondary !text-white" style={{ color: "#FFFFFF" }}>
           <p className="text-center sm:text-left !text-white" style={{ color: "#FFFFFF" }}>
             © Copyright 2024 Temel Conta Sanayi ve Ticaret A.Ş.
           </p>

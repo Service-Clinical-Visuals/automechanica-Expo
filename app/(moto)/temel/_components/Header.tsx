@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import Logo from "./Logo";
 import { Search, Menu, X } from "lucide-react";
 
 export default function Header() {
@@ -43,8 +42,12 @@ export default function Header() {
     >
       <div className="custom-container flex items-center justify-between">
         {/* Logo */}
-        <Link href="#" className="flex-shrink-0">
-          <Logo />
+        <Link href="#" className="flex-shrink-0 inline-flex items-center select-none h-10 md:h-12 xl:h-18 w-auto">
+          <img
+            src="/moto/temel/temel-logo.png"
+            alt="Temel Conta Logo"
+            className="h-full w-auto object-contain"
+          />
         </Link>
 
         {/* Desktop Navigation Links */}

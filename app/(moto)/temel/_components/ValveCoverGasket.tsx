@@ -10,7 +10,7 @@ export default function ValveCoverGasket() {
     <section className="w-full py-16 lg:py-20 bg-[#F8F9FA] overflow-hidden" id="valve-cover-gasket">
       <div className="custom-container">
         
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 xl:gap-16 items-center">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 lg:gap-12 xl:gap-16 items-center">
           
           {/* Left Column: Content */}
           <div className="lg:col-span-6 flex flex-col gap-5 lg:gap-6" data-aos="fade-right">
