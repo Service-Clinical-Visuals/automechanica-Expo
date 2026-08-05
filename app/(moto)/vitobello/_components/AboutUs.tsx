@@ -11,7 +11,7 @@ export default function AboutUs() {
       <div className="custom-container flex flex-col gap-14 lg:gap-20">
 
         {/* Top Section */}
-        <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-6 border-b border-white/10 pb-10">
+        <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-6 border-b border-white/10 pb-10" data-aos="fade-up">
           <div className="lg:w-2/3 flex flex-col gap-4">
             <Typography variant="h1" color="white" className="font-semibold leading-tight">
               Who We Are
@@ -20,7 +20,7 @@ export default function AboutUs() {
               Vitobello Ricambi S.r.l. delivers premium engine, gearbox, and spare parts solutions backed by quality, innovation, and reliable service, supporting the evolving needs of the global automotive aftermarket with trusted expertise and excellence.
             </Typography>
           </div>
-          <div className="shrink-0">
+          <div className="shrink-0" data-aos="fade-left" data-aos-delay="100">
             <Button text="Discover Our Story" href="#story" showIcon={true} />
           </div>
         </div>
@@ -28,7 +28,7 @@ export default function AboutUs() {
         {/* Middle Section */}
         <div className="flex flex-col lg:flex-row items-stretch relative pt-10 pb-10 w-full gap-6 lg:gap-0">
           {/* Left Text Box */}
-          <div className="lg:w-[45%] xl:w-[70%] p-8 lg:p-15 flex flex-col justify-center gap-8 bg-[#222] border border-white/50 border-r-0 rounded-l-sm z-0">
+          <div className="lg:w-[45%] xl:w-[70%] p-8 lg:p-15 flex flex-col justify-center gap-8 bg-[#222] border border-white/50 border-r-0 rounded-l-sm z-0" data-aos="fade-right">
             <Typography variant="h1" color="white" className="leading-snug mb-2 font-semibold">
               We Project Our Experience, Toward An Innovative Future
             </Typography>
@@ -44,7 +44,7 @@ export default function AboutUs() {
           </div>
 
           {/* Middle Image */}
-          <div className="lg:w-[35%] xl:w-[38%] relative z-10 min-h-[300px] flex-shrink-0 flex items-center justify-center">
+          <div className="lg:w-[35%] xl:w-[38%] relative z-10 min-h-[300px] flex-shrink-0 flex items-center justify-center" data-aos="zoom-in" data-aos-delay="100">
             <img
               src="/moto/vitobello/abt.png"
               alt="Experience"
@@ -53,8 +53,8 @@ export default function AboutUs() {
           </div>
 
           {/* Right Stats Boxes */}
-          <div className="lg:w-[20%] xl:w-[40%] -ml-20 flex flex-col gap-4 lg:gap-6 justify-between z-0">
-            <div className="flex-1 border border-white/50 bg-[#222] p-4 xl:p-6 flex flex-col xl:flex-row items-center gap-4 rounded-sm shadow-lg">
+          <div className="lg:w-[20%] xl:w-[40%] lg:-ml-20 flex flex-col gap-4 lg:gap-6 justify-between z-0">
+            <div className="flex-1 border border-white/50 bg-[#222] p-4 xl:p-6 flex flex-col xl:flex-row items-center gap-4 rounded-sm shadow-lg" data-aos="fade-left" data-aos-delay="150">
               <div className="shrink-0">
                 <img src="/moto/vitobello/abt1.png" alt="Satisfied Customer" className="w-auto h-auto object-contain" />
               </div>
@@ -64,7 +64,7 @@ export default function AboutUs() {
               </div>
             </div>
 
-            <div className="flex-1 border border-white/50 bg-[#222] p-4 xl:p-6 flex flex-col xl:flex-row items-center gap-4 rounded-sm shadow-lg">
+            <div className="flex-1 border border-white/50 bg-[#222] p-4 xl:p-6 flex flex-col xl:flex-row items-center gap-4 rounded-sm shadow-lg" data-aos="fade-left" data-aos-delay="250">
               <div className="shrink-0">
                 <img src="/moto/vitobello/abt2.png" alt="Sold Products" className="w-auto h-auto object-contain" />
               </div>
@@ -74,7 +74,7 @@ export default function AboutUs() {
               </div>
             </div>
 
-            <div className="flex-1 border border-white/50 bg-[#222] p-4 xl:p-6 flex flex-col xl:flex-row items-center gap-4 rounded-sm shadow-lg">
+            <div className="flex-1 border border-white/50 bg-[#222] p-4 xl:p-6 flex flex-col xl:flex-row items-center gap-4 rounded-sm shadow-lg" data-aos="fade-left" data-aos-delay="350">
               <div className="shrink-0">
                 <img src="/moto/vitobello/abt3.png" alt="Employees" className="w-auto h-auto object-contain" />
               </div>
