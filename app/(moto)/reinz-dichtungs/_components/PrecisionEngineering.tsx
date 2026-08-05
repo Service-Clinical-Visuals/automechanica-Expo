@@ -32,7 +32,7 @@ export default function PrecisionEngineering() {
              <h2 className="section-title font-bold text-white font-oswald text-center ">
                 Precision Engineering in Every Seal
               </h2>
-              <div className="h-0.5 w-16 bg-[var(--primary)]"></div>
+                <div className="h-1 w-14 bg-[var(--primary)] rounded-full"></div>
             </div>
 
             <div className="text-white mb-8 space-y-6 section-text leading-relaxed font-poppins">

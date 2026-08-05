@@ -20,7 +20,7 @@ export default function EngineeringMotion() {
              <h2 className="section-title font-bold text-white font-oswald text-center ">
                 Engineering in Motion
               </h2>
-              <div className="h-0.5 w-16 bg-[var(--primary)]"></div>
+                <div className="h-1 w-14 bg-[var(--primary)] rounded-full"></div>
             </div>
 
             <p className="text-white mb-8 section-text leading-relaxed font-poppins">
@@ -31,7 +31,7 @@ export default function EngineeringMotion() {
             </p>
 
             {/* Feature Boxes */}
-            <div className="flex flex-col gap-4 mb-8">
+            <div className="flex flex-col gap-4 mb-8 lg:pr-30">
               <div className="bg-white rounded-md p-4 border-2 border-[var(--primary)] shadow-sm">
                 <p className="text-black section-text font-poppins font-normal">
                   <strong className="font-semibold text-black">OE-Quality Engineering</strong> - Manufactured to stringent quality standards for consistent performance and precise fitment.

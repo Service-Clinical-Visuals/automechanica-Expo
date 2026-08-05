@@ -29,11 +29,11 @@ export default function Explore360() {
           >
             {/* Heading with lines */}
             <div className="flex items-center justify-center gap-4 mb-6">
-              <div className="h-0.5 w-12 bg-[var(--primary)]"></div>
+                <div className="h-1 w-14 bg-[var(--primary)] rounded-full"></div>
                 <h2 className="section-title font-bold text-white font-oswald text-center ">
                 Explore Every Detail
               </h2>
-              <div className="h-0.5 w-12 bg-[var(--primary)]"></div>
+             <div className="h-1 w-14 bg-[var(--primary)] rounded-full"></div>
             </div>
 
             <p className="space-y-6 mb-8 text-white section-text leading-relaxed font-poppins">
