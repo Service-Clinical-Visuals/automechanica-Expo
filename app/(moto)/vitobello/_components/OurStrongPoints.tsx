@@ -7,7 +7,7 @@ export default function OurStrongPoints() {
     <section className="w-full py-16 lg:py-20 bg-[#27292A]" id="strong-points">
       <div className="custom-container">
         <div className="flex flex-col items-center gap-12">
-          <div className="text-center max-w-7xl flex flex-col gap-4">
+          <div className="text-center max-w-7xl flex flex-col gap-4" data-aos="fade-up">
             <Typography variant="h1" color="white" className="font-semibold">Our Strong Points</Typography>
             <Typography variant="p" color="white" className="text-white/80 text-sm md:text-base leading-relaxed">
               At Vitobello Ricambi S.r.l., we combine quality products with exceptional customer service. From a seamless purchasing experience and reliable shipping to dedicated after-sales support, we are committed to delivering value, efficiency, and complete customer satisfaction at every stage of the journey, ensuring long-term partnerships through trust, innovation, consistent support, and dependable automotive solutions.
@@ -16,7 +16,7 @@ export default function OurStrongPoints() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
             {/* Card 1 */}
-            <div className="bg-[#171717] border border-white/25 rounded-sm flex flex-col p-4 lg:p-6">
+            <div className="bg-[#171717] border border-white/25 rounded-sm flex flex-col p-4 lg:p-6" data-aos="fade-up" data-aos-delay="100">
               <div className="aspect-[4/3] w-full">
                 <img src="/moto/vitobello/s1.png" alt="Sales" className="w-full h-full object-cover rounded-sm" />
               </div>
@@ -32,7 +32,7 @@ export default function OurStrongPoints() {
             </div>
 
             {/* Card 2 */}
-            <div className="bg-[#171717] border border-white/25 rounded-sm flex flex-col p-4 lg:p-6">
+            <div className="bg-[#171717] border border-white/25 rounded-sm flex flex-col p-4 lg:p-6" data-aos="fade-up" data-aos-delay="200">
               <div className="aspect-[4/3] w-full">
                 <img src="/moto/vitobello/s2.png" alt="Shipment" className="w-full h-full object-cover rounded-sm" />
               </div>
@@ -48,7 +48,7 @@ export default function OurStrongPoints() {
             </div>
 
             {/* Card 3 */}
-            <div className="bg-[#171717] border border-white/25 rounded-sm flex flex-col p-4 lg:p-6">
+            <div className="bg-[#171717] border border-white/25 rounded-sm flex flex-col p-4 lg:p-6" data-aos="fade-up" data-aos-delay="300">
               <div className="aspect-[4/3] w-full">
                 <img src="/moto/vitobello/s3.png" alt="Aftersales" className="w-full h-full object-cover rounded-sm" />
               </div>

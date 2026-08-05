@@ -55,7 +55,7 @@ export default function Footer() {
           </div>
 
           {/* Column 2: Corporate */}
-          <div className="w-full flex flex-col gap-6 lg:pl-10  ml-50" data-aos="fade-up" data-aos-delay="100">
+          <div className="w-full flex flex-col gap-6 lg:pl-10" data-aos="fade-up" data-aos-delay="100">
             <Typography variant="h3" color="white" className="text-lg md:text-xl font-semibold">
               Corporate
             </Typography>
@@ -74,7 +74,7 @@ export default function Footer() {
           </div>
 
           {/* Column 3: Products */}
-          <div className="w-full flex flex-col gap-6  ml-40" data-aos="fade-up" data-aos-delay="200">
+          <div className="w-full flex flex-col gap-6 lg:pl-8" data-aos="fade-up" data-aos-delay="200">
             <Typography variant="h3" color="white" className="text-lg md:text-xl font-semibold">
               Products
             </Typography>
@@ -93,7 +93,7 @@ export default function Footer() {
           </div>
 
           {/* Column 4: Contact Us */}
-          <div className="w-full flex flex-col gap-6  ml-40" data-aos="fade-up" data-aos-delay="300">
+          <div className="w-full flex flex-col gap-6 lg:pl-4" data-aos="fade-up" data-aos-delay="300">
             <Typography variant="h3" color="white" className="text-lg md:text-xl font-semibold">
               Contact Us
             </Typography>
@@ -117,7 +117,7 @@ export default function Footer() {
           </div>
 
           {/* Column 5: Social Media */}
-          <div className="w-full flex flex-col gap-6 lg:items-center  ml-40" data-aos="fade-up" data-aos-delay="400">
+          <div className="w-full flex flex-col gap-6 lg:items-center" data-aos="fade-up" data-aos-delay="400">
             <Typography variant="h3" color="white" className="text-lg md:text-xl font-semibold w-full">
               Social Media Links
             </Typography>
