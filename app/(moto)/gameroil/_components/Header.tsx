@@ -103,7 +103,7 @@ const Header = () => {
 
             {/* Right Action: Search Bar */}
             <div className="hidden xl:flex items-center shrink-0">
-              <div className="flex items-center bg-white border border-gray-200 rounded-full pl-4 pr-1 py-1 min-[2500px]:pl-6 min-[2500px]:pr-1.5 min-[2500px]:py-1.5 min-[3800px]:pl-8 min-[3800px]:pr-2 min-[3800px]:py-2 shadow-sm w-[280px] min-[2500px]:w-[450px] min-[3800px]:w-[650px]">
+              <div className="flex items-center bg-white border border-gray-200 rounded-md pl-4 pr-1 py-1 min-[2500px]:pl-6 min-[2500px]:pr-1.5 min-[2500px]:py-1.5 min-[3800px]:pl-8 min-[3800px]:pr-2 min-[3800px]:py-2 shadow-sm w-[280px] min-[2500px]:w-[450px] min-[3800px]:w-[650px]">
                 <input
                   type="text"
                   placeholder="Search for products"
@@ -145,7 +145,7 @@ const Header = () => {
               );
             })}
             <div className="pt-6 flex flex-col w-full">
-              <div className="flex items-center bg-white border border-gray-200 rounded-full pl-4 pr-1 py-1 shadow-sm w-full">
+              <div className="flex items-center bg-white border border-gray-200 rounded-md pl-4 pr-1 py-1 shadow-sm w-full">
                 <input
                   type="text"
                   placeholder="Search for products"

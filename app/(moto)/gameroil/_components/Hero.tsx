@@ -31,7 +31,7 @@ const Hero = () => {
             className="leading-tight"
             data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100"
           >
-            NOx Sensor Manufacturer
+            Cutting-Edge Lubricant Technology
           </Typography>
 
           <Typography
@@ -40,12 +40,9 @@ const Hero = () => {
             className="leading-relaxed w-full  xl:max-w-[70%]"
             data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"
           >
-            Supplier for OEMs and aftermarket
+            Innovative lubricants designed for better efficiency and engine protection.
           </Typography>
 
-          <div className="pt-2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-            <Button text="PRODUCTS" href="#products" />
-          </div>
         </div>
       </div>
     </section>

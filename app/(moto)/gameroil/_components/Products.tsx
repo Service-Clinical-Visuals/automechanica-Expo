@@ -54,15 +54,15 @@ const Products = () => {
               data-aos-delay={index * 100}
             >
               {/* Image Container with Icon */}
-              <div className="relative w-full aspect-[4/3] sm:aspect-video lg:aspect-[4/3] bg-gray-100">
+              <div className="relative w-full aspect-[4/3] p-3  sm:aspect-video lg:aspect-[4/3] ">
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover rounded-lg"
                 />
 
                 {/* Icon Absolute Positioned Bottom Left */}
-                <div className="absolute bottom-[-28px] min-[2500px]:bottom-[-48px] min-[3800px]:bottom-[-80px] left-6 min-[2500px]:left-10 min-[3800px]:left-16 w-14 h-14 min-[2500px]:w-24 min-[2500px]:h-24 min-[3800px]:w-40 min-[3800px]:h-40 bg-primary rounded-full shadow-lg flex items-center justify-center p-3 min-[2500px]:p-5 min-[3800px]:p-8 transition-transform duration-300 group-hover:scale-110">
+                <div className="absolute bottom-[-25px] min-[2500px]:bottom-[-48px] min-[3800px]:bottom-[-80px] left-3 min-[2500px]:left-10 min-[3800px]:left-16 w-16 h-16 min-[2500px]:w-24 min-[2500px]:h-24 min-[3800px]:w-40 min-[3800px]:h-40 bg-primary rounded-full shadow-lg flex items-center justify-center p-3 min-[2500px]:p-5 min-[3800px]:p-8 transition-transform duration-300 group-hover:scale-110">
                   <img
                     src={item.icon}
                     alt="Icon"

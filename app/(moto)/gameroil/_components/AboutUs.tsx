@@ -11,7 +11,7 @@ const AboutUs = () => {
 
         {/* Content (Heading + Text + Button) */}
         {/* Mobile: Order 1, Desktop: Col 1-6 */}
-        <div className="flex flex-col mt-7 gap-6 order-1 xl:col-span-6 w-full" data-aos="fade-right">
+        <div className="flex flex-col mt-7 gap-6 order-1 xl:col-span-5 w-full" data-aos="fade-right">
           {/* Heading Group */}
           <div className="flex flex-col gap-2">
             <Typography variant="h2" className="font-bold leading-tight uppercase text-gray-900">
@@ -41,23 +41,23 @@ const AboutUs = () => {
 
         {/* Right Side (Image + Cards) */}
         {/* Mobile: Order 2 & 3, Desktop: Col 7-12 */}
-        <div className="w-full flex flex-col gap-6 order-2 xl:col-start-7 xl:col-span-6">
+        <div className="w-full flex flex-col gap-6 order-2  xl:col-span-7">
           {/* Image */}
-          <div className="w-full h-full" data-aos="fade-left">
+          <div className="w-full" data-aos="fade-left">
             <img
               src="/moto/gameroil/section2.png"
               alt="Gameroil Manufacturing"
-              className="w-full rounded-2xl object-cover min-h-[300px] lg:min-h-[400px] min-[2500px]:min-h-[600px] min-[3800px]:min-h-[900px] shadow-lg"
+              className="w-full aspect-[820/395] rounded-2xl object-cover shadow-lg"
             />
           </div>
 
           {/* Features Card */}
-          <div className="w-full bg-white border border-gray-100 shadow-xl rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6" data-aos="fade-up" data-aos-delay="200">
+          <div className="w-full bg-white  shadow-xl rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6" data-aos="fade-up" data-aos-delay="200">
 
             {/* Feature 1 */}
             <div className="flex flex-col items-center text-center gap-3 flex-1">
               <div className="w-16 h-16 min-[2500px]:w-24 min-[2500px]:h-24 min-[3800px]:w-32 min-[3800px]:h-32 flex items-center justify-center shrink-0">
-                <img src="/moto/gameroil/v1.png" alt="Icon" className="w-12 h-12 min-[2500px]:w-20 min-[2500px]:h-20 min-[3800px]:w-28 min-[3800px]:h-28 object-contain" />
+                <img src="/moto/gameroil/v1.png" alt="Icon" className="w-17 h-17 min-[2500px]:w-20 min-[2500px]:h-20 min-[3800px]:w-28 min-[3800px]:h-28 object-contain" />
               </div>
               <Typography variant="h3" className="font-bold !text-[#4B5563]">
                 25+ Years Expertise
@@ -65,9 +65,9 @@ const AboutUs = () => {
             </div>
 
             {/* Feature 2 */}
-            <div className="flex flex-col items-center text-center gap-3 flex-1 border-y sm:border-y-0 sm:border-x border-gray-200 py-6 sm:py-0 w-full sm:w-auto">
+            <div className="flex flex-col items-center text-center gap-3 flex-1  py-6 sm:py-0 w-full sm:w-auto">
               <div className="w-16 h-16 min-[2500px]:w-24 min-[2500px]:h-24 min-[3800px]:w-32 min-[3800px]:h-32 flex items-center justify-center shrink-0">
-                <img src="/moto/gameroil/v2.png" alt="Icon" className="w-12 h-12 min-[2500px]:w-20 min-[2500px]:h-20 min-[3800px]:w-28 min-[3800px]:h-28 object-contain" />
+                <img src="/moto/gameroil/v2.png" alt="Icon" className="w-17 h-17 min-[2500px]:w-20 min-[2500px]:h-20 min-[3800px]:w-28 min-[3800px]:h-28 object-contain" />
               </div>
               <Typography variant="h3" className="font-bold !text-[#4B5563]">
                 Global Brands
@@ -77,7 +77,7 @@ const AboutUs = () => {
             {/* Feature 3 */}
             <div className="flex flex-col items-center text-center gap-3 flex-1">
               <div className="w-16 h-16 min-[2500px]:w-24 min-[2500px]:h-24 min-[3800px]:w-32 min-[3800px]:h-32 flex items-center justify-center shrink-0">
-                <img src="/moto/gameroil/v3.png" alt="Icon" className="w-12 h-12 min-[2500px]:w-20 min-[2500px]:h-20 min-[3800px]:w-28 min-[3800px]:h-28 object-contain" />
+                <img src="/moto/gameroil/v3.png" alt="Icon" className="w-17 h-17 min-[2500px]:w-20 min-[2500px]:h-20 min-[3800px]:w-28 min-[3800px]:h-28 object-contain" />
               </div>
               <Typography variant="h3" className="font-bold !text-[#4B5563]">
                 Technical Support

@@ -10,7 +10,7 @@ const Advanced = () => {
       <div className="custom-container flex flex-col gap-12 lg:gap-16">
 
         {/* Top Section */}
-        <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 lg:gap-12 items-start">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 lg:gap-12  xl:items-center 2xl:items-start">
 
           {/* Mobile Title */}
           <div className="xl:hidden col-span-1 flex flex-col order-1" data-aos="fade-down">
@@ -20,7 +20,7 @@ const Advanced = () => {
           </div>
 
           {/* Left Video - Mobile: Order 2, Desktop: Left (Col 1-6) */}
-          <div className="col-span-1 xl:col-span-6 order-2 w-full h-full aspect-video relative rounded-2xl overflow-hidden shadow-lg" data-aos="fade-right">
+          <div className="col-span-1 xl:col-span-6 order-2 w-full h-full xl:h-auto 2xl:h-full aspect-video relative rounded-2xl overflow-hidden shadow-lg" data-aos="fade-right">
             <DynamicVideoPlayer type="short-2" className="absolute inset-0 w-full h-full object-cover" />
           </div>
 

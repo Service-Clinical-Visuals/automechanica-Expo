@@ -1,7 +1,8 @@
 "use client";
 
 import React from "react";
-import { Search, Facebook, Linkedin, Instagram, Phone, Mail, MapPin } from "lucide-react";
+import { Search, Facebook, Linkedin, Instagram } from "lucide-react";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import Typography from "./Typography";
 
 const Footer = () => {
@@ -19,13 +20,13 @@ const Footer = () => {
             </Typography>
             <div className="flex items-center gap-4 mt-2 min-[2100px]:gap-6 min-[3800px]:gap-8 min-[2100px]:mt-6 min-[3800px]:mt-10">
               <div className="w-8 h-8 min-[2100px]:w-12 min-[2100px]:h-12 min-[3800px]:w-16 min-[3800px]:h-16 rounded-full bg-white flex items-center justify-center cursor-pointer hover:bg-gray-200 transition-colors shrink-0">
-                <Facebook className="w-4 h-4 min-[2100px]:w-6 min-[2100px]:h-6 min-[3800px]:w-8 min-[3800px]:h-8 text-[#111827]" fill="currentColor" stroke="none" />
+                <Facebook className="w-5 h-5 min-[2100px]:w-7 min-[2100px]:h-7 min-[3800px]:w-10 min-[3800px]:h-10 text-[#111827]" fill="currentColor" stroke="none" />
               </div>
-              <div className="w-8 h-8 min-[2100px]:w-12 min-[2100px]:h-12 min-[3800px]:w-16 min-[3800px]:h-16 rounded-full bg-white flex items-center justify-center cursor-pointer hover:bg-gray-200 transition-colors shrink-0">
-                <Linkedin className="w-4 h-4 min-[2100px]:w-6 min-[2100px]:h-6 min-[3800px]:w-8 min-[3800px]:h-8 text-[#111827]" fill="currentColor" stroke="none" />
+              <div className="w-8 h-8 min-[2100px]:w-12 min-[2100px]:h-12 min-[3800px]:w-16 min-[3800px]:h-16 rounded-md bg-white flex items-center justify-center cursor-pointer hover:bg-gray-200 transition-colors shrink-0">
+                <Linkedin className="w-5 h-5 min-[2100px]:w-7 min-[2100px]:h-7 min-[3800px]:w-10 min-[3800px]:h-10 text-[#111827]" fill="currentColor" stroke="none" />
               </div>
-              <div className="w-8 h-8 min-[2100px]:w-12 min-[2100px]:h-12 min-[3800px]:w-16 min-[3800px]:h-16 rounded-full bg-white flex items-center justify-center cursor-pointer hover:bg-gray-200 transition-colors shrink-0">
-                <Instagram className="w-4 h-4 min-[2100px]:w-6 min-[2100px]:h-6 min-[3800px]:w-8 min-[3800px]:h-8 text-[#111827]" />
+              <div className="w-8 h-8 min-[2100px]:w-12 min-[2100px]:h-12 min-[3800px]:w-16 min-[3800px]:h-16 rounded-md bg-white flex items-center justify-center cursor-pointer hover:bg-gray-200 transition-colors shrink-0">
+                <Instagram className="w-5 h-5 min-[2100px]:w-7 min-[2100px]:h-7 min-[3800px]:w-10 min-[3800px]:h-10 text-[#111827]" />
               </div>
             </div>
           </div>
@@ -47,15 +48,15 @@ const Footer = () => {
             <Typography variant="h4" color="white" className="footer-heading font-bold text-lg min-[2100px]:text-3xl min-[3800px]:text-5xl">Contact</Typography>
             <div className="flex flex-col gap-4 min-[2100px]:gap-8 min-[3800px]:gap-12">
               <div className="flex items-center gap-3 min-[2100px]:gap-6 min-[3800px]:gap-8 footer-body text-sm min-[2100px]:text-xl min-[3800px]:text-3xl text-white">
-                <Phone className="w-6 h-6 min-[2100px]:w-8 min-[2100px]:h-8 min-[3800px]:w-10 min-[3800px]:h-10 text-[#E53935] shrink-0" fill="currentColor" stroke="none" />
+                <FaPhoneAlt className="w-5 h-5 min-[2100px]:w-7 min-[2100px]:h-7 min-[3800px]:w-10 min-[3800px]:h-10 text-[#E53935] shrink-0" />
                 <div>+34-672-208-350</div>
               </div>
               <div className="flex items-center gap-3 min-[2100px]:gap-6 min-[3800px]:gap-8 footer-body text-sm min-[2100px]:text-xl min-[3800px]:text-3xl text-white">
-                <Mail className="w-6 h-6 min-[2100px]:w-8 min-[2100px]:h-8 min-[3800px]:w-10 min-[3800px]:h-10 text-[#E53935] shrink-0 text-[#0F172A]" fill="currentColor" stroke="none" />
+                <FaEnvelope className="w-5 h-5 min-[2100px]:w-7 min-[2100px]:h-7 min-[3800px]:w-10 min-[3800px]:h-10 text-[#E53935] shrink-0" />
                 <div>info@gameroil.es</div>
               </div>
               <div className="flex items-start gap-3 min-[2100px]:gap-6 min-[3800px]:gap-8 footer-body text-sm min-[2100px]:text-xl min-[3800px]:text-3xl text-white">
-                <MapPin className="w-6 h-6 min-[2100px]:w-8 min-[2100px]:h-8 min-[3800px]:w-10 min-[3800px]:h-10 text-[#E53935] shrink-0 mt-1 min-[2100px]:mt-2" fill="currentColor" stroke="none" />
+                <FaMapMarkerAlt className="w-5 h-5 min-[2100px]:w-7 min-[2100px]:h-7 min-[3800px]:w-10 min-[3800px]:h-10 text-[#E53935] shrink-0 mt-1 min-[2100px]:mt-2" />
                 <div className="leading-relaxed">Pol. Ind. El Prado, C/<br />Valladolid 10. 06800 Mérida<br />(Extremadura)</div>
               </div>
             </div>
