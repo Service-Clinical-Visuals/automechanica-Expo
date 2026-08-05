@@ -23,7 +23,7 @@ const News = () => {
         <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-8 lg:gap-12">
 
           {/* Card 1 */}
-          <div className="flex flex-col bg-white border border-gray-100 shadow-lg rounded-[24px] overflow-hidden hover:shadow-xl transition-shadow aspect-[818/555] p-4 xl:p-[20px]" data-aos="fade-up" data-aos-delay="100">
+          <div className="flex flex-col h-full bg-white border border-gray-100 shadow-lg rounded-[24px] overflow-hidden hover:shadow-xl transition-shadow p-4 xl:p-[20px]" data-aos="fade-up" data-aos-delay="100">
             <div className="w-full aspect-[777/348] flex items-center justify-center border border-gray-100 rounded-[16px] overflow-hidden shrink-0">
               <img
                 src="/moto/gameroil/news1.png"
@@ -47,7 +47,7 @@ const News = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="flex flex-col bg-white border border-gray-100 shadow-lg rounded-[24px] overflow-hidden hover:shadow-xl transition-shadow aspect-[818/555] p-4 xl:p-[20px]" data-aos="fade-up" data-aos-delay="200">
+          <div className="flex flex-col h-full bg-white border border-gray-100 shadow-lg rounded-[24px] overflow-hidden hover:shadow-xl transition-shadow p-4 xl:p-[20px]" data-aos="fade-up" data-aos-delay="200">
             <div className="w-full aspect-[777/348] flex items-center justify-center border border-gray-100 rounded-[16px] overflow-hidden shrink-0">
               <img
                 src="/moto/gameroil/news2.png"

@@ -7,7 +7,7 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 const Engineered = () => {
   return (
     <section id="engineered" className="w-full py-16 min-[3800px]:py-25 bg-[#F3F4F6] overflow-hidden">
-      <div className="custom-container grid grid-cols-1 xl:grid-cols-12 gap-6 lg:gap-12 items-center">
+      <div className="custom-container grid grid-cols-1 xl:grid-cols-12 gap-6 lg:gap-12 xl:items-center 2xl:items-start">
 
         {/* Mobile Title */}
         <div className="xl:hidden col-span-1 flex flex-col order-1" data-aos="fade-down">
@@ -17,7 +17,7 @@ const Engineered = () => {
         </div>
 
         {/* Video Side - Mobile: Order 2, Desktop: Left (Col 1-5) */}
-        <div className="col-span-1 xl:col-span-7 order-2 w-full h-full  aspect-video relative rounded-2xl overflow-hidden shadow-lg" data-aos="fade-right">
+        <div className="col-span-1 xl:col-span-7 order-2 w-full h-full xl:h-auto 2xl:h-full  aspect-video relative rounded-2xl overflow-hidden shadow-lg" data-aos="fade-right">
           <DynamicVideoPlayer type="short-1" className="absolute inset-0 w-full h-full object-cover" />
         </div>
 
