@@ -27,15 +27,15 @@ export default function AboutUs() {
             data-aos="fade-left"
             data-aos-delay="200"
           >
-            <div className="bg-white border border-[var(--primary)] rounded-md p-8 md:p-10 xl:pl-16 2xl:pl-20 shadow-md">
+            <div className="bg-white border border-[var(--primary)] rounded-md p-8 md:p-10 xl:pl-14 2xl:pl-18 shadow-md">
               
               {/* Heading with lines */}
               <div className="flex items-center justify-center gap-4 mb-6">
-                <div className="h-0.5 w-12 bg-[var(--primary)]"></div>
+                <div className="h-1 w-14 bg-[var(--primary)] rounded-full"></div>
                 <h2 className="section-title font-bold text-black font-oswald text-center ">
                   Who We Are
                 </h2>
-                <div className="h-0.5 w-12 bg-[var(--primary)]"></div>
+                <div className="h-1 w-14 bg-[var(--primary)] rounded-full"></div>
               </div>
 
               {/* Paragraphs */}

@@ -65,11 +65,11 @@ export default function OurProducts() {
         {/* Header Content */}
         <div className="max-w-7xl mx-auto text-center mb-12" data-aos="fade-up">
           <div className="flex items-center justify-center gap-4 mb-6">
-            <div className="h-0.5 w-16 bg-[var(--primary)]"></div>
+              <div className="h-1 w-14 bg-[var(--primary)] rounded-full"></div>
                 <h2 className="section-title font-bold text-black font-oswald text-center ">
               Our Product Portfolio
             </h2>
-            <div className="h-0.5 w-16 bg-[var(--primary)]"></div>
+           <div className="h-1 w-14 bg-[var(--primary)] rounded-full"></div>
           </div>
           <p className="text-[#111111] section-text leading-relaxed font-poppins max-w-7xl mx-auto">
             Discover a full range of Victor Reinz® sealing solutions built to OEM standards, including gaskets, seals, and industrial materials. Designed for precise fit, durability, and reliable performance, they help improve engine efficiency and ensure long-lasting protection across automotive and industrial applications.

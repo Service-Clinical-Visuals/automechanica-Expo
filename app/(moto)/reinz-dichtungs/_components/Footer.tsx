@@ -21,7 +21,7 @@ export default function Footer() {
           <div className="xl:col-span-4 grid grid-cols-2 gap-4 xl:gap-0">
             {/* Column 2: Quick Links */}
             <div className="xl:pl-10 2xl:pl-20">
-              <h3 className="font-oswald font-semibold text-white product-title mb-6">Quick Links</h3>
+              <h3 className="font-oswald font-semibold text-white product-text mb-6">Quick Links</h3>
               <ul className="space-y-4">
                 <li><Link href="#" className="text-white section-text ">Home</Link></li>
                 <li><Link href="#" className="text-white section-text">About Us</Link></li>
@@ -32,7 +32,7 @@ export default function Footer() {
 
             {/* Column 3: Contact Us */}
             <div>
-              <h3 className="font-oswald font-semibold text-white product-title mb-6">Contact Us</h3>
+              <h3 className="font-oswald font-semibold text-white product-text mb-6">Contact Us</h3>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <img src="/moto/reinz-dichtungs/ph.png" alt="Phone" className="w-5 h-5 object-contain" />
@@ -48,7 +48,7 @@ export default function Footer() {
 
           {/* Column 4: Social */}
           <div className="xl:col-span-1">
-             <h3 className="font-oswald font-semibold text-white product-title mb-6">Social</h3>
+             <h3 className="font-oswald font-semibold text-white product-text mb-6">Social</h3>
             <div className="flex items-center gap-3">
               <a href="#" className="hover:opacity-80 transition-opacity"><img src="/moto/reinz-dichtungs/ins.png" alt="Instagram" className="w-7 h-7 object-contain" /></a>
               <a href="#" className="hover:opacity-80 transition-opacity"><img src="/moto/reinz-dichtungs/fb.png" alt="Facebook" className="w-7 h-7 object-contain" /></a>
@@ -59,7 +59,7 @@ export default function Footer() {
 
           {/* Column 5: Newsletter */}
           <div className="xl:col-span-3">
-            <h3 className="font-oswald font-semibold text-white product-title mb-6">Subscribe to Newsletter :</h3>
+            <h3 className="font-oswald font-semibold text-white product-text mb-6">Subscribe to Newsletter :</h3>
             <p className="text-white section-text leading-relaxed mb-6">
               Stay informed with the latest product launches, industry news, technical updates, and innovations
             </p>

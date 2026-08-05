@@ -17,11 +17,11 @@ export default function OurGoal() {
           
           {/* Heading with lines */}
           <div className="flex items-center justify-center gap-4 mb-8 flex-wrap">
-            <div className="h-0.5 w-12 md:w-16 bg-[var(--primary)] hidden sm:block"></div>
+                <div className="h-1 w-14 bg-[var(--primary)] rounded-full"></div>
                 <h2 className="section-title font-bold text-black font-oswald text-center ">
               Our Goal Always Stays the Same – To Work with the Best
             </h2>
-            <div className="h-0.5 w-12 md:w-16 bg-[var(--primary)] hidden sm:block"></div>
+           <div className="h-1 w-14 bg-[var(--primary)] rounded-full"></div>
           </div>
 
           {/* Paragraphs */}

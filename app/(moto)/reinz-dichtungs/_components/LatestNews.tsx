@@ -66,11 +66,11 @@ export default function LatestNews() {
         {/* Header Content */}
         <div className="max-w-7xl mx-auto text-center mb-12" data-aos="fade-up">
           <div className="flex items-center justify-center gap-4 mb-6 flex-wrap">
-            <div className="h-0.5 w-12 md:w-16 bg-[var(--primary)] hidden sm:block"></div>
+            <div className="h-1 w-14 bg-[var(--primary)] rounded-full"></div>
                 <h2 className="section-title font-bold text-black font-oswald text-center ">
               Our Latest News & Insights
             </h2>
-            <div className="h-0.5 w-12 md:w-16 bg-[var(--primary)] hidden sm:block"></div>
+            <div className="h-1 w-14 bg-[var(--primary)] rounded-full"></div>
           </div>
           <p className="section-text text-black font-poppins leading-relaxed max-w-7xl mx-auto">
             Stay up to date with the latest company news, product launches, industry developments, and upcoming events. Discover how our innovations, achievements, and milestones continue to shape the future of automotive excellence.
