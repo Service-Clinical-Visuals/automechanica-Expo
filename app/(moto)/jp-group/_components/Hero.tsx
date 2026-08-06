@@ -22,7 +22,7 @@ const Hero = () => {
       </div>
 
       {/* Content Container */}
-      <div className="custom-container relative z-20 w-full px-4 sm:px-6">
+      <div className="custom-container relative z-20 w-full px-4 sm:px-6 mt-16 md:mt-24 lg:mt-[15%]">
         <div
           className="xl:max-w-[60%] max-w-full text-left space-y-4 md:space-y-6 pointer-events-auto"
         >

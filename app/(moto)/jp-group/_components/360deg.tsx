@@ -37,13 +37,13 @@ const Deg360 = () => {
 
             <ul className="flex flex-col gap-3 mt-2">
               <li className="flex items-start gap-3">
-                <img src="/moto/jp-group/star.png" alt="star" className="w-5 h-5 object-contain mt-1 shrink-0" />
+                <img src="/moto/jp-group/star.png" alt="star" className="w-4 h-4 object-contain mt-1 shrink-0" />
                 <Typography variant="p" color="dark">
                   Precision-engineered for consistent and reliable braking performance
                 </Typography>
               </li>
               <li className="flex items-start gap-3">
-                <img src="/moto/jp-group/star.png" alt="star" className="w-5 h-5 object-contain mt-1 shrink-0" />
+                <img src="/moto/jp-group/star.png" alt="star" className="w-4 h-4 object-contain mt-1 shrink-0" />
                 <Typography variant="p" color="dark">
                   High-quality materials for effective heat dissipation and durability
                 </Typography>

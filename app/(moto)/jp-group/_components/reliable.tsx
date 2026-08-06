@@ -37,13 +37,13 @@ const Reliable = () => {
 
             <ul className="flex flex-col gap-3 mt-2">
               <li className="flex items-start gap-3">
-                <img src="/moto/jp-group/star.png" alt="star" className="w-5 h-5 min-[2500px]:w-8 min-[2500px]:h-8 min-[3800px]:w-12 min-[3800px]:h-12 object-contain mt-1 shrink-0" />
+                <img src="/moto/jp-group/star.png" alt="star" className="w-4 h-4 min-[2500px]:w-8 min-[2500px]:h-8 min-[3800px]:w-12 min-[3800px]:h-12 object-contain mt-1 shrink-0" />
                 <Typography variant="p" color="dark">
                   Broad portfolio covering engine, drivetrain, steering, and suspension components
                 </Typography>
               </li>
               <li className="flex items-start gap-3">
-                <img src="/moto/jp-group/star.png" alt="star" className="w-5 h-5 min-[2500px]:w-8 min-[2500px]:h-8 min-[3800px]:w-12 min-[3800px]:h-12 object-contain mt-1 shrink-0" />
+                <img src="/moto/jp-group/star.png" alt="star" className="w-4 h-4 min-[2500px]:w-8 min-[2500px]:h-8 min-[3800px]:w-12 min-[3800px]:h-12 object-contain mt-1 shrink-0" />
                 <Typography variant="p" color="dark">
                   Designed for compatibility with a wide range of European vehicle models
                 </Typography>

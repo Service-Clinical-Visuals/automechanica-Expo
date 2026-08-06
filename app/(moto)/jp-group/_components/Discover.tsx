@@ -129,7 +129,7 @@ const Discover = () => {
               <SwiperSlide key={item.id}>
                 <div className="flex flex-col h-full bg-white border border-gray-100 rounded-sm overflow-hidden shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] group hover:-translate-y-1 transition-transform duration-300">
                   {/* Image Container */}
-                  <div className="relative w-full aspect-square bg-gray-50 border-b border-gray-100">
+                  <div className="relative w-full aspect-square p-3  min-[3800px]:p-5">
                     <img src={item.image} alt={item.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
 
                     {/* NEW Badge */}

@@ -28,7 +28,7 @@ const Button = ({
 
   const content = (
     <div className={`flex items-center justify-center px-6 py-2.25 transition-colors rounded-lg ${variantStyles} ${className}`}>
-      <div className="button whitespace-nowrap uppercase mr-3 sm:mr-4">{text}</div>
+      <div className="button whitespace-nowrap mr-3 sm:mr-4">{text}</div>
       {showIcon && (
         <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform duration-300 shrink-0" strokeWidth={2} />
       )}
