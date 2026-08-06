@@ -8,10 +8,10 @@ export default function Footer() {
     <footer className="w-full bg-[#f4f5f5] pt-16 pb-8 border-t border-gray-200">
       <div className="custom-container">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12 mb-12">
-          
+
           {/* Logo & Description */}
           <div className="lg:col-span-1 flex flex-col items-start">
-            <img src="/moto/eldons/logo.png" alt="Eldon's Logo" className="w-[180px] [@media(min-width:2500px)]:w-[270px] [@media(min-width:3800px)]:w-[360px] mb-6" />
+            <img src="/moto/eldons/logo.png" alt="Eldon's Logo" className="w-[200px] [@media(min-width:2500px)]:w-[280px] [@media(min-width:3800px)]:w-[360px] mb-6" />
             <Typography variant="p" color="muted" className="footer-body leading-relaxed">
               Since 1975, ELDON'S has delivered premium lubricants and specialty fluids, trusted worldwide for quality, reliability, and performance.
             </Typography>
@@ -77,13 +77,13 @@ export default function Footer() {
               Stay informed with the latest product launches, industry news, technical updates, and innovations from eldons.gr.
             </Typography>
             <form className="flex w-full bg-white rounded shadow-sm overflow-hidden border border-gray-200 footer-body">
-              <input 
-                type="email" 
-                placeholder="Email Address..." 
+              <input
+                type="email"
+                placeholder="Email Address..."
                 className="w-full px-4 py-3 outline-none text-gray-700 bg-transparent placeholder-gray-400"
               />
-              <button 
-                type="button" 
+              <button
+                type="button"
                 className="bg-primary hover:bg-primary-hover transition-colors px-4 py-3 flex items-center justify-center shrink-0"
               >
                 <ArrowRight className="text-white w-[1.25em] h-[1.25em]" />

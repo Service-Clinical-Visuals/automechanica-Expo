@@ -27,8 +27,8 @@ export default function Premium() {
       <div className="custom-container">
 
         {/* Top Section */}
-        <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 mb-10 pb-8 border-b border-gray-300">
-          <div className="max-w-4xl">
+        <div className="flex flex-col xl:flex-row justify-between items-start xl:items-center gap-6 mb-10 pb-8 border-b border-gray-300">
+          <div className="max-w-[75%]">
             <Typography variant="h2" color="dark" className="mb-4">
               Premium Engine Oil
             </Typography>
@@ -42,16 +42,16 @@ export default function Premium() {
         </div>
 
         {/* Content Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch" data-aos="fade-up">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 items-center" data-aos="fade-up">
           {/* Left: Video */}
-          <div className="lg:col-span-9 order-2 lg:order-1 h-full">
-            <div className="rounded-xl overflow-hidden h-full min-h-[400px] shadow-sm">
+          <div className="xl:col-span-9 order-2 xl:order-1 h-full">
+            <div className=" overflow-hidden h-full min-h-[400px] shadow-sm">
               <DynamicVideoPlayer type="short-1" className="w-full h-full object-cover" />
             </div>
           </div>
 
           {/* Right: Details */}
-          <div className="lg:col-span-3 order-1 lg:order-2 flex flex-col justify-between">
+          <div className=" xl:col-span-3 order-1 xl:order-2 flex flex-col  justify-between">
             <div>
               <Typography variant="h2" color="dark" className="mb-4">
                 Engineered For Maximum Performance

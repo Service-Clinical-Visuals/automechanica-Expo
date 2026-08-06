@@ -31,11 +31,11 @@ export default function AboutUs() {
     <section className="w-full py-16 min-[3800px]:py-24 bg-white" id="about-us">
       <div className="custom-container">
         {/* Header Section */}
-        <div className="flex flex-col items-center text-center mb-12 max-w-5xl mx-auto" data-aos="fade-up">
+        <div className="flex flex-col items-center text-center mb-12  mx-auto" data-aos="fade-up">
           <Typography variant="h2" color="dark" className="mb-4">
             ELDON'S at a glance
           </Typography>
-          <Typography variant="p" color="muted" className="leading-relaxed">
+          <Typography variant="p" color="muted" className="leading-relaxed max-w-[70%]">
             ELDON'S was established in 1975 and today is one of the largest production and trading companies in Greece, offering a full range of synthetic and conventional lubricants, food grade lubricants, greases and special products (such as emulsions, special motor liquids, etc.). Since its foundation, the company is in a constant state of expansion. For almost 5 decades, ELDON'S has consistently provided high technical expertise, know-how and robust specialization in the lubrication industry.
           </Typography>
         </div>
@@ -66,7 +66,7 @@ export default function AboutUs() {
               className="bg-white border border-gray-100 rounded-lg p-6 shadow-[0_4px_20px_rgba(0,0,0,0.05)] hover:shadow-lg transition-shadow duration-300 flex flex-col relative"
             >
               <div className="relative items-start ">
-                <Typography variant="h4" color="dark" className="mt-2">
+                <Typography variant="h3" color="dark" className="mt-2">
                   {feature.title}
                 </Typography>
                 <Typography variant="p" color="muted" className="max-w-[75%] mt-2 leading-relaxed">
@@ -74,7 +74,7 @@ export default function AboutUs() {
                 </Typography>
 
               </div>
-              <img src={feature.icon} alt={feature.title} className="absolute top-5 right-5 w-16 h-16 min-[3800px]:w-20 min-[3800px]:h-20 object-contain ml-2 shrink-0" />
+              <img src={feature.icon} alt={feature.title} className="absolute top-5 right-5 w-16 h-16 min-[3800px]:w-25 min-[3800px]:h-25 object-contain ml-2 shrink-0" />
             </div>
           ))}
         </div>

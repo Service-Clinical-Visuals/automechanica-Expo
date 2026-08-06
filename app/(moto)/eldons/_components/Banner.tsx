@@ -14,12 +14,12 @@ export default function Banner() {
           <DynamicVideoPlayer type="banner" className="absolute top-0 left-0 w-full h-full object-cover" />
 
           {/* Constrained Text Overlay aligned inside the video card */}
-          <div className="absolute inset-0 z-10 flex flex-col justify-end p-8 md:p-12 lg:p-16">
+          <div className="absolute inset-0 z-10 flex flex-col justify-end mb-[5%] p-8 md:p-12 lg:p-16">
             <div className="text-left pointer-events-auto" data-aos="fade-up" data-aos-delay="200">
-              <Typography variant="h1" color="white" className="max-w-3xl leading-tight mb-4 lg:mb-6">
+              <Typography variant="h1" color="white" className="max-w-[60%] leading-tight mb-4 lg:mb-6">
                 Advanced Lubrication Solutions
               </Typography>
-              <Typography variant="p" color="white" className="max-w-2xl mb-8 lg:mb-8 leading-[1.6]">
+              <Typography variant="p" color="white" className="max-w-[50%] mb-8 lg:mb-8 leading-[1.6]">
                 Since 1975, ELDON'S has delivered premium lubricants and specialty fluids, trusted in 30+ countries for reliable performance.
               </Typography>
               <Button text="Explore Products" variant="primary" href="#" />

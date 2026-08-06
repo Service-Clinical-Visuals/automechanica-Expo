@@ -59,7 +59,7 @@ export default function ProductRange() {
             <Typography variant="h2" color="dark" className="leading-tight mb-4">
               Stay Updated With ELDON'S
             </Typography>
-            <Typography variant="p" color="muted" className="mt-4 max-w-[90%] lg:max-w-[80%] text-[15px] leading-relaxed">
+            <Typography variant="p" color="muted" className="mt-4  lg:max-w-[80%] leading-relaxed">
               Discover the latest news, company announcements, industry updates, product launches, and event highlights from ELDON'S. Explore our journey, achievements, and innovations as we continue to deliver high-quality lubricant solutions and drive excellence in the automotive industry.
             </Typography>
           </div>
@@ -86,7 +86,7 @@ export default function ProductRange() {
             {newsItems.map((item, index) => (
               <SwiperSlide key={index} className="!h-auto">
                 <div className="group relative h-full flex flex-col overflow-hidden bg-white border border-gray-200 shadow-sm transition-all duration-300 hover:shadow-md">
-                  <div className="relative overflow-hidden bg-gray-100 w-full aspect-[4/3]">
+                  <div className="relative overflow-hidden p-5 min-[3800px]:p-8 w-full aspect-[4/3]">
                     <img
                       src={item.image}
                       alt={item.title}
@@ -104,7 +104,7 @@ export default function ProductRange() {
                     </span>
 
                     <div className="mt-auto">
-                      <Link href={item.link} className="inline-flex font-bold text-primary hover:text-secondary transition-colors items-center text-[15px]">
+                      <Link href={item.link} className="inline-flex font-bold text-primary hover:text-secondary transition-colors items-center footer-body ">
                         Read More &raquo;
                       </Link>
                     </div>

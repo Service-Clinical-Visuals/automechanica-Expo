@@ -8,6 +8,21 @@ import Typography from "./Typography";
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Change header style when scrolled down
+      if (window.scrollY > 100) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const navLinks = [
     { name: "Home", href: "#", active: true },
@@ -18,9 +33,9 @@ export default function Header() {
   ];
 
   return (
-    <header className="w-full fixed top-4 left-0 right-0 z-[100]">
-      <div className="w-[96%] mx-auto bg-white border border-gray-200 shadow-sm rounded-2xl ">
-        <div className="custom-container relative flex items-center h-[70px] md:h-[80px]">
+    <header className={`w-full fixed left-0 right-0 z-[100] transition-all duration-300 ${isScrolled ? "top-0" : "top-4"}`}>
+      <div className={`mx-auto bg-white shadow-sm transition-all duration-300 ${isScrolled ? "w-full border-b border-gray-200" : "w-[96%] border border-gray-200 rounded-2xl"}`}>
+        <div className="custom-container relative flex items-center h-[70px] md:h-[80px] min-[3800px]:h-[130px] px-2 md:px-0">
           {/* Logo */}
           <Link href="#" className="flex items-center z-20 shrink-0">
             <img

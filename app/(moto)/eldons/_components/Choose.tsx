@@ -16,9 +16,9 @@ export default function Choose() {
           </Typography>
         </div>
 
-        <div className="max-w-[1200px] mx-auto" data-aos="zoom-in" data-aos-delay="150">
-          <div className="w-full aspect-video rounded-xl overflow-hidden shadow-2xl bg-white/5 flex items-center justify-center">
-            <DynamicVideoPlayer type="short-2" className="w-full h-full object-cover" />
+        <div className="xl:max-w-[70%] mx-auto" data-aos="zoom-in" data-aos-delay="150">
+          <div className="w-full h-full aspect-video  overflow-hidden shadow-2xl  flex items-center justify-center">
+            <DynamicVideoPlayer type="short-2" className="w-full h-full object-contain" />
           </div>
         </div>
       </div>
