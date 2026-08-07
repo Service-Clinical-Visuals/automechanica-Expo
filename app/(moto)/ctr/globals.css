@@ -482,8 +482,8 @@ footer :where(h1, h2, h3, h4, h5, h6, p, li, span, a) {
   }
 }
 
-/* Ultra-wide Screen (2500px+) */
-@media (min-width: 2500px) {
+/* Ultra-wide Screen / 2.5K (2500px - 3799px) */
+@media (min-width: 2500px) and (max-width: 3799px) {
   .custom-container {
     max-width: 88%;
   }
@@ -542,7 +542,7 @@ footer :where(h1, h2, h3, h4, h5, h6, p, li, span, a) {
     font-size: 2rem;
   }
 
-  nav a{
+  nav a {
     font-size: 1.6rem;
   }
 
@@ -565,5 +565,91 @@ footer :where(h1, h2, h3, h4, h5, h6, p, li, span, a) {
   button svg {
     width: 1.25em !important;
     height: 1.25em !important;
+  }
+}
+
+/* 4K Ultra-wide Screen / Max Cover (3800px and above) */
+@media (min-width: 3800px) {
+  .custom-container {
+    max-width: 88%;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  h2 {
+    font-size: 3.6rem;
+  }
+
+  h3 {
+    font-size: 3.0rem;
+  }
+
+  h4 {
+    font-size: 2.4rem;
+  }
+
+  h5 {
+    font-size: 2.2rem;
+  }
+
+  h6 {
+    font-size: 2.0rem;
+  }
+
+  p,
+  li {
+    font-size: 2.2rem;
+  }
+
+  span {
+    font-size: 1.9rem;
+  }
+
+  .sub-heading,
+  .subheading {
+    font-size: 2.4rem;
+  }
+
+  .navbar {
+    font-size: 2.8rem;
+  }
+
+  .footer-heading {
+    font-size: 3.8rem;
+  }
+
+  .footer-body {
+    font-size: 2.6rem;
+  }
+
+  .button {
+    font-size: 2.4rem;
+  }
+
+  nav a {
+    font-size: 2.2rem;
+  }
+
+  input,
+  select,
+  textarea,
+  input::placeholder {
+    font-size: 2.2rem;
+  }
+
+  /* Icons scaling for 4K ultra-wide screens */
+  svg.lucide,
+  .lucide,
+  svg {
+    width: 1.75em !important;
+    height: 1.75em !important;
+  }
+
+  .button svg,
+  button svg {
+    width: 1.35em !important;
+    height: 1.35em !important;
   }
 }

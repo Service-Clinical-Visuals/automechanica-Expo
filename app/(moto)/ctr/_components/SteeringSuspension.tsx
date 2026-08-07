@@ -4,8 +4,9 @@ import React from "react";
 import Typography from "./Typography";
 import Button from "./Button";
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+import { ArrowRight } from "lucide-react";
 
-export default function CylinderHeadGasket() {
+export default function SteeringSuspension() {
   return (
     <section className="w-full py-16 lg:py-20 bg-[#F2F2F280] overflow-hidden" id="steering-suspension">
       <div className="custom-container">
@@ -52,18 +53,14 @@ export default function CylinderHeadGasket() {
             {/* Bullet Points with Red Arrows */}
             <div className="flex flex-col gap-3 font-secondary pt-1">
               <div className="flex items-start gap-2.5">
-                <span className="text-[var(--color-primary)] font-bold text-base leading-snug select-none">
-                  →
-                </span>
+                <ArrowRight className="w-4 h-4 text-[var(--color-primary)] shrink-0 mt-1" />
                 <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                   Provides reliable handling and reduced wear across various driving conditions
                 </p>
               </div>
 
               <div className="flex items-start gap-2.5">
-                <span className="text-[var(--color-primary)] font-bold text-base leading-snug select-none">
-                  →
-                </span>
+                <ArrowRight className="w-4 h-4 text-[var(--color-primary)] shrink-0 mt-1" />
                 <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                   Engineered with advanced technology for durability and consistent performance
                 </p>

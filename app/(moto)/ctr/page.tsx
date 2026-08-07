@@ -4,16 +4,14 @@ import React from "react";
 import Header from "./_components/Header";
 import HeroBanner from "./_components/HeroBanner";
 import AboutUs from "./_components/AboutUs";
-import CylinderHeadGasket from "./_components/CylinderHeadGasket";
-import NewProducts from "./_components/NewProducts";
-import ValveCoverGasket from "./_components/ValveCoverGasket";
+import BrakePads from "./_components/BrakePads";
 import ProductRange from "./_components/ProductRange";
-import AdvancedGasketSolutions from "./_components/AdvancedGasketSolutions";
+import SteeringSuspension from "./_components/SteeringSuspension";
+import ProductFinder from "./_components/ProductFinder";
+import ProductLineup from "./_components/ProductLineup";
 import NewsEvents from "./_components/NewsEvents";
 import Footer from "./_components/Footer";
 import SmoothAOS from "./_components/SmoothAOS";
-import BreakPads from "./_components/BreakPads";
-import ProductFinder from "./_components/ProductFinder";
 
 export default function CTRPage() {
   return (
@@ -31,19 +29,19 @@ export default function CTRPage() {
         <AboutUs />
 
         {/* Brake Pads Section (360 Video) */}
-        <BreakPads />
+        <BrakePads />
 
         {/* Comprehensive Range of Automotive Components Section */}
         <ProductRange />
 
         {/* Drive with Confidence - Steering & Suspension (Video 01) Section */}
-        <CylinderHeadGasket />
+        <SteeringSuspension />
 
         {/* Search by Product or Vehicle Form Section */}
         <ProductFinder />
 
         {/* Product Lineup (Video 02) Section */}
-        <ValveCoverGasket />
+        <ProductLineup />
 
         {/* News & Updates Section */}
         <NewsEvents />
