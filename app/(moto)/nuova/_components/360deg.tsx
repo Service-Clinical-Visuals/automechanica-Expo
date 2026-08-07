@@ -35,7 +35,7 @@ const Deg360 = () => {
         <div className="w-full flex flex-col xl:grid xl:grid-cols-12 gap-10 xl:gap-8 items-center text-left mt-4">
 
           {/* Left Content (Text and List) - Mobile Order 1 */}
-          <div className="order-1 xl:col-start-1 xl:col-span-4 w-full flex flex-col gap-8" data-aos="fade-right">
+          <div className="order-1 xl:col-start-1 xl:col-span-5 w-full flex flex-col gap-8" data-aos="fade-right">
             <Typography variant="span" color="white" className="leading-relaxed">
               Developed through advanced manufacturing technologies and rigorous quality control processes, every Nuova Tecnodelta component delivers exceptional durability, reliable operation, and OE-equivalent performance, ensuring precise fitment and long-lasting efficiency across modern automotive applications.
             </Typography>
@@ -81,7 +81,7 @@ const Deg360 = () => {
           </div>
 
           {/* Right Video - Mobile Order 2 */}
-          <div className="order-2 xl:col-start-5 xl:col-span-8 xl:row-start-1 xl:row-span-2 w-full aspect-video relative overflow-hidden rounded-2xl" data-aos="zoom-in">
+          <div className="order-2 xl:col-start-6 xl:col-span-7 xl:row-start-1 xl:row-span-2 w-full aspect-video relative overflow-hidden rounded-2xl" data-aos="zoom-in">
             <DynamicVideoPlayer
               type="360"
               className="absolute inset-0 w-full h-full object-cover"

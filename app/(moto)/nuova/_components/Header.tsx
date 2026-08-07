@@ -78,7 +78,7 @@ const Header = () => {
               <img
                 src="/moto/nuova/logo.png"
                 alt="Logo"
-                className="h-8 sm:h-10 xl:h-11 w-auto object-contain"
+                className="h-8 sm:h-10 xl:h-14 min-[3800px]:h-18 w-auto object-contain"
               />
             </Link>
 
@@ -105,8 +105,8 @@ const Header = () => {
 
             {/* Right Action: Language */}
             <div className="hidden xl:flex items-center shrink-0 gap-2 cursor-pointer hover:opacity-80 transition-opacity">
-              <span className="text-xl">🇬🇧</span>
-              <ChevronDown className="w-4 h-4 text-white" strokeWidth={2} />
+              <h2 className="text-xl min-[3800px]:text-2xl">🇬🇧</h2>
+              <ChevronDown className="w-5 h-5 text-white min-[3800px]:w-8 min-[3800px]:h-8" strokeWidth={2} />
             </div>
 
             {/* Mobile Menu Toggle Button */}

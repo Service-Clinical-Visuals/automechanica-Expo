@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="w-full lg:z-60 mt-0 h-screen pointer-events-none relative overflow-hidden flex flex-col justify-end pb-[6%] md:pb-[5%] "
+      className="w-full lg:z-60 mt-0 h-screen pointer-events-none relative overflow-hidden flex flex-col justify-end pb-[6%] md:pb-[10%] "
     >
       {/* Background Video using DynamicVideoPlayer */}
       <div className="absolute inset-0 z-0 pointer-events-none">
@@ -17,8 +17,6 @@ const Hero = () => {
           className="absolute inset-0 w-full h-full object-cover pointer-events-none z-0"
           type="banner"
         />
-        {/* Subtle Dark Overlay */}
-        <div className="absolute inset-0 bg-black/30 z-10" />
       </div>
 
       {/* Content Container */}
@@ -44,10 +42,6 @@ const Hero = () => {
           >
             Decades of braking expertise delivering reliable and efficient performance.
           </Typography>
-
-          <div className="pt-2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-            <Button text="PRODUCTS" href="#products" />
-          </div>
         </div>
       </div>
     </section>
