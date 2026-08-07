@@ -4,10 +4,11 @@ import React from "react";
 import Typography from "./Typography";
 import Button from "./Button";
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+import { ArrowRight } from "lucide-react";
 
-export default function ValveCoverGasket() {
+export default function ProductLineup() {
   return (
-    <section className="w-full py-16 lg:py-20 bg-white overflow-hidden" id="product-lineup">
+    <section className="w-full py-16 lg:py-20 bg-[#F2F2F280] overflow-hidden" id="product-lineup">
       <div className="custom-container">
         
         <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 lg:gap-12 xl:gap-16 items-center">
@@ -42,27 +43,21 @@ export default function ValveCoverGasket() {
             {/* Bullet Points with Red Arrows */}
             <div className="flex flex-col gap-3 font-secondary pt-1">
               <div className="flex items-start gap-2.5">
-                <span className="text-[var(--color-primary)] font-bold text-base leading-snug select-none">
-                  →
-                </span>
+                <ArrowRight className="w-4 h-4 text-[var(--color-primary)] shrink-0 mt-1" />
                 <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                   Broad coverage of steering, suspension, and chassis components worldwide
                 </p>
               </div>
 
               <div className="flex items-start gap-2.5">
-                <span className="text-[var(--color-primary)] font-bold text-base leading-snug select-none">
-                  →
-                </span>
+                <ArrowRight className="w-4 h-4 text-[var(--color-primary)] shrink-0 mt-1" />
                 <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                   Manufactured with precision for accurate fitment and long-term reliability
                 </p>
               </div>
 
               <div className="flex items-start gap-2.5">
-                <span className="text-[var(--color-primary)] font-bold text-base leading-snug select-none">
-                  →
-                </span>
+                <ArrowRight className="w-4 h-4 text-[var(--color-primary)] shrink-0 mt-1" />
                 <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                   Suitable for diverse vehicle segments across global aftermarket markets
                 </p>

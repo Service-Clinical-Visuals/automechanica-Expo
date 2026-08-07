@@ -4,8 +4,9 @@ import React from "react";
 import Typography from "./Typography";
 import Button from "./Button";
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+import { ArrowRight } from "lucide-react";
 
-export default function BreakPads() {
+export default function BrakePads() {
   return (
     <section className="w-full py-16 lg:py-20 bg-[#F2F2F280] overflow-hidden" id="brake-pads">
       <div className="custom-container">
@@ -42,18 +43,14 @@ export default function BreakPads() {
             {/* Bullet Points with Red Arrows */}
             <div className="flex flex-col gap-3 font-secondary pt-1">
               <div className="flex items-start gap-2.5">
-                <span className="text-[var(--color-primary)] font-bold text-base leading-snug select-none">
-                  →
-                </span>
+                <ArrowRight className="w-4 h-4 text-[var(--color-primary)] shrink-0 mt-1" />
                 <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                   Advanced friction materials ensure consistent braking performance and long-lasting durability
                 </p>
               </div>
 
               <div className="flex items-start gap-2.5">
-                <span className="text-[var(--color-primary)] font-bold text-base leading-snug select-none">
-                  →
-                </span>
+                <ArrowRight className="w-4 h-4 text-[var(--color-primary)] shrink-0 mt-1" />
                 <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                   Designed to minimize noise, vibration &amp; uneven wear during braking operations
                 </p>

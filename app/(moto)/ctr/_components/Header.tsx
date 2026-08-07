@@ -1,12 +1,28 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Search, Menu, X } from "lucide-react";
 
 export default function Header() {
+  const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 60) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+        setIsMobileMenuOpen(false);
+      }
+    };
+
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const navLinks = [
     { name: "Home", href: "#", active: true },
@@ -17,7 +33,13 @@ export default function Header() {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 w-full bg-[var(--color-primary)] shadow-md transition-all duration-300">
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 w-full bg-[var(--color-primary)] shadow-md transition-all duration-500 ease-in-out transform ${
+        isScrolled
+          ? "translate-y-0 opacity-100 pointer-events-auto"
+          : "-translate-y-full opacity-0 pointer-events-none"
+      }`}
+    >
       <div className="custom-container flex items-center justify-between py-3.5 sm:py-4 xl:py-6">
         {/* CTR Logo */}
         <Link href="#" className="flex-shrink-0 inline-flex items-center select-none h-7 sm:h-9 md:h-10 w-auto">
