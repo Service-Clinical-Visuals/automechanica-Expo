@@ -14,8 +14,6 @@ import Complete from "./_components/Complete";
 export default function MeylePage() {
   return (
     <div className="min-h-screen bg-[var(--color-background)] text-[var(--color-secondary)] overflow-x-hidden font-urbanist">
-      <SmoothAOS />
-
       <Header />
 
       <main className="relative flex flex-col">

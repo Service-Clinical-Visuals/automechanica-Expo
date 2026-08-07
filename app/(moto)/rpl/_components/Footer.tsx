@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className="w-full flex flex-col bg-white border-t border-gray-100">
 
       {/* Top Section - Links and Info */}
-      <div className="custom-container py-16 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-12 gap-12 xl:gap-8">
+      <div className="custom-container py-16 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-12 gap-12 xl:gap-8" data-aos="fade-up">
 
         {/* Logo & Intro */}
         <div className="flex flex-col gap-6 xl:col-span-4">
@@ -75,7 +75,7 @@ const Footer = () => {
       <div className="w-full h-px bg-gray-200"></div>
 
       {/* Middle Section - Social & Newsletter */}
-      <div className="custom-container py-10 flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+      <div className="custom-container py-10 flex flex-col md:flex-row justify-between items-start md:items-center gap-8" data-aos="fade-up" data-aos-delay="100">
 
         {/* Social */}
         <div className="flex flex-col gap-4">
@@ -110,7 +110,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Section - Copyright & Payment Icons */}
-      <div className="w-full bg-primary py-8 min-[3800px]:py-16 mt-auto">
+      <div className="w-full bg-primary py-8 min-[3800px]:py-16 mt-auto" >
         <div className="custom-container flex flex-col lg:flex-row items-center justify-between gap-8 text-white">
 
           {/* Partners / Certificates */}
