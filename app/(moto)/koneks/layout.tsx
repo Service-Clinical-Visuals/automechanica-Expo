@@ -5,7 +5,6 @@ import SmoothAOS from "./_components/SmoothAOS";
 
 export const metadata: Metadata = {
   title: "Koneks",
-  description: "Ampro Automotive Parts",
 };
 
 export default function KoneksLayout({
