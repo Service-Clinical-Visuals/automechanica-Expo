@@ -5,7 +5,7 @@ import Button from "./Button";
 
 export default function Banner() {
   return (
-    <section className="relative w-full pt-[110px] md:pt-[120px] lg:pt-[140px] pb-8 lg:pb-12" data-aos="fade-up">
+    <section className="relative w-full pt-[110px] md:pt-[120px] lg:pt-[120px] min-[3800px]:pt-[140px] pb-8 lg:pb-12" data-aos="fade-up">
       {/* Extended Video Background */}
       <div className="custom-container relative">
         <div className="relative overflow-hidden border border-white/30 w-full h-screen rounded-2xl md:rounded-[2rem] shadow-xl" data-aos="zoom-in" data-aos-delay="100">
@@ -18,7 +18,7 @@ export default function Banner() {
               <Typography variant="h1" color="white" className="leading-tight mb-4">
                 Driving Engine Performance with Precision
               </Typography>
-              <Typography variant="p" color="white" className=" mb-8 max-w-[70%] xl:max-w-[50%] leading-relaxed">
+              <Typography variant="p" color="white" className=" mb-8 max-w-[70%] xl:max-w-[40%] leading-relaxed">
                 KONEKS delivers precision-engineered engine components trusted for quality, durability, and reliable performance worldwide.
               </Typography>
               <Button text="Discover More" href="#discover" showIcon={true} />

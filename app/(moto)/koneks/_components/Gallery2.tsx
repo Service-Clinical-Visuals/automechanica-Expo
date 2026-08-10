@@ -31,7 +31,7 @@ export default function Gallery2() {
       <div className="custom-container relative z-10 flex flex-col gap-10 min-[3800px]:gap-14">
 
         {/* Header Block */}
-        <div className="flex flex-col items-center text-center lg:max-w-[80%] mx-auto" data-aos="fade-up">
+        <div className="flex flex-col items-center text-center lg:max-w-[65%] mx-auto" data-aos="fade-up">
           <Typography variant="h2" color="white" className="font-semibold mb-6">
             Our Gallery
           </Typography>

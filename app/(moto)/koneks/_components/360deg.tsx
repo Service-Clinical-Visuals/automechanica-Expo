@@ -12,7 +12,7 @@ export default function Deg360() {
 
         {/* Header Block */}
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-6 border-b border-white/40 pb-8" data-aos="fade-up">
-          <div className="flex flex-col gap-4 lg:w-3/4 order-1">
+          <div className="flex flex-col gap-4 xl:max-w-[70%] order-1">
             <Typography variant="h2" color="white" className="font-semibold">
               Explore KONEKS Pistons & Piston Rings In 360°
             </Typography>

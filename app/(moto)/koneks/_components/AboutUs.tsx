@@ -9,11 +9,11 @@ export default function AboutUs() {
       <div className="custom-container flex flex-col gap-10 lg:gap-14 items-center">
 
         {/* Header Block: Title and Text centered */}
-        <div className="flex flex-col items-center text-center xl:max-w-[80%] mx-auto" data-aos="fade-up">
+        <div className="flex flex-col items-center text-center xl:max-w-[70%] mx-auto" data-aos="fade-up">
           <Typography variant="h2" color="white" className="font-semibold mb-6">
             About KONEKS
           </Typography>
-          <Typography variant="p" color="white" className="leading-relaxed">
+          <Typography variant="p" color="white" className="leading-relaxed ">
             KONEKS, who launched its business in 1992, manufactures liners, pistons and piston pins for engines in a 10.000 m2 closed and 30.000 m2 open area facility. 9 engineers, 15 technician and 221 employees serve Koneks customers in a professional manner. Konek's manufacturing line adopted latest technology with its Japanese, German, Italian and Taiwanese origin machines. Quality control is done with the latest technology precision machines in order to achieve 100% customer satisfaction.
           </Typography>
         </div>

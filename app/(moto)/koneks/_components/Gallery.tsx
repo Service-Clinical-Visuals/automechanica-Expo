@@ -22,7 +22,7 @@ export default function Gallery() {
       <div className="custom-container flex flex-col items-center gap-10 min-[3800px]:gap-14">
 
         {/* Header Block */}
-        <div className="flex flex-col items-center text-center max-w-[70%] w-full" data-aos="fade-up">
+        <div className="flex flex-col items-center text-center max-w-[656%] w-full" data-aos="fade-up">
           <Typography variant="h2" color="white" className="font-semibold mb-6">
             Our Gallery
           </Typography>

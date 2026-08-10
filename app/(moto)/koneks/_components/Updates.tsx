@@ -25,7 +25,7 @@ export default function Updates() {
 
         {/* Header Block */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 border-b border-white/40 pb-8 lg:pb-12" data-aos="fade-up">
-          <div className="flex flex-col gap-4 lg:w-3/4">
+          <div className="flex flex-col gap-4 xl:max-w-[65%]">
             <Typography variant="h2" color="white" className="font-semibold leading-tight">
               Certified Quality. Trusted Excellence.
             </Typography>

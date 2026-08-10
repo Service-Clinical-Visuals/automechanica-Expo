@@ -51,16 +51,16 @@ export default function Header() {
         }`}
     >
       {/* Content Layer */}
-      <div className={`custom-container flex items-center justify-between transition-all duration-300 ${isScrolled
+      <div className={`relative custom-container flex items-center justify-between transition-all duration-300 ${isScrolled
         ? "px-4 lg:px-0 border border-transparent"
         : "rounded-[1.5rem] border border-white/30  bg-[#171717]/80 backdrop-blur-sm px-6 lg:px-8 py-3"
         }`}>
 
         {/* Logo Area */}
-        <div className="flex-shrink-0 flex items-center w-[45%] sm:w-[35%] md:w-[25%] lg:w-[20%] xl:w-[15%]">
-          <Link href="#" className="w-full inline-block">
-            <div className="bg-primary px-1 py-0.5 rounded-2xl inline-block w-fit">
-              <img src="/moto/koneks/logo2.png" alt="ET Engine Logo" className="w-[70%] items-center justify-center mx-auto  h-auto object-contain" />
+        <div className="flex-shrink-0 flex items-center w-auto">
+          <Link href="#" className="inline-block">
+            <div className="bg-primary px-5 py-2 md:px-7 md:py-2.5 rounded-full flex items-center justify-center shadow-sm w-fit">
+              <img src="/moto/koneks/logo2.png" alt="KONEKS Logo" className="w-24 sm:w-28 md:w-32 lg:w-36 h-auto object-contain" />
             </div>
           </Link>
         </div>
@@ -102,31 +102,29 @@ export default function Header() {
             )}
           </button>
         </div>
+        {/* Mobile Navigation Menu */}
+        {isMobileMenuOpen && (
+          <div className="lg:hidden absolute left-0 right-0 top-full mt-4 w-full bg-[#171717]/95 backdrop-blur-xl border border-white/20 rounded-[1.5rem] flex flex-col z-50 overflow-hidden shadow-2xl transition-all duration-300">
+            <nav className="flex flex-col px-6 sm:px-8 py-4 w-full">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.name}
+                  href={link.href}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="block py-4 border-b border-white/10 last:border-b-0"
+                >
+                  <Typography variant="span" color="white" className="navbar font-medium">
+                    {link.name}
+                  </Typography>
+                </Link>
+              ))}
+              <div className="pt-6 pb-4 flex flex-col w-full">
+                <Button text="Explore Products" href="#" showIcon={true} />
+              </div>
+            </nav>
+          </div>
+        )}
       </div>
-
-
-      {/* Mobile Navigation Menu */}
-      {isMobileMenuOpen && (
-        <div className={`lg:hidden absolute left-0 w-full bg-[#171717] border-b border-gray-800 flex flex-col z-50 overflow-hidden transition-all duration-300 top-full`}>
-          <nav className="flex flex-col py-4 custom-container">
-            {navLinks.map((link) => (
-              <Link
-                key={link.name}
-                href={link.href}
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="block py-4 border-b border-gray-800"
-              >
-                <Typography variant="span" color="white" className="navbar">
-                  {link.name}
-                </Typography>
-              </Link>
-            ))}
-            <div className="py-6 flex flex-col gap-4 items-start">
-              <Button text="Explore Products" href="#" showIcon={true} />
-            </div>
-          </nav>
-        </div>
-      )}
     </header>
   );
 }

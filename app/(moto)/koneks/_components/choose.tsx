@@ -23,7 +23,7 @@ export default function Choose() {
     <section className="w-full py-16 bg-secondary overflow-hidden">
       <div className="custom-container">
 
-        <div className="grid grid-cols-1 xl:grid-cols-12 gap-10 xl:gap-14">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-10 min-[3800px]:gap-14">
 
           {/* Mobile Heading */}
           <div className="xl:hidden order-1 border-b border-white/40 pb-4" data-aos="fade-down">
@@ -33,12 +33,12 @@ export default function Choose() {
           </div>
 
           {/* Left: Video */}
-          <div className="xl:col-span-8 order-2 xl:order-1 aspect-video relative overflow-hidden flex items-center justify-center  rounded-3xl" data-aos="fade-right">
+          <div className="xl:col-span-9 order-2 xl:order-1 aspect-video relative overflow-hidden flex items-center justify-center  rounded-3xl" data-aos="fade-right">
             <DynamicVideoPlayer type="short-2" className="absolute top-0 left-0 w-full h-full object-cover" />
           </div>
 
           {/* Right: Key Features */}
-          <div className="xl:col-span-4 order-3 xl:order-2 flex flex-col justify-center" data-aos="fade-left">
+          <div className="xl:col-span-3 order-3 xl:order-2 flex flex-col justify-center" data-aos="fade-left">
             <div className="hidden xl:block border-b border-white/40 pb-4 mb-6">
               <Typography variant="h2" color="white" className="font-semibold">
                 Why Choose KONEKS?

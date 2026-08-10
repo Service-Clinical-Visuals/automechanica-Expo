@@ -11,13 +11,13 @@ export default function Footer() {
       <div className="custom-container flex flex-col gap-12 lg:gap-20">
 
         {/* Top Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-12 gap-10 lg:gap-8 xl:gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-12 gap-x-4 gap-y-10 lg:gap-8 xl:gap-4">
 
           {/* Column 1: Logo & Description (span 3 in 12 cols) */}
-          <div className="flex flex-col gap-6 xl:col-span-3" data-aos="fade-up" data-aos-delay="100">
-            <Link href="#" className="w-full inline-block">
-              <div className="bg-primary rounded-xl px-4 py-2 inline-block w-fit">
-                <img src="/moto/koneks/logo2.png" alt="KONEKS Logo" className="w-[60%] sm:w-[50%] md:w-[45%] lg:w-[65%] xl:w-[70%] h-auto object-contain" />
+          <div className="flex flex-col gap-6 col-span-2 sm:col-span-1 xl:col-span-3" data-aos="fade-up" data-aos-delay="100">
+            <Link href="#" className="inline-block">
+              <div className="bg-primary px-5 py-2 md:px-7 md:py-2.5 rounded-full flex items-center justify-center shadow-sm w-fit">
+                <img src="/moto/koneks/logo2.png" alt="KONEKS Logo" className="w-28 sm:w-32 md:w-36 lg:w-40 h-auto object-contain" />
               </div>
             </Link>
             <Typography variant="footer-body" color="white" className="mt-2 leading-relaxed pr-4">
@@ -26,7 +26,7 @@ export default function Footer() {
           </div>
 
           {/* Column 2: Corporate (span 2 in 12 cols) */}
-          <div className="flex flex-col gap-4 lg:pl-8 xl:col-span-2" data-aos="fade-up" data-aos-delay="200">
+          <div className="flex flex-col gap-4 lg:pl-8 col-span-1 sm:col-span-1 xl:col-span-2" data-aos="fade-up" data-aos-delay="200">
             <Typography variant="footer-heading" color="white" className="mb-2">
               Corporate
             </Typography>
@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
 
           {/* Column 3: Products (span 2 in 12 cols) */}
-          <div className="flex flex-col gap-4 xl:col-span-2" data-aos="fade-up" data-aos-delay="300">
+          <div className="flex flex-col gap-4 col-span-1 sm:col-span-1 xl:col-span-2" data-aos="fade-up" data-aos-delay="300">
             <Typography variant="footer-heading" color="white" className="mb-2">
               Products
             </Typography>
@@ -69,7 +69,7 @@ export default function Footer() {
           </div>
 
           {/* Column 4: Contact Us (span 3 in 12 cols) */}
-          <div className="flex flex-col gap-4 xl:col-span-3" data-aos="fade-up" data-aos-delay="400">
+          <div className="flex flex-col gap-4 col-span-2 sm:col-span-1 xl:col-span-3" data-aos="fade-up" data-aos-delay="400">
             <Typography variant="footer-heading" color="white" className="mb-2">
               Contact Us
             </Typography>
@@ -104,7 +104,7 @@ export default function Footer() {
           </div>
 
           {/* Column 5: Social Media Links (span 2 in 12 cols) */}
-          <div className="flex flex-col gap-4 xl:col-span-2" data-aos="fade-up" data-aos-delay="500">
+          <div className="flex flex-col gap-4 col-span-2 sm:col-span-1 xl:col-span-2" data-aos="fade-up" data-aos-delay="500">
             <Typography variant="footer-heading" color="white" className="mb-2 whitespace-nowrap">
               Social Media Links
             </Typography>

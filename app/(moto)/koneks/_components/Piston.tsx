@@ -28,7 +28,7 @@ export default function Piston() {
 
         {/* Top Block */}
         <div className="flex flex-col xl:flex-row justify-between items-start xl:items-end gap-6 border-b border-white/40 pb-8" data-aos="fade-up">
-          <div className="flex flex-col gap-4 xl:w-2/3 order-1">
+          <div className="flex flex-col gap-4 xl:max-w-[60%] order-1">
             <Typography variant="h2" color="white" className="font-semibold">
               Piston & Piston Ring
             </Typography>
@@ -52,12 +52,12 @@ export default function Piston() {
           </div>
 
           {/* Left: Video */}
-          <div className="xl:col-span-8 order-2 xl:order-1 aspect-video relative overflow-hidden flex items-center justify-center " data-aos="fade-right">
+          <div className="xl:col-span-9 order-2 xl:order-1 aspect-video relative overflow-hidden flex items-center justify-center " data-aos="fade-right">
             <DynamicVideoPlayer type="short-1" className="absolute top-0 left-0 w-full h-full object-cover" />
           </div>
 
           {/* Right: Key Features */}
-          <div className="xl:col-span-4 order-3 xl:order-2 flex flex-col justify-center" data-aos="fade-left">
+          <div className="xl:col-span-3 order-3 xl:order-2 flex flex-col justify-center" data-aos="fade-left">
             <Typography variant="h3" color="white" className="hidden xl:block font-semibold mb-4">
               Precision Engine Performance By KONEKS
             </Typography>
