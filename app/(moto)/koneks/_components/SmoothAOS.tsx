@@ -8,15 +8,17 @@ import "aos/dist/aos.css";
 export default function SmoothAOS() {
   useEffect(() => {
     const lenis = new Lenis({
-      lerp: 0.08,
+      duration: 1.2,
+      easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
       smoothWheel: true,
+      syncTouch: true,
     });
 
     AOS.init({
       duration: 1000,
-      once: false,
-      mirror: true,
+      once: true,
       easing: "ease-in-out",
+      offset: 100,
     });
 
     function raf(time: number) {
@@ -25,11 +27,6 @@ export default function SmoothAOS() {
     }
 
     requestAnimationFrame(raf);
-
-    // 🔥 IMPORTANT: sync AOS with Lenis scroll
-    lenis.on("scroll", () => {
-      AOS.refresh(); // not refreshHard
-    });
 
     return () => {
       lenis.destroy();
