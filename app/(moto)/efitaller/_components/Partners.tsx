@@ -3,6 +3,11 @@
 import React from "react";
 import Button from "./Button";
 import { ArrowRight, ArrowLeft } from "lucide-react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 export default function Partners() {
   const categories = [
@@ -25,9 +30,15 @@ export default function Partners() {
       link: "#"
     },
     {
-      title: "Emissions",
-      image: "/moto/efitaller/partner4.png",
-      desc: "Approved gas analyzers and opacimeters.",
+      title: "ATF",
+      image: "/moto/efitaller/partner5.png",
+      desc: "ATF oil change and automatic transmission maintenance.",
+      link: "#"
+    },
+    {
+      title: "Batteries",
+      image: "/moto/efitaller/partner6.png",
+      desc: "Lead and lithium battery diagnostics and charging.",
       link: "#"
     }
   ];
@@ -51,61 +62,102 @@ export default function Partners() {
           </p>
         </div>
 
-        {/* Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-4 md:px-10 lg:px-20 mx-auto">
-          {categories.map((item, index) => (
-            <div key={index} className="bg-white border border-gray-200 rounded-lg overflow-hidden flex flex-col group transition-all hover:shadow-md pb-6" data-aos="fade-up" data-aos-delay={100 + (index * 100)}>
-              {/* Image Container */}
-              <div className="w-auto h-auto overflow-hidden p-2">
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  className="w-auto h-auto object-contain transition-transform duration-500 group-hover:scale-105"
-                  onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-50 flex items-center justify-center text-gray-400 rounded-md">Image</div>' }}
-                />
-              </div>
+        <style>{`
+          .partners-pagination {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+          }
+          .partners-pagination .swiper-pagination-bullet {
+            width: 8px;
+            height: 8px;
+            background-color: #e5e7eb !important; /* Tailwind gray-200 */
+            opacity: 1;
+            border-radius: 9999px;
+            transition: all 0.3s ease;
+            margin: 0 !important;
+            cursor: pointer;
+          }
+          .partners-pagination .swiper-pagination-bullet-active {
+            background-color: #C2D500 !important;
+          }
+          .partners-prev.swiper-button-disabled,
+          .partners-next.swiper-button-disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+          }
+        `}</style>
 
-              {/* Content */}
-              <div className="px-6 pt-4 flex flex-col flex-grow">
-                <h3 className="card-title text-[#404040] sora-font font-semibold mb-3">
-                  {item.title}
-                </h3>
-                <p className="text-[#404040] inter-font section-text leading-relaxed mb-4 flex-grow">
-                  {item.desc}
-                </p>
+        {/* Cards Slider */}
+        <div className="w-full px-4 md:px-10 mx-auto">
+          <Swiper
+            modules={[Autoplay, Navigation, Pagination]}
+            autoplay={{ delay: 3000, disableOnInteraction: false }}
+            navigation={{
+              nextEl: '.partners-next',
+              prevEl: '.partners-prev',
+            }}
+            pagination={{
+              el: '.partners-pagination',
+              clickable: true,
+            }}
+            breakpoints={{
+              320: { slidesPerView: 1, slidesPerGroup: 1, spaceBetween: 16 },
+              768: { slidesPerView: 2, slidesPerGroup: 2, spaceBetween: 24 },
+              1024: { slidesPerView: 3, slidesPerGroup: 3, spaceBetween: 24 },
+            }}
+            className="pb-4"
+          >
+            {categories.map((item, index) => (
+              <SwiperSlide key={index}>
+                <div className="bg-white border border-gray-200 rounded-lg overflow-hidden flex flex-col group transition-all hover:shadow-md pb-6" data-aos="fade-up" data-aos-delay={100 + (index * 100)}>
+                  {/* Image Container */}
+                  <div className="w-full h-auto aspect-square[3/2] overflow-hidden p-2">
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-50 flex items-center justify-center text-gray-400 rounded-md">Image</div>' }}
+                    />
+                  </div>
 
-                <div className="flex justify-end mt-auto">
-                  <a href={item.link} className="w-auto h-auto rounded-full bg-[#f4f7d9] flex items-center justify-center text-[#C2D500] hover:bg-[#C2D500] hover:text-white transition-colors">
-                    <img src="/moto/efitaller/arrow.png" alt="Read more" className="w-auto h-auto object-contain" />
-                  </a>
+                  {/* Content */}
+                  <div className="px-6 pt-4 flex flex-col flex-grow">
+                    <h3 className="card-title text-[#404040] sora-font font-semibold mb-3">
+                      {item.title}
+                    </h3>
+                    <p className="text-[#404040] inter-font section-text leading-relaxed mb-4 flex-grow">
+                      {item.desc}
+                    </p>
+
+                    <div className="flex justify-end mt-auto">
+                      <a href={item.link} className="w-auto h-auto rounded-full bg-[#f4f7d9] flex items-center justify-center text-[#C2D500] hover:bg-[#C2D500] hover:text-white transition-colors">
+                        <img src="/moto/efitaller/arrow.png" alt="Read more" className="w-auto h-auto object-contain" />
+                      </a>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-          ))}
+              </SwiperSlide>
+            ))}
+            {/* Placeholder slide to force the second page to only show 2 items on large screens */}
+            <SwiperSlide className="hidden lg:block invisible pointer-events-none" />
+          </Swiper>
         </div>
 
         {/* Pagination & Button */}
         <div className="flex flex-col items-center mt-12 gap-8">
           <div className="flex justify-center items-center gap-6">
-            <button className="text-[#C2D500] hover:text-[#a0af00] transition-colors" aria-label="Previous slide">
+            <button className="partners-prev text-[#C2D500] hover:text-[#a0af00] transition-colors" aria-label="Previous slide">
               <ArrowLeft size={18} strokeWidth={2.5} />
             </button>
 
-            <div className="flex gap-2">
-              <button className="w-2 h-2 rounded-full transition-colors duration-300 bg-[#C2D500]"></button>
-              <button className="w-2 h-2 rounded-full transition-colors duration-300 bg-gray-200"></button>
-              <button className="w-2 h-2 rounded-full transition-colors duration-300 bg-gray-200"></button>
-              <button className="w-2 h-2 rounded-full transition-colors duration-300 bg-gray-200"></button>
-            </div>
+            <div className="partners-pagination"></div>
 
-            <button className="text-[#C2D500] hover:text-[#a0af00] transition-colors" aria-label="Next slide">
+            <button className="partners-next text-[#C2D500] hover:text-[#a0af00] transition-colors" aria-label="Next slide">
               <ArrowRight size={18} strokeWidth={2.5} />
             </button>
           </div>
-
-          <Button href="#" variant="outline" className="btn-text font-semibold">
-            View Full Products
-          </Button>
         </div>
 
       </div>

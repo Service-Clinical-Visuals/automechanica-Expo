@@ -68,8 +68,8 @@ export default function TechnicalSupport() {
         <div className="w-full" data-aos="fade-up" data-aos-delay="100">
           <Swiper
             modules={[Autoplay, Pagination]}
-            spaceBetween={0} 
-            slidesPerView={1} 
+            spaceBetween={0}
+            slidesPerView={1}
             centeredSlides={true}
             loop={true}
             speed={700}
@@ -77,19 +77,19 @@ export default function TechnicalSupport() {
             observer={true}
             observeParents={true}
             pagination={{ clickable: true }}
-            autoplay={{ 
-              delay: 3000, 
+            autoplay={{
+              delay: 3000,
               disableOnInteraction: false
             }}
             breakpoints={{
               640: { slidesPerView: 2 },
-              1024: { slidesPerView: 3 }, 
+              1024: { slidesPerView: 3 },
             }}
-            className="w-full pt-10 pb-16 custom-swiper-pagination"
+            className="w-full pt-10 pb-16"
           >
             {galleryImages.map((src, idx) => (
               <SwiperSlide key={`ts-slide-${idx}`} className="group">
-                <div className="flex items-center justify-center w-full h-full">
+                <div className="flex items-center justify-center w-full h-full  pb-25">
                   <div
                     className="w-[90%] aspect-square overflow-hidden border border-white/20 shadow-2xl relative bg-[#111] transition-transform duration-700 ease-in-out
                                scale-95 md:scale-90 group-[.swiper-slide-active]:scale-100 md:group-[.swiper-slide-active]:scale-[1.15]"

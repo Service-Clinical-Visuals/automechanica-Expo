@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { Phone, Mail, MapPin, Globe, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Phone, Mail, MapPin, Globe, Linkedin, Instagram } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="xl:col-span-4 flex flex-col gap-6 xl:pr-10" data-aos="fade-up">
             <Link href="#">
               <img
-                src="/moto/efitaller/logo.png"
+                src="/moto/efitaller/flogo.png"
                 alt="Efitaller Logo"
                 className="w-auto md:w-auto h-auto object-contain"
               />
@@ -91,7 +91,11 @@ export default function Footer() {
               <h4 className="card-title font-semibold sora-font">Follow Us On</h4>
               <div className="flex items-center gap-4">
                 <a href="#" className="text-white hover:text-[#C2D500] transition-colors"><Globe size={20} /></a>
-                <a href="#" className="text-white hover:text-[#C2D500] transition-colors"><Twitter size={20} /></a>
+                <a href="#" className="text-white hover:text-[#C2D500] transition-colors">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+                  </svg>
+                </a>
                 <a href="#" className="text-white hover:text-[#C2D500] transition-colors"><Linkedin size={20} /></a>
                 <a href="#" className="text-white hover:text-[#C2D500] transition-colors"><Instagram size={20} /></a>
               </div>
