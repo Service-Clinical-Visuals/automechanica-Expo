@@ -27,6 +27,7 @@ export const metadata: Metadata = {
   },
 };
 
+// Gunes motor
 export default function RootLayout({
   children,
 }: Readonly<{
