@@ -34,16 +34,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${oswald.variable} ${rubik.variable}`}>
-      <body>
-        <Smooth>
-          <Navbar />
-          <VideoProvider>
-          {children}
-          </VideoProvider>
-          <Footer />
-        </Smooth>
-      </body>
-    </html>
+    <div className={`gunesmotor-root ${oswald.variable} ${rubik.variable} min-h-screen bg-white font-sans antialiased overflow-x-hidden relative w-full`}>
+      <Smooth>
+        <Navbar />
+        <VideoProvider>
+        {children}
+        </VideoProvider>
+        <Footer />
+      </Smooth>
+    </div>
   );
 }
