@@ -14,22 +14,20 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default function AxiomLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className="font-poppins bg-white text-[#111111]">
-        <SmoothScrollProvider>
-          <VideoProvider>
-            <Header />
-            {children}
-            <Footer />
-          </VideoProvider>
-        </SmoothScrollProvider>
-      </body>
-    </html>
+    <div className="font-poppins bg-white text-[#111111] min-h-screen relative w-full overflow-x-hidden">
+      <SmoothScrollProvider>
+        <VideoProvider>
+          <Header />
+          {children}
+          <Footer />
+        </VideoProvider>
+      </SmoothScrollProvider>
+    </div>
   );
 }
