@@ -26,7 +26,7 @@ export default function Deg360() {
         </div>
 
         {/* 360 Video Player */}
-        <div className="w-full aspect-video max-w-[70%] mx-auto rounded-3xl order-3 overflow-hidden relative" data-aos="zoom-in" data-aos-delay="200">
+        <div className="w-full aspect-video xl:max-w-[70%] mx-auto rounded-3xl order-3 overflow-hidden relative" data-aos="zoom-in" data-aos-delay="200">
           <DynamicVideoPlayer type="360" className="absolute top-0 left-0 w-full h-full object-cover" />
         </div>
 

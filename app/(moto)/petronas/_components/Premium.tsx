@@ -23,7 +23,7 @@ export default function Premium() {
         </div>
 
         {/* 360 Video Player */}
-        <div className="w-full aspect-video mx-auto rounded-2xl  order-3 overflow-hidden relative  max-w-[75%]" data-aos="zoom-in" data-aos-delay="200">
+        <div className="w-full aspect-video mx-auto rounded-2xl  order-3 overflow-hidden relative  xl:max-w-[75%]" data-aos="zoom-in" data-aos-delay="200">
           <DynamicVideoPlayer type="short-1" className="absolute top-0 left-0 w-full h-full object-cover" />
         </div>
 

@@ -31,7 +31,7 @@ const Button = ({
 
   const content = (
     <div className={`flex items-center w-max group ${className}`}>
-      <div className={`flex items-center justify-center ${bgStyles} rounded-tr-[1.5rem] rounded-bl-[1.5rem] shadow-sm relative px-6 py-2.25  min-[3800px]:px-24 min-[3800px]:py-10 gap-2 md:gap-3 min-[2000px]:gap-4 min-[3800px]:gap-6`}>
+      <div className={`flex items-center justify-center ${bgStyles} rounded-tr-[1.5rem] rounded-bl-[1.5rem] shadow-sm relative px-6 py-2.25  min-[3800px]:px-7 min-[3800px]:py-3 gap-2 md:gap-3 min-[2000px]:gap-4 min-[3800px]:gap-6`}>
         <div className="button whitespace-nowrap text-white">{text}</div>
         {showIcon && (
           <Icon className="text-white group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300 w-5 h-5 md:w-6 md:h-6 min-[2000px]:w-8 min-[2000px]:h-8 min-[3800px]:w-14 min-[3800px]:h-14" strokeWidth={2.5} />

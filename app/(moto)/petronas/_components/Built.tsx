@@ -23,7 +23,7 @@ export default function Built() {
     <section className="w-full py-16 bg-transparent overflow-hidden">
       <div className="custom-container">
 
-        <div className="grid grid-cols-1 xl:grid-cols-12 gap-10 min-[3800px]:gap-14">
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-10 items-center min-[3800px]:gap-14">
 
           {/* Left: Video */}
           <div className="xl:col-span-9 order-2 xl:order-1 aspect-video relative overflow-hidden flex items-center justify-center rounded-3xl" data-aos="fade-right">
