@@ -12,7 +12,6 @@ const chakraPetch = Chakra_Petch({
 
 const mulish = Mulish({
   subsets: ["latin"],
-  weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
   variable: "--font-mulish",
 });
 
