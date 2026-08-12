@@ -1,17 +1,20 @@
 import React from "react";
 import "./global.css";
 import { VideoProvider } from "@/app/_context/VideoContext";
-import { Anton, Overpass } from 'next/font/google';
+import localFont from "next/font/local";
 
-const anton = Anton({ 
-  weight: '400',
-  subsets: ['latin'],
-  variable: '--font-anton',
+const anton = localFont({
+  src: [
+    { path: "../../../fonts/anton/400.woff2", weight: "400", style: "normal" },
+  ],
+  variable: "--font-anton",
 });
 
-const overpass = Overpass({
-  subsets: ['latin'],
-  variable: '--font-overpass',
+const overpass = localFont({
+  src: [
+    { path: "../../../fonts/overpass/400.woff2", weight: "400", style: "normal" },
+  ],
+  variable: "--font-overpass",
 });
 
 export const metadata = {

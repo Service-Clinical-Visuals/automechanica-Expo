@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
-import { Amaranth } from "next/font/google";
+import localFont from "next/font/local";
 import "./global.css";
 import { VideoProvider } from "@/app/_context/VideoContext";
 
-const amaranth = Amaranth({
-  subsets: ["latin"],
-  weight: ["400", "700"],
+const amaranth = localFont({
+  src: [
+    { path: "../../../fonts/amaranth/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/amaranth/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-amaranth",
   display: "swap",
 });

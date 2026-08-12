@@ -1,17 +1,25 @@
 import type { Metadata } from "next";
-import { DM_Sans, Orbitron } from "next/font/google";
+import localFont from "next/font/local";
 import "./global.css";
 import { VideoProvider } from "@/app/_context/VideoContext";
 
-const orbitron = Orbitron({
-  subsets: ["latin"],
+const orbitron = localFont({
+  src: [
+    { path: "../../../fonts/orbitron/400.woff2", weight: "400", style: "normal" },
+  ],
   variable: "--font-orbitron",
   display: "swap",
 });
 
-const dmSans = DM_Sans({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
+const dmSans = localFont({
+  src: [
+    { path: "../../../fonts/dm-sans/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/dm-sans/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/dm-sans/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/dm-sans/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/dm-sans/700.woff2", weight: "700", style: "normal" },
+    { path: "../../../fonts/dm-sans/800.woff2", weight: "800", style: "normal" },
+  ],
   variable: "--font-dm-sans",
   display: "swap",
 });

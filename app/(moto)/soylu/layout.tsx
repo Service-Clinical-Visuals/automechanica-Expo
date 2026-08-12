@@ -1,11 +1,16 @@
 import type { Metadata } from "next";
 import "./global.css";
-import { Oswald, Oxanium } from "next/font/google";
+import localFont from "next/font/local";
 import { VideoProvider } from "@/app/_context/VideoContext";
 
-const oswald = Oswald({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+const oswald = localFont({
+  src: [
+    { path: "../../../fonts/oswald/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/oswald/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/oswald/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/oswald/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/oswald/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-oswald",
   display: "swap",
 });

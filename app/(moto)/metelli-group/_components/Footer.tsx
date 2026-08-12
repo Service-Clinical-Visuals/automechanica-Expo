@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import Typography from "./Typography";
 import { MapPin, Phone, Mail, ArrowRight, Linkedin, Facebook, Instagram, Youtube } from "lucide-react";
-import { Oswald } from "next/font/google";
 
 export default function Footer() {
   return (

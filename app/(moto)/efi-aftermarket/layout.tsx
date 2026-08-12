@@ -2,18 +2,28 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { VideoProvider } from "@/app/_context/VideoContext";
 import SmoothAOS from "./_components/SmoothAOS";
-import { Exo_2, Poppins } from "next/font/google";
+import localFont from "next/font/local";
 
-const exo2 = Exo_2({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+const exo2 = localFont({
+  src: [
+    { path: "../../../fonts/exo-2/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/exo-2/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/exo-2/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/exo-2/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/exo-2/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-exo",
   display: "swap",
 });
 
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+const poppins = localFont({
+  src: [
+    { path: "../../../fonts/poppins/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/poppins/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/poppins/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/poppins/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/poppins/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-poppins",
   display: "swap",
 });

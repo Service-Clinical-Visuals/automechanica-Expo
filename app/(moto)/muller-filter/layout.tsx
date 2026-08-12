@@ -1,18 +1,31 @@
 import type { Metadata } from "next";
-import { Chakra_Petch, Mulish } from "next/font/google";
+import localFont from "next/font/local";
 import "./global.css";
 import { VideoProvider } from "@/app/_context/VideoContext";
 import AOSInit from "./_components/AOSInit";
 
-const chakraPetch = Chakra_Petch({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+const chakraPetch = localFont({
+  src: [
+    { path: "../../../fonts/chakra-petch/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/chakra-petch/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/chakra-petch/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/chakra-petch/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/chakra-petch/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-chakra-petch",
 });
 
-const mulish = Mulish({
-  subsets: ["latin"],
-  weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
+const mulish = localFont({
+  src: [
+    { path: "../../../fonts/mulish/200.woff2", weight: "200", style: "normal" },
+    { path: "../../../fonts/mulish/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/mulish/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/mulish/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/mulish/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/mulish/700.woff2", weight: "700", style: "normal" },
+    { path: "../../../fonts/mulish/800.woff2", weight: "800", style: "normal" },
+    { path: "../../../fonts/mulish/900.woff2", weight: "900", style: "normal" },
+  ],
   variable: "--font-mulish",
 });
 

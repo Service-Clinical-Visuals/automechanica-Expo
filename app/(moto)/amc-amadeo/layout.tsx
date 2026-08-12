@@ -1,19 +1,29 @@
 import type { Metadata } from "next";
-import { Oswald, Rubik } from "next/font/google";
+import localFont from "next/font/local";
 import { VideoProvider } from "@/app/_context/VideoContext";
 
 import "./global.css";
 
-const oswald = Oswald({ 
-  subsets: ["latin"],
-  weight: ['300', '400', '500', '600', '700'],
-  variable: "--font-oswald" 
+const oswald = localFont({
+  src: [
+    { path: "../../../fonts/oswald/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/oswald/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/oswald/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/oswald/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/oswald/700.woff2", weight: "700", style: "normal" },
+  ],
+  variable: "--font-oswald",
 });
 
-const rubik = Rubik({ 
-  subsets: ["latin"],
-  weight: ['300', '400', '500', '600', '700'],
-  variable: "--font-rubik" 
+const rubik = localFont({
+  src: [
+    { path: "../../../fonts/rubik/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/rubik/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/rubik/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/rubik/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/rubik/700.woff2", weight: "700", style: "normal" },
+  ],
+  variable: "--font-rubik",
 });
 
 export const metadata: Metadata = {

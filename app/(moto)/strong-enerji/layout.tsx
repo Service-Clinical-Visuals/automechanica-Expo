@@ -1,16 +1,33 @@
 import "./global.css";
 import type { Metadata } from "next";
-import { Oswald, DM_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import { VideoProvider } from "@/app/_context/VideoContext";
 
-const oswald = Oswald({
-  subsets: ["latin"],
+const oswald = localFont({
+  src: [
+    { path: "../../../fonts/oswald/200.woff2", weight: "200", style: "normal" },
+    { path: "../../../fonts/oswald/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/oswald/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/oswald/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/oswald/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/oswald/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-oswald",
   display: "swap",
 });
 
-const dmSans = DM_Sans({
-  subsets: ["latin"],
+const dmSans = localFont({
+  src: [
+    { path: "../../../fonts/dm-sans/100.woff2", weight: "100", style: "normal" },
+    { path: "../../../fonts/dm-sans/200.woff2", weight: "200", style: "normal" },
+    { path: "../../../fonts/dm-sans/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/dm-sans/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/dm-sans/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/dm-sans/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/dm-sans/700.woff2", weight: "700", style: "normal" },
+    { path: "../../../fonts/dm-sans/800.woff2", weight: "800", style: "normal" },
+    { path: "../../../fonts/dm-sans/900.woff2", weight: "900", style: "normal" },
+  ],
   variable: "--font-dm-sans",
   display: "swap",
 });

@@ -1,19 +1,28 @@
 import type { Metadata } from "next";
-import { Manrope, Montserrat } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { VideoProvider } from "../../_context/VideoContext";
 import AosInit from "./_components/AosInit";
 
-const fontHeading = Montserrat({
+const fontHeading = localFont({
+  src: [
+    { path: "../../../fonts/montserrat/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/montserrat/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/montserrat/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/montserrat/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-montserrat",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
 });
 
-const fontBody = Manrope({
-  variable: "--font-manrope",  
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+const fontBody = localFont({
+  src: [
+    { path: "../../../fonts/manrope/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/manrope/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/manrope/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/manrope/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/manrope/700.woff2", weight: "700", style: "normal" },
+  ],
+  variable: "--font-manrope",
 });
 
 export const metadata: Metadata = {

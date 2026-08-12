@@ -1,18 +1,28 @@
 import type { Metadata } from "next";
-import { Rajdhani, Outfit } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { VideoProvider } from "@/app/_context/VideoContext";
 
-const rajdhani = Rajdhani({
+const rajdhani = localFont({
+  src: [
+    { path: "../../../fonts/rajdhani/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/rajdhani/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/rajdhani/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/rajdhani/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/rajdhani/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-rajdhani",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
 });
 
-const outfit = Outfit({
+const outfit = localFont({
+  src: [
+    { path: "../../../fonts/outfit/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/outfit/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/outfit/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/outfit/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/outfit/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-outfit",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
 });
 
 import SmoothAOS from "./_components/SmoothAOS";

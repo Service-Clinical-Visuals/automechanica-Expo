@@ -1,18 +1,24 @@
 import type { Metadata } from "next";
 import "./global.css";
-import { ADLaM_Display, Inter } from "next/font/google";
+import localFont from "next/font/local";
 import { VideoProvider } from "@/app/_context/VideoContext"; // Referencing context setup similar to mannol
 
-const adlam = ADLaM_Display({
-  subsets: ["latin"],
-  weight: ["400"],
+const adlam = localFont({
+  src: [
+    { path: "../../../fonts/adlam-display/400.woff2", weight: "400", style: "normal" },
+  ],
   variable: "--font-adlam",
   display: "swap",
 });
 
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+const inter = localFont({
+  src: [
+    { path: "../../../fonts/inter/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/inter/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/inter/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/inter/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/inter/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-inter",
   display: "swap",
 });

@@ -1,18 +1,24 @@
 import type { Metadata } from "next";
-import { Aldrich, Akshar } from "next/font/google";
+import localFont from "next/font/local";
 import "./global.css";
 import { VideoProvider } from "@/app/_context/VideoContext";
 
-const aldrich = Aldrich({
-  subsets: ["latin"],
-  weight: ["400"],
+const aldrich = localFont({
+  src: [
+    { path: "../../../fonts/aldrich/400.woff2", weight: "400", style: "normal" },
+  ],
   variable: "--font-aldrich",
   display: "swap",
 });
 
-const akshar = Akshar({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+const akshar = localFont({
+  src: [
+    { path: "../../../fonts/akshar/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/akshar/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/akshar/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/akshar/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/akshar/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-akshar",
   display: "swap",
 });

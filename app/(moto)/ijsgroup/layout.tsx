@@ -1,22 +1,45 @@
 import type { Metadata } from "next";
 import "./global.css";
-import { Oswald, Sora, Open_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import { VideoProvider } from "@/app/_context/VideoContext";
 
-const oswald = Oswald({
-  subsets: ["latin"],
+const oswald = localFont({
+  src: [
+    { path: "../../../fonts/oswald/200.woff2", weight: "200", style: "normal" },
+    { path: "../../../fonts/oswald/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/oswald/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/oswald/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/oswald/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/oswald/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-oswald",
   display: "swap",
 });
 
-const sora = Sora({
-  subsets: ["latin"],
+const sora = localFont({
+  src: [
+    { path: "../../../fonts/sora/100.woff2", weight: "100", style: "normal" },
+    { path: "../../../fonts/sora/200.woff2", weight: "200", style: "normal" },
+    { path: "../../../fonts/sora/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/sora/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/sora/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/sora/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/sora/700.woff2", weight: "700", style: "normal" },
+    { path: "../../../fonts/sora/800.woff2", weight: "800", style: "normal" },
+  ],
   variable: "--font-sora",
   display: "swap",
 });
 
-const openSans = Open_Sans({
-  subsets: ["latin"],
+const openSans = localFont({
+  src: [
+    { path: "../../../fonts/open-sans/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/open-sans/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/open-sans/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/open-sans/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/open-sans/700.woff2", weight: "700", style: "normal" },
+    { path: "../../../fonts/open-sans/800.woff2", weight: "800", style: "normal" },
+  ],
   variable: "--font-open-sans",
   display: "swap",
 });

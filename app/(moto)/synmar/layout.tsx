@@ -1,25 +1,34 @@
 import type { Metadata } from "next";
-import { BBH_Bogle, Oswald, Teko } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { VideoProvider } from "../../_context/VideoContext";
 import AosInit from "./_components/AosInit";
 
-const fontPrimary = BBH_Bogle({
+const fontPrimary = localFont({
+  src: [
+    { path: "../../../fonts/bbh-bogle/400.woff2", weight: "400", style: "normal" },
+  ],
   variable: "--font-bbhbogle",
-  subsets: ["latin"],
-  weight: ["400"],
 });
 
-const fontSecondary = Oswald({
+const fontSecondary = localFont({
+  src: [
+    { path: "../../../fonts/oswald/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/oswald/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/oswald/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/oswald/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-oswald",
-  subsets: ["latin"],
-  weight: ["300", "400", "600", "700"],
 });
 
-const fontTertiary = Teko({
-  variable: "--font-teko",  
-  subsets: ["latin"],
-  weight: ["300", "400", "600", "700"],
+const fontTertiary = localFont({
+  src: [
+    { path: "../../../fonts/teko/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/teko/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/teko/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/teko/700.woff2", weight: "700", style: "normal" },
+  ],
+  variable: "--font-teko",
 });
 
 export const metadata: Metadata = {

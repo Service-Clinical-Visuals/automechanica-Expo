@@ -1,19 +1,28 @@
 import type { Metadata } from "next";
-import { Oxanium, Instrument_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { VideoProvider } from "../../_context/VideoContext";
 import AosInit from "./_components/AosInit";
 
-const fontHeading = Oxanium({
+const fontHeading = localFont({
+  src: [
+    { path: "../../../fonts/oxanium/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/oxanium/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/oxanium/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/oxanium/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/oxanium/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-oxanium",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],    
 });
 
-const fontBody = Instrument_Sans({
-  variable: "--font-instrumentsans",  
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+const fontBody = localFont({
+  src: [
+    { path: "../../../fonts/instrument-sans/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/instrument-sans/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/instrument-sans/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/instrument-sans/700.woff2", weight: "700", style: "normal" },
+  ],
+  variable: "--font-instrumentsans",
 });
 
 export const metadata: Metadata = {

@@ -1,12 +1,16 @@
 import type { Metadata } from "next";
-import { Instrument_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { VideoProvider } from "../../_context/VideoContext";
 import SmoothAOS from "./_components/SmoothAOS";
 
-const instrumentSans = Instrument_Sans({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+const instrumentSans = localFont({
+  src: [
+    { path: "../../../fonts/instrument-sans/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/instrument-sans/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/instrument-sans/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/instrument-sans/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-instrument",
   display: "swap",
 });

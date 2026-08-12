@@ -1,18 +1,30 @@
 import type { Metadata } from "next";
 import "./global.css";
-import { Montserrat, Open_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import { VideoProvider } from "@/app/_context/VideoContext";
 
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
+const montserrat = localFont({
+  src: [
+    { path: "../../../fonts/montserrat/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/montserrat/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/montserrat/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/montserrat/700.woff2", weight: "700", style: "normal" },
+    { path: "../../../fonts/montserrat/800.woff2", weight: "800", style: "normal" },
+    { path: "../../../fonts/montserrat/900.woff2", weight: "900", style: "normal" },
+  ],
   variable: "--font-montserrat",
   display: "swap",
 });
 
-const opensans = Open_Sans({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
+const opensans = localFont({
+  src: [
+    { path: "../../../fonts/open-sans/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/open-sans/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/open-sans/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/open-sans/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/open-sans/700.woff2", weight: "700", style: "normal" },
+    { path: "../../../fonts/open-sans/800.woff2", weight: "800", style: "normal" },
+  ],
   variable: "--font-opensans",
   display: "swap",
 });

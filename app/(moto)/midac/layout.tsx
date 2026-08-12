@@ -1,20 +1,30 @@
 import type { Metadata } from "next";
-import { Poppins, Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { VideoProvider } from "../../_context/VideoContext";
 import AosInit from "./_components/AosInit";
 
 
-const fontBody = Inter({
+const fontBody = localFont({
+  src: [
+    { path: "../../../fonts/inter/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/inter/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/inter/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/inter/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/inter/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-inter",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
 });
 
-const fontHeading = Poppins({
+const fontHeading = localFont({
+  src: [
+    { path: "../../../fonts/poppins/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/poppins/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/poppins/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/poppins/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/poppins/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-poppins",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {

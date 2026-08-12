@@ -1,18 +1,29 @@
 import type { Metadata } from "next";
-import { Chakra_Petch, Oxanium } from "next/font/google";
+import localFont from "next/font/local";
 import "./global.css";
 import { VideoProvider } from "@/app/_context/VideoContext";
 
-const chakraPetch = Chakra_Petch({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+const chakraPetch = localFont({
+  src: [
+    { path: "../../../fonts/chakra-petch/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/chakra-petch/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/chakra-petch/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/chakra-petch/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/chakra-petch/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-chakra-petch",
   display: "swap",
 });
 
-const oxanium = Oxanium({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
+const oxanium = localFont({
+  src: [
+    { path: "../../../fonts/oxanium/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/oxanium/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/oxanium/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/oxanium/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/oxanium/700.woff2", weight: "700", style: "normal" },
+    { path: "../../../fonts/oxanium/800.woff2", weight: "800", style: "normal" },
+  ],
   variable: "--font-oxanium",
   display: "swap",
 });

@@ -2,9 +2,13 @@
 
 import React from "react";
 import Link from "next/link";
-import { Orbitron } from "next/font/google";
+import localFont from "next/font/local";
 
-const orbitron = Orbitron({ subsets: ["latin"] });
+const orbitron = localFont({
+  src: [
+    { path: "../../../../fonts/orbitron/400.woff2", weight: "400", style: "normal" },
+  ],
+});
 
 interface ButtonProps {
   href?: string;

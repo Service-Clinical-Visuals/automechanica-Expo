@@ -1,11 +1,15 @@
 import "./global.css";
 import React from "react";
 import { VideoProvider } from "@/app/_context/VideoContext";
-import { Lato } from "next/font/google";
+import localFont from "next/font/local";
 
-const lato = Lato({
-  subsets: ["latin"],
-  weight: ["300", "400", "700", "900"],
+const lato = localFont({
+  src: [
+    { path: "../../../fonts/lato/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/lato/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/lato/700.woff2", weight: "700", style: "normal" },
+    { path: "../../../fonts/lato/900.woff2", weight: "900", style: "normal" },
+  ],
   variable: "--font-lato",
 });
 

@@ -1,18 +1,23 @@
-import { Instrument_Sans, Bebas_Neue } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { VideoProvider } from "../../_context/VideoContext";
 import AosInit from "./_components/AosInit";
 
-const fontBody = Instrument_Sans({
+const fontBody = localFont({
+  src: [
+    { path: "../../../fonts/instrument-sans/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/instrument-sans/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/instrument-sans/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/instrument-sans/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-instrument-sans",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
 });
 
-const fontHeading = Bebas_Neue({
+const fontHeading = localFont({
+  src: [
+    { path: "../../../fonts/bebas-neue/400.woff2", weight: "400", style: "normal" },
+  ],
   variable: "--font-bebas-neue",
-  subsets: ["latin"],
-  weight: ["400"],
 });
 
 

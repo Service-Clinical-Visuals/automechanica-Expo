@@ -1,19 +1,25 @@
 import type { Metadata } from "next";
-import { Albert_Sans, Bebas_Neue } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { VideoProvider } from "../../_context/VideoContext";
 import AosInit from "./_components/AosInit";
 
-const fontHeading = Bebas_Neue({
+const fontHeading = localFont({
+  src: [
+    { path: "../../../fonts/bebas-neue/400.woff2", weight: "400", style: "normal" },
+  ],
   variable: "--font-bebas-neue",
-  subsets: ["latin"],
-  weight: ["400"],
 });
 
-const fontBody = Albert_Sans({
+const fontBody = localFont({
+  src: [
+    { path: "../../../fonts/albert-sans/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/albert-sans/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/albert-sans/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/albert-sans/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/albert-sans/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-albert-sans",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {

@@ -1,21 +1,26 @@
 import type { Metadata } from "next";
-import { Exo_2, Bebas_Neue } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { VideoProvider } from "../../_context/VideoContext";
 import AosInit from "./_components/AosInit";
 
-const fontHeading = Bebas_Neue({
-  subsets: ["latin"],
-  weight: ["400"],
+const fontHeading = localFont({
+  src: [
+    { path: "../../../fonts/bebas-neue/400.woff2", weight: "400", style: "normal" },
+  ],
   variable: "--font-bebas",
   display: "swap",
   adjustFontFallback: false,
 });
 
-const fontBody = Exo_2({
+const fontBody = localFont({
+  src: [
+    { path: "../../../fonts/exo-2/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/exo-2/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/exo-2/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/exo-2/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-exo",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
   display: "swap",
 });
 

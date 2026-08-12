@@ -1,18 +1,26 @@
 import "./global.css";
 import type { Metadata } from "next";
 import { VideoProvider } from "@/app/_context/VideoContext";
-import { Sora, Lato } from 'next/font/google';
+import localFont from "next/font/local";
 
-const sora = Sora({ 
-  weight: ['300', '400', '500', '600', '700'],
-  subsets: ['latin'],
-  variable: '--font-sora',
+const sora = localFont({
+  src: [
+    { path: "../../../fonts/sora/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/sora/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/sora/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/sora/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/sora/700.woff2", weight: "700", style: "normal" },
+  ],
+  variable: "--font-sora",
 });
 
-const lato = Lato({
-  weight: ['300', '400', '700'],
-  subsets: ['latin'],
-  variable: '--font-lato',
+const lato = localFont({
+  src: [
+    { path: "../../../fonts/lato/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/lato/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/lato/700.woff2", weight: "700", style: "normal" },
+  ],
+  variable: "--font-lato",
 });
 
 export const metadata: Metadata = {

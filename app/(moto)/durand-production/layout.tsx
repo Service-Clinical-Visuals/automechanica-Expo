@@ -1,18 +1,31 @@
 import type { Metadata } from "next";
-import { Teko, Sora } from "next/font/google";
+import localFont from "next/font/local";
 import "./global.css";
 import { VideoProvider } from "@/app/_context/VideoContext";
 
-const teko = Teko({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+const teko = localFont({
+  src: [
+    { path: "../../../fonts/teko/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/teko/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/teko/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/teko/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/teko/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-teko",
   display: "swap",
 });
 
-const sora = Sora({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
+const sora = localFont({
+  src: [
+    { path: "../../../fonts/sora/100.woff2", weight: "100", style: "normal" },
+    { path: "../../../fonts/sora/200.woff2", weight: "200", style: "normal" },
+    { path: "../../../fonts/sora/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/sora/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/sora/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/sora/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/sora/700.woff2", weight: "700", style: "normal" },
+    { path: "../../../fonts/sora/800.woff2", weight: "800", style: "normal" },
+  ],
   variable: "--font-sora",
   display: "swap",
 });

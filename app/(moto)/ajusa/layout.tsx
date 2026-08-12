@@ -1,18 +1,28 @@
 import type { Metadata } from "next";
 import "./global.css";
-import { Poppins, Inter } from "next/font/google";
+import localFont from "next/font/local";
 import { VideoProvider } from "@/app/_context/VideoContext";
 
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+const poppins = localFont({
+  src: [
+    { path: "../../../fonts/poppins/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/poppins/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/poppins/500.woff2", weight: "500", style: "normal" },
+    { path: "../../../fonts/poppins/600.woff2", weight: "600", style: "normal" },
+    { path: "../../../fonts/poppins/700.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-poppins",
   display: "swap",
 });
 
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["100", "300", "400", "700", "900"],
+const inter = localFont({
+  src: [
+    { path: "../../../fonts/inter/100.woff2", weight: "100", style: "normal" },
+    { path: "../../../fonts/inter/300.woff2", weight: "300", style: "normal" },
+    { path: "../../../fonts/inter/400.woff2", weight: "400", style: "normal" },
+    { path: "../../../fonts/inter/700.woff2", weight: "700", style: "normal" },
+    { path: "../../../fonts/inter/900.woff2", weight: "900", style: "normal" },
+  ],
   variable: "--font-inter",
   display: "swap",
 });
