@@ -4,11 +4,11 @@ import { VideoProvider } from "@/app/_context/VideoContext";
 import SmoothAOS from "./_components/SmoothAOS";
 
 export const metadata: Metadata = {
-  title: "Ampro",
-  description: "Ampro Automotive Parts",
+  title: "Eldons",
+  description: "Eldons Automotive Parts",
 };
 
-export default function AmproLayout({
+export default function EldonsLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
