@@ -41,7 +41,7 @@ const productData: Record<string, any[]> = {
 const Products = () => {
   const tabs = ["AGM Battery", "Marine Battery", "Car Battery", "Other"];
   const [activeTab, setActiveTab] = useState("AGM Battery");
-  const swiperRef = useRef<SwiperType>();
+  const swiperRef = useRef<SwiperType | null>(null);
   
   const currentProducts = productData[activeTab] || [];
 
