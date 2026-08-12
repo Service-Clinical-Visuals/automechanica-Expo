@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 
 import AOSProvider from "./_components/AOSProvider";
 
+//Root layout
 export default function RootLayout({
   children,
 }: Readonly<{
