@@ -18,7 +18,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "CEVAM",
+  title: "inno",
   description: "Advanced Thermal Management Solutions",
 };
 
