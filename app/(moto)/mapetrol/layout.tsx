@@ -6,7 +6,6 @@ import { VideoProvider } from "@/app/_context/VideoContext";
 const orbitron = Orbitron({
   variable: "--font-orbitron",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
 });
 
 const manrope = Manrope({
