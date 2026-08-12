@@ -41,14 +41,14 @@ const productData: Record<string, any[]> = {
 const Products = () => {
   const tabs = ["AGM Battery", "Marine Battery", "Car Battery", "Other"];
   const [activeTab, setActiveTab] = useState("AGM Battery");
-  const swiperRef = useRef<SwiperType>();
-  
+  const swiperRef = useRef<SwiperType | null>(null);
+
   const currentProducts = productData[activeTab] || [];
 
   return (
     <section id="products" className="w-full py-16 min-[2100px]:py-24 min-[3800px]:py-32 bg-white flex flex-col items-center overflow-hidden">
       <div className="custom-container flex flex-col items-center">
-        
+
         {/* Header */}
         <div className="text-center flex flex-col items-center gap-4 min-[2100px]:gap-6 min-[3800px]:gap-12" data-aos="fade-up">
           <Typography variant="h4" color="primary" className="font-bold tracking-wide">
@@ -68,11 +68,10 @@ const Products = () => {
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
-              className={`px-8 py-2 min-[2100px]:px-10 min-[2100px]:py-3 min-[3800px]:px-16 min-[3800px]:py-5 rounded-[4px] font-semibold transition-all duration-300 min-[3800px]:text-2xl border ${
-                activeTab === tab
-                  ? "bg-primary text-white border-primary"
-                  : "bg-white text-primary border-primary/50 hover:border-primary hover:bg-primary hover:text-white"
-              }`}
+              className={`px-8 py-2 min-[2100px]:px-10 min-[2100px]:py-3 min-[3800px]:px-16 min-[3800px]:py-5 rounded-[4px] font-semibold transition-all duration-300 min-[3800px]:text-2xl border ${activeTab === tab
+                ? "bg-primary text-white border-primary"
+                : "bg-white text-primary border-primary/50 hover:border-primary hover:bg-primary hover:text-white"
+                }`}
             >
               {tab}
             </button>
@@ -102,8 +101,8 @@ const Products = () => {
                 <div className="flex flex-col bg-white border border-gray-200 rounded-[4px] overflow-hidden h-full">
                   {/* Top Image Container */}
                   <div className="w-full aspect-[4/3] relative bg-[#F8F9FA]">
-                    <Image 
-                      src={product.image} 
+                    <Image
+                      src={product.image}
                       alt={product.title}
                       fill
                       sizes="(max-width: 768px) 100vw, 33vw"
@@ -115,7 +114,7 @@ const Products = () => {
                     <Typography variant="h4" color="dark" className="font-bold min-[3800px]:text-4xl">
                       {product.title}
                     </Typography>
-                    
+
                     <div className="mt-auto self-start">
                       <button className="px-6 py-2 min-[3800px]:px-10 min-[3800px]:py-4 border border-primary text-primary font-semibold rounded-[4px] hover:bg-primary hover:text-white transition-colors duration-300 text-sm min-[3800px]:text-xl">
                         View Product
@@ -129,19 +128,19 @@ const Products = () => {
 
           {/* Custom Navigation & View All Action */}
           <div className="flex items-center justify-center gap-6 mt-6 min-[3800px]:mt-12">
-            <button 
+            <button
               onClick={() => swiperRef.current?.slidePrev()}
               className="w-10 h-10 min-[3800px]:w-16 min-[3800px]:h-16 rounded-full border border-[#0088CC] text-[#0088CC] flex items-center justify-center hover:bg-[#0088CC] hover:text-white transition-colors z-10"
             >
               <ArrowLeft className="w-5 h-5 min-[3800px]:w-8 min-[3800px]:h-8" />
             </button>
-            
+
             <button className="px-6 py-2.5 min-[3800px]:px-10 min-[3800px]:py-4 border border-[#0088CC] text-[#0088CC] font-bold rounded-[4px] flex items-center gap-2 hover:bg-[#0088CC] hover:text-white transition-colors duration-300 text-sm min-[3800px]:text-xl group">
               View All Batteries
               <ArrowRight className="w-4 h-4 min-[3800px]:w-6 min-[3800px]:h-6 group-hover:text-white" strokeWidth={2} />
             </button>
-            
-            <button 
+
+            <button
               onClick={() => swiperRef.current?.slideNext()}
               className="w-10 h-10 min-[3800px]:w-16 min-[3800px]:h-16 rounded-full border border-[#0088CC] text-[#0088CC] flex items-center justify-center hover:bg-[#0088CC] hover:text-white transition-colors z-10"
             >
