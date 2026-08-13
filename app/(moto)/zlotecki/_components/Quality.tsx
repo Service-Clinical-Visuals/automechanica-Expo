@@ -7,10 +7,10 @@ import Button from "./Button";
 const Quality = () => {
   return (
     <section id="quality-independence" className="w-full py-16 md:py-24 bg-white relative overflow-hidden">
-      <div className="custom-container relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 min-[3800px]:gap-24 items-center">
+      <div className="custom-container relative z-10 grid grid-cols-1 xl:grid-cols-12 gap-8 xl:gap-10 min-[3800px]:gap-24 items-center">
         
         {/* Text Content */}
-        <div className="order-1 lg:order-1 lg:col-span-6 flex flex-col gap-6 min-[3800px]:gap-12 w-full" data-aos="fade-right">
+        <div className="order-1 xl:order-1 xl:col-span-6 flex flex-col gap-6 min-[3800px]:gap-12 w-full" data-aos="fade-right">
           
           <div className="flex flex-col gap-4">
             <Typography variant="h2" color="dark" className="font-bold leading-tight">
@@ -40,18 +40,17 @@ const Quality = () => {
         </div>
 
         {/* Decorative Line & Image */}
-        <div className="order-2 lg:order-2 lg:col-span-6 flex items-center justify-center lg:justify-end gap-6 relative w-full h-full" data-aos="fade-left">
+        <div className="order-2 xl:order-2 xl:col-span-6 flex justify-center xl:justify-end relative w-full h-full" data-aos="fade-left">
           
-          {/* Decorative Vertical Bar */}
-          <div className="hidden lg:block w-3 h-48 bg-primary rounded-full shrink-0 min-[3800px]:w-6 min-[3800px]:h-96"></div>
-
           {/* Image Container with exact aspect ratio */}
-          <div className="w-full max-w-[710px] aspect-[710/618] relative flex-1">
+          <div className="w-full max-w-[824px] aspect-[824/709] relative">
+            {/* Decorative Vertical Bar */}
+            <div className="hidden xl:block absolute left-[6%] xl:left-[8%] top-[14%] w-4 h-[38%] bg-primary rounded-full min-[3800px]:w-8 min-[3800px]:left-[9%]"></div>
+
             <img
               src="/moto/zlotecki/section3.png"
               alt="Quality and independence"
               className="w-full h-full object-contain"
-              onError={(e) => { e.currentTarget.style.display = 'none'; }}
             />
           </div>
 

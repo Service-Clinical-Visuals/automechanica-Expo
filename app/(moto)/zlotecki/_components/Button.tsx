@@ -26,7 +26,7 @@ const Button = ({
 
   const content = (
     <div 
-      className={`flex items-center justify-center px-8 py-3.5 transition-colors shadow-sm 
+      className={`flex items-center justify-center px-10 py-3.5 transition-colors shadow-sm 
       rounded-tl-[24px] rounded-br-[24px] rounded-tr-none rounded-bl-none
       ${isPrimary 
         ? 'bg-primary text-white hover:bg-primary-hover' 

@@ -78,7 +78,7 @@ const Header = () => {
               <img
                 src="/zlotecki/logo.png"
                 alt="Zlotecki Logo"
-                className="h-10 sm:h-12 md:h-14 min-[3800px]:h-24 w-auto object-contain"
+                className="h-10 sm:h-12 md:h-14 lg:h-18 min-[3800px]:h-24 w-auto object-contain"
                 onError={(e) => { e.currentTarget.src = "/moto/ampro/logo.png"; }}
               />
             </Link>
@@ -108,17 +108,17 @@ const Header = () => {
             </nav>
 
             {/* Right Action: Composite Buttons */}
-            <div className="hidden xl:flex items-center shrink-0 gap-[1px]">
+            <div className="hidden xl:flex items-center shrink-0 gap-2 min-[3800px]:gap-4">
               {/* PL Button */}
-              <a href="#" className="flex items-center justify-center gap-2 bg-primary text-white hover:bg-primary-hover transition-colors px-4 py-2.5 min-[3800px]:px-8 min-[3800px]:py-5 rounded-tl-[16px] min-[3800px]:rounded-tl-[32px]">
+              <a href="#" className="flex items-center justify-center gap-2 bg-primary text-white hover:bg-primary-hover transition-colors px-4 py-2.5 min-[3800px]:px-8 min-[3800px]:py-5 rounded-tl-[16px] rounded-br-[16px] min-[3800px]:rounded-tl-[32px] min-[3800px]:rounded-br-[32px]">
                 {/* Fallback EU Text if image doesn't exist */}
-                <div className="flex items-center justify-center bg-blue-700 w-5 h-5 rounded-full text-[8px] min-[3800px]:w-10 min-[3800px]:h-10 min-[3800px]:text-[16px] font-bold overflow-hidden border border-white/20">
-                  <img src="/zlotecki/eu.png" alt="EU" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+                <div className="flex items-center justify-center bg-blue-700 w-8 h-5 min-[3800px]:w-16 min-[3800px]:h-10 text-[8px] min-[3800px]:text-[16px] font-bold overflow-hidden rounded-tl-[8px] rounded-br-[8px] min-[3800px]:rounded-tl-[16px] min-[3800px]:rounded-br-[16px]">
+                  <img src="/zlotecki/flg.png" alt="EU" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
                 </div>
                 <span className="button text-sm min-[3800px]:text-2xl">PL</span>
               </a>
               {/* Contacts Button */}
-              <a href="#contacts" className="flex items-center justify-center bg-primary text-white hover:bg-primary-hover transition-colors px-6 py-2.5 min-[3800px]:px-12 min-[3800px]:py-5 rounded-br-[16px] min-[3800px]:rounded-br-[32px]">
+              <a href="#contacts" className="flex items-center justify-center bg-primary text-white hover:bg-primary-hover transition-colors px-6 py-2.5 min-[3800px]:px-12 min-[3800px]:py-5 rounded-tl-[16px] rounded-br-[16px] min-[3800px]:rounded-tl-[32px] min-[3800px]:rounded-br-[32px]">
                 <span className="button text-sm min-[3800px]:text-2xl">Contacts</span>
               </a>
             </div>
@@ -152,11 +152,14 @@ const Header = () => {
                 </div>
               );
             })}
-            <div className="pt-6 flex items-center justify-center gap-[1px]">
-              <a href="#" className="flex items-center justify-center gap-2 bg-primary text-white hover:bg-primary-hover px-4 py-3 rounded-tl-[16px]">
+            <div className="pt-6 flex items-center justify-center gap-2">
+              <a href="#" className="flex items-center justify-center gap-2 bg-primary text-white hover:bg-primary-hover transition-colors px-6 py-3 rounded-tl-[16px] rounded-br-[16px]">
+                <div className="flex items-center justify-center bg-blue-700 w-8 h-5 text-[8px] font-bold overflow-hidden rounded-tl-[8px] rounded-br-[8px]">
+                  <img src="/zlotecki/flg.png" alt="EU" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+                </div>
                 <span className="button text-sm">PL</span>
               </a>
-              <a href="#contacts" className="flex items-center justify-center bg-primary text-white hover:bg-primary-hover px-6 py-3 rounded-br-[16px]">
+              <a href="#contacts" className="flex items-center justify-center bg-primary text-white hover:bg-primary-hover transition-colors px-8 py-3 rounded-tl-[16px] rounded-br-[16px]">
                 <span className="button text-sm">Contacts</span>
               </a>
             </div>

@@ -23,10 +23,10 @@ const features = [
 const Precision2 = () => {
   return (
     <section id="precision2" className="w-full py-16 md:py-24 bg-[#F7F7F7] relative">
-      <div className="custom-container relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 min-[3800px]:gap-24 items-center">
+      <div className="custom-container relative z-10 grid grid-cols-1 xl:grid-cols-12 gap-8 xl:gap-10 min-[3800px]:gap-24 items-center">
         
         {/* Video (Mobile: Order 2) */}
-        <div className="order-2 lg:order-1 w-full aspect-[16/9] relative shadow-lg overflow-hidden rounded-md bg-white border border-gray-200" data-aos="fade-right">
+        <div className="xl:col-span-7 order-2 xl:order-1 w-full aspect-[16/9] relative shadow-lg overflow-hidden rounded-md bg-white border border-gray-200" data-aos="fade-right">
           <DynamicVideoPlayer
             type="short-2"
             className="absolute inset-0 w-full h-full object-cover rounded-md"
@@ -34,7 +34,7 @@ const Precision2 = () => {
         </div>
 
         {/* Text Content (Mobile: Order 1) */}
-        <div className="order-1 lg:order-2 flex flex-col gap-6 min-[3800px]:gap-12 w-full" data-aos="fade-left">
+        <div className="xl:col-span-5 order-1 xl:order-2 flex flex-col gap-6 min-[3800px]:gap-12 w-full" data-aos="fade-left">
           
           <div className="flex flex-col gap-4">
             <Typography variant="h2" color="dark" className="font-bold leading-tight">

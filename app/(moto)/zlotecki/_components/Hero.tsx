@@ -37,7 +37,7 @@ const Hero = () => {
           <Typography
             variant="p"
             color="white"
-            className="leading-relaxed w-full  xl:max-w-[70%]"
+            className="leading-relaxed w-full  md:max-w-[80%] lg:max-w-[60%]"
             data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"
           >
             is a manufacturer of pistons for combustion engines and other components for the automotive industry.

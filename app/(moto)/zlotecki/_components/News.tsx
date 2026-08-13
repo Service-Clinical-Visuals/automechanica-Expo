@@ -25,11 +25,11 @@ const News = () => {
 
   return (
     <section id="news" className="w-full py-16 md:py-24 bg-white overflow-hidden">
-      <div className="custom-container flex flex-col gap-12 min-[3800px]:gap-24">
+      <div className="custom-container flex flex-col gap-14 min-[3800px]:gap-24">
 
         {/* Header Block */}
         <div className="flex flex-col items-center text-center gap-4 min-[3800px]:gap-8">
-          <Typography variant="h2" color="dark" className="font-bold leading-tight max-w-4xl min-[3800px]:max-w-7xl" data-aos="fade-up" data-aos-delay="100">
+          <Typography variant="h2" color="dark" className="font-bold leading-tight max-w-3xl min-[3800px]:max-w-5xl" data-aos="fade-up" data-aos-delay="100">
             Precision Pistons and Piston Rings for Reliable Engine Performance
           </Typography>
           <Typography variant="p" color="muted" className="leading-relaxed max-w-3xl min-[3800px]:max-w-6xl" data-aos="fade-up" data-aos-delay="200">
@@ -38,7 +38,7 @@ const News = () => {
         </div>
 
         {/* Mobile & Tablet Swiper Slider */}
-        <div className="block lg:hidden custom-swiper-pagination w-full pb-8">
+        <div className="block xl:hidden custom-swiper-pagination w-full pb-8">
           <Swiper
             modules={[Pagination, Autoplay]}
             pagination={{ clickable: true }}
@@ -54,12 +54,11 @@ const News = () => {
               <SwiperSlide key={index} className="h-auto pb-8">
                 <div className="flex flex-col gap-6 items-center text-center group h-full">
                   {/* Image */}
-                  <div className="w-full aspect-[4/3] overflow-hidden rounded-2xl shadow-md border-2 border-primary/10 shrink-0 bg-[#F7F7F7]" data-aos="fade-in">
+                  <div className="w-full overflow-hidden shrink-0" data-aos="fade-in">
                     <img
                       src={item.img}
                       alt={item.title}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                      onError={(e) => { e.currentTarget.style.display = 'none'; }}
+                      className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105"
                     />
                   </div>
 
@@ -76,16 +75,16 @@ const News = () => {
         </div>
 
         {/* Desktop News Grid */}
-        <div className="hidden lg:grid lg:grid-cols-3 gap-8 min-[3800px]:gap-16">
+        <div className="hidden xl:grid xl:grid-cols-3 gap-8 min-[3800px]:gap-16">
           {newsItems.map((item, index) => (
             <div key={index} className="flex flex-col gap-6 min-[3800px]:gap-12 items-center text-center group">
 
               {/* Image */}
-              <div className="w-full aspect-[4/3] overflow-hidden rounded-2xl min-[3800px]:rounded-[40px] shadow-md border-2 border-primary/10 shrink-0 bg-[#F7F7F7]" data-aos="fade-up" data-aos-delay={index * 100}>
+              <div className="w-full overflow-hidden shrink-0" data-aos="fade-up" data-aos-delay={index * 100}>
                 <img
                   src={item.img}
                   alt={item.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105"
                   onError={(e) => { e.currentTarget.style.display = 'none'; }}
                 />
               </div>

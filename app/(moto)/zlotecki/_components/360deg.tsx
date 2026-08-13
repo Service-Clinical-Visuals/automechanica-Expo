@@ -21,14 +21,14 @@ const Deg360 = () => {
         </div>
 
         {/* Text Body (Mobile: Order 2) */}
-        <div className="order-2 w-full lg:max-w-[80%] mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div className="order-2 w-full xl:max-w-[50%] mb-4" data-aos="fade-up" data-aos-delay="100">
           <Typography variant="p" color="muted" className="leading-relaxed">
             Explore our pistons and piston rings in an interactive 360° view to appreciate the precision engineering, premium materials, and advanced manufacturing behind every component. Designed for durability and efficiency, each product is built to deliver reliable performance under demanding engine conditions.
           </Typography>
         </div>
 
         {/* Video (Mobile: Order 3) */}
-        <div className="order-3 w-full max-w-[95%] lg:max-w-[80%] aspect-video relative  overflow-hidden rounded-2xl min-[3800px]:rounded-[40px]" data-aos="zoom-in" data-aos-delay="200">
+        <div className="order-3 w-full max-w-[95%] xl:max-w-[80%] aspect-video relative  overflow-hidden rounded-2xl min-[3800px]:rounded-[40px]" data-aos="zoom-in" data-aos-delay="200">
           <DynamicVideoPlayer
             type="360"
             className="absolute inset-0 w-full h-full object-cover"

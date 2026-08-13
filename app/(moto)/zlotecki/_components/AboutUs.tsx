@@ -7,10 +7,10 @@ import Button from "./Button";
 const AboutUs = () => {
   return (
     <section id="about" className="w-full py-16 md:py-24 bg-white relative">
-      <div className="custom-container relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-10 min-[3800px]:gap-16 min-[3800px]:gap-24 items-center">
+      <div className="custom-container relative z-10 grid grid-cols-1 xl:grid-cols-2 gap-10 min-[3800px]:gap-16 min-[3800px]:gap-24 items-center">
 
         {/* Image (Mobile: Order 2) */}
-        <div className="order-2 lg:order-1  aspect-[960/705] relative" data-aos="fade-right">
+        <div className="order-2 xl:order-1  aspect-[960/705] relative" data-aos="fade-right">
           <img
             src="/moto/zlotecki/section2.png"
             alt="The beginnings of the company"
@@ -20,7 +20,7 @@ const AboutUs = () => {
         </div>
 
         {/* Text Content (Mobile: Order 1) */}
-        <div className="order-1 lg:order-2 flex flex-col gap-6 min-[3800px]:gap-12 w-full" data-aos="fade-left">
+        <div className="order-1 xl:order-2 flex flex-col gap-6 min-[3800px]:gap-12 w-full" data-aos="fade-left">
 
           <div className="flex flex-col gap-4">
             <Typography variant="h2" color="dark" className="font-bold leading-tight">

@@ -4,8 +4,7 @@ import { VideoProvider } from "@/app/_context/VideoContext";
 import SmoothAOS from "./_components/SmoothAOS";
 
 export const metadata: Metadata = {
-  title: "Ampro",
-  description: "Ampro Automotive Parts",
+  title: "Zlotecki",
 };
 
 export default function AmproLayout({

@@ -10,11 +10,11 @@ const Precision = () => {
       <div className="custom-container relative z-10 flex flex-col items-center justify-center text-center gap-10 min-[3800px]:gap-20">
 
         {/* Header Section */}
-        <div className="flex flex-col items-center gap-4 max-w-3xl min-[3800px]:max-w-6xl text-center" data-aos="fade-up">
-          <Typography variant="h2" color="dark" className="font-bold leading-tight">
+        <div className="flex flex-col items-center gap-4   text-center" data-aos="fade-up">
+          <Typography variant="h2" color="dark" className="font-bold leading-tight max-w-4xl">
             Precision Pistons and Piston Rings for Reliable Engine Performance
           </Typography>
-          <Typography variant="p" color="muted" className="leading-relaxed">
+          <Typography variant="p" color="muted" className="leading-relaxed max-w-3xl">
             Discover our comprehensive range of premium pistons and piston rings, engineered to deliver exceptional durability, efficient combustion, and reliable engine performance.
           </Typography>
         </div>
@@ -24,11 +24,11 @@ const Precision = () => {
 
           {/* Card 1 */}
           <div
-            className="flex flex-col bg-primary p-6 md:p-8 min-[3800px]:p-16 gap-6 min-[3800px]:gap-12 rounded-tl-[32px] rounded-br-[32px] rounded-tr-none rounded-bl-none min-[3800px]:rounded-tl-[64px] min-[3800px]:rounded-br-[64px] shadow-lg"
+            className="flex flex-col bg-primary p-6 md:p-10 min-[3800px]:p-16 gap-6 min-[3800px]:gap-12 rounded-tl-[32px] rounded-br-[32px] rounded-tr-none rounded-bl-none min-[3800px]:rounded-tl-[64px] min-[3800px]:rounded-br-[64px] shadow-lg"
             data-aos="fade-right" data-aos-delay="100"
           >
             {/* Top row: Image (left) and Title/P1 (right) */}
-            <div className="flex flex-col xl:flex-row gap-6 min-[3800px]:gap-10 items-start">
+            <div className="flex flex-col xl:flex-row gap-6 min-[3800px]:gap-10 items-center">
               {/* Image Container */}
               <div className="w-full xl:w-[45%] shrink-0 aspect-[349/231] bg-white flex items-center justify-center p-4 rounded-tl-[24px] rounded-br-[24px] rounded-tr-none rounded-bl-none min-[3800px]:rounded-tl-[48px] min-[3800px]:rounded-br-[48px]">
                 <img
@@ -61,7 +61,7 @@ const Precision = () => {
             <div className="flex flex-col gap-6 min-[3800px]:gap-12 mt-auto pt-4 min-[3800px]:pt-8">
               <div className="w-full h-[1px] bg-white/20"></div>
               <div className="flex justify-center">
-                <a href="#explore" className="bg-white text-dark hover:bg-gray-100 transition-colors font-semibold px-6 py-3 min-[3800px]:px-12 min-[3800px]:py-6 min-[3800px]:text-2xl rounded-tl-[16px] min-[3800px]:rounded-tl-[32px] rounded-br-[16px] min-[3800px]:rounded-br-[32px]">
+                <a href="#explore" className="bg-white text-primary hover:bg-gray-100 transition-colors font-semibold px-6 py-3 min-[3800px]:px-12 min-[3800px]:py-6 min-[3800px]:text-2xl rounded-tl-[16px] min-[3800px]:rounded-tl-[32px] rounded-br-[16px] min-[3800px]:rounded-br-[32px]">
                   Explore Our Solution
                 </a>
               </div>
@@ -70,11 +70,11 @@ const Precision = () => {
 
           {/* Card 2 */}
           <div
-            className="flex flex-col bg-primary p-6 md:p-8 min-[3800px]:p-16 gap-6 min-[3800px]:gap-12 rounded-tl-[32px] rounded-br-[32px] rounded-tr-none rounded-bl-none min-[3800px]:rounded-tl-[64px] min-[3800px]:rounded-br-[64px] shadow-lg"
+            className="flex flex-col bg-primary p-6 md:p-10 min-[3800px]:p-16 gap-6 min-[3800px]:gap-12 rounded-tl-[32px] rounded-br-[32px] rounded-tr-none rounded-bl-none min-[3800px]:rounded-tl-[64px] min-[3800px]:rounded-br-[64px] shadow-lg"
             data-aos="fade-left" data-aos-delay="200"
           >
             {/* Top row: Image (left) and Title/P1 (right) */}
-            <div className="flex flex-col xl:flex-row gap-6 min-[3800px]:gap-10 items-start">
+            <div className="flex flex-col xl:flex-row gap-6 min-[3800px]:gap-10 items-center">
               {/* Image Container */}
               <div className="w-full xl:w-[45%] shrink-0 aspect-[349/231] bg-white flex items-center justify-center p-4 rounded-tl-[24px] rounded-br-[24px] rounded-tr-none rounded-bl-none min-[3800px]:rounded-tl-[48px] min-[3800px]:rounded-br-[48px]">
                 <img
@@ -107,7 +107,7 @@ const Precision = () => {
             <div className="flex flex-col gap-6 min-[3800px]:gap-12 mt-auto pt-4 min-[3800px]:pt-8">
               <div className="w-full h-[1px] bg-white/20"></div>
               <div className="flex justify-center">
-                <a href="#explore" className="bg-white text-dark hover:bg-gray-100 transition-colors font-semibold px-6 py-3 min-[3800px]:px-12 min-[3800px]:py-6 min-[3800px]:text-2xl rounded-tl-[16px] min-[3800px]:rounded-tl-[32px] rounded-br-[16px] min-[3800px]:rounded-br-[32px]">
+                <a href="#explore" className="bg-white text-primary hover:bg-gray-100 transition-colors font-semibold px-6 py-3 min-[3800px]:px-12 min-[3800px]:py-6 min-[3800px]:text-2xl rounded-tl-[16px] min-[3800px]:rounded-tl-[32px] rounded-br-[16px] min-[3800px]:rounded-br-[32px]">
                   Explore Our Solution
                 </a>
               </div>
