@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@layer base {
+  .oswald-font {
+    font-family: var(--font-oswald), sans-serif;
+  }
+  .sora-font {
+    font-family: var(--font-sora), sans-serif;
+  }
+  .open-sans-font {
+    font-family: var(--font-open-sans), sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .custom-container {
+    @apply w-full max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16;
+  }
+}
+
+/* Font sizes - as requested, use only global.css */
+.header-link { font-size: 16px; }
+  .btn-text { font-size: 18px; }
+  .btn-text1 { font-size: 17px; }
+  .banner-title { font-size: 36px; }  
+   .titles {font-size: 120px; }
+  .section-title { font-size: 32px; }
+  .section-text { font-size: 18px; }
+  .card-text { font-size: 24px; }
+
+/* Custom clip paths for buttons */
+.btn-contact {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 16px), calc(100% - 16px) 100%, 0 100%);
+}
+
+.btn-explore {
+  clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
+}
+
+/* Responsive Custom Container & Font Sizes */
+
+@media (max-width: 480px) {
+  .custom-container { max-width: 95%; }
+  .banner-title { font-size: 24px; }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container { max-width: 95%; }
+  .banner-title { font-size: 28px; }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container { max-width: 95%; }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container { max-width: 95%; }
+}
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container { max-width: 95%; }
+}
+
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .custom-container { max-width: 90%; }
+  .header-link { font-size: 16px; }
+  .btn-text { font-size: 18px; }
+  .btn-text1 { font-size: 17px; }
+  .banner-title { font-size: 36px; }  
+   .titles {font-size: 120px; }
+  .section-title { font-size: 32px; }
+  .section-text { font-size: 18px; }
+  .card-text { font-size: 24px; }
+ 
+}
+
+@media (min-width: 1921px) and (max-width: 2559px) {
+  .custom-container { max-width: 1700px; margin: 0 auto; }
+  .header-link { font-size: 16px; }
+  .btn-text { font-size: 18px; }
+  .btn-text1 { font-size: 17px; }
+  .banner-title { font-size: 36px; }  
+   .titles {font-size: 120px; }
+  .section-title { font-size: 32px; }
+  .section-text { font-size: 18px; }
+  .card-text { font-size: 24px; }
+}
+
+@media (min-width: 2560px) and (max-width: 3799px) {
+  .custom-container { max-width: 1920px; margin: 0 auto; }
+ .header-link { font-size: 18px; }
+  .btn-text { font-size: 20px; }
+  .btn-text1 { font-size: 19px; }
+  .banner-title { font-size: 38px; }  
+   .titles {font-size: 130px; }
+  .section-title { font-size: 34px; }
+  .section-text { font-size: 20px; }
+  .card-text { font-size: 26px; }
+}
+
+@media (min-width: 3800px) {
+  .custom-container { max-width: 2000px; margin: 0 auto; }
+ .header-link { font-size: 22px; }
+  .btn-text { font-size: 24px; }
+  .btn-text1 { font-size: 23px; }
+  .banner-title { font-size: 42px; }  
+   .titles {font-size: 150px; }
+  .section-title { font-size: 38px; }
+  .section-text { font-size: 24px; }
+  .card-text { font-size: 30px; }
+}
