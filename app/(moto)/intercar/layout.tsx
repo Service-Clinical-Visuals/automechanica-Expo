@@ -7,13 +7,11 @@ import AosInit from "./_components/AosInit";
 const fontBody = Oswald({
   variable: "--font-oswald",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", ],
 });
 
 const fontHeading = Exo_2({
   variable: "--font-exo-2",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800", "900"],
 });
 
 export default function EurolLayout({
