@@ -5,7 +5,6 @@ import { VideoProvider } from "@/app/_context/VideoContext";
 
 const orbitron = Orbitron({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
   variable: "--font-orbitron",
   display: "swap",
 });

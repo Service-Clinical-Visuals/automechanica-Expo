@@ -4,16 +4,16 @@ import { VideoProvider } from "@/app/_context/VideoContext";
 import SmoothAOS from "./_components/SmoothAOS";
 
 export const metadata: Metadata = {
-  title: "Koneks",
+  title: "Petronas",
 };
 
-export default function KoneksLayout({
+export default function PetronasLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <div className={`koneks-root min-h-screen bg-white antialiased overflow-x-hidden relative w-full`}>
+    <div className={`petronas-root min-h-screen bg-white antialiased overflow-x-hidden relative w-full`}>
       <SmoothAOS />
       <VideoProvider >
         {children}
