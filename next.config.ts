@@ -28,8 +28,12 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  // @ts-ignore - Next.js config types sometimes conflict
   eslint: {
     ignoreDuringBuilds: true,
+  },
+  experimental: {
+    optimizePackageImports: ["lucide-react", "react-icons"],
   },
 
   async rewrites() {
