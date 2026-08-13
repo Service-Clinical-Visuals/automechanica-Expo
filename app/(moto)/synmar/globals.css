@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #666666;
+  --primary: #D4B161;
+  --secondary: #9F3414;
+  --text-muted: #6b7280;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-muted: var(--text-muted);
+}
+
+@layer components {
+  .container {
+    @apply px-4 lg:px-6;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-primary), sans-serif;
+  @apply antialiased;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-teko), sans-serif;
+}
+
+p {
+  font-family: var(--font-oswald), sans-serif !important;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+
+.heading {
+  font-family: var(--font-teko), sans-serif !important;
+  font-size: 44px;
+  font-weight: normal;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: #9F3414;
+}
+
+.subheading {
+  font-family: var(--font-teko), sans-serif !important;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: #333333;
+}
+
+.subheading-white {
+  font-family: var(--font-teko), sans-serif !important;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.content {
+  font-family: var(--font-oswald), sans-serif !important;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: #6E777D;
+}
+
+.content-white {
+  font-family: var(--font-oswald), sans-serif !important;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+
+
+.navbar{
+  font-family: var(--font-bbhbogle), sans-serif !important;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.8px;
+  font-weight: normal;
+}
+
+
+@media (min-width: 2550px) {
+  .twok {
+    zoom: 1.5;
+    transform-origin: top center;
+  }
+}
+ 
+/* 4K UHD Monitors (3840px wide) - Maintain 1920px design proportions (3840 / 1920 = 2.0) */
+@media (min-width: 3840px) {
+  .twok {
+    zoom: 2.0;
+    transform-origin: top center;
+  }
+}

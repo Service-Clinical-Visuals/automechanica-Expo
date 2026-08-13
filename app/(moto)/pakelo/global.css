@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary-color: #E41513;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .text-primary {
+    color: var(--primary-color);
+  }
+  .bg-primary {
+    background-color: var(--primary-color);
+  }
+  .border-primary {
+    border-color: var(--primary-color);
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+.oswald{
+    font-family: var(--font-oswald);
+}
+
+.dm-sans{
+    font-family: var(--font-dm-sans);
+}
+
+section {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Font sizes - as requested, use only global.css */
+.header-link { font-size: 16px; }
+  .header-btn { font-size: 18px; }
+  .btn-text { font-size: 20px; }
+  .banner-title { font-size: 45px; }  
+  .section-title { font-size: 36px; }
+  .section-text { font-size: 16px; }
+  .section-text-2 { font-size: 28px; }
+  .card-title { font-size: 24px; }
+/* Responsive Custom Container & Font Sizes */
+
+@media (max-width: 480px) {
+  .custom-container { max-width: 95%; }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container { max-width: 92%; }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container { max-width: 90%; }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container { max-width: 85%; }
+  }
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container { max-width: 85%; }
+  }
+
+/* as per figma */
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .custom-container { max-width: 85%; }
+  .header-link { font-size: 16px; }
+  .header-btn { font-size: 18px; }
+  .btn-text { font-size: 20px; }
+  .banner-title { font-size: 45px; }  
+  .section-title { font-size: 36px; }
+  .section-text { font-size: 16px; }
+  .section-text-2 { font-size: 28px; }
+  .card-title { font-size: 24px; }
+}
+
+@media (min-width: 1921px) and (max-width: 2559px) {
+  .custom-container { max-width: 90%; }
+  .header-link { font-size: 16px; }
+  .header-btn { font-size: 18px; }
+  .btn-text { font-size: 20px; }
+  .banner-title { font-size: 45px; }  
+  .section-title { font-size: 36px; }
+  .section-text { font-size: 16px; }
+  .section-text-2 { font-size: 28px; }
+  .card-title { font-size: 24px; }
+}
+
+/* 2k */
+@media (min-width: 2560px) and (max-width: 3800px) {
+  .custom-container { max-width: 90%; }
+  .header-link { font-size: 18px; }
+  .header-btn { font-size: 20px; }
+  .btn-text { font-size: 22px; }
+  .banner-title { font-size: 48px; }  
+  .section-title { font-size: 38px; }
+  .section-text { font-size: 18px; }
+  .section-text-2 { font-size: 30px; }
+  .card-title { font-size: 26px; }
+}
+@media (min-width: 3800px) {
+  .custom-container { max-width: 90%; }
+ .header-link { font-size: 24px; }
+  .header-btn { font-size: 26px; }
+  .btn-text { font-size: 28px; }
+  .banner-title { font-size: 54px; }  
+  .section-title { font-size: 44px; }
+  .section-text { font-size: 24px; }
+  .section-text-2 { font-size: 36px; }
+  .card-title { font-size: 32px; }
+}
