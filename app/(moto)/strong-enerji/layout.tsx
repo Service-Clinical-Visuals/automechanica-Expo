@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "Strong-Enerji - Strong Infrastructure, Safe Performance",
   description: "Strong-Enerji Homepage",
 };
-
+// test
 export default function StrongEnerjiLayout({
   children,
 }: {
