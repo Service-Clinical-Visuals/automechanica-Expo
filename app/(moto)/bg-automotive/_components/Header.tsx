@@ -46,7 +46,7 @@ export default function Header() {
             </div>
 
             {/* Desktop Navigation */}
-            <nav className="hidden xl:flex items-center gap-6 xl:gap-10 dmsans-font">
+            <nav className="hidden xl:flex items-center gap-8 xl:gap-12 dmsans-font">
               {navLinks.map((link) => (
                 <Link
                   key={link.name}

@@ -4,7 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { Orbitron } from "next/font/google";
 
-const orbitron = Orbitron({ subsets: ["latin"], weight: ["400", "500", "600", "700", "800", "900"] });
+const orbitron = Orbitron({ subsets: ["latin"] });
 
 interface ButtonProps {
   href?: string;

@@ -22,8 +22,7 @@ export default function RootNotFound() {
   const pathname = usePathname();
 
   return (
-    <html lang="en">
-      <body>
+    <div className="not-found-root">
         <div className={`${inter.className} antialiased`}>
           <div className="min-h-screen bg-white text-slate-900 flex flex-col items-center justify-center p-6 relative overflow-hidden font-sans selection:bg-[#1A80C3]/20 selection:text-[#1A80C3]">
             {/* Background Soft Glows */}
@@ -93,7 +92,6 @@ export default function RootNotFound() {
             </footer>
           </div>
         </div>
-      </body>
-    </html>
+    </div>
   );
 }
