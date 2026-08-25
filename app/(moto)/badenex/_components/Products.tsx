@@ -38,7 +38,7 @@ export default function Products() {
 
           {/* Left Video */}
           <div className="w-full h-[300px] sm:h-[400px] xl:h-[500px] rounded-lg shadow-2xl overflow-hidden relative" data-aos="fade-right">
-            <DynamicVideoPlayer type="360" className="absolute inset-0 w-full h-full object-cover" />
+            <DynamicVideoPlayer type="short-1" className="absolute inset-0 w-full h-full object-cover" />
           </div>
 
           {/* Right Content */}
