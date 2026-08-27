@@ -17,6 +17,7 @@ const fontBody = Albert_Sans({
   subsets: ["latin"],
   weight: ["400", "500", "600"],
   display: "swap",
+  adjustFontFallback: false,
 });
 
 

@@ -6,7 +6,7 @@ import Button from "./Button";
 export default function News() {
   const newsItems = [
     {
-      image: "/moto/ardeca/news1.png",
+      image: "/moto/ardeca/news3.png",
       title: "Ardeca Ypres Rally 2024",
       desc: "Ardeca Ypres Rally 2024 is coming up! Mark your calendars for June 20-22 because the 59th edition of the Ardeca Ypres Rally is about to take off.",
       day: "25",

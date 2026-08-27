@@ -7,7 +7,6 @@ import AosInit from "./_components/AosInit";
 const fontHeading = Orbitron({
   variable: "--font-orbitron",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
 });
 
 const fontBody = Manrope({

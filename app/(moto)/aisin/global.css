@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #001A72;
+  }
+  
+  html {
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-family: var(--font-inter), sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6, button {
+    font-family: var(--font-manrope), sans-serif;
+  }
+  
+  p, a, span, li {
+    font-family: var(--font-inter), sans-serif;
+  }
+}
+
+section {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Font sizes - only in global.css */
+  .header-link { font-size: 16px; }
+  .btn-text { font-size: 16px; }
+  .banner-title { font-size: 38px; }
+  .section-title { font-size: 26px; }
+  .section-text { font-size: 16px; }
+  .icon-text {font-size: 20px;}
+
+@media (max-width: 480px) {
+  .custom-container { max-width: 90%; }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container { max-width: 90%; }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container { max-width: 90%; }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container { max-width: 90%; }
+}
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container { max-width: 90%; }
+}
+
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .custom-container { max-width: 85%; }
+  .header-link { font-size: 16px; }
+  .btn-text { font-size: 16px; }
+  .banner-title { font-size: 38px; }
+  .section-title { font-size: 26px; }
+  .section-text { font-size: 16px; }
+  .icon-text {font-size: 20px;}
+}
+
+@media (min-width: 1921px) and (max-width: 2559px) {
+  .custom-container { max-width: 1600px; margin: 0 auto; }
+   .header-link { font-size: 16px; }
+  .btn-text { font-size: 16px; }
+  .banner-title { font-size: 38px; }
+  .section-title { font-size: 26px; }
+  .section-text { font-size: 16px; }
+  .icon-text {font-size: 20px;}
+}
+
+@media (min-width: 2560px) and (max-width: 3799px) {
+  .custom-container { max-width: 1920px; margin: 0 auto; }
+    .header-link { font-size: 18px; }
+  .btn-text { font-size: 18px; }
+  .banner-title { font-size: 40px; }
+  .section-title { font-size: 28px; }
+  .section-text { font-size: 18px; }
+  .icon-text {font-size: 22px;}
+}
+
+@media (min-width: 3800px) {
+  .custom-container { max-width: 2200px; margin: 0 auto; }
+  .header-link { font-size: 22px; }
+  .btn-text { font-size: 22px; }
+  .banner-title { font-size: 44px; }
+  .section-title { font-size: 32px; }
+  .section-text { font-size: 22px; }
+  .icon-text {font-size: 26px;}
+}
+
+@layer utilities {
+  .text-primary {
+    color: var(--primary);
+  }
+  .bg-primary {
+    background-color: var(--primary);
+  }
+  .border-primary {
+    border-color: var(--primary);
+  }
+}
