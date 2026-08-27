@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useVideo, FALLBACK_VIDEOS } from "../_context/VideoContext";
 
 // Map granular types to VideoData properties
@@ -18,6 +18,8 @@ export default function DynamicVideoPlayer({
 }: DynamicVideoPlayerProps) {
   const { videos: contextVideos } = useVideo();
   const [currentIndex, setCurrentIndex] = useState(0);
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [autoplayBlocked, setAutoplayBlocked] = useState(false);
 
   // Normalize dynamic videos into a flat array of strings
   const activeVideos = React.useMemo(() => {
@@ -71,14 +73,78 @@ export default function DynamicVideoPlayer({
     setCurrentIndex(0);
   }, [activeVideos]);
 
+  // Handle Safari autoplay by enforcing muted state and explicitly calling play() when src changes
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.defaultMuted = true;
+      videoRef.current.muted = true;
+      videoRef.current.setAttribute("muted", "true");
+      videoRef.current.setAttribute("playsinline", "true");
+      videoRef.current.play()
+        .then(() => setAutoplayBlocked(false))
+        .catch((error) => {
+          console.warn("Autoplay blocked:", error);
+          setAutoplayBlocked(true);
+        });
+    }
+  }, [currentIndex, activeVideos]);
+
+  const attemptPlay = () => {
+    if (videoRef.current) {
+      videoRef.current.play()
+        .then(() => setAutoplayBlocked(false))
+        .catch((error) => {
+          console.warn("Autoplay blocked on canplay:", error);
+          setAutoplayBlocked(true);
+        });
+    }
+  };
+
+  const handleManualPlay = () => {
+    if (videoRef.current) {
+      videoRef.current.play()
+        .then(() => setAutoplayBlocked(false))
+        .catch((err) => console.error("Manual play failed:", err));
+    }
+  };
+
+  // The "Invisible Autoplay" Hack for iOS:
+  // If iOS blocks autoplay, we listen for the user's VERY FIRST tap or swipe anywhere on the screen.
+  // The moment they touch the screen to scroll, we trigger play(), satisfying iOS's gesture rule invisibly.
+  useEffect(() => {
+    if (!autoplayBlocked) return;
+
+    const unlockVideo = () => {
+      if (videoRef.current && videoRef.current.paused) {
+        videoRef.current.play()
+          .then(() => {
+            setAutoplayBlocked(false);
+            window.removeEventListener("touchstart", unlockVideo);
+            window.removeEventListener("click", unlockVideo);
+          })
+          .catch(() => {});
+      }
+    };
+
+    window.addEventListener("touchstart", unlockVideo, { passive: true });
+    window.addEventListener("click", unlockVideo, { passive: true });
+
+    return () => {
+      window.removeEventListener("touchstart", unlockVideo);
+      window.removeEventListener("click", unlockVideo);
+    };
+  }, [autoplayBlocked]);
+
   if (activeVideos.length === 0) return null;
 
   return (
     <video
-      key={activeVideos[currentIndex]}
+      ref={videoRef}
       autoPlay
       muted
       playsInline
+      preload="auto"
+      onCanPlay={attemptPlay}
       loop={activeVideos.length === 1}
       onEnded={handleVideoEnd}
       className={className}
