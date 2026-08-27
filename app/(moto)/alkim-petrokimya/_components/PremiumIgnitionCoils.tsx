@@ -18,7 +18,7 @@ export default function PremiumIgnitionCoils() {
             data-aos="fade-right">
             {/* 360 Deg Video Placeholder / Player */}
             <DynamicVideoPlayer
-              type="short-1"
+              type="360"
               className="w-full h-full object-cover"
             />
           </div>
