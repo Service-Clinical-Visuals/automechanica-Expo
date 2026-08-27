@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+
+
+@layer base {
+  :root {
+    --primary: #005CA9;
+  }
+  
+  html {
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-family: 'Cabin', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p, a, span {
+    font-family: 'Cabin', sans-serif;
+  }
+}
+
+
+section {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Font sizes - as requested, use only global.css */
+.header-link { font-size: 16px; }
+  .header-links { font-size: 17px; }
+  .btn-text { font-size: 16px; }
+  .banner-title { font-size: 36px; }  
+  .banner-text { font-size: 18px; }
+  .section-title { font-size: 28px; }
+  .section-text { font-size: 17px; }
+  .card-title { font-size: 24px; }
+  .footer-text { font-size: 22px;}
+/* Responsive Custom Container & Font Sizes */
+
+@media (max-width: 480px) {
+  .custom-container { max-width: 95%; }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container { max-width: 92%; }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container { max-width: 90%; }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container { max-width: 85%; }
+  }
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container { max-width: 85%; }
+  }
+
+/* as per figma */
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .custom-container { max-width: 90%; }
+  .header-link { font-size: 16px; }
+  .header-links { font-size: 17px; }
+  .btn-text { font-size: 16px; }
+  .banner-title { font-size: 36px; }  
+  .banner-text { font-size: 18px; }
+  .section-title { font-size: 28px; }
+  .section-text { font-size: 17px; }
+  .card-title { font-size: 24px; }
+  .footer-text { font-size: 22px;}
+}
+
+@media (min-width: 1921px) and (max-width: 2559px) {
+  .custom-container { max-width: 90%; }
+  .header-link { font-size: 16px; }
+  .header-links { font-size: 17px; }
+  .btn-text { font-size: 16px; }
+  .banner-title { font-size: 36px; }  
+  .banner-text { font-size: 18px; }
+  .section-title { font-size: 28px; }
+  .section-text { font-size: 17px; }
+  .card-title { font-size: 24px; }
+  .footer-text { font-size: 22px;}
+}
+
+/* 2k */
+@media (min-width: 2560px) and (max-width: 3800px) {
+  .custom-container { max-width: 90%; }
+  .header-link { font-size: 18px; }
+  .header-links { font-size: 19px; }
+  .btn-text { font-size: 18px; }
+  .banner-title { font-size: 38px; }  
+  .banner-text { font-size: 20px; }
+  .section-title { font-size: 30px; }
+  .section-text { font-size: 19px; }
+  .card-title { font-size: 26px; }
+  .footer-text { font-size: 24px;}
+}
+@media (min-width: 3800px) {
+  .custom-container { max-width: 90%; }
+   .header-link { font-size: 22px; }
+  .header-links { font-size: 23px; }
+  .btn-text { font-size: 22px; }
+  .banner-title { font-size: 42px; }  
+  .banner-text { font-size: 24px; }
+  .section-title { font-size: 34px; }
+  .section-text { font-size: 23px; }
+  .card-title { font-size: 30px; }
+  .footer-text { font-size: 28px;}
+}
+
+/* .bg{
+  background-image: url("/moto/sigam/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 90%;
+} */
+
+
+/*
+@layer components {
+  .custom-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  @media (min-width: 640px) {
+    .custom-container {
+      max-width: 640px;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .custom-container {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .custom-container {
+      max-width: 1024px;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .custom-container {
+      max-width: 1280px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .custom-container {
+      max-width: 1440px; 
+    }
+  }
+
+  .heading-1 {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold text-white;
+  }
+  
+  .heading-2 {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold text-[#005CA9];
+  }
+
+  .nav-link {
+    @apply text-sm lg:text-base text-[#333333] hover:text-[#005CA9] transition-colors font-medium;
+  }
+
+  .nav-link.active {
+    @apply text-[#005CA9] font-bold;
+  }
+
+  .btn-text {
+    @apply text-sm lg:text-base font-semibold;
+  }
+
+  .btn-text-large {
+    @apply text-base md:text-lg lg:text-xl font-semibold;
+  }
+
+  .paragraph-text {
+    @apply text-sm md:text-base lg:text-lg text-white/90;
+  }
+
+  .body-text {
+    @apply text-sm md:text-base leading-relaxed;
+  }
+} */
+
+@layer utilities {
+  .text-primary {
+    color: #005CA9;
+  }
+  
+  .bg-primary {
+    background-color: #005CA9;
+  }
+  
+  .border-primary {
+    border-color: #005CA9;
+  }
+}

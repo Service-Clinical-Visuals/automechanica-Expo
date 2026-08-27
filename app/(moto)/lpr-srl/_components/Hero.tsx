@@ -1,0 +1,52 @@
+"use client";
+
+import React from "react";
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+import Typography from "./Typography";
+
+const Hero = () => {
+  return (
+    <section
+      id="home"
+      className="w-full lg:z-60 mt-0 h-screen pointer-events-none relative overflow-hidden flex flex-col justify-end pb-[6%] md:pb-[5%] "
+    >
+      {/* Background Video using DynamicVideoPlayer */}
+      <div className="absolute inset-0 z-0 pointer-events-none">
+        <DynamicVideoPlayer
+          className="absolute inset-0 w-full h-full object-cover pointer-events-none z-0"
+          type="banner"
+        />
+        {/* Subtle Dark Overlay */}
+        <div className="absolute inset-0 bg-secondary/10 z-10" />
+      </div>
+
+      {/* Content Container */}
+      <div className="custom-container relative z-20 w-full px-4 sm:px-6">
+        <div
+          className="xl:max-w-[70%] max-w-full text-left space-y-2 md:space-y-4 pointer-events-auto"
+        >
+          {/* Header Title  */}
+          <Typography
+            variant="h1"
+            color="white"
+            className="leading-tight"
+            data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100"
+          >
+            A long experience for a short braking
+          </Typography>
+
+          <Typography
+            variant="p"
+            color="white"
+            className="leading-relaxed w-full xl:max-w-[80%]"
+            data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"
+          >
+            Decades of braking expertise delivering reliable and efficient performance.
+          </Typography>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;

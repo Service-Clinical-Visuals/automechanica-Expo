@@ -25,7 +25,7 @@ export default function PremiumEngine() {
               <div className="w-12 h-12 min-[1920px]:w-16 min-[1920px]:h-16 min-[2500px]:w-24 min-[2500px]:h-24 min-[3800px]:w-32 min-[3800px]:h-32 p-1 rounded-full border border-gray-600 bg-[#5A5A5A] flex items-center justify-center">
                 <Typography variant="p" className="font-orbitron leading-none text-white">01</Typography>
               </div>
-              <Typography variant="h4" color="white" className="font-orbitron font-medium">
+              <Typography variant="h5" color="white" className="font-orbitron font-medium">
                 Ergonomic Bottle Design
               </Typography>
               <Typography variant="p" className="text-white  leading-relaxed max-w-[80%]">
@@ -37,7 +37,7 @@ export default function PremiumEngine() {
               <div className="w-12 h-12 min-[1920px]:w-16 min-[1920px]:h-16 min-[2500px]:w-24 min-[2500px]:h-24 min-[3800px]:w-32 min-[3800px]:h-32 rounded-full border border-gray-600 bg-[#5A5A5A] flex items-center justify-center">
                 <Typography variant="p" className="font-orbitron font-medium text-[15px] text-white">03</Typography>
               </div>
-              <Typography variant="h4" color="white" className="font-orbitron font-medium">
+              <Typography variant="h5" color="white" className="font-orbitron font-medium">
                 Leakproof Seals
               </Typography>
               <Typography variant="p" className="text-white leading-relaxed max-w-[80%">
@@ -63,7 +63,7 @@ export default function PremiumEngine() {
               <div className="w-12 h-12 min-[1920px]:w-16 min-[1920px]:h-16 min-[2500px]:w-24 min-[2500px]:h-24 min-[3800px]:w-32 min-[3800px]:h-32 rounded-full border border-gray-600 bg-[#5A5A5A] flex items-center justify-center">
                 <Typography variant="p" className="font-orbitron font-medium text-[15px] text-white">02</Typography>
               </div>
-              <Typography variant="h4" color="white" className="font-orbitron font-medium">
+              <Typography variant="h5" color="white" className="font-orbitron font-medium">
                 Premium Label
               </Typography>
               <Typography variant="p" className="text-white leading-relaxed max-w-[80%]">
@@ -75,7 +75,7 @@ export default function PremiumEngine() {
               <div className="w-12 h-12 min-[1920px]:w-16 min-[1920px]:h-16 min-[2500px]:w-24 min-[2500px]:h-24 min-[3800px]:w-32 min-[3800px]:h-32 rounded-full border border-gray-600 bg-[#5A5A5A] flex items-center justify-center">
                 <Typography variant="p" className="font-orbitron text-white">04</Typography>
               </div>
-              <Typography variant="h4" color="white" className="font-orbitron font-medium">
+              <Typography variant="h5" color="white" className="font-orbitron font-medium">
                 Reinforced Delivery
               </Typography>
               <Typography variant="p" className="text-white leading-relaxed max-w-[80%]">
