@@ -94,7 +94,7 @@ export default function ProductCategories() {
       <div className="custom-container">
         <div className="mb-12 flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
           <div
-            className="max-w-[677px]"
+            className="max-w-[677px] xl:max-w-[70%]"
             data-aos="fade-right"
             data-aos-duration="900"
             data-aos-once="true"

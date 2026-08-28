@@ -9,7 +9,7 @@ import WhoAreWe from "./_components/WhoAreWe";
 
 export default function DitasPage() {
   return (
-    <main className="flex min-h-screen flex-col w-full bg-white overflow-x-hidden">
+    <div className="flex flex-col w-full bg-white">
       <Banner />
       <WhoAreWe/>
       <ProductExperience/>
@@ -18,7 +18,6 @@ export default function DitasPage() {
       <Values/>
       <Quality/>
       <News/>
-      
-    </main>
+    </div>
   );
 }

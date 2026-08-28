@@ -1,6 +1,6 @@
 "use client";
 
-import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 import Button from "./Button";
 
 export default function Quality() {
@@ -8,7 +8,7 @@ export default function Quality() {
     <section className="w-full bg-[#F3F5F7] py-16 md:py-20 xl:py-[100px]">
       <div className="custom-container flex flex-col xl:flex-row gap-10 xl:gap-[45px] items-center">
         <div
-          className="w-full xl:w-[820px] flex-shrink-0"
+          className="w-full xl:w-[820px] xl:max-w-[70%] flex-shrink-0"
           data-aos="fade-right"
           data-aos-duration="900"
           data-aos-once="true"
@@ -60,7 +60,7 @@ export default function Quality() {
         </div>
 
         <div
-          className="relative w-full xl:flex-1 min-w-0 h-[350px] md:h-[450px] xl:h-[458px] rounded-2xl overflow-hidden"
+          className="relative w-full aspect-video xl:flex-1 min-w-0 rounded-2xl overflow-hidden"
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-delay="150"

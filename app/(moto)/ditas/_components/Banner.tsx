@@ -1,6 +1,6 @@
 "use client";
 
-import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 
 export default function Banner() {
   return (
@@ -12,7 +12,7 @@ export default function Banner() {
 
       <div className="custom-container relative z-10 pb-16 md:pb-20 xl:pb-16">
         <h1
-          className="hero-title text-white max-w-[489px] mb-6"
+          className="hero-title text-white max-w-[489px] xl:max-w-[70%] mb-6"
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="200"
@@ -22,7 +22,7 @@ export default function Banner() {
         </h1>
 
         <p
-          className="body-text text-white max-w-[665px]"
+          className="body-text text-white max-w-[665px] xl:max-w-[70%]"
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="400"

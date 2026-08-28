@@ -1,6 +1,6 @@
 "use client";
 
-import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 import Button from "./Button";
 
 const features = [
@@ -17,7 +17,7 @@ export default function Explore() {
         <div className="mb-12 flex flex-col items-center gap-10 xl:flex-row xl:gap-[45px]">
           {/* Left Content */}
           <div
-            className="w-full flex-shrink-0 xl:w-[677px]"
+            className="w-full flex-shrink-0 xl:w-[677px] xl:max-w-[70%]"
             data-aos="fade-right"
             data-aos-duration="900"
             data-aos-once="true"
@@ -65,7 +65,7 @@ export default function Explore() {
 
           {/* Right Video */}
           <div
-            className="relative  h-[350px] min-w-0 w-full overflow-hidden rounded-2xl md:h-[450px] xl:h-[540px] xl:flex-1"
+            className="relative aspect-video min-w-0 w-full overflow-hidden rounded-2xl xl:flex-1"
             data-aos="fade-left"
             data-aos-duration="1000"
             data-aos-delay="150"
@@ -88,7 +88,7 @@ export default function Explore() {
         {/* Bottom Content */}
         <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
           <p
-            className="body-text max-w-[962px] text-[#4B5563]"
+            className="body-text max-w-[962px] xl:max-w-[70%] text-[#4B5563]"
             data-aos="fade-right"
             data-aos-duration="800"
             data-aos-delay="100"

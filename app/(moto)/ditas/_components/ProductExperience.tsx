@@ -1,6 +1,6 @@
 "use client";
 
-import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
+import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 
 export default function ProductExperience() {
   return (
@@ -22,7 +22,7 @@ export default function ProductExperience() {
         </h2>
 
         <p
-          className="body-text text-white max-w-[1106px] mb-10 xl:mb-[30px]"
+          className="body-text text-white max-w-[1106px] xl:max-w-[70%] mx-auto mb-10 xl:mb-[30px]"
           data-aos="fade-up"
           data-aos-duration="900"
           data-aos-delay="150"
