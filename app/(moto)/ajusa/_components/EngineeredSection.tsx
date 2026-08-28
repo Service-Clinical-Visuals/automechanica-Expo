@@ -38,7 +38,7 @@ export default function EngineeredSection() {
           </div>
 
           {/* Right Video Player */}
-          <div className="lg:col-span-7 w-full h-full aspect-video lg:aspect-auto lg:h-full relative overflow-hidden" data-aos="fade-left">
+          <div className="lg:col-span-7 w-full h-full aspect-video  relative overflow-hidden" data-aos="fade-left">
             <DynamicVideoPlayer
               type="short-1"
               className="absolute inset-0 w-full h-full object-cover"
