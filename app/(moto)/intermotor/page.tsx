@@ -5,7 +5,6 @@ import Premium from "./_components/Premium";
 import About from "./_components/About";
 import Quality from "./_components/Quality";
 import Footer from "./_components/Footer";
-import AosInit from "./_components/AosInit";
 import Partner from "./_components/Partner";
 import Performance from "./_components/Performance";
 import Advanced from "./_components/Advanced";
@@ -19,7 +18,6 @@ export const metadata = {
 export default function Page() {
   return (
     <main className="relative min-h-screen bg-white overflow-x-hidden">
-      <AosInit />
       <Header />
       <Hero />
       <About />

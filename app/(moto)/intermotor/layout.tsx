@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Oswald, Rubik } from "next/font/google";
 import "./globals.css";
 import { VideoProvider } from "../../_context/VideoContext";
-import AosInit from "./_components/AosInit";
+import SmoothAOS from "./_components/SmoothAOS";
 
 
 const fontBody = Rubik({
@@ -31,7 +31,7 @@ export default function EurolLayout({
 }>) {
   return (
     <div className={`${fontBody.variable} ${fontHeading.variable} antialiased bg-white`}>
-      <AosInit />
+      <SmoothAOS />
       <VideoProvider >
         <div className=" overflow-x-hidden relative w-full min-h-screen">
           {children}
