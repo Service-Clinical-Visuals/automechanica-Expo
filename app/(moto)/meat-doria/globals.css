@@ -7,6 +7,15 @@
 
 @import "tailwindcss";
 
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
 @theme {
   --color-primary: #1C6E9F;
   --color-btncolor: #1C6E9F;
