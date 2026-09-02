@@ -22,7 +22,7 @@ export default function Partners() {
           {/* Category 1 */}
           <Link href="#" className="w-auto h-auto flex ">
             <img
-              src="/moto/badenex/component 1.png"
+              src="/moto/badenex/Component 1.png"
               alt="Engine Oils"
               className="w-auto h-auto object-cover hover:scale-[1.02] transition-transform duration-500"
             />
@@ -31,7 +31,7 @@ export default function Partners() {
           {/* Category 2 */}
           <Link href="#" className="w-auto h-auto flex ">
             <img
-              src="/moto/badenex/component 2.png"
+              src="/moto/badenex/Component 2.png"
               alt="Additives"
               className="w-auto h-auto object-cover hover:scale-[1.02] transition-transform duration-500"
             />

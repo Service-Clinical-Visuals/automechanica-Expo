@@ -59,7 +59,7 @@ export default function PrecisionView() {
           {/* Right: 360 Video Player */}
           <div className="w-full aspect-video relative overflow-hidden bg-gray-200 flex items-center justify-center order-1 xl:order-2 xl:col-span-7" data-aos="fade-left">
             <DynamicVideoPlayer
-              type="360"
+              type="short-2"
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>

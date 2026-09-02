@@ -25,13 +25,9 @@ export default function Layout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={outfit.variable} suppressHydrationWarning>
-      <body className="min-h-screen bg-white font-sans antialiased">
-        <AOSInit />
-        <div className="overflow-x-hidden relative w-full">
-          {children}
-        </div>
-      </body>
-    </html>
+    <div className={`${outfit.variable} min-h-screen bg-white font-sans antialiased overflow-x-hidden relative w-full`}>
+      <AOSInit />
+      {children}
+    </div>
   );
 }

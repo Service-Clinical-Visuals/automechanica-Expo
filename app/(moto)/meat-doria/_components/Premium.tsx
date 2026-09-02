@@ -7,23 +7,17 @@ const features = [
     title: "OEM-Quality Performance",
     description: "Engineered for reliable cooling efficiency and long service life.",
   },
-  {
-    title: "Precision Manufacturing",
-    description: "Designed for accurate fitment and hassle-free installation.",
-  },
+  // {
+  //   title: "Precision Manufacturing",
+  //   description: "Designed for accurate fitment and hassle-free installation.",
+  // },
 ];
 
-const checkerboardStyle = {
-  backgroundImage:
-    "linear-gradient(45deg, #e5e5e5 25%, transparent 25%), linear-gradient(-45deg, #e5e5e5 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #e5e5e5 75%), linear-gradient(-45deg, transparent 75%, #e5e5e5 75%)",
-  backgroundSize: "60px 60px",
-  backgroundPosition: "0 0, 0 30px, 30px -30px, -30px 0px",
-  backgroundColor: "#f9f9f9",
-};
+
 
 export default function Premium() {
   return (
-    <section className="bg-[#F5F5F5] py-16 md:py-24">
+    <section className="bg-[#F5F5F5] py-16 md:pt-24">
       <Container>
         {/* Top heading */}
         <div className="flex items-center justify-between gap-6 pb-6 mb-10 border-b border-[#00000020]" data-aos="fade-up">
@@ -31,18 +25,18 @@ export default function Premium() {
             Reliable Air Conditioning Performance for Every Journey
           </h2>
           <button
-              className="navlink gap-1 font-normal! flex max-w-[200px] justify-between text-white! rounded-tr-[16px] rounded-bl-[16px] bg-primary px-4 py-3 transition-colors"
+            className="navlink gap-1 font-normal! flex max-w-[200px] justify-between text-white! rounded-tr-[16px] rounded-bl-[16px] bg-primary px-4 py-3 transition-colors"
           >
-              Explore Products
-              <ArrowRightIcon fill="white" />
+            Explore Products
+            <ArrowRightIcon fill="white" />
           </button>
         </div>
 
         {/* Two-column content */}
         <div className="grid grid-cols-1 xl:grid-cols-[65fr_35fr] gap-8 xl:gap-12 items-center">
           {/* Left: 360 video */}
-          <div className="relative w-full aspect-video" style={checkerboardStyle} data-aos="fade-right">
-            <DynamicVideoPlayer type="360" className="absolute inset-0 w-full h-full object-cover" />
+          <div className="relative w-full " data-aos="fade-right">
+            <DynamicVideoPlayer type="360" className=" inset-0 w-full " />
           </div>
 
           {/* Right: content */}

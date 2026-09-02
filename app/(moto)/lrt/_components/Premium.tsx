@@ -53,7 +53,7 @@ export default function Premium() {
                 }}
               >
                 <DynamicVideoPlayer type="360" className="absolute inset-0 w-full h-full object-cover" />
-                <span className="relative content text-[#1E1E1E]! text-lg">360 deg Video</span>
+
               </div>
             </div>
 

@@ -1,0 +1,152 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #cb1020;
+  }
+  
+  html {
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-family: var(--font-inter), sans-serif;
+    background-color: #000;
+  }
+  
+  /* h1, h2, h3, h4, h5, h6, button {
+    font-family: var(--font-teko), sans-serif;
+  }
+  
+  p, a, span {
+    font-family: var(--font-inter), sans-serif;
+  } */
+}
+
+.inter-font{
+  font-family: var(--font-inter), sans-serif;
+}
+
+.teko-font{
+  font-family: var(--font-teko), sans-serif;
+}
+
+section {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Font sizes - only in global.css */
+ .header-link { font-size: 16px; }
+  .btn-text { font-size: 18px; }
+  .banner-title { font-size: 40px; }  
+  .section-title { font-size: 48px; }
+  .section-subtitle { font-size: 36px; }
+  .section-text { font-size: 16px; }
+  .card-title { font-size: 24px; }
+  .product-title { font-size: 32px; }
+
+@media (max-width: 480px) {
+  .custom-container { max-width: 90%; }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .custom-container { max-width: 90%; }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .custom-container { max-width: 90%; }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .custom-container { max-width: 90%; }
+}
+@media (min-width: 1280px) and (max-width: 1535px) {
+  .custom-container { max-width: 90%; }
+}
+
+/* as per figma */
+@media (min-width: 1536px) and (max-width: 1920px) {
+  .custom-container { max-width: 90%; }
+  .header-link { font-size: 16px; }
+  .btn-text { font-size: 18px; }
+  .banner-title { font-size: 40px; }  
+  .section-title { font-size: 48px; }
+  .section-subtitle { font-size: 36px; }
+  .section-text { font-size: 16px; }
+  .card-title { font-size: 24px; }
+  .product-title { font-size: 32px; }
+}
+
+@media (min-width: 1921px) and (max-width: 2559px) {
+  .custom-container { max-width: 1700px; margin: 0 auto; }
+ .header-link { font-size: 16px; }
+  .btn-text { font-size: 18px; }
+  .banner-title { font-size: 40px; }  
+  .section-title { font-size: 48px; }
+  .section-subtitle { font-size: 36px; }
+  .section-text { font-size: 16px; }
+  .card-title { font-size: 24px; }
+  .product-title { font-size: 32px; }
+}
+
+/* 2k */
+@media (min-width: 2560px) and (max-width: 3799px) {
+  .custom-container { max-width: 1920px; margin: 0 auto; }
+  .header-link { font-size: 18px; }
+  .btn-text { font-size: 20px; }
+  .banner-title { font-size: 42px; }  
+  .section-title { font-size: 50px; }
+  .section-subtitle { font-size: 38px; }
+  .section-text { font-size: 18px; }
+  .card-title { font-size: 26px; }
+  .product-title { font-size: 34px; }
+}
+
+@media (min-width: 3800px) {
+  .custom-container { max-width: 2000px; margin: 0 auto; }
+ .header-link { font-size: 22px; }
+  .btn-text { font-size: 24px; }
+  .banner-title { font-size: 46x; }  
+  .section-title { font-size: 54px; }
+  .section-subtitle { font-size: 42px; }
+  .section-text { font-size: 18px; }
+  .card-title { font-size: 30px; }
+  .product-title { font-size: 38px; }
+}
+
+/* Custom Swiper Pagination */
+.products-swiper-container .swiper-pagination {
+  bottom: 0px !important;
+}
+.swiper-bullet-custom {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #d1d5db;
+  margin: 0 6px !important;
+  opacity: 1;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.swiper-bullet-custom-active {
+  background: var(--primary);
+  width: 32px;
+  border-radius: 8px;
+}
+
+@layer utilities {
+  .text-primary {
+    color: var(--primary);
+  }
+  .bg-primary {
+    background-color: var(--primary);
+  }
+  .border-primary {
+    border-color: var(--primary);
+  }
+}

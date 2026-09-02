@@ -23,7 +23,7 @@ export default function Performance() {
             data-aos-delay="150"
           >
             <DynamicVideoPlayer type="short-1" className="absolute inset-0 w-full h-full object-cover" />
-            <span className="relative content text-[#1E1E1E]! text-lg">Video Clip 01</span>
+
 
             <button className="absolute bottom-4 right-4 flex items-center justify-center rounded-full bg-[#00437A] text-white hover:opacity-90 transition-opacity" style={{ width: 44, height: 44 }}>
               <ArrowUpRight size={20} strokeWidth={2} />

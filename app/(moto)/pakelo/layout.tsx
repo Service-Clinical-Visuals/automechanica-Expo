@@ -27,10 +27,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${oswald.variable} ${dmSans.variable} font-dm-sans antialiased text-[#121C22] bg-[#000033]`}>
-       <VideoProvider> {children}</VideoProvider>
-      </body>
-    </html>
+    <div className={`${oswald.variable} ${dmSans.variable} font-dm-sans antialiased text-[#121C22] bg-[#000033] min-h-screen relative w-full`}>
+      <VideoProvider> {children}</VideoProvider>
+    </div>
   );
 }
