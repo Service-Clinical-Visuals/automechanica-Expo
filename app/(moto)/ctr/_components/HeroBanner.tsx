@@ -12,19 +12,20 @@ export default function HeroBanner() {
       <div className="absolute inset-0 w-full h-full z-0">
         <DynamicVideoPlayer
           type="banner"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover object-fill"
         />
       </div>
 
       {/* Hero Content positioned Bottom-Left */}
       <div className="custom-container relative z-20 flex flex-col items-start justify-end h-full pb-12 sm:pb-16 md:pb-20 lg:pb-24">
-        <div className="max-w-xl md:max-w-2xl flex flex-col gap-5 sm:gap-6" data-aos="fade-up" data-aos-duration="1000">
-          
+        <div
+          className="max-w-xl md:max-w-2xl flex flex-col gap-5 sm:gap-6"
+          data-aos="fade-up"
+          data-aos-duration="1000">
           <Typography
             variant="h1"
             color="white"
-            className="leading-[1.5]! mb-4 "
-          >
+            className="leading-[1.5]! mb-4 ">
             Engineered for Control, Built for Long-Lasting Performance
           </Typography>
 

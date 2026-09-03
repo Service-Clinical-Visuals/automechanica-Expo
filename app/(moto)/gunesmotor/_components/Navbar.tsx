@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
@@ -18,14 +18,31 @@ const navLinks = [
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Show header after scrolling half the viewport height
+      if (window.scrollY > window.innerHeight / 2) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <>
       <motion.header
-        initial={{ y: -40, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.6, ease: "easeOut" }}
-        className="fixed top-0 left-0 z-50 w-full bg-white"
-      >
+        initial={{ y: "-100%", opacity: 0 }}
+        animate={isVisible ? { y: 0, opacity: 1 } : { y: "-100%", opacity: 0 }}
+        transition={{ duration: 0.4, ease: "easeOut" }}
+        className="fixed top-0 left-0 z-50 w-full bg-white">
         <div
           className="
             container flex items-center justify-between
@@ -33,15 +50,13 @@ export default function Navbar() {
             max-[1279px]:h-[90px]
             max-[768px]:h-[80px]
             max-[480px]:h-[72px]
-          "
-        >
+          ">
           {/* Logo */}
           <Link href="/" className="flex shrink-0 items-center">
             <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.97 }}
-              transition={{ duration: 0.2 }}
-            >
+              transition={{ duration: 0.2 }}>
               {/* <Image
                 src="/moto/gunesmotor/logo.png"
                 alt="Güneş Engine Valves"
@@ -79,8 +94,7 @@ export default function Navbar() {
               max-[1920px]:gap-[32px]
               max-[1440px]:gap-[27px]
               max-[1280px]:gap-[20px]
-            "
-          >
+            ">
             {navLinks.map((link, i) => (
               <motion.div
                 key={link.href}
@@ -89,8 +103,7 @@ export default function Navbar() {
                   visible: { opacity: 1, y: 0 },
                 }}
                 whileHover={{ y: -2 }}
-                transition={{ duration: 0.2 }}
-              >
+                transition={{ duration: 0.2 }}>
                 <Link
                   href={link.href}
                   className={`
@@ -104,8 +117,7 @@ export default function Navbar() {
                         ? "text-[#D9000D] underline underline-offset-[2px]"
                         : "text-[#4B5563] hover:text-[#D9000D]"
                     }
-                  `}
-                >
+                  `}>
                   {link.label}
                 </Link>
               </motion.div>
@@ -121,8 +133,7 @@ export default function Navbar() {
               min-[2200px]:gap-[32px]
               max-[1920px]:gap-[22px]
               max-[1280px]:gap-[18px]
-            "
-          >
+            ">
             {/* Catalog */}
             <motion.button
               type="button"
@@ -143,8 +154,7 @@ export default function Navbar() {
                 max-[1280px]:h-[50px]
                 max-[1280px]:w-[105px]
                 max-[1280px]:text-[17px]
-              "
-            >
+              ">
               <span>Catalog</span>
 
               <Image
@@ -167,8 +177,7 @@ export default function Navbar() {
               whileHover={{ scale: 1.08 }}
               whileTap={{ scale: 0.94 }}
               transition={{ duration: 0.2 }}
-              className="flex items-center justify-center gap-[5px]"
-            >
+              className="flex items-center justify-center gap-[5px]">
               <Image
                 src="/moto/gunesmotor/world.png"
                 alt="Language"
@@ -182,13 +191,8 @@ export default function Navbar() {
                 height="6"
                 viewBox="0 0 10 6"
                 fill="none"
-                aria-hidden="true"
-              >
-                <path
-                  d="M1 1L5 5L9 1"
-                  stroke="#D9000D"
-                  strokeWidth="1.5"
-                />
+                aria-hidden="true">
+                <path d="M1 1L5 5L9 1" stroke="#D9000D" strokeWidth="1.5" />
               </svg>
             </motion.button>
           </div>
@@ -204,8 +208,7 @@ export default function Navbar() {
               flex h-[34px] w-[34px]
               flex-col items-center justify-center gap-[5px]
               xl:hidden
-            "
-          >
+            ">
             <span
               className={`
                 block h-[2px] w-[25px] bg-[#272727]
@@ -249,8 +252,7 @@ export default function Navbar() {
                 shadow-lg
                 xl:hidden
                 max-[480px]:px-[15px]
-              "
-            >
+              ">
               {/* Links */}
               <nav className="flex flex-col gap-[18px]">
                 {navLinks.map((link, i) => (
@@ -258,8 +260,7 @@ export default function Navbar() {
                     key={link.href}
                     initial={{ opacity: 0, x: -15 }}
                     animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.25, delay: i * 0.05 }}
-                  >
+                    transition={{ duration: 0.25, delay: i * 0.05 }}>
                     <Link
                       href={link.href}
                       onClick={() => setMenuOpen(false)}
@@ -270,8 +271,7 @@ export default function Navbar() {
                             ? "text-[#D9000D] underline"
                             : "text-[#4B5563]"
                         }
-                      `}
-                    >
+                      `}>
                       {link.label}
                     </Link>
                   </motion.div>
@@ -292,8 +292,7 @@ export default function Navbar() {
                   bg-transparent
                   font-oswald text-[18px] font-semibold
                   text-[#272727]
-                "
-              >
+                ">
                 <span>Catalog</span>
 
                 <Image
@@ -313,8 +312,7 @@ export default function Navbar() {
               <button
                 type="button"
                 aria-label="Select language"
-                className="flex w-fit items-center gap-[5px]"
-              >
+                className="flex w-fit items-center gap-[5px]">
                 <Image
                   src="/moto/gunesmotor/world.png"
                   alt="Language"
@@ -328,29 +326,14 @@ export default function Navbar() {
                   height="6"
                   viewBox="0 0 10 6"
                   fill="none"
-                  aria-hidden="true"
-                >
-                  <path
-                    d="M1 1L5 5L9 1"
-                    stroke="#D9000D"
-                    strokeWidth="1.5"
-                  />
+                  aria-hidden="true">
+                  <path d="M1 1L5 5L9 1" stroke="#D9000D" strokeWidth="1.5" />
                 </svg>
               </button>
             </motion.div>
           )}
         </AnimatePresence>
       </motion.header>
-
-      {/* Spacer to offset fixed header height so content doesn't hide underneath */}
-      <div
-        className="
-          h-[100px]
-          max-[1279px]:h-[90px]
-          max-[768px]:h-[80px]
-          max-[480px]:h-[72px]
-        "
-      />
     </>
   );
 }

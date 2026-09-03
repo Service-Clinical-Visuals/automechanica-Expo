@@ -12,22 +12,25 @@ export default function Banner() {
       {/* Background Video using DynamicVideoPlayer as requested */}
       <div className="absolute inset-0 z-0 bg-black">
         <DynamicVideoPlayer
-          type="banner" 
-          className="absolute inset-0 w-full h-full object-cover"
+          type="banner"
+          className="absolute inset-0 w-full h-full object-cover object-fill"
         />
-    
       </div>
 
       {/* Content Overlay */}
       <Container>
         <div className="relative z-10 pb-20 md:pb-32 lg:pb-40">
-          <div className="max-w-4xl text-left" data-aos="fade-up" data-aos-delay="200">
+          <div
+            className="max-w-4xl text-left"
+            data-aos="fade-up"
+            data-aos-delay="200">
             <h1 className="heading-white font-semibold! text-[38px]! leading-[150%]! tracking-[0%]! text-white mb-3">
-               Reliable Performance
+              Reliable Performance
             </h1>
           </div>
           <div className="content-white mt-5 max-w-2xl">
-            Combining advanced manufacturing, strict quality control, and innovative R&D to shape the future of automotive solutions
+            Combining advanced manufacturing, strict quality control, and
+            innovative R&D to shape the future of automotive solutions
           </div>
         </div>
       </Container>
