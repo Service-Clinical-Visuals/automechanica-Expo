@@ -18,7 +18,7 @@ export default function Quality() {
           className="grid grid-cols-1 xl:grid-cols-[60fr_40fr] gap-8 items-center"
           data-aos="fade-up">
           {/* Left: video */}
-          <div className="relative w-full aspect-video order-2 xl:order-1">
+          <div className="relative w-full aspect-[64/21] order-2 xl:order-1">
             <DynamicVideoPlayer
               type="short-1"
               className="absolute inset-0 w-full h-full object-contain"
@@ -38,14 +38,14 @@ export default function Quality() {
               deliver consistent refrigerant circulation, smooth operation, and
               dependable performance for long-lasting driving comfort.
             </p>
-            <p className="content text-[16px]! mb-6">
+            {/* <p className="content text-[16px]! mb-6">
               These compressors are built using durable components and precision
               engineering to ensure excellent reliability, reduced noise, and
               optimal compatibility with OEM specifications. Whether for routine
               replacement or professional repair, Meat &amp; Doria A/C
               compressors provide an efficient solution that helps maintain peak
               air conditioning performance in all driving conditions.
-            </p>
+            </p> */}
             <button className="navlink gap-1 flex max-w-[200px] justify-between text-white! rounded-tr-[16px] rounded-bl-[16px] bg-primary px-4 py-3 transition-colors">
               Explore Products
               <ArrowRightIcon fill="white" />
