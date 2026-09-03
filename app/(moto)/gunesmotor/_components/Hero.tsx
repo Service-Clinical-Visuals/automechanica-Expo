@@ -15,12 +15,14 @@ export default function Hero() {
         max-[1279px]:h-[calc(100dvh-90px)]
         max-[768px]:h-[calc(100dvh-80px)]
         max-[480px]:h-[calc(100dvh-72px)]
-      "
-    >
+      ">
       {/* Background video */}
-    <div className="absolute inset-0 z-0 ">
-                 <DynamicVideoPlayer type="banner" />
-               </div>
+      <div className="absolute inset-0 z-0 ">
+        <DynamicVideoPlayer
+          type="banner"
+          className="absolute inset-0 w-full h-full object-cover lg:object-fill"
+        />
+      </div>
 
       {/* Content */}
       <div
@@ -38,8 +40,7 @@ export default function Hero() {
           md:pb-[65px]
           xl:pb-[80px]
           xl:pb-[90px]
-        "
-      >
+        ">
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -57,8 +58,7 @@ export default function Hero() {
             xl:text-[38px]
             xl:text-[44px]
             2xl:text-[48px]
-          "
-        >
+          ">
           Brake Discs for Superior Performance
         </motion.h1>
 
@@ -78,10 +78,9 @@ export default function Hero() {
             sm:text-[16px]
             md:text-[17px]
             xl:text-[18px]
-          "
-        >
-          Reliable brake discs delivering consistent performance, heat
-          control, and durability for safe braking.
+          ">
+          Reliable brake discs delivering consistent performance, heat control,
+          and durability for safe braking.
         </motion.p>
       </div>
     </section>

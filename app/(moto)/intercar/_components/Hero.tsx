@@ -1,6 +1,5 @@
-
 import { ArrowRight } from "lucide-react";
-import DynamicVideoPlayer from '@/app/_components/DynamicVideoPlayer';
+import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 
 const navLinks = [
   "Home",
@@ -14,7 +13,7 @@ const navLinks = [
 export default function Herobanner() {
   return (
     <div>
-              {/* ================================================= */}
+      {/* ================================================= */}
       {/* HERO */}
       {/* ================================================= */}
 
@@ -27,14 +26,16 @@ export default function Herobanner() {
           <div className="absolute inset-0">
             {/* FUTURE VIDEO */}
 
-            <DynamicVideoPlayer type="banner" className="absolute top-0 left-0 w-full h-full object-cover" />
-
+            <DynamicVideoPlayer
+              type="banner"
+              className="absolute top-0 left-0 w-full h-full object-cover lg:object-fill"
+            />
           </div>
 
-          {/* ================================================= */ }
+          {/* ================================================= */}
           {/* HERO CONTENT */}
           {/* ================================================= */}
-          
+
           <div className="relative container-root z-10 flex h-full min-w-[95%] mx-auto items-end ">
             <div className="w-full px-6 sm:px-8 lg:px-14 pb-8 sm:pb-16 md:pb-20 lg:pb-24">
               <div className="max-w-[720px]">
@@ -47,7 +48,6 @@ export default function Herobanner() {
                     <span>Explore Products</span>
                     <ArrowRight size={25} />
                   </button>
-
                 </div>
               </div>
             </div>
@@ -55,5 +55,5 @@ export default function Herobanner() {
         </div>
       </section>
     </div>
-  )
+  );
 }
