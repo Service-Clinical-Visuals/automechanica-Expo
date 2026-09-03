@@ -10,7 +10,7 @@ export default function Banner() {
       {/* Background Video */}
       <div className="absolute inset-0 z-0">
         <div className="relative w-full h-full">
-          <DynamicVideoPlayer type="banner" className="absolute top-0 left-0 w-full h-full object-cover" />
+          <DynamicVideoPlayer type="banner" className="absolute top-0 left-0 w-full h-full object-cover md:object-fill" />
         </div>
       </div>
 
