@@ -28,7 +28,7 @@ export default function Herobanner() {
 
             <DynamicVideoPlayer
               type="banner"
-              className="absolute top-0 left-0 w-full h-full object-cover object-fill"
+              className="absolute top-0 left-0 w-full h-full object-cover lg:object-fill"
             />
           </div>
 

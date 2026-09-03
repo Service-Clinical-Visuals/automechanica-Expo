@@ -15,7 +15,7 @@ export default function Banner() {
           data-aos-delay="100">
           <DynamicVideoPlayer
             type="banner"
-            className="absolute inset-0 w-full h-full object-cover object-fill"
+            className="absolute inset-0 w-full h-full object-cover lg:object-fill"
           />
         </div>
       </div>
