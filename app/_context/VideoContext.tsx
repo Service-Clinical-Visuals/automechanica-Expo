@@ -72,8 +72,9 @@ export const VideoProvider = ({ children, website, apiUrl: apiUrlProp }: { child
         setError(null);
 
         let resolvedBusinessName = null; // Remove website from props to avoid hardcoding
-        if (!resolvedBusinessName && typeof window !== 'undefined') {
-          resolvedBusinessName = window.location.pathname.split('/')[1];
+        if (typeof window !== 'undefined') {
+          const queryBusinessName = new URLSearchParams(window.location.search).get('businessName');
+          resolvedBusinessName = queryBusinessName || window.location.pathname.split('/')[1];
         }
 
         if (!resolvedBusinessName) {
