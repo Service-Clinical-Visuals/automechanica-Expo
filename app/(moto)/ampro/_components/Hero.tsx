@@ -16,6 +16,7 @@ const Hero = () => {
         <DynamicVideoPlayer
           className="absolute inset-0 w-full h-full object-cover pointer-events-none z-0"
           type="banner"
+          audioFeature
         />
         {/* Subtle Dark Overlay */}
         <div className="absolute inset-0 bg-black/30 z-10" />
