@@ -94,18 +94,18 @@ const Header = () => {
           }`}
       >
         <div className="h-[70px] sm:h-[80px] md:h-[90px] min-[3800px]:h-[350px] flex items-center relative z-10">
-          <div className="custom-container flex items-center justify-between gap-4 xl:gap-5 min-[3800px]:gap-10 w-full">
+          <div className="custom-container flex items-center justify-between gap-2 xl:gap-3 2xl:gap-5 min-[3800px]:gap-10 w-full">
             {/* Logo Section */}
             <Link href="/" className="flex items-center shrink-0">
               <img
                 src="/moto/ampro/logo.png"
                 alt="Ampro Logo"
-                className="h-10 sm:h-12 md:h-[15%] min-[3800px]:h-[35%]   w-auto object-contain"
+                className="h-10 sm:h-12 md:h-[15%] min-[3800px]:h-[35%] w-auto object-contain"
               />
             </Link>
 
             {/* Desktop Navbar Links */}
-            <nav className="hidden xl:flex items-center space-x-2 2xl:space-x-3 min-[3800px]:space-x-8 shrink-0">
+            <nav className="hidden xl:flex items-center space-x-0 2xl:space-x-3 min-[3800px]:space-x-8 shrink-0">
               {navLinks.map((link) => {
                 const isActive = (isSustainabilityPage && link.id === "sustainability") || (!isSustainabilityPage && activeLink === link.id);
                 const href = link.id === "sustainability" ? "/ampro/sustainability" : isSustainabilityPage ? `/ampro#${link.id}` : `#${link.id}`;
@@ -114,7 +114,7 @@ const Header = () => {
                     <a
                       href={href}
                       onClick={(e) => handleScrollTo(e, link.id)}
-                      className={`relative z-10 cursor-pointer py-3 min-[3800px]:py-6 px-1 mx-2 min-[3800px]:mx-4 flex flex-col items-center justify-center transition-colors ${isActive ? "text-secondary" : "text-white hover:text-secondary"
+                      className={`relative z-10 cursor-pointer py-3 min-[3800px]:py-6 px-1 mx-1 2xl:mx-2 min-[3800px]:mx-4 flex flex-col items-center justify-center transition-colors ${isActive ? "text-secondary" : "text-white hover:text-secondary"
                         }`}
                     >
                       <span className="navbar uppercase tracking-wide min-[3800px]:text-3xl">
@@ -130,13 +130,13 @@ const Header = () => {
             </nav>
 
             {/* Right Action: Contact */}
-            <div className="hidden xl:flex items-center shrink-0 gap-5 min-[3800px]:gap-10">
-              <Search className="w-6 h-6 min-[3800px]:w-12 min-[3800px]:h-12 text-white hover:text-secondary cursor-pointer transition-colors" strokeWidth={2.5} />
-              <div className="flex flex-col border-l border-white/30 pl-5 min-[3800px]:pl-10">
-                <Typography variant="h6" color="white" className="font-bold uppercase leading-tight tracking-wider min-[3800px]:text-2xl">
+            <div className="hidden xl:flex items-center shrink-0 gap-3 2xl:gap-5 min-[3800px]:gap-10">
+              <Search className="w-5 h-5 2xl:w-6 2xl:h-6 min-[3800px]:w-12 min-[3800px]:h-12 text-white hover:text-secondary cursor-pointer transition-colors" strokeWidth={2.5} />
+              <div className="flex flex-col border-l border-white/30 pl-3 2xl:pl-5 min-[3800px]:pl-10">
+                <Typography variant="h6" color="white" className="font-bold uppercase leading-tight tracking-wider text-[10px] 2xl:text-xs min-[3800px]:text-2xl">
                   CONTACT US
                 </Typography>
-                <Typography variant="h4" color="secondary" className="font-bold tracking-wide min-[3800px]:text-4xl">
+                <Typography variant="h4" color="secondary" className="font-bold tracking-wide text-sm 2xl:text-base min-[3800px]:text-4xl">
                   +49 22412326685
                 </Typography>
               </div>
