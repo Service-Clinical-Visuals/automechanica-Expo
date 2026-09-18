@@ -26,10 +26,10 @@ const SustainabilityTech = () => {
       className="w-full py-16 xl:py-24 bg-cover bg-center bg-no-repeat overflow-hidden"
       style={{ backgroundImage: "url('/moto/ampro/bg6.png')" }}
     >
-      <div className="custom-container flex flex-col xl:grid xl:grid-cols-12 gap-10 min-[3800px]:gap-16 items-center">
+      <div className="custom-container flex flex-col 2xl:grid 2xl:grid-cols-12 gap-10 min-[3800px]:gap-16 items-center">
 
         {/* Left: Content */}
-        <div className="w-full xl:col-span-4 flex flex-col gap-6 min-[3800px]:gap-10 order-2 xl:order-1" data-aos="fade-right">
+        <div className="w-full 2xl:col-span-4 flex flex-col gap-6 min-[3800px]:gap-10 order-1 2xl:order-1" data-aos="fade-right">
 
           {/* Heading Group */}
           <div className="flex flex-col gap-3 min-[3800px]:gap-5">
@@ -56,14 +56,14 @@ const SustainabilityTech = () => {
             {features.map((feature, index) => (
               <div
                 key={feature.id}
-                className="bg-[#689B4C] rounded-lg p-4 lg:p-5 flex items-center gap-4 min-[3800px]:gap-8 shadow-md"
+                className="bg-[#689B4C] rounded-lg p-4 lg:p-5 xl:p-3 2xl:p-5 flex items-center gap-4 min-[3800px]:gap-8 shadow-md"
                 data-aos="fade-up"
                 data-aos-delay={100 + (index * 100)}
               >
-                <div className="w-10 h-10 lg:w-12 lg:h-12 min-[3800px]:w-20 min-[3800px]:h-20 shrink-0 flex items-center justify-center">
+                <div className="w-10 h-10 lg:w-12 lg:h-12 xl:w-8 xl:h-8 2xl:w-12 2xl:h-12 shrink-0 flex items-center justify-center">
                   <img src={feature.icon} alt="icon" className="w-full h-full object-contain" />
                 </div>
-                <Typography variant="p" color="white" className="leading-snug text-sm lg:text-base min-[3800px]:text-2xl">
+                <Typography variant="p" color="white" className="leading-snug text-sm lg:text-base xl:text-sm 2xl:text-base min-[3800px]:text-2xl">
                   <strong>{feature.title}</strong>
                   {feature.description}
                 </Typography>
@@ -78,7 +78,7 @@ const SustainabilityTech = () => {
         </div>
 
         {/* Right: Video */}
-        <div className="w-full xl:col-span-8 order-1 xl:order-2 relative aspect-video overflow-hidden rounded-xl " data-aos="fade-left">
+        <div className="w-full 2xl:col-span-8 order-2 2xl:order-2 relative aspect-video overflow-hidden rounded-xl " data-aos="fade-left">
           <DynamicVideoPlayer type="short-2" className="absolute inset-0 w-full h-full object-cover" />
         </div>
 

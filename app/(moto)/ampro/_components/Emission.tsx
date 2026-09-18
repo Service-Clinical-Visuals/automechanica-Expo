@@ -7,10 +7,10 @@ import Typography from "./Typography";
 const Emission = () => {
   return (
     <section id="emission" className="w-full py-16 4xl:py-24  overflow-hidden" style={{ backgroundColor: "#F5FAFF" }}>
-      <div className="custom-container flex flex-col xl:grid xl:grid-cols-12 gap-10 xl:gap-16 items-center">
+      <div className="custom-container flex flex-col 2xl:grid 2xl:grid-cols-12 gap-10 2xl:gap-16 items-center">
         
         {/* Left: Content */}
-        <div className="w-full xl:col-span-5 flex flex-col gap-6 order-1 xl:order-1">
+        <div className="w-full 2xl:col-span-5 flex flex-col gap-6 order-1">
           
           {/* Heading Group */}
           <div className="flex flex-col gap-2" data-aos="fade-up">
@@ -66,7 +66,7 @@ const Emission = () => {
         </div>
 
         {/* Right: Video */}
-        <div className="w-full xl:col-span-7 order-2 xl:order-2 relative aspect-video  overflow-hidden rounded-xl shadow-xl" data-aos="fade-left">
+        <div className="w-full 2xl:col-span-7 order-2 relative aspect-video  overflow-hidden rounded-xl shadow-xl" data-aos="fade-left">
           <DynamicVideoPlayer type="short-1" className="absolute inset-0 w-full h-full object-cover" />
         </div>
 

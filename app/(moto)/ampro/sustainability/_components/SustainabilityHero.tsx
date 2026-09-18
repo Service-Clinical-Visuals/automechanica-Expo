@@ -5,22 +5,22 @@ import Typography from "../../_components/Typography";
 
 const SustainabilityHero = () => {
   return (
-    <section className="relative w-screen flex flex-col items-center overflow-hidden bg-primary/90 xl:bg-transparent">
+    <section className="relative w-screen flex flex-col items-center overflow-hidden bg-primary/90 2xl:bg-transparent">
       {/* Background Image: 
-          - On mobile & tablet (< xl): absolute, covers the background, anchored to bottom to keep the curve.
-          - On desktop (xl+): static, object-contain, dictates the exact section height.
+          - On mobile & tablet (< 2xl): absolute, covers the background, anchored to bottom to keep the curve.
+          - On desktop (2xl+): static, object-contain, dictates the exact section height.
       */}
       <img
         src="/moto/ampro/bg-2.png"
         alt="Sustainability Hero Background"
-        className="absolute inset-0 w-full h-full object-cover object-bottom xl:static xl:w-screen xl:h-auto xl:object-contain z-0"
+        className="absolute inset-0 w-full h-full object-cover object-bottom 2xl:static 2xl:w-screen 2xl:h-auto 2xl:object-contain z-0"
       />
 
       {/* Content Overlaid 
-          - On mobile & tablet (< xl): relative, provides height to the section via document flow. Massive padding-bottom to avoid the curve.
-          - On desktop (xl+): absolute inset-0, overlays the static image.
+          - On mobile & tablet (< 2xl): relative, provides height to the section via document flow. Massive padding-bottom to avoid the curve.
+          - On desktop (2xl+): absolute inset-0, overlays the static image.
       */}
-      <div className="relative z-20 flex flex-col justify-center items-center text-center px-4 md:px-6 pt-[120px] pb-[180px] md:pb-[250px] xl:absolute xl:inset-0 xl:pt-[100px] 2xl:pt-[120px] xl:pb-0">
+      <div className="relative z-20 flex flex-col justify-center items-center text-center px-4 md:px-6 pt-[120px] pb-[180px] md:pb-[250px] 2xl:absolute 2xl:inset-0 2xl:pt-[120px] 2xl:pb-0">
         <Typography
           variant="h2"
           color="white"

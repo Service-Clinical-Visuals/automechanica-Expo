@@ -101,7 +101,7 @@ const FeaturesAccordion = () => {
                       <Typography variant="h3" color="white" className="font-bold leading-tight mt-1 min-[3800px]:mt-4">
                         {feature.title}
                       </Typography>
-                      <Typography variant="span" color="white" className="text-white/80 leading-snug">
+                      <Typography variant="p" color="white" className="text-white/80 leading-snug">
                         {feature.description}
                       </Typography>
                     </div>
@@ -123,7 +123,7 @@ const FeaturesAccordion = () => {
                             {feature.title}
                           </Typography>
                           <Typography
-                            variant="span"
+                            variant="p"
                             color="white"
                             className="font-bold whitespace-nowrap absolute bottom-2 left-2 origin-bottom-left -rotate-90 lg:hidden"
                           >

@@ -10,7 +10,7 @@ import { useVideo, useBannerMute, FALLBACK_VIDEOS } from "../_context/VideoConte
 // going out of bounds (see `parseShortIndex` / `loopShortIndex` below).
 type PlayerType = "banner" | "short" | `short-${number}` | "360";
 
-const obeyAudioProps=true;
+const obeyAudioProps = true;
 
 // Parses the 1-based `short-N` suffix into a 0-based index (`short` alone
 // is index 0). Returns null for a malformed suffix (e.g. "short-abc").
