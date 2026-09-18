@@ -6,8 +6,8 @@ import Typography from "./Typography";
 
 const Deg360 = () => {
   return (
-    <section 
-      id="choose" 
+    <section
+      id="choose"
       className="w-full py-16  text-white relative bg-[url('/moto/ampro/bg.png')] bg-cover bg-center bg-no-repeat"
     >
 
@@ -17,12 +17,12 @@ const Deg360 = () => {
 
         {/* Heading Group (Mobile: Order 1) */}
         <div className="order-1 w-full max-w-[90%] flex flex-col items-center gap-2" data-aos="fade-up">
-           <div className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-secondary"></span>
-              <Typography variant="h4" color="secondary" className="font-bold uppercase tracking-wider text-sm">
-                QUALITY & TECHNOLOGY
-              </Typography>
-            </div>
+          <div className="flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-secondary"></span>
+            <Typography variant="h4" color="secondary" className="font-bold uppercase tracking-wider text-sm">
+              QUALITY & TECHNOLOGY
+            </Typography>
+          </div>
           <Typography variant="h2" color="white" className="font-bold leading-tight">
             Automotive Technology Excellence
           </Typography>
@@ -36,7 +36,7 @@ const Deg360 = () => {
         </div>
 
         {/* Video (Mobile: Order 3) */}
-        <div className="order-3 w-full max-w-[95%] lg:max-w-[80%] aspect-video relative shadow-2xl overflow-hidden bg-white/5 border border-white/10 rounded-2xl" data-aos="zoom-in" data-aos-delay="200">
+        <div className="order-3 w-full max-w-[95%] lg:max-w-[80%] aspect-video relative shadow-2xl overflow-hidden rounded-2xl" data-aos="zoom-in" data-aos-delay="200">
           {/* Using 360 type as requested */}
           <DynamicVideoPlayer
             type="360"
