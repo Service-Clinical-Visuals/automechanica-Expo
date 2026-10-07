@@ -53,7 +53,7 @@ const AboutUs = () => {
           {/* Mobile: Order 2, Desktop: Col 7-12 */}
           <div className="w-full order-2 min-[1440px]:col-start-7 min-[1440px]:col-span-6 h-full" data-aos="fade-left">
             <img
-              src="/moto/confinas/section2.png"
+              src="/moto/confinas/section2.webp"
               alt="FULBAT Difference"
               className="w-full h-auto object-cover rounded shadow-md"
             />
@@ -72,7 +72,7 @@ const AboutUs = () => {
             {/* Card 1 */}
             <div className="flex items-start gap-4 bg-white border border-primary p-6 shadow-sm">
                <div className="w-24 h-24 min-[2100px]:w-32 min-[2100px]:h-32 min-[3800px]:w-48 min-[3800px]:h-48 shrink-0 flex items-center justify-center">
-                 <img src="/moto/confinas/icon1.png" alt="Reliable Service" className="w-full h-full object-contain" />
+                 <img src="/moto/confinas/icon1.webp" alt="Reliable Service" className="w-full h-full object-contain" />
                </div>
                <div className="flex flex-col gap-2">
                   <Typography variant="h4" color="dark" className="font-bold leading-tight">
@@ -87,7 +87,7 @@ const AboutUs = () => {
             {/* Card 2 */}
             <div className="flex items-start gap-4 bg-white border border-primary p-6 shadow-sm">
                <div className="w-24 h-24 min-[2100px]:w-32 min-[2100px]:h-32 min-[3800px]:w-48 min-[3800px]:h-48 shrink-0 flex items-center justify-center">
-                 <img src="/moto/confinas/icon2.png" alt="Excellence" className="w-full h-full object-contain" />
+                 <img src="/moto/confinas/icon2.webp" alt="Excellence" className="w-full h-full object-contain" />
                </div>
                <div className="flex flex-col gap-2">
                   <Typography variant="h4" color="dark" className="font-bold leading-tight">
@@ -102,7 +102,7 @@ const AboutUs = () => {
             {/* Card 3 */}
             <div className="flex items-start gap-4 bg-white border border-primary p-6 shadow-sm">
                <div className="w-24 h-24 min-[2100px]:w-32 min-[2100px]:h-32 min-[3800px]:w-48 min-[3800px]:h-48 shrink-0 flex items-center justify-center">
-                 <img src="/moto/confinas/icon3.png" alt="Experience" className="w-full h-full object-contain" />
+                 <img src="/moto/confinas/icon3.webp" alt="Experience" className="w-full h-full object-contain" />
                </div>
                <div className="flex flex-col gap-2">
                   <Typography variant="h4" color="dark" className="font-bold leading-tight">

@@ -80,7 +80,7 @@ const AboutUs = () => {
           <div className="w-full xl:w-1/2 flex" data-aos="fade-left">
             <div className="rounded-[16px] overflow-hidden shadow-2xl relative w-full flex-1 border-[3px] border-white min-h-[300px]">
               <img
-                src="/moto/mapetrol/section2.png"
+                src="/moto/mapetrol/section2.webp"
                 alt="Factory production line"
                 className="w-full h-full object-cover"
               />

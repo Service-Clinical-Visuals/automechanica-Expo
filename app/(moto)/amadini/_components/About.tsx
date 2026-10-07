@@ -13,7 +13,7 @@ export default function About() {
         {/* Left Side: Image */}
         <div className="order-2 xl:order-1 relative w-full aspect-square md:aspect-[4/3] xl:aspect-auto xl:h-[700px] flex justify-center items-center">
           <img
-            src="/moto/amadini/spares.png" // Placeholder, assuming spares.png is the blueprint
+            src="/moto/amadini/spares.webp" // Placeholder, assuming spares.webp is the blueprint
             alt="Amadini Engine Blueprint"
           />
         </div>

@@ -33,7 +33,7 @@ export default function Footer() {
           <div className="flex col-span-1 md:col-span-2 lg:col-span-3 flex-col gap-6" data-aos="fade-up">
             <Link href="/" className="flex items-center gap-2 mb-2">
               <img
-                src="/moto/eurocams/icon.png"
+                src="/moto/eurocams/icon.webp"
                 alt="Eurocams Logo"
                 className="h-[100%] w-auto object-contain"
               />

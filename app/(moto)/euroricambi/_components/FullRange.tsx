@@ -21,7 +21,7 @@ export default function FullRange() {
 
           <div className="mb-12" data-aos="fade-up" data-aos-delay="100">
             <img
-              src="/moto/euroricambi/fullrange.png"
+              src="/moto/euroricambi/fullrange.webp"
               alt="Full range of vehicles serviced by Euroricambi"
               className="w-full h-auto object-contain"
             />

@@ -6,17 +6,17 @@ import Typography from "./Typography";
 const News = () => {
   const qualityItems = [
     {
-      img: "/moto/ows/icon1.png",
+      img: "/moto/ows/icon1.webp",
       title: "Independently Tested",
       desc: "Each product is subjected to comprehensive independent laboratory testing to ensure it meets strict quality standards, delivers consistent performance, and provides long-lasting protection under demanding operating conditions."
     },
     {
-      img: "/moto/ows/icon2.png",
+      img: "/moto/ows/icon2.webp",
       title: "CFC-Free Formula",
       desc: "OWS products are formulated without CFCs, helping protect the ozone layer while complying with environmental standards. This commitment ensures high-performance solutions that are both effective and environmentally responsible."
     },
     {
-      img: "/moto/ows/icon3.png",
+      img: "/moto/ows/icon3.webp",
       title: "Premium Performance",
       desc: "Developed with German engineering expertise, OWS products are built to perform under extreme temperatures, high engine loads, and demanding driving conditions while ensuring maximum protection and efficiency."
     }

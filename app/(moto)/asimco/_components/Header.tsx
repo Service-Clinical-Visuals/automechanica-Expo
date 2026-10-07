@@ -39,7 +39,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center h-full">
             <Link href="#">
-              <img src="/moto/asimco/logo.png" alt="Asimco Logo" className="w-[120px] md:w-[140px] xl:w-[160px] h-auto object-contain" />
+              <img src="/moto/asimco/logo.webp" alt="Asimco Logo" className="w-[120px] md:w-[140px] xl:w-[160px] h-auto object-contain" />
             </Link>
           </div>
 

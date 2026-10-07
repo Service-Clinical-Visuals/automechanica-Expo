@@ -40,7 +40,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/ajusa/logo.png" alt="Ajusa Logo" className="h-auto w-auto object-contain" />
+                <img src="/moto/ajusa/logo.webp" alt="Ajusa Logo" className="h-auto w-auto object-contain" />
               </Link>
             </div>
 

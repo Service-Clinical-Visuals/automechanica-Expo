@@ -26,7 +26,7 @@ export default function About() {
             {/* Main image */}
             <div className="w-full h-full rounded-2xl overflow-hidden">
                <img 
-                 src="/moto/iadaAutomechanika/abt.png" 
+                 src="/moto/iadaAutomechanika/abt.webp" 
                  alt="IADA Factory" 
                  className="w-full h-full object-cover" 
                />

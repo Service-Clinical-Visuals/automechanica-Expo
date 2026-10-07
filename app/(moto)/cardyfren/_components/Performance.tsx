@@ -42,10 +42,10 @@ export default function Performance() {
           
           {/* Box 1 */}
           <div 
-            className="relative w-full min-h-[120px] p-6 md:p-8 flex items-start gap-4 border-[1.5px] border-[#28b7ff] shadow-lg shadow-[#28b7ff]/10 rounded-2xl bg-white xl:border-0 xl:shadow-none xl:rounded-none xl:bg-transparent xl:bg-[url('/moto/cardyfren/bg1.png')] xl:bg-[length:100%_100%] xl:bg-center xl:bg-no-repeat"
+            className="relative w-full min-h-[120px] p-6 md:p-8 flex items-start gap-4 border-[1.5px] border-[#28b7ff] shadow-lg shadow-[#28b7ff]/10 rounded-2xl bg-white xl:border-0 xl:shadow-none xl:rounded-none xl:bg-transparent xl:bg-[url('/moto/cardyfren/bg1.webp')] xl:bg-[length:100%_100%] xl:bg-center xl:bg-no-repeat"
           >
             <div className="flex-shrink-0 relative w-8 h-8 ml-2 mt-1">
-               <img src="/moto/cardyfren/tool.png" alt="Tool Icon" className="object-contain" />
+               <img src="/moto/cardyfren/tool.webp" alt="Tool Icon" className="object-contain" />
             </div>
             <div>
               <p className="text-[#111111] font-body section-text leading-relaxed pr-4">
@@ -56,10 +56,10 @@ export default function Performance() {
 
           {/* Box 2 */}
           <div 
-            className="relative w-full min-h-[120px] p-6 md:p-8 flex items-start gap-4 border-[1.5px] border-[#28b7ff] shadow-lg shadow-[#28b7ff]/10 rounded-2xl bg-white xl:border-0 xl:shadow-none xl:rounded-none xl:bg-transparent xl:bg-[url('/moto/cardyfren/bg1.png')] xl:bg-[length:100%_100%] xl:bg-center xl:bg-no-repeat"
+            className="relative w-full min-h-[120px] p-6 md:p-8 flex items-start gap-4 border-[1.5px] border-[#28b7ff] shadow-lg shadow-[#28b7ff]/10 rounded-2xl bg-white xl:border-0 xl:shadow-none xl:rounded-none xl:bg-transparent xl:bg-[url('/moto/cardyfren/bg1.webp')] xl:bg-[length:100%_100%] xl:bg-center xl:bg-no-repeat"
           >
             <div className="flex-shrink-0 relative w-9 h-9 ml-2 mt-1">
-               <img src="/moto/cardyfren/truck.png" alt="Truck Icon" className="object-contain" />
+               <img src="/moto/cardyfren/truck.webp" alt="Truck Icon" className="object-contain" />
             </div>
             <div>
               <p className="text-[#111111] font-body section-text leading-relaxed pr-4">

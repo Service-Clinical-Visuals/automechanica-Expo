@@ -8,19 +8,19 @@ const products = [
     title: "Engine Valves",
     description:
       "Precision components designed for efficient airflow and reliable performance.",
-    image: "/moto/gunesmotor/prod2.png",
+    image: "/moto/gunesmotor/prod2.webp",
   },
   {
     title: "Motor Guides",
     description:
       "Technical alloys designed for durable, heat-resistant, and wear-resistant components.",
-    image: "/moto/gunesmotor/prod3.png",
+    image: "/moto/gunesmotor/prod3.webp",
   },
   {
     title: "Valve Seat",
     description:
       "Bushings and valves ensure engine sealing and prevent combustion chamber pressure loss.",
-    image: "/moto/gunesmotor/prod1.png",
+    image: "/moto/gunesmotor/prod1.webp",
   },
 ];
 

@@ -52,7 +52,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="#" className="flex-shrink-0 z-50 flex items-center">
               <img
-                src="/moto/aydoto/logo.png"
+                src="/moto/aydoto/logo.webp"
                 alt="AYD Logo"
                 className="h-9 md:h-11 w-auto object-contain"
               />

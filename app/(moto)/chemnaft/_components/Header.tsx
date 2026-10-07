@@ -22,7 +22,7 @@ export default function Header() {
         <div className="flex items-center h-[70px]">
           {/* Logo — flex-1 so nav stays centered */}
           <div className="flex-1 flex items-center">
-            <img src="/moto/chemnaft/logo.png" alt="Chemnaft" className="h-11 w-auto" />
+            <img src="/moto/chemnaft/logo.webp" alt="Chemnaft" className="h-11 w-auto" />
           </div>
 
           {/* Desktop Nav + CTA — grouped on the right */}

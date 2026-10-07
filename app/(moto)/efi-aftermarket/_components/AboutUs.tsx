@@ -27,7 +27,7 @@ const AboutUs = () => {
           >
             <div className="w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="/moto/efi-aftermarket/section2.png"
+                src="/moto/efi-aftermarket/section2.webp"
                 alt="EFI Automotive Service Facility"
                 className="w-full h-full object-cover"
               />

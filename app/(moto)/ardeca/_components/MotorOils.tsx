@@ -36,7 +36,7 @@ export default function MotorOils() {
                 "Very strong resistance against oxidation"
               ].map((item, index) => (
                 <li key={index} className="flex items-center gap-4">
-                  <img src="/moto/ardeca/wheel.png" alt="wheel icon" className="w-5 h-5 md:w-6 md:h-6 object-contain" />
+                  <img src="/moto/ardeca/wheel.webp" alt="wheel icon" className="w-5 h-5 md:w-6 md:h-6 object-contain" />
                   <p className="text-[#ffffff] text-sm md:text-[16px] oxanium leading-[1.8]">{item}</p>
                 </li>
               ))}

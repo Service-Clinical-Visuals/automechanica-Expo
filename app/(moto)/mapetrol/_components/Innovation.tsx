@@ -50,7 +50,7 @@ export default function PremiumEngine() {
           <div className="w-full xl:w-[40%] flex justify-center py-5 xl:py-0 order-2 xl:order-2" data-aos="zoom-in" data-aos-delay="200">
             <div className="w-full max-w-md xl:max-w-full aspect-[1/1.1] bg-[#2a2a2a] rounded-[16px] overflow-hidden flex items-center justify-center p-5">
               <img
-                src="/moto/mapetrol/section3.png"
+                src="/moto/mapetrol/section3.webp"
                 alt="Mapetrol Packaging Innovation"
                 className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
               />

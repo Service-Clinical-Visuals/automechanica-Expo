@@ -23,7 +23,7 @@ export default function Quality() {
   return (
     <section
       className="relative w-full overflow-hidden py-16 md:py-24 bg-cover bg-bottom-right"
-      style={{ backgroundImage: "url(/moto/belif/qualitybg.png)" }}
+      style={{ backgroundImage: "url(/moto/belif/qualitybg.webp)" }}
       id="quality"
     >
       <Container>

@@ -9,7 +9,7 @@ export default function About() {
       {/* Background watermark */}
       <div className="absolute top-0 right-0 w-[500px] md:w-[700px] h-full  pointer-events-none -z-0">
         <img
-          src="/moto/autopumps/globe.png"
+          src="/moto/autopumps/globe.webp"
           alt="Watermark"
           className="w-full h-auto object-contain object-top-right "
         />
@@ -39,7 +39,7 @@ export default function About() {
         {/* Factory Image */}
         <div className="w-full" data-aos="fade-up" data-aos-duration="1000">
           <img
-            src="/moto/autopumps/abr.png"
+            src="/moto/autopumps/abr.webp"
             alt="Autopumps Factory"
             className="w-full h-auto object-cover rounded-none"
           />

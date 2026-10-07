@@ -4,14 +4,14 @@ import { useState } from "react";
 import Container from "./Container";
 
 const products = [
-  { img: "/moto/intercar/products/1.png", name: "BRAKES" },
-  { img: "/moto/intercar/products/2.png", name: "CLUTCHES" },
-  { img: "/moto/intercar/products/3.png", name: "CONCENTRIC SLAVE CYLINDERS" },
-  { img: "/moto/intercar/products/4.png", name: "C.V. JOINTS" },
-  { img: "/moto/intercar/products/5.png", name: "BRAKE DISCS" },
-  { img: "/moto/intercar/products/6.png", name: "WATER PUMPS" },
-  { img: "/moto/intercar/products/7.png", name: "DISTRIBUTION KITS WITH WATER PUMP" },
-  { img: "/moto/intercar/products/8.png", name: "BRAKE HOSES AND CABLES" },
+  { img: "/moto/intercar/products/1.webp", name: "BRAKES" },
+  { img: "/moto/intercar/products/2.webp", name: "CLUTCHES" },
+  { img: "/moto/intercar/products/3.webp", name: "CONCENTRIC SLAVE CYLINDERS" },
+  { img: "/moto/intercar/products/4.webp", name: "C.V. JOINTS" },
+  { img: "/moto/intercar/products/5.webp", name: "BRAKE DISCS" },
+  { img: "/moto/intercar/products/6.webp", name: "WATER PUMPS" },
+  { img: "/moto/intercar/products/7.webp", name: "DISTRIBUTION KITS WITH WATER PUMP" },
+  { img: "/moto/intercar/products/8.webp", name: "BRAKE HOSES AND CABLES" },
 ];
 
 const VISIBLE = 4;

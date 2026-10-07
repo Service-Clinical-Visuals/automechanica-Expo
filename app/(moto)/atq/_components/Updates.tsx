@@ -8,14 +8,14 @@ import Button from "./Button";
 
 const newsItems = [
   {
-    image: "/moto/atq/update1.png",
+    image: "/moto/atq/update1.webp",
     date: "14 - 18\nSep\n2021",
     tag: "Event",
     title: "Trade fair Automechanika Frankfurt",
     location: "Frankfurt, Germany",
   },
   {
-    image: "/moto/atq/update2.png",
+    image: "/moto/atq/update2.webp",
     date: "08 - 11\nApril\n2021",
     tag: "Event",
     title: "Trade fair Automechanika Istanbul",

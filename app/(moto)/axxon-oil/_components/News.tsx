@@ -7,19 +7,19 @@ import Container from "./Container";
 
 const news = [
   {
-    image: "/moto/axon-oil/news/1.png",
+    image: "/moto/axon-oil/news/1.webp",
     date: "18.09.2025",
     title: "AEO-C Certification Achieved: a European",
     href: "#",
   },
   {
-    image: "/moto/axon-oil/news/2.png",
+    image: "/moto/axon-oil/news/2.webp",
     date: "27.05.2025",
     title: "AxxonOil takes you to Equip Auto Paris 2025",
     href: "#",
   },
   {
-    image: "/moto/axon-oil/news/3.png",
+    image: "/moto/axon-oil/news/3.webp",
     date: "03.09.2025",
     title: "AxxonOil @ Autopromotec",
     href: "#",

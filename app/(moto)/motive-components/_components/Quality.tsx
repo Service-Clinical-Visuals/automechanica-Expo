@@ -39,7 +39,7 @@ const Quality = () => {
           {/* Top Right: Image */}
           <div className="order-1 xl:order-2 w-full relative mt-6 xl:mt-8" data-aos="fade-left">
              <div className="absolute -top-10 right-0 w-[90%]  h-full bg-secondary rounded-[1.25rem] z-0"></div>
-             <img src="/moto/motive-components/section4.png" alt="Precision Metrology Inspection" className="relative z-10 w-full h-auto rounded-[1.25rem] shadow-xl object-cover" />
+             <img src="/moto/motive-components/section4.webp" alt="Precision Metrology Inspection" className="relative z-10 w-full h-auto rounded-[1.25rem] shadow-xl object-cover" />
           </div> 
 
         </div>
@@ -50,7 +50,7 @@ const Quality = () => {
           {/* Bottom Left: Image */}
           <div className="w-full relative mb-6 xl:mb-8" data-aos="fade-right">
              <div className="absolute -bottom-12 left-0 w-[85%] h-full bg-secondary rounded-[1.25rem] z-0"></div>
-             <img src="/moto/motive-components/section5.png" alt="Advanced Manufacturing Process" className="relative z-10 w-full h-auto rounded-[1.25rem] shadow-xl object-cover" />
+             <img src="/moto/motive-components/section5.webp" alt="Advanced Manufacturing Process" className="relative z-10 w-full h-auto rounded-[1.25rem] shadow-xl object-cover" />
           </div>
 
           {/* Bottom Right: Text and Badges */}
@@ -67,7 +67,7 @@ const Quality = () => {
                 
                 {/* Badge 1 */}
                 <div className="flex flex-col items-center justify-start gap-4">
-                   <img src="/moto/motive-components/icon1.png" alt="IATF 16949:2016" className="w-32 xl:w-full h-auto object-contain" />
+                   <img src="/moto/motive-components/icon1.webp" alt="IATF 16949:2016" className="w-32 xl:w-full h-auto object-contain" />
                    <div className="flex flex-col items-center">
                       <Typography variant="p" color="dark" className="!font-bold ">IATF 16949:2016</Typography>
                       <Typography variant="p" color="muted" className="">International Automotive<br/>Task Force Certified</Typography>
@@ -76,7 +76,7 @@ const Quality = () => {
 
                 {/* Badge 2 */}
                 <div className="flex flex-col items-center justify-start gap-4">
-                   <img src="/moto/motive-components/icon2.png" alt="ISO/TS 1649:2009" className="w-32 xl:w-full h-auto object-contain" />
+                   <img src="/moto/motive-components/icon2.webp" alt="ISO/TS 1649:2009" className="w-32 xl:w-full h-auto object-contain" />
                    <div className="flex flex-col items-center">
                       <Typography variant="p" color="dark" className="!font-bold ">ISO/TS 1649:2009</Typography>
                       <Typography variant="p" color="muted" className="">Automotive Quality<br/>Management System</Typography>
@@ -85,7 +85,7 @@ const Quality = () => {
 
                 {/* Badge 3 */}
                 <div className="flex flex-col items-center justify-start gap-4">
-                   <img src="/moto/motive-components/icon3.png" alt="ISO 9001:2015" className="w-32 xl:w-full h-auto object-contain" />
+                   <img src="/moto/motive-components/icon3.webp" alt="ISO 9001:2015" className="w-32 xl:w-full h-auto object-contain" />
                    <div className="flex flex-col items-center">
                       <Typography variant="p" color="dark" className="!font-bold ">ISO 9001:2015</Typography>
                       <Typography variant="p" color="muted" className="">Quality Management<br/>System Certified</Typography>

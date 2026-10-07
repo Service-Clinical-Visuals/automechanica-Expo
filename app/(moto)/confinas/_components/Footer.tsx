@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="flex flex-col gap-6 w-full min-[1440px]:w-1/4 min-[1440px]:pr-8">
             <Link href="/" className="inline-block max-w-[180px] min-[2100px]:max-w-[240px] min-[3800px]:max-w-[320px]">
               <img
-                src="/moto/confinas/logo.png"
+                src="/moto/confinas/logo.webp"
                 alt="FULBAT Logo"
                 className="w-full h-auto object-contain"
               />

@@ -5,17 +5,17 @@ import React from 'react';
 export default function Features() {
   const features = [
     {
-      icon: "/moto/bbt/abt1.png",
+      icon: "/moto/bbt/abt1.webp",
       title: "Strong partnerships",
       description: "Our alliances allow us to bring new products to the aftermarket as quickly as possible. Vehicle models are always top priority."
     },
     {
-      icon: "/moto/bbt/abt2.png",
+      icon: "/moto/bbt/abt2.webp",
       title: "Family business",
       description: "Since our foundation, our success has been driven by commitment, stability, shared values, and lasting trust."
     },
     {
-      icon: "/moto/bbt/abt3.png",
+      icon: "/moto/bbt/abt3.webp",
       title: "We keep our finger on the pulse",
       description: "We keep a close eye on current trends and developments so that you are always one step ahead!"
     }

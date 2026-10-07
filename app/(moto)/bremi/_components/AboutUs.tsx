@@ -24,7 +24,7 @@ export default function AboutUs() {
             {/* Small Image */}
             <div className="relative w-full h-[250px] md:h-[300px] lg:h-[300px] overflow-hidden mt-6 shadow-lg">
               <img 
-                src="/moto/bremi/abt1.jpg" 
+                src="/moto/bremi/abt1.webp" 
                 alt="Bremi Warehouse" 
                 className="w-full h-full object-cover"
               />
@@ -35,7 +35,7 @@ export default function AboutUs() {
           <div className="lg:col-span-7 mt-8 lg:mt-0" data-aos="fade-left" data-aos-delay="100">
              <div className="relative w-full h-full min-h-[300px] overflow-hidden shadow-lg">
               <img 
-                src="/moto/bremi/abt.jpg" 
+                src="/moto/bremi/abt.webp" 
                 alt="Bremi Exhibition Stand" 
                 className="w-full h-full object-cover"
               />
@@ -51,7 +51,7 @@ export default function AboutUs() {
           {/* Box 1 */}
           <div className="bg-white border border-gray-100 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.3)] p-4 lg:p-6 flex items-start gap-2" data-aos="fade-up">
             <div className="flex-shrink-0 mt-1">
-              <img src="/moto/bremi/check.png" alt="Check" className="w-5 h-5 lg:w-7 lg:h-7 object-contain" />
+              <img src="/moto/bremi/check.webp" alt="Check" className="w-5 h-5 lg:w-7 lg:h-7 object-contain" />
             </div>
             <p className="section-text text-[#4c4c4c]  font-normal leading-[1.6]">
               Established in 1927, BREMI has built nearly a century of expertise in delivering innovative and high-quality automotive solutions.
@@ -61,7 +61,7 @@ export default function AboutUs() {
           {/* Box 2 */}
           <div className="bg-white border border-gray-100 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.3)] p-4 lg:p-6 flex items-start gap-2" data-aos="fade-up" data-aos-delay="100">
             <div className="flex-shrink-0 mt-1">
-              <img src="/moto/bremi/check.png" alt="Check" className="w-5 h-5 lg:w-7 lg:h-7 object-contain" />
+              <img src="/moto/bremi/check.webp" alt="Check" className="w-5 h-5 lg:w-7 lg:h-7 object-contain" />
             </div>
             <p className="section-text text-[#4c4c4c] font-normal leading-[1.6]">
               Focused on quality, innovation, and reliability, ensuring every product delivers outstanding performance and durability.

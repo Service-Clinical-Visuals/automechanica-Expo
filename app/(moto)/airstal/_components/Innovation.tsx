@@ -5,25 +5,25 @@ import Link from "next/link";
 export default function Innovation() {
   const cards = [
     {
-      image: "/moto/airstal/complete1.png",
+      image: "/moto/airstal/complete1.webp",
       title: "We are in TECDOC",
       date: "days ago",
       text: "Discover the new products in the patient positioning category",
     },
     {
-      image: "/moto/airstal/complete2.png",
+      image: "/moto/airstal/complete2.webp",
       title: "Airstal is a member of the MACS community",
       date: "10/1/2019",
       text: "We are pleased to announce that Airstal",
     },
     {
-      image: "/moto/airstal/complete3.png",
+      image: "/moto/airstal/complete3.webp",
       title: "GDPR - Personal Data Protection Regulation",
       date: "5/5/2018",
       text: "Dear Customer, On 25 May 2018, Regulation",
     },
     {
-      image: "/moto/airstal/complete4.png",
+      image: "/moto/airstal/complete4.webp",
       title: "Airstal Business Gazelle 2013",
       date: "days ago",
       text: "We are delighted to announce that Airstal has once again been awarded the Business",

@@ -46,7 +46,7 @@ const AboutUs = () => {
         {/* Image - Mobile Order 2, Desktop Right */}
         <div className="order-2 xl:col-start-7 xl:col-span-6 xl:row-start-1 w-full h-full flex items-center justify-center min-[2100px]:min-h-[500px] min-[3800px]:min-h-[800px]" data-aos="fade-left">
           <img
-            src="/moto/celik/section2.jpg"
+            src="/moto/celik/section2.webp"
             alt="Celik Factory Facility"
             className="w-full h-auto object-contain xl:object-cover rounded-md min-[2100px]:rounded-xl min-[3800px]:rounded-2xl"
           />

@@ -40,7 +40,7 @@ export default function Footer() {
           <div className="flex col-span-4 flex-col gap-6 lg:pr-4" data-aos="fade-up">
             <Link href="/" className="inline-block w-[45%] xl:w-[50%]">
               <img
-                src="/moto/exol/logo.jpg"
+                src="/moto/exol/logo.webp"
                 alt="EXOL Logo"
                 className="w-full h-auto object-contain"
               />

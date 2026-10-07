@@ -29,27 +29,27 @@ const productsList = [
 
 const socialLinks = [
   {
-    icon: "/moto/ditas/fb.png",
+    icon: "/moto/ditas/fb.webp",
     href: "#",
     label: "Facebook",
   },
   {
-    icon: "/moto/ditas/link.png",
+    icon: "/moto/ditas/link.webp",
     href: "#",
     label: "LinkedIn",
   },
   {
-    icon: "/moto/ditas/insta.png",
+    icon: "/moto/ditas/insta.webp",
     href: "#",
     label: "Instagram",
   },
   {
-    icon: "/moto/ditas/x.png",
+    icon: "/moto/ditas/x.webp",
     href: "#",
     label: "X",
   },
   {
-    icon: "/moto/ditas/yt.png",
+    icon: "/moto/ditas/yt.webp",
     href: "#",
     label: "YouTube",
   },
@@ -79,7 +79,7 @@ export default function Footer() {
           >
             <Link href="#">
               <img
-                src="/moto/ditas/logo.png"
+                src="/moto/ditas/logo.webp"
                 alt="DİTAŞ Logo"
                 className="mb-6 h-[109px] w-[247px] object-contain"
               />
@@ -172,7 +172,7 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <span className="flex h-6 w-6 flex-shrink-0 items-center justify-center">
                   <img
-                    src="/moto/ditas/phone.png"
+                    src="/moto/ditas/phone.webp"
                     alt=""
                     className="h-6 w-6 object-contain"
                   />
@@ -189,7 +189,7 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <span className="flex h-6 w-6 flex-shrink-0 items-center justify-center">
                   <img
-                    src="/moto/ditas/mail.png"
+                    src="/moto/ditas/mail.webp"
                     alt=""
                     className="h-5 w-6 object-contain"
                   />
@@ -206,7 +206,7 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <span className="flex h-6 w-6 flex-shrink-0 items-center justify-center">
                   <img
-                    src="/moto/ditas/web.png"
+                    src="/moto/ditas/web.webp"
                     alt=""
                     className="h-6 w-6 object-contain"
                   />
@@ -223,7 +223,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <span className="mt-1 flex h-6 w-6 flex-shrink-0 items-center justify-center">
                   <img
-                    src="/moto/ditas/loc.png"
+                    src="/moto/ditas/loc.webp"
                     alt=""
                     className="h-6 w-4 object-contain"
                   />

@@ -62,7 +62,7 @@ const AboutUs = () => {
                 >
                   <div className="w-6 h-6 shrink-0 flex items-center justify-center">
                     <Image 
-                      src="/moto/atq/Vector.png" 
+                      src="/moto/atq/Vector.webp" 
                       alt="Check Icon" 
                       width={24} 
                       height={24} 

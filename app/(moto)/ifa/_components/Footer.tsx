@@ -13,7 +13,7 @@ export default function Footer() {
           {/* Logo + tagline + newsletter */}
           <div className="flex flex-col justify-between gap-10 lg:gap-16">
             <div >
-              <img src="/moto/ifa/logo.png" alt="IFA" className="h-13 w-auto object-contain mb-6" />
+              <img src="/moto/ifa/logo.webp" alt="IFA" className="h-13 w-auto object-contain mb-6" />
               <p className="content-white text-[16px]! max-w-[490px] leading-[28px]! tracking-[0%]!">
                 This extensive presence enables the company to efficiently serve customers, provide
                 reliable technical support, and ensure the timely delivery of high-quality air

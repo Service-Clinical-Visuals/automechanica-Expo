@@ -3,13 +3,13 @@ import React, { useState, useEffect } from 'react';
 import Button from './Button';
 
 const products = [
-  { id: 1, name: "AMB Oils SuperTec 5w40", size: "1LTR", image: "/moto/amboils/p1.png" },
-  { id: 2, name: "AMB Oils UNITEC (FORD) SAE 5W30", size: "1LTR", image: "/moto/amboils/p2.png" },
-  { id: 3, name: "AMB Oils Premium 10w40", size: "1LTR", image: "/moto/amboils/p3.png" },
-  { id: 4, name: "AMB Oils Advanced 5w30", size: "1LTR", image: "/moto/amboils/p4.png" },
-  { id: 5, name: "AMB Oils Classic 15w40", size: "1LTR", image: "/moto/amboils/p5.png" },
-  { id: 6, name: "AMB Oils Eco 0w20", size: "1LTR", image: "/moto/amboils/p6.png" },
-  { id: 7, name: "AMB Oils Racing 10w60", size: "1LTR", image: "/moto/amboils/p7.png" },
+  { id: 1, name: "AMB Oils SuperTec 5w40", size: "1LTR", image: "/moto/amboils/p1.webp" },
+  { id: 2, name: "AMB Oils UNITEC (FORD) SAE 5W30", size: "1LTR", image: "/moto/amboils/p2.webp" },
+  { id: 3, name: "AMB Oils Premium 10w40", size: "1LTR", image: "/moto/amboils/p3.webp" },
+  { id: 4, name: "AMB Oils Advanced 5w30", size: "1LTR", image: "/moto/amboils/p4.webp" },
+  { id: 5, name: "AMB Oils Classic 15w40", size: "1LTR", image: "/moto/amboils/p5.webp" },
+  { id: 6, name: "AMB Oils Eco 0w20", size: "1LTR", image: "/moto/amboils/p6.webp" },
+  { id: 7, name: "AMB Oils Racing 10w60", size: "1LTR", image: "/moto/amboils/p7.webp" },
 ];
 
 export default function PeakPerformance() {

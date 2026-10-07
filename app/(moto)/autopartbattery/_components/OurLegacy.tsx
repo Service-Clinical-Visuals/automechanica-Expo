@@ -32,23 +32,23 @@ export default function OurLegacy() {
         >
           <div className="w-full aspect-[16/10] relative overflow-hidden rounded-2xl md:rounded-3xl bg-gray-100 shadow-md group">
             <img 
-              src="/moto/autopartbattery/legacy1.png" 
+              src="/moto/autopartbattery/legacy1.webp" 
               alt="AUTOPART Production Facility Building" 
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               onError={(e) => {
                 // Fallback to mannol office or placeholder if image is not placed yet in folder
-                e.currentTarget.src = "/moto/mannol/who1.png";
+                e.currentTarget.src = "/moto/mannol/who1.webp";
               }}
             />
           </div>
           <div className="w-full aspect-[16/10] relative overflow-hidden rounded-2xl md:rounded-3xl bg-gray-100 shadow-md group">
             <img 
-              src="/moto/autopartbattery/legacy2.png" 
+              src="/moto/autopartbattery/legacy2.webp" 
               alt="AUTOPART Automated Factory Interior" 
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               onError={(e) => {
                 // Fallback to mannol warehouse or placeholder if image is not placed yet in folder
-                e.currentTarget.src = "/moto/mannol/who2.png";
+                e.currentTarget.src = "/moto/mannol/who2.webp";
               }}
             />
           </div>

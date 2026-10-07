@@ -13,7 +13,7 @@ const Products = () => {
     {
       id: "01",
       title: "Brakes",
-      img: "/moto/nuova/product1.png",
+      img: "/moto/nuova/product1.webp",
       icon: (
         <svg viewBox="0 0 24 24" fill="currentColor" className="w-9 h-9 min-[3800px]:w-[100px] min-[3800px]:h-[100px] text-white">
           <path fillRule="evenodd" clipRule="evenodd" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zm0-3.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zm0-3a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
@@ -25,7 +25,7 @@ const Products = () => {
     {
       id: "02",
       title: "Clutches",
-      img: "/moto/nuova/product2.png",
+      img: "/moto/nuova/product2.webp",
       icon: (
         <svg viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10 min-[3800px]:w-[100px] min-[3800px]:h-[100px] text-white">
           <path d="M5 6v12h2V13h4v5h2v-5h4v5h2V6h-2v5h-4V6h-2v5H7V6H5z" />
@@ -42,7 +42,7 @@ const Products = () => {
     {
       id: "03",
       title: "Concentric Slave Cylinders",
-      img: "/moto/nuova/product3.png",
+      img: "/moto/nuova/product3.webp",
       icon: (
         <svg viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10 min-[3800px]:w-[100px] min-[3800px]:h-[100px] text-white">
           <path d="M10.5 4l.4 1.2c.4.1.8.3 1.1.6l1.2-.4 1.2 1.2-.4 1.2c.2.4.4.8.6 1.1l1.2.4v1.7l-1.2.4c-.1.4-.3.8-.6 1.1l.4 1.2-1.2 1.2-1.2-.4c-.4.2-.8.4-1.1.6l-.4 1.2H8.8l-.4-1.2c-.4-.1-.8-.3-1.1-.6l-1.2.4-1.2-1.2.4-1.2c-.2-.4-.4-.8-.6-1.1L3.5 11V9.3l1.2-.4c.1-.4.3-.8.6-1.1l-.4-1.2 1.2-1.2 1.2.4c.4-.2.8-.4 1.1-.6l.4-1.2h1.7zm-1 3.5a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" />
@@ -54,7 +54,7 @@ const Products = () => {
     {
       id: "04",
       title: "C.V.JOINTS",
-      img: "/moto/nuova/product4.png",
+      img: "/moto/nuova/product4.webp",
       icon: (
         <svg viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10 min-[3800px]:w-[100px] min-[3800px]:h-[100px] text-white">
           <path d="M13 5h-2v6h2V5zm0 8h-2v2h2v-2z" />
@@ -67,7 +67,7 @@ const Products = () => {
     {
       id: "05",
       title: "Brake Disc",
-      img: "/moto/nuova/product5.png",
+      img: "/moto/nuova/product5.webp",
       icon: (
         <svg viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10 min-[3800px]:w-[100px] min-[3800px]:h-[100px] text-white">
           <path fillRule="evenodd" clipRule="evenodd" d="M12 19a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm-1-10h2v4h-2V9zm0 6h2v2h-2v-2z" />
@@ -80,7 +80,7 @@ const Products = () => {
     {
       id: "06",
       title: "Timing Kits with Water Pump",
-      img: "/moto/nuova/product6.png",
+      img: "/moto/nuova/product6.webp",
       icon: (
         <svg viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10 min-[3800px]:w-[100px] min-[3800px]:h-[100px] text-white">
           <path d="M18.9 9.2l-2.4-3.6A2 2 0 0 0 14.8 5H9.2a2 2 0 0 0-1.7.6L5.1 9.2C4.5 9.4 4 10.1 4 11v6a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-6c0-.9-.5-1.6-1.1-1.8zM6.5 9l2-3h7l2 3h-11z" />
@@ -92,7 +92,7 @@ const Products = () => {
     {
       id: "07",
       title: "Brake Hoses & Cables",
-      img: "/moto/nuova/product7.png",
+      img: "/moto/nuova/product7.webp",
       icon: (
         <svg viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10 min-[3800px]:w-[100px] min-[3800px]:h-[100px] text-white">
           <path fillRule="evenodd" clipRule="evenodd" d="M12 19a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm-1.5-9.5v5h1.2v-2h1.6v2h1.2v-5h-1.2v1.8h-1.6v-1.8h-1.2z" />

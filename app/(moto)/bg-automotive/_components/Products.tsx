@@ -8,32 +8,32 @@ export default function Products() {
   const services = [
     {
       title: "Precision\nManufacturing",
-      icon: "/moto/bg-automotive/manufacturing 1.png",
+      icon: "/moto/bg-automotive/manufacturing 1.webp",
       description: "Advance manufacturing facilities ensuring consistency & quality"
     },
     {
       title: "Global\nDistribution",
-      icon: "/moto/bg-automotive/globe 1.png",
+      icon: "/moto/bg-automotive/globe 1.webp",
       description: "Worldwide logistics network for reliable & fast delivery"
     },
     {
       title: "Quality\nTesting",
-      icon: "/moto/bg-automotive/shield 1.png",
+      icon: "/moto/bg-automotive/shield 1.webp",
       description: "Rigorous testing up to 1 million cycles for maximum reliability"
     },
     {
       title: "OEM\nSupply",
-      icon: "/moto/bg-automotive/deal 1.png",
+      icon: "/moto/bg-automotive/deal 1.webp",
       description: "Trusted by leading brands for OEM quality components"
     },
     {
       title: "Technical\nSupport",
-      icon: "/moto/bg-automotive/support 1.png",
+      icon: "/moto/bg-automotive/support 1.webp",
       description: "Expert support to help you find the right parts, every time"
     },
     {
       title: "Same Day\nDispatch",
-      icon: "/moto/bg-automotive/box 1.png",
+      icon: "/moto/bg-automotive/box 1.webp",
       description: "Orders before 4pm dispatched the same day"
     }
   ];

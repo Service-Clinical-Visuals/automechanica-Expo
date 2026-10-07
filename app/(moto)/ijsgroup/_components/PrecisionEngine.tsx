@@ -47,7 +47,7 @@ export default function PrecisionEngine() {
               {/* Feature 1 */}
               <div>
                 <div className="flex items-center gap-3 mb-2">
-                  <img src="/moto/ijsgroup/poly1.png" alt="" className="w-10 h-10" />
+                  <img src="/moto/ijsgroup/poly1.webp" alt="" className="w-10 h-10" />
                   <h4 className="sora-font font-semibold text-white section-text">
                     Precision Camshafts
                   </h4>
@@ -60,7 +60,7 @@ export default function PrecisionEngine() {
               {/* Feature 2 */}
               <div>
                 <div className="flex items-center gap-3 mb-2">
-                  <img src="/moto/ijsgroup/poly1.png" alt="" className="w-10 h-10" />
+                  <img src="/moto/ijsgroup/poly1.webp" alt="" className="w-10 h-10" />
                   <h4 className="sora-font font-semibold text-white section-text">
                     High-Quality Cylinder Heads
                   </h4>
@@ -79,7 +79,7 @@ export default function PrecisionEngine() {
           {/* Feature 1 */}
           <div data-aos="fade-up">
             <div className="flex items-center gap-3 mb-2">
-              <img src="/moto/ijsgroup/poly1.png" alt="" className="w-10 h-10" />
+              <img src="/moto/ijsgroup/poly1.webp" alt="" className="w-10 h-10" />
               <h4 className="sora-font font-semibold text-white section-text">
                 Precision Camshafts
               </h4>
@@ -92,7 +92,7 @@ export default function PrecisionEngine() {
           {/* Feature 2 */}
           <div data-aos="fade-up" data-aos-delay="100">
             <div className="flex items-center gap-3 mb-2">
-              <img src="/moto/ijsgroup/poly1.png" alt="" className="w-10 h-10" />
+              <img src="/moto/ijsgroup/poly1.webp" alt="" className="w-10 h-10" />
               <h4 className="sora-font font-semibold text-white section-text">
                 High-Quality Cylinder Heads
               </h4>

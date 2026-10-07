@@ -66,7 +66,7 @@ export default function Header() {
             {/* Logo */}
             <div className="flex-shrink-0">
               <Link href="/">
-                <img src="/moto/dasis/logo.png" alt="DASIS" className="w-[150px] xl:w-[190px] h-auto object-contain" />
+                <img src="/moto/dasis/logo.webp" alt="DASIS" className="w-[150px] xl:w-[190px] h-auto object-contain" />
               </Link>
             </div>
 

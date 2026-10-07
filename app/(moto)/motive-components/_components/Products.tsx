@@ -13,42 +13,42 @@ const Products = () => {
     {
       title: "Valve Train",
       desc: "Reliable valve train components designed to enhance engine efficiency and durability.",
-      img: "/moto/motive-components/frame1.png",
+      img: "/moto/motive-components/frame1.webp",
     },
     {
       title: "Cylinder Heads",
       desc: "High-performance cylinder heads designed to deliver efficient operation and long-term durability.",
-      img: "/moto/motive-components/frame2.png",
+      img: "/moto/motive-components/frame2.webp",
     },
     {
       title: "Bottom End",
       desc: "Durable bottom end components built to support smooth engine operation and long-lasting performance.",
-      img: "/moto/motive-components/frame3.png",
+      img: "/moto/motive-components/frame3.webp",
     },
     {
       title: "Timing",
       desc: "Advanced timing components built for smooth engine operation and long-lasting durability.",
-      img: "/moto/motive-components/frame4.png",
+      img: "/moto/motive-components/frame4.webp",
     },
     {
       title: "Gaskets & Seals",
       desc: "Precision gaskets and seals built to ensure secure sealing and long-lasting performance.",
-      img: "/moto/motive-components/frame5.png",
+      img: "/moto/motive-components/frame5.webp",
     },
     {
       title: "Lubrication",
       desc: "Quality lubrication components built to reduce wear and improve efficiency.",
-      img: "/moto/motive-components/frame6.png",
+      img: "/moto/motive-components/frame6.webp",
     },
     {
       title: "Cooling",
       desc: "Engineered cooling components for efficient heat control and dependable performance.",
-      img: "/moto/motive-components/frame7.png",
+      img: "/moto/motive-components/frame7.webp",
     },
     {
       title: "Pumps",
       desc: "High-quality pump components designed for efficient performance and lasting reliability.",
-      img: "/moto/motive-components/frame8.png",
+      img: "/moto/motive-components/frame8.webp",
     },
   ];
 

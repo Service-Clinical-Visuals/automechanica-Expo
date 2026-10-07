@@ -19,7 +19,7 @@ export default function NextGenMobility() {
           </h2>
           
           <div className="flex items-center gap-1 mb-6">
-            <img src="/moto/launch-europe/shk.png" alt="bolt" />
+            <img src="/moto/launch-europe/shk.webp" alt="bolt" />
             <span className="italic  text-[#111111] section-title1 font-lato">
               EV Battery Analysis
             </span>
@@ -45,7 +45,7 @@ export default function NextGenMobility() {
           data-aos="fade-left"
         >
           <img
-            src="/moto/launch-europe/bg.png"
+            src="/moto/launch-europe/bg.webp"
             alt="EV Diagnostic Equipment"
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
           />

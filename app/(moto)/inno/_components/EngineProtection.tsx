@@ -31,7 +31,7 @@ export default function EngineProtection() {
               ].map((item, idx) => (
                 <div key={idx} className="relative ml-7 bg-white rounded-lg py-3 pr-3 pl-10 flex items-start shadow-sm">
                   <div className="absolute -left-7 gap-8 top-0 w-14 h-14 bg-[#151515] rounded-full flex items-center justify-center text-[#F25C27]">
-                    <img src="/moto/inno/setting.png" alt="Icon" className="w-auto h-auto object-contain" />
+                    <img src="/moto/inno/setting.webp" alt="Icon" className="w-auto h-auto object-contain" />
                   </div>
                   <div className="pt-1">
                     <p className="text-[#000000] section-text inter-font font-regular leading-relaxed"><strong className="exo2-font font-bold">{item.title}</strong> - {item.desc}</p>

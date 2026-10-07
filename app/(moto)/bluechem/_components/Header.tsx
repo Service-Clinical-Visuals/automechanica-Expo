@@ -39,7 +39,7 @@ export default function Header() {
           {/* Logo Area */}
           <div className="flex-shrink-0 flex items-center gap-2">
             <div className="flex flex-col">
-             <img src="/moto/bluechem/icon.png" alt="Logo"  className="object-contain" />
+             <img src="/moto/bluechem/icon.webp" alt="Logo"  className="object-contain" />
             </div>
           </div>
 

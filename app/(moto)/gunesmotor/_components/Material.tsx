@@ -93,7 +93,7 @@ export default function Materials() {
                   className="flex items-center gap-3"
                 >
                   <Image
-                    src="/moto/gunesmotor/tick.png"
+                    src="/moto/gunesmotor/tick.webp"
                     alt=""
                     width={21}
                     height={21}

@@ -13,19 +13,19 @@ export default function Categories() {
     {
       title: "Motor Oils",
       description: "Motor oils that can provide high perfomance in every condition and climate.",
-      image: "/moto/ari-oil/category2.jpg",
+      image: "/moto/ari-oil/category2.webp",
       href: "#",
     },
     {
       title: "Industrial Oils",
       description: "Products that improve productivity, profitability, efficiency, reliability, and long-term performance.",
-      image: "/moto/ari-oil/category1.jpg",
+      image: "/moto/ari-oil/category1.webp",
       href: "#",
     },
     {
       title: "Greases & Special Products",
       description: "Special production depending customer requests and R&D projects are progressing every day All types...",
-      image: "/moto/ari-oil/category3.jpg",
+      image: "/moto/ari-oil/category3.webp",
       href: "#",
     },
   ];

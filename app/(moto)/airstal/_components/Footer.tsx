@@ -14,7 +14,7 @@ export default function Footer() {
           {/* Column 1: Logo & Info */}
           <div className="flex flex-col gap-6 lg:col-span-3">
             <Link href="/" className="inline-block mb-2 ">
-              <img src="/moto/airstal/logo.png" alt="Airstal Logo" className="h-25  w-auto object-contain " />
+              <img src="/moto/airstal/logo.webp" alt="Airstal Logo" className="h-25  w-auto object-contain " />
             </Link>
             <Typography variant="p" color="dark" className="footer-body leading-relaxed max-w-[90%] text-[13px] md:text-sm">
               Airstal SP is a company founded in 2004 by Danish specialists, located near Łódź in central Poland.

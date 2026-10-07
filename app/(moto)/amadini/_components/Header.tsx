@@ -55,7 +55,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/amadini" className="flex-shrink-0 z-50 flex items-center">
               <img
-                src="/moto/amadini/logo.png"
+                src="/moto/amadini/logo.webp"
                 alt="Amadini Logo"
                 className="h-8 md:h-10 w-auto object-contain"
               />

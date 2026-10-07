@@ -38,7 +38,7 @@ export default function RnD() {
           {/* Right Image */}
           <div className="xl:col-span-7 w-full" data-aos="fade-left">
             <img 
-              src="/moto/frenos-sauleda/innovation.png" 
+              src="/moto/frenos-sauleda/innovation.webp" 
               alt="Frenos Sauleda R&D Department" 
               className="w-full h-auto object-cover  shadow-md"
             />

@@ -6,17 +6,17 @@ import Button from "./Button";
 
 const stats = [
   {
-    icon: "/moto/gunesmotor/Vector1.png",
+    icon: "/moto/gunesmotor/Vector1.webp",
     value: "50+",
     label: "Years of Experience",
   },
   {
-    icon: "/moto/gunesmotor/Vector2.png",
+    icon: "/moto/gunesmotor/Vector2.webp",
     value: "250+",
     label: "Expert Team",
   },
   {
-    icon: "/moto/gunesmotor/Vector3.png",
+    icon: "/moto/gunesmotor/Vector3.webp",
     value: "3000+",
     label: "Product Range",
   },
@@ -38,7 +38,7 @@ export default function About() {
           >
             <div className="group relative h-[220px] w-full overflow-hidden rounded-[12px] sm:h-[280px] md:h-[360px] xl:h-full">
               <Image
-                src="/moto/gunesmotor/about.png"
+                src="/moto/gunesmotor/about.webp"
                 alt="Güneş Motor Supapları"
                 fill
                 priority

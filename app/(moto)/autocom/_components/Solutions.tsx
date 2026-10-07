@@ -13,22 +13,22 @@ export default function Solutions() {
     {
       title: "Diagnostic Tool",
       desc: "ICON is the only diagnostic tool you need. Vehicle diagnostic solutions for passenger cars, trucks, trailers and buses.",
-      img: "/moto/autocam/solution1.png"
+      img: "/moto/autocam/solution1.webp"
     },
     {
       title: "Diagnostic Tablet",
       desc: "A tablet with high performance and great durability. Specifically selected for use in automotive workshops for service and repair work.",
-      img: "/moto/autocam/solution2.png"
+      img: "/moto/autocam/solution2.webp"
     },
     {
       title: "Secure Gateway",
       desc: "Access to vehicle manufacturers security locked car models and systems. Easy, legal, fast and seamless.",
-      img: "/moto/autocam/solution3.png"
+      img: "/moto/autocam/solution3.webp"
     },
     {
       title: "ADAS cars calibration",
       desc: "Mobile solution for calibration of the assistance systems on most brands and models in the market.",
-      img: "/moto/autocam/solution4.png"
+      img: "/moto/autocam/solution4.webp"
     },
 
   ];

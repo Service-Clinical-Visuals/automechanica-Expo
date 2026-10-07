@@ -28,7 +28,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-1 lg:col-span-4 flex flex-col space-y-6">
             <Link href="/aisin" className="inline-block">
               <img
-                src="/moto/aisin/logo.png"
+                src="/moto/aisin/logo.webp"
                 alt="Aisin Logo"
                 className="object-contain brightness-0 invert w-[120px] 2xl:w-[160px] mb-4"
               />

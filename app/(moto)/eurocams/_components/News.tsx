@@ -14,7 +14,7 @@ export default function News() {
   const newsItems = [
     {
       id: 1,
-      image: "/moto/eurocams/news1.png",
+      image: "/moto/eurocams/news1.webp",
       title: "7 Common Engine Problems",
       date: "3 February 2026",
       excerpt: "Your vehicle's engine has a lot of moving components. It is a complicated piece of kit.",
@@ -22,7 +22,7 @@ export default function News() {
     },
     {
       id: 2,
-      image: "/moto/eurocams/news2.png",
+      image: "/moto/eurocams/news2.webp",
       title: "Why You Should Use High Quality Engine Parts",
       date: "25 November 2025",
       excerpt: "The engine is the heart of your vehicle. If your engine isn't working properly, then your vehicle...",
@@ -30,7 +30,7 @@ export default function News() {
     },
     {
       id: 3,
-      image: "/moto/eurocams/news3.png",
+      image: "/moto/eurocams/news3.webp",
       title: "Cylinder Head Covers 101: Everything You Need...",
       date: "25 November 2025",
       excerpt: "Here at Eurocams, we specialise in offering high-quality vehicle components. This includes...",
@@ -38,7 +38,7 @@ export default function News() {
     },
     {
       id: 4,
-      image: "/moto/eurocams/news4.png",
+      image: "/moto/eurocams/news4.webp",
       title: "Tappet Issues Explained: Common Problems And",
       date: "26 October 2025",
       excerpt: "Don't let tappets' small stature fool you - they're a much-needed part of your car's engine...",

@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Column 1: Logo & Newsletter */}
           <div className="flex flex-col gap-6 col-span-2 md:col-span-7 xl:col-span-5 xl:pr-10">
             <Link href="#">
-              <img src="/moto/muller-filter/logo1.png" alt="Muller Filter Logo" className="w-[100px] h-auto object-contain" />
+              <img src="/moto/muller-filter/logo1.webp" alt="Muller Filter Logo" className="w-[100px] h-auto object-contain" />
             </Link>
             <p className="text-[#333333] section-text font-chakra  max-w-lg font-semibold">
               All the production processes follow the international operating procedures.
@@ -68,19 +68,19 @@ export default function Footer() {
             </div>
             <ul className="flex flex-col gap-5 font-chakra font-semibold text-[#333333]">
               <li className="flex items-start gap-4 ">
-                <img src="/moto/muller-filter/map.png" alt="Address" className="w-[20px] h-[20px] object-contain mt-0.5" />
+                <img src="/moto/muller-filter/map.webp" alt="Address" className="w-[20px] h-[20px] object-contain mt-0.5" />
                 <span className="leading-[1.4] header-link cursor-pointer">Stradale Circonvallazione 16<br/>10060 Bricherasio (TO) – Italy</span>
               </li>
               <li className="flex items-center gap-4 ">
-                <img src="/moto/muller-filter/phone.png" alt="Phone" className="w-[20px] h-[20px] object-contain" />
+                <img src="/moto/muller-filter/phone.webp" alt="Phone" className="w-[20px] h-[20px] object-contain" />
                 <span className="header-link cursor-pointer">+39 0121 598089</span>
               </li>
               <li className="flex items-center gap-4 ">
-                <img src="/moto/muller-filter/printer.png" alt="Fax" className="w-[20px] h-[20px] object-contain" />
+                <img src="/moto/muller-filter/printer.webp" alt="Fax" className="w-[20px] h-[20px] object-contain" />
                 <span className="header-link cursor-pointer">+39 0121 598551</span>
               </li>
               <li className="flex items-center gap-4 ">
-                <img src="/moto/muller-filter/mail.png" alt="Email" className="w-[20px] h-[20px] object-contain" />
+                <img src="/moto/muller-filter/mail.webp" alt="Email" className="w-[20px] h-[20px] object-contain" />
                 <span className="header-link cursor-pointer">info@mullerfilter.com</span>
               </li>
             </ul>

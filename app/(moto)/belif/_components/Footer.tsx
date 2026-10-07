@@ -7,12 +7,12 @@ import Container from "./Container";
 const navigation = ["Home", "About Us", "Products"];
 const usefulLinks = ["Life Oil", "Life Shop", "Lifeplast"];
 const socials = [
-  { key: "tiktok", img: "/moto/belif/socials/1.png", href: "#" },
-  { key: "facebook", img: "/moto/belif/socials/2.png", href: "#" },
-  { key: "linkedin", img: "/moto/belif/socials/3.png", href: "#" },
-  { key: "x", img: "/moto/belif/socials/4.png", href: "#" },
-  { key: "instagram", img: "/moto/belif/socials/5.png", href: "#" },
-  { key: "youtube", img: "/moto/belif/socials/6.png", href: "#" },
+  { key: "tiktok", img: "/moto/belif/socials/1.webp", href: "#" },
+  { key: "facebook", img: "/moto/belif/socials/2.webp", href: "#" },
+  { key: "linkedin", img: "/moto/belif/socials/3.webp", href: "#" },
+  { key: "x", img: "/moto/belif/socials/4.webp", href: "#" },
+  { key: "instagram", img: "/moto/belif/socials/5.webp", href: "#" },
+  { key: "youtube", img: "/moto/belif/socials/6.webp", href: "#" },
 ];
 
 export default function Footer() {
@@ -20,7 +20,7 @@ export default function Footer() {
     <>
       <footer
         className="relative w-full overflow-hidden bg-cover bg-center pt-16 pb-8"
-        style={{ backgroundImage: "url(/moto/belif/aboutbg.png)" }}
+        style={{ backgroundImage: "url(/moto/belif/aboutbg.webp)" }}
       >
         <Container className="relative z-10">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[40fr_20fr_20fr_20fr] gap-10 mb-10">

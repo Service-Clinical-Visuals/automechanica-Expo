@@ -58,7 +58,7 @@ const Advanced = () => {
           {/* Card 1 */}
           <div className="bg-white border border-gray-200 rounded-xl p-6 xl:p-8 flex items-start gap-4 xl:gap-6 shadow-sm hover:shadow-md transition-shadow">
             <div className="w-12 h-12 sm:w-14 sm:h-14 xl:w-16 xl:h-16 shrink-0 min-[2500px]:w-32 min-[2500px]:h-32 min-[3800px]:w-56 min-[3800px]:h-56">
-              <img src="/moto/gameroil/a1.png" alt="Advanced Testing" className="w-full h-full object-contain" />
+              <img src="/moto/gameroil/a1.webp" alt="Advanced Testing" className="w-full h-full object-contain" />
             </div>
             <div className="flex flex-col gap-2">
               <Typography variant="h3" className="font-bold text-gray-900">
@@ -73,7 +73,7 @@ const Advanced = () => {
           {/* Card 2 */}
           <div className="bg-white border border-gray-200 rounded-xl p-6 xl:p-8 flex items-start gap-4 xl:gap-6 shadow-sm hover:shadow-md transition-shadow">
             <div className="w-12 h-12 sm:w-14 sm:h-14 xl:w-16 xl:h-16 shrink-0 min-[2500px]:w-32 min-[2500px]:h-32 min-[3800px]:w-56 min-[3800px]:h-56">
-              <img src="/moto/gameroil/a2.png" alt="Quality Control" className="w-full h-full object-contain" />
+              <img src="/moto/gameroil/a2.webp" alt="Quality Control" className="w-full h-full object-contain" />
             </div>
             <div className="flex flex-col gap-2">
               <Typography variant="h3" className="font-bold text-gray-900">
@@ -88,7 +88,7 @@ const Advanced = () => {
           {/* Card 3 */}
           <div className="bg-white border border-gray-200 rounded-xl p-6 xl:p-8 flex items-start gap-4 xl:gap-6 shadow-sm hover:shadow-md transition-shadow">
             <div className="w-12 h-12 sm:w-14 sm:h-14 xl:w-16 xl:h-16 shrink-0 min-[2500px]:w-32 min-[2500px]:h-32 min-[3800px]:w-56 min-[3800px]:h-56">
-              <img src="/moto/gameroil/a3.png" alt="Reliable Solutions" className="w-full h-full object-contain" />
+              <img src="/moto/gameroil/a3.webp" alt="Reliable Solutions" className="w-full h-full object-contain" />
             </div>
             <div className="flex flex-col gap-2">
               <Typography variant="h3" className="font-bold text-gray-900">

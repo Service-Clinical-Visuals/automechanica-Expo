@@ -105,7 +105,7 @@ export default function WhoAreWe() {
           data-aos-once="true"
         >
           <img
-            src="/moto/ditas/who.png"
+            src="/moto/ditas/who.webp"
             alt="DİTAŞ facility"
             className="absolute inset-0 w-full h-full object-cover"
           />

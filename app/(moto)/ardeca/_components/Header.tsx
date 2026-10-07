@@ -39,7 +39,7 @@ useEffect(() => {
         <div className="flex items-center justify-between py-4">
           {/* Logo Area */}
           <div className="flex-shrink-0">
-            <img src="/moto/ardeca/logo.png" alt="Ardeca Lubricants" className="w-[140px] lg:w-[150px] xl:w-[180px] h-auto object-contain" />
+            <img src="/moto/ardeca/logo.webp" alt="Ardeca Lubricants" className="w-[140px] lg:w-[150px] xl:w-[180px] h-auto object-contain" />
           </div>
 
           {/* Desktop Navigation */}

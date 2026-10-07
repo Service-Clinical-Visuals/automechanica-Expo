@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="lg:col-span-3 flex flex-col gap-6 ">
             <Link href="#">
               <img 
-                src="/moto/alcofilter/logo.png" 
+                src="/moto/alcofilter/logo.webp" 
                 alt="ALCO Logo" 
                 className="w-[200px] h-auto object-cover"
               />
@@ -72,7 +72,7 @@ export default function Footer() {
             </div>
             <ul className="flex flex-col gap-4">
               <li className="flex items-start gap-3">
-                 <img src="/moto/alcofilter/location.png" alt="mail" className="w-6 h-6  flex-shrink-0" />
+                 <img src="/moto/alcofilter/location.webp" alt="mail" className="w-6 h-6  flex-shrink-0" />
                 <span className="outfit-font text-[#ffffff] section-text hover:text-[#E10600] hover:pl-1 transition-all">
                   Alco Filters (Cyprus) Ltd,<br />
                   34 Tripoleos Str.,<br />
@@ -80,13 +80,13 @@ export default function Footer() {
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                 <img src="/moto/alcofilter/phone.png" alt="mail" className="w-6 h-6 text-gray-400 flex-shrink-0" />
+                 <img src="/moto/alcofilter/phone.webp" alt="mail" className="w-6 h-6 text-gray-400 flex-shrink-0" />
                 <span className="outfit-font text-[#ffffff] section-text hover:text-[#E10600] hover:pl-1 transition-all">
                   +357-22-467667
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <img src="/moto/alcofilter/mail.png" alt="mail" className="w-6 h-6 text-gray-400 flex-shrink-0" />
+                <img src="/moto/alcofilter/mail.webp" alt="mail" className="w-6 h-6 text-gray-400 flex-shrink-0" />
                 <span className="outfit-font text-[#ffffff] section-text hover:text-[#E10600] hover:pl-1 transition-all">
                   marketing@alcofilter.com
                 </span>

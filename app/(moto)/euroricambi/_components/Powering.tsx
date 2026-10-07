@@ -47,7 +47,7 @@ export default function Powering() {
                 aria-label="Explore gearbox solutions"
                 className="hidden shrink-0 w-14 h-11 md:flex items-center justify-center bg-white rounded-sm hover:opacity-90 transition-opacity"
               >
-                <img src="/moto/euroricambi/bluearrow.png" alt="" className="w-8 h-auto object-contain" />
+                <img src="/moto/euroricambi/bluearrow.webp" alt="" className="w-8 h-auto object-contain" />
               </button>
             </div>
           </div>

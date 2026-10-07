@@ -6,17 +6,17 @@ import Link from "next/link";
 export default function Partners() {
   const newsItems = [
     {
-      image: "/moto/orijin/partner1.png",
+      image: "/moto/orijin/partner1.webp",
       title: "2019 First Aid Training",
       desc: "Orjin Automotive conducted first aid training for its employees, combining theoretical and practical sessions to enhance workplace safety and identify certified first responders."
     },
     {
-      image: "/moto/orijin/partner2.png",
+      image: "/moto/orijin/partner2.webp",
       title: "R&D DISH",
       desc: "Orjin Automotive organized a dinner with its young R&D team to appreciate their contributions, with Chairman Kadri ÖZTÜRK expressing gratitude for their dedication and efforts."
     },
     {
-      image: "/moto/orijin/partner3.png",
+      image: "/moto/orijin/partner3.webp",
       title: "2019 Support for Sports and Athletes",
       desc: "Orjin Automotive continues to support athlete Yasemin Hamamcı, celebrating her achievements and wishing her continued success in marathon running."
     }

@@ -14,7 +14,7 @@ export default function AboutCompany() {
           <div className="order-2 xl:order-1 w-full bg-[#f8f8f8] p-8 md:p-12 flex justify-center items-center rounded-sm" data-aos="fade-right">
             {/* The image is currently missing in the directory, using a fallback path that the user can upload to */}
             <img 
-              src="/moto/alcofilter/abt.png" 
+              src="/moto/alcofilter/abt.webp" 
               alt="ALCO Filters" 
               className="w-full h-auto object-contain max-h-[500px]"
             
@@ -60,7 +60,7 @@ export default function AboutCompany() {
 
             <Button href="#" variant="primary" className="font-bold gap-2">
               <span>Know More</span>
-              <img src="/moto/alcofilter/btnarrow.png" alt="Arrow" className="w-4 h-4 object-contain brightness-0 invert" />
+              <img src="/moto/alcofilter/btnarrow.webp" alt="Arrow" className="w-4 h-4 object-contain brightness-0 invert" />
             </Button>
           </div>
         </div>

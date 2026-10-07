@@ -26,7 +26,7 @@ const Mission = () => {
           <div className="relative bg-white rounded-xl border border-gray-200 shadow-sm px-6 pt-16 pb-8 md:px-8 md:pt-20 xl:px-10 xl:pt-24 min-[3800px]:px-24 min-[3800px]:pt-[260px] min-[3800px]:pb-24 flex flex-col h-full" data-aos="fade-right">
             {/* Overlay Icon */}
             <div className="absolute -top-10 left-6 w-20 h-20 md:-top-14 md:w-28 md:h-28 xl:-top-16 xl:w-36 xl:h-36 min-[3800px]:-top-[180px] min-[3800px]:left-20 min-[3800px]:w-[380px] min-[3800px]:h-[380px] bg-primary text-white flex items-center justify-center rounded-lg shadow-lg">
-              <img src="/moto/nuova/vector1.png" className="w-[50px] h-[50px] md:w-[70px] md:h-[70px] xl:w-[90px] xl:h-[90px] min-[3800px]:w-[260px] min-[3800px]:h-[260px]" alt="values icon" />
+              <img src="/moto/nuova/vector1.webp" className="w-[50px] h-[50px] md:w-[70px] md:h-[70px] xl:w-[90px] xl:h-[90px] min-[3800px]:w-[260px] min-[3800px]:h-[260px]" alt="values icon" />
             </div>
 
             <Typography variant="h3" color="dark" className="font-bold mt-2 xl:mt-4 mb-4 min-[3800px]:text-5xl">
@@ -47,7 +47,7 @@ const Mission = () => {
           <div className="relative bg-white rounded-xl border border-gray-200 shadow-sm px-6 pt-16 pb-8 md:px-8 md:pt-20 xl:px-10 xl:pt-24 min-[3800px]:px-24 min-[3800px]:pt-[260px] min-[3800px]:pb-24 flex flex-col h-full" data-aos="fade-left">
             {/* Overlay Icon */}
             <div className="absolute -top-10 left-6 w-20 h-20 md:-top-14 md:w-28 md:h-28 xl:-top-16 xl:w-36 xl:h-36 min-[3800px]:-top-[180px] min-[3800px]:left-20 min-[3800px]:w-[360px] min-[3800px]:h-[360px] bg-primary text-white flex items-center justify-center rounded-lg shadow-lg">
-              <img src="/moto/nuova/vector2.png" className="w-[50px] h-[50px] md:w-[70px] md:h-[70px] xl:w-[90px] xl:h-[90px] min-[3800px]:w-[240px] min-[3800px]:h-[240px]" alt="values icon" />
+              <img src="/moto/nuova/vector2.webp" className="w-[50px] h-[50px] md:w-[70px] md:h-[70px] xl:w-[90px] xl:h-[90px] min-[3800px]:w-[240px] min-[3800px]:h-[240px]" alt="values icon" />
             </div>
 
             <Typography variant="h3" color="dark" className="font-bold mt-2 xl:mt-4 mb-4 min-[3800px]:text-5xl">

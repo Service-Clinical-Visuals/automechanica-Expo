@@ -30,7 +30,7 @@ export default function Footer() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1.1fr_0.8fr_1fr_1fr_1.2fr] gap-10">
             {/* Col 1: Logo + blurb */}
             <div>
-              <img src="/moto/euroricambi/logo.png" alt="Euroricambi Group" className="h-12 w-auto mb-7" />
+              <img src="/moto/euroricambi/logo.webp" alt="Euroricambi Group" className="h-12 w-auto mb-7" />
               <p className="content text-[16px]! font-normal! leading-[150%]!">
                 Over 15 years of delivering reliable automotive components, innovative solutions,
                 and trusted global service.

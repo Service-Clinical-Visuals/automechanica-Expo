@@ -12,7 +12,7 @@ export default function AboutUs() {
           {/* Left Image */}
           <div className="w-full lg:col-span-5 xl:col-span-5 h-full flex order-1" data-aos="fade-right">
             <img
-              src="/moto/cevam/abt.png"
+              src="/moto/cevam/abt.webp"
               alt="CEVAM Facility"
               className="w-full h-full object-cover rounded-[16px]"
             />

@@ -10,16 +10,16 @@ export default function About() {
           <div className="relative w-full aspect-square md:aspect-[16/10] lg:aspect-[4/3] xl:aspect-[5/4] 2xl:aspect-[4/3] flex gap-2 order-2 xl:order-1" data-aos="fade-right" data-aos-duration="1000">
             {/* Main Image */}
             <div className="w-[60%] h-full rounded-bl-2xl overflow-hidden shadow-[0_4px_15px_rgba(0,0,0,0.05)]">
-              <img src="/moto/ardeca/abt1.png" alt="Ardeca Team" className="w-full h-full object-cover" />
+              <img src="/moto/ardeca/abt1.webp" alt="Ardeca Team" className="w-full h-full object-cover" />
             </div>
             
             {/* Right Images */}
             <div className="w-[40%] h-full flex flex-col gap-2 relative">
               <div className="h-[calc(40%-4px)] w-full rounded-tr-2xl overflow-hidden shadow-[0_4px_15px_rgba(0,0,0,0.05)]">
-                <img src="/moto/ardeca/abt2.png" alt="Ardeca Facility" className="w-full h-full object-cover" />
+                <img src="/moto/ardeca/abt2.webp" alt="Ardeca Facility" className="w-full h-full object-cover" />
               </div>
               <div className="h-[calc(60%-4px)] w-full  overflow-hidden shadow-[0_4px_15px_rgba(0,0,0,0.05)]">
-                <img src="/moto/ardeca/abt3.png" alt="Ardeca Barrels" className="w-full h-full object-cover" />
+                <img src="/moto/ardeca/abt3.webp" alt="Ardeca Barrels" className="w-full h-full object-cover" />
               </div>
               
               {/* Red Cross Overlay exactly covering the gaps */}

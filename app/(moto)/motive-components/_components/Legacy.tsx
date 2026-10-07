@@ -41,7 +41,7 @@ const Legacy = () => {
         {/* Mobile/Tablet: Order 2, Desktop: Col 6-12, Row 1 */}
         <div className="w-full order-2 xl:col-start-6 xl:col-span-7 xl:row-start-1 h-full" data-aos="fade-left">
           <img
-            src="/moto/motive-components/section2.png"
+            src="/moto/motive-components/section2.webp"
             alt="Motive Components Facility"
             className="w-full rounded-2xl object-cover h-full min-h-[300px] shadow-lg"
           />
@@ -54,7 +54,7 @@ const Legacy = () => {
           {/* Card 1 */}
           <div className="flex items-center w-full">
              <div className="z-10 w-24 h-28 xl:w-[120px] xl:h-[150px] bg-secondary rounded-2xl flex items-center justify-center shrink-0 shadow-lg p-5">
-               <img src="/moto/motive-components/vector1.png" alt="Product Range" className="w-[80%] h-[80%] object-contain filter brightness-0 invert" />
+               <img src="/moto/motive-components/vector1.webp" alt="Product Range" className="w-[80%] h-[80%] object-contain filter brightness-0 invert" />
              </div>
              <div className="flex-1 bg-[#FFFFFF] rounded-xl shadow-[0_0px_30px_rgba(0,0,0,0.08)] border border-gray-50 py-5 xl:py-6 pl-12 xl:pl-14 pr-4 -ml-8 z-0 flex flex-col justify-center">
                 <Typography variant="h4" color="dark" className="font-bold leading-tight mb-1">
@@ -69,7 +69,7 @@ const Legacy = () => {
           {/* Card 2 */}
           <div className="flex items-center w-full">
              <div className="z-10 w-24 h-28 xl:w-[120px] xl:h-[150px] bg-secondary rounded-2xl flex items-center justify-center shrink-0 shadow-lg p-5">
-               <img src="/moto/motive-components/vector2.png" alt="Quality Assurance" className="w-[80%] h-[80%] object-contain filter brightness-0 invert" />
+               <img src="/moto/motive-components/vector2.webp" alt="Quality Assurance" className="w-[80%] h-[80%] object-contain filter brightness-0 invert" />
              </div>
              <div className="flex-1 bg-white rounded-xl shadow-[0_0px_30px_rgba(0,0,0,0.08)] border border-gray-50 py-5 xl:py-6 pl-12 xl:pl-14 pr-4 -ml-8 z-0 flex flex-col justify-center">
                 <Typography variant="h4" color="dark" className="font-bold leading-tight mb-1">
@@ -84,7 +84,7 @@ const Legacy = () => {
           {/* Card 3 */}
           <div className="flex items-center w-full">
              <div className="z-10 w-24 h-28 xl:w-[120px] xl:h-[150px] bg-secondary rounded-2xl flex items-center justify-center shrink-0 shadow-lg p-5">
-               <img src="/moto/motive-components/vector3.png" alt="Customer Care" className="w-[80%] h-[80%] object-contain filter brightness-0 invert" />
+               <img src="/moto/motive-components/vector3.webp" alt="Customer Care" className="w-[80%] h-[80%] object-contain filter brightness-0 invert" />
              </div>
              <div className="flex-1 bg-white rounded-xl shadow-[0_0px_30px_rgba(0,0,0,0.08)] border border-gray-50 py-5 xl:py-6 pl-12 xl:pl-14 pr-4 -ml-8 z-0 flex flex-col justify-center">
                 <Typography variant="h4" color="dark" className="font-bold leading-tight mb-1">

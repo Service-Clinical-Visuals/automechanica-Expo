@@ -14,7 +14,7 @@ export default function WhyChooseUs() {
           <div className="xl:col-span-6 xl:row-start-1 xl:col-start-1 pb-16 flex flex-col justify-center relative z-20" data-aos="fade-right">
             <div className="flex items-center gap-3 mb-6">
               <Image 
-                src="/moto/bluechem/arrow.png" 
+                src="/moto/bluechem/arrow.webp" 
                 alt="Arrow Icon" 
                 width={24} 
                 height={24} 
@@ -40,7 +40,7 @@ export default function WhyChooseUs() {
           <div className="hidden xl:block xl:col-span-6 xl:row-start-1 xl:row-end-3 xl:col-start-7 relative z-30" data-aos="fade-left">
              <div className="absolute inset-0 rounded-[32px] overflow-hidden">
                 <Image 
-                  src="/moto/bluechem/whychooseimg.png" 
+                  src="/moto/bluechem/whychooseimg.webp" 
                   alt="Bluechem Group Building" 
                   fill 
                   className="object-cover object-center"
@@ -52,7 +52,7 @@ export default function WhyChooseUs() {
           <div className="block xl:hidden xl:col-span-12 relative z-20 mb-12" data-aos="fade-up">
              <div className="relative w-full h-[400px] sm:h-[500px] rounded-[24px] overflow-hidden shadow-xl">
                 <Image 
-                  src="/moto/bluechem/whychooseimg.png" 
+                  src="/moto/bluechem/whychooseimg.webp" 
                   alt="Bluechem Group Building" 
                   fill 
                   className="object-cover object-center"

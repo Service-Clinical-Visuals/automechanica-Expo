@@ -61,7 +61,7 @@ const Performance = () => {
             data-aos="fade-up"
             data-aos-delay="0"
           >
-            <img src="/moto/efi-aftermarket/performance1.png" alt="EFI Ignition Coil" className="w-full h-full object-cover  group-hover:scale-[1.25] transition-transform duration-300" />
+            <img src="/moto/efi-aftermarket/performance1.webp" alt="EFI Ignition Coil" className="w-full h-full object-cover  group-hover:scale-[1.25] transition-transform duration-300" />
           </div>
 
           <div
@@ -69,7 +69,7 @@ const Performance = () => {
             data-aos="fade-up"
             data-aos-delay="150"
           >
-            <img src="/moto/efi-aftermarket/performance2.png" alt="EFI Ignition Wires" className="w-full h-full object-cover" />
+            <img src="/moto/efi-aftermarket/performance2.webp" alt="EFI Ignition Wires" className="w-full h-full object-cover" />
           </div>
 
           <div
@@ -77,7 +77,7 @@ const Performance = () => {
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            <img src="/moto/efi-aftermarket/performance3.png" alt="EFI Distributor" className="w-full h-full object-cover" />
+            <img src="/moto/efi-aftermarket/performance3.webp" alt="EFI Distributor" className="w-full h-full object-cover" />
           </div>
         </div>
       </Container>

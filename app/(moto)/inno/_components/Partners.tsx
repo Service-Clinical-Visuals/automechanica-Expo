@@ -33,7 +33,7 @@ export default function Partners() {
           <div className="lg:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-4 w-full h-full" data-aos="fade-left">
             <div className="w-full h-full overflow-hidden">
               <img
-                src="/moto/inno/partner1.png"
+                src="/moto/inno/partner1.webp"
                 alt="CAD Design 1"
                 className="w-full h-full object-cover"
                 onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-200 flex items-center justify-center text-gray-500">Image 1</div>' }}
@@ -41,7 +41,7 @@ export default function Partners() {
             </div>
             <div className="w-full h-full overflow-hidden">
               <img
-                src="/moto/inno/partner2.png"
+                src="/moto/inno/partner2.webp"
                 alt="CAD Design 2"
                 className="w-full h-full object-cover"
                 onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-200 flex items-center justify-center text-gray-500">Image 2</div>' }}

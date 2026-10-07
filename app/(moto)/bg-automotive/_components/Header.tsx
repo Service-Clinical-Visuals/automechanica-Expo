@@ -41,7 +41,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/bg-automotive/bga-logo 1.png" alt="BGA Logo" className="w-[70px] md:w-[70px] h-auto object-contain" />
+                <img src="/moto/bg-automotive/bga-logo 1.webp" alt="BGA Logo" className="w-[70px] md:w-[70px] h-auto object-contain" />
               </Link>
             </div>
 

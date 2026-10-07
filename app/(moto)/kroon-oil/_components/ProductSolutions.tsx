@@ -15,27 +15,27 @@ export default function ProductSolutions() {
 
   const allProducts = {
     "Motor Oils Automotive": [
-      { name: "Enersynth (P)HEV 0W-8", image: "/moto/kroon-oil/pro1.png" },
-      { name: "Meganza MSP FE 0W-16", image: "/moto/kroon-oil/pro2.png" },
-      { name: "Enersynth (P)HEV 0W-16", image: "/moto/kroon-oil/pro3.png" },
-      { name: "Presteza MSP 0W-20", image: "/moto/kroon-oil/pro4.png" },
-      { name: "Helar FE LL-04 0W-20", image: "/moto/kroon-oil/pro5.png" },
-      { name: "Avanza MSP 0W-20", image: "/moto/kroon-oil/pro6.png" },
+      { name: "Enersynth (P)HEV 0W-8", image: "/moto/kroon-oil/pro1.webp" },
+      { name: "Meganza MSP FE 0W-16", image: "/moto/kroon-oil/pro2.webp" },
+      { name: "Enersynth (P)HEV 0W-16", image: "/moto/kroon-oil/pro3.webp" },
+      { name: "Presteza MSP 0W-20", image: "/moto/kroon-oil/pro4.webp" },
+      { name: "Helar FE LL-04 0W-20", image: "/moto/kroon-oil/pro5.webp" },
+      { name: "Avanza MSP 0W-20", image: "/moto/kroon-oil/pro6.webp" },
     ],
     "Gear Oils": [
-      { name: "SP Gear 1071", image: "/moto/kroon-oil/pro7.png" },
-      { name: "SP Gear 1081", image: "/moto/kroon-oil/pro8.png" },
-      { name: "SP Gear 5015", image: "/moto/kroon-oil/pro9.png" },
-      { name: "Syngear MT/LD 75W-80", image: "/moto/kroon-oil/pro10.png" },
-      { name: "Syngear XLD 75W-90", image: "/moto/kroon-oil/pro11.png" },
-      { name: "Syngear TDL 75W-90", image: "/moto/kroon-oil/pro12.png" },
+      { name: "SP Gear 1071", image: "/moto/kroon-oil/pro7.webp" },
+      { name: "SP Gear 1081", image: "/moto/kroon-oil/pro8.webp" },
+      { name: "SP Gear 5015", image: "/moto/kroon-oil/pro9.webp" },
+      { name: "Syngear MT/LD 75W-80", image: "/moto/kroon-oil/pro10.webp" },
+      { name: "Syngear XLD 75W-90", image: "/moto/kroon-oil/pro11.webp" },
+      { name: "Syngear TDL 75W-90", image: "/moto/kroon-oil/pro12.webp" },
     ],
     "Hydraulic Oils": [
-      { name: "SP Fluid 3013", image: "/moto/kroon-oil/pro13.png" },
-      { name: "SP Fluid 3023", image: "/moto/kroon-oil/pro14.png" },
-      { name: "LHM +", image: "/moto/kroon-oil/pro17.png" },
-      { name: "SP Fluid 6033", image: "/moto/kroon-oil/pro15.png" },
-      { name: "SP Fluid 6036", image: "/moto/kroon-oil/pro16.png" },
+      { name: "SP Fluid 3013", image: "/moto/kroon-oil/pro13.webp" },
+      { name: "SP Fluid 3023", image: "/moto/kroon-oil/pro14.webp" },
+      { name: "LHM +", image: "/moto/kroon-oil/pro17.webp" },
+      { name: "SP Fluid 6033", image: "/moto/kroon-oil/pro15.webp" },
+      { name: "SP Fluid 6036", image: "/moto/kroon-oil/pro16.webp" },
     ]
   };
 

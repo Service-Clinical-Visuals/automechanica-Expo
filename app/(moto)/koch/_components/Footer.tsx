@@ -13,7 +13,7 @@ const Footer = () => {
           
           {/* Column 1: Logo & Text (Span 4) */}
           <div className="col-span-1 md:col-span-2 xl:col-span-4 flex flex-col gap-6">
-            <img src="/moto/koch/logo.png" alt="Koch Logo" className="w-[60%] sm:w-[40%] xl:w-[60%] min-[3800px]:w-[50%] object-contain" data-aos="fade-up" />
+            <img src="/moto/koch/logo.webp" alt="Koch Logo" className="w-[60%] sm:w-[40%] xl:w-[60%] min-[3800px]:w-[50%] object-contain" data-aos="fade-up" />
             <p className="footer-body text-muted leading-relaxed max-w-[95%]" data-aos="fade-up" data-aos-delay="100">
               Trust the ideal solution for wheel alignment on cars and commercial vehicles from Europe's leading manufacturer of wheel alignment equipment.
             </p>

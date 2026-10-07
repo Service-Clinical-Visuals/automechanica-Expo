@@ -55,7 +55,7 @@ export default function SolutionsForVehicles() {
                   Passenger
                 </span>
                 <div className="w-10 h-10 rounded-lg bg-[#01195d] text-white flex items-center justify-center group-hover:bg-[#022486] transition-colors shadow-sm flex-shrink-0">
-                  <img src="/moto/aydoto/btnarw.png" alt="arrow-right" className="w-4 h-4 object-contain" />
+                  <img src="/moto/aydoto/btnarw.webp" alt="arrow-right" className="w-4 h-4 object-contain" />
                 </div>
               </div>
 
@@ -72,7 +72,7 @@ export default function SolutionsForVehicles() {
                   Light Comercial
                 </span>
                 <div className="w-10 h-10 rounded-lg bg-[#01195d] text-white flex items-center justify-center group-hover:bg-[#022486] transition-colors shadow-sm flex-shrink-0">
-                  <img src="/moto/aydoto/btnarw.png" alt="arrow-right" className="w-4 h-4 object-contain" />
+                  <img src="/moto/aydoto/btnarw.webp" alt="arrow-right" className="w-4 h-4 object-contain" />
                 </div>
               </div>
             </div>
@@ -92,7 +92,7 @@ export default function SolutionsForVehicles() {
             <div className="w-full aspect-[4/3]  flex items-center justify-center relative">
               {/* Passenger Car Image */}
               <img
-                src="/moto/aydoto/car1.png"
+                src="/moto/aydoto/car1.webp"
                 alt="Passenger Vehicle"
                 className={` object-contain transition-all duration-700 absolute ${
                   activeTab === "passenger"
@@ -103,7 +103,7 @@ export default function SolutionsForVehicles() {
 
               {/* Commercial Car Image */}
               <img
-                src="/moto/aydoto/van.png"
+                src="/moto/aydoto/van.webp"
                 alt="Light Commercial Vehicle"
                 className={`w-full object-contain transition-all duration-700 absolute ${
                   activeTab === "commercial"

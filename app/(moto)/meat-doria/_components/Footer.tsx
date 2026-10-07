@@ -35,7 +35,7 @@ export default function Footer() {
             {/* Logo + tagline */}
             <div>
               <div className="bg-white inline-block mb-4">
-                <img src="/moto/meat-doria/logo.png" alt="Meat & Doria" className="h-18 w-auto" />
+                <img src="/moto/meat-doria/logo.webp" alt="Meat & Doria" className="h-18 w-auto" />
               </div>
               <p className="content-white text-[16px]!">
                 The goal is to offer a product that stands out for high performance, maximum reliability,

@@ -22,7 +22,7 @@ const Commitment = () => {
           {/* Right Image - Mobile: Order 2, Desktop: Right (Col 8-12 or similar. requested: Text 7, Image 5) */}
           <div className="col-span-1 xl:col-span-6 xl:col-start-7 order-2 w-full h-full min-h-[250px] sm:min-h-[350px] lg:min-h-[550px] min-[2500px]:min-h-[600px] min-[3800px]:min-h-[800px] relative rounded-2xl overflow-hidden shadow-lg" data-aos="fade-left">
             <img
-              src="/moto/gameroil/section3.png"
+              src="/moto/gameroil/section3.webp"
               alt="Commitment to Quality"
               className="absolute inset-0 w-full h-full object-cover"
             />

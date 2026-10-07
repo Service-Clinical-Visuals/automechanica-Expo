@@ -74,7 +74,7 @@ const Header = () => {
             {/* Logo Section */}
             <Link href="/" className="flex items-center shrink-0">
               <img
-                src="/moto/purflux/logo.png"
+                src="/moto/purflux/logo.webp"
                 alt="Purflux Logo"
                 className="h-6 sm:h-8 md:h-10 w-auto object-contain"
               />

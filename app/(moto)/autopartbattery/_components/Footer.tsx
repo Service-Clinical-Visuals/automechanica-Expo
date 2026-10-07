@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="lg:col-span-3 xl:col-span-3 flex flex-col items-start">
             <Link href="#" className="flex-shrink-0 mb-6 inline-block">
               <img 
-                src="/moto/autopartbattery/logo.png" 
+                src="/moto/autopartbattery/logo.webp" 
                 alt="AutoPart BATTERY Logo" 
                 className="h-12 md:h-14 w-auto object-contain" 
                               />
@@ -70,7 +70,7 @@ export default function Footer() {
                   href="tel:+48175845730" 
                   className="flex items-center gap-2 sm:gap-3 text-white/90 hover:text-white transition-colors group"
                 >
-                  <img src="/moto/autopartbattery/phone.png" alt="Contact" className="w-5 h-5 flex-shrink-0" />
+                  <img src="/moto/autopartbattery/phone.webp" alt="Contact" className="w-5 h-5 flex-shrink-0" />
                   <span className="lato-font section-text font-normal break-all sm:break-normal">+48 17 584 57 30</span>
                 </a>
 
@@ -78,7 +78,7 @@ export default function Footer() {
                   href="mailto:autopart@autopart.pl" 
                   className="flex items-center gap-2 sm:gap-3 text-white/90 hover:text-white transition-colors group"
                 >
-                  <img src="/moto/autopartbattery/mail.png" alt="Contact" className="w-5 h-5 flex-shrink-0" />
+                  <img src="/moto/autopartbattery/mail.webp" alt="Contact" className="w-5 h-5 flex-shrink-0" />
                   <span className="lato-font section-text font-normal break-all sm:break-normal">autopart@autopart.pl</span>
                 </a>
               </div>
@@ -97,28 +97,28 @@ export default function Footer() {
                 className="p-1.5 rounded-lg hover:bg-white/10 hover:scale-110 transition-all duration-300"
                 aria-label="LinkedIn"
               >
-                <img src="/moto/autopartbattery/f3.png" alt="Contact" className="w-5 h-5" />
+                <img src="/moto/autopartbattery/f3.webp" alt="Contact" className="w-5 h-5" />
               </a>
               <a 
                 href="#" 
                 className="p-1.5 rounded-lg hover:bg-white/10 hover:scale-110 transition-all duration-300"
                 aria-label="Twitter / X"
               >
-                <img src="/moto/autopartbattery/f4.png" alt="Contact" className="w-5 h-5" />
+                <img src="/moto/autopartbattery/f4.webp" alt="Contact" className="w-5 h-5" />
               </a>
               <a 
                 href="#" 
                 className="p-1.5 rounded-lg hover:bg-white/10 hover:scale-110 transition-all duration-300"
                 aria-label="Instagram"
               >
-                <img src="/moto/autopartbattery/f5.png" alt="Contact" className="w-5 h-5" />
+                <img src="/moto/autopartbattery/f5.webp" alt="Contact" className="w-5 h-5" />
               </a>
               <a 
                 href="#" 
                 className="p-1.5 rounded-lg hover:bg-white/10 hover:scale-110 transition-all duration-300"
                 aria-label="YouTube"
               >
-                <img src="/moto/autopartbattery/f6.png" alt="Contact" className="w-6 h-5" />
+                <img src="/moto/autopartbattery/f6.webp" alt="Contact" className="w-6 h-5" />
               </a>
             </div>
           </div>

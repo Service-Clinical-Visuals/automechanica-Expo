@@ -60,7 +60,7 @@ export default function Header() {
         <div className="flex-shrink-0 flex items-center w-auto">
           <Link href="#" className="inline-block">
             <div className="bg-primary px-5 py-2 md:px-7 md:py-2.5 rounded-full flex items-center justify-center shadow-sm w-fit">
-              <img src="/moto/koneks/logo2.png" alt="KONEKS Logo" className="w-24 sm:w-28 md:w-32 lg:w-36 h-auto object-contain" />
+              <img src="/moto/koneks/logo2.webp" alt="KONEKS Logo" className="w-24 sm:w-28 md:w-32 lg:w-36 h-auto object-contain" />
             </div>
           </Link>
         </div>

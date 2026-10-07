@@ -16,22 +16,22 @@ export default function Services() {
 
   const services = [
     {
-      img: "/moto/abs-allbrakes/service1.png",
+      img: "/moto/abs-allbrakes/service1.webp",
       title: "Personal\nStock Advice",
       desc: "Maximize your profitability with expert stock management and data-driven insights. Using market data from 30+ international markets, ABS helps you optimize inventory, improve product availability, reduce excess stock, and make smarter stocking decisions for better business performance.",
     },
     {
-      img: "/moto/abs-allbrakes/service2.png",
+      img: "/moto/abs-allbrakes/service2.webp",
       title: "100% CERTIFIED\nQUALITY",
       desc: "Our products comply with stringent European regulations and undergo extensive long-term wear testing to ensure consistent performance. Combined with in-depth analysis of used components, this rigorous quality process guarantees exceptional durability, reliability, and safety.",
     },
     {
-      img: "/moto/abs-allbrakes/service3.png",
+      img: "/moto/abs-allbrakes/service3.webp",
       title: "Marketing\nSupport",
       desc: "Furthermore, do you need help to market the ABS products in your region? Whether you're looking for the latest marketing materials—be it digital or print—or attractive and unique customer relationship gifts, we've got you covered!",
     },
     // {
-    //   img: "/moto/abs-allbrakes/service4.png",
+    //   img: "/moto/abs-allbrakes/service4.webp",
     //   title: "Private\nLabel Handling",
     //   desc: "Want to enter a niche market with your own private label? We are here to help—you choose how to promote and package your products before making them available for sale, while we ensure consistent quality, reliable supply, and professional support throughout.",
     // },

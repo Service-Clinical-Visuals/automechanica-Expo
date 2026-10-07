@@ -7,25 +7,25 @@ import { ArrowRight } from "lucide-react";
 const catalogues = [
   {
     id: 1,
-    image: "/moto/jp-group/explore1.png",
+    image: "/moto/jp-group/explore1.webp",
     title: "VW Classic",
     text: "Parts and accessories for classic Volkswagen models.",
   },
   {
     id: 2,
-    image: "/moto/jp-group/explore2.png",
+    image: "/moto/jp-group/explore2.webp",
     title: "Porsche Classic",
     text: "Genuine parts and technical data for Porsche classics.",
   },
   {
     id: 3,
-    image: "/moto/jp-group/explore3.png",
+    image: "/moto/jp-group/explore3.webp",
     title: "Classic car Catalogue",
     text: "A Wide range Of parts for multiple classic car brands.",
   },
   {
     id: 4,
-    image: "/moto/jp-group/explore4.png",
+    image: "/moto/jp-group/explore4.webp",
     title: "Contemporary Catalogue",
     text: "Up-to-date parts and solutions for modern vehicles.",
   }

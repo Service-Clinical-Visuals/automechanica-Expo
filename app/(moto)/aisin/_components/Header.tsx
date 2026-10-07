@@ -36,7 +36,7 @@ export default function Header() {
       <div className="custom-container w-full flex items-center justify-between h-full relative">
         <Link href="/aisin" className="flex items-center">
           <img
-            src="/moto/aisin/logo.png"
+            src="/moto/aisin/logo.webp"
             alt="Aisin Logo"
             className="object-contain w-[120px] 2xl:w-[150px] 3xl:w-[180px] 4xl:w-[220px]"
           />

@@ -25,7 +25,7 @@ export default function Button({ text, href = "#", className = "", variant = "pr
       >
         {text}
       </Link>
-       <img src="/moto/ahg/btnarrow.png" alt="arrow" />
+       <img src="/moto/ahg/btnarrow.webp" alt="arrow" />
     </div>
   );
 }

@@ -31,7 +31,7 @@ export default function AboutUs() {
           <div className="relative w-full h-full order-2 xl:order-1" data-aos="fade-right">
             <div className="w-full aspect-[4/3] xl:aspect-auto xl:h-[600px] overflow-hidden rounded-2xl shadow-sm">
               <img 
-                src="/moto/bbt/abt.jpg" 
+                src="/moto/bbt/abt.webp" 
                 alt="About BBT Automotive" 
                 className="w-full h-full object-cover" 
               />
@@ -64,7 +64,7 @@ export default function AboutUs() {
               {bulletPoints.map((point, index) => (
                 <div key={index} className="flex items-center gap-3">
                
-                  <img src='/moto/bbt/tick.png' className='size-5 mt-1'></img>
+                  <img src='/moto/bbt/tick.webp' className='size-5 mt-1'></img>
                   <p className="lato-font text-[#333333] section-text font-medium">
                     <span className="font-medium">{point.title}</span> – {point.description}
                   </p>

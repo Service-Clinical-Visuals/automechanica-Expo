@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="w-full lg:w-[35%] flex flex-col gap-6" data-aos="fade-up">
             <Link href="#">
               <img
-                src="/moto/ajusa/logo.png"
+                src="/moto/ajusa/logo.webp"
                 alt="Ajusa Logo"
                 className="w-32 md:w-40 object-contain"
                 onError={(e) => { e.currentTarget.style.display = 'none' }}

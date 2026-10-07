@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Column 1: Logo & Description */}
           <div className="flex flex-col gap-6 lg:col-span-4" data-aos="fade-up" data-aos-delay="100">
             <Link href="#" className="w-full">
-              <img src="/moto/autocam/logo.png" alt="Autocom Logo" className="w-[60%] sm:w-[50%] md:w-[45%] lg:w-[65%] xl:w-[60%] h-auto object-contain " />
+              <img src="/moto/autocam/logo.webp" alt="Autocom Logo" className="w-[60%] sm:w-[50%] md:w-[45%] lg:w-[65%] xl:w-[60%] h-auto object-contain " />
             </Link>
             <p className="footer-body text-white mt-2 leading-relaxed max-w-[90%]">
               Autocom delivers advanced vehicle diagnostic solutions with intelligent software, reliable hardware, and accurate vehicle data for workshops around the world every day.

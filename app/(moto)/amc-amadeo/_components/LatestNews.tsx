@@ -9,7 +9,7 @@ const newsItems = [
     month: "DEC",
     title: "Automechanika Frankfurt 2024",
     dateFull: "08 - 12 September 2026",
-    image: "/moto/amc-amadeo/n1.png"
+    image: "/moto/amc-amadeo/n1.webp"
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const newsItems = [
     month: "July",
     title: "Automechanika Estambul 2024",
     dateFull: "July 02, 2024",
-    image: "/moto/amc-amadeo/n2.png"
+    image: "/moto/amc-amadeo/n2.webp"
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const newsItems = [
     month: "Oct",
     title: "36th International Expo Rujac",
     dateFull: "04 Oct 2022",
-    image: "/moto/amc-amadeo/n3.png"
+    image: "/moto/amc-amadeo/n3.webp"
   }
 ];
 

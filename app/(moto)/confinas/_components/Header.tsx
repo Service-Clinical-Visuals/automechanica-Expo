@@ -74,7 +74,7 @@ const Header = () => {
             {/* Logo Section */}
             <Link href="/" className="flex items-center shrink-0">
               <img
-                src="/moto/confinas/logo.png"
+                src="/moto/confinas/logo.webp"
                 alt="FULBAT Logo"
                 className="h-8 sm:h-10 min-[1440px]:h-12 min-[2100px]:h-16 min-[3800px]:h-24 w-auto object-contain"
               />

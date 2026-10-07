@@ -8,22 +8,22 @@ import { Car, CarFront, Wifi, CloudUpload } from "lucide-react";
 export default function Explore360() {
   const features = [
     {
-      icon: <img src="/moto/launch-europe/4.png" alt="car" />,
+      icon: <img src="/moto/launch-europe/4.webp" alt="car" />,
       title: "Multi Brand Diagnostics",
       text: "Advanced diagnostics supporting 120+ vehicle makes and models",
     },
     {
-      icon: <img src="/moto/launch-europe/5.png" alt="carwifi" />,
+      icon: <img src="/moto/launch-europe/5.webp" alt="carwifi" />,
       title: "ADAS Calibration",
       text: "High-precision ADAS calibration for modern vehicle system",
     },
     {
-      icon: <img src="/moto/launch-europe/6.png" alt="wifi" />,
+      icon: <img src="/moto/launch-europe/6.webp" alt="wifi" />,
       title: "Wireless Connectivity",
       text: "Seamless Bluetooth & Wi-fi connection for flexibility",
     },
     {
-      icon: <img src="/moto/launch-europe/7.png" alt="cloud" />,
+      icon: <img src="/moto/launch-europe/7.webp" alt="cloud" />,
       title: "Intelligent Software",
       text: "Stay Up-to date with the latest coverage and features",
     },

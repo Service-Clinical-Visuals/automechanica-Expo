@@ -20,7 +20,7 @@ export default function About() {
 
         <div className="w-full order-4 xl:order-2 mt-6 xl:mt-0" data-aos="zoom-in" data-aos-delay="200">
           <img
-            src="/moto/mutlu/section2.png"
+            src="/moto/mutlu/section2.webp"
             alt="Mutlu Facilities"
             className="w-full h-auto object-cover rounded-2xl md:rounded-[32px] shadow-lg"
           />

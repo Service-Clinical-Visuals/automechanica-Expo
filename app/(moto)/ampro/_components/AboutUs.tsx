@@ -52,7 +52,7 @@ const AboutUs = () => {
         {/* Mobile: Order 3, Desktop: Col 1-7, Row 1 */}
         <div className="w-full order-3 2xl:col-start-1 2xl:col-span-7 2xl:row-start-1 h-full" data-aos="fade-right">
           <img
-            src="/moto/ampro/section2.png"
+            src="/moto/ampro/section2.webp"
             alt="Sensors"
             className="w-full rounded-2xl object-cover h-full min-h-[300px] shadow-lg"
           />

@@ -91,7 +91,7 @@ const Power = () => {
             ].map((feature, idx) => (
               <div key={idx} className="bg-white flex items-center gap-4 p-5 shadow-sm border-[2px] border-primary group transition-colors">
                 <div className="w-5 h-8 min-[3800px]:w-10 min-[3800px]:h-16 shrink-0 flex items-center justify-center">
-                  <img src="/moto/confinas/Vector.png" alt="Bullet Icon" className="w-full h-full object-contain" />
+                  <img src="/moto/confinas/Vector.webp" alt="Bullet Icon" className="w-full h-full object-contain" />
                 </div>
                 <Typography variant="p" color="dark" className="leading-relaxed">
                   <strong>{feature.title}</strong> - {feature.desc}

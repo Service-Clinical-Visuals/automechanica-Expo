@@ -37,7 +37,7 @@ export default function Partners() {
           {/* Right Image */}
           <div className="lg:col-span-5 w-full h-full rounded-[16px] overflow-hidden" data-aos="fade-left">
             <img
-              src="/moto/cevam/partner.png"
+              src="/moto/cevam/partner.webp"
               alt="Advanced Technologies & Services"
               className="w-full h-full object-cover"
               onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-200 flex items-center justify-center text-gray-500 rounded-[16px]">Image</div>' }}

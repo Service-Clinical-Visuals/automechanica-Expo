@@ -40,7 +40,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="#" className="flex-shrink-0">
           <img 
-            src="/moto/amc-amadeo/logo.png" 
+            src="/moto/amc-amadeo/logo.webp" 
             alt="AMC Logo" 
             className="w-[70px] sm:w-[90px] xl:w-[100px] h-auto object-contain" 
           />
@@ -67,7 +67,7 @@ export default function Header() {
         <div className="flex items-center gap-2 md:gap-4">
           {/* Languages Button */}
           <Button className="flex items-center gap-1 md:gap-2 px-3 py-1.5 md:px-6 md:py-2.5">
-            <img src="/moto/amc-amadeo/glob.png" alt="Globe" className="w-6 h-6 object-contain brightness-0 invert" />
+            <img src="/moto/amc-amadeo/glob.webp" alt="Globe" className="w-6 h-6 object-contain brightness-0 invert" />
             <span className="oswald btn-text font-medium">Languages</span>
             <ChevronDown className="w-3 h-3 md:w-4 md:h-4" />
           </Button>

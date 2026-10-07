@@ -12,42 +12,42 @@ const products = [
   {
     id: "EM1",
     name: "Engine Mount",
-    image: "/moto/itw-international/p1.jpg",
+    image: "/moto/itw-international/p1.webp",
   },
   {
     id: "F1",
     name: "Filter",
-    image: "/moto/itw-international/p2.jpg",
+    image: "/moto/itw-international/p2.webp",
   },
   {
     id: "HL9",
     name: "Head Light",
-    image: "/moto/itw-international/p3.jpg",
+    image: "/moto/itw-international/p3.webp",
   },
   {
     id: "PC9",
     name: "High Quality Plug Cable",
-    image: "/moto/itw-international/p4.jpg",
+    image: "/moto/itw-international/p4.webp",
   },
   {
     id: "IC5",
     name: "Ignition Coil",
-    image: "/moto/itw-international/p5.jpg",
+    image: "/moto/itw-international/p5.webp",
   },
   {
     id: "OS5",
     name: "Oxygen Sensor",
-    image: "/moto/itw-international/p6.jpg",
+    image: "/moto/itw-international/p6.webp",
   },
   {
     id: "WP1",
     name: "watet pump&engine mount",
-    image: "/moto/itw-international/p7.jpg",
+    image: "/moto/itw-international/p7.webp",
   },
   {
     id: "FC7",
     name: "Two Step Forging Clamps",
-    image: "/moto/itw-international/p8.jpg",
+    image: "/moto/itw-international/p8.webp",
   },
 ];
 

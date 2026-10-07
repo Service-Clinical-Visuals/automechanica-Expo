@@ -9,17 +9,17 @@ export default function TestingCentre() {
     {
       title: "V-max 4000 (10)",
       description: "The LINK V-MAX 4000 (LC3070) delivers precise DTV, RO, and RT measurements, ensuring accurate brake performance testing and quality validation.",
-      image: "/moto/asimco/t1.png"
+      image: "/moto/asimco/t1.webp"
     },
     {
       title: "V Box (1)",
       description: "Powered by the Racelogic VBOX 4, this system provides precise braking performance analysis to support accurate vehicle testing and performance validation.",
-      image: "/moto/asimco/t2.png"
+      image: "/moto/asimco/t2.webp"
     },
     {
       title: "Sound Meter Level",
       description: "Powered by LINK/STAC systems, this advanced setup provides reliable NVH and performance data acquisition for comprehensive vehicle testing and validation.",
-      image: "/moto/asimco/t3.png"
+      image: "/moto/asimco/t3.webp"
     }
   ];
 
@@ -61,7 +61,7 @@ export default function TestingCentre() {
               <div 
                 className="w-full xl:w-[50%] relative flex flex-col items-center justify-center text-center rounded-r-sm p-6 lg:p-10 shadow-[2px_2px_15px_rgba(0,0,0,0.05)]"
                 style={{
-                  backgroundImage: `url('/moto/asimco/bg.png')`
+                  backgroundImage: `url('/moto/asimco/bg.webp')`
                 }}
               >
                 <h4 className="text-center product-title teko-font font-medium text-black mb-3 tracking-wide">

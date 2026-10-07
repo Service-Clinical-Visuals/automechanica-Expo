@@ -11,7 +11,7 @@ const Quality = () => {
         {/* Left: Image */}
         <div className="w-full xl:col-span-6 order-2 xl:order-1 relative rounded-2xl overflow-hidden shadow-lg" style={{ aspectRatio: '821/507' }} data-aos="fade-right">
           <img
-            src="/moto/ampro/section55.png"
+            src="/moto/ampro/section55.webp"
             alt="OE-Level Quality"
             className="absolute inset-0 w-full h-full object-cover"
           />
@@ -51,7 +51,7 @@ const Quality = () => {
             ].map((text, index) => (
               <div key={index} className="flex items-start gap-4 min-[3800px]:gap-6">
                 <div className="w-6 h-6 min-[3800px]:w-12 min-[3800px]:h-12 shrink-0 flex items-center justify-center mt-1">
-                  <img src="/moto/ampro/vector.png" alt="check" className="w-full h-full object-contain" />
+                  <img src="/moto/ampro/vector.webp" alt="check" className="w-full h-full object-contain" />
                 </div>
                 <Typography variant="p" color="muted" className="leading-snug text-[15px] xl:text-base min-[3800px]:text-2xl pt-1">
                   {text}

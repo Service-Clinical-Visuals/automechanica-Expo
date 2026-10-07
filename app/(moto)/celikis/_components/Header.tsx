@@ -40,7 +40,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="#">
-              <img src="/moto/celikis/logo.png" alt="Celikis Logo" className="w-[120px] md:w-[140px] xl:w-[160px] h-auto object-contain" />
+              <img src="/moto/celikis/logo.webp" alt="Celikis Logo" className="w-[120px] md:w-[140px] xl:w-[160px] h-auto object-contain" />
             </Link>
           </div>
 
@@ -60,9 +60,9 @@ export default function Header() {
           {/* Right Actions */}
           <div className="hidden xl:flex items-center gap-6">
             <div className="flex items-center gap-2 cursor-pointer text-[#333333] hover:text-primary transition-colors">
-              <img src="/moto/celikis/globe.png" alt="setting" className="w-8 h-8 flex-shrink-0 mt-0.5" />
+              <img src="/moto/celikis/globe.webp" alt="setting" className="w-8 h-8 flex-shrink-0 mt-0.5" />
               <span className="font-semibold header-links text-[#4B5563]">EN</span>
-              <img src="/moto/celikis/dwnarrow.png" alt="setting" className="w-4 h-2 flex-shrink-0" />
+              <img src="/moto/celikis/dwnarrow.webp" alt="setting" className="w-4 h-2 flex-shrink-0" />
             </div>
             
             <Button href="#" variant="primary">
@@ -106,9 +106,9 @@ export default function Header() {
               
               <div className="py-4 flex items-center justify-between border-t border-gray-100">
                 <div className="flex items-center gap-2 text-[#333333]">
-                  <img src="/moto/celikis/globe.png" alt="setting" className="w-8 h-8 flex-shrink-0 mt-0.5" />
+                  <img src="/moto/celikis/globe.webp" alt="setting" className="w-8 h-8 flex-shrink-0 mt-0.5" />
                   <span className="font-semibold header-links text-[#4B5563]">EN</span>
-                  <img src="/moto/celikis/dwnarrow.png" alt="setting" className="w-4 h-2 flex-shrink-0" />
+                  <img src="/moto/celikis/dwnarrow.webp" alt="setting" className="w-4 h-2 flex-shrink-0" />
                 </div>
               </div>
               <div className="py-4">

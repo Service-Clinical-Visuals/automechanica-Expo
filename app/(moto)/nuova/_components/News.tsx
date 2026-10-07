@@ -12,17 +12,17 @@ const News = () => {
     {
       title: "We Develop Something Beyond Technology...\nPassion!",
       desc: "Passion for cars drives InterCar and Nuova Tecnodelta to deliver high-quality automotive components for leading manufacturers.",
-      img: "/moto/nuova/news1.png",
+      img: "/moto/nuova/news1.webp",
     },
     {
       title: "One Group, Two Brands,\nThe Same Passion.",
       desc: "Driven by automotive passion, InterCar and Nuova Tecnodelta deliver high-quality components for leading car manufacturers.",
-      img: "/moto/nuova/news2.png",
+      img: "/moto/nuova/news2.webp",
     },
     {
       title: "INTERCAR AND NUOVA TECNODELTA: A WINNING COMBINATION",
       desc: "InterCar and Nuova Tecnodelta combine their expertise to deliver reliable, high-quality Made in Italy automotive solutions.",
-      img: "/moto/nuova/news3.png",
+      img: "/moto/nuova/news3.webp",
     },
   ];
 

@@ -26,7 +26,7 @@ export default function About() {
         {/* Image */}
         <div className="w-full md:max-w-4xl lg:max-w-5xl xl:max-w-7xl 2xl:max-w-7xl mt-2 mb-2" data-aos="fade-up" data-aos-delay="100">
           <img 
-            src="/moto/liqui-moly/abt.jpg" 
+            src="/moto/liqui-moly/abt.webp" 
             alt="LIQUI MOLY Products" 
             className="w-full h-auto object-cover rounded-xl shadow-lg"
           />

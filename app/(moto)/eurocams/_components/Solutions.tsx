@@ -12,55 +12,55 @@ import Link from "next/link";
 const solutionsData = [
   { 
     id: 1, 
-    image: "/moto/eurocams/solution1.png", 
+    image: "/moto/eurocams/solution1.webp", 
     title: "Camshafts", 
     desc: "Available in induction-hardened, segmented or chilled cast steel." 
   },
   { 
     id: 2, 
-    image: "/moto/eurocams/solution2.png", 
+    image: "/moto/eurocams/solution2.webp", 
     title: "Camshaft Carriers", 
     desc: "Supplied as a complete assembly, the camshaft is assembled inside the carrier." 
   },
   { 
     id: 3, 
-    image: "/moto/eurocams/solution3.png", 
+    image: "/moto/eurocams/solution3.webp", 
     title: "Intake & Exhaust Valves", 
     desc: "Bimetallic construction with chrome plated stem for high wear resistance." 
   },
   { 
     id: 4, 
-    image: "/moto/eurocams/solution4.png", 
+    image: "/moto/eurocams/solution4.webp", 
     title: "Cylinder Head Covers", 
     desc: "Manufactured in PA66-GF30 for maximum longevity, our range of cylinder head covers the a broad..." 
   },
   { 
     id: 5, 
-    image: "/moto/eurocams/solution5.png", 
+    image: "/moto/eurocams/solution5.webp", 
     title: "Hydraulic Tappets", 
     desc: "Available in bucket and pedestal types, with DLC coating used where necessary." 
   },
   { 
     id: 6, 
-    image: "/moto/eurocams/solution6.png", 
+    image: "/moto/eurocams/solution6.webp", 
     title: "Mechanical Tappets", 
     desc: "Available in various heights, and shimmed bucket, pedestal, and roller types." 
   },
   { 
     id: 7, 
-    image: "/moto/eurocams/solution7.png", 
+    image: "/moto/eurocams/solution7.webp", 
     title: "Rocker Arms", 
     desc: "Both solid and roller types available, with some versions featuring integrated hydraulic lifters" 
   },
   { 
     id: 8, 
-    image: "/moto/eurocams/solution8.png", 
+    image: "/moto/eurocams/solution8.webp", 
     title: "Rocker Shafts", 
     desc: "Our rocker shafts provide essential support and smooth operation for your engine's..." 
   },
   { 
     id: 9, 
-    image: "/moto/eurocams/solution9.png", 
+    image: "/moto/eurocams/solution9.webp", 
     title: "Shims & Thrust Pads", 
     desc: "Designed for accuracy and durability, our shims and thrust pads provide essential support and..." 
   },

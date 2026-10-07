@@ -10,7 +10,7 @@ export default function GetinTouch() {
       <Container>
         <div
           className="relative rounded-2xl top-[100px] h-[393px] z-100 overflow-hidden bg-cover bg-center px-6 py-15  md:py-20 flex flex-col items-center text-center gap-5"
-          style={{ backgroundImage: "url(/moto/dasis/getintouch.png)" }}
+          style={{ backgroundImage: "url(/moto/dasis/getintouch.webp)" }}
           data-aos="fade-up"
         >
           <h2 className="heading-white text-[34px]! mt-2">Get in Touch With Us</h2>

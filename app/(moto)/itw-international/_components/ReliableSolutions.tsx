@@ -40,7 +40,7 @@ export default function ReliableSolutions() {
           {/* Left Column - Image */}
           <div className="w-full relative rounded-lg overflow-hidden xl:col-span-8" data-aos="fade-right" data-aos-delay="100">
             <img
-              src="/moto/itw-international/reliable1.png"
+              src="/moto/itw-international/reliable1.webp"
               alt="White Sports Car - Reliable Solutions"
               className="w-full h-auto object-cover"
             />
@@ -58,7 +58,7 @@ export default function ReliableSolutions() {
             <ul className="space-y-6 mb-10">
               {features.map((feature, index) => (
                 <li key={index} className="flex items-start gap-4">
-                <img src="/itw-international/tck1.png" alt="check" className="w-5 h-5 mt-1" />
+                <img src="/itw-international/tck1.webp" alt="check" className="w-5 h-5 mt-1" />
                   <p className="text-[#4a4a4a] font-normal section-text  leading-snug tracking-wider">
                   {feature.title} – {feature.desc}
                   </p>

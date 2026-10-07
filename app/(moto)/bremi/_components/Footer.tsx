@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Col 1: Logo & About */}
           <div className="col-span-2 md:col-span-6 xl:col-span-3 flex flex-col gap-6">
             <Link href="#">
-              <img src="/moto/bremi/logo1.png" alt="Bremi Logo" className="w-[180px] lg:w-[220px] h-auto object-contain" />
+              <img src="/moto/bremi/logo1.webp" alt="Bremi Logo" className="w-[180px] lg:w-[220px] h-auto object-contain" />
             </Link>
             <p className="text-[#ffffff] leading-[1.8] font-normal mt-2 footer-links pr-2">
               We are your partner for high-quality ignition and<br className="hidden xl:block"/> 
@@ -41,11 +41,11 @@ export default function Footer() {
             <h4 className="font-bold text-white mb-6 section-text tracking-wide">Contact Us</h4>
             <div className="flex flex-col gap-4">
               <a href="tel:+497032955300" className="flex items-center gap-2 group">
-                <img src="/moto/bremi/phone.png" alt="Phone" className="w-4 h-4 lg:w-5 lg:h-5 object-contain" />
+                <img src="/moto/bremi/phone.webp" alt="Phone" className="w-4 h-4 lg:w-5 lg:h-5 object-contain" />
                 <span className="text-[#ffffff] group-hover:text-[#E72E39] transition-colors font-normal footer-links uppercase">+49 7032 955 30 0</span>
               </a>
               <a href="mailto:Info@Bremi.De" className="flex items-center gap-2 group">
-                <img src="/moto/bremi/mail.png" alt="Email" className="w-4 h-4 lg:w-5 lg:h-5 object-contain" />
+                <img src="/moto/bremi/mail.webp" alt="Email" className="w-4 h-4 lg:w-5 lg:h-5 object-contain" />
                 <span className="text-[#ffffff] group-hover:text-[#E72E39] transition-colors font-normal footer-links">Info@Bremi.De</span>
               </a>
             </div>
@@ -64,7 +64,7 @@ export default function Footer() {
           {/* Col 5: Certificate */}
           <div className="col-span-1 md:col-span-6 xl:col-span-4 flex justify-start xl:justify-end xl:col-start-9 items-start">
              <div className="shadow-sm inline-block w-full">
-               <img src="/moto/bremi/certificate.jpg" alt="TUV SUD ISO 9001 Certificate" className="w-full max-w-[260px] xl:max-w-[450px] h-auto object-contain" />
+               <img src="/moto/bremi/certificate.webp" alt="TUV SUD ISO 9001 Certificate" className="w-full max-w-[260px] xl:max-w-[450px] h-auto object-contain" />
              </div>
           </div>
 

@@ -23,7 +23,7 @@ export default function About() {
           {/* Left Column: Overlapping Images Layout */}
           <div className="lg:col-span-6 relative flex items-center justify-start w-full" data-aos="fade-right">
             
-            <img src="/moto/melle-sp/about.png" alt="" className="w-full" />
+            <img src="/moto/melle-sp/about.webp" alt="" className="w-full" />
           </div>
 
           {/* Right Column: Info Content */}
@@ -45,7 +45,7 @@ export default function About() {
               {features.map((feat) => (
                 <div key={feat} className="flex items-center gap-3">
                   <img 
-                    src="/moto/melle-sp/icon.png" 
+                    src="/moto/melle-sp/icon.webp" 
                     alt="Bullet Icon" 
                     className="w-6 h-6 md:w-7 md:h-7 object-contain shrink-0" 
                   />

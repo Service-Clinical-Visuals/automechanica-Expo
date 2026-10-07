@@ -30,7 +30,7 @@ export default function PerformanceAction() {
             <ul className="flex flex-col gap-5 mb-10 xl:hidden 2xl:flex">
               <li className="flex items-center gap-4">
                 <div className="text-[#FFC107] flex-shrink-0 mt-0.5">
-                  <img src="/moto/mannol/can.png" alt="" />
+                  <img src="/moto/mannol/can.webp" alt="" />
                 </div>
                 <p className="poppins-font text-[#ffffff] section-text leading-relaxed">
                   Advanced lubricant technology helps reduce friction, improving fuel efficiency while ensuring smoother engine operation.
@@ -38,7 +38,7 @@ export default function PerformanceAction() {
               </li>
               <li className="flex items-center gap-4">
                 <div className="text-[#FFC107] flex-shrink-0 mt-0.5">
-                  <img src="/moto/mannol/can.png" alt="" />
+                  <img src="/moto/mannol/can.webp" alt="" />
                 </div>
                 <p className="poppins-font text-[#ffffff] section-text leading-relaxed">
                   Its high-performance formulation prevents sludge and deposit buildup, keeping the engine clean and running efficiently.
@@ -68,7 +68,7 @@ export default function PerformanceAction() {
         <ul className="hidden xl:grid 2xl:hidden grid-cols-2 gap-8 mt-10" data-aos="fade-up">
           <li className="flex items-start sm:items-center gap-4">
             <div className="text-[#FFC107] flex-shrink-0 mt-0.5">
-              <img src="/moto/mannol/can.png" alt="" />
+              <img src="/moto/mannol/can.webp" alt="" />
             </div>
             <p className="poppins-font text-[#ffffff] section-text leading-relaxed">
               Advanced lubricant technology helps reduce friction, improving fuel efficiency while ensuring smoother engine operation.
@@ -76,7 +76,7 @@ export default function PerformanceAction() {
           </li>
           <li className="flex items-start sm:items-center gap-4">
             <div className="text-[#FFC107] flex-shrink-0 mt-0.5">
-              <img src="/moto/mannol/can.png" alt="" />
+              <img src="/moto/mannol/can.webp" alt="" />
             </div>
             <p className="poppins-font text-[#ffffff] section-text leading-relaxed">
               Its high-performance formulation prevents sludge and deposit buildup, keeping the engine clean and running efficiently.

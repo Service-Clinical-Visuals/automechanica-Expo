@@ -83,7 +83,7 @@ export default function PowerBuilt() {
               className="bg-white rounded-2xl md:rounded-[22px] p-3 md:p-5 lg:p-6 flex items-center gap-4 md:gap-5 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 text-left border border-white/20 group"
             >
              
-                <img src="/moto/autopartbattery/gravity.png" alt="gravity-icon" className="w-7 h-7"/>
+                <img src="/moto/autopartbattery/gravity.webp" alt="gravity-icon" className="w-7 h-7"/>
               <p className="lato-font text-[#000000] font-normal section-text leading-relaxed">
                 <span className="font-bold text-[#000000] mr-1.5 inline-block">{feature.title} -</span>
                 {feature.description}

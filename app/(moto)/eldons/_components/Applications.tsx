@@ -8,15 +8,15 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const applications = [
-  { title: "Automotive Lubricants", image: "/moto/eldons/c1.jpg" },
-  { title: "Construction Equipment Lubricants", image: "/moto/eldons/c2.jpg" },
-  { title: "Agricultural Equipment Lubricants", image: "/moto/eldons/c3.jpg" },
-  { title: "Industrial Lubricants", image: "/moto/eldons/c4.jpg" },
-  { title: "Greases & Specialty Pastes", image: "/moto/eldons/c5.jpg" },
-  { title: "Marine Lubricants", image: "/moto/eldons/c6.jpg" },
-  { title: "Leisure Boat Lubricants", image: "/moto/eldons/c7.jpg" },
-  { title: "Food Grade Lubricants", image: "/moto/eldons/c8.jpg" },
-  { title: "Biodegradable Lubricants", image: "/moto/eldons/c9.jpg" },
+  { title: "Automotive Lubricants", image: "/moto/eldons/c1.webp" },
+  { title: "Construction Equipment Lubricants", image: "/moto/eldons/c2.webp" },
+  { title: "Agricultural Equipment Lubricants", image: "/moto/eldons/c3.webp" },
+  { title: "Industrial Lubricants", image: "/moto/eldons/c4.webp" },
+  { title: "Greases & Specialty Pastes", image: "/moto/eldons/c5.webp" },
+  { title: "Marine Lubricants", image: "/moto/eldons/c6.webp" },
+  { title: "Leisure Boat Lubricants", image: "/moto/eldons/c7.webp" },
+  { title: "Food Grade Lubricants", image: "/moto/eldons/c8.webp" },
+  { title: "Biodegradable Lubricants", image: "/moto/eldons/c9.webp" },
 ];
 
 export default function Applications() {

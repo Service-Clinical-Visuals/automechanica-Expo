@@ -39,7 +39,7 @@
 //           <div className="flex-shrink-0">
 //             <Link href="#">
 //               <img 
-//                 src="/moto/pakelo/logo.png" 
+//                 src="/moto/pakelo/logo.webp" 
 //                 alt="Pakelo Logo" 
 //                 className="w-[120px] md:w-[150px] xl:w-[180px] h-auto object-contain" 
 //               />
@@ -162,7 +162,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="#">
-              <img src="/moto/pakelo/logo.png" alt="Celikis Logo" className="w-[120px] md:w-[140px] xl:w-[160px] h-auto object-contain" />
+              <img src="/moto/pakelo/logo.webp" alt="Celikis Logo" className="w-[120px] md:w-[140px] xl:w-[160px] h-auto object-contain" />
             </Link>
           </div>
 

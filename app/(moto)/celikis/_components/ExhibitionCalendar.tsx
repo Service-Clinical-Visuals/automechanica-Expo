@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 export default function ExhibitionCalendar() {
   const exhibitions = [
     {
-      image: "/moto/celikis/blog1.png",
+      image: "/moto/celikis/blog1.webp",
       title: "Automechanika Frankfurt 2026",
       date: "September 08-12, 2026",
       address: "FRANKFURT / MAIN",
@@ -15,7 +15,7 @@ export default function ExhibitionCalendar() {
       stand: "B72"
     },
     {
-      image: "/moto/celikis/blog2.png",
+      image: "/moto/celikis/blog2.webp",
       title: "IAA Hannover 2026",
       date: "September 15-20, 2026",
       address: "HANNOVER",

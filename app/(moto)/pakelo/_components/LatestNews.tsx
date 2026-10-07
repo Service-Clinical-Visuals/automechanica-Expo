@@ -7,22 +7,22 @@ export default function LatestNews() {
   const newsItems = [
     {
       title: "PAKELO WORLD",
-      image: "/moto/pakelo/blog1.png",
+      image: "/moto/pakelo/blog1.webp",
       overlay: "bg-primary"
     },
     {
       title: "PEOPLE",
-      image: "/moto/pakelo/blog2.png",
+      image: "/moto/pakelo/blog2.webp",
       overlay: "bg-primary"
     },
     {
       title: "OIL TECH ACADEMY",
-      image: "/moto/pakelo/blog3.png",
+      image: "/moto/pakelo/blog3.webp",
       overlay: "bg-[#222222]"
     },
     {
       title: "RACING",
-      image: "/moto/pakelo/blog4.png",
+      image: "/moto/pakelo/blog4.webp",
       overlay: "bg-primary"
     }
   ];

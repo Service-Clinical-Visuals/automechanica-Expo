@@ -61,7 +61,7 @@ export default function MissionVision() {
           >
             <div className="relative w-full   flex items-center justify-center">
               <img
-                src="/moto/aydoto/mission1.png"
+                src="/moto/aydoto/mission1.webp"
                 alt="AYD Global Mission and Vision"
                 className="w-full h-auto object-contain hover:scale-105 transition-transform duration-700 ease-out "
               />

@@ -6,7 +6,7 @@ import Button from "./Button";
 
 const newsItems = [
   {
-    image: "/moto/gunesmotor/news1.png",
+    image: "/moto/gunesmotor/news1.webp",
     date: "May 19-22, 2026",
     location: "TÜYAP, Istanbul",
     title: "We will also be taking our place at Automechanika Istanbul 2026.",
@@ -14,7 +14,7 @@ const newsItems = [
       "GÜNEŞ Engine Valves is proud to participate in Automechanika Istanbul 2026. Join us at Hall 7, Stand A110 from May 19–22, 2026 to explore our latest engine valve solutions, meet our technical experts, and discuss new business opportunities.",
   },
   {
-    image: "/moto/gunesmotor/news2.png",
+    image: "/moto/gunesmotor/news2.webp",
     date: "June 12–15, 2025",
     location: "TÜYAP, Istanbul",
     title: "We'll be meeting you at Automechanika Istanbul 2025!",

@@ -15,23 +15,23 @@ export default function Footer() {
           {/* Column 1: Logo & Info (Spans 4) */}
           <div className="flex flex-col gap-6 xl:col-span-4" data-aos="fade-up">
             <Link href="/" className="inline-block">
-              <img src="/moto/proquisur-sl/logo.png" alt="Proquisur Logo" className="responsive-logo object-contain" />
+              <img src="/moto/proquisur-sl/logo.webp" alt="Proquisur Logo" className="responsive-logo object-contain" />
             </Link>
             <Typography variant="p" className="max-w-[320px] 3xl:max-w-md leading-relaxed responsive-text-sm text-white">
               Proquisur is a supplier of chemical solutions, offering lubricants, additives, and fluids that enhance performance and efficiency.
             </Typography>
             <div className="flex items-center gap-5 mt-2">
               <Link href="#">
-                <img src="/moto/proquisur-sl/fb.png" alt="Facebook" className="w-4 h-4 object-contain brightness-0 invert" />
+                <img src="/moto/proquisur-sl/fb.webp" alt="Facebook" className="w-4 h-4 object-contain brightness-0 invert" />
               </Link>
               <Link href="#">
-                <img src="/moto/proquisur-sl/twitter.png" alt="Twitter (X)" className="w-4 h-4 object-contain brightness-0 invert" />
+                <img src="/moto/proquisur-sl/twitter.webp" alt="Twitter (X)" className="w-4 h-4 object-contain brightness-0 invert" />
               </Link>
               <Link href="#">
-                <img src="/moto/proquisur-sl/linkedin.png" alt="LinkedIn" className="w-4 h-4 object-contain brightness-0 invert" />
+                <img src="/moto/proquisur-sl/linkedin.webp" alt="LinkedIn" className="w-4 h-4 object-contain brightness-0 invert" />
               </Link>
               <Link href="#">
-                <img src="/moto/proquisur-sl/insta.png" alt="Instagram" className="w-4 h-4 object-contain brightness-0 invert" />
+                <img src="/moto/proquisur-sl/insta.webp" alt="Instagram" className="w-4 h-4 object-contain brightness-0 invert" />
               </Link>
             </div>
           </div>

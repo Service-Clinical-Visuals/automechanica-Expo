@@ -53,7 +53,7 @@ export default function AboutUs() {
                 "High-Quality Manufacturing Standards – Built for lasting durability."
               ].map((text, idx) => (
                 <li key={idx} className="flex items-start gap-3">
-                  <img src="/moto/ahg/bluechk.png" alt="Check" className="w-5 h-5 xl:w-6 xl:h-6 object-contain flex-shrink-0 mt-0.5" />
+                  <img src="/moto/ahg/bluechk.webp" alt="Check" className="w-5 h-5 xl:w-6 xl:h-6 object-contain flex-shrink-0 mt-0.5" />
                   <span className="header-link font-normal oswald-font text-[#585858] leading-[1.6] tracking-wider">
                     {text}
                   </span>
@@ -65,7 +65,7 @@ export default function AboutUs() {
           {/* Right Card: Image */}
           <div className="xl:col-span-8 h-[400px] md:h-[600px]  rounded-4xl overflow-hidden" data-aos="fade-left">
             <img 
-              src="/moto/ahg/why.png" 
+              src="/moto/ahg/why.webp" 
               alt="AHG Facility" 
               className="w-full h-full object-cover"
             />

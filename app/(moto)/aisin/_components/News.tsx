@@ -4,22 +4,22 @@ import Button from "./Button";
 
 const newsItems = [
   {
-    image: "/moto/aisin/n1.png",
+    image: "/moto/aisin/n1.webp",
     title: "A Journey Through the History of Spa-Francorchamps Circuit",
     desc: "Nestled amidst the picturesque Ardennes Forest in Belgium lies one of the most iconic circuits in motorsport history - Spa-Francorchamps. With its challenging corners and undulating terrain,",
   },
   {
-    image: "/moto/aisin/n2.png",
+    image: "/moto/aisin/n2.webp",
     title: "AISIN Starter: Reliable Performance for your vehicle",
     desc: "When it comes to automotive components, reliability is essential. Whether you're hitting the road for a daily commute or embarking on a cross-country adventure, having",
   },
   {
-    image: "/moto/aisin/n3.png",
+    image: "/moto/aisin/n3.webp",
     title: "Prepare Your Vehicle for Winter : 5 Essential Tips",
     desc: "Embracing the onset of winter, the imperative task of readying your vehicle for the season takes center stage, paying the way for safe navigation through",
   },
   {
-    image: "/moto/aisin/n4.png",
+    image: "/moto/aisin/n4.webp",
     title: "AISIN Drift project - Drift Masters 2021",
     desc: "The first calendar of the DMGP provided 5 different dates. The last leg of the championship is now canceled due to the covid situation",
   },

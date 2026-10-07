@@ -8,37 +8,37 @@ import "swiper/css/pagination";
 const categories = [
   {
     id: 1,
-    image: "/moto/birlik/c1.png",
+    image: "/moto/birlik/c1.webp",
     alt: "Heavy Duty Truck Category",
     label: "Heavy Commercial Vehicle",
   },
   {
     id: 2,
-    image: "/moto/birlik/c2.png",
+    image: "/moto/birlik/c2.webp",
     alt: "Commercial Vehicles Category",
     label: "Light Commercial Vehicle",
   },
   {
     id: 3,
-    image: "/moto/birlik/c3.png",
+    image: "/moto/birlik/c3.webp",
     alt: "Industrial Equipment Category",
     label: "Construction Machinery",
   },
   {
     id: 4,
-    image: "/moto/birlik/c4.png",
+    image: "/moto/birlik/c4.webp",
     alt: "Agriculture Vehicle Category",
     label: "Agriculture Vehicle",
   },
   {
     id: 5,
-    image: "/moto/birlik/c5.png",
+    image: "/moto/birlik/c5.webp",
     alt: "Passenger Cars Category",
     label: "Passenger Cars",
   },
   {
     id: 6,
-    image: "/moto/birlik/c6.png",
+    image: "/moto/birlik/c6.webp",
     alt: "Marine Vessels Category",
     label: "Passenger Cars",
   },

@@ -15,11 +15,11 @@ export default function Footer() {
           {/* Column 1: Logo & Socials */}
           <div className="flex flex-col col-span-2 md:col-span-1 xl:col-span-3">
             <Link href="#" className="mb-8">
-              <img src="/moto/bbt/logo1.png" alt="BBT Logo" className="w-[230px] h-auto object-contain" />
+              <img src="/moto/bbt/logo1.webp" alt="BBT Logo" className="w-[230px] h-auto object-contain" />
             </Link>
             <p className="linkheadings font-medium oswald-font  mb-3">Social</p>
             <Link href="#" className="w-10 h-10 bg-white rounded-lg flex items-center justify-center hover:bg-gray-200 transition-colors">
-              <img src="/moto/bbt/insta.png" alt="Instagram" className="w-7 h-7 object-contain" />
+              <img src="/moto/bbt/insta.webp" alt="Instagram" className="w-7 h-7 object-contain" />
             </Link>
           </div>
 
@@ -40,15 +40,15 @@ export default function Footer() {
             <h4 className="font-medium oswald-font linkheadings mb-4">Contact Us</h4>
             <div className="flex flex-col space-y-4 lato-font text-white font-normal footer-links">
               <div className="flex items-start gap-3">
-                <img src="/moto/bbt/phone.png" alt="Phone" className="w-4 h-4 object-contain flex-shrink-0 mt-1" />
+                <img src="/moto/bbt/phone.webp" alt="Phone" className="w-4 h-4 object-contain flex-shrink-0 mt-1" />
                 <span className='hover:text-gray-300 hover:font-semibold cursor-default'>+49 (0) 9802 - 95211-0</span>
               </div>
               <div className="flex items-start gap-3">
-                <img src="/moto/bbt/mail.png" alt="Mail" className="w-4 h-4 object-contain flex-shrink-0 mt-1" />
+                <img src="/moto/bbt/mail.webp" alt="Mail" className="w-4 h-4 object-contain flex-shrink-0 mt-1" />
                 <a href="mailto:info@bbt-automotive.de" className="hover:text-gray-300 hover:font-semibold transition-colors">info@bbt-automotive.de</a>
               </div>
               <div className="flex items-start gap-3">
-                <img src="/moto/bbt/location.png" alt="Location" className="w-4 h-4 object-contain flex-shrink-0 mt-1" />
+                <img src="/moto/bbt/location.webp" alt="Location" className="w-4 h-4 object-contain flex-shrink-0 mt-1" />
                 <span className='hover:text-gray-300 hover:font-semibold cursor-default'>Gewerbering 12, 91629 Weihenzell<br/>Germany</span>
               </div>
             </div>

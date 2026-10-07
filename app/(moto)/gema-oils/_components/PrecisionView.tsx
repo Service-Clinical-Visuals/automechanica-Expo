@@ -4,32 +4,32 @@ import React from "react";
 
 const features = [
   {
-    icon: <img src="/moto/gema-oils/grp1.png" alt="Engineer Team" className="w-14 h-14 object-contain mb-2" />,
+    icon: <img src="/moto/gema-oils/grp1.webp" alt="Engineer Team" className="w-14 h-14 object-contain mb-2" />,
     title: "Engineer Team",
     text: "Since 1969, our expert engineers have been developing the most suitable Oil solutions for every type of engine."
   },
   {
-    icon: <img src="/moto/gema-oils/grp2.png" alt="Trusted Brand" className="w-14 h-14 object-contain mb-2" />,
+    icon: <img src="/moto/gema-oils/grp2.webp" alt="Trusted Brand" className="w-14 h-14 object-contain mb-2" />,
     title: "Trusted Brand",
     text: "With years of expertise, we prioritize quality, reliability, and customer satisfaction in every product we deliver."
   },
   {
-    icon: <img src="/moto/gema-oils/grp3.png" alt="Creative Solutions" className="w-14 h-14 object-contain mb-2" />,
+    icon: <img src="/moto/gema-oils/grp3.webp" alt="Creative Solutions" className="w-14 h-14 object-contain mb-2" />,
     title: "Creative Solutions",
     text: "We offer innovative oil formulas tailored to every need/ adapting to constantly evolving technologies."
   },
   {
-    icon: <img src="/moto/gema-oils/grp4.png" alt="Certified Products" className="w-14 h-14 object-contain mb-2" />,
+    icon: <img src="/moto/gema-oils/grp4.webp" alt="Certified Products" className="w-14 h-14 object-contain mb-2" />,
     title: "Certified Products",
     text: "We manufacture in compliance with international standards and certify all our products through independent organizations."
   },
   {
-    icon: <img src="/moto/gema-oils/grp5.png" alt="Fast Dispatching" className="w-14 h-14 object-contain mb-2" />,
+    icon: <img src="/moto/gema-oils/grp5.webp" alt="Fast Dispatching" className="w-14 h-14 object-contain mb-2" />,
     title: "Fast Dispatching",
     text: "We combine aesthetics and functionality in our product packaging, creating distinctive visibility on shelves."
   },
   {
-    icon: <img src="/moto/gema-oils/grp6.png" alt="Professional Team" className="w-14 h-14 object-contain mb-2" />,
+    icon: <img src="/moto/gema-oils/grp6.webp" alt="Professional Team" className="w-14 h-14 object-contain mb-2" />,
     title: "Professional Team",
     text: "Our experienced technical team provides professional support at every stage of the process."
   }

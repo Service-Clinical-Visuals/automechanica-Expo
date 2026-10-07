@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="xl:col-span-4 flex flex-col items-start pr-4">
             {/* Logo */}
             <div className="mb-6 flex items-start">
-               <img src="/moto/accorLubricants/icon.png" alt="ACCOR Lubrifiants" className="w-[220px] lg:w-[300px] object-contain"/>
+               <img src="/moto/accorLubricants/icon.webp" alt="ACCOR Lubrifiants" className="w-[220px] lg:w-[300px] object-contain"/>
             </div>
             
             {/* Contact Info */}
@@ -34,10 +34,10 @@ export default function Footer() {
             {/* Social Icons */}
             <div className="flex items-center gap-3">
               <a href="#" className="bg-black rounded-full p-2 transition-opacity">
-                <img src="/moto/accorLubricants/linkedin.png" alt="linkedin" className="w-6 h-6 object-contain"/>
+                <img src="/moto/accorLubricants/linkedin.webp" alt="linkedin" className="w-6 h-6 object-contain"/>
               </a>
               <a href="#" className="bg-black rounded-full p-2 transition-opacity">
-                <img src="/moto/accorLubricants/fb.png" alt="facebook" className="w-6 h-6 object-contain"/>
+                <img src="/moto/accorLubricants/fb.webp" alt="facebook" className="w-6 h-6 object-contain"/>
               </a>
             </div>
           </div>

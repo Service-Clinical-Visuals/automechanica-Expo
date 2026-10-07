@@ -43,7 +43,7 @@ export default function Quality() {
                 {features.map((feature) => (
                   <div key={feature.title} className="flex items-start gap-4">
                     <div className="shrink-0 w-10 h-10 rounded-full bg-secondary flex items-center justify-center">
-                      <img src="/moto/dasis/tool2.png" alt="" className="w-4 h-4 object-contain" />
+                      <img src="/moto/dasis/tool2.webp" alt="" className="w-4 h-4 object-contain" />
                     </div>
                     <div>
                       <h3 className="heading text-primary text-[16px] mb-1">{feature.title}</h3>

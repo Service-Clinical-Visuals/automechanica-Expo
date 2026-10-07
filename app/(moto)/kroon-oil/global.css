@@ -116,14 +116,14 @@
 }
 
 .bg {
-  background-image: url('/moto/kroon-oil/bg.png');
+  background-image: url('/moto/kroon-oil/bg.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .bg1{
-    background-image: url('/moto/kroon-oil/bg1.png');
+    background-image: url('/moto/kroon-oil/bg1.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

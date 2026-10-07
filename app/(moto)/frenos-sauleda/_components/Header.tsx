@@ -47,7 +47,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/frenos-sauleda" className="flex-shrink-0 z-50 flex items-center">
               <img
-                src="/moto/frenos-sauleda/logo.png"
+                src="/moto/frenos-sauleda/logo.webp"
                 alt="Frenos Sauleda Logo"
                 className="h-10 md:h-12 w-auto object-contain"
               />
@@ -76,7 +76,7 @@ export default function Header() {
             {/* Language Selector */}
             <div className="hidden xl:flex items-center">
               <button className="flex items-center gap-2 border border-gray-300 rounded px-3 py-1.5 hover:border-[var(--color-primary)] transition-colors text-[#333333]">
-                <img src="/moto/frenos-sauleda/flag.png" alt="English" className="w-5 h-auto rounded-sm" />
+                <img src="/moto/frenos-sauleda/flag.webp" alt="English" className="w-5 h-auto rounded-sm" />
                 <span className="font-medium sora header-link">ENG</span>
                 <ChevronDown size={16} />
               </button>
@@ -119,7 +119,7 @@ export default function Header() {
             );
           })}
           <div className="mt-8 flex items-center gap-2 border border-gray-300 rounded px-3 py-2 w-fit">
-            <img src="/moto/frenos-sauleda/flag.png" alt="English" className="w-5 h-auto rounded-sm" />
+            <img src="/moto/frenos-sauleda/flag.webp" alt="English" className="w-5 h-auto rounded-sm" />
             <span className="font-medium sora header-link">ENG</span>
             <ChevronDown size={16} />
           </div>

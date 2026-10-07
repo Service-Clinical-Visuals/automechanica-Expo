@@ -28,7 +28,7 @@ export default function Features() {
               
               {/* Polygon Wrapper */}
               <div className="relative z-10 w-[80px] h-[80px] md:w-[120px] md:h-[120px] flex-shrink-0 flex items-center justify-center">
-                <img src="/moto/mistral/Polygon1.png" alt="" className="absolute inset-0 w-full h-full object-contain drop-shadow-sm transition-transform duration-700 ease-in-out group-hover:rotate-[180deg]" />
+                <img src="/moto/mistral/Polygon1.webp" alt="" className="absolute inset-0 w-full h-full object-contain drop-shadow-sm transition-transform duration-700 ease-in-out group-hover:rotate-[180deg]" />
                 <span className="text-white oswald-font font-bold section-title relative z-20 pb-0.5 pr-0.5">{feature.id}</span>
               </div>
               

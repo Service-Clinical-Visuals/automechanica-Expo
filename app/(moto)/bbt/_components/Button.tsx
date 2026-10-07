@@ -38,7 +38,7 @@ export default function Button({
     <>
       <span>{children}</span>
       <img 
-        src="/moto/bbt/btnarrow.png" 
+        src="/moto/bbt/btnarrow.webp" 
         alt="Arrow" 
         className={`w-4 h-4 object-contain transition-all ${iconFilter}`} 
         style={variant === 'outline-blue' ? { filter: "brightness(0) saturate(100%) invert(18%) sepia(85%) saturate(2222%) hue-rotate(208deg) brightness(88%) contrast(97%)" } : {}}
@@ -57,16 +57,16 @@ export default function Button({
         {variant === 'outline-blue' ? (
           <span className="relative w-5 h-5 flex items-center justify-center">
             {/* Blue arrow (default) */}
-            <img src="/moto/bbt/btnarrow.png" alt="Arrow" className="absolute inset-0 w-full h-full object-contain transition-opacity duration-300 opacity-100 group-hover:opacity-0" style={{ filter: "brightness(0) saturate(100%) invert(18%) sepia(85%) saturate(2222%) hue-rotate(208deg) brightness(88%) contrast(97%)" }} />
+            <img src="/moto/bbt/btnarrow.webp" alt="Arrow" className="absolute inset-0 w-full h-full object-contain transition-opacity duration-300 opacity-100 group-hover:opacity-0" style={{ filter: "brightness(0) saturate(100%) invert(18%) sepia(85%) saturate(2222%) hue-rotate(208deg) brightness(88%) contrast(97%)" }} />
             {/* White arrow (hover) */}
-            <img src="/moto/bbt/btnarrow.png" alt="Arrow" className="absolute inset-0 w-full h-full object-contain transition-opacity duration-300 opacity-0 group-hover:opacity-100 brightness-0 invert" />
+            <img src="/moto/bbt/btnarrow.webp" alt="Arrow" className="absolute inset-0 w-full h-full object-contain transition-opacity duration-300 opacity-0 group-hover:opacity-100 brightness-0 invert" />
           </span>
         ) : (
           <span className="relative w-5 h-5 flex items-center justify-center">
              {/* White arrow (default) */}
-             <img src="/moto/bbt/btnarrow.png" alt="Arrow" className="absolute inset-0 w-full h-full object-contain transition-opacity duration-300 opacity-100 group-hover:opacity-0 brightness-0 invert" />
+             <img src="/moto/bbt/btnarrow.webp" alt="Arrow" className="absolute inset-0 w-full h-full object-contain transition-opacity duration-300 opacity-100 group-hover:opacity-0 brightness-0 invert" />
              {/* Blue arrow (hover) */}
-             <img src="/moto/bbt/btnarrow.png" alt="Arrow" className="absolute inset-0 w-full h-full object-contain transition-opacity duration-300 opacity-0 group-hover:opacity-100" style={{ filter: "brightness(0) saturate(100%) invert(18%) sepia(85%) saturate(2222%) hue-rotate(208deg) brightness(88%) contrast(97%)" }} />
+             <img src="/moto/bbt/btnarrow.webp" alt="Arrow" className="absolute inset-0 w-full h-full object-contain transition-opacity duration-300 opacity-0 group-hover:opacity-100" style={{ filter: "brightness(0) saturate(100%) invert(18%) sepia(85%) saturate(2222%) hue-rotate(208deg) brightness(88%) contrast(97%)" }} />
           </span>
         )}
       </Link>
@@ -78,13 +78,13 @@ export default function Button({
       <span className="flex-1">{children}</span>
       {variant === 'outline-blue' ? (
         <span className="relative w-4 h-4 flex items-center justify-center">
-          <img src="/moto/bbt/btnarrow.png" alt="Arrow" className="absolute inset-0 w-full h-full object-contain transition-opacity duration-300 opacity-100 group-hover:opacity-0" style={{ filter: "brightness(0) saturate(100%) invert(18%) sepia(85%) saturate(2222%) hue-rotate(208deg) brightness(88%) contrast(97%)" }} />
-          <img src="/moto/bbt/btnarrow.png" alt="Arrow" className="absolute inset-0 w-full h-full object-contain transition-opacity duration-300 opacity-0 group-hover:opacity-100 brightness-0 invert" />
+          <img src="/moto/bbt/btnarrow.webp" alt="Arrow" className="absolute inset-0 w-full h-full object-contain transition-opacity duration-300 opacity-100 group-hover:opacity-0" style={{ filter: "brightness(0) saturate(100%) invert(18%) sepia(85%) saturate(2222%) hue-rotate(208deg) brightness(88%) contrast(97%)" }} />
+          <img src="/moto/bbt/btnarrow.webp" alt="Arrow" className="absolute inset-0 w-full h-full object-contain transition-opacity duration-300 opacity-0 group-hover:opacity-100 brightness-0 invert" />
         </span>
       ) : (
         <span className="relative w-4 h-4 flex items-center justify-center">
-           <img src="/moto/bbt/btnarrow.png" alt="Arrow" className="absolute inset-0 w-full h-full object-contain transition-opacity duration-300 opacity-100 group-hover:opacity-0 brightness-0 invert" />
-           <img src="/moto/bbt/btnarrow.png" alt="Arrow" className="absolute inset-0 w-full h-full object-contain transition-opacity duration-300 opacity-0 group-hover:opacity-100" style={{ filter: "brightness(0) saturate(100%) invert(18%) sepia(85%) saturate(2222%) hue-rotate(208deg) brightness(88%) contrast(97%)" }} />
+           <img src="/moto/bbt/btnarrow.webp" alt="Arrow" className="absolute inset-0 w-full h-full object-contain transition-opacity duration-300 opacity-100 group-hover:opacity-0 brightness-0 invert" />
+           <img src="/moto/bbt/btnarrow.webp" alt="Arrow" className="absolute inset-0 w-full h-full object-contain transition-opacity duration-300 opacity-0 group-hover:opacity-100" style={{ filter: "brightness(0) saturate(100%) invert(18%) sepia(85%) saturate(2222%) hue-rotate(208deg) brightness(88%) contrast(97%)" }} />
         </span>
       )}
     </button>

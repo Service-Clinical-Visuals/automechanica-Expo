@@ -9,25 +9,25 @@ const Products = () => {
     {
       title: "Standard Exhaust",
       desc: "A Standard Exhaust system efficiently removes engine gases while reducing noise and maintaining reliable performance for everyday driving.",
-      img: "/moto/celik/product11.png",
+      img: "/moto/celik/product11.webp",
       buttonText: "Explore Standard Exhaust",
     },
     {
       title: "Performance Exhaust",
       desc: "A Performance Exhaust system is designed to enhance engine power and airflow, delivering improved acceleration, a deeper exhaust note, and better overall efficiency.",
-      img: "/moto/celik/product12.jpg",
+      img: "/moto/celik/product12.webp",
       buttonText: "Explore Performance Exhaust",
     },
     {
       title: "Catalytic Converter",
       desc: "A Catalytic Converter reduces harmful exhaust emissions by converting toxic gases into less harmful substances, helping improve air quality and meet emission standards.",
-      img: "/moto/celik/product13.png",
+      img: "/moto/celik/product13.webp",
       buttonText: "Explore Catalytic Converter",
     },
     {
       title: "Pipe Bending",
       desc: "Pipe Bending is a process used to shape exhaust pipes with precision, ensuring smooth airflow, optimal fit, and improved overall system performance.",
-      img: "/moto/celik/product14.png",
+      img: "/moto/celik/product14.webp",
       buttonText: "Explore Pipe Bending",
     }
   ];

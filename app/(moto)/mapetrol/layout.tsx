@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: "MAPETROL",
   description: "Mapetrol Premium Lubricants",
   icons: {
-    icon: "/tcp-logo.png",
+    icon: "/tcp-logo.webp",
   },
 };
 

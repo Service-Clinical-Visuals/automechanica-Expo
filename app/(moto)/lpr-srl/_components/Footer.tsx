@@ -12,7 +12,7 @@ const Footer = () => {
           
           {/* Column 1: Logo & Description (Span 4) */}
           <div className="xl:col-span-4 flex flex-col gap-6" data-aos="fade-up">
-            <img src="/moto/lpr-srl/logo.png" alt="LPR Logo" className="w-[120px] min-[2100px]:w-[180px] min-[3800px]:w-[300px] object-contain" />
+            <img src="/moto/lpr-srl/logo.webp" alt="LPR Logo" className="w-[120px] min-[2100px]:w-[180px] min-[3800px]:w-[300px] object-contain" />
             <p className="footer-body text-gray-600 leading-relaxed max-w-[90%]">
               Precision-engineered automotive components manufacturer specializing in advanced casting, machining, and innovative solutions for OEM, OES, and aftermarket markets worldwide.
             </p>

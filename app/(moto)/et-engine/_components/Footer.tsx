@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Column 1: Logo & Description */}
           <div className="flex flex-col gap-6 lg:col-span-2" data-aos="fade-up" data-aos-delay="100">
              <Link href="#" className="w-full">
-               <img src="/moto/et-engine/logo1.png" alt="ET Engine Logo" className="w-[60%] sm:w-[50%] md:w-[45%] lg:w-[65%] xl:w-[50%] h-auto object-contain object-left" />
+               <img src="/moto/et-engine/logo1.webp" alt="ET Engine Logo" className="w-[60%] sm:w-[50%] md:w-[45%] lg:w-[65%] xl:w-[50%] h-auto object-contain object-left" />
              </Link>
              <p className="footer-body text-white  mt-2 leading-relaxed max-w-[90%]">
                ET ENGINETEAM delivers premium engine components, innovative repair kits, and trusted automotive solutions backed by quality, reliability, and a global distribution network.

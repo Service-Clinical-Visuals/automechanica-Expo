@@ -5,15 +5,15 @@ import Image from "next/image";
 export default function AboutUs() {
   const stats = [
     {
-      icon: "/moto/denckermann/onas1.png", // Assuming onas (About us in Polish) images are these icons
+      icon: "/moto/denckermann/onas1.webp", // Assuming onas (About us in Polish) images are these icons
       title: "3 Factories",
     },
     {
-      icon: "/moto/denckermann/onas2.png",
+      icon: "/moto/denckermann/onas2.webp",
       title: "20,000 M2 Of\nWarehouse Space",
     },
     {
-      icon: "/moto/denckermann/onas3.png",
+      icon: "/moto/denckermann/onas3.webp",
       title: "4 Logistics Centers",
     }
   ];
@@ -71,7 +71,7 @@ export default function AboutUs() {
           {/* Right Column: Image */}
           <div className="relative w-full  rounded-2xl overflow-hidden " data-aos="fade-left">
          
-            <img src="/moto/denckermann/abt.png" alt="About Denckermann ISO" className="object-cover w-full h-full hover:scale-110 transition-transform duration-300 " />
+            <img src="/moto/denckermann/abt.webp" alt="About Denckermann ISO" className="object-cover w-full h-full hover:scale-110 transition-transform duration-300 " />
           </div>
 
         </div>

@@ -11,15 +11,15 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const products = [
-  { id: 1, title: "Heaters / Glow Plugs", desc: "For over 30 years, our heaters have been synonymous with ORIGINAL QUALITY and excellent service. Our diesel...", image: "/moto/amadini/1.png" },
-  { id: 2, title: "Filters", desc: "As specialists in fuel system spare parts, Amadini offers universal fuel filters (Gasoline and Diesel) in various formats...", image: "/moto/amadini/2.png" },
-  { id: 3, title: "Spare parts fittings / Fittings", desc: "In addition to mechanical fuel pumps and universal gasoline and diesel filters, we offer a wide range of fittings to facilitate...", image: "/moto/amadini/3.png" },
-  { id: 4, title: "Common Rail", desc: "We have a wide assortment of nozzles, elements and valves for diesel injectors. We distribute top quality...", image: "/moto/amadini/4.png" },
-  { id: 5, title: "Horns", desc: "We have a wide assortment of horns for automotive, industrial and special vehicles. Horn, electric (12v and 24v...", image: "/moto/amadini/5.png" },
-  { id: 6, title: "E. Transfer Pumps", desc: "As a complement to the range of products for industrial vehicles, Amadini offers a wide variety of liquid transfer pumps...", image: "/moto/amadini/6.png" },
-  { id: 7, title: "MPP / Air Control Valve", desc: "Idle valves or stepper motors are responsible for regulating the engine's revolutions per minute by releasing the...", image: "/moto/amadini/7.png" },
-  { id: 8, title: "Brakes", desc: "Amadini, exclusive distributor for Spain and Portugal of the SAMKO-LPR brand, Original Equipment manufacturer...", image: "/moto/amadini/8.png" },
-  { id: 9, title: "Pressure Regulator", desc: "Amadini, as a specialist in diesel injection spare parts, offers among our product range Bosch Common Rail pressure...", image: "/moto/amadini/9.png" },
+  { id: 1, title: "Heaters / Glow Plugs", desc: "For over 30 years, our heaters have been synonymous with ORIGINAL QUALITY and excellent service. Our diesel...", image: "/moto/amadini/1.webp" },
+  { id: 2, title: "Filters", desc: "As specialists in fuel system spare parts, Amadini offers universal fuel filters (Gasoline and Diesel) in various formats...", image: "/moto/amadini/2.webp" },
+  { id: 3, title: "Spare parts fittings / Fittings", desc: "In addition to mechanical fuel pumps and universal gasoline and diesel filters, we offer a wide range of fittings to facilitate...", image: "/moto/amadini/3.webp" },
+  { id: 4, title: "Common Rail", desc: "We have a wide assortment of nozzles, elements and valves for diesel injectors. We distribute top quality...", image: "/moto/amadini/4.webp" },
+  { id: 5, title: "Horns", desc: "We have a wide assortment of horns for automotive, industrial and special vehicles. Horn, electric (12v and 24v...", image: "/moto/amadini/5.webp" },
+  { id: 6, title: "E. Transfer Pumps", desc: "As a complement to the range of products for industrial vehicles, Amadini offers a wide variety of liquid transfer pumps...", image: "/moto/amadini/6.webp" },
+  { id: 7, title: "MPP / Air Control Valve", desc: "Idle valves or stepper motors are responsible for regulating the engine's revolutions per minute by releasing the...", image: "/moto/amadini/7.webp" },
+  { id: 8, title: "Brakes", desc: "Amadini, exclusive distributor for Spain and Portugal of the SAMKO-LPR brand, Original Equipment manufacturer...", image: "/moto/amadini/8.webp" },
+  { id: 9, title: "Pressure Regulator", desc: "Amadini, as a specialist in diesel injection spare parts, offers among our product range Bosch Common Rail pressure...", image: "/moto/amadini/9.webp" },
 ];
 
 export default function References() {

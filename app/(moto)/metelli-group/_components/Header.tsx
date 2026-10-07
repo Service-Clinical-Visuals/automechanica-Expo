@@ -49,7 +49,7 @@ export default function Header() {
           {/* Logo Area */}
           <div className="flex-shrink-0 flex items-center lg:pl-6">
             <Link href="#">
-              <img src="/moto/metelli-group/footer-logo.png" alt="Metelli Group Logo" className="h-10 lg:h-12 w-auto max-w-[220px] lg:max-w-[200px] object-contain" />
+              <img src="/moto/metelli-group/footer-logo.webp" alt="Metelli Group Logo" className="h-10 lg:h-12 w-auto max-w-[220px] lg:max-w-[200px] object-contain" />
             </Link>
           </div>
 

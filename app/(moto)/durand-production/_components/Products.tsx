@@ -7,49 +7,49 @@ const productsData = [
     id: 1,
     title: "Engine Lubricants",
     description: "Engine Lubricants Engineered For Optimal Performance, Advanced Wear Protection, And Improved Efficiency.",
-    image: "/moto/durandProduction/pro1.png",
+    image: "/moto/durandProduction/pro1.webp",
     link: "#"
   },
   {
     id: 2,
     title: "Marine Lubricants",
     description: "Advanced Marine Lubricants Built For Dependable Protection And Long-Lasting Marine Performance.",
-    image: "/moto/durandProduction/pro2.png",
+    image: "/moto/durandProduction/pro2.webp",
     link: "#"
   },
   {
     id: 3,
     title: "Greases",
     description: "Premium Greases Engineered For Reliable Lubrication, Improved Efficiency, Extended Component Life.",
-    image: "/moto/durandProduction/pro3.png",
+    image: "/moto/durandProduction/pro3.webp",
     link: "#"
   },
   {
     id: 4,
     title: "Industrial Lubricants",
     description: "Industrial Lubricants Designed For Reliable Protection And Efficient Performance.",
-    image: "/moto/durandProduction/pro4.png",
+    image: "/moto/durandProduction/pro4.webp",
     link: "#"
   },
   {
     id: 5,
     title: "Small Engine Lubricants",
     description: "Small engine lubricants designed to deliver reliable protection and smooth performance.",
-    image: "/moto/durandProduction/pro5.png",
+    image: "/moto/durandProduction/pro5.webp",
     link: "#"
   },
   {
     id: 6,
     title: "Drivelive Lubricants",
     description: "High-performance DriveLive lubricants designed to enhance durability and optimize engine operation.",
-    image: "/moto/durandProduction/pro6.png",
+    image: "/moto/durandProduction/pro6.webp",
     link: "#"
   },
   {
     id: 7,
     title: "Engine Coolent & Special Product",
     description: "Advanced cooling and specialty solutions engineered for durability and smooth engine operation.",
-    image: "/moto/durandProduction/pro7.png",
+    image: "/moto/durandProduction/pro7.webp",
     link: "#"
   },
 ];
@@ -165,13 +165,13 @@ export default function Products() {
             onClick={handlePrev}
             className="w-12 h-12 flex items-center justify-center transition-all shadow-md bg-[#FF131C] hover:bg-red-700 text-white cursor-pointer"
           >
-            <img src="/moto/durandProduction/Arrow 4.png" alt="Arrow Left" className="w-4 h-4 animate-bounce-left" />
+            <img src="/moto/durandProduction/Arrow 4.webp" alt="Arrow Left" className="w-4 h-4 animate-bounce-left" />
           </button>
           <button 
             onClick={handleNext}
             className="w-12 h-12 flex items-center justify-center transition-all shadow-md bg-[#FF131C] hover:bg-red-700 text-white cursor-pointer"
           >
-            <img src="/moto/durandProduction/Arrow 3.png" alt="Arrow Right" className="w-4 h-4 animate-bounce-right" />
+            <img src="/moto/durandProduction/Arrow 3.webp" alt="Arrow Right" className="w-4 h-4 animate-bounce-right" />
           </button>
         </div>
 

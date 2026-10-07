@@ -40,7 +40,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/gema-oils/logo.png" alt="Gema Oils Logo" className="header-logo " />
+                <img src="/moto/gema-oils/logo.webp" alt="Gema Oils Logo" className="header-logo " />
               </Link>
             </div>
 

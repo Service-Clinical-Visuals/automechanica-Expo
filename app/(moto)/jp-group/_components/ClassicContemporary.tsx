@@ -37,7 +37,7 @@ const ClassicContemporary = () => {
           <div className="relative group w-full md:flex-1 h-[350px] md:h-[450px] lg:h-[500px] min-[2500px]:h-[800px] min-[3800px]:h-[1300px] overflow-hidden md:[clip-path:polygon(10%_0,100%_0,90%_100%,0%_100%)] cursor-pointer rounded-2xl md:rounded-none">
             {/* Background Image */}
             <img
-              src="/moto/jp-group/classic1.png"
+              src="/moto/jp-group/classic1.webp"
               alt="Contemporary Cars"
               className="absolute inset-0 w-full h-full object-cover min-[2500px]:scale-110 min-[3800px]:scale-125 transition-transform duration-700 group-hover:scale-110 min-[2500px]:group-hover:scale-125 min-[3800px]:group-hover:scale-150"
             />
@@ -65,7 +65,7 @@ const ClassicContemporary = () => {
           <div className="relative group w-full md:flex-1 h-[350px] md:h-[450px] lg:h-[500px] min-[2500px]:h-[800px] min-[3800px]:h-[1300px] overflow-hidden md:[clip-path:polygon(10%_0,100%_0,90%_100%,0%_100%)] cursor-pointer rounded-2xl md:rounded-none">
             {/* Background Image */}
             <img
-              src="/moto/jp-group/classic2.png"
+              src="/moto/jp-group/classic2.webp"
               alt="Classic Cars"
               className="absolute inset-0 w-full h-full object-cover min-[2500px]:scale-110 min-[3800px]:scale-125 transition-transform duration-700 group-hover:scale-110 min-[2500px]:group-hover:scale-125 min-[3800px]:group-hover:scale-150"
             />

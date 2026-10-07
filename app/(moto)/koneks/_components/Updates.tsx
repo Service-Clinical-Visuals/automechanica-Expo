@@ -10,13 +10,13 @@ import "swiper/css/pagination";
 
 export default function Updates() {
   const certificates = [
-    { img: "/moto/koneks/q1.jpg" },
-    { img: "/moto/koneks/q2.jpg" },
-    { img: "/moto/koneks/q3.jpg" },
-    { img: "/moto/koneks/q4.jpg" },
-    { img: "/moto/koneks/q5.jpg" },
-    { img: "/moto/koneks/q6.jpg" },
-    { img: "/moto/koneks/q7.jpg" }
+    { img: "/moto/koneks/q1.webp" },
+    { img: "/moto/koneks/q2.webp" },
+    { img: "/moto/koneks/q3.webp" },
+    { img: "/moto/koneks/q4.webp" },
+    { img: "/moto/koneks/q5.webp" },
+    { img: "/moto/koneks/q6.webp" },
+    { img: "/moto/koneks/q7.webp" }
   ];
 
   return (
@@ -77,7 +77,7 @@ export default function Updates() {
                   {/* Dark Overlay with Vector Icon */}
                   <div className="absolute inset-0 bg-[#171717]/60 opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">
                     <img
-                      src="/moto/koneks/Vector.png"
+                      src="/moto/koneks/Vector.webp"
                       alt="View Document"
                       className="w-16 h-16 sm:w-20 sm:h-20 opacity-0 group-hover:opacity-100 scale-50 group-hover:scale-100 transition-all duration-500 delay-100"
                     />

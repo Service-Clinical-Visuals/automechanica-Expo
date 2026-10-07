@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="w-full lg:w-[70%] mr-20 flex flex-col gap-6" data-aos="fade-up">
             <Link href="#">
               <img
-                src="/moto/inno/logo.png"
+                src="/moto/inno/logo.webp"
                 alt="Inno Piston Logo"
                 className="w-auto h-auto object-contain"
               />

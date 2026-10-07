@@ -12,9 +12,9 @@ const checklist = [
 ];
 
 const stats = [
-  { icon: "/moto/axon-oil/clipboard.png", value: "5.800", label: "Quality control in 2025" },
-  { icon: "/moto/axon-oil/pen.png", value: "1.145", label: "Batches in 2025" },
-  { icon: "/moto/axon-oil/spiral.png", value: "232", label: "Active blend formulas" },
+  { icon: "/moto/axon-oil/clipboard.webp", value: "5.800", label: "Quality control in 2025" },
+  { icon: "/moto/axon-oil/pen.webp", value: "1.145", label: "Batches in 2025" },
+  { icon: "/moto/axon-oil/spiral.webp", value: "232", label: "Active blend formulas" },
 ];
 
 const About = () => {
@@ -54,7 +54,7 @@ const About = () => {
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10 items-center">
           <div data-aos="fade-right">
             <img
-              src="/moto/axon-oil/performace.png"
+              src="/moto/axon-oil/performace.webp"
               alt="AxxonOil team member"
               className="w-full h-full object-cover"
             />
@@ -77,7 +77,7 @@ const About = () => {
             <ul className="space-y-4">
               {checklist.map((item) => (
                 <li key={item} className="flex items-start gap-3">
-                  <img src="/moto/axon-oil/check.png" alt="" className="w-5 h-5 mt-0.5 shrink-0" />
+                  <img src="/moto/axon-oil/check.webp" alt="" className="w-5 h-5 mt-0.5 shrink-0" />
                   <span className="content">{item}</span>
                 </li>
               ))}

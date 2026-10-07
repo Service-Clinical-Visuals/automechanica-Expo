@@ -41,7 +41,7 @@ export default function Header() {
           <div className="flex-shrink-0">
             <Link href="/cardyfren">
               <img
-                src="/moto/cardyfren/logo.png"
+                src="/moto/cardyfren/logo.webp"
                 alt="Cardyfren Logo"
                 className="h-10 w-auto object-contain"
               />

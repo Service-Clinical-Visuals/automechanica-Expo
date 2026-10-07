@@ -51,7 +51,7 @@ export default function AboutUs() {
           {/* Image Right */}
           <div data-aos="fade-left" className="relative w-full aspect-[4/3] xl:aspect-auto xl:h-[600px]">
             <img 
-              src="/moto/ijsgroup/abt.png" 
+              src="/moto/ijsgroup/abt.webp" 
               alt="IJS Group Machinery" 
               className="w-full h-full object-cover"
             />

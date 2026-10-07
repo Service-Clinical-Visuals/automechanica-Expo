@@ -9,24 +9,24 @@ const events = [
   {
     title: "Automechanika Frankurt 2026",
     date: "8.9.2026 - 12.9.2026",
-    image: "/moto/ifa/events/1.png",
-    smallimage: "/moto/ifa/events/small1.png",
+    image: "/moto/ifa/events/1.webp",
+    smallimage: "/moto/ifa/events/small1.webp",
     description:
       "We are excited to follow the latest developments from the exhibition and explore emerging technologies that will influence the next generation of automotive products and services. Stay connected with us as we share key event highlights, industry trends, product innovations, and exclusive updates from Automechanika Frankfurt 2026 throughout the event.",
   },
   {
     title: "Autopromotec 2026",
     date: "26.5.2027 - 29.5.2027",
-    image: "/moto/ifa/events/2.png",
-    smallimage: "/moto/ifa/events/small2.png",
+    image: "/moto/ifa/events/2.webp",
+    smallimage: "/moto/ifa/events/small2.webp",
     description:
       "Autopromotec serves as a premier platform for showcasing cutting-edge innovations in workshop equipment, digital transformation, electric mobility, connected vehicles, tire technologies, sustainability, and advanced automotive services. The exhibition offers valuable opportunities for networking, business development, product launches, and knowledge sharing across the global automotive ecosystem.",
   },
   {
     title: "Automechanika Dubai",
     date: "10.12.2026 - 12.12.2026",
-    image: "/moto/ifa/events/3.png",
-    smallimage: "/moto/ifa/events/small3.png",
+    image: "/moto/ifa/events/3.webp",
+    smallimage: "/moto/ifa/events/small3.webp",
     description:
       "Automechanika Dubai continues to serve as a strategic gateway connecting the automotive aftermarket across the Middle East, Africa, Asia, and international markets. The event provides an ideal platform for discovering emerging industry trends, launching innovative products, and strengthening global business relationships.",
   },

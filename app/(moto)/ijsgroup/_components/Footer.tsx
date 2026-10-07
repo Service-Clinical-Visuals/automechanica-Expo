@@ -25,11 +25,11 @@ export default function Footer() {
           {/* Column 1: About & Newsletter */}
           <div className="flex flex-col xl:col-span-4" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
             <img 
-              src="/moto/ijsgroup/footerlogo.png" 
+              src="/moto/ijsgroup/footerlogo.webp" 
               alt="I.J.S. Group Original Parts" 
               className="w-48 mb-6"
               onError={(e) => {
-                e.currentTarget.src = "/moto/ijsgroup/logo.png"; // fallback
+                e.currentTarget.src = "/moto/ijsgroup/logo.webp"; // fallback
               }}
             />
             <p className="sora-font text-white section-text font-normal leading-relaxed mb-6">
@@ -64,7 +64,7 @@ export default function Footer() {
                     className="sora-font section-text text-white hover:text-white flex items-center justify-between w-full max-w-[220px] group transition-colors"
                   >
                     <span>{item}</span>
-                    <img src="/moto/ijsgroup/dblarw.png" alt="Arrow Right" className="w-6 h-auto" />
+                    <img src="/moto/ijsgroup/dblarw.webp" alt="Arrow Right" className="w-6 h-auto" />
                   </Link>
                 </li>
               ))}
@@ -84,7 +84,7 @@ export default function Footer() {
                     className="sora-font section-text text-white hover:text-white flex items-center justify-between w-full max-w-[220px] group transition-colors"
                   >
                     <span>{item}</span>
-                    <img src="/moto/ijsgroup/dblarw.png" alt="Arrow Right" className="w-6 h-auto" />
+                    <img src="/moto/ijsgroup/dblarw.webp" alt="Arrow Right" className="w-6 h-auto" />
                   </Link>
                 </li>
               ))}

@@ -50,7 +50,7 @@ export default function WhyChoose() {
               {points.map((pt, idx) => (
                 <div key={idx} className="flex items-center gap-3.5">
                   <img 
-                    src="/moto/melle-sp/icon.png" 
+                    src="/moto/melle-sp/icon.webp" 
                     alt="Bullet Icon" 
                     className="w-6 h-6 md:w-7 md:h-7 object-contain shrink-0" 
                   />

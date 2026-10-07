@@ -12,14 +12,14 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const products = [
-  { id: 1, name: "ZF Planetary Pinion Gear", image: "1.png" },
-  { id: 2, name: "ZF Sprocket", image: "2.png" },
-  { id: 3, name: "ZF Sun Pinion Shaft", image: "3.png" },
-  { id: 4, name: "JCB loader trunnion", image: "4.png" },
-  { id: 5, name: "JCB Steering Knuckle", image: "5.png" },
-  { id: 6, name: "JCB Planetary Pinion", image: "6.png" },
-  { id: 7, name: "JCB Differential Housing", image: "7.png" },
-  { id: 8, name: "JCB Sprocket Mounting Plate", image: "8.png" },
+  { id: 1, name: "ZF Planetary Pinion Gear", image: "1.webp" },
+  { id: 2, name: "ZF Sprocket", image: "2.webp" },
+  { id: 3, name: "ZF Sun Pinion Shaft", image: "3.webp" },
+  { id: 4, name: "JCB loader trunnion", image: "4.webp" },
+  { id: 5, name: "JCB Steering Knuckle", image: "5.webp" },
+  { id: 6, name: "JCB Planetary Pinion", image: "6.webp" },
+  { id: 7, name: "JCB Differential Housing", image: "7.webp" },
+  { id: 8, name: "JCB Sprocket Mounting Plate", image: "8.webp" },
 ];
 
 export default function Products() {

@@ -7,7 +7,7 @@ import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 
 export default function EngineProtection() {
   return (
-    <section className="py-16 xl:py-20 relative bg-[url('/moto/orijin/ebg.jpg')] bg-opacity-10 bg-cover bg-center bg-no-repeat text-white overflow-hidden">
+    <section className="py-16 xl:py-20 relative bg-[url('/moto/orijin/ebg.webp')] bg-opacity-10 bg-cover bg-center bg-no-repeat text-white overflow-hidden">
 
       {/* Dark Overlay for Readability */}
       <div className="absolute inset-0 z-0 bg-[#111827]/90"></div>

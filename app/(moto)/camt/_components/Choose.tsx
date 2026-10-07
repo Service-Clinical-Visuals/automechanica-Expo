@@ -5,25 +5,25 @@ import Container from "./Container";
 const reasons = [
   {
     number: "01",
-    icon: "/moto/camt/choose/1.png",
+    icon: "/moto/camt/choose/1.webp",
     title: "Industry-Leading Technology",
     description: "Advanced sensor technology for precise and reliable NOx emission monitoring.",
   },
   {
     number: "02",
-    icon: "/moto/camt/choose/2.png",
+    icon: "/moto/camt/choose/2.webp",
     title: "Rigorous Quality Control",
     description: "Comprehensive testing ensures accuracy, durability, and long-term performance.",
   },
   {
     number: "03",
-    icon: "/moto/camt/choose/3.png",
+    icon: "/moto/camt/choose/3.webp",
     title: "Proven Track Record",
     description: "Engineered for consistent operation across demanding automotive applications.",
   },
   {
     number: "04",
-    icon: "/moto/camt/choose/4.png",
+    icon: "/moto/camt/choose/4.webp",
     title: "Optimised Fuel Efficiency",
     description: "Supports cleaner emissions and improved fuel efficiency.",
   },

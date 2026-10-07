@@ -6,14 +6,14 @@ import Link from 'next/link';
 import Button from './Button';
 
 const products = [
-  { id: '1', title: 'AVF1114C', image: '/moto/mistral/1.png' },
-  { id: '2', title: 'AVF1114', image: '/moto/mistral/2.png' },
-  { id: '3', title: 'AVF1233C', image: '/moto/mistral/3.png' },
-  { id: '4', title: 'AVF1233', image: '/moto/mistral/4.png' },
-  { id: '5', title: 'AVF1407', image: '/moto/mistral/5.png' },
-  { id: '6', title: 'AVF5103C', image: '/moto/mistral/6.png' },
-  { id: '7', title: 'AVF5601', image: '/moto/mistral/7.png' },
-  { id: '8', title: 'AVF5602', image: '/moto/mistral/8.png' },
+  { id: '1', title: 'AVF1114C', image: '/moto/mistral/1.webp' },
+  { id: '2', title: 'AVF1114', image: '/moto/mistral/2.webp' },
+  { id: '3', title: 'AVF1233C', image: '/moto/mistral/3.webp' },
+  { id: '4', title: 'AVF1233', image: '/moto/mistral/4.webp' },
+  { id: '5', title: 'AVF1407', image: '/moto/mistral/5.webp' },
+  { id: '6', title: 'AVF5103C', image: '/moto/mistral/6.webp' },
+  { id: '7', title: 'AVF5601', image: '/moto/mistral/7.webp' },
+  { id: '8', title: 'AVF5602', image: '/moto/mistral/8.webp' },
 ];
 
 export default function ProductRange() {
@@ -38,7 +38,7 @@ export default function ProductRange() {
         {/* Header */}
         <div className="flex justify-between items-end mb-4">
           <div className="flex items-center gap-3">
-            <img src="/moto/mistral/Polygon.png" alt="" className="w-7 h-7 object-contain" />
+            <img src="/moto/mistral/Polygon.webp" alt="" className="w-7 h-7 object-contain" />
            <h2 className="section-title text-[#212121] font-medium tracking-wide">
               Our Product Range
             </h2>

@@ -43,7 +43,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="#">
-              <img src="/moto/itw-international/logo.png" alt="ITW International Logo" className="w-[140px] md:w-[160px] xl:w-[200px] h-auto object-contain" />
+              <img src="/moto/itw-international/logo.webp" alt="ITW International Logo" className="w-[140px] md:w-[160px] xl:w-[200px] h-auto object-contain" />
             </Link>
           </div>
 

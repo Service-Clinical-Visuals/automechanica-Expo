@@ -55,7 +55,7 @@ export default function Products() {
               {/* Feature 1 */}
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center flex-shrink-0">
-                  <img src="/moto/badenex/search1.png" alt="Icon" className="w-5 h-5 object-contain" />
+                  <img src="/moto/badenex/search1.webp" alt="Icon" className="w-5 h-5 object-contain" />
                 </div>
                 <p className="text-[#FFFFFF] lato-font section-text font-medium opacity-90 ">
                   Developing advanced engine oil formulations and additive technologies to improve lubrication, protection, and fuel efficiency.
@@ -65,7 +65,7 @@ export default function Products() {
               {/* Feature 2 */}
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center flex-shrink-0">
-                  <img src="/moto/badenex/search2.png" alt="Icon" className="w-5 h-5 object-contain " />
+                  <img src="/moto/badenex/search2.webp" alt="Icon" className="w-5 h-5 object-contain " />
                 </div>
                 <p className="text-[#FFFFFF] lato-font section-text font-medium opacity-90  ">
                   Every product undergoes rigorous laboratory testing and performance evaluation to ensure consistent quality, reliability, and compliance with demanding automotive standards.

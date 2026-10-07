@@ -46,7 +46,7 @@ const LubricationSolutions = () => {
                 <div key={idx} className="flex gap-4 items-center group">
                   <div className="bg-[#112C63] w-12 h-12 flex items-center justify-center shrink-0">
                     <img
-                      src="/moto/eurol/Vector.png"
+                      src="/moto/eurol/Vector.webp"
                       alt="Icon"
                       className="w-5 h-5 xl:h-7 xl:w-7 object-contain"
                       onError={(e) => { e.currentTarget.style.display = 'none'; }}

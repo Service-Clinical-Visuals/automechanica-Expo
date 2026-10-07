@@ -11,10 +11,10 @@ const productLinks = [
 ];
 
 const socials = [
-  { icon: "/moto/hengst/socials/linkedIn.png", href: "#" },
-  { icon: "/moto/hengst/socials/youtube.png", href: "#" },
-  { icon: "/moto/hengst/socials/instagram.png", href: "#" },
-  { icon: "/moto/hengst/socials/facebook.png", href: "#" },
+  { icon: "/moto/hengst/socials/linkedIn.webp", href: "#" },
+  { icon: "/moto/hengst/socials/youtube.webp", href: "#" },
+  { icon: "/moto/hengst/socials/instagram.webp", href: "#" },
+  { icon: "/moto/hengst/socials/facebook.webp", href: "#" },
 ];
 
 export default function Footer() {
@@ -26,7 +26,7 @@ export default function Footer() {
             {/* Logo + tagline */}
             <div className="flex flex-col items-start gap-4">
               <img
-                src="/moto/hengst/logo.png"
+                src="/moto/hengst/logo.webp"
                 alt="Hengst Filtration"
                 className="h-16 w-auto object-contain"
                 style={{ filter: "brightness(0) invert(1)" }}

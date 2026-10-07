@@ -27,7 +27,7 @@ export default function AdvancedTechnology() {
           {/* Arrow Button Overlay */}
           <div className="absolute bottom-6 right-6 md:bottom-8 md:right-8 z-10">
             <img 
-                src="/moto/kroon-oil/btnarrow.png" 
+                src="/moto/kroon-oil/btnarrow.webp" 
                 alt="Arrow" 
                 className="w-10 md:w-12  object-contain transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" 
               />

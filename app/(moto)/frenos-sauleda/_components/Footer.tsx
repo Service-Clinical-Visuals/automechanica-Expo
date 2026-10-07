@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="col-span-2 xl:col-span-4 flex flex-col gap-6">
             <Link href="/frenos-sauleda" className="inline-block">
               <img 
-                src="/moto/frenos-sauleda/footerlogo.png" 
+                src="/moto/frenos-sauleda/footerlogo.webp" 
                 alt="Frenos Sauleda Logo" 
                 className="h-10 md:h-15 lg:h-18 w-auto object-contain "
               />
@@ -63,15 +63,15 @@ export default function Footer() {
            <h3 className="sora footer-link text-white font-semibold ">Contact</h3>
             <ul className="flex flex-col gap-4">
               <li className="flex gap-3 items-start">
-                <img src="/moto/frenos-sauleda/location.png" alt="Location" className="w-6 h-6 object-contain flex-shrink-0" />
+                <img src="/moto/frenos-sauleda/location.webp" alt="Location" className="w-6 h-6 object-contain flex-shrink-0" />
                 <span className="text-[#ffffff] inter font-normal section-text">Barri del migdia S/N - E 08396<br/>Sant Cebrià de Vallalta<br/>(Barcelona - Spain)</span>
               </li>
               <li className="flex gap-3 items-center">
-                <img src="/moto/frenos-sauleda/ph.png" alt="Phone" className="w-6 h-6 object-contain flex-shrink-0" />
+                <img src="/moto/frenos-sauleda/ph.webp" alt="Phone" className="w-6 h-6 object-contain flex-shrink-0" />
                 <a href="" className="text-[#ffffff] inter font-normal section-text">(+34) 93 763 11 20</a>
               </li>
               <li className="flex gap-3 items-center">
-                <img src="/moto/frenos-sauleda/mail.png" alt="Email" className="w-6 h-6 object-contain flex-shrink-0" />
+                <img src="/moto/frenos-sauleda/mail.webp" alt="Email" className="w-6 h-6 object-contain flex-shrink-0" />
                 <a href="" className="text-[#ffffff] inter font-normal section-text break-all">sauleda@frenossauleda.com</a>
               </li>
             </ul>

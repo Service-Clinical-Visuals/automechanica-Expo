@@ -8,21 +8,21 @@ export default function Features() {
   const features = [
     {
       id: 1,
-      icon: "/moto/amadini/i1.png",
+      icon: "/moto/amadini/i1.webp",
       title: "Personalized Attention",
       desc: "Our team of experienced professionals is dedicated to providing tailored solutions that meet the unique needs of your workshop or dealership. With expert guidance, dependable support, and a customer-focused approach, we help you achieve reliable, efficient, and long-lasting automotive solutions.",
       link: "/amadini/contact",
     },
     {
       id: 2,
-      icon: "/moto/amadini/i2.png",
+      icon: "/moto/amadini/i2.webp",
       title: "Exclusive Products",
       desc: "Access an extensive range of exclusive spare parts that are not commonly available through other distributors, carefully selected to deliver exceptional quality, reliable performance, precise fitment, and greater value for your customers across a wide range of automotive applications.",
       link: "/amadini/products",
     },
     {
       id: 3,
-      icon: "/moto/amadini/i3.png",
+      icon: "/moto/amadini/i3.webp",
       title: "In-House Manufacturing",
       desc: "We guarantee the highest quality in every replacement part through carefully controlled production processes, rigorous quality inspections, and strict compliance with the highest industry standards, ensuring exceptional reliability, durability, precise fitment, and long-lasting performance for every application.",
       link: "/amadini/about",

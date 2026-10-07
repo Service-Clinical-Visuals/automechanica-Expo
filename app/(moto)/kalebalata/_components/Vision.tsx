@@ -5,7 +5,7 @@ import Button from './Button';
 const slides = [
   {
     id: 1,
-    image: "/moto/kalebalata/v1.jpg",
+    image: "/moto/kalebalata/v1.webp",
     title: "Our Vision",
     buttonText: "Discover Our Purpose",
     paragraphs: [
@@ -16,7 +16,7 @@ const slides = [
   },
   {
     id: 2,
-    image: "/moto/kalebalata/v2.jpg",
+    image: "/moto/kalebalata/v2.webp",
     title: "OUR MISSION",
     buttonText: "Explore Products",
     paragraphs: [

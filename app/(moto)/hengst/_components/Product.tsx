@@ -2,23 +2,23 @@ import { ArrowRight } from "lucide-react";
 import Container from "./Container";
 
 const products = [
-  { img: "/moto/hengst/products/1.png", title: "Extraction systems for industry" },
-  { img: "/moto/hengst/products/2.png", title: "Filtration Fuel Cells" },
-  { img: "/moto/hengst/products/3.png", title: "Air Filtration for Buildings" },
+  { img: "/moto/hengst/products/1.webp", title: "Extraction systems for industry" },
+  { img: "/moto/hengst/products/2.webp", title: "Filtration Fuel Cells" },
+  { img: "/moto/hengst/products/3.webp", title: "Air Filtration for Buildings" },
 ];
 
 export default function Product() {
   return (
     <section className="relative bg-[#161616] py-16 md:py-24 overflow-hidden">
       <img
-        src="/moto/hengst/products/bg.png"
+        src="/moto/hengst/products/bg.webp"
         alt=""
         aria-hidden="true"
         className="absolute inset-0 w-full h-full object-cover pointer-events-none select-none"
       />
       <Container>
         <img
-          src="/moto/hengst/03.png"
+          src="/moto/hengst/03.webp"
           alt=""
           aria-hidden="true"
           className="hidden md:block absolute top-24 left-1 w-30 pointer-events-none select-none"

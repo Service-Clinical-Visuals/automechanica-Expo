@@ -7,22 +7,22 @@ import Link from "next/link";
 const News = () => {
   const newsItems = [
     {
-      img: "/moto/purflux/news1.png",
+      img: "/moto/purflux/news1.webp",
       date: "17\nOct",
       title: "Purflux introduces its first battery filters for hybrid vehicles"
     },
     {
-      img: "/moto/purflux/news2.png",
+      img: "/moto/purflux/news2.webp",
       date: "02\nFeb",
       title: "Discover the range extension on Transmission Filters"
     },
     {
-      img: "/moto/purflux/news3.png",
+      img: "/moto/purflux/news3.webp",
       date: "01\nJan",
       title: "PURFLUX GROUP launches a new range of Purflux filters for automatic gearboxes"
     },
     {
-      img: "/moto/purflux/news4.png",
+      img: "/moto/purflux/news4.webp",
       date: "22\nJan",
       title: "New FCA Group “FireFly” engines equipped with PURFLUX GROUP innovative oil filter"
     }

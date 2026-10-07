@@ -23,7 +23,7 @@ export default function AboutUs() {
           {/* Left Image */}
           <div className="w-auto h-auto flex" data-aos="fade-right">
             <img
-              src="/moto/badenex/about.png"
+              src="/moto/badenex/about.webp"
               alt="Explorlube Products"
               className="w-full h-full object-cover"
             />
@@ -46,7 +46,7 @@ export default function AboutUs() {
                 "Supported by efficient logistics and global supply capabilities to ensure reliable product availability worldwide."
               ].map((text, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <img src="/moto/badenex/tick.png" alt="tick" className="w-auto h-auto min-[2500px]:w-10 min-[2500px]:h-10 min-[3600px]:w-16 min-[3800px]:h-16 object-contain flex-shrink-0 mt-1" />
+                  <img src="/moto/badenex/tick.webp" alt="tick" className="w-auto h-auto min-[2500px]:w-10 min-[2500px]:h-10 min-[3600px]:w-16 min-[3800px]:h-16 object-contain flex-shrink-0 mt-1" />
                   <p className="leading-relaxed">{text}</p>
                 </li>
               ))}
@@ -55,7 +55,7 @@ export default function AboutUs() {
             {/* Button */}
             <div className="mt-1">
               <Button href="#" variant="primary" className="text-white flex items-center gap-2 oswald-font font-bold">
-                Know more <img src="/moto/badenex/r-arrow.png" alt="arrow" className="w-2 h-2" />
+                Know more <img src="/moto/badenex/r-arrow.webp" alt="arrow" className="w-2 h-2" />
               </Button>
             </div>
           </div>

@@ -40,7 +40,7 @@ export default function About() {
           {/* Right Image */}
           <div className="xl:col-span-7 w-full" data-aos="fade-left">
             <img 
-              src="/moto/frenos-sauleda/abt.png" 
+              src="/moto/frenos-sauleda/abt.webp" 
               alt="Frenos Sauleda Factory" 
               className="w-full h-auto object-cover  shadow-md"
             />

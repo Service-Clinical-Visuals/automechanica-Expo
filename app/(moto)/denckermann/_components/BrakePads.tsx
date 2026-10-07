@@ -49,7 +49,7 @@ export default function BrakePads() {
                 <div key={idx} className="flex gap-4 items-start">
                   <div className="flex-shrink-0 ">
                  
-                    <img src="/moto/denckermann/settings.png" alt="Parts Finder Icon" className="object-cover" />
+                    <img src="/moto/denckermann/settings.webp" alt="Parts Finder Icon" className="object-cover" />
                   </div>
                   <p className="section-text text-[#484848] sora font-normal">
                     {feature}
@@ -79,7 +79,7 @@ export default function BrakePads() {
                 <div key={idx} className="flex gap-4 items-start">
                   <div className="flex-shrink-0 ">
                    
-                    <img src="/moto/denckermann/settings.png" alt="Parts Finder Icon" className="object-cover" />
+                    <img src="/moto/denckermann/settings.webp" alt="Parts Finder Icon" className="object-cover" />
                   </div>
                   <p className="section-text text-[#484848] sora font-normal">
                     {feature}
@@ -94,7 +94,7 @@ export default function BrakePads() {
             className="relative w-full h-full min-h-[300px] rounded-2xl overflow-hidden "
             data-aos="fade-left"
           >          
-            <img src="/moto/denckermann/brake.png" alt="Denckermann Brake Pads" className="w-full h-full object-cover" />
+            <img src="/moto/denckermann/brake.webp" alt="Denckermann Brake Pads" className="w-full h-full object-cover" />
           </div>
         </div>
 

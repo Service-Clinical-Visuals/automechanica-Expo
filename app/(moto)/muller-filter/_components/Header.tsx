@@ -56,7 +56,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/muller-filter/logo1.png" alt="Muller Filter Logo" className="w-[50px] md:w-[60px] lg:w-[70px] h-auto object-contain" />
+                <img src="/moto/muller-filter/logo1.webp" alt="Muller Filter Logo" className="w-[50px] md:w-[60px] lg:w-[70px] h-auto object-contain" />
               </Link>
             </div>
 

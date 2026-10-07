@@ -20,25 +20,25 @@ const categories = [
 const initialProducts = [
   {
     title: "K2 CAYON COLA 700ml",
-    path: "/moto/melle-sp/product-1.png",
+    path: "/moto/melle-sp/product-1.webp",
     description: "K2 Cayon is a universal spray air freshener with an exceptionally intense fragrance, achieved thanks to a high concentration of perfume composition. It effectively neutralizes unpleasant odours, instantly refreshing the air and giving it a pleasant, long-lasting scent.",
     placeholderLabel: "Cayon Bottle",
   },
   {
     title: "K2 SILO SANITARY SILICONE GREY 300ml",
-    path: "/moto/melle-sp/product-2.png",
+    path: "/moto/melle-sp/product-2.webp",
     description: "Grey sanitary silicone is a waterproof, acetic-based sealant resistant to mould and fungi. Recommended for sealing in high humidity areas (bathrooms, kitchens, etc.), creating durable seals with excellent resistance.",
     placeholderLabel: "Silicone Tube",
   },
   {
     title: "K2 SCUBO PRO",
-    path: "/moto/melle-sp/product-3.png",
+    path: "/moto/melle-sp/product-3.webp",
     description: "K2 SCUBO PRO is a compact, double-sided cleaning pad that effectively removes dirt from glass surfaces, mirrors, and displays. Designed for lint-free, streak-free cleaning with maximum durability and ease of use in professional detailing.",
     placeholderLabel: "Scubo Pad",
   },
   {
     title: "K2 07 DISPLAY SET",
-    path: "/moto/melle-sp/product-4.png",
+    path: "/moto/melle-sp/product-4.webp",
     description: "The K2 07 cardboard display is a ready-made merchandising solution that allows for attractive, high-visibility presentation of K2 products in retail stores, gas stations, or workshops, boosting sales and promoting brand awareness.",
     placeholderLabel: "07 Display",
   },

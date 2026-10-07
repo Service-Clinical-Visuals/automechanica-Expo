@@ -14,7 +14,7 @@ const Consultation = () => {
           {/* Left Image */}
           <div className="relative rounded-2xl overflow-hidden shadow-lg w-full xl:w-[42%] xl:flex-[677] aspect-[677/460]">
             <img
-              src="/moto/ampro/s1.png"
+              src="/moto/ampro/s1.webp"
               alt="Consultation meeting"
               className="absolute inset-0 w-full h-full object-cover z-0"
             />
@@ -27,7 +27,7 @@ const Consultation = () => {
 
             {/* Background Image */}
             <img
-              src="/moto/ampro/bgg.png"
+              src="/moto/ampro/bgg.webp"
               alt="Card Background"
               className="absolute inset-0 w-full h-full object-cover z-0"
             />
@@ -70,7 +70,7 @@ const Consultation = () => {
           {/* Right Image */}
           <div className="relative rounded-2xl overflow-hidden shadow-lg w-full xl:w-[42%] xl:flex-[677] aspect-[677/460]">
             <img
-              src="/moto/ampro/s2.png"
+              src="/moto/ampro/s2.webp"
               alt="NOx Sensor Packaging"
               className="absolute inset-0 w-full h-full object-cover z-0"
             />

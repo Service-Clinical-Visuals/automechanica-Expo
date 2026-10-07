@@ -54,7 +54,7 @@ export default function ProductRange() {
         "Brake pads are key vehicle components that slow a car by creating friction against the brake disc, converting kinetic energy into heat for safe deceleration. Their performance depends on material composition, which influences braking efficiency, heat resistance, dust, noise, durability, and overall driving comfort.",
       buttonText: "View Brake Pads",
       buttonHref: "#brake-pads",
-      img: "/moto/ctr/break-pad.png",
+      img: "/moto/ctr/break-pad.webp",
       features: [
         {
           icon: ShieldCheck,
@@ -87,7 +87,7 @@ export default function ProductRange() {
         "Shock absorbers control and stabilize spring movement by absorbing driving impacts and limiting the continuous compression and expansion of springs under force, thereby improving ride comfort and vehicle stability. They achieve this by regulating spring motion through resistance created as hydraulic fluid passes through precision valves.",
       buttonText: "View Shock Absorber & Strut",
       buttonHref: "#suspension",
-      img: "/moto/ctr/suspension.png",
+      img: "/moto/ctr/suspension.webp",
       features: [
         {
           icon: ShieldCheck,
@@ -120,7 +120,7 @@ export default function ProductRange() {
         "The tie rod assembly connects the steering knuckle to the rack end, transmitting steering input from the rack to the wheels for precise vehicle control, and is designed with ball joints on both ends to ensure flexible movement and smooth power transmission even when the vehicle body is inclined, delivering reliable steering performance.",
       buttonText: "View Tie Rod End",
       buttonHref: "#steering",
-      img: "/moto/ctr/strrring.png",
+      img: "/moto/ctr/strrring.webp",
       features: [
         {
           icon: ShieldCheck,

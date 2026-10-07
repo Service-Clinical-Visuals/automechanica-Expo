@@ -31,7 +31,7 @@ export default function Footer() {
           {/* Col 1: Logo & Info */}
           <div className="lg:col-span-3 flex flex-col gap-4">
             <img
-              src="/moto/meyle/footer-logo.png"
+              src="/moto/meyle/footer-logo.webp"
               alt="MEYLE Logo"
               className="h-[90%] object-contain object-left w-max brightness-0 invert mb-2"
             />

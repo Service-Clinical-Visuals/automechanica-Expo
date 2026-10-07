@@ -38,7 +38,7 @@ export default function Footer() {
           <div className="flex flex-col gap-6 col-span-2 md:col-span-1" data-aos="fade-up" data-aos-delay="0">
             <Link href="/denckermann">
            
-              <img src="/moto/denckermann/logo1.png"
+              <img src="/moto/denckermann/logo1.webp"
                 alt="Denckermann Logo"
                 className="object-contain w-[200px] md:w-[250px] xl:w-[300px] max-w-full"
                 />
@@ -47,7 +47,7 @@ export default function Footer() {
             <div className="flex items-start gap-4 mt-4">
               <div className="flex-shrink-0 mt-1">
                
-                <img src="/moto/denckermann/location.png"
+                <img src="/moto/denckermann/location.webp"
                   alt="Location"
                   className="object-contain w-[25px] "
                   />
@@ -64,16 +64,16 @@ export default function Footer() {
             {/* Social Icons */}
             <div className="flex items-center gap-3 mt-4">
               <Link href="#" className=" transition-opacity">
-                <img src="/moto/denckermann/fb.png" alt="Facebook" className="object-contain hover:scale-110 transition-opacity" />
+                <img src="/moto/denckermann/fb.webp" alt="Facebook" className="object-contain hover:scale-110 transition-opacity" />
               </Link>
               <Link href="#" className=" transition-opacity">
-                <img src="/moto/denckermann/insta.png" alt="Instagram" className="object-contain hover:scale-110" />
+                <img src="/moto/denckermann/insta.webp" alt="Instagram" className="object-contain hover:scale-110" />
               </Link>
               <Link href="#" className="transition-opacity">
-                <img src="/moto/denckermann/in.png" alt="LinkedIn" className="object-contain hover:scale-110" />
+                <img src="/moto/denckermann/in.webp" alt="LinkedIn" className="object-contain hover:scale-110" />
               </Link>
               <Link href="#" className="transition-opacity">
-                <img src="/moto/denckermann/you.png" alt="YouTube" className="object-contain hover:scale-110" />
+                <img src="/moto/denckermann/you.webp" alt="YouTube" className="object-contain hover:scale-110" />
               </Link>
             </div>
           </div>

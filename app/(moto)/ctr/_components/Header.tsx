@@ -44,7 +44,7 @@ export default function Header() {
         {/* CTR Logo */}
         <Link href="#" className="flex-shrink-0 inline-flex items-center select-none h-7 sm:h-9 md:h-10 w-auto">
           <img
-            src="/moto/ctr/ctr-logo.png"
+            src="/moto/ctr/ctr-logo.webp"
             alt="CTR Logo"
             className="h-full w-auto object-contain"
           />

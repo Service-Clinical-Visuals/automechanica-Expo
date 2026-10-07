@@ -50,7 +50,7 @@ export default function Header() {
       <div className={`custom-container bg-[#101010] relative p-3 md:p-5 flex items-center justify-between py-4 ${headerState === 'top' ? 'lg:bg-transparent' : ''}`}>
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 z-50">
-          <img src="/moto/eurocams/icon.png" alt="Eurocams" className="h-8 md:h-10 xl:h-12 w-auto object-contain" />
+          <img src="/moto/eurocams/icon.webp" alt="Eurocams" className="h-8 md:h-10 xl:h-12 w-auto object-contain" />
         </Link>
 
         {/* Desktop Nav */}

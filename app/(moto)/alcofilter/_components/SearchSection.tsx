@@ -14,7 +14,7 @@ export default function SearchSection() {
           {/* Logo Area */}
           <div className="flex-shrink-0 rounded-2xl flex justify-center lg:justify-start items-center w-full lg:w-auto mb-6 lg:mb-0" data-aos="fade-right">
             <img 
-              src="/moto/alcofilter/icon.png" 
+              src="/moto/alcofilter/icon.webp" 
               alt="ALCO Logo" 
               className="w-[250px] md:w-[350px] xl:w-[450px] h-auto object-contain brightness-0 invert" 
             />
@@ -54,13 +54,13 @@ export default function SearchSection() {
               
                 <div className="relative group">
                   <div className="absolute inset-y-0 left-0 flex items-center pl-6 pointer-events-none text-white ">
-                    <img src="/moto/alcofilter/1.png" alt="Icon" className="w-6 h-6 object-contain " />
+                    <img src="/moto/alcofilter/1.webp" alt="Icon" className="w-6 h-6 object-contain " />
                   </div>
                   <div className="w-full bg-transparent border border-gray-400 text-white rounded-lg py-3 pl-16 pr-10 hover:border-white transition-colors outfit-font section-text-2 font-normal flex items-center cursor-pointer">
                     Choose Manufacturer
                   </div>
                   <div className="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none text-white ">
-                    <img src="/moto/alcofilter/dwnarrow.png" alt="Dropdown" className="w-[20px] h-auto " />
+                    <img src="/moto/alcofilter/dwnarrow.webp" alt="Dropdown" className="w-[20px] h-auto " />
                   </div>
                 </div>
 
@@ -68,26 +68,26 @@ export default function SearchSection() {
               
                  <div className="relative group">
                   <div className="absolute inset-y-0 left-0 flex items-center pl-6 pointer-events-none text-white ">
-                    <img src="/moto/alcofilter/2.png" alt="Icon" className="w-6 h-6 object-contain " />
+                    <img src="/moto/alcofilter/2.webp" alt="Icon" className="w-6 h-6 object-contain " />
                   </div>
                   <div className="w-full bg-transparent border border-gray-400 text-white rounded-lg py-3 pl-16 pr-10 hover:border-white transition-colors outfit-font section-text-2 font-normal flex items-center cursor-pointer">
                     Choose Model
                   </div>
                   <div className="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none text-white ">
-                    <img src="/moto/alcofilter/dwnarrow.png" alt="Dropdown" className="w-[20px] h-auto " />
+                    <img src="/moto/alcofilter/dwnarrow.webp" alt="Dropdown" className="w-[20px] h-auto " />
                   </div>
                 </div>
 
                 {/* Motor */}
                 <div className="relative group">
                   <div className="absolute inset-y-0 left-0 flex items-center pl-6 pointer-events-none text-white ">
-                    <img src="/moto/alcofilter/3.png" alt="Icon" className="w-6 h-6 object-contain " />
+                    <img src="/moto/alcofilter/3.webp" alt="Icon" className="w-6 h-6 object-contain " />
                   </div>
                   <div className="w-full bg-transparent border border-gray-400 text-white rounded-lg py-3 pl-16 pr-10 hover:border-white transition-colors outfit-font section-text-2 font-normal flex items-center cursor-pointer">
                     Choose Motor
                   </div>
                   <div className="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none text-white ">
-                    <img src="/moto/alcofilter/dwnarrow.png" alt="Dropdown" className="w-[20px] h-auto " />
+                    <img src="/moto/alcofilter/dwnarrow.webp" alt="Dropdown" className="w-[20px] h-auto " />
                   </div>
                 </div>
               </div>

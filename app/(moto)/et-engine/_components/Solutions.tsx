@@ -14,25 +14,25 @@ export default function Solutions() {
 
   const categoryData: Record<string, { title: string, img: string }[]> = {
     "Camshaft": [
-      { title: "HV0495 Et Engineteam", img: "/moto/et-engine/frames/frame1-1.png" },
-      { title: "hv0455vr1 et engineteam", img: "/moto/et-engine/frames/frame1-2.png" },
-      { title: "hv0497 et engineteam", img: "/moto/et-engine/frames/frame1-3.png" },
-      { title: "hv0498 et engineteam", img: "/moto/et-engine/frames/frame1-4.png" },
+      { title: "HV0495 Et Engineteam", img: "/moto/et-engine/frames/frame1-1.webp" },
+      { title: "hv0455vr1 et engineteam", img: "/moto/et-engine/frames/frame1-2.webp" },
+      { title: "hv0497 et engineteam", img: "/moto/et-engine/frames/frame1-3.webp" },
+      { title: "hv0498 et engineteam", img: "/moto/et-engine/frames/frame1-4.webp" },
     ],
     "Cylinder Heads": [
-      { title: "RV0068 Et Engineteam", img: "/moto/et-engine/frames/frame2-1.png" },
-      { title: "RV0070 Et Engineteam", img: "/moto/et-engine/frames/frame2-2.png" },
-      { title: "HL0152 Et Engineteam", img: "/moto/et-engine/frames/frame2-3.png" },
-      { title: "RV0058 Et Engineteam", img: "/moto/et-engine/frames/frame2-4.png" },
+      { title: "RV0068 Et Engineteam", img: "/moto/et-engine/frames/frame2-1.webp" },
+      { title: "RV0070 Et Engineteam", img: "/moto/et-engine/frames/frame2-2.webp" },
+      { title: "HL0152 Et Engineteam", img: "/moto/et-engine/frames/frame2-3.webp" },
+      { title: "RV0058 Et Engineteam", img: "/moto/et-engine/frames/frame2-4.webp" },
     ],
     "Valves": [
-      { title: "VS0002vr1 Et Engineteam", img: "/moto/et-engine/frames/frame3-1.png" },
-      { title: "VI0197 Et Engineteam", img: "/moto/et-engine/frames/frame3-2.png" },
-      { title: "VE0198 Et Engineteam", img: "/moto/et-engine/frames/frame3-3.png" },
-      { title: "VG0008 Et Engineteam", img: "/moto/et-engine/frames/frame3-4.png" },
+      { title: "VS0002vr1 Et Engineteam", img: "/moto/et-engine/frames/frame3-1.webp" },
+      { title: "VI0197 Et Engineteam", img: "/moto/et-engine/frames/frame3-2.webp" },
+      { title: "VE0198 Et Engineteam", img: "/moto/et-engine/frames/frame3-3.webp" },
+      { title: "VG0008 Et Engineteam", img: "/moto/et-engine/frames/frame3-4.webp" },
     ],
     "Hydraulic tappet": [
-      { title: "VS0002vr1 Et Engineteam", img: "/moto/et-engine/frames/frame4-1.png" }
+      { title: "VS0002vr1 Et Engineteam", img: "/moto/et-engine/frames/frame4-1.webp" }
     ]
   };
 

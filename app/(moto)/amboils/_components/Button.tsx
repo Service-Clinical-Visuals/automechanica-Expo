@@ -20,7 +20,7 @@ export default function Button({ children, href, className = '', onClick, varian
           </span>
         </div>
         <div className="w-[46px] md:w-[40px] h-[46px] md:h-[40px] bg-[#C99843] rounded-full border-[2px] border-white flex items-center justify-center -ml-[23px] md:-ml-[15px] z-20 transition-transform duration-300 group-hover:translate-x-1 relative">
-          <img src="/moto/amboils/bt2.png" alt="arrow" className="w-[8px] md:w-[10px] h-auto object-contain ml-[2px]" />
+          <img src="/moto/amboils/bt2.webp" alt="arrow" className="w-[8px] md:w-[10px] h-auto object-contain ml-[2px]" />
         </div>
       </div>
     );
@@ -38,7 +38,7 @@ export default function Button({ children, href, className = '', onClick, varian
         <span className="teko-font text-white btn-text font-semibold tracking-wide pt-1">
           {children}
         </span>
-        <img src="/moto/amboils/bt1.png" alt="arrow" className="w-[12px] md:w-[14px] h-auto object-contain transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
+        <img src="/moto/amboils/bt1.webp" alt="arrow" className="w-[12px] md:w-[14px] h-auto object-contain transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
       </div>
     </div>
   );

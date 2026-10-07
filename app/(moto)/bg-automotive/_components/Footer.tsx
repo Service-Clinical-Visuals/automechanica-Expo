@@ -15,23 +15,23 @@ export default function Footer() {
           <div className="flex flex-col gap-6 xl:col-span-3" data-aos="fade-up">
             <Link href="/" className="inline-block">
               {/* Note: Update the src below if the logo file name is different */}
-              <img src="/moto/bg-automotive/Logo 2.png" alt="BGA Logo" className="w-[280px] h-auto object-contain" />
+              <img src="/moto/bg-automotive/Logo 2.webp" alt="BGA Logo" className="w-[280px] h-auto object-contain" />
             </Link>
             <Typography variant="p" className="max-w-[330px] leading-relaxed text-[15px] text-[#CCCCCC]">
               BGA is a leading British supplier with 95 years of OEM heritage, delivering premium Engine and Steering parts that are engineered and tested in the UK to meet or exceed OE quality standards.
             </Typography>
             <div className="flex items-center gap-4 mt-2">
               <Link href="#" className="hover:opacity-75 transition-opacity">
-                <img src="/moto/bg-automotive/fb.png" alt="Facebook" className="w-auto h-auto object-contain" />
+                <img src="/moto/bg-automotive/fb.webp" alt="Facebook" className="w-auto h-auto object-contain" />
               </Link>
               <Link href="#" className="hover:opacity-75 transition-opacity">
-                <img src="/moto/bg-automotive/twitter.png" alt="Twitter" className="w-auto h-auto object-contain" />
+                <img src="/moto/bg-automotive/twitter.webp" alt="Twitter" className="w-auto h-auto object-contain" />
               </Link>
               <Link href="#" className="hover:opacity-75 transition-opacity">
-                <img src="/moto/bg-automotive/linkedin.png" alt="LinkedIn" className="w-auto h-auto object-contain" />
+                <img src="/moto/bg-automotive/linkedin.webp" alt="LinkedIn" className="w-auto h-auto object-contain" />
               </Link>
               <Link href="#" className="hover:opacity-75 transition-opacity">
-                <img src="/moto/bg-automotive/insta.png" alt="Instagram" className="w-auto h-auto object-contain" />
+                <img src="/moto/bg-automotive/insta.webp" alt="Instagram" className="w-auto h-auto object-contain" />
               </Link>
             </div>
           </div>

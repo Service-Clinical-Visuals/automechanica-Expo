@@ -9,7 +9,7 @@ export default function Footer() {
         <div data-aos="fade-up" className="flex justify-center mb-14">
           <div></div>
           <Image
-            src="/moto/gand-oil/logo2.png"
+            src="/moto/gand-oil/logo2.webp"
             alt="Gand Oil"
             width={220}
             height={60}

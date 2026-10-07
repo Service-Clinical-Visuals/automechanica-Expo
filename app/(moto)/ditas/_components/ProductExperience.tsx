@@ -6,7 +6,7 @@ export default function ProductExperience() {
   return (
     <section className="relative w-full h-auto md:h-auto xl:h-[1000px] pt-24 pb-16 md:pt-28 md:pb-20 xl:pt-32 xl:pb-24 overflow-hidden flex items-center">
       <img
-        src="/moto/ditas/bg.png"
+        src="/moto/ditas/bg.webp"
         alt=""
         className="absolute inset-0 w-full h-full object-cover z-0 pointer-events-none"
       />

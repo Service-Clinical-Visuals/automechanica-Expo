@@ -11,14 +11,14 @@ import "swiper/css/pagination";
 export default function StayUpdated() {
   const cards = [
     {
-      img: "/moto/autocam/update1.png",
+      img: "/moto/autocam/update1.webp",
       title: "Release 2026.07 Highlights",
       date: "7/2/2026",
       category: "Release highlights",
       desc: "A new, big update is here.We are happy to announce that both Abarth and Hyundai are now added to Secure Gateway."
     },
     {
-      img: "/moto/autocam/update2.png",
+      img: "/moto/autocam/update2.webp",
       title: "Get 35% Discount On ICON!",
       date: "5/7/2026",
       category: "Other",

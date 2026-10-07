@@ -9,7 +9,7 @@ export default function About() {
         {/* Left: image */}
         <div className="w-full lg:w-[48%] shrink-0" data-aos="fade-right">
           <img
-            src="/moto/chemnaft/about.png"
+            src="/moto/chemnaft/about.webp"
             alt="Qualitium Motor Oil catalogue"
             className="w-full h-auto object-cover"
           />

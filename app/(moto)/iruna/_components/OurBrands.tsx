@@ -29,14 +29,14 @@ export default function OurBrands() {
           <div className="grid grid-cols-1 xl:grid-cols-12 items-center  gap-4 lg:gap-8">
             {/* Left Image (Spans 5 Columns) */}
             <div className="xl:col-span-5  overflow-hidden z-0" data-aos="fade-right">
-              <img src="/moto/iruna/brand3.png" alt="Lab Testing Facility" className="w-full h-full object-contain" />
+              <img src="/moto/iruna/brand3.webp" alt="Lab Testing Facility" className="w-full h-full object-contain" />
             </div>
             
             {/* Right Card (Spans 7 Columns, negative margin for overlap) */}
             <div className="xl:col-span-7 z-10 mt-[-20px] xl:mt-0 " data-aos="fade-left">
               <div className="w-full border-[1px] md:border-[1.5px] border-[#e78596] bg-white p-4 lg:p-6 flex flex-col sm:flex-row items-center gap-4 lg:gap-5 shadow-[0_5px_20px_rgba(0,0,0,0.08)]">
                 <div className="w-full sm:w-[30%] flex justify-center shrink-0">
-                  <img src="/moto/iruna/brand1.png" alt="Iruna Logo" className="w-full max-w-[160px] lg:max-w-[180px] object-contain" />
+                  <img src="/moto/iruna/brand1.webp" alt="Iruna Logo" className="w-full max-w-[160px] lg:max-w-[180px] object-contain" />
                 </div>
                 <div className="w-full sm:w-[70%]">
                   <p className="sora text-[#484848] section-text leading-[1.8] text-center sm:text-left">
@@ -53,7 +53,7 @@ export default function OurBrands() {
             <div className="xl:col-span-7 z-10 mt-[-20px] xl:mt-0 order-2 xl:order-1" data-aos="fade-right">
               <div className="w-full border-[1px] md:border-[1.5px] border-[#e78596] bg-white p-4 lg:p-6 flex flex-col sm:flex-row items-center gap-4 lg:gap-5 shadow-[0_5px_20px_rgba(0,0,0,0.08)]">
                 <div className="w-full sm:w-[30%] flex justify-center shrink-0">
-                  <img src="/moto/iruna/brand2.png" alt="St ib Logo" className="w-full max-w-[140px] lg:max-w-[160px] object-contain" />
+                  <img src="/moto/iruna/brand2.webp" alt="St ib Logo" className="w-full max-w-[140px] lg:max-w-[160px] object-contain" />
                 </div>
                 <div className="w-full sm:w-[70%]">
                   <p className="sora text-[#484848] section-text leading-[1.8] text-center sm:text-left">
@@ -65,7 +65,7 @@ export default function OurBrands() {
             
             {/* Right Image (Spans 5 Columns) */}
             <div className="xl:col-span-5  overflow-hidden z-0 order-1 xl:order-2" data-aos="fade-left">
-              <img src="/moto/iruna/brand4.png" alt="Product Warehouse" className="w-full h-full object-contain" />
+              <img src="/moto/iruna/brand4.webp" alt="Product Warehouse" className="w-full h-full object-contain" />
             </div>
           </div>
 

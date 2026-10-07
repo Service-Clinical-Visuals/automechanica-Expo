@@ -6,7 +6,7 @@ import { MapPin, Phone, Mail, ArrowUpRight, Facebook, Twitter, Instagram, Linked
 
 export default function Footer() {
   return (
-    <footer className="bg-[url('/moto/badenex/footer-bg.png')] bg-cover bg-center relative overflow-hidden text-white">
+    <footer className="bg-[url('/moto/badenex/footer-bg.webp')] bg-cover bg-center relative overflow-hidden text-white">
       {/* Background Pattern */}
       <div className="absolute inset-0 z-0 opacity-10 bg-[url('/moto/sigam/bg.png')] bg-repeat bg-center"></div>
 
@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="xl:col-span-4 flex flex-col gap-6" data-aos="fade-up">
             <Link href="#" className="flex items-center">
               <img
-                src="/moto/badenex/logo.png"
+                src="/moto/badenex/logo.webp"
                 alt="Explorlube Logo"
                 className="w-[150px] min-[2560px]:w-[200px] min-[3800px]:w-[300px] h-auto object-contain"
               />

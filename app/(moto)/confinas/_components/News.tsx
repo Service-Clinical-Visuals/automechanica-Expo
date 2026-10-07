@@ -11,25 +11,25 @@ const News = () => {
   
   const newsData = [
     {
-      img: "/moto/confinas/news1.png",
+      img: "/moto/confinas/news1.webp",
       title: "FULBAT at Interclean Show: Battery Solutions for Cleaning Professionals",
       desc: "FULBAT was proud to take part in the Interclean Show this year, where our team showcased dedicated battery solutions for floor cleaning equipment. Throughout the event, we highlighted the key priorities of cleaning professionals: performance, reliability, and durability..............",
       link: "#"
     },
     {
-      img: "/moto/confinas/news2.png",
+      img: "/moto/confinas/news2.webp",
       title: "RENEWED PARTNERSHIP 2026: TEAM GO ELEVEN X FULBAT",
       desc: "We are thrilled to announce the renewal of our technical partnership with Team Go Eleven for the 2026 World Superbike Championship (WSBK) season. This long-standing collaboration fully reflects our commitment to innovation, performance, and excellence in motorsport............",
       link: "#"
     },
     {
-      img: "/moto/confinas/news3.png",
+      img: "/moto/confinas/news3.webp",
       title: "FULBAT Powers Up New Solar Energy Storage Initiative",
       desc: "FULBAT is expanding its footprint in the renewable energy sector with a new lineup of deep cycle batteries designed specifically for solar energy storage systems. Our latest technology ensures maximum efficiency and long-lasting power retention for off-grid applications........",
       link: "#"
     },
     {
-      img: "/moto/confinas/news4.png",
+      img: "/moto/confinas/news4.webp",
       title: "Innovative AGM Technology: The Future of Motive Power",
       desc: "Discover how FULBAT's advanced AGM carbon technology is revolutionizing the motive power industry. By drastically reducing charging times and extending overall cycle life, our new AGM series provides unmatched reliability for heavy-duty industrial vehicles...........",
       link: "#"

@@ -12,19 +12,19 @@ const manufacturingProducts = [
     id: 1,
     title: "Motor supports",
     desc: "Precision HPDC components designed for high-volume automotive production.",
-    img: "/moto/amc-amadeo/1.png"
+    img: "/moto/amc-amadeo/1.webp"
   },
   {
     id: 2,
     title: "Head covers",
     desc: "Gravity Casting and HPDC components for OE production.",
-    img: "/moto/amc-amadeo/2.png"
+    img: "/moto/amc-amadeo/2.webp"
   },
   {
     id: 3,
     title: "Intake manifold",
     desc: "Designed for prototype and mid-volume production.",
-    img: "/moto/amc-amadeo/3.png"
+    img: "/moto/amc-amadeo/3.webp"
   }
 ];
 
@@ -33,19 +33,19 @@ const aftermarketProducts = [
     id: 4,
     title: "Aluminium diesel cylinder head",
     desc: "OE-quality aluminum cylinder heads for reliable engine performance.",
-    img: "/moto/amc-amadeo/4.png"
+    img: "/moto/amc-amadeo/4.webp"
   },
   {
     id: 5,
     title: "Particle filters",
     desc: "OE-quality, high-efficiency filters with advanced manufacturing.",
-    img: "/moto/amc-amadeo/5.png"
+    img: "/moto/amc-amadeo/5.webp"
   },
   {
     id: 6,
     title: "Camshaft kit",
     desc: "Camshaft kits for reliable diesel and petrol engine performance.",
-    img: "/moto/amc-amadeo/6.png"
+    img: "/moto/amc-amadeo/6.webp"
   }
 ];
 

@@ -38,7 +38,7 @@ export default function Performance() {
         {/* We use an img tag inside a relative block because Image with fill can be tricky without relative parent */}
         <div className="absolute inset-0 w-full h-full">
            <img 
-            src="/moto/atq/bg.png"
+            src="/moto/atq/bg.webp"
             alt="ATQ Lubricants"
             className="w-full h-full object-cover object-center xl:object-left"
           />

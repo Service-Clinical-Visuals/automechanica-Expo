@@ -42,7 +42,7 @@ export default function About() {
           data-aos-delay="200"
         >
           <img 
-            src="/moto/kalebalata/abt.jpg" 
+            src="/moto/kalebalata/abt.webp" 
             alt="Kale Balata Factory" 
             className="w-full h-auto object-cover"
           />

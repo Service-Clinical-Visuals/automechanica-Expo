@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="xl:col-span-3 flex flex-col gap-6" data-aos="fade-up">
             <Link href="#" className="flex items-center gap-3">
               <img
-                src="/moto/gema-oils/logo.png"
+                src="/moto/gema-oils/logo.webp"
                 alt="Gema Oils Logo"
                 className="w-[180px] h-auto object-contain"
               />
@@ -25,16 +25,16 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-5 mt-2">
               <Link href="#" className="hover:-translate-y-1 transition-transform">
-                <img src="/moto/gema-oils/fb.png" alt="Social" className="w-auto h-auto object-contain" />
+                <img src="/moto/gema-oils/fb.webp" alt="Social" className="w-auto h-auto object-contain" />
               </Link>
               <Link href="#" className="hover:-translate-y-1 transition-transform">
-                <img src="/moto/gema-oils/twitter.png" alt="Twitter" className="w-auto h-auto object-contain" />
+                <img src="/moto/gema-oils/twitter.webp" alt="Twitter" className="w-auto h-auto object-contain" />
               </Link>
               <Link href="#" className="hover:-translate-y-1 transition-transform">
-                <img src="/moto/gema-oils/linked.png" alt="LinkedIn" className="w-auto h-auto object-contain" />
+                <img src="/moto/gema-oils/linked.webp" alt="LinkedIn" className="w-auto h-auto object-contain" />
               </Link>
               <Link href="#" className="hover:-translate-y-1 transition-transform">
-                <img src="/moto/gema-oils/insta.png" alt="Instagram" className="w-auto h-auto object-contain" />
+                <img src="/moto/gema-oils/insta.webp" alt="Instagram" className="w-auto h-auto object-contain" />
               </Link>
             </div>
           </div>

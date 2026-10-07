@@ -82,7 +82,7 @@ export default function PrecisionIgnition() {
                   {/* Text Content */}
                   <div className="relative z-10 py-4 pr-4 pl-[48px] lg:py-5 lg:pr-6 lg:pl-[64px] xl:pl-[48px] xl:py-4 2xl:pl-[64px] 2xl:py-5 flex items-start gap-2 lg:gap-2 w-full">
                     <div className="flex-shrink-0 mt-0.5">
-                      <img src="/moto/bremi/check.png" alt="Check" className="w-5 h-5 lg:w-7 lg:h-7 xl:w-7 xl:h-7 2xl:w-8 2xl:h-8 object-contain" />
+                      <img src="/moto/bremi/check.webp" alt="Check" className="w-5 h-5 lg:w-7 lg:h-7 xl:w-7 xl:h-7 2xl:w-8 2xl:h-8 object-contain" />
                     </div>
                     <p className="section-text text-[#4c4c4c] leading-[1.6]">
                       {feature.title} – {feature.desc}
@@ -122,7 +122,7 @@ export default function PrecisionIgnition() {
               {/* Text Content */}
               <div className="relative z-10 py-4 pr-4 pl-[48px] flex items-start gap-2 w-full">
                 <div className="flex-shrink-0 mt-0.5">
-                  <img src="/moto/bremi/check.png" alt="Check" className="w-5 h-5 xl:w-7 xl:h-7 object-contain" />
+                  <img src="/moto/bremi/check.webp" alt="Check" className="w-5 h-5 xl:w-7 xl:h-7 object-contain" />
                 </div>
                 <p className="section-text text-[#4c4c4c] leading-[1.6]">
                   <span >{feature.title}</span> – {feature.desc}

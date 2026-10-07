@@ -34,7 +34,7 @@ const AboutUs = () => {
         {/* Image */}
         <div className="order-4 xl:col-start-1 xl:col-span-6 xl:row-start-1 xl:row-span-4 w-full h-full mt-4 xl:mt-0" data-aos="fade-right">
           <img
-            src="/moto/nuova/section2.png"
+            src="/moto/nuova/section2.webp"
             alt="Innovation Journey"
             className="w-full rounded-2xl object-cover h-full min-h-[300px] shadow-lg"
           />
@@ -46,7 +46,7 @@ const AboutUs = () => {
           {/* Card 1 */}
           <div className="flex items-center gap-4 bg-white border border-gray-100 shadow-sm p-4 sm:p-6 rounded-lg w-full max-w-[390px] min-h-[109px] min-[3800px]:max-w-[780px] min-[3800px]:min-h-[218px] mx-auto xl:mx-0">
             <div className="w-18 h-18 min-[3800px]:w-[180px] min-[3800px]:h-[180px] bg-primary text-white rounded-full flex items-center justify-center shrink-0">
-              <img src="/moto/nuova/icon1.png" alt="Icon 1" className="w-10 h-10 min-[3800px]:w-[100px] min-[3800px]:h-[100px] object-contain" />
+              <img src="/moto/nuova/icon1.webp" alt="Icon 1" className="w-10 h-10 min-[3800px]:w-[100px] min-[3800px]:h-[100px] object-contain" />
             </div>
             <div className="flex flex-col gap-3">
               <Typography variant="h3" color="dark" className="font-bold leading-tight">
@@ -61,7 +61,7 @@ const AboutUs = () => {
           {/* Card 2 */}
           <div className="flex items-center gap-4 bg-white border border-gray-100 shadow-sm p-4 sm:p-6 rounded-lg w-full max-w-[390px] min-h-[109px] min-[3800px]:max-w-[780px] min-[3800px]:min-h-[218px] mx-auto xl:mx-0">
             <div className="w-18 h-18 min-[3800px]:w-[180px] min-[3800px]:h-[180px] bg-primary text-white rounded-full flex items-center justify-center shrink-0">
-              <img src="/moto/nuova/icon2.png" alt="Icon 2" className="w-10 h-10 min-[3800px]:w-[100px] min-[3800px]:h-[100px] object-contain" />
+              <img src="/moto/nuova/icon2.webp" alt="Icon 2" className="w-10 h-10 min-[3800px]:w-[100px] min-[3800px]:h-[100px] object-contain" />
             </div>
             <div className="flex flex-col gap-3">
               <Typography variant="h3" color="dark" className="font-bold leading-tight">
@@ -76,7 +76,7 @@ const AboutUs = () => {
           {/* Card 3 */}
           <div className="flex items-center gap-4 bg-white border border-gray-100 shadow-sm p-4 sm:p-6 rounded-lg w-full max-w-[390px] min-h-[109px] min-[3800px]:max-w-[780px] min-[3800px]:min-h-[218px] mx-auto xl:mx-0">
             <div className="w-18 h-18 min-[3800px]:w-[180px] min-[3800px]:h-[180px] bg-primary text-white rounded-full flex items-center justify-center shrink-0">
-              <img src="/moto/nuova/icon3.png" alt="Icon 3" className="w-10 h-10 min-[3800px]:w-[100px] min-[3800px]:h-[100px] object-contain" />
+              <img src="/moto/nuova/icon3.webp" alt="Icon 3" className="w-10 h-10 min-[3800px]:w-[100px] min-[3800px]:h-[100px] object-contain" />
             </div>
             <div className="flex flex-col gap-3">
               <Typography variant="h3" color="dark" className="font-bold leading-tight">
@@ -91,7 +91,7 @@ const AboutUs = () => {
           {/* Card 4 */}
           <div className="flex items-center gap-4 bg-white border border-gray-100 shadow-sm p-4 sm:p-6 rounded-lg w-full max-w-[390px] min-h-[109px] min-[3800px]:max-w-[780px] min-[3800px]:min-h-[218px] mx-auto xl:mx-0">
             <div className="w-18 h-18 min-[3800px]:w-[180px] min-[3800px]:h-[180px] bg-primary text-white rounded-full flex items-center justify-center shrink-0">
-              <img src="/moto/nuova/icon4.png" alt="Icon 4" className="w-10 h-10 min-[3800px]:w-[100px] min-[3800px]:h-[100px] object-contain" />
+              <img src="/moto/nuova/icon4.webp" alt="Icon 4" className="w-10 h-10 min-[3800px]:w-[100px] min-[3800px]:h-[100px] object-contain" />
             </div>
             <div className="flex flex-col gap-3">
               <Typography variant="h3" color="dark" className="font-bold leading-tight">

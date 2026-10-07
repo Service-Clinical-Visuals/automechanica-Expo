@@ -11,7 +11,7 @@ export default function Footer() {
 
           {/* Logo & Description */}
           <div className="lg:col-span-1 flex flex-col items-start">
-            <img src="/moto/eldons/logo.png" alt="Eldon's Logo" className="w-[200px] [@media(min-width:2500px)]:w-[280px] [@media(min-width:3800px)]:w-[360px] mb-6" />
+            <img src="/moto/eldons/logo.webp" alt="Eldon's Logo" className="w-[200px] [@media(min-width:2500px)]:w-[280px] [@media(min-width:3800px)]:w-[360px] mb-6" />
             <Typography variant="p" color="muted" className="footer-body leading-relaxed">
               Since 1975, ELDON'S has delivered premium lubricants and specialty fluids, trusted worldwide for quality, reliability, and performance.
             </Typography>

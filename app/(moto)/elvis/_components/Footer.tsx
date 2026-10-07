@@ -16,7 +16,7 @@ export default function Footer() {
           {/* Column 1: Logo & Description */}
           <div className="flex flex-col gap-6 lg:col-span-4 lg:pr-8" data-aos="fade-up" data-aos-delay="100">
              <Link href="#" className="w-full">
-               <img src="/moto/elvis/logo.png" alt="Elwis Royal Logo" className="w-[60%] sm:w-[50%] md:w-[60%] lg:w-[70%] h-auto object-contain object-left" />
+               <img src="/moto/elvis/logo.webp" alt="Elwis Royal Logo" className="w-[60%] sm:w-[50%] md:w-[60%] lg:w-[70%] h-auto object-contain object-left" />
              </Link>
              <p className="footer-body text-white mt-2 leading-relaxed ">
                Delivering OEM-quality sealing solutions and trusted gasket technology with decades of expertise, serving the global automotive aftermarket with reliability and precision.

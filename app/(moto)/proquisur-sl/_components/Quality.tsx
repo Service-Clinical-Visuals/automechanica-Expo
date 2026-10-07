@@ -9,19 +9,19 @@ export default function Quality() {
   const brands = [
     {
       logo: (
-        <img src="/moto/proquisur-sl/pro1.png" alt="DIMASOIL" className="h-auto w-auto object-contain" />
+        <img src="/moto/proquisur-sl/pro1.webp" alt="DIMASOIL" className="h-auto w-auto object-contain" />
       ),
       description: "Wide range of high performance lubricants for light, heavy and industrial vehicles.",
     },
     {
       logo: (
-        <img src="/moto/proquisur-sl/pro2.png" alt="arlo" className="h-auto w-auto object-contain" />
+        <img src="/moto/proquisur-sl/pro2.webp" alt="arlo" className="h-auto w-auto object-contain" />
       ),
       description: "Antifreezes & Refrigerants with IAT & OAT technology, maintenance and consumer products for the automotive industry",
     },
     {
       logo: (
-        <img src="/moto/proquisur-sl/pro3.png" alt="PRO" className="h-auto w-auto object-contain" />
+        <img src="/moto/proquisur-sl/pro3.webp" alt="PRO" className="h-auto w-auto object-contain" />
       ),
       description: "Wide range of technical products, additives and aerosols.",
     }

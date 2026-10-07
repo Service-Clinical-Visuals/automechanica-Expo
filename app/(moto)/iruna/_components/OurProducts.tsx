@@ -9,7 +9,7 @@ export default function OurProducts() {
     {
       title: "Master Cylinder",
       description: "Our Master Cylinder solutions are developed to deliver precision, reliability, and flexibility across a wide range of automotive applications. With extensive production capabilities, we offer a broad portfolio of Master Cylinders designed to meet both standard and specialized requirements. Our engineering team provides tailored designs and customization options, allowing existing products to be adapted based on customer specifications and vehicle demands.",
-      image: "/moto/iruna/pro1.png",
+      image: "/moto/iruna/pro1.webp",
       featuresTitle: "Why Choose Our Master Cylinder Solutions",
       features: [
         "Tailored made designs and option to adapt current products.",
@@ -22,7 +22,7 @@ export default function OurProducts() {
     {
       title: "Hydraulic Booster",
       description: "Our advanced hydraulic solutions are developed to support demanding applications with reliable operation, consistent performance, and long-term durability. Designed with a focus on engineering precision and manufacturing excellence, our products deliver efficient functionality across various operating environments while maintaining high standards of quality, safety, and customer satisfaction.",
-      image: "/moto/iruna/pro2.png",
+      image: "/moto/iruna/pro2.webp",
       featuresTitle: "Why Choose Our Hydraulic Booster Solutions",
       features: [
         "Wide range of Hydraulically Boosted actuators for construction and agriculture equipment.",
@@ -35,7 +35,7 @@ export default function OurProducts() {
     {
       title: "Power Brake Valve",
       description: "Developed through advanced engineering practices and supported by comprehensive manufacturing capabilities, each product focuses on delivering reliable operation, enhanced driving experience, and long-term durability. With a strong commitment to quality, innovation, and validated production processes, we provide solutions that meet evolving industry expectations across diverse automotive applications.",
-      image: "/moto/iruna/pro3.png",
+      image: "/moto/iruna/pro3.webp",
       featuresTitle: "Why Choose Our Power Brake Valve Solutions",
       features: [
         "Range of performance curves (Input Force / Output Pressure).",
@@ -48,7 +48,7 @@ export default function OurProducts() {
     {
       title: "Vacuum Booster",
       description: "Combining advanced engineering expertise with precision manufacturing, each solution is designed to deliver reliability, durability, and seamless integration with evolving vehicle requirements. Backed by strict quality standards and validated production processes, our products are built to provide dependable operation and long-term performance for modern mobility needs.",
-      image: "/moto/iruna/pro4.png",
+      image: "/moto/iruna/pro4.webp",
       featuresTitle: "Why Choose Our Vacuum Booster Solutions",
       features: [
         "Integrated Parking Brake, with automatic Pad Wear adjuster system, if required.",
@@ -147,7 +147,7 @@ export default function OurProducts() {
               <ul className="space-y-6 ">
                 {currentProduct.features.map((feature, idx) => (
                   <li key={`${currentProduct.title}-${idx}`} className="flex items-start gap-4 mb-6">
-                    <img src="/moto/iruna/brlwheel.png" alt="Icon" className="w-[18px] h-[18px] object-contain flex-shrink-0 mt-0.5" />
+                    <img src="/moto/iruna/brlwheel.webp" alt="Icon" className="w-[18px] h-[18px] object-contain flex-shrink-0 mt-0.5" />
                     <span className="sora text-[#484848] section-text leading-[1.6]">
                       {feature}
                     </span>

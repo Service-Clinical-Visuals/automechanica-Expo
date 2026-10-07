@@ -10,7 +10,7 @@ export default function CabinAirFilter() {
         {/* Title Section */}
         {/* <div className="flex flex-col items-center text-center mb-6" data-aos="fade-down">
           <div className="flex items-center gap-3">
-            <img src="/moto/mistral/Polygon.png" alt="" className="w-7 h-7 object-contain" />
+            <img src="/moto/mistral/Polygon.webp" alt="" className="w-7 h-7 object-contain" />
             <h2 className="section-title text-[#ffffff] font-medium tracking-wide">
               Andrea Campi Mistral – Cabin Air Filter
             </h2>

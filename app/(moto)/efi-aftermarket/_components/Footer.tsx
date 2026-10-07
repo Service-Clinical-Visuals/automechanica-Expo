@@ -13,7 +13,7 @@ const Footer = () => {
           {/* Column 1: Logo & Subscribe */}
           <div className="flex flex-col pr-0 xl:pr-8" data-aos="fade-up" data-aos-delay="0">
             <div className="mb-10">
-              <img src="/moto/efi-aftermarket/footer-logo.png" alt="EFI Aftermarket" className="h-[100px]  object-contain" />
+              <img src="/moto/efi-aftermarket/footer-logo.webp" alt="EFI Aftermarket" className="h-[100px]  object-contain" />
             </div>
 
             <div className="font-semibold footer-heading text-white mb-6 font-exo">

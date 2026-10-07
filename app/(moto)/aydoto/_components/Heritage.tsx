@@ -49,7 +49,7 @@ export default function Heritage() {
             data-aos-delay="100"
           >
             <img
-              src="/moto/aydoto/abt.jpg"
+              src="/moto/aydoto/abt.webp"
               alt="AYD Automotive Industry Facility"
               className="w-full h-auto object-cover hover:scale-[1.03] transition-transform duration-700 ease-out"
             />

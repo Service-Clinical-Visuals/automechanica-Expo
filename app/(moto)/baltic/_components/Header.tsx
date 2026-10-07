@@ -74,7 +74,7 @@ const Header = () => {
             {/* Logo Section */}
             <Link href="/" className="flex items-center shrink-0">
               <img
-                src="/moto/baltic/logo.png"
+                src="/moto/baltic/logo.webp"
                 alt="Logo"
                 className="h-10 sm:h-12 md:h-[15%] w-auto object-contain"
               />

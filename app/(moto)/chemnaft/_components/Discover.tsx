@@ -21,7 +21,7 @@ export default function Discover() {
             {/* Left: image */}
             <div className="w-full lg:w-1/2 shrink-0" data-aos="fade-right">
             <img
-                src="/moto/chemnaft/discover.png"
+                src="/moto/chemnaft/discover.webp"
                 alt="Engine factory"
                 className="w-full h-auto object-cover"
             />

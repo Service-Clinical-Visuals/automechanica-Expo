@@ -15,7 +15,7 @@ const Footer = () => {
           
           {/* Column 1: Logo & Desc */}
           <div className="flex flex-col gap-6 xl:col-span-3" data-aos="fade-up">
-            <img src="/moto/freccia/logo.png" alt="Freccia Logo" className="h-10 w-auto object-contain brightness-0 invert self-start" />
+            <img src="/moto/freccia/logo.webp" alt="Freccia Logo" className="h-10 w-auto object-contain brightness-0 invert self-start" />
             <p className="footer-body text-white">
               Freccia International is an Italian automotive manufacturer focused on valve train technology, producing OEM-quality components known for reliability, precision, and performance worldwide.
             </p>

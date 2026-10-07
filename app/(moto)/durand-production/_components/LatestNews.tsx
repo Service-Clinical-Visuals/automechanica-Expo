@@ -7,17 +7,17 @@ export default function LatestNews() {
     {
       id: 1,
       title: "Recap Of Log 'Indus - Harnes Express: A Day Of Career Exploration In Harnes!",
-      image: "/moto/durandProduction/news1.png"
+      image: "/moto/durandProduction/news1.webp"
     },
     {
       id: 2,
       title: "A Successful First Seminar For The Delight Of Our Clients!",
-      image: "/moto/durandProduction/news2.png"
+      image: "/moto/durandProduction/news2.webp"
     },
     {
       id: 3,
       title: "An Extraordinary Idea To Boost The Sales Of Our VALCO Products.",
-      image: "/moto/durandProduction/news3.png"
+      image: "/moto/durandProduction/news3.webp"
     }
   ];
 
@@ -73,12 +73,12 @@ export default function LatestNews() {
             {/* Top row: Image & Title */}
             <div className="flex flex-col sm:flex-row gap-6 mb-2 md:mb-2 xl:mb-4 ">
               <div className="w-full sm:w-[30%] xl:w-[25%] flex-shrink-0 border border-[#FF131C]">
-                <img src="/moto/durandProduction/news4.png" alt="EcoVadis Bronze Medal" className="w-full h-auto object-cover shadow-sm border border-gray-100" />
+                <img src="/moto/durandProduction/news4.webp" alt="EcoVadis Bronze Medal" className="w-full h-auto object-cover shadow-sm border border-gray-100" />
               </div>
               <div className="flex flex-col justify-start pt-2">
                  <h2 className="text-[#1a1a1a] text-2xl md:text-3xl lg:text-4xl heading font-medium tracking-wider leading-tight mb-2">
                   Durand Production Awarded The EcoVadis Bronze Medal!
-                  <img src="/moto/durandProduction/medal.png" alt="EcoVadis Bronze Medal" className="inline-block w-6 h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 ml-2 -mt-1 md:-mt-2 object-contain align-middle" />
+                  <img src="/moto/durandProduction/medal.webp" alt="EcoVadis Bronze Medal" className="inline-block w-6 h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 ml-2 -mt-1 md:-mt-2 object-contain align-middle" />
                 </h2>
                 <p className="text-[#4a4a4a] text-sm md:text-md paragraph leading-[1.8] font-medium">30 Jan</p>
               </div>

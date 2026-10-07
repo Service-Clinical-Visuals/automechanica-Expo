@@ -17,7 +17,7 @@ export default function Racing() {
           <div className="w-full xl:w-3/4 min-h-[300px] xl:min-h-full order-2 xl:order-1" data-aos="fade-right">
             <div className="w-full h-full  overflow-hidden bg-[#1a1a1a]">
               <img
-                src="/moto/mapetrol/section4.png"
+                src="/moto/mapetrol/section4.webp"
                 alt="Mapetrol & Lema Racing"
                 className="w-full h-full object-cover"
               />

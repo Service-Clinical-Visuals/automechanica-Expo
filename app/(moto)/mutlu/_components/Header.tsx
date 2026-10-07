@@ -52,7 +52,7 @@ export default function Header() {
 
         <div className="flex-shrink-0 flex items-center w-[40%] sm:w-[30%] md:w-[20%] lg:w-[15%] 2xl:w-[12%] min-[2500px]:w-[10%] min-[3800px]:w-[8%]">
           <Link href="#" className="w-full flex items-center justify-start">
-            <img src="/moto/mutlu/logo.png" alt="Mutlu Logo" className="w-[80%] md:w-[70%] h-auto object-contain brightness-0 invert" />
+            <img src="/moto/mutlu/logo.webp" alt="Mutlu Logo" className="w-[80%] md:w-[70%] h-auto object-contain brightness-0 invert" />
           </Link>
         </div>
 

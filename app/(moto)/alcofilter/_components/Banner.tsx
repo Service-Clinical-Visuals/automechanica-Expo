@@ -23,7 +23,7 @@ export default function Banner() {
           </h1>
           <Button href="#" variant="primary" >
             <span>View Catalogue</span>
-            <img src="/moto/alcofilter/btnarrow.png" alt="Arrow" className="w-6 h-6 object-contain brightness-0 invert" />
+            <img src="/moto/alcofilter/btnarrow.webp" alt="Arrow" className="w-6 h-6 object-contain brightness-0 invert" />
           </Button>
         </div>
       </div>

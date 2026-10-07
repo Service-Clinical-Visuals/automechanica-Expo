@@ -12,7 +12,7 @@ export default function AboutUs() {
         
         {/* Top Text Card */}
         <div 
-          className="relative w-full mb-12 md:mb-16 p-6 sm:p-8 md:p-14 lg:p-16 border-[1.5px] border-[#28b7ff] shadow-lg shadow-[#28b7ff]/10 rounded-2xl bg-white xl:border-0 xl:shadow-none xl:rounded-none xl:bg-transparent xl:bg-[url('/moto/cardyfren/bg.png')] xl:bg-[length:100%_100%] xl:bg-center xl:bg-no-repeat" 
+          className="relative w-full mb-12 md:mb-16 p-6 sm:p-8 md:p-14 lg:p-16 border-[1.5px] border-[#28b7ff] shadow-lg shadow-[#28b7ff]/10 rounded-2xl bg-white xl:border-0 xl:shadow-none xl:rounded-none xl:bg-transparent xl:bg-[url('/moto/cardyfren/bg.webp')] xl:bg-[length:100%_100%] xl:bg-center xl:bg-no-repeat" 
           data-aos="fade-up"
         >
           <div className="relative z-10 w-full xl:w-[80%] 2xl:max-w-6xl">
@@ -41,7 +41,7 @@ export default function AboutUs() {
         <div className="w-full" data-aos="fade-up" data-aos-delay="100">
           <div className="relative w-full overflow-hidden rounded-2xl">
             <img
-              src="/moto/cardyfren/abt.png"
+              src="/moto/cardyfren/abt.webp"
               alt="Talleres Cardyfren Building"             
               className="w-full h-auto object-cover"
             />

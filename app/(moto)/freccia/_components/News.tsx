@@ -8,17 +8,17 @@ import { ArrowRight } from "lucide-react";
 const News = () => {
   const newsItems = [
     {
-      img: "/moto/freccia/news1.png",
+      img: "/moto/freccia/news1.webp",
       date: "May 20, 2026",
       title: "Freccia at Automechanika Frankfurt 2024"
     },
     {
-      img: "/moto/freccia/news2.png",
+      img: "/moto/freccia/news2.webp",
       date: "April 10, 2026",
       title: "New Product Line Launch"
     },
     {
-      img: "/moto/freccia/news3.png",
+      img: "/moto/freccia/news3.webp",
       date: "March 15, 2025",
       title: "Expanding Our Global Manufacturing"
     }

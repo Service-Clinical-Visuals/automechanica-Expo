@@ -9,13 +9,13 @@ import "swiper/css/pagination";
 
 export default function Happy() {
   const cards = [
-    { title: "Battery", img: "/moto/mutlu/frame1.png" },
-    { title: "Passenger Vehicles", img: "/moto/mutlu/frame2.png" },
-    { title: "Light Commercial Vehicles", img: "/moto/mutlu/frame3.png" },
-    { title: "Heavy Commercial Vehicles", img: "/moto/mutlu/frame4.png" },
-    { title: "Alternative Energy Needs", img: "/moto/mutlu/frame5.png" },
-    { title: "Hobby Tools", img: "/moto/mutlu/frame6.png" },
-    { title: "Industrial", img: "/moto/mutlu/frame7.png" }
+    { title: "Battery", img: "/moto/mutlu/frame1.webp" },
+    { title: "Passenger Vehicles", img: "/moto/mutlu/frame2.webp" },
+    { title: "Light Commercial Vehicles", img: "/moto/mutlu/frame3.webp" },
+    { title: "Heavy Commercial Vehicles", img: "/moto/mutlu/frame4.webp" },
+    { title: "Alternative Energy Needs", img: "/moto/mutlu/frame5.webp" },
+    { title: "Hobby Tools", img: "/moto/mutlu/frame6.webp" },
+    { title: "Industrial", img: "/moto/mutlu/frame7.webp" }
   ];
 
   return (

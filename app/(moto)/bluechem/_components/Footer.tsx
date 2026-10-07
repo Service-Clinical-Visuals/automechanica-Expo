@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="flex flex-col md:col-span-3 xl:col-span-5 xl:pr-8">
             <div className="flex items-center gap-2 mb-6">
               <div className="flex flex-col">
-               <img src="/moto/bluechem/icon.png" alt="Logo"  className="object-contain" />
+               <img src="/moto/bluechem/icon.webp" alt="Logo"  className="object-contain" />
               </div>
             </div>
             <p className="text-[#484848] font-normal text-[16px] md:text-[18px] oxanium leading-relaxed pr-4 xl:pr-12">
@@ -52,17 +52,17 @@ export default function Footer() {
             <h3 className="text-[#0E4194] oswald font-bold text-lg mb-6">Contact Info</h3>
             <div className="flex flex-col gap-5">
               <div className="flex items-start gap-3">
-                <Image src="/moto/bluechem/location.png" alt="Location" width={18} height={18} className="mt-1 object-contain" />
+                <Image src="/moto/bluechem/location.webp" alt="Location" width={18} height={18} className="mt-1 object-contain" />
                 <p className="text-[#484848] font-normal !text-[16px] !4xl:text-[18px] hover:text-[#0E4194] transition-colors oxanium">
                   CTP GmbH Saalfelder Straße<br/>35h 07338 Leutenberg
                 </p>
               </div>
               <div className="flex items-center gap-3">
-                <Image src="/moto/bluechem/phone.png" alt="Phone" width={18} height={18} className="object-contain" />
+                <Image src="/moto/bluechem/phone.webp" alt="Phone" width={18} height={18} className="object-contain" />
                 <p className="text-[#484848] font-normal !text-[16px] !4xl:text-[18px] hover:text-[#0E4194] transition-colors oxanium">+49(0)36734/230-0</p>
               </div>
               <div className="flex items-center gap-3">
-                <Image src="/moto/bluechem/fax.png" alt="Fax" width={18} height={18} className="object-contain" />
+                <Image src="/moto/bluechem/fax.webp" alt="Fax" width={18} height={18} className="object-contain" />
                 <p className="text-[#484848] font-normal !text-[16px] !4xl:text-[18px] hover:text-[#0E4194] transition-colors oxanium">+49(0)36734/230-22</p>
               </div>
             </div>
@@ -76,16 +76,16 @@ export default function Footer() {
             <h4 className="text-[#0E4194] font-semibold oswald text-[18px] md:text-[20px] 4xl:text-[22px] text-center xl:text-left">Socials</h4>
             <div className="flex items-center justify-center xl:justify-start gap-5 md:gap-3">
               <Link href="#" className="hover:opacity-80 transition-opacity">
-                <Image src="/moto/bluechem/in.png" alt="LinkedIn" width={32} height={32} className="w-6 h-6 md:w-[22px] md:h-[22px] object-contain" />
+                <Image src="/moto/bluechem/in.webp" alt="LinkedIn" width={32} height={32} className="w-6 h-6 md:w-[22px] md:h-[22px] object-contain" />
               </Link>
               <Link href="#" className="hover:opacity-80 transition-opacity">
-                <Image src="/moto/bluechem/you.png" alt="YouTube" width={32} height={32} className="w-6 h-6 sm:w-8 sm:h-8 md:w-[22px] md:h-[22px] object-contain" />
+                <Image src="/moto/bluechem/you.webp" alt="YouTube" width={32} height={32} className="w-6 h-6 sm:w-8 sm:h-8 md:w-[22px] md:h-[22px] object-contain" />
               </Link>
               <Link href="#" className="hover:opacity-80 transition-opacity">
-                <Image src="/moto/bluechem/insta.png" alt="Instagram" width={32} height={32} className="w-6 h-6 sm:w-8 sm:h-8 md:w-[22px] md:h-[22px] object-contain" />
+                <Image src="/moto/bluechem/insta.webp" alt="Instagram" width={32} height={32} className="w-6 h-6 sm:w-8 sm:h-8 md:w-[22px] md:h-[22px] object-contain" />
               </Link>
               <Link href="#" className="hover:opacity-80 transition-opacity">
-                <Image src="/moto/bluechem/fb.png" alt="Facebook" width={32} height={32} className="w-6 h-6 sm:w-8 sm:h-8 md:w-[22px] md:h-[22px] object-contain" />
+                <Image src="/moto/bluechem/fb.webp" alt="Facebook" width={32} height={32} className="w-6 h-6 sm:w-8 sm:h-8 md:w-[22px] md:h-[22px] object-contain" />
               </Link>
             </div>
           </div>

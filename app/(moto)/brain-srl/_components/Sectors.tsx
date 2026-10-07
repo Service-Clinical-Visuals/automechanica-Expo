@@ -47,7 +47,7 @@ export default function Sectors() {
               data-aos-delay={idx * 100}
             >
               <div className="w-14 h-14 bg-white rounded-full flex items-center justify-center mb-6 shadow-md flex-shrink-0">
-                <img src="/moto/brain-srl/settings2.png" alt="Icon" className="w-6 h-6 object-contain" />
+                <img src="/moto/brain-srl/settings2.webp" alt="Icon" className="w-6 h-6 object-contain" />
               </div>
               <Typography variant="h3" color="white" font="bebas" className="uppercase  tracking-wide mb-4 min-h-[3rem] flex items-center justify-center">
                 {sector.title}

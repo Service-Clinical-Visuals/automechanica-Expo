@@ -30,7 +30,7 @@ export default function Parts() {
         {/* 2-Column Section */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center ">
           <div className="w-full h-full py-5  overflow-hidden lg:col-span-6" data-aos="fade-right">
-            <img src="/moto/airstal/section3.png" alt="Airstal Parts" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+            <img src="/moto/airstal/section3.webp" alt="Airstal Parts" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
           </div>
           <div className="flex flex-col gap-6 py-5 lg:col-span-6" data-aos="fade-left">
             <Typography variant="h3" color="dark" weight="bold" className="font-primary leading-tight">

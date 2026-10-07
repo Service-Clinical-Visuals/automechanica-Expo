@@ -12,11 +12,11 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const slides = [
-  { key: "disinfection", src: "/moto/belif/categories/3.png", label: "Disinfection" },
-  { key: "bellube", src: "/moto/belif/categories/1.png", label: "Bellube Oils" },
-  { key: "antifreeze", src: "/moto/belif/categories/2.png", label: "Antifreeeze" },
-  { key: "home", src: "/moto/belif/categories/4.png", label: "Home Chemistry" },
-  { key: "pool", src: "/moto/belif/categories/5.png", label: "Pool Chemistry" },
+  { key: "disinfection", src: "/moto/belif/categories/3.webp", label: "Disinfection" },
+  { key: "bellube", src: "/moto/belif/categories/1.webp", label: "Bellube Oils" },
+  { key: "antifreeze", src: "/moto/belif/categories/2.webp", label: "Antifreeeze" },
+  { key: "home", src: "/moto/belif/categories/4.webp", label: "Home Chemistry" },
+  { key: "pool", src: "/moto/belif/categories/5.webp", label: "Pool Chemistry" },
 ];
 
 // Base size (desktop); the card scales down from this, keeping the same aspect ratio.

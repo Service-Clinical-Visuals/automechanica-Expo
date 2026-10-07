@@ -10,42 +10,42 @@ export default function Blogs() {
   const blogs = [
     {
       id: 1,
-      image: "/moto/kroon-oil/comp1.png",
+      image: "/moto/kroon-oil/comp1.webp",
       // smallImage: "/moto/kroon-oil/comp1.1.png",
       date: "01 April 2026",
       title: "Download the Kroon-Oil Web App"
     },
     {
       id: 2,
-      image: "/moto/kroon-oil/comp2.png",
+      image: "/moto/kroon-oil/comp2.webp",
       // smallImage: "/moto/kroon-oil/comp2.1.png",
       date: "12 July 2024",
       title: "A new range of greases at Kroon-Oil"
     },
     {
       id: 3,
-      image: "/moto/kroon-oil/comp3.png",
+      image: "/moto/kroon-oil/comp3.webp",
       // smallImage: "/moto/kroon-oil/compo3.1.png",
       date: "11 July 2024",
       title: "Radiator Cleaner: Restore the..."
     },
     {
       id: 4,
-      image: "/moto/kroon-oil/comp4.png",
+      image: "/moto/kroon-oil/comp4.webp",
       smallImage: "/moto/kroon-oil/comp4.1.png",
       date: "09 July 2024",
       title: "Maintaining Hedge Trimmer Blades"
     },
     {
       id: 5,
-      image: "/moto/kroon-oil/comp5.png",
+      image: "/moto/kroon-oil/comp5.webp",
       // smallImage: "/moto/kroon-oil/comp5.1.png",
       date: "08 July 2024",
       title: "Multi purpose foam cleaning"
     },
     {
       id: 6,
-      image: "/moto/kroon-oil/comp6.png",
+      image: "/moto/kroon-oil/comp6.webp",
       // smallImage: "/moto/kroon-oil/comp6.1.png",
       date: "05 July 2024",
       title: "Diesel Treatment: Restore the"

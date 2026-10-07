@@ -68,7 +68,7 @@ const Solutions = () => {
         {/* Bottom Image Row (Mobile: Order 3) */}
         <div className="w-full max-w-full border border-white/40 mx-auto aspect-[1570/525] rounded-2xl overflow-hidden shadow-2xl relative order-3">
           <img
-            src="/moto/gl-oil/section3.png"
+            src="/moto/gl-oil/section3.webp"
             alt="Lubrication Gears"
             className="w-full h-full object-cover"
           />

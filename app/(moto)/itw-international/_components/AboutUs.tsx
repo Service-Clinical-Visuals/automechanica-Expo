@@ -20,7 +20,7 @@ export default function AboutUs() {
         {/* Image Content */}
         <div className="w-full relative" data-aos="fade-up" data-aos-delay="200">
           <img
-            src="/moto/itw-international/abt.jpg"
+            src="/moto/itw-international/abt.webp"
             alt="About ITW - Black Sports Car"
             className="w-full h-auto object-cover rounded-md shadow-lg"
           />

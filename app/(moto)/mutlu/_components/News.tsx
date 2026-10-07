@@ -12,23 +12,23 @@ export default function News() {
   const newsItems = [
     {
       title: "Mutlu Battery 80th Anniversary Special: “Mutlu Battery Number 1” with Erol Evgin's Unique Interpretation",
-      img: "/moto/mutlu/news1.png"
+      img: "/moto/mutlu/news1.webp"
     },
     {
       title: "Happy 100th Anniversary of our Republic!",
-      img: "/moto/mutlu/news2.png"
+      img: "/moto/mutlu/news2.webp"
     },
     {
       title: "Mutlu Akü is the largest industrial company in its sector according to ISO 500 data.",
-      img: "/moto/mutlu/news3.png"
+      img: "/moto/mutlu/news3.webp"
     },
     {
       title: "Mutlu Akü showcased its technologies at the Automechanika Istanbul Fair.",
-      img: "/moto/mutlu/news4.png"
+      img: "/moto/mutlu/news4.webp"
     },
     {
       title: "Mutlu: Türkiye's Most Reputable Battery Brand",
-      img: "/moto/mutlu/news5.png"
+      img: "/moto/mutlu/news5.webp"
     }
   ];
 

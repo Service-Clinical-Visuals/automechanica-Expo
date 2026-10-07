@@ -7,22 +7,22 @@ import Container from "./Container";
 
 const products = [
   {
-    img: "/moto/eurolub/products/1.png",
+    img: "/moto/eurolub/products/1.webp",
     title: "Engine Oils",
     description: "Premium engine oils for superior protection and reliable performance.",
   },
   {
-    img: "/moto/eurolub/products/2.png",
+    img: "/moto/eurolub/products/2.webp",
     title: "Gear Oils",
     description: "Advanced gear oils for efficient lubrication and lasting durability.",
   },
   {
-    img: "/moto/eurolub/products/3.png",
+    img: "/moto/eurolub/products/3.webp",
     title: "Industrial lubricants",
     description: "Reliable lubrication solutions for efficient industrial operations.",
   },
   {
-    img: "/moto/eurolub/products/4.png",
+    img: "/moto/eurolub/products/4.webp",
     title: "Winter Chemistry",
     description: "Reliable winter chemistry products for safe and efficient operation.",
   },

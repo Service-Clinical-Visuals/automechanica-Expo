@@ -40,7 +40,7 @@ export default function PrecisionView() {
               ].map((item, idx) => (
                 <div key={idx} className="flex items-start gap-4">
                   <div className="mt-1 flex-shrink-0">
-                    <img src="/moto/inno/abticon.png" alt="Bullet Icon" className="w-auto h-auto object-contain" />
+                    <img src="/moto/inno/abticon.webp" alt="Bullet Icon" className="w-auto h-auto object-contain" />
                   </div>
                   <div>
                     <h4 className="inter-font text-white font-bold section-text leading-snug">{item.title} <span className="inter-font text-white font-regular section-text ml-1">- {item.desc}</span></h4>

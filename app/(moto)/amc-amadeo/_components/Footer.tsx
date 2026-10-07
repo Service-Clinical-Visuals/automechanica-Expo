@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-1 xl:col-span-4" data-aos="fade-up">
             <Link href="#" className="block mb-6">
               <img 
-                src="/moto/amc-amadeo/logo.png" 
+                src="/moto/amc-amadeo/logo.webp" 
                 alt="AMC Logo" 
                 className="h-12 xl:h-16 object-contain" 
               />
@@ -44,19 +44,19 @@ export default function Footer() {
            <h4 className="text-white oswald font-semibold footer-text mb-6">Contact</h4>
             <ul className="space-y-5 text-gray-300 section-text font-normal">
               <li className="flex items-start gap-3">
-                <img src="/moto/amc-amadeo/ph.png" alt="pin"  />
+                <img src="/moto/amc-amadeo/ph.webp" alt="pin"  />
                 <a href="tel:+34964659494" className="text-white section-text font-normal rubik">
                   +34 964 65 94 94
                 </a>
               </li>
               <li className="flex items-start gap-3">
-                 <img src="/moto/amc-amadeo/mail.png" alt="pin"  />
+                 <img src="/moto/amc-amadeo/mail.webp" alt="pin"  />
                 <a href="mailto:dpto.ventas@amc.es" className="text-white section-text font-normal rubik">
                   dpto.ventas@amc.es
                 </a>
               </li>
               <li className="flex items-start gap-3">
-                <img src="/moto/amc-amadeo/loc.png" alt="pin"  />
+                <img src="/moto/amc-amadeo/loc.webp" alt="pin"  />
                 <span className="text-white section-text font-normal rubik">
                   Ctra. Villavieja, 76<br />
                   12520 Nules –<br />

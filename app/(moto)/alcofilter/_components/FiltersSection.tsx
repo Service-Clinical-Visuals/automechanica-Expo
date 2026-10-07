@@ -67,7 +67,7 @@ export default function FiltersSection() {
 
             <Button href="#" variant="primary" className="font-bold gap-2">
               <span>Explore all Products</span>
-              <img src="/moto/alcofilter/btnarrow.png" alt="Arrow" className="w-4 h-4 object-contain brightness-0 invert" />
+              <img src="/moto/alcofilter/btnarrow.webp" alt="Arrow" className="w-4 h-4 object-contain brightness-0 invert" />
             </Button>
           </div>
           

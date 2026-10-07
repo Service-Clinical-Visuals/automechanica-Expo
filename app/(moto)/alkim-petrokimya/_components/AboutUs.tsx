@@ -37,19 +37,19 @@ export default function AboutUs() {
             {/* Bullet points */}
             <ul className="flex flex-col gap-6 text-[#333333] dmsans section-text">
               <li className="flex items-start gap-4">
-                <img src="/moto/alkim-petrokimya/tick.png" alt="tick" className="w-auto h-auto xl:w-auto xl:h-auto flex-shrink-0 mt-1 object-contain" />
+                <img src="/moto/alkim-petrokimya/tick.webp" alt="tick" className="w-auto h-auto xl:w-auto xl:h-auto flex-shrink-0 mt-1 object-contain" />
                 <p>
                   <strong>Global Presence</strong> – Supplying premium lubricant solutions to customers and distributors across more than 80 countries with a strong international network.
                 </p>
               </li>
               <li className="flex items-start gap-4">
-                <img src="/moto/alkim-petrokimya/tick.png" alt="tick" className="w-auto h-auto xl:w-auto xl:h-auto flex-shrink-0 mt-1 object-contain" />
+                <img src="/moto/alkim-petrokimya/tick.webp" alt="tick" className="w-auto h-auto xl:w-auto xl:h-auto flex-shrink-0 mt-1 object-contain" />
                 <p>
                   <strong>Advanced Manufacturing</strong> – Equipped with modern production facilities and advanced technologies to ensure consistent quality, precision, and efficient manufacturing.
                 </p>
               </li>
               <li className="flex items-start gap-4">
-                <img src="/moto/alkim-petrokimya/tick.png" alt="tick" className="w-auto h-auto xl:w-auto xl:h-auto flex-shrink-0 mt-1 object-contain" />
+                <img src="/moto/alkim-petrokimya/tick.webp" alt="tick" className="w-auto h-auto xl:w-auto xl:h-auto flex-shrink-0 mt-1 object-contain" />
                 <p>
                   <strong>Commitment to Innovation</strong> – Continuously investing in research, advanced technologies, and product development to create high-performance lubrication solutions. Through continuous innovation and quality improvement, reliable products are delivered to meet evolving industry standards.
                 </p>
@@ -67,7 +67,7 @@ export default function AboutUs() {
           {/* Right Image */}
           <div className="w-auto h-auto min-h-auto xl:min-h-auto flex" data-aos="fade-left">
             <img
-              src="/moto/alkim-petrokimya/About.png"
+              src="/moto/alkim-petrokimya/About.webp"
               alt="Alkim Petrokimya Facility"
               className="w-full h-full object-cover"
             />

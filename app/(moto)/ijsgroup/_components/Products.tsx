@@ -9,55 +9,55 @@ export default function Products() {
   const products = [
     {
       id: "71-1001",
-      image: "/moto/ijsgroup/1.png",
+      image: "/moto/ijsgroup/1.webp",
       name: "71-1001",
       category: "Camshaft"
     },
     {
       id: "71-1002",
-      image: "/moto/ijsgroup/9.png",
+      image: "/moto/ijsgroup/9.webp",
       name: "71-1002",
       category: "Camshaft"
     },
     {
       id: "71-1003",
-      image: "/moto/ijsgroup/2.png",
+      image: "/moto/ijsgroup/2.webp",
       name: "71-1003",
       category: "Camshaft"
     },
     {
       id: "10-1001",
-      image: "/moto/ijsgroup/3.png",
+      image: "/moto/ijsgroup/3.webp",
       name: "10-1001",
       category: "Wheel Hub"
     },
     {
       id: "10-1009",
-      image: "/moto/ijsgroup/4.png",
+      image: "/moto/ijsgroup/4.webp",
       name: "10-1009",
       category: "Wheel Hub"
     },
     {
       id: "10-1010",
-      image: "/moto/ijsgroup/5.png",
+      image: "/moto/ijsgroup/5.webp",
       name: "10-1010",
       category: "Wheel Hub"
     },
     {
       id: "60-1001",
-      image: "/moto/ijsgroup/6.png",
+      image: "/moto/ijsgroup/6.webp",
       name: "60-1001",
       category: "Oil Pump"
     },
     {
       id: "60-1002",
-      image: "/moto/ijsgroup/7.png",
+      image: "/moto/ijsgroup/7.webp",
       name: "60-1002",
       category: "Oil Pump"
     },
     {
       id: "60-1003",
-      image: "/moto/ijsgroup/8.png",
+      image: "/moto/ijsgroup/8.webp",
       name: "60-1003",
       category: "Oil Pump"
     },

@@ -38,7 +38,7 @@ export default function Footer() {
             <div className="footer-col-1 flex flex-col items-start gap-6">
               <Link href="/petrovoll" className="flex items-center">
                 <img
-                  src="/moto/petrovoll/icon.png"
+                  src="/moto/petrovoll/icon.webp"
                   alt="Petrovöll Logo"
                   className="h-16 xl:h-18 object-contain filter brightness-110"
                 />
@@ -76,7 +76,7 @@ export default function Footer() {
 </p>
                     {link.hasDropdown && (
                      
-                      <img src="/moto/petrovoll/arrow.png" className="ml-2"/>
+                      <img src="/moto/petrovoll/arrow.webp" className="ml-2"/>
                     )}
                   </li>
                 ))}

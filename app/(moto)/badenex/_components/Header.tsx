@@ -39,7 +39,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/badenex/logo.png" alt="Explorlube Logo" className="header-logo object-contain" />
+                <img src="/moto/badenex/logo.webp" alt="Explorlube Logo" className="header-logo object-contain" />
               </Link>
             </div>
 
@@ -62,11 +62,11 @@ export default function Header() {
             {/* Contact & Language */}
             <div className="hidden xl:flex items-center gap-6">
               <div className="flex items-center gap-2">
-                <img src="/moto/badenex/h-phone.png" alt="Phone" className="w-4 h-4 min-[2560px]:w-6 min-[2560px]:h-6 min-[3800px]:w-8 min-[3800px]:h-8" />
+                <img src="/moto/badenex/h-phone.webp" alt="Phone" className="w-4 h-4 min-[2560px]:w-6 min-[2560px]:h-6 min-[3800px]:w-8 min-[3800px]:h-8" />
                 <span className="header-link font-semibold oswald-font text-[#4B5563]">+4978147443134</span>
               </div>
               <div className="flex items-center gap-2 cursor-pointer hover:opacity-80">
-                <img src="/moto/badenex/h-A.png" alt="Language" className="w-5 h-5 min-[2560px]:w-7 min-[2560px]:h-7 min-[3800px]:w-9 min-[3800px]:h-9" />
+                <img src="/moto/badenex/h-A.webp" alt="Language" className="w-5 h-5 min-[2560px]:w-7 min-[2560px]:h-7 min-[3800px]:w-9 min-[3800px]:h-9" />
                 <span className="header-link font-semibold oswald-font text-[#4B5563]">EN</span>
               </div>
             </div>

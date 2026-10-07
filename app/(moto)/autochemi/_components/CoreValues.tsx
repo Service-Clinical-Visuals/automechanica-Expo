@@ -8,27 +8,27 @@ export default function CoreValues() {
     {
       title: "Commitment",
       description: "We place people at the center of everything we do, delivering reliable solutions and exceptional customer satisfaction.",
-      icon: "/moto/autochemi/core1.png"
+      icon: "/moto/autochemi/core1.webp"
     },
     {
       title: "Ecology",
       description: "We operate with environmental responsibility, following international standards and sustainable manufacturing practices.",
-      icon: "/moto/autochemi/core2.png"
+      icon: "/moto/autochemi/core2.webp"
     },
     {
       title: "Technology",
       description: "We continuously invest in innovation, advanced technologies, and product development to achieve the highest quality standards.",
-      icon: "/moto/autochemi/core3.png"
+      icon: "/moto/autochemi/core3.webp"
     },
     {
       title: "Openness",
       description: "We foster transparent collaboration with customers, partners, and stakeholders based on mutual trust.",
-      icon: "/moto/autochemi/core4.png"
+      icon: "/moto/autochemi/core4.webp"
     },
     {
       title: "Honesty",
       description: "We conduct business with integrity, respect, professionalism, and ethical principles that inspire trust and lasting relationships.",
-      icon: "/moto/autochemi/core5.png"
+      icon: "/moto/autochemi/core5.webp"
     }
   ];
 
@@ -74,7 +74,7 @@ export default function CoreValues() {
           {/* Right: Image */}
           <div className="xl:col-span-7 w-full aspect-[16/9] relative overflow-hidden rounded-[2rem] shadow-[0_10px_40px_rgb(0,0,0,0.12)] border border-gray-100 order-1 xl:order-2">
             <img 
-              src="/moto/autochemi/section3.png" 
+              src="/moto/autochemi/section3.webp" 
               alt="Core Values Facility" 
               className="w-full h-full object-cover object-center"
             />

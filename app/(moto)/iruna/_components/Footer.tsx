@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Column 1: About */}
           <div className="col-span-2 md:col-span-4 xl:col-span-4 flex flex-col pr-0 lg:pr-8" data-aos="fade-up">
             <Link href="/" className="mb-6">
-              <img src="/moto/iruna/footerlogo.png" alt="Iruna Logo" className="w-[180px] md:w-[250px] h-auto object-contain " />
+              <img src="/moto/iruna/footerlogo.webp" alt="Iruna Logo" className="w-[180px] md:w-[250px] h-auto object-contain " />
             </Link>
             <p className="sora text-[#ffffff] section-text leading-[1.8]">
               To provide optimised brake system solutions that lead to a
@@ -64,7 +64,7 @@ export default function Footer() {
             <h4 className="text-white font-semibold card-title mb-6 oxanium tracking-wide">Contact</h4>
             <ul className="flex flex-col gap-4 sora">
               <li className="flex items-start gap-3">
-                <img src="/moto/iruna/location.png" alt="Location" className="w-[24px] h-[24px] object-contain shrink-0 mt-0.5 " />
+                <img src="/moto/iruna/location.webp" alt="Location" className="w-[24px] h-[24px] object-contain shrink-0 mt-0.5 " />
                 <span className="text-[#ffffff] hover:text-[#CF0A2C] section-text leading-relaxed">
                   Pol. Ind. Comarca, 2. Calle E,<br />
                   nº 9, E-31191 Barbatain<br />
@@ -72,13 +72,13 @@ export default function Footer() {
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <img src="/moto/iruna/phone.png" alt="Phone" className="w-[20px] h-[20px] object-contain shrink-0" />
+                <img src="/moto/iruna/phone.webp" alt="Phone" className="w-[20px] h-[20px] object-contain shrink-0" />
                 <a href="tel:+34948214000" className="text-[#ffffff] hover:text-[#CF0A2C] section-text transition-colors">
                   +34 948 214 000
                 </a>
               </li>
               <li className="flex items-center gap-3">
-                <img src="/moto/iruna/mail.png" alt="Mail" className="w-[22px] h-[22px] object-contain shrink-0" />
+                <img src="/moto/iruna/mail.webp" alt="Mail" className="w-[22px] h-[22px] object-contain shrink-0" />
                 <a href="mailto:marketing@irunabrakes.com" className="text-[#ffffff] hover:text-[#CF0A2C] section-text transition-colors">
                   marketing@irunabrakes.com
                 </a>
@@ -95,18 +95,18 @@ export default function Footer() {
             <h4 className="text-white font-semibold card-title mb-4 oxanium tracking-wide">Socials</h4>
             <div className="flex items-center gap-4">
               <a href="#" className="hover:opacity-80 transition-opacity">
-                <img src="/moto/iruna/in.png" alt="LinkedIn" className="w-7 h-7 object-contain" />
+                <img src="/moto/iruna/in.webp" alt="LinkedIn" className="w-7 h-7 object-contain" />
               </a>
               <a href="#" className="hover:opacity-80 transition-opacity">
-                {/* Assuming fb.png or youtube equivalent icon here */}
-                <img src="/moto/iruna/fb.png" alt="Social" className="w-7 h-7 object-contain" />
+                {/* Assuming fb.webp or youtube equivalent icon here */}
+                <img src="/moto/iruna/fb.webp" alt="Social" className="w-7 h-7 object-contain" />
               </a>
             </div>
           </div>
           
           {/* Certifications */}
           <div data-aos="fade-up" data-aos-delay="200">
-            <img src="/moto/iruna/certified.png" alt="Certifications" className="h-[75px] md:h-[90px] lg:h-[100px] object-contain" />
+            <img src="/moto/iruna/certified.webp" alt="Certifications" className="h-[75px] md:h-[90px] lg:h-[100px] object-contain" />
           </div>
         </div>
 

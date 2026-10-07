@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="flex flex-col gap-6 xl:col-span-3" data-aos="fade-up">
             <Link href="/">
               <img 
-                src="/moto/motive-components/logo1.png" 
+                src="/moto/motive-components/logo1.webp" 
                 alt="Motive Components Logo" 
                 className="w-[50%] h-auto object-contain"
               />

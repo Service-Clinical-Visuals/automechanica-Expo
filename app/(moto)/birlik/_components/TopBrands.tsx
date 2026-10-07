@@ -2,12 +2,12 @@
 import React from "react";
 
 const brands = [
-  { id: 1, name: "Mercedes", image: "/moto/birlik/1.png" },
-  { id: 2, name: "Alfa Romeo", image: "/moto/birlik/2.png" },
-  { id: 3, name: "Audi", image: "/moto/birlik/3.png" },
-  { id: 4, name: "Bedford", image: "/moto/birlik/4.png" },
-  { id: 5, name: "Belarus", image: "/moto/birlik/5.png" },
-  { id: 6, name: "Caterpillar", image: "/moto/birlik/6.png" },
+  { id: 1, name: "Mercedes", image: "/moto/birlik/1.webp" },
+  { id: 2, name: "Alfa Romeo", image: "/moto/birlik/2.webp" },
+  { id: 3, name: "Audi", image: "/moto/birlik/3.webp" },
+  { id: 4, name: "Bedford", image: "/moto/birlik/4.webp" },
+  { id: 5, name: "Belarus", image: "/moto/birlik/5.webp" },
+  { id: 6, name: "Caterpillar", image: "/moto/birlik/6.webp" },
 ];
 
 export default function TopBrands() {

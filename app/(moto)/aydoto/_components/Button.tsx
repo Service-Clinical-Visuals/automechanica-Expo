@@ -36,7 +36,7 @@ export default function Button({
       {showArrow && (
         <span className="flex items-center justify-center transition-transform duration-300 group-hover:translate-x-1">
           <img
-            src="/moto/aydoto/btnarw.png"
+            src="/moto/aydoto/btnarw.webp"
             alt="arrow"
             className={`w-5 h-auto object-contain ${
               isWhite ? "brightness-0" : "brightness-0 invert"

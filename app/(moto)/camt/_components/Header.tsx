@@ -36,7 +36,7 @@ export default function Header() {
         <div className="flex items-center justify-between gap-6 h-[90px] py-2">
           {/* Logo */}
           <Link href="/" className="shrink-0">
-            <img src="/moto/camt/logo.png" alt="CAMT" className="h-9 w-auto object-contain self-center" />
+            <img src="/moto/camt/logo.webp" alt="CAMT" className="h-9 w-auto object-contain self-center" />
           </Link>
 
           {/* Desktop Navigation */}

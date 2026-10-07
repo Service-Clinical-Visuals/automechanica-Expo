@@ -11,32 +11,32 @@ import Button from "./Button";
 
 const newProducts = [
   {
-    image: "/moto/aisin/p5.png",
+    image: "/moto/aisin/p5.webp",
     title: "EGR Valve",
     desc: "Reduces NOx emissions recirculating exhaust gases, Improving engine efficiency and performance.",
   },
   {
-    image: "/moto/aisin/p6.png",
+    image: "/moto/aisin/p6.webp",
     title: "ADVICS BRAKE PAD WEAR INDICATORS",
     desc: "ADVICS brake pad wear indicators are monitoring components designed to alert drivers & workshops when brake pads reach their wear limit.",
   },
   {
-    image: "/moto/aisin/p7.png",
+    image: "/moto/aisin/p7.webp",
     title: "DCT Kit",
     desc: "AISIN's aftermarket DCT kits deliver key advantages, making them a preferred choice worldwide.",
   },
   {
-    image: "/moto/aisin/p8.png",
+    image: "/moto/aisin/p8.webp",
     title: "ADVIC Brake Disk",
     desc: "ADVICS brake discs are friction components that work together with brake pads to convert kinetic energy into heat, ensuring controlled and stable vehicle deceleration.",
   },
   {
-    image: "/moto/aisin/p9.png",
+    image: "/moto/aisin/p9.webp",
     title: "ADVICS Brake Pads",
     desc: "AISIN's aftermarket DCT kits deliver key advantages, making them a preferred choice worldwide.",
   },
   {
-    image: "/moto/aisin/p10.png",
+    image: "/moto/aisin/p10.webp",
     title: "ADVICS Brake Booster",
     desc: "ADVICS brake boosters reduce pedal effort and improve braking comfort, response, and control with OE-level reliability.",
   },

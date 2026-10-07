@@ -53,7 +53,7 @@ export default function Header() {
       <div className="custom-container flex items-center justify-between py-4">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-1 z-50">
-          <img src="/moto/ari-oil/logo.png" alt="ARI OIL" className="h-8 md:h-10 xl:h-12 w-auto object-contain" />
+          <img src="/moto/ari-oil/logo.webp" alt="ARI OIL" className="h-8 md:h-10 xl:h-12 w-auto object-contain" />
         </Link>
 
         {/* Desktop Nav */}

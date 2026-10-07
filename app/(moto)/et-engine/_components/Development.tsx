@@ -31,14 +31,14 @@ export default function Development() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 xl:gap-8 w-full">
           <div className="w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-xl" data-aos="fade-up" data-aos-delay="100">
             <img 
-              src="/moto/et-engine/section21.png" 
+              src="/moto/et-engine/section21.webp" 
               alt="ET Engine Parts Collage" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
             />
           </div>
           <div className="w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-xl" data-aos="fade-up" data-aos-delay="200">
             <img 
-              src="/moto/et-engine/section22.png" 
+              src="/moto/et-engine/section22.webp" 
               alt="ET Engine Team Crest" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
             />

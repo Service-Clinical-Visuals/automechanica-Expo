@@ -8,22 +8,22 @@ import { ArrowRight } from "lucide-react";
 const Services = () => {
   const services = [
     {
-      img: "/moto/freccia/service1.png",
+      img: "/moto/freccia/service1.webp",
       title: "Manufacturing",
       desc: "Advanced technology and precision engineering ensure high-performance components, tested to meet international standards for reliability and durability."
     },
     {
-      img: "/moto/freccia/service2.png",
+      img: "/moto/freccia/service2.webp",
       title: "OEM Supply",
       desc: "OEM parts engineered to meet original specifications, ensuring precise fit, reliable performance, and long-lasting durability."
     },
     {
-      img: "/moto/freccia/service3.png",
+      img: "/moto/freccia/service3.webp",
       title: "Quality Testing",
       desc: "Every product undergoes rigorous testing to ensure high performance, safety, and reliability, delivering consistent and durable results."
     },
     {
-      img: "/moto/freccia/service4.png",
+      img: "/moto/freccia/service4.webp",
       title: "Customer Support",
       desc: "Responsive customer support delivering expert guidance, seamless service, and reliable assistance at every stage."
     }

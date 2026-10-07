@@ -50,7 +50,7 @@ const AboutUs = () => {
         {/* Image - Mobile Order 2, Desktop Left */}
         <div className="order-2 xl:col-start-1 xl:col-span-6 xl:row-start-1 w-full h-full flex items-center justify-center" data-aos="fade-right">
           <img
-            src="/moto/alca-mobil/section2.png"
+            src="/moto/alca-mobil/section2.webp"
             alt="Alca Mobil Facilities"
             className="w-full h-auto object-cover rounded-xl shadow-lg"
           />

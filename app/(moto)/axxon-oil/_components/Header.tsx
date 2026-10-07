@@ -41,7 +41,7 @@ export default function Header() {
           {/* Logo */}
           <div className="shrink-0">
             <Link href="/">
-              <img src="/moto/axon-oil/logo.png" alt="AxonOil" className="w-[120px] xl:w-[150px] h-auto object-contain" />
+              <img src="/moto/axon-oil/logo.webp" alt="AxonOil" className="w-[120px] xl:w-[150px] h-auto object-contain" />
             </Link>
           </div>
 

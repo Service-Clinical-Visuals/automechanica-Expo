@@ -75,7 +75,7 @@ const Header = () => {
             {/* Logo Section */}
             <Link href="/" className="flex items-center shrink-0">
               <img
-                src="/moto/alca-mobil/logo.png"
+                src="/moto/alca-mobil/logo.webp"
                 alt="Alca Mobil Logo"
                 className="h-10 sm:h-12 md:h-[15%] w-auto object-contain min-[2100px]:h-20 min-[3800px]:h-28"
               />

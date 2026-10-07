@@ -7,25 +7,25 @@ export default function WhyChoose() {
     {
       title: "Quality Manufacturing",
       description: "Production capacity: 120,000 T/year - Ultra-modern production units and fully automated packaging lines...",
-      image: "/moto/accorLubricants/choose1.jpg",
+      image: "/moto/accorLubricants/choose1.webp",
       fallbackText: "Quality Mfg"
     },
     {
       title: "R&D Laboratory",
       description: "Our R&D department anticipates future standards and regulatory changes. The products thus developed...",
-      image: "/moto/accorLubricants/choose2.jpg", 
+      image: "/moto/accorLubricants/choose2.webp", 
       fallbackText: "R&D Lab"
     },
     {
       title: "Made In France",
       description: "Our production units based in France, as well as our stocks, allow us to meet all your requests, volume variations, etc...",
-      image: "/moto/accorLubricants/choose3.jpg",
+      image: "/moto/accorLubricants/choose3.webp",
       fallbackText: "Made In France"
     },
     {
       title: "Independent",
       description: "Our independence allows us to adapt quickly to the demands of our customers. We thus have total...",
-      image: "/moto/accorLubricants/choose4.jpg",
+      image: "/moto/accorLubricants/choose4.webp",
       fallbackText: "Independent"
     }
   ];
@@ -87,7 +87,7 @@ export default function WhyChoose() {
                     View More
                   </span>
                   <div className="flex items-center justify-center w-[28px] h-[28px] md:w-[32px] md:h-[32px] bg-[#E41B13] rounded-full shadow-[0_4px_10px_rgba(228,27,19,0.4)] transition-transform duration-300 group-hover:scale-110">
-                    <img src="/moto/accorLubricants/toprightarrow.png" alt="arrow" className="w-[12px] h-[12px] md:w-[14px] md:h-[14px] object-contain"/>
+                    <img src="/moto/accorLubricants/toprightarrow.webp" alt="arrow" className="w-[12px] h-[12px] md:w-[14px] md:h-[14px] object-contain"/>
                   </div>
                 </Link>
               </div>

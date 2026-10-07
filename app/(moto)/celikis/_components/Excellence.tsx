@@ -10,7 +10,7 @@ export default function Excellence() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/moto/celikis/bg.png" 
+          src="/moto/celikis/bg.webp" 
           alt="Background Pattern" 
           className="w-full h-full object-cover opacity-60 mix-blend-screen" 
         />
@@ -45,13 +45,13 @@ export default function Excellence() {
 
             <div className="flex xl:hidden 2xl:flex flex-col gap-6">
               <div className="flex items-start gap-4">
-                <img src="/moto/celikis/setting.png" alt="setting" className="w-8 h-8 flex-shrink-0 mt-0.5" />
+                <img src="/moto/celikis/setting.webp" alt="setting" className="w-8 h-8 flex-shrink-0 mt-0.5" />
                 <p className="section-text text-white mb-2 leading-[1.8] font-normal">
                   Precision-manufactured gears with advanced technology ensure high accuracy, smooth operation, and reliable performance.
                 </p>
               </div>
               <div className="flex items-start gap-4">
-                <img src="/moto/celikis/report.png" alt="setting" className="w-8 h-8 flex-shrink-0 mt-0.5" />
+                <img src="/moto/celikis/report.webp" alt="setting" className="w-8 h-8 flex-shrink-0 mt-0.5" />
                 <p className="section-text text-white leading-[1.8] font-normal">
                   Durable gear solutions engineered for efficient power transmission, extended service life, and consistent performance in demanding applications.
                 </p>
@@ -62,13 +62,13 @@ export default function Excellence() {
           {/* Full Width Icon Paragraphs (Visible only on xl screen size) */}
           <div data-aos="fade-up" className="hidden xl:flex 2xl:hidden order-2 xl:order-3 col-span-1 xl:col-span-2 flex-col xl:flex-row gap-6 xl:gap-10 xl:mt-4">
             <div className="flex items-start gap-4 xl:flex-1">
-              <img src="/moto/celikis/setting.png" alt="setting" className="w-8 h-8 flex-shrink-0 mt-0.5" />
+              <img src="/moto/celikis/setting.webp" alt="setting" className="w-8 h-8 flex-shrink-0 mt-0.5" />
               <p className="section-text text-white leading-[1.8] font-normal">
                 Precision-manufactured gears with advanced technology ensure high accuracy, smooth operation, and reliable performance.
               </p>
             </div>
             <div className="flex items-start gap-4 xl:flex-1">
-              <img src="/moto/celikis/report.png" alt="setting" className="w-8 h-8 flex-shrink-0 mt-0.5" />
+              <img src="/moto/celikis/report.webp" alt="setting" className="w-8 h-8 flex-shrink-0 mt-0.5" />
               <p className="section-text text-white leading-[1.8] font-normal">
                 Durable gear solutions engineered for efficient power transmission, extended service life, and consistent performance in demanding applications.
               </p>

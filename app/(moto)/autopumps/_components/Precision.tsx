@@ -22,7 +22,7 @@ export default function Precision() {
           {/* Left: Image */}
           <div className="w-full h-full xl:col-span-8" data-aos="fade-right">
              <img 
-               src="/moto/autopumps/precision.png" 
+               src="/moto/autopumps/precision.webp" 
                alt="Precision Testing Equipment" 
                className="w-full h-auto object-cover rounded-none shadow-2xl"
              />

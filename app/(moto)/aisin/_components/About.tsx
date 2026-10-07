@@ -9,7 +9,7 @@ export default function About() {
           {/* Image */}
           <div className="order-2 lg:order-1 relative w-full ">
             <img
-              src="/moto/aisin/abt.png"
+              src="/moto/aisin/abt.webp"
               alt="About Aisin"
               className="object-cover w-full h-full"
             />

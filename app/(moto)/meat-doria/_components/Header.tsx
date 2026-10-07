@@ -25,7 +25,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/">
-              <img src="/moto/meat-doria/logo.png" alt="Meat & Doria" className="w-[130px] md:w-[150px] h-auto object-contain" />
+              <img src="/moto/meat-doria/logo.webp" alt="Meat & Doria" className="w-[130px] md:w-[150px] h-auto object-contain" />
             </Link>
           </div>
 

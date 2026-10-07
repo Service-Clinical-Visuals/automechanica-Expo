@@ -79,7 +79,7 @@ export default function PrecisionLogistics() {
             data-aos="fade-left"
           >
             <img 
-              src="/moto/jb-germanoil/precision.png" 
+              src="/moto/jb-germanoil/precision.webp" 
               alt="Precision Logistics" 
               className="w-full h-full object-cover object-center"
             />

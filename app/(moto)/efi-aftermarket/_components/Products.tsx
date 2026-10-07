@@ -9,50 +9,50 @@ const sliderData = [
   {
     title: "Engine and transmission",
     desc: "Based on the EFI Automotive Group's Original Equipment production, this range includes camshaft and crankshaft sensors, MAP and fuel pressure sensors, mass air flow sensors and temperature sensors. All of these products play a major role in the optimal functioning of the engine and transmission, all the more reason to choose a specialist in the field.",
-    mainImage: "/moto/efi-aftermarket/products/slider1/section10.png",
+    mainImage: "/moto/efi-aftermarket/products/slider1/section10.webp",
     products: [
-      { img: "/moto/efi-aftermarket/products/slider1/frame11.png", name: "Camshaft", highlight: "Sensors" },
-      { img: "/moto/efi-aftermarket/products/slider1/frame12.png", name: "Crankshaft", highlight: "Sensors" },
-      { img: "/moto/efi-aftermarket/products/slider1/frame13.png", name: "Temperature", highlight: "Sensors" },
+      { img: "/moto/efi-aftermarket/products/slider1/frame11.webp", name: "Camshaft", highlight: "Sensors" },
+      { img: "/moto/efi-aftermarket/products/slider1/frame12.webp", name: "Crankshaft", highlight: "Sensors" },
+      { img: "/moto/efi-aftermarket/products/slider1/frame13.webp", name: "Temperature", highlight: "Sensors" },
     ]
   },
   {
     title: "Emissions",
     desc: "When it comes to cars, comfort and safety are closely linked. A comfortable driver will be more alert, while the increasing number of safety systems in the car gives them peace of mind. This peace of mind is at the centre of all our concerns through our ranges of air conditioning pressure sensors, wheel speed sensors (ABS) and parking sensors.",
-    mainImage: "/moto/efi-aftermarket/products/slider2/section20.png",
+    mainImage: "/moto/efi-aftermarket/products/slider2/section20.webp",
     products: [
-      { img: "/moto/efi-aftermarket/products/slider2/frame21.png", name: "Oxygen", highlight: "Sensors" },
-      { img: "/moto/efi-aftermarket/products/slider2/frame22.png", name: "Gas temperature", highlight: "Sensors" },
-      { img: "/moto/efi-aftermarket/products/slider2/frame23.png", name: "DPF", highlight: "Sensors" },
+      { img: "/moto/efi-aftermarket/products/slider2/frame21.webp", name: "Oxygen", highlight: "Sensors" },
+      { img: "/moto/efi-aftermarket/products/slider2/frame22.webp", name: "Gas temperature", highlight: "Sensors" },
+      { img: "/moto/efi-aftermarket/products/slider2/frame23.webp", name: "DPF", highlight: "Sensors" },
     ]
   },
   {
     title: "Comfort and security",
     desc: "When it comes to cars, comfort and safety are closely linked. A comfortable driver will be more alert, while the increasing number of safety systems in the car gives them peace of mind. This peace of mind is at the centre of all our concerns through our ranges of air conditioning pressure sensors, wheel speed sensors (ABS) and parking sensors.",
-    mainImage: "/moto/efi-aftermarket/products/slider3/section30.png",
+    mainImage: "/moto/efi-aftermarket/products/slider3/section30.webp",
     products: [
-      { img: "/moto/efi-aftermarket/products/slider3/frame31.png", name: "Pedal Position", highlight: "Sensors" },
-      { img: "/moto/efi-aftermarket/products/slider3/frame32.png", name: "Conditioning Pressure", highlight: "Sensors" },
-      { img: "/moto/efi-aftermarket/products/slider3/frame33.png", name: "Wheel Speed", highlight: "Sensors" },
+      { img: "/moto/efi-aftermarket/products/slider3/frame31.webp", name: "Pedal Position", highlight: "Sensors" },
+      { img: "/moto/efi-aftermarket/products/slider3/frame32.webp", name: "Conditioning Pressure", highlight: "Sensors" },
+      { img: "/moto/efi-aftermarket/products/slider3/frame33.webp", name: "Wheel Speed", highlight: "Sensors" },
     ]
   },
   {
     title: "E-mobility",
     desc: "Electrification is a structural trend in the car sector, encompassing hybrid vehicles (including PHEVs) and 100% electric vehicles (BEVs). We want to position ourselves now on the coming new opportunities - such as the brake pedal sensor or the electric motor position sensor (EMPOS) - so that you can benefit from the OEM solutions developed by the EFI Automotive Group.",
-    mainImage: "/moto/efi-aftermarket/products/slider4/section40.png",
+    mainImage: "/moto/efi-aftermarket/products/slider4/section40.webp",
     products: [
-      { img: "/moto/efi-aftermarket/products/slider4/frame41.png", name: "Electric Motor", highlight: "Position Sensors" },
-      { img: "/moto/efi-aftermarket/products/slider4/frame42.png", name: "Brake Pedal", highlight: "Sensors" },
+      { img: "/moto/efi-aftermarket/products/slider4/frame41.webp", name: "Electric Motor", highlight: "Position Sensors" },
+      { img: "/moto/efi-aftermarket/products/slider4/frame42.webp", name: "Brake Pedal", highlight: "Sensors" },
     ]
   },
   {
     title: "Ignition",
     desc: "Since 1959, through our world-renowned brand Bougicord®, EFI Automotive Service has built up proven know-how in the field of ignition. Our range of products has grown with the evolution of the automotive industry, and now includes ignition cables and parts, as well as latest generation pencil coils and ignition ramps.",
-    mainImage: "/moto/efi-aftermarket/products/slider5/section50.png",
+    mainImage: "/moto/efi-aftermarket/products/slider5/section50.webp",
     products: [
-      { img: "/moto/efi-aftermarket/products/slider5/frame51.png", name: "Ignition", highlight: "Coils" },
-      { img: "/moto/efi-aftermarket/products/slider5/frame52.png", name: "Ignition", highlight: "Wire Sets" },
-      { img: "/moto/efi-aftermarket/products/slider5/frame53.png", name: "Ignition", highlight: "Parts" },
+      { img: "/moto/efi-aftermarket/products/slider5/frame51.webp", name: "Ignition", highlight: "Coils" },
+      { img: "/moto/efi-aftermarket/products/slider5/frame52.webp", name: "Ignition", highlight: "Wire Sets" },
+      { img: "/moto/efi-aftermarket/products/slider5/frame53.webp", name: "Ignition", highlight: "Parts" },
     ]
   }
 ];

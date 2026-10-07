@@ -27,7 +27,7 @@ export default function Factory() {
           <div className="relative group overflow-hidden shadow-lg " data-aos="fade-right">
             <div className="aspect-[16/10] w-full overflow-hidden ">
               <img 
-                src="/moto/accorLubricants/factory1.jpg" 
+                src="/moto/accorLubricants/factory1.webp" 
                 alt="ACCOR Factory Exterior" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -35,7 +35,7 @@ export default function Factory() {
             {/* Arrow Button Overlay */}
             <div className="absolute bottom-4 right-4 md:bottom-6 md:right-6">
               <Link href="#" className="flex items-center justify-center w-10 h-10 md:w-12 md:h-12 bg-[#E41B13] rounded-full text-white shadow-lg transition-transform hover:scale-110">
-                <img src="/moto/accorLubricants/toprightarrow.png" alt="arrow" className="w-5 h-5 md:w-6 md:h-6"/>
+                <img src="/moto/accorLubricants/toprightarrow.webp" alt="arrow" className="w-5 h-5 md:w-6 md:h-6"/>
               </Link>
             </div>
           </div>
@@ -44,7 +44,7 @@ export default function Factory() {
           <div className="relative group overflow-hidden shadow-lg " data-aos="fade-left">
             <div className="aspect-[16/10] w-full overflow-hidden ">
               <img 
-                src="/moto/accorLubricants/factory2.jpg" 
+                src="/moto/accorLubricants/factory2.webp" 
                 alt="ACCOR Factory Interior" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -52,7 +52,7 @@ export default function Factory() {
             {/* Arrow Button Overlay */}
             <div className="absolute bottom-4 right-4 md:bottom-6 md:right-6">
               <Link href="#" className="flex items-center justify-center w-10 h-10 md:w-12 md:h-12 bg-[#E41B13] rounded-full text-white shadow-lg transition-transform hover:scale-110">
-                <img src="/moto/accorLubricants/toprightarrow.png" alt="arrow" className="w-5 h-5 md:w-6 md:h-6"/>
+                <img src="/moto/accorLubricants/toprightarrow.webp" alt="arrow" className="w-5 h-5 md:w-6 md:h-6"/>
               </Link>
             </div>
           </div>

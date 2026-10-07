@@ -9,7 +9,7 @@ export default function Protection() {
     <section className="py-22 bg-primary relative overflow-hidden">
       {/* Background Image with #1C436A Overlay */}
       <div className="absolute inset-0 z-0 opacity-40 pointer-events-none">
-        <img src="/moto/ari-oil/background.png" alt="" className="w-full h-full object-cover" />
+        <img src="/moto/ari-oil/background.webp" alt="" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-primary/60"></div>
       </div>
 

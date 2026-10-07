@@ -30,7 +30,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-3 xl:col-span-1">
             <Link href="#" className="inline-block mb-6 bg-white p-2 rounded shadow-sm">
               <img
-                src="/moto/itw-international/logo.png"
+                src="/moto/itw-international/logo.webp"
                 alt="ITW International Logo"
                 className="w-40 lg:w-60 h-auto"
               />

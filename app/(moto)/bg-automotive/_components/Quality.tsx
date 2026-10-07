@@ -9,23 +9,23 @@ export default function Quality() {
     {
       title: "New Timing kit Range\nExpansion",
       date: "12 MAY 2025",
-      image: "/moto/bg-automotive/News1.png",
+      image: "/moto/bg-automotive/News1.webp",
       isNew: true
     },
     {
       title: "BGA at Automechanika\nBirmingham 2025",
       date: "11 July 2025",
-      image: "/moto/bg-automotive/News2.png"
+      image: "/moto/bg-automotive/News2.webp"
     },
     {
       title: "Company Update - Spring\n2025",
       date: "12 August 2024",
-      image: "/moto/bg-automotive/News3.png"
+      image: "/moto/bg-automotive/News3.webp"
     },
     {
       title: "New Update in - Customer\nSupport",
       date: "20 September 2024",
-      image: "/moto/bg-automotive/News4.png"
+      image: "/moto/bg-automotive/News4.webp"
     }
   ];
 

@@ -8,19 +8,19 @@ import { FlaskConical, ShieldCheck, Truck, Headset, ArrowUpRight } from "lucide-
 export default function AboutUs() {
   const features = [
     {
-      icon: <img src="/moto/proquisur-sl/abt1.png" alt="Wide range of Industrial & specialty Chemicals" className="w-auto h-auto object-contain" />,
+      icon: <img src="/moto/proquisur-sl/abt1.webp" alt="Wide range of Industrial & specialty Chemicals" className="w-auto h-auto object-contain" />,
       text: "Wide range of Industrial & specialty Chemicals"
     },
     {
-      icon: <img src="/moto/proquisur-sl/abt2.png" alt="Focus on Quality, Safety & Compliance" className="w-auto h-auto object-contain" />,
+      icon: <img src="/moto/proquisur-sl/abt2.webp" alt="Focus on Quality, Safety & Compliance" className="w-auto h-auto object-contain" />,
       text: "Focus on Quality, Safety & Compliance"
     },
     {
-      icon: <img src="/moto/proquisur-sl/abt3.png" alt="Reliable Supply & Consistent Performance" className="w-auto h-auto object-contain" />,
+      icon: <img src="/moto/proquisur-sl/abt3.webp" alt="Reliable Supply & Consistent Performance" className="w-auto h-auto object-contain" />,
       text: "Reliable Supply & Consistent Performance"
     },
     {
-      icon: <img src="/moto/proquisur-sl/abt4.png" alt="Customer-Driven Solutions & Technical Support" className="w-auto h-auto object-contain" />,
+      icon: <img src="/moto/proquisur-sl/abt4.webp" alt="Customer-Driven Solutions & Technical Support" className="w-auto h-auto object-contain" />,
       text: "Customer-Driven Solutions & Technical Support"
     }
   ];
@@ -33,7 +33,7 @@ export default function AboutUs() {
           {/* Left Image */}
           <div className="w-full h-full flex order-2 xl:order-1 xl:col-span-6" data-aos="fade-right">
             <img
-              src="/moto/proquisur-sl/galeria.png"
+              src="/moto/proquisur-sl/galeria.webp"
               alt="Proquisur Facility"
               className="w-full h-auto object-cover rounded-md"
             />

@@ -29,7 +29,7 @@ export default function Journey() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 xl:gap-8 w-full order-4 xl:order-2">
           <div className="w-full aspect-[4/3] overflow-hidden shadow-xl relative group cursor-pointer" data-aos="fade-up" data-aos-delay="100">
             <img
-              src="/moto/mutlu/journey1.png"
+              src="/moto/mutlu/journey1.webp"
               alt="Taxi Battery Journey"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
             />
@@ -48,7 +48,7 @@ export default function Journey() {
           </div>
           <div className="w-full aspect-[4/3] overflow-hidden shadow-xl relative group cursor-pointer" data-aos="fade-up" data-aos-delay="200">
             <img
-              src="/moto/mutlu/journey2.png"
+              src="/moto/mutlu/journey2.webp"
               alt="Caravan Battery Journey"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
             />

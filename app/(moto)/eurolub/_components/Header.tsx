@@ -37,7 +37,7 @@ export default function Header() {
         <div className="flex items-center justify-between gap-6 py-4">
           {/* Logo */}
           <Link href="/" className="shrink-0">
-            <img src="/moto/eurolub/logo.png" alt="Eurolub" className="w-[120px] xl:w-[200px] h-auto object-contain self-center" />
+            <img src="/moto/eurolub/logo.webp" alt="Eurolub" className="w-[120px] xl:w-[200px] h-auto object-contain self-center" />
           </Link>
 
           {/* Desktop Navigation */}

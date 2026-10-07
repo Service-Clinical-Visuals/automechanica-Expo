@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 
 const newsItems = [
   {
-    image: "/moto/ajusa/news1.png",
+    image: "/moto/ajusa/news1.webp",
     day: "14",
     month: "May",
     year: "2026",
@@ -17,7 +17,7 @@ const newsItems = [
     link: "#"
   },
   {
-    image: "/moto/ajusa/news2.png",
+    image: "/moto/ajusa/news2.webp",
     day: "14",
     month: "May",
     year: "2026",
@@ -27,7 +27,7 @@ const newsItems = [
     link: "#"
   },
   {
-    image: "/moto/ajusa/news3.png",
+    image: "/moto/ajusa/news3.webp",
     day: "14",
     month: "May",
     year: "2026",
@@ -37,7 +37,7 @@ const newsItems = [
     link: "#"
   },
   {
-    image: "/moto/ajusa/news4.png",
+    image: "/moto/ajusa/news4.webp",
     day: "14",
     month: "May",
     year: "2026",

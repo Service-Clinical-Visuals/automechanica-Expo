@@ -22,7 +22,7 @@ export default function EngineOil() {
           <div className="xl:col-span-5 flex flex-col justify-center" data-aos="fade-left">
             <div className="flex items-center gap-3 mb-8">
               <Image 
-                src="/moto/bluechem/arrow.png" 
+                src="/moto/bluechem/arrow.webp" 
                 alt="Arrow Icon" 
                 width={24} 
                 height={24} 

@@ -9,17 +9,17 @@ export default function PremiumAirFilter() {
     {
       title: "Online Catalog",
       desc: "Browse our complete range of automotive filters",
-      icon: "/moto/muller-filter/pre1.png"
+      icon: "/moto/muller-filter/pre1.webp"
     },
     {
       title: "Service Bulletin",
       desc: "Access technical bulletins, installation instructions, and the service updates.",
-      icon: "/moto/muller-filter/pre2.png"
+      icon: "/moto/muller-filter/pre2.webp"
     },
     {
       title: "News & Events",
       desc: "Stay up to date with our latest product launches, and Industry news",
-      icon: "/moto/muller-filter/pre3.png"
+      icon: "/moto/muller-filter/pre3.webp"
     }
   ];
 

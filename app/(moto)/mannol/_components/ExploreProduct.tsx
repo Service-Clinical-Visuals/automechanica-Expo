@@ -8,22 +8,22 @@ import Button from "./Button";
 export default function ExploreProduct() {
   const features = [
     {
-      icon: <img src="/moto/mannol/img1.png" alt="" />,
+      icon: <img src="/moto/mannol/img1.webp" alt="" />,
       title: "Advanced Engine Protection",
       description: "Protects critical engine components by reducing friction and wear, helping extend engine life and maintain consistent performance under everyday and demanding driving conditions.",
     },
     {
-      icon: <img src="/moto/mannol/img2.png" alt="" />,
+      icon: <img src="/moto/mannol/img2.webp" alt="" />,
       title: "Excellent Thermal Stability",
       description: "Maintains optimal viscosity and lubrication in both high and low temperatures, ensuring reliable engine performance throughout every journey.",
     },
     {
-      icon: <img src="/moto/mannol/img3.png" alt="" />,
+      icon: <img src="/moto/mannol/img3.webp" alt="" />,
       title: "Enhanced Fuel Efficiency",
       description: "The advanced formulation reduces internal engine friction, supporting smoother operation while helping improve fuel economy and overall efficiency.",
     },
     {
-      icon: <img src="/moto/mannol/img4.png" alt="" />,
+      icon: <img src="/moto/mannol/img4.webp" alt="" />,
       title: "OEM Approved Quality",
       description: "Developed to meet or exceed the performance requirements of leading automotive manufacturers, providing dependable protection and long-lasting reliability.",
     },

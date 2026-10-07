@@ -47,7 +47,7 @@ export default function Header() {
             </div>
           </div>
           <div className="flex items-center gap-2">
-            <img src="/moto/leprinxol/flag-uk.png" alt="English" className="h-[14px] w-auto" />
+            <img src="/moto/leprinxol/flag-uk.webp" alt="English" className="h-[14px] w-auto" />
             <span className="oswald header-sublink font-normal">EN</span>
           </div>
         </div>
@@ -60,7 +60,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/leprinxol/logo.png" alt="Leprinxol Logo" className="w-[140px] md:w-[150px] h-auto object-contain" />
+                <img src="/moto/leprinxol/logo.webp" alt="Leprinxol Logo" className="w-[140px] md:w-[150px] h-auto object-contain" />
               </Link>
             </div>
 
@@ -130,7 +130,7 @@ export default function Header() {
               <div className="flex items-center justify-between pb-4 border-b border-white/20">
                 <span className="oswald font-semibold header-sublink">Language:</span>
                 <div className="flex items-center gap-2">
-                  <img src="/moto/leprinxol/flag-uk.png" alt="English" className="h-4 w-auto" />
+                  <img src="/moto/leprinxol/flag-uk.webp" alt="English" className="h-4 w-auto" />
                   <span className="oswald header-sublink font-normal">EN</span>
                 </div>
               </div>

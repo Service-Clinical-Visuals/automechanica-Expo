@@ -5,10 +5,10 @@ import Button from "./Button";
 
 export default function Products() {
   const products = [
-    { name: "Cabin Filters", image: "/moto/denckermann/pro1.png" },
-    { name: "Oil Filters", image: "/moto/denckermann/pro2.png" },
-    { name: "Fuel Filters", image: "/moto/denckermann/pro3.png" },
-    { name: "Air Filters", image: "/moto/denckermann/pro4.png" },
+    { name: "Cabin Filters", image: "/moto/denckermann/pro1.webp" },
+    { name: "Oil Filters", image: "/moto/denckermann/pro2.webp" },
+    { name: "Fuel Filters", image: "/moto/denckermann/pro3.webp" },
+    { name: "Air Filters", image: "/moto/denckermann/pro4.webp" },
   ];
 
   return (

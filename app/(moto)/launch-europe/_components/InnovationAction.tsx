@@ -31,7 +31,7 @@ export default function InnovationAction() {
             <div className="flex flex-col gap-6 mb-10">
               {/* Feature 1 */}
               <div className="flex items-start gap-4">
-                  <img src="/moto/launch-europe/pin.png" alt="pin"  className="pt-2"/>
+                  <img src="/moto/launch-europe/pin.webp" alt="pin"  className="pt-2"/>
                 <p className="section-text text-white font-lato leading-relaxed">
                   <strong className="text-white font-bold">Intelligent Diagnostics</strong> - Perform fast, accurate multi-brand diagnostics with real-time system analysis and advanced troubleshooting capabilities
                 </p>
@@ -39,7 +39,7 @@ export default function InnovationAction() {
 
               {/* Feature 2 */}
               <div className="flex items-start gap-4">
-                <img src="/moto/launch-europe/pin.png" alt="pin" className="pt-2" />
+                <img src="/moto/launch-europe/pin.webp" alt="pin" className="pt-2" />
                 <p className="section-text text-white font-lato leading-relaxed">
                   <strong className="text-white font-bold">Precision ADAS Calibration</strong> - Calibrate modern driver assistance systems with confidence using high-accuracy equipment engineered for today's vehicles.
                 </p>

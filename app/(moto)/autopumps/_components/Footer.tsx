@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="xl:col-span-1">
             <Link href="/autopumps" className="inline-block mb-6">
               <img 
-                src="/moto/autopumps/footerlogo.png" 
+                src="/moto/autopumps/footerlogo.webp" 
                 alt="Autopumps Logo" 
                 className="w-70 h-auto object-cover"
               />

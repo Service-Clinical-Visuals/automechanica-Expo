@@ -16,7 +16,7 @@ export default function Footer() {
     <footer className="w-full" id="footer">
       
       {/* 1. Newsletter Banner: Get In Touch */}
-      <div className="w-full bg-[url('/moto/melle-sp/cta-bg.png')] text-white py-10 relative overflow-hidden bg-cover bg-center">
+      <div className="w-full bg-[url('/moto/melle-sp/cta-bg.webp')] text-white py-10 relative overflow-hidden bg-cover bg-center">
 
         <Container className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-12">
           {/* Left Text */}
@@ -58,7 +58,7 @@ export default function Footer() {
                 onClick={handleScrollToTop}
                 className="inline-block hover:opacity-90 transition-opacity"
               >
-                <img src="/moto/melle-sp/k2-logo.png" alt="Logo" className="w-24" />
+                <img src="/moto/melle-sp/k2-logo.webp" alt="Logo" className="w-24" />
               </Link>
               <Typography variant="body" color="none" className="text-[14px] leading-relaxed text-gray-600 font-normal max-w-sm">
                 A modern logistics system and optimized warehouse operations enable fast, efficient distribution, allowing us to deliver products reliably every day.

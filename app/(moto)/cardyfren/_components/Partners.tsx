@@ -9,14 +9,14 @@ import Button from "./Button";
 
 
 const partners = [
-  { id: 1, image: "b1.png" },
-  { id: 2, image: "b2.png" },
-  { id: 3, image: "b3.png" },
-  { id: 4, image: "b4.png" },
-  { id: 5, image: "b5.png" },
-  { id: 6, image: "b6.png" },
-  { id: 7, image: "b7.png" },
-  { id: 8, image: "b8.png" },
+  { id: 1, image: "b1.webp" },
+  { id: 2, image: "b2.webp" },
+  { id: 3, image: "b3.webp" },
+  { id: 4, image: "b4.webp" },
+  { id: 5, image: "b5.webp" },
+  { id: 6, image: "b6.webp" },
+  { id: 7, image: "b7.webp" },
+  { id: 8, image: "b8.webp" },
 ];
 
 export default function Partners() {

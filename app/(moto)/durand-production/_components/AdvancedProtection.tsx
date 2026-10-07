@@ -41,7 +41,7 @@ export default function AdvancedProtection() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-4 mb-10">
               {features.map((feature, index) => (
                 <div key={index} className="flex items-center gap-3">
-                    <img src="/moto/durandProduction/advbullet.png" alt="Check" className="w-4 h-4 text-white" />
+                    <img src="/moto/durandProduction/advbullet.webp" alt="Check" className="w-4 h-4 text-white" />
                   <p className="text-[#4a4a4a] text-sm md:text-md lg:text-md xl:text-md paragraph leading-[1.8] font-normal">
                     {feature}
                   </p>

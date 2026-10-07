@@ -39,7 +39,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="#" className="flex-shrink-0 z-50">
           <img 
-            src="/moto/mannol/log.png" 
+            src="/moto/mannol/log.webp" 
             alt="MANNOL Logo" 
             className="h-8 md:h-8 w-auto object-contain" 
             onError={(e) => {

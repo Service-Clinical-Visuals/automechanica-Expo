@@ -43,7 +43,7 @@ export default function Footer() {
           <div className="sm:col-span-2 md:col-span-3 lg:col-span-4 flex flex-col items-start gap-4 lg:pr-6">
             <Link href="/ctr" className="inline-flex items-center select-none h-9 sm:h-11 w-auto">
               <img
-                src="/moto/ctr/ctr-logo.png"
+                src="/moto/ctr/ctr-logo.webp"
                 alt="CTR Logo"
                 className="h-full w-auto object-contain brightness-0 invert"
               />

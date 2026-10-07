@@ -80,7 +80,7 @@ export default function Header() {
           {/* Logo Area (Center) */}
           <div className="flex-shrink-0 flex items-center justify-center w-auto xl:w-1/3">
             <Link href="#">
-              <img src="/moto/brain-srl/logo.png" alt="Brain Logo" className="h-12 md:h-16 w-auto object-contain" />
+              <img src="/moto/brain-srl/logo.webp" alt="Brain Logo" className="h-12 md:h-16 w-auto object-contain" />
             </Link>
           </div>
 

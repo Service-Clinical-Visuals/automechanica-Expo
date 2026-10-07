@@ -10,36 +10,36 @@ import "swiper/css/pagination";
 export default function News() {
   const newsData = [
     {
-      image: "/moto/autochemi/news1.png",
+      image: "/moto/autochemi/news1.webp",
       title: "AUTOCHEMIE BITTERFELD GMBH invites you...",
       date: "02.09.2025",
       excerpt: "AUTOCHEMIE BITTERFELD GMBH will participate in the international Lubricant..."
     },
     {
-      image: "/moto/autochemi/news2.png",
+      image: "/moto/autochemi/news2.webp",
       title: "GERMAN BRAND \"PREMIER\" ENTERS THE IRAQI...",
       date: "24.07.2024",
       excerpt: "We are pleased to announce the grand launch of the German brand \"PREMIER\" in the..."
     },
     {
-      image: "/moto/autochemi/news3.png",
+      image: "/moto/autochemi/news3.webp",
       title: "FROSBIO Antifreezes – Effective Engine...",
       date: "04.01.2024",
       excerpt: "AutoChemie Bitterfeld GmbH is an expert in the production of coolants for the entire world..."
     },
     {
-      image: "/moto/autochemi/news4.png",
+      image: "/moto/autochemi/news4.webp",
       title: "Merry Christmas and Happy New Year, dear...",
       date: "22.12.2023",
       excerpt: "We always believe in miracles, over the years we grow up, but we want to see..."
     },
     {
-      image: "/moto/autochemi/news5.png",
+      image: "/moto/autochemi/news5.webp",
       title: "​Motor oils - your business with AutoChemie...",
       date: "17.04.2023",
       excerpt: "For several years now, the company AutoChemie Bitterfield GmbH has been continuing its..."
     },{
-      image: "/moto/autochemi/news6.png",
+      image: "/moto/autochemi/news6.webp",
       title: "Brake fluid from AutoChemie Bitterfield GmbH...",
       date: "14.04.2023",
       excerpt: "Autochemie Bitterfeld GmbH offers wholesale brake fluid sales directly from the manufacturer..."

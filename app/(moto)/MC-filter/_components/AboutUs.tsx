@@ -41,7 +41,7 @@ const AboutUs = () => {
             {/* Stat 1 */}
             <div className="flex items-center gap-4">
               <div className="w-16 h-16 md:w-20 md:h-20 shrink-0 flex items-center justify-center">
-                <img src="/moto/mc-filter/icon1.png" alt="Product Type" className="w-full h-full object-contain" />
+                <img src="/moto/mc-filter/icon1.webp" alt="Product Type" className="w-full h-full object-contain" />
               </div>
               <div className="flex flex-col">
                 <Typography variant="h2" color="primary" className="font-bold leading-none mb-1">
@@ -56,7 +56,7 @@ const AboutUs = () => {
             {/* Stat 2 */}
             <div className="flex items-center gap-4">
               <div className="w-16 h-16 md:w-20 md:h-20 shrink-0 flex items-center justify-center">
-                <img src="/moto/mc-filter/icon2.png" alt="Successful Projects" className="w-full h-full object-contain" />
+                <img src="/moto/mc-filter/icon2.webp" alt="Successful Projects" className="w-full h-full object-contain" />
               </div>
               <div className="flex flex-col">
                 <Typography variant="h2" color="primary" className="font-bold leading-none mb-1">
@@ -71,7 +71,7 @@ const AboutUs = () => {
             {/* Stat 3 */}
             <div className="flex items-center gap-4">
               <div className="w-16 h-16 md:w-20 md:h-20 shrink-0 flex items-center justify-center">
-                <img src="/moto/mc-filter/icon3.png" alt="Product Type" className="w-full h-full object-contain" />
+                <img src="/moto/mc-filter/icon3.webp" alt="Product Type" className="w-full h-full object-contain" />
               </div>
               <div className="flex flex-col">
                 <Typography variant="h2" color="primary" className="font-bold leading-none mb-1">
@@ -115,7 +115,7 @@ const AboutUs = () => {
         <div className="w-full order-2 2xl:order-1 flex justify-center items-center relative" data-aos="fade-right">
           <div className="relative w-full max-w-[500px] 2xl:max-w-none flex justify-center z-10">
             <img
-              src="/moto/mc-filter/Group3.png"
+              src="/moto/mc-filter/Group3.webp"
               alt="MC Filter About Us"
               className="w-[90%] 2xl:w-[85%] h-auto object-contain hover:scale-105 transition-transform duration-500"
             />

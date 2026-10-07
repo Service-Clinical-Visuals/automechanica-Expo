@@ -3,10 +3,10 @@
 import Container from "./Container";
 
 const brands = [
-  { image: "/moto/intermotor/partners/1.png", name: "Lemark" },
-  { image: "/moto/intermotor/partners/2.png", name: "Lucas" },
-  { image: "/moto/intermotor/partners/3.png", name: "Intermotor" },
-  { image: "/moto/intermotor/partners/4.png", name: "FuelParts" },
+  { image: "/moto/intermotor/partners/1.webp", name: "Lemark" },
+  { image: "/moto/intermotor/partners/2.webp", name: "Lucas" },
+  { image: "/moto/intermotor/partners/3.webp", name: "Intermotor" },
+  { image: "/moto/intermotor/partners/4.webp", name: "FuelParts" },
 ];
 
 export default function Partner() {

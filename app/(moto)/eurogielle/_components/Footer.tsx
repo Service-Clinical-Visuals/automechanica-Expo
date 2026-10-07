@@ -16,7 +16,7 @@ const Footer = () => {
           {/* Col 1: About */}
           <div className="flex flex-col gap-6" data-aos="fade-up">
             <Link href="/" className="inline-block mb-2">
-              <img src="/moto/eurogielle/logo.png" alt="Eurogielle Logo" className="h-auto w-[70%]  object-contain" />
+              <img src="/moto/eurogielle/logo.webp" alt="Eurogielle Logo" className="h-auto w-[70%]  object-contain" />
             </Link>
             <span className="footer-body leading-relaxed max-w-[90%] ">
               Eurogielle is an Italian family-run company specializing in cabin air filters, delivering excellence through continuous innovation.

@@ -13,7 +13,7 @@ export default function Premium() {
     <section className="relative w-full bg-white overflow-hidden py-12 md:py-24">
       <Container>
         <img
-          src="/moto/hengst/02.png"
+          src="/moto/hengst/02.webp"
           alt=""
           aria-hidden="true"
           className="hidden md:block absolute top-16 left-1 w-30 pointer-events-none select-none"

@@ -3,7 +3,7 @@ import Container from "./Container";
 
 const logisticsSections = [
   {
-    img: "/moto/meat-doria/logistics/1.png",
+    img: "/moto/meat-doria/logistics/1.webp",
     title: "Inbound Logistics",
     paragraphs: [
       "The use of advanced technologies and dedicated software, together with precise activity planning and warehouses located in strategic areas, allows us to efficiently manage incoming flows of goods.",
@@ -11,7 +11,7 @@ const logisticsSections = [
     ],
   },
   {
-    img: "/moto/meat-doria/logistics/2.png",
+    img: "/moto/meat-doria/logistics/2.webp",
     title: "Outbound Logistics",
     paragraphs: [
       "Distribution is fast and efficient thanks to the high level of automation of our operations: the AutoStore™ system and the automatic conveyor line manage the picking and handling phases with precision and continuity",

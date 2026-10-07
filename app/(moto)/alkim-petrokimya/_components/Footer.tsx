@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="lg:col-span-5 flex flex-col gap-6 lg:pr-12 border-r-0 lg:border-r border-gray-600" data-aos="fade-up">
             <Link href="#" className="flex items-center gap-3">
               <img
-                src="/moto/alkim-petrokimya/footer-logo.png"
+                src="/moto/alkim-petrokimya/footer-logo.webp"
                 alt="Alkim Petrokimya Logo"
                 className="h-auto md:h-auto object-contain px-2"
               />
@@ -50,11 +50,11 @@ export default function Footer() {
             <h4 className="text-base md:text-lg orbitron font-medium tracking-wide">Contact Us</h4>
             <div className="flex flex-col gap-6 text-sm text-[#cccccc]">
               <div className="flex items-center gap-3">
-                <img src="/moto/alkim-petrokimya/phone.png" alt="Phone" className="w-auto h-auto flex-shrink-0 object-contain" />
+                <img src="/moto/alkim-petrokimya/phone.webp" alt="Phone" className="w-auto h-auto flex-shrink-0 object-contain" />
                 <span>0216 593 24 61</span>
               </div>
               <div className="flex items-start gap-3">
-                <img src="/moto/alkim-petrokimya/loc.png" alt="Location" className="w-auto h-auto flex-shrink-0 object-contain mt-1" />
+                <img src="/moto/alkim-petrokimya/loc.webp" alt="Location" className="w-auto h-auto flex-shrink-0 object-contain mt-1" />
                 <span className="leading-relaxed">
                   Kimya Sanayicileri OSB<br />
                   Melek Aras Bulvarı,<br />

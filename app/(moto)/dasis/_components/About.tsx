@@ -23,7 +23,7 @@ const About = () => {
         {/* Facility image */}
         <div className="overflow-hidden mb-6" data-aos="zoom-in">
           <img
-            src="/moto/dasis/about.png"
+            src="/moto/dasis/about.webp"
             alt="AKS DASIS facility"
             className="w-full h-auto object-cover"
           />

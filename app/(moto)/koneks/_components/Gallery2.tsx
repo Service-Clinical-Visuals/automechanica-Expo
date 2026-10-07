@@ -10,17 +10,17 @@ import "swiper/css/pagination";
 export default function Gallery2() {
   const slides = [
     {
-      img: "/moto/koneks/g1.png",
+      img: "/moto/koneks/g1.webp",
       title: "The technology, That Strengthens Your Power.",
       desc: "With its 25 years long experience and high skilled team of 221 people , Koneks adds power to your power.."
     },
     {
-      img: "/moto/koneks/g2.png",
+      img: "/moto/koneks/g2.webp",
       title: "In The World Market, In The Center Of Power...",
       desc: "Koneks is a trusted brand in 68 countries, recognized for delivering high quality automotive components with reliable performance and consistent durability."
     },
     {
-      img: "/moto/koneks/g3.png",
+      img: "/moto/koneks/g3.webp",
       title: "Original Koneks, For Original Power...",
       desc: "For the best performance, choose Original Koneks products, engineered for quality, reliability, and long-lasting durability."
     }

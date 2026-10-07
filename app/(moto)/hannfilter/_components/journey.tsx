@@ -13,7 +13,7 @@ const Journey = () => {
             {/* Background Image with Overlay */}
             <div
                 className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat mix-blend-screen"
-                style={{ backgroundImage: "url('/moto/hannfilter/j-bg.png')" }}
+                style={{ backgroundImage: "url('/moto/hannfilter/j-bg.webp')" }}
             ></div>
             {/* Dark gradient overlay to ensure text readability */}
             <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-transparent z-0"></div>

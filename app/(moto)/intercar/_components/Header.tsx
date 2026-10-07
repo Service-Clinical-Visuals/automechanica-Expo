@@ -25,7 +25,7 @@ export default function Header() {
           <div className="flex items-center h-[64px] sm:h-[80px] px-4 sm:px-6 lg:px-8">
             {/* Logo */}
             <div className="flex items-center shrink-0">
-              <img src="/moto/intercar/logo.png" alt="InterCar" className="h-8 sm:h-9 w-auto" />
+              <img src="/moto/intercar/logo.webp" alt="InterCar" className="h-8 sm:h-9 w-auto" />
             </div>
 
             {/* Desktop Nav — centered in the remaining space */}

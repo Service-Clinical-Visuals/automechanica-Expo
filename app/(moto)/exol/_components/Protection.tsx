@@ -60,7 +60,7 @@ export default function Protection() {
             {/* Image (Order 3 on mobile) */}
             <div className="order-3 xl:order-1 /50  relative w-full aspect-[16/10]" data-aos="fade-left">
               <img
-                src="/moto/exol/section3.png"
+                src="/moto/exol/section3.webp"
                 alt="Exol Engine Oils"
                 className="w-full h-full object-fill rounded-sm"
               />

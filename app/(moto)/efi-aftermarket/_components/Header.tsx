@@ -112,7 +112,7 @@ const Header = () => {
             {/* Logo Section */}
             <Link href="/" className="flex items-center shrink-0">
               <img
-                src="/moto/efi-aftermarket/logo.png"
+                src="/moto/efi-aftermarket/logo.webp"
                 alt="EFI Aftermarket Logo"
                 className="h-10 sm:h-12 md:h-20 w-auto object-contain"
               />

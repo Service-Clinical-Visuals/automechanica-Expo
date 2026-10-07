@@ -7,31 +7,31 @@ import Container from "./Container";
 const news = [
   {
     key: "1",
-    src: "/moto/gand-oil/corporate/1.png",
+    src: "/moto/gand-oil/corporate/1.webp",
     date: "05 . 2024",
     title: "Gand Oil Lubricants at the international exhibition Automechanika Frankfurt 2024",
   },
   {
     key: "2",
-    src: "/moto/gand-oil/corporate/2.png",
+    src: "/moto/gand-oil/corporate/2.webp",
     date: "04 . 2026",
     title: "Moto Expo 2026 x Gand Oil",
   },
   {
     key: "3",
-    src: "/moto/gand-oil/corporate/3.png",
+    src: "/moto/gand-oil/corporate/3.webp",
     date: "03 . 2025",
     title: "Gand Oil Lubricants at the UEFA Nations League 2025",
   },
   {
     key: "4",
-    src: "/moto/gand-oil/corporate/4.png",
+    src: "/moto/gand-oil/corporate/4.webp",
     date: "03 . 2025",
     title: "Gand Oil Lubricants at the 2025 Panhellenic Drift Games",
   },
   {
     key: "5",
-    src: "/moto/gand-oil/corporate/5.png",
+    src: "/moto/gand-oil/corporate/5.webp",
     date: "04 . 2024",
     title: "Gand Oil's new storage unit in Peristeri city",
   },
@@ -115,7 +115,7 @@ export default function Corporate() {
               View All News
             </button>
             <Image
-              src="/moto/gand-oil/arrow_green.png"
+              src="/moto/gand-oil/arrow_green.webp"
               alt="Go"
               width={36}
               height={36}
@@ -155,7 +155,7 @@ export default function Corporate() {
             onMouseLeave={() => setArrowHovered(false)}
           >
             <Image
-              src="/moto/gand-oil/arrow_grey.png"
+              src="/moto/gand-oil/arrow_grey.webp"
               alt="Explore"
               width={104}
               height={104}
@@ -163,7 +163,7 @@ export default function Corporate() {
               style={{ opacity: arrowHovered ? 0 : 1 }}
             />
             <Image
-              src="/moto/gand-oil/arrow_green.png"
+              src="/moto/gand-oil/arrow_green.webp"
               alt="Explore"
               width={104}
               height={104}

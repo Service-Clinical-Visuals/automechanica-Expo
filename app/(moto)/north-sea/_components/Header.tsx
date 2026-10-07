@@ -55,7 +55,7 @@ export default function Header() {
           >
             {/* Logo — flex-1 balances the CTA's flex-1 so nav stays centered */}
             <div className="flex-1 flex items-center">
-              <img src="/moto/north-sea/logo.png" alt="North Sea" className="h-11 w-auto" />
+              <img src="/moto/north-sea/logo.webp" alt="North Sea" className="h-11 w-auto" />
             </div>
 
             {/* Desktop Nav — centered between logo and CTA */}

@@ -13,47 +13,47 @@ export default function Solutions() {
     {
       title: "Cylinder Head Gaskets",
       desc: "Cylinder Head Gaskets in OEM quality – composite or multi-layer steel",
-      img: "/moto/elvis/frame1.png"
+      img: "/moto/elvis/frame1.webp"
     },
     {
       title: "Oil pan gaskets",
       desc: "Elwis Royal oil pan gaskets are in the highest quality that the market can offer and respecting all the...",
-      img: "/moto/elvis/frame2.png"
+      img: "/moto/elvis/frame2.webp"
     },
     {
       title: "Other Gasket Spareparts",
       desc: "Elwis Royal offers high-quality Gasket Spareparts manufactured accordingly to the OE standards",
-      img: "/moto/elvis/frame3.png"
+      img: "/moto/elvis/frame3.webp"
     },
     {
       title: "Conversion Sets",
       desc: "Conversion Sets with the perfect and right composition of gaskets and replacement parts...",
-      img: "/moto/elvis/frame4.png"
+      img: "/moto/elvis/frame4.webp"
     },
     {
       title: "Intake Manifold Gaskets",
       desc: "Elwis Royal only use the finest quality of rubber such as Viton, NBR, silicone and steel in its OE equivalent...",
-      img: "/moto/elvis/frame5.png"
+      img: "/moto/elvis/frame5.webp"
     },
     {
       title: "Valve Cover Gaskets",
       desc: "A wide range of Valve Cover Gaskets is available in the Elwis Royal brand, and its...",
-      img: "/moto/elvis/frame6.png"
+      img: "/moto/elvis/frame6.webp"
     },
     {
       title: "Valve Stem Seals",
       desc: "Valve Stem Seals in Viton rubber and OE quality",
-      img: "/moto/elvis/frame7.png"
+      img: "/moto/elvis/frame7.webp"
     },
     {
       title: "Head Gasket Sets",
       desc: "Head Gasket Sets are the perfect and right composition of gaskets and replacement parts to re-build...",
-      img: "/moto/elvis/frame8.png"
+      img: "/moto/elvis/frame8.webp"
     },
     {
       title: "Exhaust Manifold Gaskets",
       desc: "Elwis Royal only use the finest quality of rubber such as Viton, NBR, silicone and steel in its OE equivalent...",
-      img: "/moto/elvis/frame9.png"
+      img: "/moto/elvis/frame9.webp"
     }
   ];
 

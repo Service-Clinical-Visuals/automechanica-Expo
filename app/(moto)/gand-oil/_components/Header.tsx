@@ -41,7 +41,7 @@ export default function Header() {
           {/* Left: Logo */}
           <div className="flex items-center flex-shrink-0">
             <Image
-              src="/moto/gand-oil/logo.png"
+              src="/moto/gand-oil/logo.webp"
               alt="Gand Oil"
               width={160}
               height={44}
@@ -80,7 +80,7 @@ export default function Header() {
                 Get in Touch
               </button>
               <Image
-                src="/moto/gand-oil/arrow_green.png"
+                src="/moto/gand-oil/arrow_green.webp"
                 alt="Explore"
                 width={32}
                 height={32}

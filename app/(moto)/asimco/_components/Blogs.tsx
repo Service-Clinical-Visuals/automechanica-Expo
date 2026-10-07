@@ -17,37 +17,37 @@ export default function Blogs() {
       date: "27 Jun, 2026",
       title: "Testing Process Behind ASIMCO Brake Pads",
       excerpt: "When a driver hits the pedal then the brake pad has to respond regardless of speed, temperature or road condition. That is why brake pads go through multiple stages of testing before they reach the market. ASIMCO is one of the most recognized automotive component manufacturers with a.....",
-      image: "/moto/asimco/b1.png",
+      image: "/moto/asimco/b1.webp",
     },
     {
       date: "19 Jun, 2026",
       title: "How to Reduce Comebacks with Quality Brake Components",
       excerpt: "Brakes are one of the most essential parts of a vehicle and a reliable braking...",
-      image: "/moto/asimco/b2.png",
+      image: "/moto/asimco/b2.webp",
     },
     {
       date: "26 May, 2026",
       title: "High-Temperature Resistance in Brake System Performance",
       excerpt: "Your braking system usually operates in high temperatures because of.....",
-      image: "/moto/asimco/b3.png",
+      image: "/moto/asimco/b3.webp",
     },
     {
       date: "18 May, 2026",
       title: "The Hidden Costs Of Counterfeit Spare Parts In The Automotive Industry",
       excerpt: "Counterfeit spare parts are becoming a growing threat across the automotive industry. For an aftermarket auto parts distributor and automotive components wholesale business, fake parts are no longer just a market challenge; they are a major safety, financial, and operational risk......",
-      image: "/moto/asimco/b4.png",
+      image: "/moto/asimco/b4.webp",
     },
     {
       date: "22 Apr, 2026",
       title: "How Counterfeit Auto Parts Threaten Vehicle Safety",
       excerpt: "The counterfeit auto parts trade drains billions from the automotive sector annually......",
-      image: "/moto/asimco/b5.png",
+      image: "/moto/asimco/b5.webp",
     },
     {
       date: "24 Mar, 2026",
       title: "How to Differentiate Between Original and Fake Auto Spare Parts",
       excerpt: "When it comes to replacing auto parts, it is very crucial to select the right auto.......",
-      image: "/moto/asimco/b6.png",
+      image: "/moto/asimco/b6.webp",
     }
   ];
 

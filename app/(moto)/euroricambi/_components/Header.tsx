@@ -22,7 +22,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-[70px] px-4 sm:px-8 md:px-10 lg:px-[40px]">
           {/* Logo */}
           <div className="flex items-center">
-            <img src="/moto/euroricambi/logo.png" alt="Euroricambi Group" className="h-10 w-auto" />
+            <img src="/moto/euroricambi/logo.webp" alt="Euroricambi Group" className="h-10 w-auto" />
           </div>
 
           {/* Desktop Nav — centered */}

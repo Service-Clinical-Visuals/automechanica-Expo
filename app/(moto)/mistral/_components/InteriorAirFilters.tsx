@@ -43,7 +43,7 @@ export default function InteriorAirFilters() {
               <div className="relative border border-[#0D3374] rounded-xl px-3 pb-4 pt-6 text-center bg-white flex flex-col items-center">
                 {/* Overlapping Icon */}
                 <div className="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 z-10">
-                  <img src="/moto/mistral/setting1.png" alt="" className="w-[70px] h-[70px]  object-contain" />
+                  <img src="/moto/mistral/setting1.webp" alt="" className="w-[70px] h-[70px]  object-contain" />
                 </div>
                 
                 <h3 className="text-[#0D3374] oswald-font font-normal number-text mb-2 tracking-wide">
@@ -60,7 +60,7 @@ export default function InteriorAirFilters() {
               <div className="relative border border-[#0D3374] rounded-xl px-3 pb-4 pt-6 text-center bg-white flex flex-col items-center mt-8 md:mt-0">
                 {/* Overlapping Icon */}
                 <div className="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 z-10">
-                  <img src="/moto/mistral/setting1.png" alt="" className="w-[70px] h-[70px]  object-contain" />
+                  <img src="/moto/mistral/setting1.webp" alt="" className="w-[70px] h-[70px]  object-contain" />
                 </div>
                 
                 <h3 className="text-[#0D3374] oswald-font font-normal number-text mb-2 tracking-wide">
@@ -82,7 +82,7 @@ export default function InteriorAirFilters() {
             <div className="relative border border-[#0D3374] rounded-xl px-4 pb-6 pt-8 text-center bg-white flex flex-col items-center">
               {/* Overlapping Icon */}
               <div className="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 z-10">
-                <img src="/moto/mistral/setting1.png" alt="" className="w-[70px] h-[70px] object-contain" />
+                <img src="/moto/mistral/setting1.webp" alt="" className="w-[70px] h-[70px] object-contain" />
               </div>
               
               <h3 className="text-[#0D3374] oswald-font font-normal number-text mb-2 tracking-wide">
@@ -99,7 +99,7 @@ export default function InteriorAirFilters() {
             <div className="relative border border-[#0D3374] rounded-xl px-4 pb-6 pt-8 text-center bg-white flex flex-col items-center">
               {/* Overlapping Icon */}
               <div className="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 z-10">
-                <img src="/moto/mistral/setting1.png" alt="" className="w-[70px] h-[70px] object-contain" />
+                <img src="/moto/mistral/setting1.webp" alt="" className="w-[70px] h-[70px] object-contain" />
               </div>
               
               <h3 className="text-[#0D3374] oswald-font font-normal number-text mb-2 tracking-wide">

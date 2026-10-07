@@ -2,9 +2,9 @@ import { ArrowRightIcon, User2 } from "lucide-react";
 import Container from "./Container";
 
 const stats = [
-  { icon: "/moto/meat-doria/about/medal.png", value: "80+", label: "Years of Italian history" },
-  { icon: "/moto/meat-doria/about/warehouse.png", value: "11", label: "Warehouses" },
-  { icon: "/moto/meat-doria/about/office.png", value: "13", label: "Offices" },
+  { icon: "/moto/meat-doria/about/medal.webp", value: "80+", label: "Years of Italian history" },
+  { icon: "/moto/meat-doria/about/warehouse.webp", value: "11", label: "Warehouses" },
+  { icon: "/moto/meat-doria/about/office.webp", value: "13", label: "Offices" },
 ];
 
 export default function About() {
@@ -15,7 +15,7 @@ export default function About() {
           {/* Top-left: image */}
           <div className="order-2 xl:order-1 h-[220px] md:h-[422px] ">
             <img
-              src="/moto/meat-doria/about/1.png"
+              src="/moto/meat-doria/about/1.webp"
               alt="Precision manufacturing"
               className="w-full h-full object-contain aspect-[1206/422]"
             />
@@ -69,7 +69,7 @@ export default function About() {
           {/* Bottom-right: image */}
           <div className="order-4 h-[220px] md:h-[422px]">
             <img
-              src="/moto/meat-doria/about/2.png"
+              src="/moto/meat-doria/about/2.webp"
               alt="Automated warehouse"
               className="w-full h-full object-contain aspect-[1206/422]"
             />

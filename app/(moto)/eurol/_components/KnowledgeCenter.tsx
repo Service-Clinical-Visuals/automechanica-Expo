@@ -9,15 +9,15 @@ import Button from "./Button";
 const KnowledgeCenter = () => {
   const articles = [
     {
-      image: "/moto/eurol/section75.png",
+      image: "/moto/eurol/section75.webp",
       title: "Critical large bearings and hydraulics in concrete..."
     },
     {
-      image: "/moto/eurol/section76.png",
+      image: "/moto/eurol/section76.webp",
       title: "The cooling strategy of Volvo heavy duty engines"
     },
     {
-      image: "/moto/eurol/section77.png",
+      image: "/moto/eurol/section77.webp",
       title: "How modern two- and four-stroke engines evolve"
     }
   ];

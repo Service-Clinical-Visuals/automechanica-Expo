@@ -7,17 +7,17 @@ import { ArrowRight } from "lucide-react";
 export default function ProductRange() {
   const products = [
     {
-      image: "/moto/celikis/pro1.png",
+      image: "/moto/celikis/pro1.webp",
       title: "Gearboxes and Differentials",
       description: "Our spare parts, fully interchangeable with original components, are meticulously manufactured using the advanced production systems.",
     },
     {
-      image: "/moto/celikis/pro2.png",
+      image: "/moto/celikis/pro2.webp",
       title: "Customized Production",
       description: "Based on our industry experience since 1962 and utilizing the best machinery in the market, we are capable of producing fully equipped components for assembly lines.",
     },
     {
-      image: "/moto/celikis/pro3.png",
+      image: "/moto/celikis/pro3.webp",
       title: "Complementary products",
       description: "By sourcing parts from original manufacturers (Premium OE brands) or trusted suppliers (Aftermarket), we ensure that our spare parts consistently deliver the highest quality.",
     }

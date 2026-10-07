@@ -31,7 +31,7 @@ export default function CabinAirFilter() {
             {features.map((feature, index) => (
               <li key={index} className="flex items-center gap-4">
                 <div className="flex-shrink-0 ">
-                  <img src="/moto/muller-filter/setting.png" alt="Feature Icon" className="w-8 h-8 lg:w-12 lg:h-12 object-contain" />
+                  <img src="/moto/muller-filter/setting.webp" alt="Feature Icon" className="w-8 h-8 lg:w-12 lg:h-12 object-contain" />
                 </div>
                 <p className="section-text text-[#333333] leading-[1.6] font-mulish ">{feature}</p>
               </li>

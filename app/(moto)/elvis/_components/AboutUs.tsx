@@ -73,7 +73,7 @@ const AboutUs = () => {
             data-aos-delay="200"
           >
             <img
-              src="/moto/elvis/section2.jpg"
+              src="/moto/elvis/section2.webp"
               alt="About Elwis Royal"
               className="w-full object-cover rounded-3xl h-[300px] sm:h-[350px] md:h-[400px] lg:h-[450px] 2xl:h-[552px] min-[2500px]:h-[750px] min-[3800px]:h-[1104px]"
             />

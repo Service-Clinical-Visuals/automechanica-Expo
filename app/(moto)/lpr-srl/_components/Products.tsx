@@ -11,42 +11,42 @@ import { ArrowRight } from "lucide-react";
 const Products = () => {
   const products = [
     {
-      img: "/moto/lpr-srl/product1.jpg",
+      img: "/moto/lpr-srl/product1.webp",
       title: "Braking Systems",
       desc: "Reliable brake pads for safe, smooth, and efficient stopping.",
     },
     {
-      img: "/moto/lpr-srl/product2.jpg",
+      img: "/moto/lpr-srl/product2.webp",
       title: "Clutch Systems",
       desc: "Built for reliable and precise gear changes.",
     },
     {
-      img: "/moto/lpr-srl/product3.jpg",
+      img: "/moto/lpr-srl/product3.webp",
       title: "Transmission Solutions",
       desc: "Built for reliable power transmission and performance.",
     },
     {
-      img: "/moto/lpr-srl/product4.jpg",
+      img: "/moto/lpr-srl/product4.webp",
       title: "Engine Cooling Solutions",
       desc: "Delivers reliable coolant circulation and engine cooling.",
     },
     {
-      img: "/moto/lpr-srl/product1.jpg",
+      img: "/moto/lpr-srl/product1.webp",
       title: "Braking Systems",
       desc: "Reliable brake pads for safe, smooth, and efficient stopping.",
     },
     {
-      img: "/moto/lpr-srl/product2.jpg",
+      img: "/moto/lpr-srl/product2.webp",
       title: "Clutch Systems",
       desc: "Built for reliable and precise gear changes.",
     },
     {
-      img: "/moto/lpr-srl/product3.jpg",
+      img: "/moto/lpr-srl/product3.webp",
       title: "Transmission Solutions",
       desc: "Built for reliable power transmission and performance.",
     },
     {
-      img: "/moto/lpr-srl/product4.jpg",
+      img: "/moto/lpr-srl/product4.webp",
       title: "Engine Cooling Solutions",
       desc: "Delivers reliable coolant circulation and engine cooling.",
     },

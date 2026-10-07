@@ -7,13 +7,13 @@ import Container from "./Container";
 import Link from "next/link";
 
 const slides = [
-  { key: "1", src: "/moto/axon-oil/gallery/1.jpg", hover: "Greases" },
-  { key: "2", src: "/moto/axon-oil/gallery/2.jpg", hover: "Passenger Car" },
-  { key: "3", src: "/moto/axon-oil/gallery/3.jpg", hover: "Motorcycles" },
-  { key: "4", src: "/moto/axon-oil/gallery/4.jpg", hover: "Heavy Duty" },
-  { key: "5", src: "/moto/axon-oil/gallery/5.png", hover: "Agriculture" },
-  { key: "6", src: "/moto/axon-oil/gallery/6.png", hover: "Marine" },
-  { key: "7", src: "/moto/axon-oil/gallery/7.jpg", hover: "Transmissions" },
+  { key: "1", src: "/moto/axon-oil/gallery/1.webp", hover: "Greases" },
+  { key: "2", src: "/moto/axon-oil/gallery/2.webp", hover: "Passenger Car" },
+  { key: "3", src: "/moto/axon-oil/gallery/3.webp", hover: "Motorcycles" },
+  { key: "4", src: "/moto/axon-oil/gallery/4.webp", hover: "Heavy Duty" },
+  { key: "5", src: "/moto/axon-oil/gallery/5.webp", hover: "Agriculture" },
+  { key: "6", src: "/moto/axon-oil/gallery/6.webp", hover: "Marine" },
+  { key: "7", src: "/moto/axon-oil/gallery/7.webp", hover: "Transmissions" },
 ];
 
 // Base sizes/offsets are tuned for this reference container width, then scaled to fit.

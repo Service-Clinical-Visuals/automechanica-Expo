@@ -68,7 +68,7 @@ export default function Premium() {
               <div className="space-y-4 pt-1 mb-10">
                 {checklist.map((item, i) => (
                   <div key={i} className="flex items-start gap-3">
-                    <img src="/moto/lrt/checkwhite.png" alt="" className="shrink-0 mt-0.5" style={{ width: 22, height: 22 }} />
+                    <img src="/moto/lrt/checkwhite.webp" alt="" className="shrink-0 mt-0.5" style={{ width: 22, height: 22 }} />
                     <p className="content">
                       <span className="text-white font-medium">{item.title}</span> – {item.text}
                     </p>
@@ -78,7 +78,7 @@ export default function Premium() {
 
               <button className="flex navlink text-[18px]! font-bold! text-black! items-center gap-2 bg-white rounded-full pl-5 pr-1.5 py-1.5 hover:opacity-90 transition-opacity">
                 <span>Explore Products</span>
-                <img src="/moto/lrt/arrowup.png" alt="" className="h-6.5 w-6.5" />
+                <img src="/moto/lrt/arrowup.webp" alt="" className="h-6.5 w-6.5" />
               </button>
             </div>
 

@@ -8,12 +8,12 @@ import "swiper/css";
 import "swiper/css/scrollbar";
 
 const products = [
-  { img: "/moto/ows/product1.png", title: "Performance 3-in-1 System" },
-  { img: "/moto/ows/product2.png", title: "Aircon Treatment" },
-  { img: "/moto/ows/product3.png", title: "Premium Z Edition" },
-  { img: "/moto/ows/product4.png", title: "Car Care Kit Products" },
-  { img: "/moto/ows/product5.png", title: "Performance Additives" },
-  { img: "/moto/ows/product6.png", title: "Engine Decarbonizers" },
+  { img: "/moto/ows/product1.webp", title: "Performance 3-in-1 System" },
+  { img: "/moto/ows/product2.webp", title: "Aircon Treatment" },
+  { img: "/moto/ows/product3.webp", title: "Premium Z Edition" },
+  { img: "/moto/ows/product4.webp", title: "Car Care Kit Products" },
+  { img: "/moto/ows/product5.webp", title: "Performance Additives" },
+  { img: "/moto/ows/product6.webp", title: "Engine Decarbonizers" },
 ];
 
 const Products = () => {

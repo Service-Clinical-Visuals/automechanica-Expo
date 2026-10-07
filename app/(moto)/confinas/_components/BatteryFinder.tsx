@@ -22,7 +22,7 @@ const BatteryFinder = () => {
         {/* Image */}
         <div className="order-2 min-[1440px]:order-2 min-[1440px]:col-span-6 w-full flex items-center justify-center h-full" data-aos="fade-left">
           <img
-            src="/moto/confinas/section3.png"
+            src="/moto/confinas/section3.webp"
             alt="Battery Finder"
             className="w-full h-auto object-contain max-h-[500px] min-[1440px]:max-h-[600px]"
           />

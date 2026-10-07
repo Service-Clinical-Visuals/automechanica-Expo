@@ -1,0 +1,104 @@
+// Converts every .png/.jpg/.jpeg in /public to .webp and updates references in app/.
+//
+//   node scripts/convert-to-webp.mjs            dry run: report only, writes nothing
+//   node scripts/convert-to-webp.mjs --write    convert + rewrite references (keeps originals)
+//   node scripts/convert-to-webp.mjs --write --delete   also delete the originals
+//
+// Options: --quality=80 (lossy quality for all images)
+import fs from "fs/promises";
+import path from "path";
+import sharp from "sharp";
+
+const ROOT = path.resolve(import.meta.dirname, "..");
+const PUBLIC_DIR = path.join(ROOT, "public");
+const SOURCE_DIRS = ["app"].map((d) => path.join(ROOT, d));
+const SOURCE_EXT = /\.(tsx?|jsx?|mjs|css|scss|json|mdx?)$/;
+const IMAGE_EXT = /\.(png|jpe?g)$/i;
+
+const args = process.argv.slice(2);
+const WRITE = args.includes("--write");
+const DELETE = args.includes("--delete");
+const QUALITY = Number(args.find((a) => a.startsWith("--quality="))?.split("=")[1] ?? 80);
+
+async function walk(dir, filter) {
+  const out = [];
+  for (const entry of await fs.readdir(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) out.push(...(await walk(full, filter)));
+    else if (filter(entry.name)) out.push(full);
+  }
+  return out;
+}
+
+const toWebp = (p) => p.replace(IMAGE_EXT, ".webp");
+
+// 1. Convert images
+const images = await walk(PUBLIC_DIR, (n) => IMAGE_EXT.test(n));
+let before = 0;
+let after = 0;
+let failed = 0;
+
+for (const [i, file] of images.entries()) {
+  const target = toWebp(file);
+  const { size } = await fs.stat(file);
+  before += size;
+  if (!WRITE) continue;
+  try {
+    await sharp(file).webp({ quality: QUALITY, effort: 5 }).toFile(target);
+    after += (await fs.stat(target)).size;
+    if (DELETE) await fs.unlink(file);
+  } catch (err) {
+    failed++;
+    console.error(`  ✗ ${path.relative(ROOT, file)}: ${err.message}`);
+  }
+  if ((i + 1) % 100 === 0) console.log(`  converted ${i + 1}/${images.length}`);
+}
+
+// 2. Rewrite references. A reference is only changed when its path matches the
+//    tail of a converted /public file, so remote URLs and missing files are left alone
+//    (this also covers short paths like /ahg/x.png -> public/moto/ahg/x.png).
+const publicPaths = images.map((f) => "/" + path.relative(PUBLIC_DIR, f).split(path.sep).join("/"));
+const isConverted = (ref) => {
+  let decoded = ref;
+  try { decoded = decodeURI(ref); } catch {}
+  const tail = "/" + decoded.replace(/^\.?\//, "");
+  return publicPaths.some((p) => p === tail || p.endsWith(tail));
+};
+
+const REF = /[^"'`()\s{}$]*\.(?:png|jpe?g)(?=["'`)\s?#])/gi;
+const sources = (await Promise.all(SOURCE_DIRS.map((d) => walk(d, (n) => SOURCE_EXT.test(n))))).flat();
+let refsChanged = 0;
+const unmatched = new Set();
+
+for (const file of sources) {
+  const text = await fs.readFile(file, "utf8");
+  let count = 0;
+  const next = text.replace(REF, (ref) => {
+    if (/^https?:/.test(ref) || !isConverted(ref)) {
+      unmatched.add(ref);
+      return ref;
+    }
+    count++;
+    return toWebp(ref);
+  });
+  if (count) {
+    refsChanged += count;
+    console.log(`  ${count.toString().padStart(4)}  ${path.relative(ROOT, file)}`);
+    if (WRITE) await fs.writeFile(file, next);
+  }
+}
+
+const mb = (b) => (b / 1024 / 1024).toFixed(1) + " MB";
+console.log(`\n${WRITE ? "Done" : "Dry run"}: ${images.length} images (${mb(before)})`);
+if (WRITE) console.log(`  webp total: ${mb(after)}, failed: ${failed}`);
+console.log(`  references ${WRITE ? "updated" : "to update"}: ${refsChanged}`);
+if (unmatched.size) {
+  console.log(`\n  ${unmatched.size} references left unchanged (remote or not found in /public — check manually):`);
+  for (const r of [...unmatched].slice(0, 30)) console.log(`    ${r}`);
+}
+// How to Run
+
+// node scripts/convert-to-webp.mjs                      # dry run (no changes)
+// node scripts/convert-to-webp.mjs --write              # convert + update code, keep originals
+// node scripts/convert-to-webp.mjs --write --delete     # also delete the .png/.jpg originals
+// node scripts/convert-to-webp.mjs --write --quality=85 # change the quality

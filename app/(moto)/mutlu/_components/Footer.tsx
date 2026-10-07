@@ -14,7 +14,7 @@ export default function Footer() {
           
           <div className="flex flex-col gap-6 lg:col-span-4 lg:pr-8" data-aos="fade-up" data-aos-delay="100">
              <Link href="#" className="w-full flex justify-start">
-               <img src="/moto/mutlu/logo.png" alt="Mutlu Logo" className="w-[70%] sm:w-[60%] md:w-[70%] lg:w-[65%] h-auto object-contain object-left brightness-0 invert" />
+               <img src="/moto/mutlu/logo.webp" alt="Mutlu Logo" className="w-[70%] sm:w-[60%] md:w-[70%] lg:w-[65%] h-auto object-contain object-left brightness-0 invert" />
              </Link>
              <p className="footer-body text-white mt-2 leading-relaxed opacity-95">
                Mutlu Akü ve Malzemeleri San. A.Ş. has been powering vehicles since 1945 with reliable, high-performance battery solutions engineered for durability, innovation, and trusted OEM quality worldwide.

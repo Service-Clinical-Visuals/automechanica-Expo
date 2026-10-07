@@ -40,7 +40,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/alkim-petrokimya/logo.png" alt="Alkim Petrokimya Logo" className="header-logo h-auto object-contain" />
+                <img src="/moto/alkim-petrokimya/logo.webp" alt="Alkim Petrokimya Logo" className="header-logo h-auto object-contain" />
               </Link>
             </div>
 

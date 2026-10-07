@@ -37,7 +37,7 @@ const AboutUs = () => {
         {/* Image */}
         <div className="w-full order-2  xl:col-span-7  flex justify-center xl:justify-start">
           <img
-            src="/moto/gl-oil/section2.png"
+            src="/moto/gl-oil/section2.webp"
             alt="Interior"
             className="w-full max-w-[897px] border border-white/30 min-[2500px]:max-w-[1345px] min-[3800px]:max-w-[1794px] aspect-[897/565] rounded-2xl object-cover shadow-lg xl:ml-3"
           />
@@ -49,7 +49,7 @@ const AboutUs = () => {
           {/* Card 1 */}
           <div className="flex flex-col items-start gap-4 bg-transparent border border-white/30 shadow-sm p-6 flex-1">
             <div className="w-12 h-12 min-[2500px]:w-16 min-[2500px]:h-16 min-[3800px]:w-24 min-[3800px]:h-24 bg-primary text-secondary rounded-lg min-[2500px]:rounded-xl min-[3800px]:rounded-2xl flex items-center justify-center shrink-0">
-              <img src="/moto/gl-oil/vector.png" alt="Icon" className="w-6 h-6 min-[2500px]:w-8 min-[2500px]:h-8 min-[3800px]:w-12 min-[3800px]:h-12 object-contain brightness-0" />
+              <img src="/moto/gl-oil/vector.webp" alt="Icon" className="w-6 h-6 min-[2500px]:w-8 min-[2500px]:h-8 min-[3800px]:w-12 min-[3800px]:h-12 object-contain brightness-0" />
             </div>
             <div className="flex flex-col gap-2">
               <Typography variant="h3" color="white" className="font-bold leading-tight">
@@ -64,7 +64,7 @@ const AboutUs = () => {
           {/* Card 2 */}
           <div className="flex flex-col items-start gap-4 bg-transparent border border-white/30 shadow-sm p-6 flex-1">
             <div className="w-12 h-12 min-[2500px]:w-16 min-[2500px]:h-16 min-[3800px]:w-24 min-[3800px]:h-24 bg-primary text-secondary rounded-lg min-[2500px]:rounded-xl min-[3800px]:rounded-2xl flex items-center justify-center shrink-0">
-              <img src="/moto/gl-oil/vector.png" alt="Icon" className="w-6 h-6 min-[2500px]:w-8 min-[2500px]:h-8 min-[3800px]:w-12 min-[3800px]:h-12 object-contain brightness-0" />
+              <img src="/moto/gl-oil/vector.webp" alt="Icon" className="w-6 h-6 min-[2500px]:w-8 min-[2500px]:h-8 min-[3800px]:w-12 min-[3800px]:h-12 object-contain brightness-0" />
             </div>
             <div className="flex flex-col gap-2">
               <Typography variant="h3" color="white" className="font-bold leading-tight">
@@ -79,7 +79,7 @@ const AboutUs = () => {
           {/* Card 3 */}
           <div className="flex flex-col items-start gap-4 bg-transparent border border-white/30 shadow-sm p-6 flex-1">
             <div className="w-12 h-12 min-[2500px]:w-16 min-[2500px]:h-16 min-[3800px]:w-24 min-[3800px]:h-24 bg-primary text-secondary rounded-lg min-[2500px]:rounded-xl min-[3800px]:rounded-2xl flex items-center justify-center shrink-0">
-              <img src="/moto/gl-oil/vector.png" alt="Icon" className="w-6 h-6 min-[2500px]:w-8 min-[2500px]:h-8 min-[3800px]:w-12 min-[3800px]:h-12 object-contain brightness-0" />
+              <img src="/moto/gl-oil/vector.webp" alt="Icon" className="w-6 h-6 min-[2500px]:w-8 min-[2500px]:h-8 min-[3800px]:w-12 min-[3800px]:h-12 object-contain brightness-0" />
             </div>
             <div className="flex flex-col gap-2">
               <Typography variant="h3" color="white" className="font-bold leading-tight">

@@ -11,7 +11,7 @@ const Cleaner = () => {
         {/* Left: Image */}
         <div className="w-full xl:col-span-6 order-2 xl:order-1 relative rounded-xl overflow-hidden shadow-xl" style={{ aspectRatio: '820/500' }} data-aos="fade-right">
           <img 
-            src="/moto/ampro/section33.png" 
+            src="/moto/ampro/section33.webp" 
             alt="Cleaner Emissions" 
             className="absolute inset-0 w-full h-full object-cover" 
           />

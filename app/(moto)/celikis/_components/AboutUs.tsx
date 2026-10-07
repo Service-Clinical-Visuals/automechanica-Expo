@@ -21,7 +21,7 @@ export default function AboutUs() {
           </div>
           <div data-aos="fade-left" className="relative h-[300px] md:h-[400px] xl:h-[450px] w-full rounded-lg overflow-hidden shadow-sm">
             <img 
-              src="/moto/celikis/abt1.png" 
+              src="/moto/celikis/abt1.webp" 
               alt="Celikis Facility" 
               className="absolute inset-0 w-full h-full object-cover" 
             />
@@ -32,7 +32,7 @@ export default function AboutUs() {
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 xl:gap-10 items-center">
           <div data-aos="fade-right" className="order-2 xl:order-1 relative h-[300px] md:h-[400px] xl:h-[450px] w-full rounded-lg overflow-hidden shadow-sm">
             <img 
-              src="/moto/celikis/abt2.png" 
+              src="/moto/celikis/abt2.webp" 
               alt="Celikis Manufacturing" 
               className="absolute inset-0 w-full h-full object-cover" 
             />

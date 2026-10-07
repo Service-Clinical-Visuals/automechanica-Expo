@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="flex flex-col gap-6 col-span-2 sm:col-span-1 xl:col-span-3" data-aos="fade-up" data-aos-delay="100">
             <Link href="#" className="inline-block">
               <div className="bg-primary px-5 py-2 md:px-7 md:py-2.5 rounded-full flex items-center justify-center shadow-sm w-fit">
-                <img src="/moto/koneks/logo2.png" alt="KONEKS Logo" className="w-28 sm:w-32 md:w-36 lg:w-40 h-auto object-contain" />
+                <img src="/moto/koneks/logo2.webp" alt="KONEKS Logo" className="w-28 sm:w-32 md:w-36 lg:w-40 h-auto object-contain" />
               </div>
             </Link>
             <Typography variant="footer-body" color="white" className="mt-2 leading-relaxed pr-4">

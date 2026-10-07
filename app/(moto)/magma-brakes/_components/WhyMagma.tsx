@@ -70,7 +70,7 @@ export default function WhyMagma() {
           {/* Right Side: Car Image */}
           <div className="w-full lg:col-span-5 relative" data-aos="fade-left" data-aos-delay="200">
             <img
-              src="/moto/magma-brakes/section3.png"
+              src="/moto/magma-brakes/section3.webp"
               alt="Magma Orange Sports Car"
               className="w-full h-auto object-contain"
             />

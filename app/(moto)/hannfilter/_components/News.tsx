@@ -20,7 +20,7 @@ const News = () => {
 
           <div className="w-full h-auto rounded-2xl md:rounded-[28px]  overflow-hidden flex items-center justify-center ">
             <img
-              src="/moto/hannfilter/n1.png"
+              src="/moto/hannfilter/n1.webp"
               alt="Air Filter Type 1"
               className="w-full h-auto object-contain hover:scale-105 transition-transform duration-500 mix-blend-multiply"
               onError={(e) => {
@@ -31,7 +31,7 @@ const News = () => {
 
           <div className="w-full h-auto rounded-2xl md:rounded-[28px] overflow-hidden flex items-center justify-center p-4">
             <img
-              src="/moto/hannfilter/n2.png"
+              src="/moto/hannfilter/n2.webp"
               alt="Air Filter Type 2"
               className="w-full h-auto object-contain hover:scale-105 transition-transform duration-500"
               onError={(e) => {

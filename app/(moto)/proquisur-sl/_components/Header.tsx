@@ -40,7 +40,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/proquisur-sl/logo.png" alt="Proquisur Logo" className="responsive-logo object-contain" />
+                <img src="/moto/proquisur-sl/logo.webp" alt="Proquisur Logo" className="responsive-logo object-contain" />
               </Link>
             </div>
 

@@ -13,13 +13,13 @@ const About = () => {
       {/* Decorative background elements */}
       <Container>
         <img
-          src="/moto/hengst/about/01.png"
+          src="/moto/hengst/about/01.webp"
           alt=""
           aria-hidden="true"
           className="hidden md:block absolute top-16 right-1 w-30 pointer-events-none select-none"
         />
         <img
-          src="/moto/hengst/about/gear1.png"
+          src="/moto/hengst/about/gear1.webp"
           alt=""
           aria-hidden="true"
           className="hidden md:block absolute bottom-0 right-1 w-64 lg:w-80 pointer-events-none select-none"
@@ -30,12 +30,12 @@ const About = () => {
           {/* Left: Images */}
           <div className="w-full xl:w-[45%] flex flex-col gap-6" data-aos="fade-right">
             <img
-              src="/moto/hengst/about/image1.png"
+              src="/moto/hengst/about/image1.webp"
               alt="Hengst Filtration headquarters"
               className="w-full h-auto object-cover"
             />
             <img
-              src="/moto/hengst/about/image2.png"
+              src="/moto/hengst/about/image2.webp"
               alt="Hengst Filtration sign"
               className="w-full h-auto object-cover"
             />

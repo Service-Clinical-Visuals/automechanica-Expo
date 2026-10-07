@@ -13,7 +13,7 @@ export default function Footer() {
             <div className="flex-grow">
               <div className="flex-shrink-0 flex items-center gap-4 mb-6">
                 <Link href="#">
-                  <img src="/moto/durandProduction/icon.png" alt="Durand Production" className="h-[100px] xl:h-[120px] w-auto object-contain" />
+                  <img src="/moto/durandProduction/icon.webp" alt="Durand Production" className="h-[100px] xl:h-[120px] w-auto object-contain" />
                 </Link>
                 <div className="flex flex-col justify-center text-[#1a1a1a] font-semibold uppercase leading-[1.1] heading text-lg md:text-xl">
                   <span>The Expert Of</span>
@@ -97,17 +97,17 @@ export default function Footer() {
               </div>
               <ul className="flex flex-col space-y-4 mb-8">
                 <li className="flex items-start gap-3">
-                  <img src="/moto/durandProduction/send.png" alt="Address" className="w-6 h-6 object-contain mt-1" />
+                  <img src="/moto/durandProduction/send.webp" alt="Address" className="w-6 h-6 object-contain mt-1" />
                   <p className="text-[#4a4a4a] text-sm md:text-md lg:text-md xl:text-md paragraph leading-[1.8] font-normal hover:text-[#FF131C] cursor-pointer"> DURAND PRODUCTION ZI De La Motte<br />Du Bois 62440 HARNES - FRANCE</p>
                 </li>
                 <li className="flex items-center gap-3">
-                  <img src="/moto/durandProduction/phone.png" alt="Phone" className="w-6 h-6 object-contain" />
+                  <img src="/moto/durandProduction/phone.webp" alt="Phone" className="w-6 h-6 object-contain" />
                   <p className="text-[#4a4a4a] text-sm md:text-md lg:text-md xl:text-md paragraph leading-[1.8] font-normal hover:text-[#FF131C] cursor-pointer">
                     00 33 3 21 43 57 57
                   </p>
                 </li>
                 <li className="flex items-center gap-3">
-                  <img src="/moto/durandProduction/fax.png" alt="Fax" className="w-6 h-6 object-contain" />
+                  <img src="/moto/durandProduction/fax.webp" alt="Fax" className="w-6 h-6 object-contain" />
                   <p className="text-[#4a4a4a] text-sm md:text-md lg:text-md xl:text-md paragraph leading-[1.8] font-normal hover:text-[#FF131C] cursor-pointer">
                     00 33 3 21 78 94 13
                   </p>
@@ -116,8 +116,8 @@ export default function Footer() {
             </div>
 
             <div className="mt-auto flex items-center justify-start gap-6">
-              <img src="/moto/durandProduction/footer1.png" alt="EcoVadis Bronze Medal" className="h-16 md:h-[75px] w-auto object-contain" />
-              <img src="/moto/durandProduction/footer2.png" alt="ISO 9001 ISO 14001 Bureau Veritas Certification" className="h-16 md:h-[75px] w-auto object-contain" />
+              <img src="/moto/durandProduction/footer1.webp" alt="EcoVadis Bronze Medal" className="h-16 md:h-[75px] w-auto object-contain" />
+              <img src="/moto/durandProduction/footer2.webp" alt="ISO 9001 ISO 14001 Bureau Veritas Certification" className="h-16 md:h-[75px] w-auto object-contain" />
             </div>
           </div>
 

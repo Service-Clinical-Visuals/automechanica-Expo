@@ -32,7 +32,7 @@ export default function OurFacility() {
               data-aos-delay="100"
             >
               <img
-                src="/moto/petrovoll/Component 1.png"
+                src="/moto/petrovoll/Component 1.webp"
                 alt="Our Facility Tanks"
                 className="w-full h-full object-cover object-center"
               />
@@ -57,7 +57,7 @@ export default function OurFacility() {
                   data-aos-delay="100"
                 >
                   <img
-                    src="/moto/petrovoll/Component 2.png"
+                    src="/moto/petrovoll/Component 2.webp"
                     alt="Blending & Filling Capacity"
                     className="w-full h-full object-cover object-center scale-110 group-hover:scale-100 transition-transform duration-500"
                   />
@@ -84,7 +84,7 @@ export default function OurFacility() {
                   data-aos-delay="150"
                 >
                   <img
-                    src="/moto/petrovoll/Component 4.png"
+                    src="/moto/petrovoll/Component 4.webp"
                     alt="Quality Control"
                     className="w-full h-full object-cover object-center scale-110 group-hover:scale-100 transition-transform duration-500"
                   />
@@ -114,7 +114,7 @@ export default function OurFacility() {
                   data-aos-delay="200"
                 >
                   <img
-                    src="/moto/petrovoll/Component 3.png"
+                    src="/moto/petrovoll/Component 3.webp"
                     alt="Laboratory"
                     className="w-full h-full object-cover object-center scale-110 group-hover:scale-100 transition-transform duration-500"
                   />
@@ -141,7 +141,7 @@ export default function OurFacility() {
                   data-aos-delay="250"
                 >
                   <img
-                    src="/moto/petrovoll/Component 6.png"
+                    src="/moto/petrovoll/Component 6.webp"
                     alt="Packaging Automation"
                     className="w-full h-full object-cover object-center scale-110 group-hover:scale-100 transition-transform duration-500"
                   />

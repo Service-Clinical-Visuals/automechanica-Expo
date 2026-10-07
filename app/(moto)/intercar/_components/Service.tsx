@@ -20,12 +20,12 @@ export default function Service() {
 
         <div className="grid grid-cols-1 md:grid-cols-2" data-aos="fade-up" data-aos-delay="100">
           <img
-            src="/moto/intercar/service/1.png"
+            src="/moto/intercar/service/1.webp"
             alt="Brake discs packaging line"
             className="w-full h-full object-cover"
           />
           <img
-            src="/moto/intercar/service/2.png"
+            src="/moto/intercar/service/2.webp"
             alt="Brake discs packaging on conveyor"
             className="w-full h-full object-cover"
           />

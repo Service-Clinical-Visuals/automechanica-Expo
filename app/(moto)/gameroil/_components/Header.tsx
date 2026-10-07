@@ -71,7 +71,7 @@ const Header = () => {
             {/* Logo Section */}
             <Link href="/" className="flex items-center shrink-0 h-full ">
               <img
-                src="/moto/gameroil/logo.png"
+                src="/moto/gameroil/logo.webp"
                 alt="Gameroil Logo"
                 className="w-[140px] sm:w-[160px] md:w-[200px] lg:w-[240px] min-[2500px]:w-[500px] min-[3800px]:w-[700px] h-auto object-contain"
               />

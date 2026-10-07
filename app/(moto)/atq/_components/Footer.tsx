@@ -16,7 +16,7 @@ export default function Footer() {
           {/* Column 1: Logo, Text & Socials (Span 5) */}
           <div className="col-span-1 md:col-span-2 xl:col-span-5 flex flex-col gap-6 lg:pr-8">
             <img 
-              src="/moto/atq/logo.png" 
+              src="/moto/atq/logo.webp" 
               alt="ATQ Germany Logo" 
               className="h-15 sm:h-12 max-h-[2100]:h-20 w-auto object-contain self-start" 
               data-aos="fade-up" 

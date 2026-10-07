@@ -80,7 +80,7 @@ export default function PrecisionBuilt() {
                 <div className="flex flex-col gap-5">
                   {highlights.map((item, idx) => (
                     <div key={idx} className="flex items-start gap-3.5 group">
-                     <img src="/moto/autopartbattery/gravity1.png" alt="Spark" className="w-7 h-7" />
+                     <img src="/moto/autopartbattery/gravity1.webp" alt="Spark" className="w-7 h-7" />
                       <p className="lato-font text-white section-text font-normal leading-relaxed">
                         <span className="font-bold text-white mr-1">{item.title} -</span>
                         {item.description}

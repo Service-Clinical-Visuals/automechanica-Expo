@@ -12,26 +12,26 @@ export default function Footer() {
           <div className="xl:col-span-1 flex flex-col space-y-10">
             <Link href="#" className="inline-block">
          
-              <img src="/moto/liqui-moly/logo.png" alt="Liqui Moly" className="w-[200px] h-auto object-contain " />
+              <img src="/moto/liqui-moly/logo.webp" alt="Liqui Moly" className="w-[200px] h-auto object-contain " />
             </Link>
             <p className="section-text white leading-relaxed pr-4">
               Premium oils, additives, and automotive solutions for lasting protection.
             </p>
             <div className="flex items-center gap-4">
               <Link href="#" className="hover:opacity-80 transition-opacity">
-                <img src="/moto/liqui-moly/fb.png" alt="Facebook" className="w-6 h-6 object-contain" />
+                <img src="/moto/liqui-moly/fb.webp" alt="Facebook" className="w-6 h-6 object-contain" />
               </Link>
               <Link href="#" className="hover:opacity-80 transition-opacity">
-                <img src="/moto/liqui-moly/inta.png" alt="Instagram" className="w-6 h-6 object-contain" />
+                <img src="/moto/liqui-moly/inta.webp" alt="Instagram" className="w-6 h-6 object-contain" />
               </Link>
               <Link href="#" className="hover:opacity-80 transition-opacity">
-                <img src="/moto/liqui-moly/you.png" alt="YouTube" className="w-6 h-6 object-contain" />
+                <img src="/moto/liqui-moly/you.webp" alt="YouTube" className="w-6 h-6 object-contain" />
               </Link>
               <Link href="#" className="hover:opacity-80 transition-opacity">
-                <img src="/moto/liqui-moly/in.png" alt="LinkedIn" className="w-6 h-6 object-contain" />
+                <img src="/moto/liqui-moly/in.webp" alt="LinkedIn" className="w-6 h-6 object-contain" />
               </Link>
               <Link href="#" className="hover:opacity-80 transition-opacity">
-                <img src="/moto/liqui-moly/x.png" alt="X" className="w-6 h-6 object-contain" />
+                <img src="/moto/liqui-moly/x.webp" alt="X" className="w-6 h-6 object-contain" />
               </Link>
             </div>
           </div>
@@ -60,15 +60,15 @@ export default function Footer() {
           <div className="flex flex-col space-y-4 xl:pl-4 2xl:pl-2">
             <h4 className="card-title white font-semibold mb-3">Contact</h4>
             <div className="flex items-start gap-3 text-sm text-gray-200">
-              <img src="/moto/liqui-moly/location.png" alt="Location" className="w-4 h-4 mt-1 object-contain" />
+              <img src="/moto/liqui-moly/location.webp" alt="Location" className="w-4 h-4 mt-1 object-contain" />
               <span className="section-text white leading-relaxed">LIQUI MOLY GmbH<br/>Jerg-Wieland-Straße 4<br/>89081 Ulm</span>
             </div>
             <div className="flex items-center gap-3 text-sm text-gray-200">
-              <img src="/moto/liqui-moly/phone.png" alt="Phone" className="w-4 h-4 object-contain" />
+              <img src="/moto/liqui-moly/phone.webp" alt="Phone" className="w-4 h-4 object-contain" />
               <span className="section-text white leading-relaxed">+49 731 1420-0</span>
             </div>
             <div className="flex items-center gap-3 text-sm text-gray-200">
-              <img src="/moto/liqui-moly/mail.png" alt="Mail" className="w-4 h-4 object-contain" />
+              <img src="/moto/liqui-moly/mail.webp" alt="Mail" className="w-4 h-4 object-contain" />
               <span className="section-text white leading-relaxed">info@liqui-moly.de</span>
             </div>
           </div>

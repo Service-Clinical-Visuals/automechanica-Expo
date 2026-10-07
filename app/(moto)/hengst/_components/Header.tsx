@@ -39,7 +39,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/">
-              <img src="/moto/hengst/logo.png" alt="Hengst Filtration" className="w-[130px] md:w-[150px] h-auto object-contain" />
+              <img src="/moto/hengst/logo.webp" alt="Hengst Filtration" className="w-[130px] md:w-[150px] h-auto object-contain" />
             </Link>
           </div>
 

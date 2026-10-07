@@ -28,7 +28,7 @@ const AboutEurol = () => {
 
           <div className="w-full xl:w-1/2 order-1 xl:order-2 flex justify-center">
             <img
-              src="/moto/eurol/section3.png"
+              src="/moto/eurol/section3.webp"
               alt="Eurol Products Collection"
               className="max-w-full h-auto rounded shadow-sm"
               onError={(e) => { e.currentTarget.style.display = 'none'; }}
@@ -42,7 +42,7 @@ const AboutEurol = () => {
           <div className="flex flex-col group cursor-pointer">
             <div className="overflow-hidden rounded-lg mb-4 h-48 md:h-56 bg-gray-200">
               <img
-                src="/moto/eurol/section31.png"
+                src="/moto/eurol/section31.webp"
                 alt="Eurol Truck"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 onError={(e) => { e.currentTarget.style.display = 'none'; }}
@@ -56,7 +56,7 @@ const AboutEurol = () => {
           <div className="flex flex-col group cursor-pointer">
             <div className="overflow-hidden rounded-lg mb-4 h-48 md:h-56 bg-gray-200">
               <img
-                src="/moto/eurol/section32.png"
+                src="/moto/eurol/section32.webp"
                 alt="Eurol Racing Event"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 onError={(e) => { e.currentTarget.style.display = 'none'; }}
@@ -70,7 +70,7 @@ const AboutEurol = () => {
           <div className="flex flex-col group cursor-pointer">
             <div className="overflow-hidden rounded-lg mb-4 h-48 md:h-56 bg-gray-200">
               <img
-                src="/moto/eurol/section34.png"
+                src="/moto/eurol/section34.webp"
                 alt="Eurol Racing Team"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 onError={(e) => { e.currentTarget.style.display = 'none'; }}

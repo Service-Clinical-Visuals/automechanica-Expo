@@ -4,7 +4,7 @@ import React from "react";
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 export default function PrecisionView() {
   return (
-    <section className="py-20 xl:py-20 bg-[url('/moto/badenex/bg.png')] bg-cover bg-center relative overflow-hidden">
+    <section className="py-20 xl:py-20 bg-[url('/moto/badenex/bg.webp')] bg-cover bg-center relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 z-0 opacity-10 bg-[url('/moto/sigam/bg.png')] bg-repeat bg-center"></div>
 

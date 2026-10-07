@@ -12,17 +12,17 @@ import 'swiper/css/pagination';
 const sustainabilityData = [
   {
     title: "Environmental",
-    image: "/moto/metelli-group/section31.png",
+    image: "/moto/metelli-group/section31.webp",
     description: "Committed to a more sustainable future through ISO 14001-certified environmental management, energy-efficient solutions, renewable energy adoption, digital innovation, and EcoVadis Silver ESG recognition."
   },
   {
     title: "Social",
-    image: "/moto/metelli-group/section32.png",
+    image: "/moto/metelli-group/section32.webp",
     description: "Metelli S.p.A. values people as its greatest asset, promoting health, safety, well-being, lifelong learning, and ethical responsibility while supporting inclusive partnerships and local communities."
   },
   {
     title: "Governance",
-    image: "/moto/metelli-group/section33.png",
+    image: "/moto/metelli-group/section33.webp",
     description: "Metelli S.p.A. promotes solid, transparent and responsible corporate governance, integrating ethical principles, sustainability and strategic control to balance the interests of stakeholders with an effective decision-making process."
   }
 ];

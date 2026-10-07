@@ -5,7 +5,7 @@ import Container from "./Container";
 
 const posts = [
   {
-    img: "/moto/eurolub/blog/1.png",
+    img: "/moto/eurolub/blog/1.webp",
     day: "07",
     month: "Mar",
     category: "Automotive Insights",
@@ -13,7 +13,7 @@ const posts = [
     title: "How Advanced Lubricants Improve Engine Performance and Efficiency",
   },
   {
-    img: "/moto/eurolub/blog/2.png",
+    img: "/moto/eurolub/blog/2.webp",
     day: "04",
     month: "Mar",
     category: "Industry Trends",
@@ -21,7 +21,7 @@ const posts = [
     title: "5 Key Trends Shaping the Future of Automotive Lubricants",
   },
   {
-    img: "/moto/eurolub/blog/3.png",
+    img: "/moto/eurolub/blog/3.webp",
     day: "01",
     month: "Mar",
     category: "Expert Insights",

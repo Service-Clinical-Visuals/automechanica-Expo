@@ -9,7 +9,7 @@ const FeatureCTA = () => {
     <section 
       id="feature-cta" 
       className="w-full relative bg-cover bg-center bg-no-repeat overflow-hidden py-16 md:py-20 2xl:py-32"
-      style={{ backgroundImage: "url('/moto/mc-filter/bg.png')" }}
+      style={{ backgroundImage: "url('/moto/mc-filter/bg.webp')" }}
     >
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-[#04000B]/80 z-0"></div>
@@ -21,7 +21,7 @@ const FeatureCTA = () => {
         
         {/* Placeholder for faint logo if needed */}
         <div className="opacity-20 max-w-[200px] absolute pointer-events-none">
-          <img src="/moto/mc-filter/logo.png" alt="MC Filter Logo" className="w-full h-auto object-contain grayscale" />
+          <img src="/moto/mc-filter/logo.webp" alt="MC Filter Logo" className="w-full h-auto object-contain grayscale" />
         </div>
 
         <div className="relative z-20 mt-2">

@@ -8,21 +8,21 @@ const Mission = () => {
     {
       title: "Premium Quality",
       icon: (
-        <img src="/moto/celik/Vector1.png" alt="Premium Quality" className="w-8 h-8 min-[2100px]:w-12 min-[2100px]:h-12 min-[3800px]:w-16 min-[3800px]:h-16 object-contain" />
+        <img src="/moto/celik/Vector1.webp" alt="Premium Quality" className="w-8 h-8 min-[2100px]:w-12 min-[2100px]:h-12 min-[3800px]:w-16 min-[3800px]:h-16 object-contain" />
       ),
       text: "We maintain the highest standards in manufacturing and testing to deliver filters that ensure maximum performance and long-lasting reliability.",
     },
     {
       title: "Reliable Performance",
       icon: (
-        <img src="/moto/celik/Vector2.png" alt="Reliable Performance" className="w-8 h-8 min-[2100px]:w-12 min-[2100px]:h-12 min-[3800px]:w-16 min-[3800px]:h-16 object-contain" />
+        <img src="/moto/celik/Vector2.webp" alt="Reliable Performance" className="w-8 h-8 min-[2100px]:w-12 min-[2100px]:h-12 min-[3800px]:w-16 min-[3800px]:h-16 object-contain" />
       ),
       text: "Our filters are engineered to deliver consistent performance and long-lasting durability, even under the most demanding conditions.",
     },
     {
       title: "Customer Commitment",
       icon: (
-        <img src="/moto/celik/Vector3.png" alt="Customer Commitment" className="w-8 h-8 min-[2100px]:w-12 min-[2100px]:h-12 min-[3800px]:w-16 min-[3800px]:h-16 object-contain" />
+        <img src="/moto/celik/Vector3.webp" alt="Customer Commitment" className="w-8 h-8 min-[2100px]:w-12 min-[2100px]:h-12 min-[3800px]:w-16 min-[3800px]:h-16 object-contain" />
       ),
       text: "We are dedicated to customer satisfaction through exceptional service, expert technical support, and long-term partnerships.",
     }

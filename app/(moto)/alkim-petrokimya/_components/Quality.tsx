@@ -6,17 +6,17 @@ import Link from "next/link";
 const blogItems = [
   {
     title: "Motor Oil Manufacturer Alkim Petrochemicals at Expopartes 2026",
-    image: "/moto/alkim-petrokimya/blog1.png",
+    image: "/moto/alkim-petrokimya/blog1.webp",
     link: "#"
   },
   {
     title: "Turkish Engine Oil Manufacturer at the LATAM Trade Delegation 2026",
-    image: "/moto/alkim-petrokimya/blog2.png",
+    image: "/moto/alkim-petrokimya/blog2.webp",
     link: "#"
   },
   {
     title: "Autoexpo Kenya 2026: Alkim Petrochemicals across all continents, one mission!",
-    image: "/moto/alkim-petrokimya/blog3.png",
+    image: "/moto/alkim-petrokimya/blog3.webp",
     link: "#"
   }
 ];

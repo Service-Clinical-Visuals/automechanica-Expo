@@ -31,13 +31,13 @@ export default function AboutUs() {
         {/* Bottom Image Gallery */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 xl:gap-10 min-h-[350px] xl:h-[450px] xl:h-[550px]" data-aos="fade-up">
           <div className="md:col-span-2 h-[300px] md:h-full rounded-2xl xl:rounded-3xl overflow-hidden shadow-lg border border-gray-800">
-            <img src="/moto/kroon-oil/abt1.png" alt="Kroon-Oil Lab" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
+            <img src="/moto/kroon-oil/abt1.webp" alt="Kroon-Oil Lab" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
           </div>
           <div className="md:col-span-1 h-[300px] md:h-full rounded-2xl xl:rounded-3xl overflow-hidden shadow-lg border border-gray-800">
-            <img src="/moto/kroon-oil/abt2.png" alt="Kroon-Oil Pumping Gas" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
+            <img src="/moto/kroon-oil/abt2.webp" alt="Kroon-Oil Pumping Gas" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
           </div>
           <div className="md:col-span-1 h-[300px] md:h-full rounded-2xl xl:rounded-3xl overflow-hidden shadow-lg border border-gray-800">
-            <img src="/moto/kroon-oil/abt3.png" alt="Kroon-Oil Gears" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
+            <img src="/moto/kroon-oil/abt3.webp" alt="Kroon-Oil Gears" className="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
           </div>
         </div>
         

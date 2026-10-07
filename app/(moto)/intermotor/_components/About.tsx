@@ -5,17 +5,17 @@ import Container from "./Container";
 
 const features = [
   {
-    icon: "/moto/intermotor/about/1.png",
+    icon: "/moto/intermotor/about/1.webp",
     title: "Global Distribution",
     description: "Trusted automotive components worldwide.",
   },
   {
-    icon: "/moto/intermotor/about/2.png",
+    icon: "/moto/intermotor/about/2.webp",
     title: "Industrial Experience",
     description: "Reliable industry expertise",
   },
   {
-    icon: "/moto/intermotor/about/3.png",
+    icon: "/moto/intermotor/about/3.webp",
     title: "Advanced Manufacturing",
     description: "Engineered for reliable performance",
   },
@@ -32,7 +32,7 @@ const About = () => {
           {/* Image */}
           <div className="overflow-hidden" data-aos="fade-right">
             <img
-              src="/moto/intermotor/about/about.png"
+              src="/moto/intermotor/about/about.webp"
               alt="Intermotor Group facility signage"
               className="w-full h-auto object-cover"
             />

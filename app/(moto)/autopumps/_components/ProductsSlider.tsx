@@ -5,12 +5,12 @@ import AutopumpsButton from "./AutopumpsButton";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
 const products = [
-  { id: 1, name: "TRANSMISSION", image: "/moto/autopumps/p1.png" },
-  { id: 2, name: "WATER PUMPS", image: "/moto/autopumps/p2.png" },
-  { id: 3, name: "OIL PUMPS", image: "/moto/autopumps/p3.png" },
-  { id: 4, name: "TIMING KITS", image: "/moto/autopumps/p4.png" },
-  { id: 5, name: "CYLINDER HEADS", image: "/moto/autopumps/p5.png" },
-  { id: 6, name: "GASKETS", image: "/moto/autopumps/p6.png" },
+  { id: 1, name: "TRANSMISSION", image: "/moto/autopumps/p1.webp" },
+  { id: 2, name: "WATER PUMPS", image: "/moto/autopumps/p2.webp" },
+  { id: 3, name: "OIL PUMPS", image: "/moto/autopumps/p3.webp" },
+  { id: 4, name: "TIMING KITS", image: "/moto/autopumps/p4.webp" },
+  { id: 5, name: "CYLINDER HEADS", image: "/moto/autopumps/p5.webp" },
+  { id: 6, name: "GASKETS", image: "/moto/autopumps/p6.webp" },
 ];
 
 export default function ProductsSlider() {

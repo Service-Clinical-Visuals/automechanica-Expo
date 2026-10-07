@@ -41,14 +41,14 @@ const Advanced = () => {
 
             <div className="flex flex-col gap-6">
               <div className="flex items-start gap-4">
-                <img src="/moto/ows/Vector.png" alt="Icon" className="w-5 h-5 xl:w-7 xl:h-7 2xl:w-8 2xl:h-8 object-contain shrink-0 mt-0.5" />
+                <img src="/moto/ows/Vector.webp" alt="Icon" className="w-5 h-5 xl:w-7 xl:h-7 2xl:w-8 2xl:h-8 object-contain shrink-0 mt-0.5" />
                 <Typography variant="p" color="dark" className="leading-relaxed">
                   <strong>Superior Engine Protection</strong> - Advanced formulations help minimize wear and protect vital engine components.
                 </Typography>
               </div>
 
               <div className="flex items-start gap-4">
-                <img src="/moto/ows/Vector.png" alt="Icon" className="w-5 h-5 xl:w-7 xl:h-7 2xl:w-8 2xl:h-8 object-contain shrink-0 mt-0.5" />
+                <img src="/moto/ows/Vector.webp" alt="Icon" className="w-5 h-5 xl:w-7 xl:h-7 2xl:w-8 2xl:h-8 object-contain shrink-0 mt-0.5" />
                 <Typography variant="p" color="dark" className="leading-relaxed">
                   <strong>Enhanced Performance</strong> - Provides smooth operation, improved efficiency, and reliable performance across a wide range of driving conditions.
                 </Typography>

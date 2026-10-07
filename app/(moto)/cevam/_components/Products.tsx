@@ -11,42 +11,42 @@ export default function Products() {
 
   const products = [
     {
-      image: "/moto/cevam/p1.png",
+      image: "/moto/cevam/p1.webp",
       title: "Alternators",
       desc: "2,800+ references with certified remanufacturing quality.",
     },
     {
-      image: "/moto/cevam/p2.png",
+      image: "/moto/cevam/p2.webp",
       title: "Starters",
       desc: "2,000+ references with ISO 9001:2015 certified quality.",
     },
     {
-      image: "/moto/cevam/p3.png",
+      image: "/moto/cevam/p3.webp",
       title: "Transmissions",
       desc: "3,800+ references with certified remanufacturing quality.",
     },
     {
-      image: "/moto/cevam/p4.png",
+      image: "/moto/cevam/p4.webp",
       title: "Air conditioning compressors",
       desc: "1,300+ parts with trusted remanufacturing quality.",
     },
     {
-      image: "/moto/cevam/p5.png",
+      image: "/moto/cevam/p5.webp",
       title: "Steering racks",
       desc: "1,100+ parts with OE-quality remanufacturing standards.",
     },
     {
-      image: "/moto/cevam/p6.png",
+      image: "/moto/cevam/p6.webp",
       title: "Steering pumps",
       desc: "1,700+ parts with certified remanufacturing standards.",
     },
     {
-      image: "/moto/cevam/p7.png",
+      image: "/moto/cevam/p7.webp",
       title: "Bellows Kits",
       desc: "440+ references with wide European vehicle coverage.",
     },
     {
-      image: "/moto/cevam/p8.png",
+      image: "/moto/cevam/p8.webp",
       title: "Spheres",
       desc: "100+ references covering 1,300+ applications.",
     }

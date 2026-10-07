@@ -93,37 +93,37 @@ export default function TrustedBrands() {
     {
       title: "ACCOR Lubricants",
       desc: "Delivering high-performance lubricants, automotive fluids, and specialty solutions engineered to meet the demands of industrial, agricultural, marine, transport, and automotive sectors worldwide.",
-      logo: "/moto/accorLubricants/brand1.png"
+      logo: "/moto/accorLubricants/brand1.webp"
     },
     {
       title: "KENNOL",
       desc: "Built on motorsport expertise, KENNOL offers premium lubricants that combine racing performance with reliability. Designed for demanding conditions, the range delivers superior protection and efficiency.",
-      logo: "/moto/accorLubricants/brand2.png"
+      logo: "/moto/accorLubricants/brand2.webp"
     },
     {
       title: "MIRALUB",
       desc: "MIRALUB provides a comprehensive range of lubricants that balance quality, performance, and affordability. Trusted by professionals and businesses, the products are designed for reliable everyday operation.",
-      logo: "/moto/accorLubricants/brand3.png"
+      logo: "/moto/accorLubricants/brand3.webp"
     },
     {
       title: "FL'AUTO",
       desc: "FL'AUTO offers a wide selection of automotive fluids developed to meet the specific needs of modern vehicles. From maintenance to performance, the range ensures smooth and efficient operation.",
-      logo: "/moto/accorLubricants/brand4.png"
+      logo: "/moto/accorLubricants/brand4.webp"
     },
     {
       title: "RENOX",
       desc: "RENOX delivers innovative maintenance and care products that help improve vehicle performance, extend service life, and support efficient maintenance practices.",
-      logo: "/moto/accorLubricants/brand5.png"
+      logo: "/moto/accorLubricants/brand5.webp"
     },
     {
       title: "BIOFLUID",
       desc: "BIOFLUID combines high-performance technology with environmental responsibility. Formulated to be over 95% biodegradable, these products help reduce environmental impact.",
-      logo: "/moto/accorLubricants/brand6.png"
+      logo: "/moto/accorLubricants/brand6.webp"
     },
     {
       title: "ROKKA",
       desc: "ROKKA develops reliable hydroalcoholic solutions using advanced formulations and strict quality standards, ensuring safety and effectiveness across various applications.",
-      logo: "/moto/accorLubricants/brand7.png"
+      logo: "/moto/accorLubricants/brand7.webp"
     }
   ];
 
@@ -197,7 +197,7 @@ export default function TrustedBrands() {
                     View More
                   </span>
                   <div className="flex items-center justify-center w-[28px] h-[28px] md:w-[32px] md:h-[32px] bg-[#E41B13] rounded-full shadow-[0_4px_10px_rgba(228,27,19,0.4)] transition-transform duration-300 group-hover:scale-110">
-                    <img src="/moto/accorLubricants/toprightarrow.png" alt="arrow" className="w-[12px] h-[12px] md:w-[14px] md:h-[14px] object-contain"/>
+                    <img src="/moto/accorLubricants/toprightarrow.webp" alt="arrow" className="w-[12px] h-[12px] md:w-[14px] md:h-[14px] object-contain"/>
                   </div>
                 </Link>
               </div>

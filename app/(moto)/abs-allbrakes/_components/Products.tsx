@@ -18,22 +18,22 @@ export default function Products() {
 
   const productData = {
     brake_parts: [
-      { img: "/moto/abs-allbrakes/products/frame11.png", title: "BRAKE DISCS" },
-      { img: "/moto/abs-allbrakes/products/frame12.png", title: "BRAKE PADS" },
-      { img: "/moto/abs-allbrakes/products/frame13.png", title: "BRAKE CALIPERS" },
-      { img: "/moto/abs-allbrakes/products/frame14.png", title: "CAR CABLES" },
-      { img: "/moto/abs-allbrakes/products/frame15.png", title: "BRAKE HOSES" },
+      { img: "/moto/abs-allbrakes/products/frame11.webp", title: "BRAKE DISCS" },
+      { img: "/moto/abs-allbrakes/products/frame12.webp", title: "BRAKE PADS" },
+      { img: "/moto/abs-allbrakes/products/frame13.webp", title: "BRAKE CALIPERS" },
+      { img: "/moto/abs-allbrakes/products/frame14.webp", title: "CAR CABLES" },
+      { img: "/moto/abs-allbrakes/products/frame15.webp", title: "BRAKE HOSES" },
     ],
     steering_parts: [
-      { img: "/moto/abs-allbrakes/products/frame21.png", title: "SUSPENSION ARMS" },
-      { img: "/moto/abs-allbrakes/products/frame22.png", title: "AXIAL & TIE RODS" },
-      { img: "/moto/abs-allbrakes/products/frame23.png", title: "STABILIZERS" },
-      { img: "/moto/abs-allbrakes/products/frame24.png", title: "BALL JOINTS" },
-      { img: "/moto/abs-allbrakes/products/frame25.png", title: "MOUNTINGS" },
+      { img: "/moto/abs-allbrakes/products/frame21.webp", title: "SUSPENSION ARMS" },
+      { img: "/moto/abs-allbrakes/products/frame22.webp", title: "AXIAL & TIE RODS" },
+      { img: "/moto/abs-allbrakes/products/frame23.webp", title: "STABILIZERS" },
+      { img: "/moto/abs-allbrakes/products/frame24.webp", title: "BALL JOINTS" },
+      { img: "/moto/abs-allbrakes/products/frame25.webp", title: "MOUNTINGS" },
     ],
     wheel_bearings: [
-      { img: "/moto/abs-allbrakes/products/frame31.png", title: "WHEEL HUBS" },
-      { img: "/moto/abs-allbrakes/products/frame32.png", title: "ABS SENSORS" },
+      { img: "/moto/abs-allbrakes/products/frame31.webp", title: "WHEEL HUBS" },
+      { img: "/moto/abs-allbrakes/products/frame32.webp", title: "ABS SENSORS" },
     ],
   };
 

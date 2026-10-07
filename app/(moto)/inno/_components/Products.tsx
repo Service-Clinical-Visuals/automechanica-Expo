@@ -7,19 +7,19 @@ import Link from "next/link";
 export default function Products() {
   const products = [
     {
-      image: "/moto/inno/p1.png",
+      image: "/moto/inno/p1.webp",
       title: "Piston"
     },
     {
-      image: "/moto/inno/p2.png",
+      image: "/moto/inno/p2.webp",
       title: "Piston Ring"
     },
     {
-      image: "/moto/inno/p3.png",
+      image: "/moto/inno/p3.webp",
       title: "Liner"
     },
     {
-      image: "/moto/inno/p4.png",
+      image: "/moto/inno/p4.webp",
       title: "Valve Guide"
     }
   ];

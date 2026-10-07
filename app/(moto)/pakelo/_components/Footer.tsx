@@ -31,7 +31,7 @@ export default function Footer() {
           <div data-aos="fade-up" className="md:col-span-2 xl:col-span-5 flex flex-col pr-0 xl:pr-8 order-1 xl:order-none">
             <Link href="/" className="mb-12 inline-block">
               <img 
-                src="/moto/pakelo/logo.png" 
+                src="/moto/pakelo/logo.webp" 
                 alt="Pakelo Logo" 
                 className="w-[160px] md:w-[200px] object-contain " 
               />
@@ -104,16 +104,16 @@ export default function Footer() {
               
               <div className="flex items-center gap-4 xl:mb-12">
               <a href="#" className="text-primary hover:opacity-80 transition-opacity">
-                <img src="/moto/pakelo/facebook.png" alt="Facebook" className="w-5 h-5 object-contain" />
+                <img src="/moto/pakelo/facebook.webp" alt="Facebook" className="w-5 h-5 object-contain" />
               </a>
               <a href="#" className="text-primary hover:opacity-80 transition-opacity">
-                <img src="/moto/pakelo/instagram.png" alt="Instagram" className="w-5 h-5 object-contain" />
+                <img src="/moto/pakelo/instagram.webp" alt="Instagram" className="w-5 h-5 object-contain" />
               </a>
               <a href="#" className="text-primary hover:opacity-80 transition-opacity">
-                <img src="/moto/pakelo/linkedin.png" alt="LinkedIn" className="w-5 h-5 object-contain" />
+                <img src="/moto/pakelo/linkedin.webp" alt="LinkedIn" className="w-5 h-5 object-contain" />
               </a>
               <a href="#" className="text-primary hover:opacity-80 transition-opacity">
-                <img src="/moto/pakelo/youtube.png" alt="YouTube" className="w-5 h-5 object-contain" />
+                <img src="/moto/pakelo/youtube.webp" alt="YouTube" className="w-5 h-5 object-contain" />
               </a>
               </div>
             </div>
@@ -123,9 +123,9 @@ export default function Footer() {
               <div className="w-full h-[1px] bg-white/50 mb-6"></div>
             
             <div className="flex flex-wrap items-center gap-4">
-              <img src="/moto/pakelo/footer1.png" alt="Certification 1" className="h-15 object-contain" />
-              <img src="/moto/pakelo/footer2.png" alt="Certification 2" className="h-15 object-contain" />
-              <img src="/moto/pakelo/footer3.png" alt="Certification 3" className="h-15 object-contain" />
+              <img src="/moto/pakelo/footer1.webp" alt="Certification 1" className="h-15 object-contain" />
+              <img src="/moto/pakelo/footer2.webp" alt="Certification 2" className="h-15 object-contain" />
+              <img src="/moto/pakelo/footer3.webp" alt="Certification 3" className="h-15 object-contain" />
             </div>
           </div>
 

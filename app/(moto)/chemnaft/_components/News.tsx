@@ -1,10 +1,10 @@
 import Container from "./Container";
 
 const newsItems = [
-  { img: "/moto/chemnaft/news/news1.png", title: "Workshop Technology Fair" },
-  { img: "/moto/chemnaft/news/news2.png", title: "Product Name Update" },
-  { img: "/moto/chemnaft/news/news3.png", title: "QUALITIUM POWER FE" },
-  { img: "/moto/chemnaft/news/news4.png", title: "Automechanika Fair In Frankfurt" },
+  { img: "/moto/chemnaft/news/news1.webp", title: "Workshop Technology Fair" },
+  { img: "/moto/chemnaft/news/news2.webp", title: "Product Name Update" },
+  { img: "/moto/chemnaft/news/news3.webp", title: "QUALITIUM POWER FE" },
+  { img: "/moto/chemnaft/news/news4.webp", title: "Automechanika Fair In Frankfurt" },
 ];
 
 function ArrowIcon() {

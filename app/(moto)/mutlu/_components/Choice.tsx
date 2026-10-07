@@ -19,7 +19,7 @@ export default function Choice() {
 
         <div className="w-full max-h-[650px] rounded-2xl md:rounded-[32px] overflow-hidden  order-3 mt-6 md:mt-0" data-aos="zoom-in" data-aos-delay="100">
           <img
-            src="/moto/mutlu/section3.png"
+            src="/moto/mutlu/section3.webp"
             alt="Vehicle Manufacturers Choice"
             className="w-full h-full  object-cover"
           />

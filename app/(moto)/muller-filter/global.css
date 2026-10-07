@@ -172,14 +172,14 @@
 }
 
 .bg{
-  background-image: url(/moto/muller-filter/probg.png);
+  background-image: url(/moto/muller-filter/probg.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .footerbg{
-  background-image: url(/moto/muller-filter/footerbg.png);
+  background-image: url(/moto/muller-filter/footerbg.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

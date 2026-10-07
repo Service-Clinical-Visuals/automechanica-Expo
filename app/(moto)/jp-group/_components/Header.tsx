@@ -46,7 +46,7 @@ const Header = () => {
         {/* Logo Section */}
         <Link href="/" className="flex items-center shrink-0 h-[60%] sm:h-[50%] min-[3800px]:h-[70%]">
           <img
-            src="/moto/jp-group/logo.png"
+            src="/moto/jp-group/logo.webp"
             alt="JP Group Logo"
             className="h-full w-auto object-contain"
           />

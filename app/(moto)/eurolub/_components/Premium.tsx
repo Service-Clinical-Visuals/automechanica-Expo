@@ -7,25 +7,25 @@ import Container from "./Container";
 
 const features = [
   {
-    icon: "/moto/eurolub/premium/leaf.png",
+    icon: "/moto/eurolub/premium/leaf.webp",
     title: "Fuel Efficiency",
     description:
       "Its low-friction formulation improves engine efficiency, helping to reduce fuel consumption while delivering smooth and reliable performance during both city and highway driving.",
   },
   {
-    icon: "/moto/eurolub/premium/shield.png",
+    icon: "/moto/eurolub/premium/shield.webp",
     title: "Superior Engine Cleanliness",
     description:
       "The advanced additive formula prevents sludge and deposits, keeping the engine clean and delivering reliable performance over extended service intervals.",
   },
   {
-    icon: "/moto/eurolub/premium/speedo.png",
+    icon: "/moto/eurolub/premium/speedo.webp",
     title: "High Thermal Stability",
     description:
       "Engineered to withstand extreme temperatures, it maintains consistent lubrication and protects critical engine components for smooth, reliable performance in all weather conditions.",
   },
   {
-    icon: "/moto/eurolub/premium/clock.png",
+    icon: "/moto/eurolub/premium/clock.webp",
     title: "Long-Life Performance",
     description:
       "Designed for extended service intervals, it provides lasting engine protection and maintains reliable performance throughout the oil's lifespan.",

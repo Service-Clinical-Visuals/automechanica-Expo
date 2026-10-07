@@ -6,12 +6,12 @@ import Button from "./Button";
 
 export default function Brands() {
   const brands = [
-    "/moto/exol/brand1.png",
-    "/moto/exol/brand2.png",
-    "/moto/exol/brand3.png",
-    "/moto/exol/brand4.png",
-    "/moto/exol/brand5.png",
-    "/moto/exol/brand6.png",
+    "/moto/exol/brand1.webp",
+    "/moto/exol/brand2.webp",
+    "/moto/exol/brand3.webp",
+    "/moto/exol/brand4.webp",
+    "/moto/exol/brand5.webp",
+    "/moto/exol/brand6.webp",
   ];
 
   return (

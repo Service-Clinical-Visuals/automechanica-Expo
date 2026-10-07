@@ -38,7 +38,7 @@ export default function Header() {
         <div className="flex items-center justify-between gap-6 h-[90px] py-2">
           {/* Logo */}
           <Link href="/" className="shrink-0">
-            <img src="/moto/intermotor/logo.png" alt="Intermotor Group" className="h-8 w-auto object-contain self-center" />
+            <img src="/moto/intermotor/logo.webp" alt="Intermotor Group" className="h-8 w-auto object-contain self-center" />
           </Link>
 
           {/* Desktop Navigation */}

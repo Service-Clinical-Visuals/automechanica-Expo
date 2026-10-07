@@ -52,7 +52,7 @@ const Experience = () => {
             ].map((item, index) => (
               <div key={index} className="flex items-start gap-3">
                 <div className="w-5 h-5 shrink-0 mt-1 flex items-center justify-center">
-                  <img src="/moto/purflux/Vector.png" alt="Bullet" className="w-full h-full object-contain" />
+                  <img src="/moto/purflux/Vector.webp" alt="Bullet" className="w-full h-full object-contain" />
                 </div>
                 <Typography variant="p" color="white" className="leading-relaxed opacity-90">
                   <strong>{item.title}</strong> – {item.desc}

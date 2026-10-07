@@ -65,7 +65,7 @@ const Building = () => {
         {/* Image (Mobile Order 2, Desktop Right) */}
         <div className="order-2 xl:col-start-7 xl:col-span-6 xl:row-start-1 w-full h-full flex items-center justify-center min-h-[300px] xl:min-h-[400px]" data-aos="fade-left">
           <img
-            src="/moto/alca-mobil/section3.png"
+            src="/moto/alca-mobil/section3.webp"
             alt="Automechanika Trade Show"
             className="w-full h-auto object-cover shadow-lg"
           />

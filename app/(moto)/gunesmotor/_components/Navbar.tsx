@@ -58,7 +58,7 @@ export default function Navbar() {
               whileTap={{ scale: 0.97 }}
               transition={{ duration: 0.2 }}>
               {/* <Image
-                src="/moto/gunesmotor/logo.png"
+                src="/moto/gunesmotor/logo.webp"
                 alt="Güneş Engine Valves"
                 width={165}
                 height={55}
@@ -71,7 +71,7 @@ export default function Navbar() {
                   max-[480px]:w-[125px]
                 "
               /> */}
-              <img src="/moto/gunesmotor/logo.png" alt="Güneş Engine Valves" />
+              <img src="/moto/gunesmotor/logo.webp" alt="Güneş Engine Valves" />
             </motion.div>
           </Link>
 
@@ -158,7 +158,7 @@ export default function Navbar() {
               <span>Catalog</span>
 
               <Image
-                src="/moto/gunesmotor/arrow.png"
+                src="/moto/gunesmotor/arrow.webp"
                 alt=""
                 width={13}
                 height={11}
@@ -179,7 +179,7 @@ export default function Navbar() {
               transition={{ duration: 0.2 }}
               className="flex items-center justify-center gap-[5px]">
               <Image
-                src="/moto/gunesmotor/world.png"
+                src="/moto/gunesmotor/world.webp"
                 alt="Language"
                 width={25}
                 height={25}
@@ -296,7 +296,7 @@ export default function Navbar() {
                 <span>Catalog</span>
 
                 <Image
-                  src="/moto/gunesmotor/arrow.png"
+                  src="/moto/gunesmotor/arrow.webp"
                   alt=""
                   width={13}
                   height={11}
@@ -314,7 +314,7 @@ export default function Navbar() {
                 aria-label="Select language"
                 className="flex w-fit items-center gap-[5px]">
                 <Image
-                  src="/moto/gunesmotor/world.png"
+                  src="/moto/gunesmotor/world.webp"
                   alt="Language"
                   width={25}
                   height={25}

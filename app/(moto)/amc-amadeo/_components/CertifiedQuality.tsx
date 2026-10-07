@@ -7,25 +7,25 @@ const certificates = [
     id: 1,
     title: "ISO 9001:2015",
     desc: "Quality management standard for consistent processes.",
-    img: "/moto/amc-amadeo/c1.png"
+    img: "/moto/amc-amadeo/c1.webp"
   },
   {
     id: 2,
     title: "IAT 16949",
     desc: "Automotive quality certification for OEM standards.",
-    img: "/moto/amc-amadeo/c2.png"
+    img: "/moto/amc-amadeo/c2.webp"
   },
   {
     id: 3,
     title: "ISO 27001",
     desc: "Information security management standard.",
-    img: "/moto/amc-amadeo/c3.png"
+    img: "/moto/amc-amadeo/c3.webp"
   },
   {
     id: 4,
     title: "ISO 14001:2015",
     desc: "Environmental management standard for sustainable manufacturing.",
-    img: "/moto/amc-amadeo/c4.png"
+    img: "/moto/amc-amadeo/c4.webp"
   }
 ];
 

@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="mb-6 inline-block  p-2 rounded-xl">
               <img
-                src="/moto/eurol/logo.png"
+                src="/moto/eurol/logo.webp"
                 alt="Eurol Logo"
                 className="h-12 xl:h-[90%] xl:w-[90%] w-auto object-contain"
                 onError={(e) => { e.currentTarget.style.display = 'none'; }}

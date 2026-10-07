@@ -17,10 +17,10 @@ const categories = [
     label: 'Automobile',
     type: 'photo',
     products: [
-      { title: 'Motor Oil', image: '/moto/leprinxol/automobile4.png' },
-      { title: 'Transmission Fluid', image: '/moto/leprinxol/automobile3.png' },
-      { title: 'Central Hydraulics Oil', image: '/moto/leprinxol/automobile1.png' },
-      { title: 'Radiator Antifreeze', image: '/moto/leprinxol/automobile2.png' },
+      { title: 'Motor Oil', image: '/moto/leprinxol/automobile4.webp' },
+      { title: 'Transmission Fluid', image: '/moto/leprinxol/automobile3.webp' },
+      { title: 'Central Hydraulics Oil', image: '/moto/leprinxol/automobile1.webp' },
+      { title: 'Radiator Antifreeze', image: '/moto/leprinxol/automobile2.webp' },
     ],
   },
   {
@@ -28,10 +28,10 @@ const categories = [
     label: 'Industrial',
     type: 'photo',
     products: [
-      { title: 'Hydraulic Oils', image: '/moto/leprinxol/industrial1.png' },
-      { title: 'Gear Oils', image: '/moto/leprinxol/industrial3.png' },
-      { title: 'Compressor Oils', image: '/moto/leprinxol/industrial2.png' },
-      { title: 'Industrial Oils', image: '/moto/leprinxol/industrial4.png' },
+      { title: 'Hydraulic Oils', image: '/moto/leprinxol/industrial1.webp' },
+      { title: 'Gear Oils', image: '/moto/leprinxol/industrial3.webp' },
+      { title: 'Compressor Oils', image: '/moto/leprinxol/industrial2.webp' },
+      { title: 'Industrial Oils', image: '/moto/leprinxol/industrial4.webp' },
     ],
   },
   {
@@ -39,10 +39,10 @@ const categories = [
     label: 'Grease',
     type: 'photo',
     products: [
-      { title: 'Lycos MZ 3', image: '/moto/leprinxol/grease1.png' },
-      { title: 'Lycos MZ 2', image: '/moto/leprinxol/grease2.png' },
-      { title: 'Lycos EP 2', image: '/moto/leprinxol/grease3.png' },
-      { title: 'Lycos EP 3', image: '/moto/leprinxol/grease4.png' },
+      { title: 'Lycos MZ 3', image: '/moto/leprinxol/grease1.webp' },
+      { title: 'Lycos MZ 2', image: '/moto/leprinxol/grease2.webp' },
+      { title: 'Lycos EP 2', image: '/moto/leprinxol/grease3.webp' },
+      { title: 'Lycos EP 3', image: '/moto/leprinxol/grease4.webp' },
     ],
   },
   {

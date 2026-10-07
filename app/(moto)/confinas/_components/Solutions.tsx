@@ -14,22 +14,22 @@ export default function Solutions() {
 
   const categoryData: Record<string, { title: string, desc: string, img: string }[]> = {
     "Starter": [
-      { title: "Lithium", desc: "Advanced LiFePO4 batteries delivering high CCA, low self-discharge, and reliable performance.", img: "/moto/confinas/products/frame1-1.png" },
-      { title: "Gel", desc: "Maintenance-free GEL batteries with a sealed VRLA design for reliable and safe powersports performance.", img: "/moto/confinas/products/frame1-2.png" },
-      { title: "AGM", desc: "Maintenance-free AGM batteries with sealed VRLA technology, delivering safe, reliable performance for ride-on mowers.", img: "/moto/confinas/products/frame1-3.png" },
-      { title: "Dry", desc: "Reliable 6V and 12V DRY batteries with acid-pack activation, designed for dependable performance across various applications.", img: "/moto/confinas/products/frame1-4.png" },
+      { title: "Lithium", desc: "Advanced LiFePO4 batteries delivering high CCA, low self-discharge, and reliable performance.", img: "/moto/confinas/products/frame1-1.webp" },
+      { title: "Gel", desc: "Maintenance-free GEL batteries with a sealed VRLA design for reliable and safe powersports performance.", img: "/moto/confinas/products/frame1-2.webp" },
+      { title: "AGM", desc: "Maintenance-free AGM batteries with sealed VRLA technology, delivering safe, reliable performance for ride-on mowers.", img: "/moto/confinas/products/frame1-3.webp" },
+      { title: "Dry", desc: "Reliable 6V and 12V DRY batteries with acid-pack activation, designed for dependable performance across various applications.", img: "/moto/confinas/products/frame1-4.webp" },
     ],
     "Industrial": [
-      { title: "FP – General Purpose AGM", desc: "FP Series AGM batteries provide reliable standby power for UPS, telecom, security, and emergency systems.", img: "/moto/confinas/products/frame2-1.png" },
-      { title: "FPH – High Rate AGM", desc: "FPH Series AGM batteries deliver high-rate power and reliable backup for UPS and data centers.", img: "/moto/confinas/products/frame2-2.png" },
-      { title: "FPC – Cyclic AGM", desc: "FPC Series deep cycle AGM batteries deliver reliable cyclic power for mobility and energy storage applications.", img: "/moto/confinas/products/frame2-3.png" },
-      { title: "FPG – Cyclic GEL", desc: "Reliable 6V and 12V DRY batteries with acid-pack activation, designed for dependable performance across various applications.", img: "/moto/confinas/products/frame2-4.png" },
+      { title: "FP – General Purpose AGM", desc: "FP Series AGM batteries provide reliable standby power for UPS, telecom, security, and emergency systems.", img: "/moto/confinas/products/frame2-1.webp" },
+      { title: "FPH – High Rate AGM", desc: "FPH Series AGM batteries deliver high-rate power and reliable backup for UPS and data centers.", img: "/moto/confinas/products/frame2-2.webp" },
+      { title: "FPC – Cyclic AGM", desc: "FPC Series deep cycle AGM batteries deliver reliable cyclic power for mobility and energy storage applications.", img: "/moto/confinas/products/frame2-3.webp" },
+      { title: "FPG – Cyclic GEL", desc: "Reliable 6V and 12V DRY batteries with acid-pack activation, designed for dependable performance across various applications.", img: "/moto/confinas/products/frame2-4.webp" },
     ],
     "Motive Power": [
-      { title: "FDC – Deep Cycle Flooded", desc: "FDC Series deep cycle batteries deliver long-lasting power for traction, solar, and industrial applications.", img: "/moto/confinas/products/frame3-1.png" },
-      { title: "FDCT – Deep Cycle Tubular", desc: "FDCT Tubular batteries deliver exceptional deep cycle performance for demanding industrial and solar applications", img: "/moto/confinas/products/frame3-2.png" },
-      { title: "FDC – AGM Carbon", desc: "FDC AGM Carbon batteries deliver maintenance-free deep cycle power for electric vehicles, solar, marine, and industrial applications.", img: "/moto/confinas/products/frame3-3.png" },
-      { title: "FDC – Deep Cycle LiFePO4", desc: "FDC Deep Cycle Lithium batteries deliver lightweight, maintenance-free power with fast charging and long service life.", img: "/moto/confinas/products/frame3-4.png" },
+      { title: "FDC – Deep Cycle Flooded", desc: "FDC Series deep cycle batteries deliver long-lasting power for traction, solar, and industrial applications.", img: "/moto/confinas/products/frame3-1.webp" },
+      { title: "FDCT – Deep Cycle Tubular", desc: "FDCT Tubular batteries deliver exceptional deep cycle performance for demanding industrial and solar applications", img: "/moto/confinas/products/frame3-2.webp" },
+      { title: "FDC – AGM Carbon", desc: "FDC AGM Carbon batteries deliver maintenance-free deep cycle power for electric vehicles, solar, marine, and industrial applications.", img: "/moto/confinas/products/frame3-3.webp" },
+      { title: "FDC – Deep Cycle LiFePO4", desc: "FDC Deep Cycle Lithium batteries deliver lightweight, maintenance-free power with fast charging and long service life.", img: "/moto/confinas/products/frame3-4.webp" },
     ]
   };
 

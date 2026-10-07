@@ -6,36 +6,36 @@ import Typography from "../../_components/Typography";
 const features = [
   {
     id: 0,
-    image: "/moto/ampro/a1.png",
-    icon: "/moto/ampro/ic1.png",
+    image: "/moto/ampro/a1.webp",
+    icon: "/moto/ampro/ic1.webp",
     title: "Premium commercial vehicle parts since 2007.",
     description: "Reliable commercial vehicle components with advanced NOx solutions.",
   },
   {
     id: 1,
-    image: "/moto/ampro/a2.png",
-    icon: "/moto/ampro/ic2.png",
+    image: "/moto/ampro/a2.webp",
+    icon: "/moto/ampro/ic2.webp",
     title: "20,000 Units in Permanent Stock",
     description: "Maintaining a strong stock of NOx sensors for fast and reliable supply across European vehicle applications.",
   },
   {
     id: 2,
-    image: "/moto/ampro/a3.png",
-    icon: "/moto/ampro/ic3.png",
+    image: "/moto/ampro/a3.webp",
+    icon: "/moto/ampro/ic3.webp",
     title: "Over 3000 NOx sensor models",
     description: "Wide coverage of European vehicle applications with reliable NOx sensing and emission-control solutions.",
   },
   {
     id: 3,
-    image: "/moto/ampro/a4.png",
-    icon: "/moto/ampro/ic4.png",
+    image: "/moto/ampro/a4.webp",
+    icon: "/moto/ampro/ic4.webp",
     title: "Dual-Sensor Technology",
     description: "Dual NOx sensors monitor emissions before and after the catalyst for accurate, efficient exhaust control.",
   },
   {
     id: 4,
-    image: "/moto/ampro/a5.png",
-    icon: "/moto/ampro/ic5.png",
+    image: "/moto/ampro/a5.webp",
+    icon: "/moto/ampro/ic5.webp",
     title: "Real-Time NOx Monitoring",
     description: "Real-time NOx monitoring enables accurate emission control and optimized exhaust aftertreatment.",
   },
@@ -47,7 +47,7 @@ const FeaturesAccordion = () => {
   return (
     <section
       className="w-screen py-16 xl:py-24 overflow-hidden bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/moto/ampro/bg-3.png')" }}
+      style={{ backgroundImage: "url('/moto/ampro/bg-3.webp')" }}
     >
       <div className="custom-container flex flex-col gap-10 xl:gap-12 min-[3800px]:gap-20 items-center">
 

@@ -10,7 +10,7 @@ const Ready = () => {
       id="ready"
       className="w-full min-h-[500px] md:min-h-[600px] xl:min-h-[700px] min-[2500px]:min-h-[1200px] min-[3800px]:min-h-[2400px] relative py-24 xl:py-32 min-[2500px]:py-56 min-[3800px]:py-100 flex justify-center items-center overflow-hidden bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: "url('/moto/gl-oil/bg.png')"
+        backgroundImage: "url('/moto/gl-oil/bg.webp')"
       }}
     >
       {/* Dark Overlay for Text Readability */}
