@@ -102,7 +102,7 @@ if (unmatched.size) {
 
 if (CHECK && (images.length || refsChanged)) {
   console.error(
-    `\n✗ ${images.length} png/jpg images in /public and ${refsChanged} references still to convert.` +
+    `\n✗ ${images.length} png/jpg images in /public and ${refsChanged} references still to convert.`+ `\n  Run: git restore --staged .` +
       `\n  Run: node scripts/convert-to-webp.mjs --write --delete`
   );
   process.exit(1);
