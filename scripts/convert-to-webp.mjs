@@ -3,11 +3,11 @@
 //   node scripts/convert-to-webp.mjs            dry run: report only, writes nothing
 //   node scripts/convert-to-webp.mjs --write    convert + rewrite references (keeps originals)
 //   node scripts/convert-to-webp.mjs --write --delete   also delete the originals
+//   node scripts/convert-to-webp.mjs --check    dry run, exits 1 if anything is left (used by the pre-commit hook)
 //
 // Options: --quality=80 (lossy quality for all images)
 import fs from "fs/promises";
 import path from "path";
-import sharp from "sharp";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const PUBLIC_DIR = path.join(ROOT, "public");
@@ -18,6 +18,9 @@ const IMAGE_EXT = /\.(png|jpe?g)$/i;
 const args = process.argv.slice(2);
 const WRITE = args.includes("--write");
 const DELETE = args.includes("--delete");
+const CHECK = args.includes("--check") && !WRITE;
+// Only needed for converting, so --check works without sharp installed
+const sharp = WRITE ? (await import("sharp")).default : null;
 const QUALITY = Number(args.find((a) => a.startsWith("--quality="))?.split("=")[1] ?? 80);
 
 async function walk(dir, filter) {
@@ -95,6 +98,14 @@ console.log(`  references ${WRITE ? "updated" : "to update"}: ${refsChanged}`);
 if (unmatched.size) {
   console.log(`\n  ${unmatched.size} references left unchanged (remote or not found in /public — check manually):`);
   for (const r of [...unmatched].slice(0, 30)) console.log(`    ${r}`);
+}
+
+if (CHECK && (images.length || refsChanged)) {
+  console.error(
+    `\n✗ ${images.length} png/jpg images in /public and ${refsChanged} references still to convert.` +
+      `\n  Run: node scripts/convert-to-webp.mjs --write --delete`
+  );
+  process.exit(1);
 }
 // How to Run
 
