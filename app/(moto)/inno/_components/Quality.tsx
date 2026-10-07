@@ -39,7 +39,7 @@ export default function Quality() {
             {[1, 2, 3, 4, 5, 6].map((i) => (
               <div key={i} className="w-full h-full overflow-hidden bg-gray-200">
                 <img
-                  src={`/moto/inno/q${i}.png`}
+                  src={`/moto/inno/q${i}.webp`}
                   alt={`Quality check ${i}`}
                   className="w-full h-full object-cover"
                   onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = `<div class="w-full h-full flex items-center justify-center text-gray-500 text-sm">Image ${i}</div>` }}

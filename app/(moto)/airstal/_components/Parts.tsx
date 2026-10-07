@@ -92,7 +92,7 @@ export default function Parts() {
               {[1, 2, 3, 4].map((num) => (
                 <SwiperSlide key={num}>
                   <div className="bg-white border border-gray-100 shadow-sm rounded-md p-4 sm:p-6 aspect-[4/3] md:aspect-video xl:aspect-[4/3] flex items-center justify-center group hover:shadow-md transition-shadow">
-                    <img src={`/moto/airstal/icon${num}.png`} alt={`Award ${num}`} className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300" />
+                    <img src={`/moto/airstal/icon${num}.webp`} alt={`Award ${num}`} className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300" />
                   </div>
                 </SwiperSlide>
               ))}

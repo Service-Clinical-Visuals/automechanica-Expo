@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 
 const categoryData: Record<string, { title: string; image: string }[]> = {
   "Cooling": [
-    { title: "WATER PUMPS", image: "/moto/metelli-group/products/frame11.png" },
+    { title: "WATER PUMPS", image: "/moto/metelli-group/products/frame11.webp" },
     { title: "AUXILIARY ELECTRIC WATER PUMPS", image: "/moto/metelli-group/products/frame12.webp" },
     { title: "SWITCHABLE WATER PUMP - ELECTROHYDRAULIC", image: "/moto/metelli-group/products/frame13.webp" },
     { title: "AUTOMATIC TENSIONERS: THE QUALITY SOLUTION", image: "/moto/metelli-group/products/frame14.webp" },
