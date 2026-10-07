@@ -8,14 +8,15 @@
 // Options: --quality=80 (lossy quality for all images)
 import fs from "fs/promises";
 import path from "path";
+import { fileURLToPath } from "url";
 
-const ROOT = path.resolve(import.meta.dirname, "..");
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const PUBLIC_DIR = path.join(ROOT, "public");
 const SOURCE_DIRS = ["app"].map((d) => path.join(ROOT, d));
 const SOURCE_EXT = /\.(tsx?|jsx?|mjs|css|scss|json|mdx?)$/;
 const IMAGE_EXT = /\.(png|jpe?g)$/i;
 
-const args = process.argv.slice(2);
+const args = process.argv.slice(2).map((a) => a.trim()); // trim: CRLF hooks pass "--check\r"
 const WRITE = args.includes("--write");
 const DELETE = args.includes("--delete");
 const CHECK = args.includes("--check") && !WRITE;
@@ -100,16 +101,41 @@ if (unmatched.size) {
   for (const r of [...unmatched].slice(0, 30)) console.log(`    ${r}`);
 }
 
+// Terminal colors (set NO_COLOR=1 to turn off)
+const color = (code) => (s) => (process.env.NO_COLOR ? s : `\x1b[${code}m${s}\x1b[0m`);
+const red = color("1;31");
+const green = color("32");
+const yellow = color("33");
+const cyan = color("36");
+const bold = color("1");
+const gray = color("90");
+
 if (CHECK && (images.length || refsChanged)) {
+  // [command, why it's needed]
+  const steps = [
+    ["git restore --staged .", "unstage everything so the converted files can be re-added"],
+    ["node scripts/convert-to-webp.mjs --write --delete", "convert png/jpg → webp, update code references, delete the originals"],
+    ["git add .", "stage the new .webp images and the updated code"],
+    ['git commit -m "your message"', "commit again — the check will pass now"],
+  ];
+  const width = Math.max(...steps.map(([cmd]) => cmd.length));
   console.error(
-    `\n✗ ${images.length} png/jpg images in /public and ${refsChanged} references still to convert.`+ `\n  Run: git restore --staged .` +
-      `\n  Run: node scripts/convert-to-webp.mjs --write --delete\n`
+    "\n" + red(`✗ ${images.length} png/jpg images in /public and ${refsChanged} references still to convert.`) +
+      "\n" + gray("  Commits must use .webp images (smaller files, faster page loads).") +
+      "\n\n" + bold("Commands to run") + gray(" (converts the images, then commits again):") +
+      steps.map(([cmd, why], i) => `\n  ${i + 1}. ${cyan(cmd.padEnd(width))}  ${gray("# " + why)}`).join("") +
+      "\n"
+  );
+  // Warning: how to commit anyway without converting
+  console.error(
+    yellow(`⚠ Warning: if you don't want to convert to webp, skip this check with:`) +
+      `\n  ${cyan('git commit -n -m "your message"')}\n`
   );
   process.exit(1);
 }
 
 // Separate the check output from git's own output
-if (CHECK) console.log(`\n✓ webp check passed\n${"─".repeat(60)}\n`);
+if (CHECK) console.log("\n" + green("✓ webp check passed") + `\n${"─".repeat(60)}\n`);
 
 // How to Run
 
