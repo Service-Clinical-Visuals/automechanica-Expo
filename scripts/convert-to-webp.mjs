@@ -110,6 +110,7 @@ if (CHECK && (images.length || refsChanged)) {
 
 // Separate the check output from git's own output
 if (CHECK) console.log(`\n✓ webp check passed\n${"─".repeat(60)}\n`);
+
 // How to Run
 
 // node scripts/convert-to-webp.mjs                      # dry run (no changes)
