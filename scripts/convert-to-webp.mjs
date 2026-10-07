@@ -103,10 +103,13 @@ if (unmatched.size) {
 if (CHECK && (images.length || refsChanged)) {
   console.error(
     `\n✗ ${images.length} png/jpg images in /public and ${refsChanged} references still to convert.`+ `\n  Run: git restore --staged .` +
-      `\n  Run: node scripts/convert-to-webp.mjs --write --delete`
+      `\n  Run: node scripts/convert-to-webp.mjs --write --delete\n`
   );
   process.exit(1);
 }
+
+// Separate the check output from git's own output
+if (CHECK) console.log(`\n✓ webp check passed\n${"─".repeat(60)}\n`);
 // How to Run
 
 // node scripts/convert-to-webp.mjs                      # dry run (no changes)
