@@ -9,7 +9,6 @@ export default function Products() {
   return (
     <section className="py-20 xl:py-20 bg-[#3B4148] relative overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute inset-0 z-0 opacity-10 bg-[url('/moto/sigam/bg.png')] bg-repeat bg-center"></div>
 
       <div className="custom-container relative z-10">
 

@@ -8,7 +8,6 @@ export default function Footer() {
   return (
     <footer className="bg-[url('/moto/badenex/footer-bg.webp')] bg-cover bg-center relative overflow-hidden text-white">
       {/* Background Pattern */}
-      <div className="absolute inset-0 z-0 opacity-10 bg-[url('/moto/sigam/bg.png')] bg-repeat bg-center"></div>
 
       <div className="custom-container relative z-10 py-12 md:py-16 xl:py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-12 gap-10 xl:gap-8">

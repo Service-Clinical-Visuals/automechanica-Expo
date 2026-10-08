@@ -10,7 +10,6 @@ const images = [
   "/moto/north-sea/news3.webp",
   "/moto/north-sea/news4.webp",
   "/moto/north-sea/news5.webp",
-  "/moto/north-sea/news6.jpg",
 ];
 
 export default function News() {

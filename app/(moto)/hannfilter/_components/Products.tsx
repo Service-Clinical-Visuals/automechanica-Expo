@@ -36,7 +36,7 @@ const Products = () => {
                   alt={product.title}
                   className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                   onError={(e) => {
-                    e.currentTarget.src = "/moto/swd/abt.png";
+                    e.currentTarget.src = "/moto/hannfilter/abt.webp";
                   }}
                 />
               </div>
