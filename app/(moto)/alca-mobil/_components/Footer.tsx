@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="xl:col-span-4 flex flex-col gap-6" data-aos="fade-up">
             <Link href="/" className="inline-block">
               <img
-                src="/moto/alca-mobil/logo.png"
+                src="/moto/alca-mobil/logo.webp"
                 alt="Alca Mobil Logo"
                 className="h-10 sm:h-15 w-auto object-contain min-[2100px]:h-20 min-[3800px]:h-28"
               />

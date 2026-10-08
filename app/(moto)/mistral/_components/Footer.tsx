@@ -37,7 +37,7 @@ export default function Footer() {
             <div className="flex flex-col gap-6 col-span-2 md:col-span-12 xl:col-span-5 xl:pr-6">
               <Link href="#">
                 <img 
-                  src="/moto/mistral/footericon.png" 
+                  src="/moto/mistral/footericon.webp" 
                   alt="Mistral Logo" 
                   className="w-[215px] lg:w-[320px] object-contain " 
                 />
@@ -74,18 +74,18 @@ export default function Footer() {
               <h3 className="oswald-font font-medium number-text mb-2 tracking-wide">Contact</h3>
               <ul className="flex flex-col gap-4">
                 <li className="flex items-start gap-3">
-                  <img src="/moto/mistral/map-pin.png" alt="location" className='w-[18px] h-[18px] object-contain flex-shrink-0 mt-0.5' />
+                  <img src="/moto/mistral/map-pin.webp" alt="location" className='w-[18px] h-[18px] object-contain flex-shrink-0 mt-0.5' />
                   <span className="text-white header-sublink  leading-relaxed lato-font">
                     Ditta Andrea Campi | P.IVA IT10548260156 | C.F.<br className="hidden xl:block" />
                     CMPNDR69M23E063W | R.I. MI 1996-1303998
                   </span>
                 </li>
                 <li className="flex items-center gap-3">
-                  <img src="/moto/mistral/phone-call.png" alt="phone" className='w-[18px] h-[18px] object-contain flex-shrink-0 mt-0.5' />
+                  <img src="/moto/mistral/phone-call.webp" alt="phone" className='w-[18px] h-[18px] object-contain flex-shrink-0 mt-0.5' />
                   <span className="text-white header-sublink  lato-font">+39 0331.534695</span>
                 </li>
                 <li className="flex items-center gap-3">
-                  <img src="/moto/mistral/mail.png" alt="mail" className='w-[18px] h-[18px] object-contain flex-shrink-0 mt-0.5' />
+                  <img src="/moto/mistral/mail.webp" alt="mail" className='w-[18px] h-[18px] object-contain flex-shrink-0 mt-0.5' />
                   <span className="text-white header-sublink  lato-font">info@campi.eu</span>
                 </li>
               </ul>

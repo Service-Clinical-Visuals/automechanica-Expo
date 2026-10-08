@@ -40,7 +40,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/cevam/logo.png" alt="CEVAM Logo" className="h-auto w-auto object-contain" />
+                <img src="/moto/cevam/logo.webp" alt="CEVAM Logo" className="h-auto w-auto object-contain" />
               </Link>
             </div>
 
@@ -63,11 +63,11 @@ export default function Header() {
             {/* Flags / Language Select */}
             <div className="hidden xl:flex items-center gap-3 pl-4">
               <Link href="#" className="flex items-center">
-                <img src="/moto/cevam/flag1.png" alt="ES" className="h-auto w-auto" />
+                <img src="/moto/cevam/flag1.webp" alt="ES" className="h-auto w-auto" />
               </Link>
               <div className="w-[1px] h-[58px] bg-[#E4E4E4]"></div>
               <Link href="#" className="flex items-center">
-                <img src="/moto/cevam/flag2.png" alt="EN" className="h-auto w-auto" />
+                <img src="/moto/cevam/flag2.webp" alt="EN" className="h-auto w-auto" />
               </Link>
             </div>
 
@@ -111,11 +111,11 @@ export default function Header() {
             ))}
             <div className="custom-container py-4 flex gap-3 justify-center items-center">
               <Link href="#" className="flex items-center">
-                <img src="/moto/cevam/flag1.png" alt="ES" className="h-auto w-auto" />
+                <img src="/moto/cevam/flag1.webp" alt="ES" className="h-auto w-auto" />
               </Link>
               <div className="w-[1px] h-4 bg-[#E4E4E4]"></div>
               <Link href="#" className="flex items-center">
-                <img src="/moto/cevam/flag2.png" alt="EN" className="h-auto w-auto" />
+                <img src="/moto/cevam/flag2.webp" alt="EN" className="h-auto w-auto" />
               </Link>
             </div>
           </nav>

@@ -53,7 +53,7 @@ const Fresh = () => {
             <div className="flex flex-col gap-6">
               {/* Bullet 1 */}
               <div className="flex items-start gap-4">
-                <img src="/moto/mc-filter/vector1.png" alt="Bullet Icon" className="w-6 h-6 object-contain shrink-0 mt-1" />
+                <img src="/moto/mc-filter/vector1.webp" alt="Bullet Icon" className="w-6 h-6 object-contain shrink-0 mt-1" />
                 <Typography variant="p" color="muted" className="leading-relaxed text-sm lg:text-base">
                   <span className="font-bold text-[#1B1150]">Efficient Particle Capture</span> – Removes harmful airborne contaminants for cleaner, healthier cabin air.
                 </Typography>
@@ -61,7 +61,7 @@ const Fresh = () => {
 
               {/* Bullet 2 */}
               <div className="flex items-start gap-4">
-                <img src="/moto/mc-filter/vector1.png" alt="Bullet Icon" className="w-6 h-6 object-contain shrink-0 mt-1" />
+                <img src="/moto/mc-filter/vector1.webp" alt="Bullet Icon" className="w-6 h-6 object-contain shrink-0 mt-1" />
                 <Typography variant="p" color="muted" className="leading-relaxed text-sm lg:text-base">
                   <span className="font-bold text-[#1B1150]">Consistent HVAC Performance</span> – Maintains smooth airflow to support heating and air conditioning efficiency.
                 </Typography>

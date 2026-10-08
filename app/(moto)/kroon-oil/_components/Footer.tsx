@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Column 1: Logo & Text */}
           <div className="col-span-2 md:col-span-2 xl:col-span-3 flex flex-col gap-6 xl:pr-6">
             <Link href="#" className="inline-block">
-              <img src="/moto/kroon-oil/logo.png" alt="Kroon-Oil" className="h-24 w-auto object-contain" />
+              <img src="/moto/kroon-oil/logo.webp" alt="Kroon-Oil" className="h-24 w-auto object-contain" />
             </Link>
             <p className="text-[#ffffff] section-text leading-[1.8] font-normal oswald-font max-w-xs ">
               For over 100 years, Kroon-Oil has specialized in developing and manufacturing premium lubricants for reliable performance and lasting protection.
@@ -41,15 +41,15 @@ export default function Footer() {
             <h4 className="text-white footer-title  font-bold tracking-wider oswald-font">Contact Us</h4>
             <ul className="flex flex-col gap-4">
               <li className="flex items-start gap-3">
-                <img src="/moto/kroon-oil/phone.png" alt="Phone" className="w-4 h-4 object-contain mt-1" />
+                <img src="/moto/kroon-oil/phone.webp" alt="Phone" className="w-4 h-4 object-contain mt-1" />
                 <span className="text-[#ffffff] hover:text-[#FEC80B] section-text  oswald-font leading-[1.8]">+31 (0)546-818165</span>
               </li>
               <li className="flex items-start gap-3">
-                <img src="/moto/kroon-oil/mail.png" alt="Mail" className="w-4 h-4 object-contain mt-1" />
+                <img src="/moto/kroon-oil/mail.webp" alt="Mail" className="w-4 h-4 object-contain mt-1" />
                 <span className="text-[#ffffff] hover:text-[#FEC80B] section-text  oswald-font leading-[1.8]">Info@Kroon-Oil.nl</span>
               </li>
               <li className="flex items-start gap-3">
-                <img src="/moto/kroon-oil/location.png" alt="Location" className="w-4 h-4 object-contain mt-1 flex-shrink-0" />
+                <img src="/moto/kroon-oil/location.webp" alt="Location" className="w-4 h-4 object-contain mt-1 flex-shrink-0" />
                 <span className="text-[#ffffff] hover:text-[#FEC80B] section-text  oswald-font leading-[1.8]">
                   Kroon-Oil<br/>B.V. Dollegoorweg 15,<br/>Almelo, 7602 EC, NL
                 </span>
@@ -80,10 +80,10 @@ export default function Footer() {
             <h4 className="text-white footer-title  font-bold tracking-wider oswald-font">Social Media Links</h4>
             <div className="flex flex-nowrap gap-2">
               {[
-                { icon: 'in.png', alt: 'LinkedIn' },
-                { icon: 'insta.png', alt: 'Instagram' },
-                { icon: 'fb.png', alt: 'Facebook' },
-                { icon: 'you.png', alt: 'YouTube' }
+                { icon: 'in.webp', alt: 'LinkedIn' },
+                { icon: 'insta.webp', alt: 'Instagram' },
+                { icon: 'fb.webp', alt: 'Facebook' },
+                { icon: 'you.webp', alt: 'YouTube' }
               ].map(social => (
               
                   <img src={`/moto/kroon-oil/${social.icon}`} alt={social.alt} className="w-12 h-12 object-contain transition-transform group-hover:scale-110" />

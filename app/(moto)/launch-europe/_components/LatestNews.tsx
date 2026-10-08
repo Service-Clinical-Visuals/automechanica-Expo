@@ -10,19 +10,19 @@ export default function LatestNews() {
       date: "February 16, 2024",
       title: "Motorcycle Diagnostics: The Next Gear",
       text: "For all motorbike enthusiasts and workshops who want to take their diagnostic skills to the next level, we .....",
-      image: "/moto/launch-europe/b11.png",
+      image: "/moto/launch-europe/b11.webp",
     },
     {
       date: "February 16, 2024",
       title: "Mercedes SGW: Secure Gateway Access",
       text: "We are pleased to announce that we can now offer SGW (Security Gateway) activation for Mercedes vehicles......",
-      image: "/moto/launch-europe/b22.png",
+      image: "/moto/launch-europe/b22.webp",
     },
     {
       date: "February 16, 2024",
       title: "X-431 EURO DIAGNOSIS REVOLUTION",
       text: "Discover the future of vehicle diagnostics with LAUNCH Europe - flexibility meets high-end technology.....",
-      image: "/moto/launch-europe/b33.png",
+      image: "/moto/launch-europe/b33.webp",
     },
   ];
 

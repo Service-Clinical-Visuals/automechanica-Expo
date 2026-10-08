@@ -6,30 +6,30 @@ import Button from "./Button";
 
 const Latest = () => {
   const smallFeatures = [
-    { icon: "/moto/purflux/small1.png", text: "OE Performance" },
-    { icon: "/moto/purflux/samll2.png", text: "Advanced Filtration" },
-    { icon: "/moto/purflux/small3.png", text: "Wide Vehicle Coverage" },
-    { icon: "/moto/purflux/small4.png", text: "Weekly Updated Catalogue" },
+    { icon: "/moto/purflux/small1.webp", text: "OE Performance" },
+    { icon: "/moto/purflux/samll2.webp", text: "Advanced Filtration" },
+    { icon: "/moto/purflux/small3.webp", text: "Wide Vehicle Coverage" },
+    { icon: "/moto/purflux/small4.webp", text: "Weekly Updated Catalogue" },
   ];
 
   const bottomFeatures = [
     {
-      icon: "/moto/purflux/s3.png",
+      icon: "/moto/purflux/s3.webp",
       title: "OE Quality Guaranteed",
       desc: "Built to meet equipment standards for trusted performance."
     },
     {
-      icon: "/moto/purflux/s2.png",
+      icon: "/moto/purflux/s2.webp",
       title: "Trusted by Professionals",
       desc: "Relied upon by automotive professionals across global markets."
     },
     {
-      icon: "/moto/purflux/s1.png",
+      icon: "/moto/purflux/s1.webp",
       title: "Advanced Technology",
       desc: "Innovative filtration for maximum protection."
     },
     {
-      icon: "/moto/purflux/s4.png",
+      icon: "/moto/purflux/s4.webp",
       title: "Reliable Performance",
       desc: "Designed to deliver consistent, long-lasting performance every day."
     }
@@ -76,7 +76,7 @@ const Latest = () => {
           <div className="w-full order-2 xl:order-none xl:col-span-6" data-aos="fade-left">
             <div className="w-full relative">
               <img
-                src="/moto/purflux/section4.png"
+                src="/moto/purflux/section4.webp"
                 alt="Latest Products"
                 className="w-full h-auto object-contain xl:scale-110 min-[3800px]:scale-125 origin-right"
               />

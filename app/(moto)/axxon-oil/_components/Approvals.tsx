@@ -11,12 +11,12 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const logos = [
-  "/moto/axon-oil/approvals/1.png",
-  "/moto/axon-oil/approvals/2.png",
-  "/moto/axon-oil/approvals/3.png",
-  "/moto/axon-oil/approvals/4.png",
-  "/moto/axon-oil/approvals/5.png",
-  "/moto/axon-oil/approvals/6.png",
+  "/moto/axon-oil/approvals/1.webp",
+  "/moto/axon-oil/approvals/2.webp",
+  "/moto/axon-oil/approvals/3.webp",
+  "/moto/axon-oil/approvals/4.webp",
+  "/moto/axon-oil/approvals/5.webp",
+  "/moto/axon-oil/approvals/6.webp",
 ];
 
 const DESKTOP_ITEMS_PER_VIEW = 4;

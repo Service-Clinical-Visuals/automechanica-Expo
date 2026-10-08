@@ -44,7 +44,7 @@ export default function About() {
                 <div key={index} className="flex items-start gap-5 md:gap-6">
                   {/* Red Icon Wrapper */}
                   <div className="flex-shrink-0 w-14 h-14 md:w-[60px] md:h-[60px] rounded-full bg-[#E41B13] flex items-center justify-center">
-                    <img src="/moto/accorLubricants/abtlist1.png" alt="icon" className="w-7 h-7 md:w-8 md:h-8 object-contain"/>
+                    <img src="/moto/accorLubricants/abtlist1.webp" alt="icon" className="w-7 h-7 md:w-8 md:h-8 object-contain"/>
                   </div>
                   
                   {/* Text Content */}
@@ -69,7 +69,7 @@ export default function About() {
           <div className="w-full h-full min-h-[500px] xl:min-h-[700px] relative xl:col-span-5" data-aos="fade-left">
             <div className="absolute inset-0 shadow-xl overflow-hidden">
               <img 
-                src="/moto/accorLubricants/about.jpg" 
+                src="/moto/accorLubricants/about.webp" 
                 alt="ACCOR Exhibition Booth" 
                 className="w-full h-full object-cover object-center"
                 

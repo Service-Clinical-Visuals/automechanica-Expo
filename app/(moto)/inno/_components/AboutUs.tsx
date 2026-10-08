@@ -17,15 +17,15 @@ export default function AboutUs() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10">
           <div className="w-full h-full" data-aos="fade-right">
             <img
-              src="/moto/inno/abt1.png"
+              src="/moto/inno/abt1.webp"
               alt="Inno Piston Facility 1"
               className="w-full h-full object-cover rounded-[8px]"
-              onError={(e) => { e.currentTarget.src = "/moto/cevam/abt.png" }}
+              onError={(e) => { e.currentTarget.src = "/moto/cevam/abt.webp" }}
             />
           </div>
           <div className="w-full h-full" data-aos="fade-left">
             <img
-              src="/moto/inno/abt2.png"
+              src="/moto/inno/abt2.webp"
               alt="Inno Piston Facility 2"
               className="w-full h-full object-cover rounded-[8px]"
               onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-200 flex items-center justify-center text-gray-400 rounded-[8px]">Image 2</div>' }}

@@ -28,7 +28,7 @@ export default function Professionals() {
             {/* Red offset block - left aligned */}
             <div className="absolute -bottom-12 left-0 w-[85%] h-24 2xl:h-40 bg-[var(--color-secondary)] rounded-md"></div>
             <div className="relative z-10 rounded-md overflow-hidden shadow-lg">
-               <img src="/moto/liqui-moly/cust1.png" alt="For Workshops" className="w-full h-[500px] object-cover object-top" />
+               <img src="/moto/liqui-moly/cust1.webp" alt="For Workshops" className="w-full h-[500px] object-cover object-top" />
             </div>
           </div>
           
@@ -67,7 +67,7 @@ export default function Professionals() {
             {/* Red offset block - right aligned */}
             <div className="absolute -bottom-12 right-0 w-[85%] h-24 2xl:h-40 bg-[var(--color-secondary)] rounded-md"></div>
             <div className="relative z-10 rounded-md overflow-hidden shadow-lg">
-               <img src="/moto/liqui-moly/cust2.jpg" alt="For Workshops" className="w-full h-[500px] object-cover object-top" />
+               <img src="/moto/liqui-moly/cust2.webp" alt="For Workshops" className="w-full h-[500px] object-cover object-top" />
             </div>
           </div>
 

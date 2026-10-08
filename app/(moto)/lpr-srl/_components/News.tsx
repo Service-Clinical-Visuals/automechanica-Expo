@@ -8,12 +8,12 @@ import { ArrowRight } from "lucide-react";
 const News = () => {
   const newsItems = [
     {
-      img: "/moto/lpr-srl/news1.jpg",
+      img: "/moto/lpr-srl/news1.webp",
       date: "September 2022 - New Driveshafts Range",
       desc: "New driveshaft range featuring 1,063 SKUs, manufactured with high-quality materials and backed by a 2-year warranty to ensure reliable performance.",
     },
     {
-      img: "/moto/lpr-srl/news2.jpg",
+      img: "/moto/lpr-srl/news2.webp",
       date: "October 2023 - Stellantis Supplier Awards",
       desc: "LPR was recognized by Stellantis for operational excellence, strong aftermarket performance, and commitment to delivering quality automotive solutions.",
     },

@@ -5,22 +5,22 @@ import React from "react";
 export default function Products() {
   const advantages = [
     {
-      icon: <img src="/moto/efitaller/a1.png" alt="Guaranteed Quality" className="w-auto h-auto object-contain mx-auto" />,
+      icon: <img src="/moto/efitaller/a1.webp" alt="Guaranteed Quality" className="w-auto h-auto object-contain mx-auto" />,
       title: "Guaranteed Quality",
       desc: "Professional products from leading brands with maximum reliability."
     },
     {
-      icon: <img src="/moto/efitaller/a2.png" alt="Expert Advice" className="w-auto h-auto object-contain mx-auto" />,
+      icon: <img src="/moto/efitaller/a2.webp" alt="Expert Advice" className="w-auto h-auto object-contain mx-auto" />,
       title: "Expert Advice",
       desc: "We help you choose the best solutions for your workshop."
     },
     {
-      icon: <img src="/moto/efitaller/a3.png" alt="Updates Included" className="w-auto h-auto object-contain mx-auto" />,
+      icon: <img src="/moto/efitaller/a3.webp" alt="Updates Included" className="w-auto h-auto object-contain mx-auto" />,
       title: "Updates Included",
       desc: "Keep your equipment always up to date."
     },
     {
-      icon: <img src="/moto/efitaller/a4.png" alt="Technical Support" className="w-auto h-auto object-contain mx-auto" />,
+      icon: <img src="/moto/efitaller/a4.webp" alt="Technical Support" className="w-auto h-auto object-contain mx-auto" />,
       title: "Technical Support",
       desc: "Individual technical service and fast support whenever you need it."
     }

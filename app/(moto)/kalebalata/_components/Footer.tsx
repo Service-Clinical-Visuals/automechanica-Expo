@@ -20,7 +20,7 @@ export default function Footer() {
           <div className="flex flex-col gap-6 sm:col-span-2 xl:col-span-2">
             <Link href="#">
               <img 
-                src="/moto/kalebalata/logo.png" 
+                src="/moto/kalebalata/logo.webp" 
                 alt="Kale Balata Logo" 
                 className="h-14 md:h-22 w-auto object-contain"
                

@@ -90,7 +90,7 @@ const Header = () => {
             {/* Logo Section */}
             <Link href="/" className="flex items-center justify-center shrink-0 flex-1">
               <img
-                src="/moto/mc-filter/logo.png"
+                src="/moto/mc-filter/logo.webp"
                 alt="MC Filter Logo"
                 className="h-8 sm:h-10 md:h-[12%] w-auto object-contain"
               />

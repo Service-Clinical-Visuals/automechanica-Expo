@@ -17,7 +17,7 @@ const Footer = () => {
           {/* Col 1: Brand Info (Span 4) */}
           <div className="flex flex-col gap-6 xl:col-span-4 xl:pr-8" data-aos="fade-up">
             <Link href="/" className="inline-block w-40">
-              <img src="/moto/purflux/logo.png" alt="Purflux Logo" className="w-full h-auto object-contain" />
+              <img src="/moto/purflux/logo.webp" alt="Purflux Logo" className="w-full h-auto object-contain" />
             </Link>
             <p className="footer-body text-white/80 leading-relaxed">
               Driven by innovation and precision engineering, Purflux develops advanced filtration solutions that provide superior protection, reliability, and long-lasting performance.

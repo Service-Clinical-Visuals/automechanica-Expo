@@ -16,28 +16,28 @@ export default function PowerSolutions() {
 
   const categoryProducts: Record<number, Array<{ id: string; name: string; image: string }>> = {
     1: [
-      { id: "1", name: "EFB II", image: "/moto/autopartbattery/1.png" },
-      { id: "2", name: "Silver", image: "/moto/autopartbattery/2.png" },
-      { id: "3", name: "Gold", image: "/moto/autopartbattery/3.png" },
-      { id: "4", name: "Plus", image: "/moto/autopartbattery/4.png" },
-      { id: "5", name: "SMF Japanese", image: "/moto/autopartbattery/5.png" },
-      { id: "6", name: "SMF", image: "/moto/autopartbattery/6.png" },
+      { id: "1", name: "EFB II", image: "/moto/autopartbattery/1.webp" },
+      { id: "2", name: "Silver", image: "/moto/autopartbattery/2.webp" },
+      { id: "3", name: "Gold", image: "/moto/autopartbattery/3.webp" },
+      { id: "4", name: "Plus", image: "/moto/autopartbattery/4.webp" },
+      { id: "5", name: "SMF Japanese", image: "/moto/autopartbattery/5.webp" },
+      { id: "6", name: "SMF", image: "/moto/autopartbattery/6.webp" },
     ],
     2: [
-      { id: "7", name: "Plus Heavy Duty", image: "/moto/autopartbattery/7.png" },
-      { id: "8", name: "Gold Super Heavy Duty", image: "/moto/autopartbattery/8.png" },
-      { id: "9", name: "EFB EVR", image: "/moto/autopartbattery/9.png" },
-      { id: "10", name: "Plus Truck", image: "/moto/autopartbattery/10.png" },
-      { id: "11", name: "EFB SMF", image: "/moto/autopartbattery/11.png" },
+      { id: "7", name: "Plus Heavy Duty", image: "/moto/autopartbattery/7.webp" },
+      { id: "8", name: "Gold Super Heavy Duty", image: "/moto/autopartbattery/8.webp" },
+      { id: "9", name: "EFB EVR", image: "/moto/autopartbattery/9.webp" },
+      { id: "10", name: "Plus Truck", image: "/moto/autopartbattery/10.webp" },
+      { id: "11", name: "EFB SMF", image: "/moto/autopartbattery/11.webp" },
     ],
     3: [
-      { id: "12", name: "Plus Agro", image: "/moto/autopartbattery/12.png" },
-      { id: "13", name: "Garden", image: "/moto/autopartbattery/13.png" },
+      { id: "12", name: "Plus Agro", image: "/moto/autopartbattery/12.webp" },
+      { id: "13", name: "Garden", image: "/moto/autopartbattery/13.webp" },
       
     ],
     4: [
-      { id: "14", name: "Voyager", image: "/moto/autopartbattery/14.png" },
-      { id: "15", name: "DUAL", image: "/moto/autopartbattery/15.png" },
+      { id: "14", name: "Voyager", image: "/moto/autopartbattery/14.webp" },
+      { id: "15", name: "DUAL", image: "/moto/autopartbattery/15.webp" },
       
     ],
   };

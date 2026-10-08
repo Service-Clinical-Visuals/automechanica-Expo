@@ -20,7 +20,7 @@ export default function Partner() {
         {/* Main Image */}
         <div className="w-full mx-auto" data-aos="zoom-in" data-aos-delay="200">
           <img
-            src="/moto/meyle/section2.png"
+            src="/moto/meyle/section2.webp"
             alt="Meyle Headquarters"
             className="w-full h-auto object-cover rounded-[32px] shadow-lg"
           />

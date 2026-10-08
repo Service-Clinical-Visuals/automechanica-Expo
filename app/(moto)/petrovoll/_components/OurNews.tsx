@@ -8,21 +8,21 @@ export default function OurNews() {
   const newsItems = [
     {
       title: "Petrovoll Racing Team Abu Dhabi Car Show 2019",
-      image: "/moto/petrovoll/news1.png",
+      image: "/moto/petrovoll/news1.webp",
       date: "2019",
       location: "Abu Dhabi",
       href: "#news-1",
     },
     {
       title: "Petrovoll Racing Team RAK Motor Show",
-      image: "/moto/petrovoll/new2.png",
+      image: "/moto/petrovoll/new2.webp",
       date: "2019",
       location: "UAE",
       href: "#news-2",
     },
     {
       title: "Mexico Automechanika 2019",
-      image: "/moto/petrovoll/new3.png",
+      image: "/moto/petrovoll/new3.webp",
       date: "2019",
       location: "UAE",
       href: "#news-3",

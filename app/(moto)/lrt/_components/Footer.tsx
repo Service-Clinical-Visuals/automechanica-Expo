@@ -20,7 +20,7 @@ export default function Footer() {
 
             {/* Col 1: Logo + tagline */}
             <div className="flex flex-col gap-4">
-              <img src="/moto/lrt/logo.png" alt="LRT Automotive" className="w-[247px] h-[99px]" />
+              <img src="/moto/lrt/logo.webp" alt="LRT Automotive" className="w-[247px] h-[99px]" />
               <p className="content-white">
                 Leading Manufacturer of Exhaust Components &amp; eMobility Charging Solutions | Made in Germany
               </p>

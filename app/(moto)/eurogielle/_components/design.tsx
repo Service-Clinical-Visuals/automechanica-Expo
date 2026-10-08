@@ -7,17 +7,17 @@ import Button from "./Button";
 export default function Design() {
   const cards = [
     {
-      icon: "/moto/eurogielle/icon1.png",
+      icon: "/moto/eurogielle/icon1.webp",
       title: "Design and Development",
       desc: "Our engineers and technicians bring their expertise and creativity to the forefront in developing cutting-edge filtration solutions. Utilizing advanced technologies and software, we design projects that meet the specific needs of our customers."
     },
     {
-      icon: "/moto/eurogielle/icon2.png",
+      icon: "/moto/eurogielle/icon2.webp",
       title: "Production and Quality Control",
       desc: "In our state-of-the-art facility in Adria, we bring our cabin and engine filters to life. Every stage of production is carefully monitored and subjected to rigorous quality controls to ensure safety and performance."
     },
     {
-      icon: "/moto/eurogielle/icon3.png",
+      icon: "/moto/eurogielle/icon3.webp",
       title: "Distribution and Support",
       desc: "Eurogielle filters are distributed globally through a network of partners and distributors. We provide ongoing technical support and training, ensuring timely and consistent service for our customers."
     }

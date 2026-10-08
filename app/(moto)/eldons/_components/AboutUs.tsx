@@ -7,22 +7,22 @@ const features = [
   {
     title: "Research",
     desc: "ELDON'S is a science and technology-based organization. Investing on these sectors is an integral part of its philosophy...",
-    icon: "/moto/eldons/icon1.jpg",
+    icon: "/moto/eldons/icon1.webp",
   },
   {
     title: "Design",
     desc: "Creating a product is a very demanding procedure. Endless hours of hard work and testing are required. ELDON'S has developed...",
-    icon: "/moto/eldons/icon2.jpg",
+    icon: "/moto/eldons/icon2.webp",
   },
   {
     title: "Reliability",
     desc: "For nearly half a century, ELDON'S is at the forefront in creating high quality lubricating fluids and greases - the ingredients...",
-    icon: "/moto/eldons/icon3.jpg",
+    icon: "/moto/eldons/icon3.webp",
   },
   {
     title: "Performance",
     desc: "Our products are designed to guarantee high performance and reliability, aiming towards proper function and longevity for...",
-    icon: "/moto/eldons/icon4.jpg",
+    icon: "/moto/eldons/icon4.webp",
   }
 ];
 
@@ -44,14 +44,14 @@ export default function AboutUs() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12" data-aos="fade-up" data-aos-delay="100">
           <div className="rounded-lg overflow-hidden shadow-sm aspect-[16/9] w-full">
             <img
-              src="/moto/eldons/section21.png"
+              src="/moto/eldons/section21.webp"
               alt="Ecovadis Sustainability Rating"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="rounded-lg overflow-hidden shadow-sm aspect-[16/9] w-full">
             <img
-              src="/moto/eldons/section22.png"
+              src="/moto/eldons/section22.webp"
               alt="Eldon's Rally Car"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />

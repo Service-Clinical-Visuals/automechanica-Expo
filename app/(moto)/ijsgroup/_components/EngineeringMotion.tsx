@@ -54,13 +54,13 @@ export default function EngineeringMotion() {
             <div className="xl:col-span-5" data-aos="fade-right" data-aos-delay="100">
               <div className="flex flex-col gap-6 mb-10 text-[#555555]">
                 <div className="flex items-start gap-4">
-                  <img src="/moto/ijsgroup/poly2.png" alt="" className="w-10 h-10" />
+                  <img src="/moto/ijsgroup/poly2.webp" alt="" className="w-10 h-10" />
                   <p className="sora-font section-text font-normal leading-relaxed text-[#484848]">
                     Precision machining ensures dimensional accuracy and consistent product quality.
                   </p>
                 </div>
                 <div className="flex items-start gap-4">
-                  <img src="/moto/ijsgroup/poly2.png" alt="" className="w-10 h-10" />
+                  <img src="/moto/ijsgroup/poly2.webp" alt="" className="w-10 h-10" />
                   <p className="sora-font section-text font-normal leading-relaxed text-[#484848]">
                     Every component undergoes comprehensive testing to meet OE-quality standards.
                   </p>

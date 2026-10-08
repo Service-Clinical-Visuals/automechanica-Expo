@@ -10,12 +10,12 @@ export default function About() {
           {/* Images */}
           <div className="grid grid-cols-2 gap-4" data-aos="fade-right">
             <img
-              src="/moto/leprinxol/about2.jpg"
+              src="/moto/leprinxol/about2.webp"
               alt="Leprinxol production line"
               className="w-full h-[280px] sm:h-[340px] md:h-[475px] object-cover rounded-md shadow-md"
             />
             <img
-              src="/moto/leprinxol/about1.jpg"
+              src="/moto/leprinxol/about1.webp"
               alt="Leprinxol lubricant products"
               className="w-full h-[280px] sm:h-[340px] md:h-[475px] object-cover rounded-md shadow-md mt-[20px]"
             />
@@ -69,7 +69,7 @@ export default function About() {
             data-aos="fade-right"
           >
             <img
-              src="/moto/leprinxol/about3.jpg"
+              src="/moto/leprinxol/about3.webp"
               alt="Leprinxol sales territories map"
               className="w-full h-auto max-w-full object-contain"
             />

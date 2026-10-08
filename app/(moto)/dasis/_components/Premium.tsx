@@ -6,10 +6,10 @@ import DynamicVideoPlayer from '../../../_components/DynamicVideoPlayer';
 import Container from './Container';
 
 const galleryImages = [
-  "/moto/dasis/premium/1.png",
-  "/moto/dasis/premium/2.png",
-  "/moto/dasis/premium/3.png",
-  "/moto/dasis/premium/4.png",
+  "/moto/dasis/premium/1.webp",
+  "/moto/dasis/premium/2.webp",
+  "/moto/dasis/premium/3.webp",
+  "/moto/dasis/premium/4.webp",
 ];
 
 export default function Premium() {

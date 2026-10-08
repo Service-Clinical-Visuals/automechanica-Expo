@@ -2,17 +2,17 @@ import Container from "./Container";
 
 const cards = [
   {
-    img: "/moto/lrt/replacement/1.png",
+    img: "/moto/lrt/replacement/1.webp",
     title: "Quality",
     text: "LRT Automotive improves original parts by identifying weak points and enhancing them, delivering greater durability, improved reliability, superior performance, and long-lasting customer satisfaction.",
   },
   {
-    img: "/moto/lrt/replacement/2.png",
+    img: "/moto/lrt/replacement/2.webp",
     title: "Innovation",
     text: "LRT Automotive stays ahead of the market, developing sought-after spare parts like cast manifolds in 2005 and Euro5 catalytic converters in 2012, meeting evolving industry demands.",
   },
   {
-    img: "/moto/lrt/replacement/3.png",
+    img: "/moto/lrt/replacement/3.webp",
     title: "Customer",
     text: "Customer focus drives us. Our spare parts come with easy installation kits for simplicity, ensuring a hassle-free fit, reduced installation time, and reliable performance every time.",
   },
@@ -66,7 +66,7 @@ export default function Replacement() {
           <div className="flex justify-center" data-aos="fade-up">
             <button className="flex navlink font-bold! text-[#00437A]! items-center gap-2 bg-white rounded-full pl-5 pr-1.5 py-1.5 hover:opacity-90 transition-opacity">
               <span>Why Choose LRT</span>
-              <img src="/moto/lrt/arrowup.png" alt="" className="h-6.5 w-6.5" />
+              <img src="/moto/lrt/arrowup.webp" alt="" className="h-6.5 w-6.5" />
             </button>
           </div>
 

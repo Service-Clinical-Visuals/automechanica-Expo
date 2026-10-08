@@ -31,7 +31,7 @@ export default function StayConnected() {
             <div className="flex flex-col gap-6 mb-10">
               {/* Feature 1 */}
               <div className="flex items-start gap-4">
-                <img src="/moto/launch-europe/pin.png" alt="pin" className="pt-2" />
+                <img src="/moto/launch-europe/pin.webp" alt="pin" className="pt-2" />
                 <p className="section-text text-white font-normal leading-relaxed font-lato">
                   <strong className="text-white font-bold">Cloud-Based Updates</strong> - Access the latest software, vehicle coverage, and diagnostic functions with seamless online updates.
                 </p>
@@ -39,7 +39,7 @@ export default function StayConnected() {
 
               {/* Feature 2 */}
               <div className="flex items-start gap-4">
-               <img src="/moto/launch-europe/pin.png" alt="pin" className="pt-2" />
+               <img src="/moto/launch-europe/pin.webp" alt="pin" className="pt-2" />
                 <p className="section-text text-white font-normal leading-relaxed font-lato">
                   <strong className="text-white font-bold">Future-Ready Technology</strong> - Stay ahead with continuously evolving software designed to support the latest automotive innovations.
                 </p>

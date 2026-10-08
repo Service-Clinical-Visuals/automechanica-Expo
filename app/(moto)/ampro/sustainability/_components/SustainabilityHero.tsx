@@ -11,7 +11,7 @@ const SustainabilityHero = () => {
           - On desktop (2xl+): static, object-contain, dictates the exact section height.
       */}
       <img
-        src="/moto/ampro/bg-2.png"
+        src="/moto/ampro/bg-2.webp"
         alt="Sustainability Hero Background"
         className="absolute inset-0 w-full h-full object-cover object-bottom 2xl:static 2xl:w-screen 2xl:h-auto 2xl:object-contain z-0"
       />

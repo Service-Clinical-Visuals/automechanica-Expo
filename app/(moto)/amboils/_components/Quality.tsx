@@ -22,7 +22,7 @@ export default function Quality() {
               {/* Feature 1 */}
               <div className="flex gap-5 items-start group">
                 <div className="w-14 h-14 rounded-full bg-[#C99843] flex-shrink-0 flex items-center justify-center shadow-md transition-transform duration-300 group-hover:scale-110">
-                  <img src="/moto/amboils/1.png" alt="Extensive Product Portfolio" className="w-10 h-10 object-contain brightness-0 invert" />
+                  <img src="/moto/amboils/1.webp" alt="Extensive Product Portfolio" className="w-10 h-10 object-contain brightness-0 invert" />
                 </div>
                 <div className="pt-1">
                   <h3 className="teko-font font-semibold text-[#333333] card-title mb-1 leading-none tracking-wide">
@@ -37,7 +37,7 @@ export default function Quality() {
               {/* Feature 2 */}
               <div className="flex gap-5 items-start group">
                 <div className="w-14 h-14 rounded-full bg-[#C99843] flex-shrink-0 flex items-center justify-center shadow-md transition-transform duration-300 group-hover:scale-110">
-                  <img src="/moto/amboils/2.png" alt="Advanced Lubrication Technology" className="w-10 h-10 object-contain brightness-0 invert" />
+                  <img src="/moto/amboils/2.webp" alt="Advanced Lubrication Technology" className="w-10 h-10 object-contain brightness-0 invert" />
                 </div>
                 <div className="pt-1">
                   <h3 className="teko-font font-semibold text-[#333333] card-title mb-1 leading-none tracking-wide">
@@ -52,7 +52,7 @@ export default function Quality() {
               {/* Feature 3 */}
               <div className="flex gap-5 items-start group">
                 <div className="w-14 h-14 rounded-full bg-[#C99843] flex-shrink-0 flex items-center justify-center shadow-md transition-transform duration-300 group-hover:scale-110">
-                  <img src="/moto/amboils/3.png" alt="Innovation & Continuous Growth" className="w-10 h-10 object-contain brightness-0 invert" />
+                  <img src="/moto/amboils/3.webp" alt="Innovation & Continuous Growth" className="w-10 h-10 object-contain brightness-0 invert" />
                 </div>
                 <div className="pt-1">
                  <h3 className="teko-font font-semibold text-[#333333] card-title mb-1 leading-none tracking-wide">
@@ -67,7 +67,7 @@ export default function Quality() {
               {/* Feature 4 */}
               <div className="flex gap-5 items-start group">
                 <div className="w-14 h-14 rounded-full bg-[#C99843] flex-shrink-0 flex items-center justify-center shadow-md transition-transform duration-300 group-hover:scale-110">
-                  <img src="/moto/amboils/4.png" alt="Sustainable Manufacturing" className="w-10 h-10 object-contain brightness-0 invert" />
+                  <img src="/moto/amboils/4.webp" alt="Sustainable Manufacturing" className="w-10 h-10 object-contain brightness-0 invert" />
                 </div>
                 <div className="pt-1">
                  <h3 className="teko-font font-semibold text-[#333333] card-title mb-1 leading-none tracking-wide">
@@ -88,7 +88,7 @@ export default function Quality() {
           {/* Right Image */}
           <div data-aos="fade-left" className="relative w-full flex justify-center lg:justify-end">
             <img 
-              src="/moto/amboils/quality.png" 
+              src="/moto/amboils/quality.webp" 
               alt="Quality Lubricants Displays" 
               className="w-full h-auto object-contain "
             />

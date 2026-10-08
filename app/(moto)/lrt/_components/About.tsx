@@ -23,7 +23,7 @@ export default function About() {
           <div className="flex flex-col lg:flex-row gap-6 mb-10">
             <div className="w-full lg:w-1/2" data-aos="fade-right">
               <img
-                src="/moto/lrt/about1.png"
+                src="/moto/lrt/about1.webp"
                 alt="LRT Automotive manufacturing facility"
                 className="w-full h-full object-cover"
                 style={{ minHeight: 320 }}
@@ -31,7 +31,7 @@ export default function About() {
             </div>
             <div className="w-full lg:w-1/2" data-aos="fade-left" data-aos-delay="150">
               <img
-                src="/moto/lrt/about2.png"
+                src="/moto/lrt/about2.webp"
                 alt="LRT Automotive team"
                 className="w-full h-full object-cover"
                 style={{ minHeight: 320 }}
@@ -49,7 +49,7 @@ export default function About() {
 
             <button className="flex navlink text-[18px]! font-bold! text-black! items-center gap-2 bg-white rounded-full pl-5 pr-1.5 py-1.5 hover:opacity-90 transition-opacity shrink-0">
               <span>About LRT Automotive</span>
-              <img src="/moto/lrt/arrowup.png" alt="" className="h-6.5 w-6.5" />
+              <img src="/moto/lrt/arrowup.webp" alt="" className="h-6.5 w-6.5" />
             </button>
           </div>
 

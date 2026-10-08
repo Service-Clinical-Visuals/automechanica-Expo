@@ -6,7 +6,7 @@ export default function StatsBanner() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/moto/accorLubricants/productbg.png" 
+          src="/moto/accorLubricants/productbg.webp" 
           alt="ACCOR Products Background" 
           className="w-full h-full object-cover object-center"
           

@@ -17,7 +17,7 @@ export default function About() {
               {/* Image */}
               <div className="relative z-10 w-full aspect-[16/9] md:aspect-[4/3] bg-gray-800 shadow-xl">
                 <img 
-                  src="/moto/durandProduction/abt1.png" 
+                  src="/moto/durandProduction/abt1.webp" 
                   alt="Durand Production Building" 
                   className="w-full h-full object-cover"
                 />
@@ -88,7 +88,7 @@ export default function About() {
               {/* Image */}
               <div className="relative z-10 w-full aspect-[4/3] bg-gray-800 shadow-xl">
                 <img 
-                  src="/moto/durandProduction/abt2.png" 
+                  src="/moto/durandProduction/abt2.webp" 
                   alt="Areca Products Display" 
                   className="w-full h-full object-cover object-center"
                 />

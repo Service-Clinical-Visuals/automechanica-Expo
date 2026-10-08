@@ -3,9 +3,9 @@
 import React from "react";
 
 const productsData = [
-  { title: "Oil Filters", img: "/moto/hannfilter/p1.png" },
-  { title: "Fuel Filters", img: "/moto/hannfilter/p2.png" },
-  { title: "Air Filters", img: "/moto/hannfilter/p3.png" }
+  { title: "Oil Filters", img: "/moto/hannfilter/p1.webp" },
+  { title: "Fuel Filters", img: "/moto/hannfilter/p2.webp" },
+  { title: "Air Filters", img: "/moto/hannfilter/p3.webp" }
 ];
 
 const Products = () => {
@@ -36,7 +36,7 @@ const Products = () => {
                   alt={product.title}
                   className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                   onError={(e) => {
-                    e.currentTarget.src = "/moto/swd/abt.png";
+                    e.currentTarget.src = "/moto/hannfilter/abt.webp";
                   }}
                 />
               </div>

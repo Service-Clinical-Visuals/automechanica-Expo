@@ -5,11 +5,11 @@ import Image from "next/image";
 import Container from "./Container";
 
 const slides = [
-  { key: "1", src: "/moto/gand-oil/about/4.png" },
-  { key: "2", src: "/moto/gand-oil/about/5.png" },
-  { key: "3", src: "/moto/gand-oil/about/1.png" },
-  { key: "4", src: "/moto/gand-oil/about/2.png" },
-  { key: "5", src: "/moto/gand-oil/about/3.png" },
+  { key: "1", src: "/moto/gand-oil/about/4.webp" },
+  { key: "2", src: "/moto/gand-oil/about/5.webp" },
+  { key: "3", src: "/moto/gand-oil/about/1.webp" },
+  { key: "4", src: "/moto/gand-oil/about/2.webp" },
+  { key: "5", src: "/moto/gand-oil/about/3.webp" },
 ];
 
 // Visual config per distance from center (-2 … +2)
@@ -160,7 +160,7 @@ export default function About() {
                     style={{ width: 56, height: 56, margin: "auto", top: 0, bottom: 0, left: 0, right: 0, position: "absolute" }}
                   >
                     <Image
-                      src="/moto/gand-oil/arrow_grey.png"
+                      src="/moto/gand-oil/arrow_grey.webp"
                       alt="Explore"
                       width={65}
                       height={65}
@@ -168,7 +168,7 @@ export default function About() {
                       style={{ opacity: centerHovered ? 0 : 1, width: 56, height: 56 }}
                     />
                     <Image
-                      src="/moto/gand-oil/arrow_green.png"
+                      src="/moto/gand-oil/arrow_green.webp"
                       alt="Explore"
                       width={56}
                       height={56}

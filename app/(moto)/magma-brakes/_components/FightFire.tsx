@@ -10,7 +10,7 @@ export default function FightFire() {
     <section
       className="relative w-full py-16 md:py-25  bg-white"
       style={{
-        backgroundImage: "url('/moto/magma-brakes/Background.png')",
+        backgroundImage: "url('/moto/magma-brakes/Background.webp')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat"
@@ -42,7 +42,7 @@ export default function FightFire() {
         {/* Main Image */}
         <div className="w-full  mx-auto mb-12" data-aos="zoom-in" data-aos-delay="200">
           <img
-            src="/moto/magma-brakes/section2.png"
+            src="/moto/magma-brakes/section2.webp"
             alt="Magma Brakes Products Assortment"
             className="w-full h-auto object-contain"
           />

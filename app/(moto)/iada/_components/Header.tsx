@@ -57,7 +57,7 @@ export default function Header() {
           <Link href="/iadaAutomechanika" className="flex items-center">
             {/* Space for image */}
             <div className="w-48 h-16 flex items-center justify-start overflow-hidden">
-             <img src="/moto/iadaAutomechanika/logo.png" alt="Iada Automechanika" className="w-full h-full object-contain" />
+             <img src="/moto/iadaAutomechanika/logo.webp" alt="Iada Automechanika" className="w-full h-full object-contain" />
             </div>
           </Link>
 

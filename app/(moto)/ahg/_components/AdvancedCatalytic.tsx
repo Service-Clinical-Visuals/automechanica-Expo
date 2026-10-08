@@ -65,7 +65,7 @@ export default function AdvancedCatalytic() {
                   const parts = text.split(" – ");
                   return (
                     <li key={idx} className="flex items-start gap-4">
-                      <img src="/moto/ahg/whitechk.png" alt="Check" className="w-5 h-5 xl:w-6 xl:h-6 object-contain flex-shrink-0 mt-1" />
+                      <img src="/moto/ahg/whitechk.webp" alt="Check" className="w-5 h-5 xl:w-6 xl:h-6 object-contain flex-shrink-0 mt-1" />
                       <span className="header-link font-normal oswald-font text-[#ffffff] leading-[1.6]">
                         {parts.length > 1 ? (
                           <>

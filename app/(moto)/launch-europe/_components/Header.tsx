@@ -38,7 +38,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <Link href="#">
             <img
-              src="/moto/launch-europe/log.png"
+              src="/moto/launch-europe/log.webp"
               alt="Launch Europe"
               className="w-32 md:w-36 lg:w-40 h-auto object-contain"
             />

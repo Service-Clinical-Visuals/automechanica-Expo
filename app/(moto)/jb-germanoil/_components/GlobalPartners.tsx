@@ -9,7 +9,7 @@ export default function GlobalPartners() {
         {/* Left: Certifications Image */}
         <div className="order-2 xl:order-1 w-full xl:w-1/2 flex justify-center xl:justify-start" data-aos="fade-right">
           <img 
-            src="/moto/jb-germanoil/certificates.png" 
+            src="/moto/jb-germanoil/certificates.webp" 
             alt="Trusted Certifications" 
             className="w-full max-w-[750px] h-auto object-contain"
           />

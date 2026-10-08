@@ -14,7 +14,7 @@ const Footer = () => {
           
           {/* Column 1: Logo & Welcome (Span 4) */}
           <div className="lg:col-span-4 flex flex-col gap-6 min-[2500px]:gap-10">
-            <img src="/moto/jp-group/logo.png" alt="JP Group Logo" className="w-[60%] lg:w-[50%] min-[2500px]:w-[70%] object-contain" />
+            <img src="/moto/jp-group/logo.webp" alt="JP Group Logo" className="w-[60%] lg:w-[50%] min-[2500px]:w-[70%] object-contain" />
             <p className="footer-body text-gray-600 leading-relaxed min-[2500px]:text-2xl min-[3800px]:text-4xl lg:pr-8">
               JP Group A/S is a global supplier of automotive spare parts, specializing in components for European vehicles. With a strong focus on quality, availability, and wide product coverage, the company supports aftermarket distributors and workshops with reliable solutions.
             </p>

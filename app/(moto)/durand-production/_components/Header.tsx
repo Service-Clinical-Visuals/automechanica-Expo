@@ -37,7 +37,7 @@ export default function Header() {
           {/* Logo Area */}
           <div className="flex-shrink-0 flex items-center gap-3">
             <Link href="#">
-              <img src="/moto/durandProduction/icon.png" alt="Durand Production" className="h-10 lg:h-12 xl:h-14 w-auto object-contain" />
+              <img src="/moto/durandProduction/icon.webp" alt="Durand Production" className="h-10 lg:h-12 xl:h-14 w-auto object-contain" />
             </Link>
             <div className="flex flex-col justify-center text-[#000814] font-semibold leading-[1.1] font-paragraph text-[15px] md:text-[17px]">
               <span>The Expert Of</span>

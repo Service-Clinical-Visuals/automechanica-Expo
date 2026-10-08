@@ -18,7 +18,7 @@ export default function Button({ text, href = "#", className = "", variant = "pr
           {text}
         </span>
          <img 
-          src="/moto/kalebalata/btnarw.png" 
+          src="/moto/kalebalata/btnarw.webp" 
           alt="Arrow" 
           className="h-[46px] w-[46px] md:h-[50px] md:w-[50px] object-contain transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" 
         />
@@ -38,7 +38,7 @@ export default function Button({ text, href = "#", className = "", variant = "pr
       
       {/* Yellow Circle Arrow */}     
       <img 
-        src="/moto/kalebalata/btnarw.png" 
+        src="/moto/kalebalata/btnarw.webp" 
         alt="Arrow" 
         className="h-[46px] w-[46px] md:h-[50px] md:w-[50px] object-contain transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" 
       />

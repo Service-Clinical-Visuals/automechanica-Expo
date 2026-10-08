@@ -10,13 +10,13 @@ const Professional = () => {
       title: "OUR MISSION",
       heading: "Our Mission Is to Manufacture Premium Automotive Filters",
       desc: "To develop filter solutions that provide maximum efficiency in every field, from industry to automotive, through smart manufacturing and sustainable technologies.",
-      img: "/moto/mc-filter/s1.jpg",
+      img: "/moto/mc-filter/s1.webp",
     },
     {
       title: "OUR VISION",
       heading: "To be a Globally Trusted Leader in Advanced Automotive Filtration",
       desc: "Manufactured to meet stringent quality standards, MC AIR FILTER cabin filters deliver reliable performance, extended service life, and an ideal fit for a wide range of passenger and commercial vehicles.",
-      img: "/moto/mc-filter/s2.jpg",
+      img: "/moto/mc-filter/s2.webp",
     }
   ];
 

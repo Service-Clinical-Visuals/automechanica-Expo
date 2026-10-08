@@ -98,7 +98,7 @@ const Header = () => {
             {/* Logo Section */}
             <Link href="/" className="flex items-center shrink-0">
               <img
-                src="/moto/ampro/logo.png"
+                src="/moto/ampro/logo.webp"
                 alt="Ampro Logo"
                 className="h-10 sm:h-12 md:h-[15%] min-[3800px]:h-[35%] w-auto object-contain"
               />

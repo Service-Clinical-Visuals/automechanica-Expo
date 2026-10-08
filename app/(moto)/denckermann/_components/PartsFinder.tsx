@@ -13,7 +13,7 @@ export default function PartsFinder() {
         {/* Title with Icon */}
         <div className="flex items-center gap-3 mb-6">
          
-          <img src="/moto/denckermann/car.png" alt="Parts Finder Icon" className="object-cover" />
+          <img src="/moto/denckermann/car.webp" alt="Parts Finder Icon" className="object-cover" />
           <h2 className="section-title text-[var(--color-secondary)] font-medium oswald">
             Parts Finder
           </h2>

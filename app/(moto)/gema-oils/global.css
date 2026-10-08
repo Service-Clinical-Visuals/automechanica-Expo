@@ -301,10 +301,3 @@ body {
   }
 }
 
-.bg {
-  background-image: url("/moto/sigam/bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  opacity: 90%;
-}

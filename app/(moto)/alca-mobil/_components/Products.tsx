@@ -9,29 +9,29 @@ import Link from "next/link";
 const productCategories = [
   {
     title: "Windshield Wiper",
-    image: "/moto/alca-mobil/gallery1.png",
-    icon: "/moto/alca-mobil/icon1.png",
+    image: "/moto/alca-mobil/gallery1.webp",
+    icon: "/moto/alca-mobil/icon1.webp",
     description: "High performance for clear visibility in all weather conditions and environments.",
     link: "#products"
   },
   {
     title: "Car Accessories",
-    image: "/moto/alca-mobil/gallery2.png",
-    icon: "/moto/alca-mobil/icon2.png",
+    image: "/moto/alca-mobil/gallery2.webp",
+    icon: "/moto/alca-mobil/icon2.webp",
     description: "Smart solutions for more comfort and driving convenience in every journey.",
     link: "#products"
   },
   {
     title: "Tools",
-    image: "/moto/alca-mobil/gallery3.png",
-    icon: "/moto/alca-mobil/icon3.png",
+    image: "/moto/alca-mobil/gallery3.webp",
+    icon: "/moto/alca-mobil/icon3.webp",
     description: "Tools for professionals' everyday use in all working environments.",
     link: "#products"
   },
   {
     title: "Storage Solutions",
-    image: "/moto/alca-mobil/gallery4.png",
-    icon: "/moto/alca-mobil/icon4.png",
+    image: "/moto/alca-mobil/gallery4.webp",
+    icon: "/moto/alca-mobil/icon4.webp",
     description: "Practical storage designed for more space and better organization on every journey.",
     link: "#products"
   }

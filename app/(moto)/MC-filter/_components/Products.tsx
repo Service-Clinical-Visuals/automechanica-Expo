@@ -15,19 +15,19 @@ const Products = () => {
       id: "01",
       title: "NOx sensors",
       desc: "Measures NOx emissions for better engine performance and compliance.",
-      img: "/moto/ampro/product1.png",
+      img: "/moto/ampro/product1.webp",
     },
     {
       id: "02",
       title: "Urea pumps",
       desc: "Delivers AdBlue® accurately for efficient emission control.",
-      img: "/moto/ampro/product2.png",
+      img: "/moto/ampro/product2.webp",
     },
     {
       id: "03",
       title: "Urea dosing modules",
       desc: "Injects the precise amount of urea solution into the vehicle's exhaust aftertreatment system.",
-      img: "/moto/ampro/product3.png",
+      img: "/moto/ampro/product3.webp",
     },
   ];
 

@@ -71,7 +71,7 @@ const Header = () => {
           {/* Logo Section */}
           <Link href="/" className="flex items-center shrink-0">
             <img
-              src="/moto/koch/logo.png"
+              src="/moto/koch/logo.webp"
               alt="Koch Logo"
               className="h-12 sm:h-16 md:h-[75px] w-auto object-contain"
             />

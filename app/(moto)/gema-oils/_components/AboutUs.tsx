@@ -12,7 +12,7 @@ export default function AboutUs() {
           {/* Left Image */}
           <div className="w-full h-[300px] sm:h-[400px] xl:h-[500px] flex overflow-hidden rounded shadow-sm" data-aos="fade-right">
             <img
-              src="/moto/gema-oils/About.png"
+              src="/moto/gema-oils/about.webp"
               alt="GEMAOIL Facility"
               className="w-full h-full object-cover"
             />

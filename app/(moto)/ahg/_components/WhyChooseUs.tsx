@@ -50,7 +50,7 @@ export default function WhyChooseUs() {
           {/* Center Image */}
           <div className="xl:col-span-6 h-[300px] xl:h-auto rounded-tl-4xl rounded-br-4xl overflow-hidden drop-shadow-lg" data-aos="zoom-in">
             <img 
-              src="/moto/ahg/whychoose.png" 
+              src="/moto/ahg/whychoose.webp" 
               alt="AHG Facility" 
               className="w-full h-full object-cover"
             />

@@ -10,22 +10,22 @@ export default function NewsUpdates() {
     {
       title: "PRO 50% VCS-2: Antifreeze specifically designed for Volvo",
       date: "12 MAY 2025",
-      image: "/moto/proquisur-sl/news-1.png"
+      image: "/moto/proquisur-sl/news-1.webp"
     },
     {
       title: "In Winter, every detail counts...",
       date: "11 July 2025",
-      image: "/moto/proquisur-sl/news-2.png"
+      image: "/moto/proquisur-sl/news-2.webp"
     },
     {
       title: "MAX BLUE DIRECT CAR: Effective maintenance for Adblue....",
       date: "12 August 2024",
-      image: "/moto/proquisur-sl/news-3.png"
+      image: "/moto/proquisur-sl/news-3.webp"
     },
     {
       title: "Marine Engine solutions | Protection & nautical performance",
       date: "20 September 2024",
-      image: "/moto/proquisur-sl/news-4.png"
+      image: "/moto/proquisur-sl/news-4.webp"
     }
   ];
 

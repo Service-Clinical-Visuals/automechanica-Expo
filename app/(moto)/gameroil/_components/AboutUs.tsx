@@ -45,7 +45,7 @@ const AboutUs = () => {
           {/* Image */}
           <div className="w-full" data-aos="fade-left">
             <img
-              src="/moto/gameroil/section2.png"
+              src="/moto/gameroil/section2.webp"
               alt="Gameroil Manufacturing"
               className="w-full aspect-[820/395] rounded-2xl object-cover shadow-lg"
             />
@@ -57,7 +57,7 @@ const AboutUs = () => {
             {/* Feature 1 */}
             <div className="flex flex-col items-center text-center gap-3 flex-1">
               <div className="w-16 h-16 min-[2500px]:w-24 min-[2500px]:h-24 min-[3800px]:w-32 min-[3800px]:h-32 flex items-center justify-center shrink-0">
-                <img src="/moto/gameroil/v1.png" alt="Icon" className="w-17 h-17 min-[2500px]:w-20 min-[2500px]:h-20 min-[3800px]:w-28 min-[3800px]:h-28 object-contain" />
+                <img src="/moto/gameroil/v1.webp" alt="Icon" className="w-17 h-17 min-[2500px]:w-20 min-[2500px]:h-20 min-[3800px]:w-28 min-[3800px]:h-28 object-contain" />
               </div>
               <Typography variant="h3" className="font-bold !text-[#4B5563]">
                 25+ Years Expertise
@@ -67,7 +67,7 @@ const AboutUs = () => {
             {/* Feature 2 */}
             <div className="flex flex-col items-center text-center gap-3 flex-1  py-6 sm:py-0 w-full sm:w-auto">
               <div className="w-16 h-16 min-[2500px]:w-24 min-[2500px]:h-24 min-[3800px]:w-32 min-[3800px]:h-32 flex items-center justify-center shrink-0">
-                <img src="/moto/gameroil/v2.png" alt="Icon" className="w-17 h-17 min-[2500px]:w-20 min-[2500px]:h-20 min-[3800px]:w-28 min-[3800px]:h-28 object-contain" />
+                <img src="/moto/gameroil/v2.webp" alt="Icon" className="w-17 h-17 min-[2500px]:w-20 min-[2500px]:h-20 min-[3800px]:w-28 min-[3800px]:h-28 object-contain" />
               </div>
               <Typography variant="h3" className="font-bold !text-[#4B5563]">
                 Global Brands
@@ -77,7 +77,7 @@ const AboutUs = () => {
             {/* Feature 3 */}
             <div className="flex flex-col items-center text-center gap-3 flex-1">
               <div className="w-16 h-16 min-[2500px]:w-24 min-[2500px]:h-24 min-[3800px]:w-32 min-[3800px]:h-32 flex items-center justify-center shrink-0">
-                <img src="/moto/gameroil/v3.png" alt="Icon" className="w-17 h-17 min-[2500px]:w-20 min-[2500px]:h-20 min-[3800px]:w-28 min-[3800px]:h-28 object-contain" />
+                <img src="/moto/gameroil/v3.webp" alt="Icon" className="w-17 h-17 min-[2500px]:w-20 min-[2500px]:h-20 min-[3800px]:w-28 min-[3800px]:h-28 object-contain" />
               </div>
               <Typography variant="h3" className="font-bold !text-[#4B5563]">
                 Technical Support

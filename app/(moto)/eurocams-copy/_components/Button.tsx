@@ -47,11 +47,11 @@ const Button = ({
           <div
             className="w-4 h-4 md:w-5 md:h-5 bg-current"
             style={{
-              WebkitMaskImage: 'url(/moto/exol/arrow1.png)',
+              WebkitMaskImage: 'url(/moto/exol/arrow1.webp)',
               WebkitMaskSize: 'contain',
               WebkitMaskRepeat: 'no-repeat',
               WebkitMaskPosition: 'center',
-              maskImage: 'url(/moto/exol/arrow1.png)',
+              maskImage: 'url(/moto/exol/arrow1.webp)',
               maskSize: 'contain',
               maskRepeat: 'no-repeat',
               maskPosition: 'center',

@@ -18,7 +18,7 @@ const Manufacture = () => {
           {/* Left Image Side */}
           <div className="w-full flex xl:col-span-6 justify-center" data-aos="fade-right">
             <img
-              src="/moto/hannfilter/m.png"
+              src="/moto/hannfilter/m.webp"
               alt="Global Manufacturing Excellence"
               className="w-full h-auto object-cover rounded-xl"
             />

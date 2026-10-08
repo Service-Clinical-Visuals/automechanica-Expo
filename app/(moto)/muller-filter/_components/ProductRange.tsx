@@ -5,29 +5,29 @@ export default function ProductRange() {
   const products = [
     {
       title: "Fuel Filters",
-      icon: "/moto/muller-filter/abt1.png",
-      image: "/moto/muller-filter/pro1.png",
+      icon: "/moto/muller-filter/abt1.webp",
+      image: "/moto/muller-filter/pro1.webp",
       desc: "The fuel pump aspirates the fuel from the tank and via a fuel filter pumps it to the carburettor/ injection system.",
       bgColor: "bg-[#E2001A]" // Red
     },
     {
       title: "Oil Filters",
-      icon: "/moto/muller-filter/abt2.png",
-      image: "/moto/muller-filter/pro2.png",
+      icon: "/moto/muller-filter/abt2.webp",
+      image: "/moto/muller-filter/pro2.webp",
       desc: "Oil filters are manufactured with cellulose filtering media. Faithfully following the vehicle manufacturer specifications.",
       bgColor: "bg-[#F8B334]" // Orange
     },
     {
       title: "Air Filters",
-      icon: "/moto/muller-filter/abt3.png",
-      image: "/moto/muller-filter/pro3.png",
+      icon: "/moto/muller-filter/abt3.webp",
+      image: "/moto/muller-filter/pro3.webp",
       desc: "Designed to deliver clean airflow and reliable engine protection, Muller Air Filters are available in panel, circular, and cylinder.",
       bgColor: "bg-[#39A9DC]" // Blue
     },
     {
       title: "Cabin Filters",
-      icon: "/moto/muller-filter/abt4.png",
-      image: "/moto/muller-filter/pro4.png",
+      icon: "/moto/muller-filter/abt4.webp",
+      image: "/moto/muller-filter/pro4.webp",
       desc: "Cabin filter elements are manufactured with synthetic filtering media called NONWOVEN (not cellulose).",
       bgColor: "bg-[#41A624]" // Green
     }

@@ -65,7 +65,7 @@ export default function CertifiedQuality() {
           {/* Left Side: Image */}
           <div className="w-full relative aspect-[4/3] md:aspect-[16/10] lg:aspect-[4/3] xl:aspect-[16/11] rounded-[1.5rem] md:rounded-[2rem] overflow-hidden shadow-lg" data-aos="fade-right">
              <img 
-               src="/moto/kalebalata/c1.png" 
+               src="/moto/kalebalata/c1.webp" 
                alt="Certified Quality Vehicle" 
                className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-700"
              />
@@ -79,17 +79,17 @@ export default function CertifiedQuality() {
               
               {/* Badge 1 */}
               <div className="bg-[#181818] border border-white/5 rounded-3xl p-8 flex items-center justify-center aspect-square shadow-sm hover:bg-[#1f1f1f] transition-colors">
-                <img src="/moto/kalebalata/c2.png" alt="Badge 1" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                <img src="/moto/kalebalata/c2.webp" alt="Badge 1" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
               </div>
 
               {/* Badge 2 */}
               <div className="bg-[#181818] border border-white/5 rounded-3xl p-8 flex items-center justify-center aspect-square shadow-sm hover:bg-[#1f1f1f] transition-colors">
-                <img src="/moto/kalebalata/c3.png" alt="Badge 2" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                <img src="/moto/kalebalata/c3.webp" alt="Badge 2" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
               </div>
 
               {/* Badge 3 */}
              <div className="bg-[#181818] border border-white/5 rounded-3xl p-8 flex items-center justify-center aspect-square shadow-sm hover:bg-[#1f1f1f] transition-colors">
-                <img src="/moto/kalebalata/c4.png" alt="Badge 3" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+                <img src="/moto/kalebalata/c4.webp" alt="Badge 3" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
               </div>
 
             </div>

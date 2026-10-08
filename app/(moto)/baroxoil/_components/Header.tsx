@@ -54,7 +54,7 @@ useEffect(() => {
         {/* Logo */}
         <Link href="#" className="flex-shrink-0 z-50 flex justify-center flex-1">
           <img 
-            src="/moto/baroxoil/logo.png" 
+            src="/moto/baroxoil/logo.webp" 
             alt="Barox Oil Logo" 
             className="h-10 md:h-12 w-auto object-contain" 
             

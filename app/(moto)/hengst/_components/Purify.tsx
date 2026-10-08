@@ -3,19 +3,19 @@ import Container from "./Container";
 
 const items = [
   {
-    icon: "/moto/hengst/purify/leaf.png",
+    icon: "/moto/hengst/purify/leaf.webp",
     title: "Sustainable",
     description:
       "We make the planet cleaner with our products. We also make the journey there as clean as possible.",
   },
   {
-    icon: "/moto/hengst/purify/bulb.png",
+    icon: "/moto/hengst/purify/bulb.webp",
     title: "Innovative",
     description:
       "We develop the filtration solutions of the future. For our customers and for society.",
   },
   {
-    icon: "/moto/hengst/purify/chart.png",
+    icon: "/moto/hengst/purify/chart.webp",
     title: "Efficient",
     description:
       "Our focus is on energy efficiency. This helps the environment and saves costs.",
@@ -26,7 +26,7 @@ export default function Purify() {
   return (
     <section className="relative py-16 md:py-24 overflow-hidden">
       <img
-        src="/moto/hengst/purify/bg.png"
+        src="/moto/hengst/purify/bg.webp"
         alt=""
         aria-hidden="true"
         className="absolute inset-0 w-full h-full object-cover pointer-events-none select-none"

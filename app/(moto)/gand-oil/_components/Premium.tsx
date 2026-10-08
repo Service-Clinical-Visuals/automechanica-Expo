@@ -14,7 +14,7 @@ const bullets = [
 function CheckIcon() {
   return (
     <Image
-      src="/moto/gand-oil/check.png"
+      src="/moto/gand-oil/check.webp"
       alt="check"
       width={28}
       height={28}
@@ -54,7 +54,7 @@ export default function Premium() {
             onMouseLeave={() => setArrowHovered(false)}
           >
             <Image
-              src="/moto/gand-oil/arrow_grey.png"
+              src="/moto/gand-oil/arrow_grey.webp"
               alt="Explore"
               width={112}
               height={112}
@@ -62,7 +62,7 @@ export default function Premium() {
               style={{ opacity: arrowHovered ? 0 : 1 }}
             />
             <Image
-              src="/moto/gand-oil/arrow_green.png"
+              src="/moto/gand-oil/arrow_green.webp"
               alt="Explore"
               width={112}
               height={112}

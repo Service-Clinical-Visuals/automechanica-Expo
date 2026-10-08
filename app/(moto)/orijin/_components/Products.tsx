@@ -8,42 +8,42 @@ export default function Products() {
 
   const products = [
     {
-      image: "/moto/orijin/p1.png",
+      image: "/moto/orijin/p1.webp",
       title: "Wishbone",
       desc: "Ensures vehicle stability, safety, and suspension performance."
     },
     {
-      image: "/moto/orijin/p2.png",
+      image: "/moto/orijin/p2.webp",
       title: "Ball Joint",
       desc: "Provides smooth steering movement and wheel stability."
     },
     {
-      image: "/moto/orijin/p3.jpg",
+      image: "/moto/orijin/p3.webp",
       title: "Tie Rod End",
       desc: "Ensures accurate steering control and wheel movement."
     },
     {
-      image: "/moto/orijin/p4.png",
+      image: "/moto/orijin/p4.webp",
       title: "Axial Joint",
       desc: "Ensures smooth steering connection and control."
     },
     {
-      image: "/moto/orijin/p5.png",
+      image: "/moto/orijin/p5.webp",
       title: "Stabilizer Link",
       desc: "High-quality stabilizer links for smooth suspension performance."
     },
     {
-      image: "/moto/orijin/p6.png",
+      image: "/moto/orijin/p6.webp",
       title: "Bushing",
       desc: "Reliable bushings for smooth and stable suspension performance."
     },
     {
-      image: "/moto/orijin/p7.png",
+      image: "/moto/orijin/p7.webp",
       title: "Clutch Fork",
       desc: "Clutch forks transfer pedal movement to control clutch engagement."
     },
     {
-      image: "/moto/orijin/p8.png",
+      image: "/moto/orijin/p8.webp",
       title: "Track Control Arm",
       desc: "Track control arms for enhanced vehicle stability and control."
     }

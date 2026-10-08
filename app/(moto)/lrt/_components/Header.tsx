@@ -21,7 +21,7 @@ export default function Header() {
         <div className="flex items-center h-[75px] px-4 sm:px-8 md:px-14 lg:px-[60px]">
           {/* Logo */}
           <div className="flex-1 flex items-center">
-            <img src="/moto/lrt/logo.png" alt="LRT Automotive" className="h-12 w-auto" />
+            <img src="/moto/lrt/logo.webp" alt="LRT Automotive" className="h-12 w-auto" />
           </div>
 
           {/* Desktop Nav — centered */}
@@ -45,7 +45,7 @@ export default function Header() {
           <div className="hidden lg:flex flex-1 justify-end">
             <button className="flex navlink text-[18px]! font-bold! text-black! items-center gap-2 bg-white rounded-full pl-5 pr-1.5 py-1.5 hover:opacity-90 transition-opacity">
               <span>Contact Us</span>
-              <img src="/moto/lrt/arrowup.png" alt="" className="h-6.5 w-6.5" />
+              <img src="/moto/lrt/arrowup.webp" alt="" className="h-6.5 w-6.5" />
             </button>
           </div>
 
@@ -93,7 +93,7 @@ export default function Header() {
             <div className="mt-4 flex justify-center">
               <button className="flex navlink text-[18px]! font-bold! text-black! items-center gap-2 bg-white rounded-full pl-5 pr-1.5 py-1.5">
                 <span>Contact Us</span>
-                <img src="/moto/lrt/arrowup.png" alt="" className="h-6.5 w-6.5" />
+                <img src="/moto/lrt/arrowup.webp" alt="" className="h-6.5 w-6.5" />
               </button>
             </div>
           </nav>

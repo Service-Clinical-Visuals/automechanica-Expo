@@ -24,7 +24,7 @@ export default function Banner() {
           <p className="btn-text text-white mb-5 font-normal drop-shadow-md">
             Enhancing engine performance with advanced, trusted solutions.
           </p>
-          <Button variant="secondary" icon="/moto/liqui-moly/drop.png">
+          <Button variant="secondary" icon="/moto/liqui-moly/drop.webp">
             Oil guide
           </Button>
         </div>

@@ -32,7 +32,7 @@ const AboutUs = () => {
         {/* Image Side */}
         <div className="xl:col-span-7 w-full order-2 flex justify-center items-center" data-aos="fade-left" data-aos-delay="100">
           <img
-            src="/moto/hannfilter/abt.png"
+            src="/moto/hannfilter/abt.webp"
             alt="Swd Rheinol Branded Lubricants Production"
             className="w-full h-auto object-cover rounded-2xl md:rounded-[28px] shadow-lg"
           />

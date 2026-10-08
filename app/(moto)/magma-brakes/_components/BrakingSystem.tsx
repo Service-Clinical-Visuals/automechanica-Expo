@@ -39,14 +39,14 @@ export default function BrakingSystem() {
         <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 mb-16">
           <div className="w-full aspect-[4/3] md:aspect-auto overflow-hidden bg-black shadow-lg" data-aos="fade-up">
             <img
-              src="/moto/magma-brakes/section4.png"
+              src="/moto/magma-brakes/section4.webp"
               alt="Magma Brake Components on Fire Background"
               className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
             />
           </div>
           <div className="w-full aspect-[4/3] md:aspect-auto overflow-hidden bg-black shadow-lg" data-aos="fade-up" data-aos-delay="100">
             <img
-              src="/moto/magma-brakes/section5.png"
+              src="/moto/magma-brakes/section5.webp"
               alt="Magma Brake Components on Fire Background 2"
               className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
             />

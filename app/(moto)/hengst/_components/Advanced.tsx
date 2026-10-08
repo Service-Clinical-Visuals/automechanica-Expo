@@ -15,13 +15,13 @@ export default function Advanced() {
     <section className="relative bg-white py-16 md:py-24 overflow-hidden">
       <Container>
         <img
-            src="/moto/hengst/about/gear1.png"
+            src="/moto/hengst/about/gear1.webp"
             alt=""
             aria-hidden="true"
             className="hidden md:block absolute -top-6 left-1 w-64 lg:w-80 pointer-events-none select-none rotate-x-180"
         />
         <img
-            src="/moto/hengst/04.png"
+            src="/moto/hengst/04.webp"
             alt=""
             aria-hidden="true"
             className="hidden md:block absolute top-24 right-1 w-30 pointer-events-none select-none"
@@ -54,7 +54,7 @@ export default function Advanced() {
                   data-aos="fade-up"
                   data-aos-delay={i * 100}
                 >
-                  <img src="/moto/hengst/engine.png" alt="" className="w-8 h-auto shrink-0" />
+                  <img src="/moto/hengst/engine.webp" alt="" className="w-8 h-auto shrink-0" />
                   <span>{feature}</span>
                 </li>
               ))}

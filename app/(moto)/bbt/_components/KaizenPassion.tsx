@@ -5,9 +5,9 @@ import { ArrowUpRight } from 'lucide-react';
 
 export default function KaizenPassion() {
   const images = [
-    "/moto/bbt/passion1.png",
-    "/moto/bbt/passion2.png",
-    "/moto/bbt/passion3.png"
+    "/moto/bbt/passion1.webp",
+    "/moto/bbt/passion2.webp",
+    "/moto/bbt/passion3.webp"
   ];
 
   return (

@@ -50,7 +50,7 @@ export default function AboutUs() {
           <div className="w-full 2xl:col-span-7 order-2 2xl:order-1" data-aos="fade-right" data-aos-duration="1000">
             <div className="w-full relative rounded-2xl overflow-hidden shadow-inner  2xl:aspect-video flex items-center justify-center">
               <img
-                src="/moto/brain-srl/section2.png"
+                src="/moto/brain-srl/section2.webp"
                 alt="Brain Metal Catalytic Converters"
                 className="relative z-10 w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />

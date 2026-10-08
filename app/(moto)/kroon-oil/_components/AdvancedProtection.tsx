@@ -48,7 +48,7 @@ export default function AdvancedProtection() {
               {features.map((feature, idx) => (
                 <li key={idx} className="flex items-start gap-3">
                   <div className="mt-1 flex-shrink-0 w-5 h-5 rounded-full  flex items-center justify-center">
-                    <img src="/moto/kroon-oil/chek.png" alt="Check" className="w-5 h-5 object-contain" />
+                    <img src="/moto/kroon-oil/chek.webp" alt="Check" className="w-5 h-5 object-contain" />
                   </div>
                   <p className="header-link text-[#ffffff] oswald-font leading-relaxed">
                     <span className="text-white font-medium">{feature.title}</span> – {feature.description}
@@ -70,7 +70,7 @@ export default function AdvancedProtection() {
             {/* Arrow Button Overlay */}
             <div className="absolute bottom-6 right-6 z-10">
                <img 
-                src="/moto/kroon-oil/btnarrow.png" 
+                src="/moto/kroon-oil/btnarrow.webp" 
                 alt="Arrow" 
                 className="w-10 md:w-12  object-contain transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" 
               />

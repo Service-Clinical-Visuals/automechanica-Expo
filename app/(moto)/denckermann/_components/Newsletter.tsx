@@ -8,7 +8,7 @@ export default function Newsletter() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0 ">
     
-        <img src="/moto/denckermann/staybg.png" alt="Newsletter Background" className="object-cover w-full h-full " />
+        <img src="/moto/denckermann/staybg.webp" alt="Newsletter Background" className="object-cover w-full h-full " />
      
       </div>
 

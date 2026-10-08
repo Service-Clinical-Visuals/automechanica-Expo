@@ -57,7 +57,7 @@ export default function WhyChooseUs() {
 
           {/* Right Image */}
           <div data-aos="fade-left" className="relative h-full w-full min-h-[400px] xl:min-h-[500px] rounded-3xl overflow-hidden ">
-          <img src="/moto/denckermann/whychoose.png" alt="Warehouse worker" className="object-cover" />
+          <img src="/moto/denckermann/whychoose.webp" alt="Warehouse worker" className="object-cover" />
           </div>
 
         </div>

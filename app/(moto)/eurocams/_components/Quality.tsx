@@ -33,7 +33,7 @@ export default function Quality() {
           {/* Left: Image (Order 2 on mobile, 1 on desktop) */}
           <div className="w-full xl:w-7/12 order-2 xl:order-1" data-aos="fade-right">
             <div className="w-full h-full min-h-[300px] rounded-2xl overflow-hidden bg-gray-100 relative shadow-lg">
-              <img src="/moto/eurocams/quality.png" alt="Quality Testing Equipment" className="absolute inset-0 w-full h-full object-cover" />
+              <img src="/moto/eurocams/quality.webp" alt="Quality Testing Equipment" className="absolute inset-0 w-full h-full object-cover" />
             </div>
           </div>
 

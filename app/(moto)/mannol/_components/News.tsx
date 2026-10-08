@@ -6,21 +6,21 @@ export default function News() {
   const newsItems = [
     {
       id: 1,
-      image: "/moto/mannol/nw1.png",
+      image: "/moto/mannol/nw1.webp",
       title: "The future of the aftermarket starts here",
       excerpt: "From 8 to 12 September 2026, Automechanika Frankfurt will bring the international automotive industry together in one place. Discover innovations, trends and.........",
       link: "#"
     },
     {
       id: 2,
-      image: "/moto/mannol/nw2.png",
+      image: "/moto/mannol/nw2.webp",
       title: "GT Open 2026: MANNOL Heads to the Hungaroring",
       excerpt: "MANNOL is proud to be part of the GT Open at the iconic Hungaroring, Hungary, taking place from 03-05 July. The event brings together top racing teams and drivers for an.........",
       link: "#"
     },
     {
       id: 3,
-      image: "/moto/mannol/nw3.png",
+      image: "/moto/mannol/nw3.webp",
       title: "GT Open 2026: MANNOL Races at Paul Ricard",
       excerpt: "MANNOL continues its motorsport journey at the GT Open as the championship heads to Circuit Paul Ricard, France, from 17-19 July. Renowned for its high.........",
       link: "#"

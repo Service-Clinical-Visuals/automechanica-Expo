@@ -26,7 +26,7 @@ const ExploreProducts = () => {
         {/* Mobile: Order 2, Desktop: Order 1 */}
         <div className="order-2 xl:order-1 w-full xl:w-1/2 flex justify-center" data-aos="fade-right">
           <img
-            src="/moto/motive-components/section3.png"
+            src="/moto/motive-components/section3.webp"
             alt="Motive Components Product Range"
             className="w-full max-w-2xl h-auto object-contain"
           />

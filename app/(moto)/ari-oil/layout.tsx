@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   title: "ARI OIL",
   description: "Advanced Protection For Every Engine",
   icons: {
-    icon: "/tcp-logo.png",
+    icon: "/tcp-logo.webp",
   },
 };
 

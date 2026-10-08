@@ -5,8 +5,8 @@ import Link from "next/link";
 
 const brands = ["Aksoil", "Matador", "Brentol"];
 const products = [
-  { img: "/moto/alkim-petrokimya/yellow.png", name: "Gold Series 0W/20" },
-  { img: "/moto/alkim-petrokimya/blue.png", name: "Hybrid Gold Series 0W/16" },
+  { img: "/moto/alkim-petrokimya/yellow.webp", name: "Gold Series 0W/20" },
+  { img: "/moto/alkim-petrokimya/blue.webp", name: "Hybrid Gold Series 0W/16" },
 ];
 
 export default function Products() {
@@ -18,7 +18,7 @@ export default function Products() {
       <div
         className="absolute inset-0 z-0 opacity-40 mix-blend-screen"
         style={{
-          backgroundImage: "url('/moto/alkim-petrokimya/brands-bg.png')",
+          backgroundImage: "url('/moto/alkim-petrokimya/brands-bg.webp')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

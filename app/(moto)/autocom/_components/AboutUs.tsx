@@ -23,14 +23,14 @@ export default function AboutUs() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 xl:gap-8 w-full">
           <div className="w-full aspect-[21/12] rounded-tl-[5rem] rounded-none overflow-hidden shadow-xl border border-white/20" data-aos="fade-up" data-aos-delay="100">
             <img
-              src="/moto/autocam/section21.jpg"
+              src="/moto/autocam/section21.webp"
               alt="Autocom Workshop Diagnostics"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
             />
           </div>
           <div className="w-full aspect-[21/12] rounded-tr-[5rem] rounded-none  overflow-hidden shadow-xl border border-white/20" data-aos="fade-up" data-aos-delay="200">
             <img
-              src="/moto/autocam/section22.jpg"
+              src="/moto/autocam/section22.webp"
               alt="Autocom Exhaust and Components"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
             />

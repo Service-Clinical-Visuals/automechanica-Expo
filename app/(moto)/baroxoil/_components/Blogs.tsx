@@ -7,21 +7,21 @@ const smallBlogs = [
     id: 1,
     title: "The Importance of High-Quality Motor Oil",
     excerpt: "The oil in your car is one of the most important fluids that keep your vehicle running smoothly. It lubricates the engine and other moving...",
-    image: "/moto/baroxoil/b2.png",
+    image: "/moto/baroxoil/b2.webp",
     link: "#",
   },
   {
     id: 2,
     title: "How Oil Protects Your Engine?",
     excerpt: "Engine oil is typically made up of different types of oils that are blended together to provide specific benefits for different parts of the engine...",
-    image: "/moto/baroxoil/b3.png",
+    image: "/moto/baroxoil/b3.webp",
     link: "#",
   },
   {
     id: 3,
     title: "Difference between American Petroleum standards",
     excerpt: "Engine oil is typically made up of different types of oils that are blended together to provide specific benefits for different parts of the engine...",
-    image: "/moto/baroxoil/b4.png",
+    image: "/moto/baroxoil/b4.webp",
     link: "#",
   },
 ];
@@ -43,7 +43,7 @@ export default function Blogs() {
               <div className="absolute -left-4 -bottom-4 w-[95%] h-[95%] bg-[#0F2469] rounded-2xl sm:rounded-3xl z-0"></div>
               {/* Main Image */}
               <img 
-                src="/moto/baroxoil/b1.png" 
+                src="/moto/baroxoil/b1.webp" 
                 alt="Understanding Lubricant Oil" 
                 className="absolute inset-0 w-full h-full object-cover rounded-2xl sm:rounded-3xl z-10 shadow-sm"
               />

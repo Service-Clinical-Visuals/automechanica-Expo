@@ -5,12 +5,12 @@ import Button from "./Button";
 
 export default function WhoWeAre() {
   const certs = [
-    { src: "/moto/petrovoll/Frame 1.png", alt: "ISO 9001:2015" },
-    { src: "/moto/petrovoll/Frame 2.png", alt: "ISO 14001:2015" },
-    { src: "/moto/petrovoll/Frame 3.png", alt: "OHSAS 18001:2007" },
-    { src: "/moto/petrovoll/Frame 4.png", alt: "API" },
-    { src: "/moto/petrovoll/Frame 5.png", alt: "Chemical Compliance" },
-    { src: "/moto/petrovoll/Frame 6.png", alt: "JASO MA2" },
+    { src: "/moto/petrovoll/Frame 1.webp", alt: "ISO 9001:2015" },
+    { src: "/moto/petrovoll/Frame 2.webp", alt: "ISO 14001:2015" },
+    { src: "/moto/petrovoll/Frame 3.webp", alt: "OHSAS 18001:2007" },
+    { src: "/moto/petrovoll/Frame 4.webp", alt: "API" },
+    { src: "/moto/petrovoll/Frame 5.webp", alt: "Chemical Compliance" },
+    { src: "/moto/petrovoll/Frame 6.webp", alt: "JASO MA2" },
   ];
 
   return (
@@ -75,7 +75,7 @@ export default function WhoWeAre() {
           <div className="w-full xl:col-span-5 flex justify-center" data-aos="fade-left">
             <div className="relative w-full h-[320px] sm:h-[450px] md:h-[500px] lg:h-[550px] xl:h-[85vh] xl:max-h-[800px] overflow-hidden [clip-path:polygon(0_0,_100%_0,_100%_calc(100%-40px),_calc(100%-40px)_100%,_0_100%)] sm:[clip-path:polygon(0_0,_100%_0,_100%_calc(100%-60px),_calc(100%-60px)_100%,_0_100%)] md:[clip-path:polygon(0_0,_100%_0,_100%_calc(100%-80px),_calc(100%-80px)_100%,_0_100%)] xl:[clip-path:polygon(0_0,_100%_0,_100%_calc(100%-100px),_calc(100%-100px)_100%,_0_100%)] shadow-xl bg-gray-50">
               <img
-                src="/moto/petrovoll/who_img.png"
+                src="/moto/petrovoll/who_img.webp"
                 alt="Petrovöll Storage Tanks"
                 className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
               />

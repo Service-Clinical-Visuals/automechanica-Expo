@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-1 xl:col-span-2 flex flex-col items-start" data-aos="fade-up" data-aos-delay="0">
             <Link href="/" className="mb-6 inline-block">
               <img 
-                src="/moto/jb-germanoil/logo.png" 
+                src="/moto/jb-germanoil/logo.webp" 
                 alt="JB Germanoil Logo" 
                 className="h-14 md:h-20 w-auto object-contain mix-blend-multiply"
               />
@@ -58,17 +58,17 @@ export default function Footer() {
             <h4 className="aldrich-font card-title1 text-[#2a2a2a] mb-6">Contact Us</h4>
             <ul className="flex flex-col gap-4">
               <li className="flex items-start gap-3">
-               <img src="/moto/jb-germanoil/phone.png" alt="Location" className="w-4 h-4" />
+               <img src="/moto/jb-germanoil/phone.webp" alt="Location" className="w-4 h-4" />
                 <span className="akshar-font section-text text-[#4a4a4a]">+49 (0) 38852 - 90620</span>
               </li>
               <li className="flex items-start gap-3">
-                <img src="/moto/jb-germanoil/mail.png" alt="Location" className="w-4 h-4" />
+                <img src="/moto/jb-germanoil/mail.webp" alt="Location" className="w-4 h-4" />
                 <Link href="mailto:info@jb-germanoil.de" className="akshar-font section-text text-[#4a4a4a] hover:text-[var(--primary)] transition-colors">
                   info@jb-germanoil.de
                 </Link>
               </li>
               <li className="flex items-start gap-3">
-                <img src="/moto/jb-germanoil/location.png" alt="Location" className="w-4 h-4" />
+                <img src="/moto/jb-germanoil/location.webp" alt="Location" className="w-4 h-4" />
                 <span className="akshar-font section-text text-[#4a4a4a] leading-relaxed">
                   JB GERMAN OIL GmbH<br/>Wölzower Weg 27<br/>19243 Wittenburg
                 </span>

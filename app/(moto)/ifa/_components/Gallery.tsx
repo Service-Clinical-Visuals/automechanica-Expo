@@ -6,11 +6,11 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import Container from "./Container";
 
 const slides = [
-  { key: "1", src: "/moto/ifa/gallery/4.png" },
-  { key: "2", src: "/moto/ifa/gallery/5.png" },
-  { key: "3", src: "/moto/ifa/gallery/1.png" },
-  { key: "4", src: "/moto/ifa/gallery/2.png" },
-  { key: "5", src: "/moto/ifa/gallery/3.png" },
+  { key: "1", src: "/moto/ifa/gallery/4.webp" },
+  { key: "2", src: "/moto/ifa/gallery/5.webp" },
+  { key: "3", src: "/moto/ifa/gallery/1.webp" },
+  { key: "4", src: "/moto/ifa/gallery/2.webp" },
+  { key: "5", src: "/moto/ifa/gallery/3.webp" },
 ];
 
 // Base sizes/offsets are tuned for this reference container width, then scaled to fit.
@@ -125,7 +125,7 @@ export default function Gallery () {
   return (
     <section
       className="relative bg-[#0a0a0a] bg-cover bg-center bg-no-repeat pt-24 pb-28 overflow-hidden"
-      style={{ backgroundImage: "url(/moto/ifa/gallery/bg.png)" }}
+      style={{ backgroundImage: "url(/moto/ifa/gallery/bg.webp)" }}
     >
       <Container>
 

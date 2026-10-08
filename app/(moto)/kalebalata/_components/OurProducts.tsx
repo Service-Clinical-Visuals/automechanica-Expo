@@ -11,25 +11,25 @@ const products = [
     id: 1,
     title: 'Disc Brake Pads',
     desc: 'Engineered with special wear-resistant materials, our brake pads deliver high braking performance...',
-    image: '/moto/kalebalata/1.jpg'
+    image: '/moto/kalebalata/1.webp'
   },
   {
     id: 2,
     title: 'Brake Linings',
     desc: 'The ideal solution for brake lining systems. Provides effective braking with high friction force...',
-    image: '/moto/kalebalata/2.jpg'
+    image: '/moto/kalebalata/2.webp'
   },
   {
     id: 3,
     title: 'Brake shoe with Linings',
     desc: 'Designed for safe and dependable stopping power, our brake shoes combine premium wear-resistant...',
-    image: '/moto/kalebalata/3.jpg'
+    image: '/moto/kalebalata/3.webp'
   },
   {
     id: 4,
     title: 'Brake Discs',
     desc: 'Kale Balata brake discs are designed to provide safe and stable braking performance thanks to their structure...',
-    image: '/moto/kalebalata/4.jpg'
+    image: '/moto/kalebalata/4.webp'
   }
 ];
 

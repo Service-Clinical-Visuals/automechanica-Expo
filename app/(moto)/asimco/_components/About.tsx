@@ -44,7 +44,7 @@ export default function About() {
               {/* Left Image (Factory) - Centered vertically, spans somewhat */}
               <div className="relative  w-full overflow-hidden ">
                 <img 
-                  src="/moto/asimco/abt1.png" 
+                  src="/moto/asimco/abt1.webp" 
                   alt="Asimco Factory" 
                   className="object-cover"
                 />
@@ -54,14 +54,14 @@ export default function About() {
               <div className="grid grid-rows-2 gap-4">
                 <div className="relative w-full h-full overflow-hidden  ">
                   <img
-                    src="/moto/asimco/abt2.png" 
+                    src="/moto/asimco/abt2.webp" 
                     alt="Mechanic inspecting" 
                     className="object-cover"
                   />
                 </div>
                 <div className="relative w-full h-full overflow-hidden ">
                   <img 
-                    src="/moto/asimco/abt3.png" 
+                    src="/moto/asimco/abt3.webp" 
                     alt="Mechanic working under car" 
                     className="object-cover"
                   />

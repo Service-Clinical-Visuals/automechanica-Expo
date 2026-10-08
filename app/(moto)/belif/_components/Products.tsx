@@ -12,22 +12,22 @@ import "swiper/css/pagination";
 
 const products = [
   {
-    img: "/moto/belif/products/1.png",
+    img: "/moto/belif/products/1.webp",
     title: "BELCOOL G12 antifreeze conc. 1.5L",
     description: "Advanced G12 coolant concentrate formulated to provide reliable freeze and boil-over protection",
   },
   {
-    img: "/moto/belif/products/2.png",
+    img: "/moto/belif/products/2.webp",
     title: "BELCOOL G12+ antifreeze conc. 1.5L",
     description: "Advanced G12 coolant concentrate formulated to provide reliable freeze and boil-over protection",
   },
   {
-    img: "/moto/belif/products/3.png",
+    img: "/moto/belif/products/3.webp",
     title: "BELCOOL G12++ antifreeze conc. 1.5L",
     description: "Advanced G12 coolant concentrate formulated to provide reliable freeze and boil-over protection",
   },
   {
-    img: "/moto/belif/products/4.png",
+    img: "/moto/belif/products/4.webp",
     title: "BELCOOL G13 antifreeze conc. 1.5L",
     description: "Advanced G12 coolant concentrate formulated to provide reliable freeze and boil-over protection",
   },
@@ -69,7 +69,7 @@ export default function Products() {
   return (
     <section
       className="relative w-full bg-cover bg-center py-16 md:py-24"
-      style={{ backgroundImage: "url(/moto/belif/products/productsbg.png)" }}
+      style={{ backgroundImage: "url(/moto/belif/products/productsbg.webp)" }}
       id="products"
     >
       <Container>

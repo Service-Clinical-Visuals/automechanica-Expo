@@ -8,15 +8,15 @@ const Discover = () => {
   const products = [
     {
       title: "Air Filters",
-      img: "/moto/mc-filter/d1.png"
+      img: "/moto/mc-filter/d1.webp"
     },
     {
       title: "Oil Filters",
-      img: "/moto/mc-filter/d2.png"
+      img: "/moto/mc-filter/d2.webp"
     },
     {
       title: "Fuel Filters",
-      img: "/moto/mc-filter/d3.png"
+      img: "/moto/mc-filter/d3.webp"
     }
   ];
 

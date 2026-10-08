@@ -39,7 +39,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="#" className="flex-shrink-0 z-50">
           <img 
-            src="/moto/ijsgroup/logo.png" 
+            src="/moto/ijsgroup/logo.webp" 
             alt="I.J.S. Group Logo" 
             className="h-14 md:h-18 w-auto object-contain" 
             

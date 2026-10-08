@@ -37,7 +37,7 @@ export default function EngineProtection() {
             {/* Button */}
             <div className="mt-2 mb-8 xl:mb-0">
               <Button href="#" variant="primary" className="!bg-[#185E2D] hover:!bg-[#154620] !font-['Montserrat'] !font-medium !rounded-md !px-5 !py-2.5 flex items-center gap-2">
-                Explore Product <img src="/moto/bg-automotive/tabler_arrow-right.png" alt="Right Arrow" className="w-5 h-5 object-contain" />
+                Explore Product <img src="/moto/bg-automotive/tabler_arrow-right.webp" alt="Right Arrow" className="w-5 h-5 object-contain" />
               </Button>
             </div>
           </div>

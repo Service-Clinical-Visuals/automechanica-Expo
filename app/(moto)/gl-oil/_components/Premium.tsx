@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 const newsItems = [
   {
     id: 1,
-    image: "/moto/gl-oil/p1.png",
+    image: "/moto/gl-oil/p1.webp",
     category: "Coperate",
     date: "February 2020",
     title: "Turnover and profits increased in 2019. Lubricants also recorded positive results",
@@ -15,7 +15,7 @@ const newsItems = [
   },
   {
     id: 2,
-    image: "/moto/gl-oil/p2.png",
+    image: "/moto/gl-oil/p2.webp",
     category: "Events",
     date: "April 2020",
     title: "Gloil invites readers to participate in the Siferr Fair",
@@ -23,7 +23,7 @@ const newsItems = [
   },
   {
     id: 3,
-    image: "/moto/gl-oil/p3.png",
+    image: "/moto/gl-oil/p3.webp",
     category: "Coperate",
     date: "Nov 2020",
     title: "Research and innovation applied to lubricants",

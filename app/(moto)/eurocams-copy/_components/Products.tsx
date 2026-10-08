@@ -17,31 +17,31 @@ export default function Products() {
       id: 1,
       name: "SYNTH RACING PREMIUM SAE 5W30",
       description: "Synthetic multigrade motor oil that meets the strictest requirements for gasoline and diesel engines of...",
-      image: "/moto/exol/product4.png"
+      image: "/moto/exol/product4.webp"
     },
     {
       id: 2,
       name: "ANTIFREEZE G12",
       description: "It functions as both an antifreeze and an engine coolant, providing excellent corrosion protection for all...",
-      image: "/moto/exol/product5.png"
+      image: "/moto/exol/product5.webp"
     },
     {
       id: 3,
       name: "LONG LIFE SAE 20W60",
       description: "High-quality mineral oil for gasoline and diesel engines in passenger cars and light commercial...",
-      image: "/moto/exol/product1.png"
+      image: "/moto/exol/product1.webp"
     },
     {
       id: 4,
       name: "STARTER PLUS 45AH D+",
       description: "The battery is made with Ca-Ca technology and does not require maintenance.",
-      image: "/moto/exol/product2.png"
+      image: "/moto/exol/product2.webp"
     },
     {
       id: 5,
       name: "SAE 85W90",
       description: "High-quality multi-grade oil for lubricating hypoid gear transmissions in motor vehicles operating under...",
-      image: "/moto/exol/product3.png"
+      image: "/moto/exol/product3.webp"
     }
   ];
 

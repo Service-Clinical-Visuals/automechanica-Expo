@@ -10,7 +10,7 @@ export default function Expertise() {
           {/* Left Image */}
           <div className="order-2 xl:order-1 xl:col-span-7 w-full" data-aos="fade-right">
             <img 
-              src="/moto/frenos-sauleda/eexpertise.png" 
+              src="/moto/frenos-sauleda/eexpertise.webp" 
               alt="Frenos Sauleda Expertise" 
               className="w-full h-auto object-cover rounded shadow-md"
             />

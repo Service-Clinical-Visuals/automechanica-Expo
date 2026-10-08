@@ -15,12 +15,12 @@ export default function Products() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const products = [
-    { img: "/moto/meyle/product1.png", title: "Steering And Suspension Parts" },
-    { img: "/moto/meyle/product2.png", title: "Brakes" },
-    { img: "/moto/meyle/product3.png", title: "Drive Components" },
-    { img: "/moto/meyle/product4.png", title: "Suspension & Damping Parts" },
-    { img: "/moto/meyle/product5.png", title: "Thermal Management & Engine Cooling" },
-    { img: "/moto/meyle/product6.png", title: "Electronics" },
+    { img: "/moto/meyle/product1.webp", title: "Steering And Suspension Parts" },
+    { img: "/moto/meyle/product2.webp", title: "Brakes" },
+    { img: "/moto/meyle/product3.webp", title: "Drive Components" },
+    { img: "/moto/meyle/product4.webp", title: "Suspension & Damping Parts" },
+    { img: "/moto/meyle/product5.webp", title: "Thermal Management & Engine Cooling" },
+    { img: "/moto/meyle/product6.webp", title: "Electronics" },
   ];
 
   return (

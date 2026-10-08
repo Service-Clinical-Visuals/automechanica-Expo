@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-1 xl:col-span-6 flex flex-col gap-4 pr-4" data-aos="fade-up">
             <Link href="#">
               <img 
-                src="/moto/mannol/log.png" 
+                src="/moto/mannol/log.webp" 
                 alt="MANNOL Logo" 
                 className="h-8 md:h-10 w-auto object-contain mb-2" 
                 onError={(e) => {
@@ -49,11 +49,11 @@ export default function Footer() {
             <h4 className="sora-font font-semibold text-white card-text">Contact Us</h4>
             <div className="flex flex-col gap-4 poppins-font text-[#ffffff] header-link">
               <div className="flex items-start gap-3 group cursor-pointer transition-colors">
-                <img src="/moto/mannol/phone.png" alt=""  />
+                <img src="/moto/mannol/phone.webp" alt=""  />
                 <span className="header-link  transition-colors">0823.821035</span>
               </div>
               <div className="flex items-start gap-3 group cursor-pointer transition-colors">
-                <img src="/moto/mannol/mail.png" alt="" />
+                <img src="/moto/mannol/mail.webp" alt="" />
                 <div className="flex flex-col gap-1">
                   <span className="header-link  transition-colors">SCT Vertriebs GmbH</span>
                   <span className="header-link  transition-colors">Feldstrasse 154</span>
@@ -70,7 +70,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-1 xl:col-span-2 flex flex-col gap-5" data-aos="fade-up" data-aos-delay="300">
            <h4 className="sora-font font-semibold text-white card-text">Address</h4>
             <div className="flex items-start gap-3 poppins-font text-[#ffffff] group cursor-pointer transition-colors ">
-              <img src="/moto/mannol/location.png" alt="" />
+              <img src="/moto/mannol/location.webp" alt="" />
               <div className="flex flex-col gap-1 ">
                 <span className="header-link  transition-colors">CT Vertriebs GmbH</span>
                 <span className="header-link  transition-colors">Feldstrasse 154</span>
@@ -89,12 +89,12 @@ export default function Footer() {
             <h4 className="sora-font font-bold text-white footer-link ">Social</h4>
             <div className="flex items-center gap-4 text-white">
               {/* TikTok */}
-             <img src="/moto/mannol/f1.png" alt="" />
-             <img src="/moto/mannol/f2.png" alt="" />
-             <img src="/moto/mannol/f3.png" alt="" />
-             <img src="/moto/mannol/f4.png" alt="" />
-             <img src="/moto/mannol/f5.png" alt="" />
-             <img src="/moto/mannol/f6.png" alt="" />
+             <img src="/moto/mannol/f1.webp" alt="" />
+             <img src="/moto/mannol/f2.webp" alt="" />
+             <img src="/moto/mannol/f3.webp" alt="" />
+             <img src="/moto/mannol/f4.webp" alt="" />
+             <img src="/moto/mannol/f5.webp" alt="" />
+             <img src="/moto/mannol/f6.webp" alt="" />
             </div>
           </div>
 

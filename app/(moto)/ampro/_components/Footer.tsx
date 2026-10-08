@@ -7,14 +7,14 @@ const Footer = () => {
   return (
     <footer className="w-full flex flex-col mt-8 ">
       {/* Top Section with Background */}
-      <div className="w-full relative bg-[url('/moto/ampro/bg.png')] bg-cover bg-center bg-no-repeat text-white pt-16 pb-16">
+      <div className="w-full relative bg-[url('/moto/ampro/bg.webp')] bg-cover bg-center bg-no-repeat text-white pt-16 pb-16">
         <div className="absolute inset-0 bg-primary/25 z-0"></div>
 
         <div className="custom-container relative z-10 grid grid-cols-2 xl:grid-cols-12 gap-10 xl:gap-6">
           
           {/* Column 1: Logo & Welcome (Span 4) */}
           <div className="col-span-2 xl:col-span-4 flex flex-col gap-6">
-            <img src="/moto/ampro/logo.png" alt="Ampro Logo" className="w-[40%] object-contain" data-aos="fade-up" />
+            <img src="/moto/ampro/logo.webp" alt="Ampro Logo" className="w-[40%] object-contain" data-aos="fade-up" />
             <p className="footer-body text-white leading-relaxed max-w-[95%]" data-aos="fade-up" data-aos-delay="100">
               Welcome to AMPRO - your trusted partner for high-quality NOx sensors and advanced exhaust system solutions. We deliver reliable emission control technologies engineered for performance, durability, and compliance with modern automotive standards.
             </p>

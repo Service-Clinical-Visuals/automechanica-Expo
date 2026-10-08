@@ -21,17 +21,17 @@ export default function PopularProducts() {
   const categories = [
     {
       id: 1,
-      image: "/moto/mannol/pro1.png",
+      image: "/moto/mannol/pro1.webp",
       title: "Motor Oils for cars",
     },
     {
       id: 2,
-      image: "/moto/mannol/pro2.png",
+      image: "/moto/mannol/pro2.webp",
       title: "Motor Oils for ships",
     },
     {
       id: 3,
-      image: "/moto/mannol/pro3.jpg",
+      image: "/moto/mannol/pro3.webp",
       title: "Greases",
     },
   ];
@@ -39,73 +39,73 @@ export default function PopularProducts() {
   const products = [
     {
       id: 1,
-      image: "/moto/mannol/1.png",
+      image: "/moto/mannol/1.webp",
       name: "MANNOL For Chinese Cars 5W-20 7925",
       link: "#",
     },
     {
       id: 2,
-      image: "/moto/mannol/2.png",
+      image: "/moto/mannol/2.webp",
       name: "MN9830 Ceramo Motorbike 9830",
       link: "#",
     },
     {
       id: 3,
-      image: "/moto/mannol/3.png",
+      image: "/moto/mannol/3.webp",
       name: "MANNOL Molibden Ultra 5W-30 7916",
       link: "#",
     },
     {
       id: 4,
-      image: "/moto/mannol/4.png",
+      image: "/moto/mannol/4.webp",
       name: "MANNOL GLV-ONE 7929",
       link: "#",
     },
     {
       id: 5,
-      image: "/moto/mannol/5.png",
+      image: "/moto/mannol/5.webp",
       name: "MANNOL Marine Gear Oil 7822",
       link: "#",
     },
     {
       id: 6,
-      image: "/moto/mannol/6.png",
+      image: "/moto/mannol/6.webp",
       name: "MANNOL 4-Stroke Outboard 7821",
       link: "#",
     },
     {
       id:7,
-      image: "/moto/mannol/7.png",
+      image: "/moto/mannol/7.webp",
       name: "MANNOL Marine 1230 2404",
       link: "#",
     },
     {
       id:8,
-      image: "/moto/mannol/8.png",
+      image: "/moto/mannol/8.webp",
       name: "MANNOL Marine 1240 2405",
       link: "#",
     },
     {
       id:9,
-      image: "/moto/mannol/9.png",
+      image: "/moto/mannol/9.webp",
       name: "MANNOL STP Grease Ester 8033",
       link: "#",
     },
     {
       id:10,
-      image: "/moto/mannol/10.png",
+      image: "/moto/mannol/10.webp",
       name: "MANNOL Lithium Grease LT-43 Ester 8031",
       link: "#",
     },
     {
       id:11,
-      image: "/moto/mannol/11.png",
+      image: "/moto/mannol/11.webp",
       name: "MANNOL Emulsion 1103",
       link: "#",
     },
     {
       id:12,
-      image: "/moto/mannol/12.png",
+      image: "/moto/mannol/12.webp",
       name: "MANNOL Extreme Pressure Multipurpose EP-0 Ester 8401",
       link: "#",
     }
@@ -195,7 +195,7 @@ export default function PopularProducts() {
                 {products.slice((activeCategoryId - 1) * 4, activeCategoryId * 4).map((prod) => (
                   <div key={prod.id} className="w-full md:w-1/2 flex-shrink-0 px-3 xl:px-4 h-full">
                     <div className="bg-white border border-gray-100 shadow-lg p-6 flex flex-col items-center text-center h-full">
-                      <div className="w-full aspect-square mb-6 bg-[url(/moto/mannol/probg.png)] bg-cover bg-center flex items-center justify-center overflow-hidden relative">
+                      <div className="w-full aspect-square mb-6 bg-[url(/moto/mannol/probg.webp)] bg-cover bg-center flex items-center justify-center overflow-hidden relative">
                         <img 
                           src={prod.image} 
                           alt={prod.name} 

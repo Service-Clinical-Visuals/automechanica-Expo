@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title: "EXOL",
   description: "Exol manufactures a range of lubricants and associated products",
   icons: {
-    icon: "/tcp-logo.png",
+    icon: "/tcp-logo.webp",
   },
 };
 

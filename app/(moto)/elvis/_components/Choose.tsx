@@ -75,7 +75,7 @@ export default function Choose() {
           {/* Right Side: Image */}
           <div className="lg:col-span-5 w-full h-full flex justify-end items-end relative">
             <img 
-              src="/moto/elvis/human.png" 
+              src="/moto/elvis/human.webp" 
               alt="Elwis Representative" 
               className="w-full md:w-[70%] lg:w-[100%]  h-auto object-contain object-bottom mx-auto lg:mx-0 lg:ml-auto block"
             />

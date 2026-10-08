@@ -6,9 +6,9 @@ import Button from "./Button";
 
 const AboutUs = () => {
   const profiles = [
-    { img: "/moto/koch/p1.jpg", name: "Herwart-Koch" },
-    { img: "/moto/koch/p2.jpg", name: "Harro Herwart Koch" },
-    { img: "/moto/koch/p3.jpg", name: "Harro Koch Jr" },
+    { img: "/moto/koch/p1.webp", name: "Herwart-Koch" },
+    { img: "/moto/koch/p2.webp", name: "Harro Herwart Koch" },
+    { img: "/moto/koch/p3.webp", name: "Harro Koch Jr" },
   ];
 
   return (
@@ -29,7 +29,7 @@ const AboutUs = () => {
         <div className="w-full xl:w-[50%] min-[2100px]:w-[50%] min-[3800px]:w-[55%] flex shrink-0 order-2 xl:order-1" data-aos="fade-right">
           <div className="w-full aspect-[820/700] rounded-xl overflow-hidden shadow-lg border border-gray-100">
             <img
-              src="/moto/koch/section2.jpg"
+              src="/moto/koch/section2.webp"
               alt="Wheel Alignment System"
               className="w-full h-full object-cover"
             />

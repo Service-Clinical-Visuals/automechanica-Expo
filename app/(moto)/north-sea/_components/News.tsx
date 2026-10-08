@@ -5,12 +5,11 @@ import { ArrowRight, ChevronUp, ChevronDown } from "lucide-react";
 import Container from "./Container";
 
 const images = [
-  "/moto/north-sea/news1.jpg",
-  "/moto/north-sea/news2.jpg",
-  "/moto/north-sea/news3.jpg",
-  "/moto/north-sea/news4.jpg",
-  "/moto/north-sea/news5.jpg",
-  "/moto/north-sea/news6.jpg",
+  "/moto/north-sea/news1.webp",
+  "/moto/north-sea/news2.webp",
+  "/moto/north-sea/news3.webp",
+  "/moto/north-sea/news4.webp",
+  "/moto/north-sea/news5.webp",
 ];
 
 export default function News() {

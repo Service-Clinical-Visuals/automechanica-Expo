@@ -8,47 +8,47 @@ export default function Categories() {
     {
       title: "Additives",
       description: "Improve performance, reduce friction, and protect engine components.",
-      image: "/moto/liqui-moly/pro1.jpg",
+      image: "/moto/liqui-moly/pro1.webp",
     },
     {
       title: "Oils",
       description: "Premium engine oils for superior protection and lasting performance.",
-      image: "/moto/liqui-moly/pro2.jpg",
+      image: "/moto/liqui-moly/pro2.webp",
     },
     {
       title: "Engine Oils",
       description: "Protect your engine with high-performance oils for every journey.",
-      image: "/moto/liqui-moly/pro3.jpg",
+      image: "/moto/liqui-moly/pro3.webp",
     },
     {
       title: "Gear Oils",
       description: "Reliable gear oils for efficient power transfer and transmission durability.",
-      image: "/moto/liqui-moly/pro4.jpg",
+      image: "/moto/liqui-moly/pro4.webp",
     },
     {
       title: "Greases",
       description: "High-performance greases for smooth operation and lasting protection.",
-      image: "/moto/liqui-moly/pro5.jpg",
+      image: "/moto/liqui-moly/pro5.webp",
     },
     {
       title: "Pastes",
       description: "Protect your engine with high-performance oils for every journey.",
-      image: "/moto/liqui-moly/pro6.jpg",
+      image: "/moto/liqui-moly/pro6.webp",
     },
     {
       title: "Vehicle care",
       description: "Vehicle care solutions designed to protect and  maintain your vehicle.",
-      image: "/moto/liqui-moly/pro7.jpg",
+      image: "/moto/liqui-moly/pro7.webp",
     },
     {
       title: "Repair Aids / Service Products",
       description: "Reliable repair aids for efficient maintenance and performance.",
-      image: "/moto/liqui-moly/pro8.jpg",
+      image: "/moto/liqui-moly/pro8.webp",
     },
     {
       title: "Workshop Pro-Line",
       description: "Professional workshop products for efficient servicing and maintenance.",
-      image: "/moto/liqui-moly/pro9.jpg",
+      image: "/moto/liqui-moly/pro9.webp",
     }
   ];
 

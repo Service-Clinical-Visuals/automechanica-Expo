@@ -56,7 +56,7 @@ export default function Herobanner() {
                         Browse All Products
                       </button>
                       <Image
-                        src="/moto/gand-oil/arrow_green.png"
+                        src="/moto/gand-oil/arrow_green.webp"
                         alt="Explore"
                         width={32}
                         height={32}

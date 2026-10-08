@@ -13,7 +13,7 @@ const SmartSolutions = () => {
         <div className="relative w-full min-h-[400px] xl:min-h-[650px] min-[3800px]:min-h-[2600px] flex items-end">
           {/* Background Image */}
           <img 
-            src="/moto/alca-mobil/section4.png"
+            src="/moto/alca-mobil/section4.webp"
             alt="Smart Solutions for Everyday Driving Needs"
             className="absolute inset-0 w-full h-full object-cover z-0"
           />

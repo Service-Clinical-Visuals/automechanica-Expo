@@ -9,17 +9,17 @@ export default function MarketExperience() {
     {
       title: "Over 15,000 M2 Of Storage Space",
       description: "We have over 15,000 m² of storage space for efficient and extensive storage of all products, ensuring fast availability, streamlined inventory management, and reliable order fulfillment.",
-      icon: <img src="/moto/ahg/blog1.png" alt="storage" />
+      icon: <img src="/moto/ahg/blog1.webp" alt="storage" />
     },
     {
       title: "Extensive Product Range",
       description: "Our product portfolio is designed for passenger cars and commercial vehicles, offering reliable automotive solutions. With a strong focus on quality and performance, we provide products that ensure durability, efficiency, and customer satisfaction.",
-      icon: <img src="/moto/ahg/blog2.png" alt="storage" />
+      icon: <img src="/moto/ahg/blog2.webp" alt="storage" />
     },
     {
       title: "A Team Of Over 40 Employees",
       description: "A team of over 40 dedicated employees works together to develop innovative solutions, maintain exceptional quality standards, and deliver reliable products and outstanding customer service.",
-      icon: <img src="/moto/ahg/blog3.png" alt="storage" />
+      icon: <img src="/moto/ahg/blog3.webp" alt="storage" />
     }
   ];
 

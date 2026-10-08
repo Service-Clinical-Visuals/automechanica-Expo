@@ -3,9 +3,9 @@
 import React from "react";
 
 const brands = [
-  { img: "/moto/alkim-petrokimya/brand1.png", name: "AKSOIL" },
-  { img: "/moto/alkim-petrokimya/brand2.png", name: "BRENTOL" },
-  { img: "/moto/alkim-petrokimya/brand3.png", name: "MATADOR" },
+  { img: "/moto/alkim-petrokimya/brand1.webp", name: "AKSOIL" },
+  { img: "/moto/alkim-petrokimya/brand2.webp", name: "BRENTOL" },
+  { img: "/moto/alkim-petrokimya/brand3.webp", name: "MATADOR" },
 ];
 
 export default function Partners() {
@@ -15,7 +15,7 @@ export default function Partners() {
       <div
         className="absolute inset-0 z-0 "
         style={{
-          backgroundImage: "url('/moto/alkim-petrokimya/partner-bg.png')",
+          backgroundImage: "url('/moto/alkim-petrokimya/partner-bg.webp')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -37,7 +37,7 @@ export default function Partners() {
           data-aos="fade-up"
           data-aos-delay="100"
           style={{
-            backgroundImage: "url('/moto/alkim-petrokimya/small-bg.png')",
+            backgroundImage: "url('/moto/alkim-petrokimya/small-bg.webp')",
             backgroundSize: '100% 100%',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat'

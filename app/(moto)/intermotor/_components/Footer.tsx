@@ -18,7 +18,7 @@ export default function Footer() {
             {/* Logo + tagline */}
             <div data-aos="fade-up">
               <img
-                src="/moto/intermotor/logo.png"
+                src="/moto/intermotor/logo.webp"
                 alt="Intermotor Group"
                 className="h-12 w-auto object-contain mb-5"
               />

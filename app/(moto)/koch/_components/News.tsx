@@ -14,19 +14,19 @@ const News = () => {
       date: "JULY 17, 2025",
       title: "New NOx sensor references!",
       desc: "We are introducing brand new NOx sensor references covering FIAT, DAF and VW. From now on.",
-      img: "/moto/ampro/news1.png",
+      img: "/moto/ampro/news1.webp",
     },
     {
       date: "JULY 08, 2025",
       title: "New additive Tank references!",
       desc: "We present brand new additive tank references for PSA. Available from August: These high-quality additive tanks.",
-      img: "/moto/ampro/news2.png",
+      img: "/moto/ampro/news2.webp",
     },
     {
       date: "JULY 17, 2025",
       title: "Upcoming emission technologies!",
       desc: "We launch new solutions for cleaner mobility. Available now: Reliable emission components with OE-level quality.",
-      img: "/moto/ampro/news3.png",
+      img: "/moto/ampro/news3.webp",
     },
   ];
 

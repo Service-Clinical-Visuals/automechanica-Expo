@@ -7,17 +7,17 @@ export default function IndustryWeServe() {
     {
       title: "Off-Highway",
       desc: "Design, testing and manufacturing of OEM brake systems for construction, industrial and agricultural vehicles.",
-      icon: "/moto/iruna/indus1.png"
+      icon: "/moto/iruna/indus1.webp"
     },
     {
       title: "Automotive",
       desc: "Design and manufacture of OEM brake systems for the automotive market.",
-      icon: "/moto/iruna/indus2.png"
+      icon: "/moto/iruna/indus2.webp"
     },
     {
       title: "Wind power",
       desc: "Specialists in the wind power sector with own manufacture of fast axle brake calipers, rotor and yaw brake.",
-      icon: "/moto/iruna/indus3.png"
+      icon: "/moto/iruna/indus3.webp"
     }
   ];
 

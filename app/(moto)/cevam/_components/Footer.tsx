@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="w-full lg:w-[25%] lg:mr-30 flex flex-col gap-6 lg:pr-10 lg:border-r lg:border-white" data-aos="fade-up">
             <Link href="#">
               <img
-                src="/moto/cevam/logo.png"
+                src="/moto/cevam/logo.webp"
                 alt="CEVAM Logo"
                 className="w-auto h-15 object-contain"
                 onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<span class="text-[#0195DA] font-bold text-4xl oswald-font tracking-wide">CEVAM</span>' }}

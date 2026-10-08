@@ -15,29 +15,29 @@ export default function Solutions() {
 
   const categoryData: Record<string, { title: string, desc: string, img: string }[]> = {
     "Cars": [
-      { title: "Brake systems", desc: "ATQ Germany offers OEM-quality brake pads and discs, delivering reliable performance at competitive aftermarket prices.", img: "/moto/atq/frame1/frame1-1.png" },
-      { title: "Brake fluids", desc: "ATQ Germany offers DOT 3, DOT 4, DOT 4 ESP, DOT 5.1, and DOT 5.1 ESP brake fluids for reliable braking performance.", img: "/moto/atq/frame1/frame1-2.png" },
-      { title: "Drive shafts", desc: "ATQ CV-Joint kits and shafts, designed and manufactured to precise OE Standards.", img: "/moto/atq/frame1/frame1-3.png" },
-      { title: "Wheel hub bearings", desc: "ATQ Germany hub bearings are precision-engineered to OE standards, ensuring reliable fitment, durability, and performance.", img: "/moto/atq/frame1/frame1-4.png" },
-      { title: "Shock absorbers", desc: "ATQ Germany shock absorbers improve stability, comfort, and control, and are available in hydraulic and gas variants.", img: "/moto/atq/frame1/frame1-5.png" },
-      { title: "Steering parts", desc: "ATQ Germany offers premium steering components for reliable performance across a wide range of vehicles.", img: "/moto/atq/frame1/frame1-6.png" },
-      { title: "Steering racks", desc: "ATQ Germany rack and pinion units are built to OEM standards, delivering reliable steering performance and long-lasting durability.", img: "/moto/atq/frame1/frame1-7.png" },
-      { title: "Radiators", desc: "ATQ Germany offers premium heating, cooling, and air conditioning parts, including air coolers for cars and light trucks.", img: "/moto/atq/frame1/frame1-8.png" },
+      { title: "Brake systems", desc: "ATQ Germany offers OEM-quality brake pads and discs, delivering reliable performance at competitive aftermarket prices.", img: "/moto/atq/frame1/frame1-1.webp" },
+      { title: "Brake fluids", desc: "ATQ Germany offers DOT 3, DOT 4, DOT 4 ESP, DOT 5.1, and DOT 5.1 ESP brake fluids for reliable braking performance.", img: "/moto/atq/frame1/frame1-2.webp" },
+      { title: "Drive shafts", desc: "ATQ CV-Joint kits and shafts, designed and manufactured to precise OE Standards.", img: "/moto/atq/frame1/frame1-3.webp" },
+      { title: "Wheel hub bearings", desc: "ATQ Germany hub bearings are precision-engineered to OE standards, ensuring reliable fitment, durability, and performance.", img: "/moto/atq/frame1/frame1-4.webp" },
+      { title: "Shock absorbers", desc: "ATQ Germany shock absorbers improve stability, comfort, and control, and are available in hydraulic and gas variants.", img: "/moto/atq/frame1/frame1-5.webp" },
+      { title: "Steering parts", desc: "ATQ Germany offers premium steering components for reliable performance across a wide range of vehicles.", img: "/moto/atq/frame1/frame1-6.webp" },
+      { title: "Steering racks", desc: "ATQ Germany rack and pinion units are built to OEM standards, delivering reliable steering performance and long-lasting durability.", img: "/moto/atq/frame1/frame1-7.webp" },
+      { title: "Radiators", desc: "ATQ Germany offers premium heating, cooling, and air conditioning parts, including air coolers for cars and light trucks.", img: "/moto/atq/frame1/frame1-8.webp" },
     ],
     "Trucks": [
-      { title: "Clutches", desc: "ATQ Germany supplies reliable commercial vehicle clutches engineered for durability and performance.", img: "/moto/atq/frame2/frame2-1.png" },
-      { title: "Gaskets", desc: "OEM-quality gaskets for reliable sealing and precise fitment.", img: "/moto/atq/frame2/frame2-2.png" },
-      { title: "Filters", desc: "Quality is ATQ Germany filters' first priority. Our manufacturing process allows to provide maximum control and consistency.", img: "/moto/atq/frame2/frame2-3.png" },
-      { title: "Radiators", desc: "Made with premium materials and tested for 100% leak-free OEM-quality performance.", img: "/moto/atq/frame2/frame2-4.png" },
-      { title: "Air Compressors", desc: "ATQ Germany offers OEM-quality brake pads and discs at competitive aftermarket prices.", img: "/moto/atq/frame2/frame2-5.png" },
-      { title: "Brake systems", desc: "OEM-quality brake pads and discs at competitive aftermarket prices.", img: "/moto/atq/frame2/frame2-6.png" },
-      { title: "Cabin dampers", desc: "ATQ Germany cabin damping systems improve driver comfort, stability, and safety with reliable hydraulic and air-spring suspension solutions.", img: "/moto/atq/frame2/frame2-7.png" },
-      { title: "Steering & suspension", desc: "ATQ Germany control arms are rigorously tested to ensure precise fitment, superior strength, and reliable driving stability.", img: "/moto/atq/frame2/frame2-8.png" },
+      { title: "Clutches", desc: "ATQ Germany supplies reliable commercial vehicle clutches engineered for durability and performance.", img: "/moto/atq/frame2/frame2-1.webp" },
+      { title: "Gaskets", desc: "OEM-quality gaskets for reliable sealing and precise fitment.", img: "/moto/atq/frame2/frame2-2.webp" },
+      { title: "Filters", desc: "Quality is ATQ Germany filters' first priority. Our manufacturing process allows to provide maximum control and consistency.", img: "/moto/atq/frame2/frame2-3.webp" },
+      { title: "Radiators", desc: "Made with premium materials and tested for 100% leak-free OEM-quality performance.", img: "/moto/atq/frame2/frame2-4.webp" },
+      { title: "Air Compressors", desc: "ATQ Germany offers OEM-quality brake pads and discs at competitive aftermarket prices.", img: "/moto/atq/frame2/frame2-5.webp" },
+      { title: "Brake systems", desc: "OEM-quality brake pads and discs at competitive aftermarket prices.", img: "/moto/atq/frame2/frame2-6.webp" },
+      { title: "Cabin dampers", desc: "ATQ Germany cabin damping systems improve driver comfort, stability, and safety with reliable hydraulic and air-spring suspension solutions.", img: "/moto/atq/frame2/frame2-7.webp" },
+      { title: "Steering & suspension", desc: "ATQ Germany control arms are rigorously tested to ensure precise fitment, superior strength, and reliable driving stability.", img: "/moto/atq/frame2/frame2-8.webp" },
     ],
     "Lubricants": [
-      { title: "Engine oil", desc: "ATQ Germany Lubricants has a high quality range of products which offers performance while catering for all customer needs.", img: "/moto/atq/frame3/frame3-1.png" },
-      { title: "AdBlue", desc: "ATQ Germany AdBlue reduces emissions and supports efficient, eco-friendly driving.", img: "/moto/atq/frame3/frame3-2.png" },
-      { title: "Coolant additives", desc: "ATQ Germany coolant additives protect against freezing, corrosion, and overheating while ensuring efficient engine cooling.", img: "/moto/atq/frame3/frame3-3.png" },
+      { title: "Engine oil", desc: "ATQ Germany Lubricants has a high quality range of products which offers performance while catering for all customer needs.", img: "/moto/atq/frame3/frame3-1.webp" },
+      { title: "AdBlue", desc: "ATQ Germany AdBlue reduces emissions and supports efficient, eco-friendly driving.", img: "/moto/atq/frame3/frame3-2.webp" },
+      { title: "Coolant additives", desc: "ATQ Germany coolant additives protect against freezing, corrosion, and overheating while ensuring efficient engine cooling.", img: "/moto/atq/frame3/frame3-3.webp" },
     ]
   };
 

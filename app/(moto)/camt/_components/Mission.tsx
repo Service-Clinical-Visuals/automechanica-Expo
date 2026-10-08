@@ -12,7 +12,7 @@ export default function Mission() {
           {/* Image */}
           <div className="overflow-hidden rounded-2xl" data-aos="fade-right">
             <img
-              src="/moto/camt/mission.png"
+              src="/moto/camt/mission.webp"
               alt="CAMT manufacturing facility"
               className="w-full h-auto object-contain"
             />

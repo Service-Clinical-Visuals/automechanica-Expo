@@ -22,14 +22,14 @@ export default function AboutUs() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 xl:gap-8 w-full">
           <div className="w-full aspect-[820/584] border border-white/40 overflow-hidden" data-aos="fade-up" data-aos-delay="100">
             <img
-              src="/moto/koneks/section21.jpg"
+              src="/moto/koneks/section21.webp"
               alt="KONEKS Facility 1"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="w-full aspect-[820/584] border border-white/40 overflow-hidden" data-aos="fade-up" data-aos-delay="200">
             <img
-              src="/moto/koneks/section22.jpg"
+              src="/moto/koneks/section22.webp"
               alt="KONEKS Facility 2"
               className="w-full h-full object-cover"
             />

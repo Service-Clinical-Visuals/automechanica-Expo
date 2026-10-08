@@ -5,7 +5,7 @@ export default function Choose() {
   return (
     <section
       className="relative py-32 overflow-hidden"
-      style={{ backgroundImage: "url('/moto/chemnaft/choosebg.png')", backgroundSize: "cover", backgroundPosition: "center" }}
+      style={{ backgroundImage: "url('/moto/chemnaft/choosebg.webp')", backgroundSize: "cover", backgroundPosition: "center" }}
     >
         <Container>
             <div className="absolute inset-0 bg-[#0d1e3a]/50 pointer-events-none" />

@@ -38,7 +38,7 @@ export default function Events() {
           <div className="xl:col-span-5 flex flex-col justify-center xl:pr-10" data-aos="fade-right">
             <div className="flex items-center gap-3 mb-6">
               <Image 
-                src="/moto/bluechem/arrow.png" 
+                src="/moto/bluechem/arrow.webp" 
                 alt="Arrow Icon" 
                 width={24} 
                 height={24} 

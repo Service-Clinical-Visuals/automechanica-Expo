@@ -14,12 +14,12 @@ const Certificates = () => {
   const [swiperInstance, setSwiperInstance] = useState<SwiperType | null>(null);
 
   const certificates = [
-    { id: 1, img: "/moto/lpr-srl/c1.jpg" },
-    { id: 2, img: "/moto/lpr-srl/c2.jpg" },
-    { id: 3, img: "/moto/lpr-srl/c3.jpg" },
-    { id: 4, img: "/moto/lpr-srl/c1.jpg" },
-    { id: 5, img: "/moto/lpr-srl/c2.jpg" },
-    { id: 6, img: "/moto/lpr-srl/c3.jpg" },
+    { id: 1, img: "/moto/lpr-srl/c1.webp" },
+    { id: 2, img: "/moto/lpr-srl/c2.webp" },
+    { id: 3, img: "/moto/lpr-srl/c3.webp" },
+    { id: 4, img: "/moto/lpr-srl/c1.webp" },
+    { id: 5, img: "/moto/lpr-srl/c2.webp" },
+    { id: 6, img: "/moto/lpr-srl/c3.webp" },
   ];
 
   return (

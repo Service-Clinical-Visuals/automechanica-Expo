@@ -28,7 +28,7 @@ export default function Footer() {
             {/* Logo + tagline + newsletter */}
             <div data-aos="fade-up">
               <img
-                src="/moto/midac/logo.png"
+                src="/moto/midac/logo.webp"
                 alt="Midac Batteries"
                 className="max-w-[270px]! h-auto object-contain mb-5"
               />

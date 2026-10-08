@@ -4,7 +4,7 @@ import Container from "./Container";
 
 const newsItems = [
   {
-    img: "/moto/hengst/news/1.png",
+    img: "/moto/hengst/news/1.webp",
     title:
       "Hengst SE Wins the 2026 Münsterland Marketing Award for Successful Business Transformation",
     description:
@@ -14,7 +14,7 @@ const newsItems = [
     year: "2026",
   },
   {
-    img: "/moto/hengst/news/2.png",
+    img: "/moto/hengst/news/2.webp",
     title:
       "FILTECH 2026: Hengst presents industrial filtration solutions for people, machines and the environment",
     description:
@@ -31,13 +31,13 @@ export default function News() {
     <section className="relative bg-white py-16 md:py-24 overflow-hidden">
       <Container>
         <img
-            src="/moto/hengst/about/gear1.png"
+            src="/moto/hengst/about/gear1.webp"
             alt=""
             aria-hidden="true"
             className="hidden md:block absolute bottom-40 -right-20 w-64 lg:w-80 pointer-events-none select-none -rotate-90"
         />
         <img
-            src="/moto/hengst/05.png"
+            src="/moto/hengst/05.webp"
             alt=""
             aria-hidden="true"
             className="hidden md:block absolute top-24 left-1 w-30 pointer-events-none select-none"

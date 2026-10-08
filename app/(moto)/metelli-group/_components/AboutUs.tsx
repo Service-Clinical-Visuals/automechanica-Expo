@@ -27,14 +27,14 @@ export default function AboutUs() {
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 mb-12">
           <div className="w-full aspect-[4/3] lg:aspect-[16/10] relative rounded-lg overflow-hidden group" data-aos="zoom-in-right" data-aos-duration="1000">
             <img
-              src="/moto/metelli-group/section21.png"
+              src="/moto/metelli-group/section21.webp"
               alt="Metelli Group Exhibition Stand"
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
           <div className="w-full aspect-[4/3] lg:aspect-[16/10] relative rounded-lg overflow-hidden group" data-aos="zoom-in-left" data-aos-delay="200" data-aos-duration="1000">
             <img
-              src="/moto/metelli-group/section22.png"
+              src="/moto/metelli-group/section22.webp"
               alt="Metelli Group Reception"
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />

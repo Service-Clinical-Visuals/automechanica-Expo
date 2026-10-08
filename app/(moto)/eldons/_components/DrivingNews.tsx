@@ -11,17 +11,17 @@ const slides = [
   {
     title: "Designing the Future",
     desc: "ELDON'S stands out via its professional approach and its creative concern. It is constantly at the forefront of developments, making the most of our human capital and its potential, its breakthrough specialization and new technologies. The company has co-authored series of articles, presentations and original publications on its sector.",
-    image: "/moto/eldons/d1.jpg",
+    image: "/moto/eldons/d1.webp",
   },
   {
     title: "Always One Step Ahead",
     desc: "Since its foundation, the company has been constantly investing in Research and Development, participating in special programs, developing partnerships with internationally renowned organizations and research centers. ELDON'S makes the best out of its science and technology departments, focusing on the technological superiority of its products and services.",
-    image: "/moto/eldons/d2.jpg",
+    image: "/moto/eldons/d2.webp",
   },
   {
     title: "A Lifetime Partner By Your Side",
     desc: "At ELDON'S, its partners are a main priority. The accumulated experience, know-how and high specialization of almost 5 decades, serve as its credentials in an effort to provide a full spectrum of solutions. The continuous and effective support of its clients, the top-quality lubrication products, the state-of-the-art technology and the high-level services, are the foundations on which these bonds are built.",
-    image: "/moto/eldons/d3.jpg",
+    image: "/moto/eldons/d3.webp",
   },
 ];
 

@@ -10,13 +10,13 @@ export default function Footer() {
     <>
       <footer
         className="relative w-full overflow-hidden bg-cover bg-center pt-16"
-        style={{ backgroundImage: "url(/moto/eurolub/qualitybg.png)" }}
+        style={{ backgroundImage: "url(/moto/eurolub/qualitybg.webp)" }}
       >
         <Container className="relative z-10">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[40fr_20fr_20fr_20fr] gap-10 mb-14">
             {/* Logo + tagline */}
             <div data-aos="fade-up">
-              <img src="/moto/eurolub/logo.png" alt="Eurolub" className="w-[300px] h-auto object-contain mb-5" />
+              <img src="/moto/eurolub/logo.webp" alt="Eurolub" className="w-[300px] h-auto object-contain mb-5" />
               <p className="content max-w-[500px]">
                 EUROLUB provides high-quality lubricants and automotive solutions for enhanced
                 performance, reliability, and innovation.

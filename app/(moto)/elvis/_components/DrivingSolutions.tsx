@@ -25,7 +25,7 @@ export default function DrivingSolutions() {
           <div className="w-full flex flex-col gap-6">
             <div className="w-full h-[300px] md:h-[400px] 2xl:h-[519px] min-[3800px]:h-[800px] overflow-hidden">
               <img 
-                src="/moto/elvis/section4.png" 
+                src="/moto/elvis/section4.webp" 
                 alt="Passenger Car Solutions" 
                 className="w-full h-full object-cover rounded-none" // or rounded depending on design, Image 2 shows sharp corners
               />
@@ -37,7 +37,7 @@ export default function DrivingSolutions() {
           <div className="w-full flex flex-col gap-6">
             <div className="w-full h-[300px] md:h-[400px] 2xl:h-[519px] min-[3800px]:h-[800px] overflow-hidden">
               <img 
-                src="/moto/elvis/section5.png" 
+                src="/moto/elvis/section5.webp" 
                 alt="Heavy Duty Trucks" 
                 className="w-full h-full object-cover rounded-none"
               />

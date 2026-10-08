@@ -24,7 +24,7 @@ export default function WhoWeAre() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 w-full mb-12" >
           <div className="w-full aspect-[4/3] lg:aspect-[16/10] relative overflow-hidden bg-gray-100" data-aos="fade-right" data-aos-delay="200">
             <img 
-              src="/moto/mannol/who1.png" 
+              src="/moto/mannol/who1.webp" 
               alt="MANNOL Office Building" 
               className="w-full h-full object-cover"
               onError={(e) => {
@@ -34,7 +34,7 @@ export default function WhoWeAre() {
           </div>
           <div className="w-full aspect-[4/3] lg:aspect-[16/10] relative overflow-hidden bg-gray-100" data-aos="fade-left" data-aos-delay="200">
             <img 
-              src="/moto/mannol/who2.png" 
+              src="/moto/mannol/who2.webp" 
               alt="MANNOL Factory Warehouse" 
               className="w-full h-full object-cover"
               onError={(e) => {

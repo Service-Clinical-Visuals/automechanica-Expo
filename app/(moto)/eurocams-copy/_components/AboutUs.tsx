@@ -46,7 +46,7 @@ export default function AboutUs() {
           <div className="w-full xl:w-1/2 order-2 flex" data-aos="fade-left">
             <div className="relative w-full h-full min-h-[300px] xl:min-h-0 rounded-sm overflow-hidden">
               <img
-                src="/moto/exol/section2.png"
+                src="/moto/exol/section2.webp"
                 alt="Exol Factory"
                 className="absolute inset-0 w-full h-full object-cover"
               />

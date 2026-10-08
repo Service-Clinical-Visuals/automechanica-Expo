@@ -201,7 +201,7 @@ body {
 }
 
 .bg{
-  background-image: url("/moto/bbt/bg.png");
+  background-image: url("/moto/bbt/bg.webp");
   background-size: cover;
   background-position: center;
 }

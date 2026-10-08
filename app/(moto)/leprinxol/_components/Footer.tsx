@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="flex flex-col gap-6 col-span-1 md:col-span-2 xl:col-span-5 xl:pr-6">
             <Link href="#">
               <img
-                src="/moto/leprinxol/logo.png"
+                src="/moto/leprinxol/logo.webp"
                 alt="Leprinxol Logo"
                 className="w-[180px] object-contain"
               />

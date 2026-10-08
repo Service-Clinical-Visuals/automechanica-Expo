@@ -9,32 +9,32 @@ export default function Products() {
   const services = [
     {
       title: "MotorCycle",
-      icon: <img src="/moto/proquisur-sl/s-1.png" alt="MotorCycle" className="w-auto h-auto object-contain" />,
+      icon: <img src="/moto/proquisur-sl/s-1.webp" alt="MotorCycle" className="w-auto h-auto object-contain" />,
       description: "Smooth performance and enhanced engine protection for daily and high-speed riding"
     },
     {
       title: "Truck",
-      icon: <img src="/moto/proquisur-sl/s-2.png" alt="Truck" className="w-auto h-auto object-contain" />,
+      icon: <img src="/moto/proquisur-sl/s-2.webp" alt="Truck" className="w-auto h-auto object-contain" />,
       description: "Reliable lubrication designed for heavy-duty loads and long-distance operations"
     },
     {
       title: "Hydraulic",
-      icon: <img src="/moto/proquisur-sl/s-4.png" alt="Hydraulic" className="w-auto h-auto object-contain" />,
+      icon: <img src="/moto/proquisur-sl/s-4.webp" alt="Hydraulic" className="w-auto h-auto object-contain" />,
       description: "Efficient fluid performance ensuring smooth operation and system protection"
     },
     {
       title: "Tractor",
-      icon: <img src="/moto/proquisur-sl/s-3.png" alt="Tractor" className="w-auto h-auto object-contain" />,
+      icon: <img src="/moto/proquisur-sl/s-3.webp" alt="Tractor" className="w-auto h-auto object-contain" />,
       description: "Strong engine protection built for demanding agricultural and field applications"
     },
     {
       title: "Additives",
-      icon: <img src="/moto/proquisur-sl/s-5.png" alt="Additives" className="w-auto h-auto object-contain" />,
+      icon: <img src="/moto/proquisur-sl/s-5.webp" alt="Additives" className="w-auto h-auto object-contain" />,
       description: "Enhances oil performance, reduces wear, and extends overall engine life"
     },
     {
       title: "Antifreeze Coolant",
-      icon: <img src="/moto/proquisur-sl/s-6.png" alt="Antifreeze Coolant" className="w-auto h-auto object-contain" />,
+      icon: <img src="/moto/proquisur-sl/s-6.webp" alt="Antifreeze Coolant" className="w-auto h-auto object-contain" />,
       description: "Maintains optimal temperature and protects the engine in extreme conditions"
     }
   ];

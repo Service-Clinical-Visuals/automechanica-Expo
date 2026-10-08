@@ -43,19 +43,19 @@ export default function Footer() {
           {/* Center Logo & Socials */}
           <div className="flex flex-col items-center justify-center gap-8 xl:order-none order-first sm:col-span-2 xl:col-span-1">
             <img 
-              src="/moto/baroxoil/logo.png" 
+              src="/moto/baroxoil/logo.webp" 
               alt="Barox Oil Logo" 
               className="w-48 md:w-56 h-auto object-contain" 
             />
             <div className="flex items-center gap-8">
          
-                <img src="/moto/baroxoil/fb.png" alt="Facebook" className="w-6 h-6 object-contain brightness-0 invert" />
+                <img src="/moto/baroxoil/fb.webp" alt="Facebook" className="w-6 h-6 object-contain brightness-0 invert" />
              
-                <img src="/moto/baroxoil/x.png" alt="X" className="w-6 h-6 object-contain brightness-0 invert" />
+                <img src="/moto/baroxoil/x.webp" alt="X" className="w-6 h-6 object-contain brightness-0 invert" />
         
-                <img src="/moto/baroxoil/in.png" alt="LinkedIn" className="w-6 h-6 object-contain brightness-0 invert" />
+                <img src="/moto/baroxoil/in.webp" alt="LinkedIn" className="w-6 h-6 object-contain brightness-0 invert" />
           
-                <img src="/moto/baroxoil/ins.png" alt="Instagram" className="w-6 h-6 object-contain brightness-0 invert" />
+                <img src="/moto/baroxoil/ins.webp" alt="Instagram" className="w-6 h-6 object-contain brightness-0 invert" />
             </div>
           </div>
 
@@ -82,14 +82,14 @@ export default function Footer() {
             </div>
             <ul className="flex flex-col gap-4 instrument-sans-font text-white section-text leading-normal">
               <li className="flex items-start gap-3">
-                <img src="/moto/baroxoil/location.png" alt="Location" className="w-5 h-5 object-contain shrink-0 mt-0.5 brightness-0 invert" />
+                <img src="/moto/baroxoil/location.webp" alt="Location" className="w-5 h-5 object-contain shrink-0 mt-0.5 brightness-0 invert" />
                 <span className="leading-relaxed">
                   Sandfeldring 11a<br />
                   86650 Wemding, Germany
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <img src="/moto/baroxoil/mail.png" alt="Email" className="w-5 h-5 object-contain shrink-0 brightness-0 invert" />
+                <img src="/moto/baroxoil/mail.webp" alt="Email" className="w-5 h-5 object-contain shrink-0 brightness-0 invert" />
                 <a href="mailto:sales@barox-oil.de" className="hover:text-white transition-colors underline">
                   sales@barox-oil.de
                 </a>

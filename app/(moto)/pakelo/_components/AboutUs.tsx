@@ -12,7 +12,7 @@ export default function AboutUs() {
           {/* Left Image */}
           <div data-aos="fade-right" className=" order-2 xl:order-1 w-full relative aspect-video overflow-hidden xl:col-span-7">
             <img 
-              src="/moto/pakelo/abt.png" 
+              src="/moto/pakelo/abt.webp" 
               alt="Pakelo Production" 
               className="absolute inset-0 w-full h-full object-cover"
             />
@@ -38,17 +38,17 @@ export default function AboutUs() {
 
             {/* Certifications - Mobile, Tablet, & 2XL+ Only */}
             <div className="flex xl:hidden 2xl:flex flex-wrap items-center gap-6 md:gap-10">
-              <img src="/moto/pakelo/cer1.png" alt="Certification 1" className="h-20 md:h-30 object-cover" />
-              <img src="/moto/pakelo/cer2.png" alt="Certification 2" className="h-20 md:h-30 object-cover" />
-              <img src="/moto/pakelo/cer3.png" alt="Certification 3" className="h-20 md:h-30 object-cover" />
+              <img src="/moto/pakelo/cer1.webp" alt="Certification 1" className="h-20 md:h-30 object-cover" />
+              <img src="/moto/pakelo/cer2.webp" alt="Certification 2" className="h-20 md:h-30 object-cover" />
+              <img src="/moto/pakelo/cer3.webp" alt="Certification 3" className="h-20 md:h-30 object-cover" />
             </div>
           </div>
 
           {/* Certifications - Laptop Only (1280px - 1535px) Centered Below */}
           <div data-aos="fade-up" className="hidden xl:flex 2xl:hidden xl:order-3 xl:col-span-12 flex-wrap items-center justify-center gap-10 mt-8">
-            <img src="/moto/pakelo/cer1.png" alt="Certification 1" className="h-30 object-cover" />
-            <img src="/moto/pakelo/cer2.png" alt="Certification 2" className="h-30 object-cover" />
-            <img src="/moto/pakelo/cer3.png" alt="Certification 3" className="h-30 object-cover" />
+            <img src="/moto/pakelo/cer1.webp" alt="Certification 1" className="h-30 object-cover" />
+            <img src="/moto/pakelo/cer2.webp" alt="Certification 2" className="h-30 object-cover" />
+            <img src="/moto/pakelo/cer3.webp" alt="Certification 3" className="h-30 object-cover" />
           </div>
         </div>
       </div>

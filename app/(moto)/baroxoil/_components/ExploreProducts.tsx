@@ -4,15 +4,15 @@ import Button from "./Button";
 import Link from "next/link";
 
 const products = [
-  { id: 1, title: "Passenger Cars [Ultra]", image: "/moto/baroxoil/1.png", link: "#" },
-  { id: 2, title: "Commercial Vehicles [VIATA]", image: "/moto/baroxoil/2.png", link: "#" },
-  { id: 3, title: "Motorbike [MOTA]", image: "/moto/baroxoil/3.png", link: "#" },
-  { id: 4, title: "Agriculture Machine [AGRA]", image: "/moto/baroxoil/4.png", link: "#" },
-  { id: 5, title: "Antifreeze & Coolants", image: "/moto/baroxoil/5.png", link: "#" },
-  { id: 6, title: "Industrial Gear Oils", image: "/moto/baroxoil/6.png", link: "#" },
-  { id: 7, title: "Hydraulic Oils", image: "/moto/baroxoil/7.png", link: "#" },
-  { id: 8, title: "Brake Fluids [TEMPRA]", image: "/moto/baroxoil/8.png", link: "#" },
-  { id: 9, title: "Manual & Automatic transmissions [INFINA]", image: "/moto/baroxoil/9.png", link: "#" },
+  { id: 1, title: "Passenger Cars [Ultra]", image: "/moto/baroxoil/1.webp", link: "#" },
+  { id: 2, title: "Commercial Vehicles [VIATA]", image: "/moto/baroxoil/2.webp", link: "#" },
+  { id: 3, title: "Motorbike [MOTA]", image: "/moto/baroxoil/3.webp", link: "#" },
+  { id: 4, title: "Agriculture Machine [AGRA]", image: "/moto/baroxoil/4.webp", link: "#" },
+  { id: 5, title: "Antifreeze & Coolants", image: "/moto/baroxoil/5.webp", link: "#" },
+  { id: 6, title: "Industrial Gear Oils", image: "/moto/baroxoil/6.webp", link: "#" },
+  { id: 7, title: "Hydraulic Oils", image: "/moto/baroxoil/7.webp", link: "#" },
+  { id: 8, title: "Brake Fluids [TEMPRA]", image: "/moto/baroxoil/8.webp", link: "#" },
+  { id: 9, title: "Manual & Automatic transmissions [INFINA]", image: "/moto/baroxoil/9.webp", link: "#" },
 ];
 
 export default function ExploreProducts() {

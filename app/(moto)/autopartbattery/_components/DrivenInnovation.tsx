@@ -68,7 +68,7 @@ export default function DrivenInnovation() {
                 <div className="flex flex-col gap-5">
                   {highlights.map((item, idx) => (
                     <div key={idx} className="flex items-start gap-3.5 group">
-                      <img src="/moto/autopartbattery/gravity.png" alt="Spark" className="w-7 h-7 mt-1" />
+                      <img src="/moto/autopartbattery/gravity.webp" alt="Spark" className="w-7 h-7 mt-1" />
                       <p className="lato-font text-[#000000] section-text leading-relaxed">
                         <span className="font-bold text-[#000000] mr-1">{item.title} -</span>
                         {item.description}

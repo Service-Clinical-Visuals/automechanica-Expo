@@ -38,7 +38,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="#" className="flex-shrink-0 z-50 flex items-center gap-2">
           <img 
-            src="/moto/autopartbattery/logo.png" 
+            src="/moto/autopartbattery/logo.webp" 
             alt="AutoPart BATTERY Logo" 
             className="h-10 md:h-12 w-auto object-contain" 
            

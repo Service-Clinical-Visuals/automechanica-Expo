@@ -13,27 +13,27 @@ import "swiper/css/navigation";
 const InnovationSection = () => {
   const cards = [
     {
-      image: "/moto/eurol/section7.png",
+      image: "/moto/eurol/section7.webp",
       title: "Toyota Gazoo Racing",
       desc: "Eurol provides technical support to the Toyota GAZOO Racing factory team."
     },
     {
-      image: "/moto/eurol/section71.png",
+      image: "/moto/eurol/section71.webp",
       title: "Chip Ganassi Racing",
       desc: "Powerful Collaboration: Eurol & Chip Ganassi Racing in INDYCAR"
     },
     {
-      image: "/moto/eurol/section72.png",
+      image: "/moto/eurol/section72.webp",
       title: "Invicta Racing",
       desc: "Eurol & Invicta Racing: Powering Performance in Formula 2"
     },
     {
-      image: "/moto/eurol/section73.png",
+      image: "/moto/eurol/section73.webp",
       title: "Eurol Rally Sport",
       desc: "Eurol Rally Sport driver and navigator test our products in the most harsh conditions"
     },
     {
-      image: "/moto/eurol/section74.png",
+      image: "/moto/eurol/section74.webp",
       title: "Tom Coronel",
       desc: "Tom Coronel has driven the Dakar Rally and tested our top products"
     }

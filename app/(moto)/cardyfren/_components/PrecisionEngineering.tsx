@@ -30,7 +30,7 @@ export default function PrecisionEngineering() {
               {/* Bullet 1 */}
               <div className="flex items-start gap-4">
                     <div className="mt-1 flex-shrink-0 ">
-                 <img src="/moto/cardyfren/setting.png" alt="Icon" className="w-6 h-6" />
+                 <img src="/moto/cardyfren/setting.webp" alt="Icon" className="w-6 h-6" />
                 </div>
                 <div>
                   <p className="text-white font-body section-text leading-relaxed">
@@ -42,7 +42,7 @@ export default function PrecisionEngineering() {
               {/* Bullet 2 */}
               <div className="flex items-start gap-4">
                   <div className="mt-1 flex-shrink-0 ">
-                 <img src="/moto/cardyfren/setting.png" alt="Icon" className="w-6 h-6" />
+                 <img src="/moto/cardyfren/setting.webp" alt="Icon" className="w-6 h-6" />
                 </div>
                 <div>
                   <p className="text-white font-body section-text leading-relaxed">
@@ -54,7 +54,7 @@ export default function PrecisionEngineering() {
               {/* Bullet 3 */}
               <div className="flex items-start gap-4">
                 <div className="mt-1 flex-shrink-0 ">
-                 <img src="/moto/cardyfren/setting.png" alt="Icon" className="w-6 h-6" />
+                 <img src="/moto/cardyfren/setting.webp" alt="Icon" className="w-6 h-6" />
                 </div>
                 <div>
                   <p className="text-white font-body section-text leading-relaxed">

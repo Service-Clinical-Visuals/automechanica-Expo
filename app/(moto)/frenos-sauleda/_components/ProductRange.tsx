@@ -6,32 +6,32 @@ import { ChevronRight } from "lucide-react";
 
 const categories = {
   "Brake Pads": [
-    { id: 1, name: "G95", image: "/moto/frenos-sauleda/1.png" },
-    { id: 2, name: "MM-MEX", image: "/moto/frenos-sauleda/2.png" },
-    { id: 3, name: "FAG18/15", image: "/moto/frenos-sauleda/3.png" },
-    { id: 4, name: "GHFM", image: "/moto/frenos-sauleda/4.png" },
-    { id: 5, name: "FAG/M", image: "/moto/frenos-sauleda/5.png" },
+    { id: 1, name: "G95", image: "/moto/frenos-sauleda/1.webp" },
+    { id: 2, name: "MM-MEX", image: "/moto/frenos-sauleda/2.webp" },
+    { id: 3, name: "FAG18/15", image: "/moto/frenos-sauleda/3.webp" },
+    { id: 4, name: "GHFM", image: "/moto/frenos-sauleda/4.webp" },
+    { id: 5, name: "FAG/M", image: "/moto/frenos-sauleda/5.webp" },
   ],
   "Clutch Facings": [
-    { id: 6, name: "G95", image: "/moto/frenos-sauleda/6.png" },
-    { id: 7, name: "FAG/M", image: "/moto/frenos-sauleda/7.png" },
-    { id: 8, name: "NT-DV", image: "/moto/frenos-sauleda/8.png" },
-    { id: 9, name: "MM", image: "/moto/frenos-sauleda/9.png" },
-    { id: 10, name: "FAG/M", image: "/moto/frenos-sauleda/10.png" },
+    { id: 6, name: "G95", image: "/moto/frenos-sauleda/6.webp" },
+    { id: 7, name: "FAG/M", image: "/moto/frenos-sauleda/7.webp" },
+    { id: 8, name: "NT-DV", image: "/moto/frenos-sauleda/8.webp" },
+    { id: 9, name: "MM", image: "/moto/frenos-sauleda/9.webp" },
+    { id: 10, name: "FAG/M", image: "/moto/frenos-sauleda/10.webp" },
   ],
   "Press Blocks": [
-    { id: 11, name: "FAG/M", image: "/moto/frenos-sauleda/11.png" },
-    { id: 12, name: "MM", image: "/moto/frenos-sauleda/12.png" },
-    { id: 13, name: "NT-DV", image: "/moto/frenos-sauleda/13.png" },
-    { id: 14, name: "G05", image: "/moto/frenos-sauleda/14.png" },
-    { id: 15, name: "FAG/M", image: "/moto/frenos-sauleda/15.png" },
+    { id: 11, name: "FAG/M", image: "/moto/frenos-sauleda/11.webp" },
+    { id: 12, name: "MM", image: "/moto/frenos-sauleda/12.webp" },
+    { id: 13, name: "NT-DV", image: "/moto/frenos-sauleda/13.webp" },
+    { id: 14, name: "G05", image: "/moto/frenos-sauleda/14.webp" },
+    { id: 15, name: "FAG/M", image: "/moto/frenos-sauleda/15.webp" },
   ],
   "Other": [
-    { id: 16, name: "G95", image: "/moto/frenos-sauleda/1.png" },
-    { id: 17, name: "MM-MEX", image: "/moto/frenos-sauleda/2.png" },
-    { id: 18, name: "FAG18/15", image: "/moto/frenos-sauleda/3.png" },
-    { id: 19, name: "GHFM", image: "/moto/frenos-sauleda/4.png" },
-    { id: 20, name: "FAG/M", image: "/moto/frenos-sauleda/5.png" },
+    { id: 16, name: "G95", image: "/moto/frenos-sauleda/1.webp" },
+    { id: 17, name: "MM-MEX", image: "/moto/frenos-sauleda/2.webp" },
+    { id: 18, name: "FAG18/15", image: "/moto/frenos-sauleda/3.webp" },
+    { id: 19, name: "GHFM", image: "/moto/frenos-sauleda/4.webp" },
+    { id: 20, name: "FAG/M", image: "/moto/frenos-sauleda/5.webp" },
   ]
 };
 

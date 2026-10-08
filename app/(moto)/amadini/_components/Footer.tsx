@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="flex flex-col space-y-6 xl:col-span-3">
             <Link href="/amadini" className="inline-block">
               <img
-                src="/moto/amadini/footerlogo.png" // using footerlogo.png based on previous directory list
+                src="/moto/amadini/footerlogo.webp" // using footerlogo.webp based on previous directory list
                 alt="Amadini Logo"
                 className="h-12 xl:h-24 w-auto object-contain"
               />

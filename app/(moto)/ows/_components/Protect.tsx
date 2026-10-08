@@ -10,7 +10,7 @@ const Protect = () => {
         
         {/* Image */}
         <div className="order-1 lg:col-span-5 w-full  flex justify-center" data-aos="fade-right">
-          <img src="/moto/ows/section3.png" alt="Engine Protection" className="w-full  object-contain" />
+          <img src="/moto/ows/section3.webp" alt="Engine Protection" className="w-full  object-contain" />
         </div>
 
         {/* Content */}

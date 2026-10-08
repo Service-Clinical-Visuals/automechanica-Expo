@@ -16,7 +16,7 @@ export default function Footer() {
           {/* Column 1: Logo & Description */}
           <div className="flex flex-col gap-6 xl:col-span-3" data-aos="fade-up" data-aos-delay="100">
              <Link href="#" className="w-full">
-               <img src="/moto/autochemi/logo.png" alt="AutoChemie Logo" className="w-[60%] sm:w-[50%] md:w-[60%] h-auto object-contain object-left" />
+               <img src="/moto/autochemi/logo.webp" alt="AutoChemie Logo" className="w-[60%] sm:w-[50%] md:w-[60%] h-auto object-contain object-left" />
              </Link>
              <Typography variant="p" color="muted" className="footer-body mt-2 leading-relaxed max-w-[90%] font-medium">
                Trusted worldwide for premium lubricants that deliver superior protection, efficiency, and consistent performance.

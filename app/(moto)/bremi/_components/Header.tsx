@@ -52,7 +52,7 @@ export default function Header() {
           {/* Logo Area */}
           <div className="flex-shrink-0 flex items-center">
              <Link href="#">
-               <img src="/moto/bremi/logo1.png" alt="Bremi Logo" className="h-8 lg:h-12 w-auto object-contain" />
+               <img src="/moto/bremi/logo1.webp" alt="Bremi Logo" className="h-8 lg:h-12 w-auto object-contain" />
              </Link>
           </div>
 

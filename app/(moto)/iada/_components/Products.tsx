@@ -7,31 +7,31 @@ import Button from "./Button";
 
 const productData: Record<string, {title: string, image: string}[]> = {
   "Lubricants": [
-    { title: "Motor Oils - Light Vehicle", image: "/moto/iadaAutomechanika/exp1.png" },
-    { title: "Motor Oils - Heavy Vehicle", image: "/moto/iadaAutomechanika/exp2.png" },
-    { title: "Gear And Transmission Oils", image: "/moto/iadaAutomechanika/exp3.png" },
-    { title: "Hydraulic And Farm Oils", image: "/moto/iadaAutomechanika/exp4.png" },
+    { title: "Motor Oils - Light Vehicle", image: "/moto/iadaAutomechanika/exp1.webp" },
+    { title: "Motor Oils - Heavy Vehicle", image: "/moto/iadaAutomechanika/exp2.webp" },
+    { title: "Gear And Transmission Oils", image: "/moto/iadaAutomechanika/exp3.webp" },
+    { title: "Hydraulic And Farm Oils", image: "/moto/iadaAutomechanika/exp4.webp" },
   ],
   "Brakes & Transmissions": [
-    { title: "Brake fluid", image: "/moto/iadaAutomechanika/exp5.png" },
-    { title: "Automatic transmission fluids", image: "/moto/iadaAutomechanika/exp6.png" },
+    { title: "Brake fluid", image: "/moto/iadaAutomechanika/exp5.webp" },
+    { title: "Automatic transmission fluids", image: "/moto/iadaAutomechanika/exp6.webp" },
   ],
   "Coolants and Antifreezes": [
-    { title: "E-MOBILITY", image: "/moto/iadaAutomechanika/exp7.png" },
-    { title: "Coolants - Antifreezes", image: "/moto/iadaAutomechanika/exp8.png" },
-    { title: "Glycogel - Organic", image: "/moto/iadaAutomechanika/exp9.png" },
-    { title: "Glyco-Truck", image: "/moto/iadaAutomechanika/exp10.png" },
+    { title: "E-MOBILITY", image: "/moto/iadaAutomechanika/exp7.webp" },
+    { title: "Coolants - Antifreezes", image: "/moto/iadaAutomechanika/exp8.webp" },
+    { title: "Glycogel - Organic", image: "/moto/iadaAutomechanika/exp9.webp" },
+    { title: "Glyco-Truck", image: "/moto/iadaAutomechanika/exp10.webp" },
   ],
   "Car Care & Cleaners": [
-    { title: "Car Care", image: "/moto/iadaAutomechanika/exp11.png" },
-    { title: "Windshield Cleaners", image: "/moto/iadaAutomechanika/exp12.png" },
-    { title: "Professional Cleaning Products", image: "/moto/iadaAutomechanika/exp13.png" },
-    { title: "Red Line", image: "/moto/iadaAutomechanika/exp14.png" },
+    { title: "Car Care", image: "/moto/iadaAutomechanika/exp11.webp" },
+    { title: "Windshield Cleaners", image: "/moto/iadaAutomechanika/exp12.webp" },
+    { title: "Professional Cleaning Products", image: "/moto/iadaAutomechanika/exp13.webp" },
+    { title: "Red Line", image: "/moto/iadaAutomechanika/exp14.webp" },
   ],
   "Additives and greases": [
-    { title: "Additives - Car Additives", image: "/moto/iadaAutomechanika/exp15.png" },
-    { title: "Additives - Cargo Additives", image: "/moto/iadaAutomechanika/exp16.png" },
-    { title: "Greases", image: "/moto/iadaAutomechanika/exp17.png" },
+    { title: "Additives - Car Additives", image: "/moto/iadaAutomechanika/exp15.webp" },
+    { title: "Additives - Cargo Additives", image: "/moto/iadaAutomechanika/exp16.webp" },
+    { title: "Greases", image: "/moto/iadaAutomechanika/exp17.webp" },
   ]
 };
 

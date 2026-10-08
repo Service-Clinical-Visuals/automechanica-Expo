@@ -43,7 +43,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/liqui-moly/logo.png" alt="Liqui Moly Logo" className="w-[120px] md:w-[140px] h-auto object-contain" />
+                <img src="/moto/liqui-moly/logo.webp" alt="Liqui Moly Logo" className="w-[120px] md:w-[140px] h-auto object-contain" />
               </Link>
             </div>
 
@@ -70,7 +70,7 @@ export default function Header() {
             <div className="hidden xl:flex items-center gap-4">
               {/* Search Box */}
               <div className="relative flex items-center bg-gray-100 rounded-[4px] px-3 py-2 w-[250px] 2xl:w-[350px]">
-                <img src="/moto/liqui-moly/search.png" alt="Search" className="w-3 h-3 mr-2" />
+                <img src="/moto/liqui-moly/search.webp" alt="Search" className="w-3 h-3 mr-2" />
                 <input 
                   type="text" 
                   placeholder="Motor Oils, additives, vehicle maintenance..." 
@@ -79,22 +79,22 @@ export default function Header() {
               </div>
 
               {/* Oil Guide Button */}
-              <Button variant="secondary" icon="/moto/liqui-moly/drop.png">
+              <Button variant="secondary" icon="/moto/liqui-moly/drop.webp">
                 Oil guide
               </Button>
 
               {/* Language Selector */}
               <div className="flex items-center gap-2 cursor-pointer text-gray-700 hover:text-[var(--color-primary)] transition-colors ml-1">
-                <img src="/moto/liqui-moly/glob.png" alt="Globe" className="w-6 h-6 object-contain" />
+                <img src="/moto/liqui-moly/glob.webp" alt="Globe" className="w-6 h-6 object-contain" />
                 <span className="font-semibold lang-text">EN</span>
-                <img src="/moto/liqui-moly/arow.png" alt="Arrow Down" className="w-3 h-3 object-contain " />
+                <img src="/moto/liqui-moly/arow.webp" alt="Arrow Down" className="w-3 h-3 object-contain " />
               </div>
             </div>
 
             {/* Mobile Menu Button */}
             <div className="xl:hidden flex items-center gap-3">
               <div className="hidden sm:block">
-                <Button variant="secondary" icon="/moto/liqui-moly/drop.png">
+                <Button variant="secondary" icon="/moto/liqui-moly/drop.webp">
                   Oil guide
                 </Button>
               </div>
@@ -119,7 +119,7 @@ export default function Header() {
           <div className="p-4 bg-gray-50 border-b border-gray-100">
              {/* Mobile Search Box */}
              <div className="relative flex items-center bg-gray-200 rounded-[4px] px-3 py-3 w-full">
-                <img src="/moto/liqui-moly/search.png" alt="Search" className="w-3 h-3 mr-2" />
+                <img src="/moto/liqui-moly/search.webp" alt="Search" className="w-3 h-3 mr-2" />
                 <input 
                   type="text" 
                   placeholder="Motor Oils, additives, vehicle maintenance..." 
@@ -145,13 +145,13 @@ export default function Header() {
             ))}
             
             <div className="p-6 sm:hidden border-t border-gray-100">
-              <Button variant="secondary" className="w-full justify-center" icon="/moto/liqui-moly/drop.png">
+              <Button variant="secondary" className="w-full justify-center" icon="/moto/liqui-moly/drop.webp">
                 Oil guide
               </Button>
             </div>
             
             <div className="px-6 py-4 flex items-center gap-2 border-t border-gray-100 text-gray-700">
-               <img src="/moto/liqui-moly/glob.png" alt="Globe" className="w-6 h-6 object-contain" />
+               <img src="/moto/liqui-moly/glob.webp" alt="Globe" className="w-6 h-6 object-contain" />
                <span className="font-semibold lang-text">English (EN)</span>
             </div>
           </nav>

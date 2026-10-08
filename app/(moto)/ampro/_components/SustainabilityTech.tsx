@@ -8,13 +8,13 @@ import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 const features = [
   {
     id: 1,
-    icon: "/moto/ampro/d1.png",
+    icon: "/moto/ampro/d1.webp",
     title: "Cleaner Exhaust Emissions : ",
     description: "Monitors NOx levels to help reduce harmful vehicle emissions",
   },
   {
     id: 2,
-    icon: "/moto/ampro/d2.png",
+    icon: "/moto/ampro/d2.webp",
     title: "Accurate Monitoring : ",
     description: "Provides precise NOx data for efficient emission control.",
   },
@@ -24,7 +24,7 @@ const SustainabilityTech = () => {
   return (
     <section
       className="w-full py-16 xl:py-24 bg-cover bg-center bg-no-repeat overflow-hidden"
-      style={{ backgroundImage: "url('/moto/ampro/bg6.png')" }}
+      style={{ backgroundImage: "url('/moto/ampro/bg6.webp')" }}
     >
       <div className="custom-container flex flex-col 2xl:grid 2xl:grid-cols-12 gap-10 min-[3800px]:gap-16 items-center">
 

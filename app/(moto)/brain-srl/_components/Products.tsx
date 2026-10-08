@@ -12,16 +12,16 @@ export default function Products() {
   const [activeTab, setActiveTab] = useState<'automotive' | 'industrial' | 'all'>('automotive');
 
   const automotiveProducts = [
-    { id: 1, title: 'CATALYSTS REGENERATED WITH METAL SUBSTRATES', image: '/moto/brain-srl/frame11.png' },
-    { id: 2, title: 'CATALYTIC CONVERTERS FOR CARS WITH GAS/LPG SYSTEMS', image: '/moto/brain-srl/frame12.png' },
-    { id: 3, title: 'HEAT-TREATED PARTICULATE FILTERS CLEANED', image: '/moto/brain-srl/frame13.png' },
-    { id: 4, title: 'CERAMIC PARTICULATE FILTERS SPECIFICALLY FOR CARS', image: '/moto/brain-srl/frame14.png' }
+    { id: 1, title: 'CATALYSTS REGENERATED WITH METAL SUBSTRATES', image: '/moto/brain-srl/frame11.webp' },
+    { id: 2, title: 'CATALYTIC CONVERTERS FOR CARS WITH GAS/LPG SYSTEMS', image: '/moto/brain-srl/frame12.webp' },
+    { id: 3, title: 'HEAT-TREATED PARTICULATE FILTERS CLEANED', image: '/moto/brain-srl/frame13.webp' },
+    { id: 4, title: 'CERAMIC PARTICULATE FILTERS SPECIFICALLY FOR CARS', image: '/moto/brain-srl/frame14.webp' }
   ];
 
   const industrialProducts = [
-    { id: 5, title: 'WELDABLE METAL SUBSTRATE CATALYTIC CONVERTERS', image: '/moto/brain-srl/frame21.png' },
-    { id: 6, title: 'SUBSTRATES FOR INDUSTRIAL DIESEL ENGINES', image: '/moto/brain-srl/frame22.png' },
-    { id: 7, title: 'SUBSTRATES FOR THE SELECTIVE REDUCTION OF NITROGEN OXIDES (SCR)', image: '/moto/brain-srl/frame23.png' }
+    { id: 5, title: 'WELDABLE METAL SUBSTRATE CATALYTIC CONVERTERS', image: '/moto/brain-srl/frame21.webp' },
+    { id: 6, title: 'SUBSTRATES FOR INDUSTRIAL DIESEL ENGINES', image: '/moto/brain-srl/frame22.webp' },
+    { id: 7, title: 'SUBSTRATES FOR THE SELECTIVE REDUCTION OF NITROGEN OXIDES (SCR)', image: '/moto/brain-srl/frame23.webp' }
   ];
 
   const allProducts = [...automotiveProducts, ...industrialProducts];

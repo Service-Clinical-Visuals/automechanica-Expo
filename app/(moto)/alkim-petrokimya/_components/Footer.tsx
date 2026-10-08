@@ -2,6 +2,8 @@
 
 import React from "react";
 import Link from "next/link";
+import { FaTiktok, FaFacebookF, FaLinkedinIn, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -14,7 +16,7 @@ export default function Footer() {
           <div className="lg:col-span-5 flex flex-col gap-6 lg:pr-12 border-r-0 lg:border-r border-gray-600" data-aos="fade-up">
             <Link href="#" className="flex items-center gap-3">
               <img
-                src="/moto/alkim-petrokimya/footer-logo.png"
+                src="/moto/alkim-petrokimya/footer-logo.webp"
                 alt="Alkim Petrokimya Logo"
                 className="h-auto md:h-auto object-contain px-2"
               />
@@ -50,11 +52,11 @@ export default function Footer() {
             <h4 className="text-base md:text-lg orbitron font-medium tracking-wide">Contact Us</h4>
             <div className="flex flex-col gap-6 text-sm text-[#cccccc]">
               <div className="flex items-center gap-3">
-                <img src="/moto/alkim-petrokimya/phone.png" alt="Phone" className="w-auto h-auto flex-shrink-0 object-contain" />
+                <img src="/moto/alkim-petrokimya/phone.webp" alt="Phone" className="w-auto h-auto flex-shrink-0 object-contain" />
                 <span>0216 593 24 61</span>
               </div>
               <div className="flex items-start gap-3">
-                <img src="/moto/alkim-petrokimya/loc.png" alt="Location" className="w-auto h-auto flex-shrink-0 object-contain mt-1" />
+                <img src="/moto/alkim-petrokimya/loc.webp" alt="Location" className="w-auto h-auto flex-shrink-0 object-contain mt-1" />
                 <span className="leading-relaxed">
                   Kimya Sanayicileri OSB<br />
                   Melek Aras Bulvarı,<br />
@@ -74,13 +76,13 @@ export default function Footer() {
           {/* Social */}
           <div className="flex flex-col items-center xl:items-start gap-4">
             <span className="orbitron font-normal tracking-wide">Social</span>
-            <div className="flex items-center gap-4">
-              <Link href="#"><img src="/moto/sigam/music.png" alt="Tiktok" className="h-[15px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
-              <Link href="#"><img src="/moto/sigam/fb.png" alt="Facebook" className="h-[15px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
-              <Link href="#"><img src="/moto/sigam/in.png" alt="LinkedIn" className="h-[15px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
-              <Link href="#"><img src="/moto/sigam/x.png" alt="X" className="h-[15px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
-              <Link href="#"><img src="/moto/sigam/insta..png" alt="Instagram" className="h-[15px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
-              <Link href="#"><img src="/moto/sigam/you.png" alt="YouTube" className="h-[15px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
+            <div className="flex items-center gap-4 text-white">
+              <Link href="#" className="hover:text-[#FEC52E] transition-colors hover:scale-110"><FaTiktok className="w-4 h-4" /></Link>
+              <Link href="#" className="hover:text-[#FEC52E] transition-colors hover:scale-110"><FaFacebookF className="w-4 h-4" /></Link>
+              <Link href="#" className="hover:text-[#FEC52E] transition-colors hover:scale-110"><FaLinkedinIn className="w-4 h-4" /></Link>
+              <Link href="#" className="hover:text-[#FEC52E] transition-colors hover:scale-110"><FaXTwitter className="w-4 h-4" /></Link>
+              <Link href="#" className="hover:text-[#FEC52E] transition-colors hover:scale-110"><FaInstagram className="w-4 h-4" /></Link>
+              <Link href="#" className="hover:text-[#FEC52E] transition-colors hover:scale-110"><FaYoutube className="w-4 h-4" /></Link>
             </div>
           </div>
 

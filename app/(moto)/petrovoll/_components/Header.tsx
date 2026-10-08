@@ -46,7 +46,7 @@ export default function Header() {
         <div className="bg-dark text-white rounded-tr-[60px] px-10 xl:px-12 flex items-center justify-center min-w-[220px] xl:min-w-[280px] shrink-0 shadow-md">
           <Link href="/petrovoll" className="flex items-center">
             <img
-              src="/moto/petrovoll/icon.png"
+              src="/moto/petrovoll/icon.webp"
               alt="Petrovöll Logo"
               className="h-16 xl:h-16 object-contain filter brightness-110"
             />
@@ -62,7 +62,7 @@ export default function Header() {
                    {link.name}
                 </Link>
                 {link.hasDropdown && (
-                 <img src="/moto/petrovoll/arrow1.png" className="ml-2"/>
+                 <img src="/moto/petrovoll/arrow1.webp" className="ml-2"/>
                 )}            
               </div>
             ))}
@@ -89,7 +89,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/petrovoll" className="flex items-center">
           <img
-            src="/moto/petrovoll/icon.png"
+            src="/moto/petrovoll/icon.webp"
             alt="Petrovöll Logo"
             className="h-10 object-contain"
           />

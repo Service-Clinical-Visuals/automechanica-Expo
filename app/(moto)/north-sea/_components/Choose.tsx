@@ -84,7 +84,7 @@ export default function Choose() {
 
               <div className="w-full max-w-[500px] 3xl:max-w-[00px] mx-auto xl:mx-0 xl:ml-auto mt-12 xl:mt-auto relative z-20">
                 <img
-                  src="/moto/north-sea/why_work_2.png"
+                  src="/moto/north-sea/why_work_2.webp"
                   alt="North Sea Lubricants product range"
                   className="w-full h-auto object-contain xl:translate-y-8"
                 />

@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="lg:col-span-3 flex flex-col space-y-6">
             <Link href="/abs-allbrakes" className="block  p-2">
               <img
-                src="/moto/abs-allbrakes/logo.png"
+                src="/moto/abs-allbrakes/logo.webp"
                 alt="ABS Logo"
                 className="w-[35%]  object-contain"
               />

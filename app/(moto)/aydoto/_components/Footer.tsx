@@ -28,7 +28,7 @@ export default function Footer() {
           <div className="lg:col-span-3 flex flex-col items-start" data-aos="fade-up">
             <Link href="/aydoto" className="inline-block mb-5">
               <img
-                src="/moto/aydoto/footerlogo.png"
+                src="/moto/aydoto/footerlogo.webp"
                 alt="AYD Automotive Industry"
                 className="w-48 md:w-56 h-auto object-contain"
               />
@@ -78,7 +78,7 @@ export default function Footer() {
             </h3>
             <div className="flex items-start gap-3 mt-1">
               <div className="w-5 h-5 rounded-full bg-white/10 flex items-center justify-center flex-shrink-0 mt-1">
-               <img src="/moto/aydoto/location.png" alt="Location" />
+               <img src="/moto/aydoto/location.webp" alt="Location" />
               </div>
               <p className="oswald-font font-normal text-white section-text leading-relaxed">
                 Büyükkayacık OSB Mah. <br/>Vali İhsandede Caddesi No:7, Konya, <br/>Selçuklu 42250, TR
@@ -94,7 +94,7 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               
                 <img
-                  src="/moto/aydoto/in.png"
+                  src="/moto/aydoto/in.webp"
                   alt="LinkedIn"
                   className="w-12 h-12 object-contain"
                  

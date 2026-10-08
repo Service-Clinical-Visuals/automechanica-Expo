@@ -8,7 +8,7 @@ const Deg360 = () => {
   return (
     <section
       id="choose"
-      className="w-full py-16  text-white relative bg-[url('/moto/ampro/bg.png')] bg-cover bg-center bg-no-repeat"
+      className="w-full py-16  text-white relative bg-[url('/moto/ampro/bg.webp')] bg-cover bg-center bg-no-repeat"
     >
 
       <div className="absolute inset-0 z-0"></div>

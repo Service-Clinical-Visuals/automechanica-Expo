@@ -2,10 +2,10 @@ import React from 'react';
 
 export default function AboutUs() {
   const specializations = [
-    { name: "Fuel Filter", icon: "/moto/muller-filter/abt1.png" },
-    { name: "Oil Filter", icon: "/moto/muller-filter/abt2.png" },
-    { name: "Air Filter", icon: "/moto/muller-filter/abt3.png" },
-    { name: "Cabin air filter", icon: "/moto/muller-filter/abt4.png" }
+    { name: "Fuel Filter", icon: "/moto/muller-filter/abt1.webp" },
+    { name: "Oil Filter", icon: "/moto/muller-filter/abt2.webp" },
+    { name: "Air Filter", icon: "/moto/muller-filter/abt3.webp" },
+    { name: "Cabin air filter", icon: "/moto/muller-filter/abt4.webp" }
   ];
 
   return (
@@ -29,7 +29,7 @@ export default function AboutUs() {
           {/* Left: Image */}
           <div className="2xl:col-span-7 rounded-2xl overflow-hidden shadow-2xl relative h-[400px] lg:h-[550px] 2xl:h-[550px] w-full" data-aos="fade-right">
             <img 
-              src="/moto/muller-filter/abt.png" 
+              src="/moto/muller-filter/abt.webp" 
               alt="Muller Filter Headquarters" 
               className="absolute inset-0 w-full h-full object-cover object-center"
             />
@@ -51,7 +51,7 @@ export default function AboutUs() {
 
             {/* Specialized Box */}
             <div className="bg-white rounded-2xl p-4 lg:p-6 text-black relative overflow-hidden shadow-xl ">
-              <div className="absolute inset-0  pointer-events-none" style={{ backgroundImage: 'url(/moto/muller-filter/abtbg.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
+              <div className="absolute inset-0  pointer-events-none" style={{ backgroundImage: 'url(/moto/muller-filter/abtbg.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
               
               <div className="relative z-10">
                 <h3 className="text-center font-bold sub-title font-chakra mb-8 text-[#1e1e1e]">We are Specialized</h3>

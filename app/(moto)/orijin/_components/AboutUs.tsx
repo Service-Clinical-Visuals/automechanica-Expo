@@ -13,7 +13,7 @@ export default function AboutUs() {
           {/* Left Image */}
           <div className="w-full h-full lg:col-span-6" data-aos="fade-right">
             <img
-              src="/moto/orijin/abt.png"
+              src="/moto/orijin/abt.webp"
               alt="Orjin Automotive Facility"
               className="w-full h-full object-cover rounded-xl shadow-sm"
               onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-200 flex items-center justify-center text-gray-500 rounded-xl">Facility Image</div>' }}
@@ -50,7 +50,7 @@ export default function AboutUs() {
               {/* Card 1 */}
               <div className="flex border border-[#F39200] rounded-[5px] overflow-hidden shadow-sm">
                 <div className="bg-[#F39200] w-20 flex items-center justify-center flex-shrink-0 mr-3">
-                  <img src="/moto/orijin/abt1.png" alt="Factory" className="w-auto h-auto object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M17 18h1"/><path d="M12 18h1"/><path d="M7 18h1"/></svg>' }} />
+                  <img src="/moto/orijin/abt1.webp" alt="Factory" className="w-auto h-auto object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M17 18h1"/><path d="M12 18h1"/><path d="M7 18h1"/></svg>' }} />
                 </div>
                 <div className="p-4 bg-white flex flex-col justify-center">
                   <h4 className="font-semibold oswald-font text-[#272727] card-title mb-1">Advanced Manufacturing</h4>
@@ -61,7 +61,7 @@ export default function AboutUs() {
               {/* Card 2 */}
               <div className="flex border border-[#F39200] rounded-[5px] overflow-hidden shadow-sm">
                 <div className="bg-[#F39200] w-20 flex items-center justify-center flex-shrink-0 mr-3">
-                  <img src="/moto/orijin/abt2.png" alt="Globe" className="w-auto h-auto object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>' }} />
+                  <img src="/moto/orijin/abt2.webp" alt="Globe" className="w-auto h-auto object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>' }} />
                 </div>
                 <div className="p-4 bg-white flex flex-col justify-center">
                   <h4 className="font-semibold oswald-font text-[#272727] card-title mb-1">Global Presence</h4>

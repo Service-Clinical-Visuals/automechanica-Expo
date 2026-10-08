@@ -40,23 +40,23 @@ export default function Header() {
         <div className="custom-container flex justify-between items-center">
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
-              <img src="/moto/mistral/phone-call.png" alt="" className="w-4 h-4" />
+              <img src="/moto/mistral/phone-call.webp" alt="" className="w-4 h-4" />
               <span className="oswald header-sublink font-normal">+39 0331.534695</span>
             </div>
             <div className="flex items-center gap-2">
-              <img src="/moto/mistral/printer.png" alt="" className="w-4 h-4" />
+              <img src="/moto/mistral/printer.webp" alt="" className="w-4 h-4" />
               <span className="oswald header-sublink font-normal">+39 0331.534678</span>
             </div>
             <div className="flex items-center gap-2">
-              <img src="/moto/mistral/mail.png" alt="" className="w-4 h-4" />
+              <img src="/moto/mistral/mail.webp" alt="" className="w-4 h-4" />
               <span className="oswald header-sublink font-normal">info@campi.eu</span>
             </div>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-[1px] h-[18px] bg-white"></div>
             <span className="oswald header-sublink font-normal">Translate:</span>
-            <img src="/moto/mistral/flag1.png" alt="Italy Flag" className="h-[16px] w-auto cursor-pointer" />
-            <img src="/moto/mistral/flag2.png" alt="UK Flag" className="h-[16px] w-auto cursor-pointer" />
+            <img src="/moto/mistral/flag1.webp" alt="Italy Flag" className="h-[16px] w-auto cursor-pointer" />
+            <img src="/moto/mistral/flag2.webp" alt="UK Flag" className="h-[16px] w-auto cursor-pointer" />
           </div>
         </div>
       </div>
@@ -68,7 +68,7 @@ export default function Header() {
             {/* Logo Area */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="#">
-                <img src="/moto/mistral/logo 1.png" alt="Mistral Logo" className="w-[150px] md:w-[160px] h-auto object-contain" />
+                <img src="/moto/mistral/logo 1.webp" alt="Mistral Logo" className="w-[150px] md:w-[160px] h-auto object-contain" />
               </Link>
             </div>
 
@@ -140,21 +140,21 @@ export default function Header() {
               <div className="flex items-center justify-between pb-4 border-b border-white/20">
                 <span className="oswald font-semibold header-sublink">Translate:</span>
                 <div className="flex items-center gap-3">
-                  <img src="/moto/mistral/flag1.png" alt="Italy Flag" className="h-5 w-auto cursor-pointer" />
-                  <img src="/moto/mistral/flag2.png" alt="UK Flag" className="h-5 w-auto cursor-pointer" />
+                  <img src="/moto/mistral/flag1.webp" alt="Italy Flag" className="h-5 w-auto cursor-pointer" />
+                  <img src="/moto/mistral/flag2.webp" alt="UK Flag" className="h-5 w-auto cursor-pointer" />
                 </div>
               </div>
               <div className="flex flex-col gap-3">
                 <div className="flex items-center gap-3">
-                  <img src="/moto/mistral/phone-call.png" alt="" className="w-4 h-4" />
+                  <img src="/moto/mistral/phone-call.webp" alt="" className="w-4 h-4" />
                   <span className="oswald header-sublink font-normal">+39 0331.534695</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <img src="/moto/mistral/printer.png" alt="" className="w-4 h-4" />
+                  <img src="/moto/mistral/printer.webp" alt="" className="w-4 h-4" />
                   <span className="oswald header-sublink font-normal">+39 0331.534678</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <img src="/moto/mistral/mail.png" alt="" className="w-4 h-4" />
+                  <img src="/moto/mistral/mail.webp" alt="" className="w-4 h-4" />
                   <span className="oswald header-sublink font-normal">info@campi.eu</span>
                 </div>
               </div>

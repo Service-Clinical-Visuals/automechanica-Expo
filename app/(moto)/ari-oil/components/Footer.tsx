@@ -41,7 +41,7 @@ export default function Footer() {
 
             {/* Logo Column */}
             <div className="flex flex-col gap-6 xl:col-span-2 pr-4" data-aos="fade-up">
-              <img src="/moto/ari-oil/logo.png" alt="ARI OIL" className="w-44" />
+              <img src="/moto/ari-oil/logo.webp" alt="ARI OIL" className="w-44" />
               <Typography variant="p" className=" font-oswald !leading-loose  text-[#484848]">
                 Since 1974, Arı Petroleum Chemical Company is producing and selling all types of lubricants and industrial oils with its experienced & qualified team.
               </Typography>

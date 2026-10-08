@@ -50,7 +50,7 @@ export default function Premium() {
             <ul className="space-y-4">
               {features.map((feature) => (
                 <li key={feature} className="flex items-start gap-3">
-                  <img src="/moto/axon-oil/check2.png" alt="" className="w-5 h-5 mt-1 shrink-0" />
+                  <img src="/moto/axon-oil/check2.webp" alt="" className="w-5 h-5 mt-1 shrink-0" />
                   <span className="content-white">{feature}</span>
                 </li>
               ))}

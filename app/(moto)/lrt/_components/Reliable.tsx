@@ -17,7 +17,7 @@ const checklist = [
 ];
 
 function CheckIcon() {
-  return <img src="/moto/lrt/checkwhite.png" alt="" className="shrink-0 mt-1" style={{ width: 22, height: 22 }} />;
+  return <img src="/moto/lrt/checkwhite.webp" alt="" className="shrink-0 mt-1" style={{ width: 22, height: 22 }} />;
 }
 
 export default function Reliable() {
@@ -48,7 +48,7 @@ export default function Reliable() {
             {/* Left: image */}
             <div className="w-full xl:w-[60%] shrink-0" data-aos="fade-right">
               <img
-                src="/moto/lrt/reliable.png"
+                src="/moto/lrt/reliable.webp"
                 alt="LRT Automotive sustainable production"
                 className="w-full h-full object-cover rounded-2xl"
                 style={{ minHeight: 320 }}

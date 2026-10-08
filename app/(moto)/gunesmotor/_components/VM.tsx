@@ -50,7 +50,7 @@ export default function VisionMission() {
           >
             <div className="group relative h-full  w-full overflow-hidden rounded-[10px] border border-[#E4E4E4]">
               <img
-                src="/moto/gunesmotor/vm.png"
+                src="/moto/gunesmotor/vm.webp"
                 alt="Güneş engine valve products"
                 className="object-contain transition-transform duration-700 ease-out group-hover:scale-[1.06] p-4"
               />
@@ -81,7 +81,7 @@ export default function VisionMission() {
               className="flex items-center gap-4 sm:gap-5"
             >
               <Image
-                src="/moto/gunesmotor/vision.png"
+                src="/moto/gunesmotor/vision.webp"
                 alt="Vision icon"
                 width={60}
                 height={60}
@@ -113,7 +113,7 @@ export default function VisionMission() {
               className="flex items-center gap-4 sm:gap-5"
             >
               <Image
-                src="/moto/gunesmotor/mission.png"
+                src="/moto/gunesmotor/mission.webp"
                 alt="Mission icon"
                 width={60}
                 height={60}

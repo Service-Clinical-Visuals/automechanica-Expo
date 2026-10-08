@@ -46,7 +46,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="#">
           <img
-            src="/moto/ditas/logo.png"
+            src="/moto/ditas/logo.webp"
             alt="DİTAŞ Logo"
             className="w-[163px] h-[72px] object-contain"
           />
@@ -74,7 +74,7 @@ export default function Header() {
           Languages
 
           <img
-            src="/moto/ditas/down.png"
+            src="/moto/ditas/down.webp"
             alt=""
             className="w-4 h-4 object-contain translate-y-[2px]"
           />
@@ -114,7 +114,7 @@ export default function Header() {
                 Languages
 
                 <img
-                  src="/moto/ditas/down.png"
+                  src="/moto/ditas/down.webp"
                   alt=""
                   className="w-4 h-4 object-contain"
                 />

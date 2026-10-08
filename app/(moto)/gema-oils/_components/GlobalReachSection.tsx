@@ -21,12 +21,12 @@ export default function GlobalReachSection() {
 
                 {/* Logos */}
                 <div className="flex flex-wrap justify-center items-center gap-8 md:gap-20 w-full" data-aos="fade-up" data-aos-delay="100">
-                    <img src="/moto/gema-oils/ct1.png" alt="API" className="h-auto md:h-auto object-contain" />
-                    <img src="/moto/gema-oils/ct2.png" alt="ISO" className="h-auto md:h-auto object-contain" />
-                    <img src="/moto/gema-oils/ct3.png" alt="TUV CERT" className="h-auto md:h-auto object-contain" />
-                    <img src="/moto/gema-oils/ct4.png" alt="ACEA" className="h-auto md:h-auto object-contain" />
-                    <img src="/moto/gema-oils/ct5.png" alt="NSF" className="h-auto md:h-auto object-contain" />
-                    <img src="/moto/gema-oils/ct6.png" alt="SAE" className="h-auto md:h-auto object-contain" />
+                    <img src="/moto/gema-oils/ct1.webp" alt="API" className="h-auto md:h-auto object-contain" />
+                    <img src="/moto/gema-oils/ct2.webp" alt="ISO" className="h-auto md:h-auto object-contain" />
+                    <img src="/moto/gema-oils/ct3.webp" alt="TUV CERT" className="h-auto md:h-auto object-contain" />
+                    <img src="/moto/gema-oils/ct4.webp" alt="ACEA" className="h-auto md:h-auto object-contain" />
+                    <img src="/moto/gema-oils/ct5.webp" alt="NSF" className="h-auto md:h-auto object-contain" />
+                    <img src="/moto/gema-oils/ct6.webp" alt="SAE" className="h-auto md:h-auto object-contain" />
                 </div>
             </div>
         </section>

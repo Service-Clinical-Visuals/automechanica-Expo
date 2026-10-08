@@ -27,7 +27,7 @@ export default function Academy() {
                 "Wide client range: garages, auto parts dealers, manufacturing businesses, transport companies, constructors, agriculture and worldwide importers"
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-4">
-                  <img src="/moto/ardeca/redwheel.png" alt="wheel icon" className="w-5 h-5 md:w-6 md:h-6 object-contain mt-0.5 flex-shrink-0" />
+                  <img src="/moto/ardeca/redwheel.webp" alt="wheel icon" className="w-5 h-5 md:w-6 md:h-6 object-contain mt-0.5 flex-shrink-0" />
                
                   <p className="text-[#484848] text-sm md:text-[16px] oxanium leading-[1.8]">{item}</p>
                 </li>
@@ -38,7 +38,7 @@ export default function Academy() {
           {/* Right Side: Image */}
           <div className="w-full h-auto shadow-[0_4px_20px_rgba(0,0,0,0.08)]" data-aos="fade-left" data-aos-duration="1000">
             <img 
-              src="/moto/ardeca/academy.png" 
+              src="/moto/ardeca/academy.webp" 
               alt="Ardeca Rally Car" 
               className="w-full h-auto object-cover"
             />
@@ -52,7 +52,7 @@ export default function Academy() {
            
             <h4 className="text-base md:text-xl lg:text-2xl font-semibold  text-black! chakra-petch leading-tight pr-4 tracking-wide"> PRODUCT UPDATES – API SQ & ILSAC GF-7A</h4>
             <div className="w-10 h-10 md:w-12 md:h-12 bg-[#CE0E2D] flex items-center justify-center flex-shrink-0 group-hover:bg-[#a50b24] transition-colors shadow-[0_4px_20px_rgba(0,0,0,0.08)]">
-              <img src="/moto/ardeca/arrow.png" alt="play icon" className="w-4 h-4 md:w-5 md:h-5 object-contain" />
+              <img src="/moto/ardeca/arrow.webp" alt="play icon" className="w-4 h-4 md:w-5 md:h-5 object-contain" />
             </div>
           </Link>
 
@@ -60,7 +60,7 @@ export default function Academy() {
             
             <h4 className="text-base md:text-xl lg:text-2xl font-semibold  text-black! chakra-petch leading-tight pr-4 tracking-wide"> WHEN TO CHANGE YOUR MOTOR OIL?</h4>
             <div className="w-10 h-10 md:w-12 md:h-12 bg-[#CE0E2D] flex items-center justify-center flex-shrink-0 group-hover:bg-[#a50b24] transition-colors shadow-[0_4px_20px_rgba(0,0,0,0.08)]">
-              <img src="/moto/ardeca/arrow.png" alt="play icon" className="w-4 h-4 md:w-5 md:h-5 object-contain" />
+              <img src="/moto/ardeca/arrow.webp" alt="play icon" className="w-4 h-4 md:w-5 md:h-5 object-contain" />
             </div>
           </Link>
 

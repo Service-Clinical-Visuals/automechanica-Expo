@@ -7,25 +7,25 @@ import Container from "./Container";
 const blogs = [
   {
     key: "1",
-    bg: "/moto/gand-oil/blog/1.png",
+    bg: "/moto/gand-oil/blog/1.webp",
     date: "24 . 02 . 2026",
     title: "What lubricant does my motorcycle need? A detailed guide by motorcycle type",
   },
   {
     key: "2",
-    bg: "/moto/gand-oil/blog/2.png",
+    bg: "/moto/gand-oil/blog/2.webp",
     date: "16 . 02 . 2026",
     title: "Diesel engine maintenance: Common problems & solutions",
   },
   {
     key: "3",
-    bg: "/moto/gand-oil/blog/3.png",
+    bg: "/moto/gand-oil/blog/3.webp",
     date: "09 . 02 . 2026",
     title: "When should i change my motorcycle oil? Frequency & warning signs",
   },
   {
     key: "4",
-    bg: "/moto/gand-oil/blog/4.png",
+    bg: "/moto/gand-oil/blog/4.webp",
     date: "25 . 01 . 2026",
     title: "How synthetic oil improves gasoline engine performance",
   },
@@ -160,7 +160,7 @@ export default function Area() {
                     <button className="bg-white/30 text-white text-[16px]! content font-semibold px-4 py-2 rounded-full whitespace-nowrap hover:bg-[#222] transition-colors">
                       Explore Blog
                     </button>
-                    <Image src="/moto/gand-oil/arrow_green.png" alt="Explore" width={32} height={32} className="w-10 h-10 object-contain flex-shrink-0" />
+                    <Image src="/moto/gand-oil/arrow_green.webp" alt="Explore" width={32} height={32} className="w-10 h-10 object-contain flex-shrink-0" />
                   </div>
                 </div>
               </div>

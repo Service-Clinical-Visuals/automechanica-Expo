@@ -9,17 +9,17 @@ export default function AboutUs() {
   const cards = [
     {
       title: "Our Mission",
-      icon: <img src="/moto/launch-europe/1.png" alt="rocket" />,
+      icon: <img src="/moto/launch-europe/1.webp" alt="rocket" />,
       text: "Over 20 years of innovation in professional automotive diagnostics and complete workshop equipment solutions.",
     },
     {
       title: "Our Values",
-      icon: <img src="/moto/launch-europe/2.png" alt="lightbulb" />,
+      icon: <img src="/moto/launch-europe/2.webp" alt="lightbulb" />,
       text: "LAUNCH Europe is committed to innovation, exceptional service, and customer satisfaction, continuously",
     },
     {
       title: "Our Vision",
-      icon: <img src="/moto/launch-europe/3.png" alt="heart" />,
+      icon: <img src="/moto/launch-europe/3.webp" alt="heart" />,
       text: "Driving innovation, expanding our solutions, and achieving sustainable growth in the professional workshop market.",
     },
   ];
@@ -31,7 +31,7 @@ export default function AboutUs() {
           {/* Left Column: Image */}
           <div className="order-2 xl:order-1 w-full h-full min-h-[400px] xl:min-h-[600px] relative rounded-2xl overflow-hidden shadow-lg" data-aos="fade-right">
             <img
-              src="/moto/launch-europe/abt.png"
+              src="/moto/launch-europe/abt.webp"
               alt="Launch Europe Headquarters"
               className="absolute inset-0 w-full h-full object-cover"
             />

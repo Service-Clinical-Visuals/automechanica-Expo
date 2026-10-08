@@ -7,19 +7,19 @@ const newsItems = [
     title: "Research and Development Activities",
     description:
       "Connects the steering to the wheel for precise control.",
-    image: "/moto/ditas/news2.jpg",
+    image: "/moto/ditas/news2.webp",
   },
   {
     title: "Participation in Scientific Congresses",
     description:
       "Sponsored and presented research at the IMSEC engineering congress.",
-    image: "/moto/ditas/news3.jpg",
+    image: "/moto/ditas/news3.webp",
   },
   {
     title: "Adana BTÜ Cooperation Protocol",
     description:
       "Strengthening R&D and innovation through university collaboration.",
-    image: "/moto/ditas/news1.jpg",
+    image: "/moto/ditas/news1.webp",
   },
 ];
 

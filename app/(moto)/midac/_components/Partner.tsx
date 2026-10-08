@@ -64,7 +64,7 @@ export default function Partner() {
           {/* Right: Image */}
           <div className="w-full" data-aos="fade-left">
             <img
-              src="/moto/midac/partner.png"
+              src="/moto/midac/partner.webp"
               alt="Aerial view of a forest with a circular arrow symbolizing sustainability"
               className="w-full h-auto object-contain"
             />

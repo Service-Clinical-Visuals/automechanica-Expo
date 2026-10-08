@@ -22,7 +22,7 @@ const Legacy = () => {
           {/* Left Image (Mobile: Order 2, Desktop: col-span-6) */}
           <div className="w-full order-2 xl:order-1 xl:col-span-7 flex items-center justify-center">
             <img
-              src="/moto/gl-oil/section4.png"
+              src="/moto/gl-oil/section4.webp"
               alt="Lab Technology"
               className="w-full h-full object-cover rounded-2xl aspect-[16/10] shadow-lg"
             />

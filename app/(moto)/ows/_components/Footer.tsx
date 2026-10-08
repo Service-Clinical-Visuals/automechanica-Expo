@@ -12,7 +12,7 @@ const Footer = () => {
           
           {/* Column 1: Logo & Bio (Span 4) */}
           <div className="lg:col-span-4 flex flex-col gap-6">
-            <img src="/moto/ows/logo1.png" alt="OWS Logo" className="w-[180px] xl:w-[220px] 2xl:w-[260px] object-contain" />
+            <img src="/moto/ows/logo1.webp" alt="OWS Logo" className="w-[180px] xl:w-[220px] 2xl:w-[260px] object-contain" />
             <p className="footer-body text-white leading-relaxed xl:text-base max-w-[95%]">
               With a commitment to German engineering and continuous innovation, OWS provides premium automotive products that deliver outstanding performance, durability, and reliable protection for vehicles worldwide.
             </p>

@@ -55,7 +55,7 @@ export default function Technology() {
         {/* Image */}
         <div className="w-full" data-aos="fade-up">
           <img
-            src="/moto/midac/technology.png"
+            src="/moto/midac/technology.webp"
             alt="Midac technicians assembling a battery in the production facility"
             className="w-full h-auto object-cover"
           />

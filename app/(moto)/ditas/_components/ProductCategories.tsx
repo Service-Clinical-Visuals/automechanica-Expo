@@ -12,32 +12,32 @@ const categories = [
   {
     title: "Tie rod end",
     description: "Connects the steering to the wheel for precise control.",
-    image: "/moto/ditas/p3.jpg",
+    image: "/moto/ditas/p3.webp",
   },
   {
     title: "Drawbar",
     description: "Connects the axle to the chassis for stability and control.",
-    image: "/moto/ditas/p4.jpg",
+    image: "/moto/ditas/p4.webp",
   },
   {
     title: "Idler arm",
     description: "Supports the steering linkage for smooth, stable steering.",
-    image: "/moto/ditas/p2.jpg",
+    image: "/moto/ditas/p2.webp",
   },
   {
     title: "Push rod ball joint",
     description: "Transfers steering movement to the wheel.",
-    image: "/moto/ditas/p1.jpg",
+    image: "/moto/ditas/p1.webp",
   },
   {
     title: "Drawbar",
     description: "Connects the axle to the chassis for stability and control.",
-    image: "/moto/ditas/p4.jpg",
+    image: "/moto/ditas/p4.webp",
   },
   {
    title: "Idler arm",
     description: "Supports the steering linkage for smooth, stable steering.",
-    image: "/moto/ditas/p2.jpg",
+    image: "/moto/ditas/p2.webp",
   },
 ];
 

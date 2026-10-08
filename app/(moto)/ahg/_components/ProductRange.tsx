@@ -8,19 +8,19 @@ export default function ProductRange() {
     {
       title: "Diesel Particulate Filter",
       description: "Improve air quality and protect your engine with a high-quality diesel particulate filter from ahg-autoteile-kzpm4lpnbd.live-website.com...",
-      image: "/moto/ahg/pro1.png",
+      image: "/moto/ahg/pro1.webp",
       link: "#"
     },
     {
       title: "Catalyst",
       description: "Increase the efficiency and reduce your vehicle's emissions with a high-quality catalytic converter from ahg-autoteile-kzpm4lpnbd.live-website.com...",
-      image: "/moto/ahg/pro2.png",
+      image: "/moto/ahg/pro2.webp",
       link: "#"
     },
     {
       title: "SCR Catalyst",
       description: "Effectively reduce your vehicle's nitrogen oxide emissions with a premium SCR catalytic converter from ahg-autoteile-kzpm4lpnbd.live-website.com...",
-      image: "/moto/ahg/pro3.png",
+      image: "/moto/ahg/pro3.webp",
       link: "#"
     }
   ];

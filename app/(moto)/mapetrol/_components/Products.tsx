@@ -9,17 +9,17 @@ export default function Products() {
   const products = [
     {
       id: 1,
-      image: "/moto/mapetrol/product1.png",
+      image: "/moto/mapetrol/product1.webp",
       name: "MAPETROL SPARCO\nPERFORMANCE WS2+ 5W-50"
     },
     {
       id: 2,
-      image: "/moto/mapetrol/product2.png",
+      image: "/moto/mapetrol/product2.webp",
       name: "MAPETROL SPARCO\nSPORT 0W-40"
     },
     {
       id: 3,
-      image: "/moto/mapetrol/product3.png",
+      image: "/moto/mapetrol/product3.webp",
       name: "MAPETROL SPARCO\nCOMPETITION LL IV 0W-20"
     }
   ];

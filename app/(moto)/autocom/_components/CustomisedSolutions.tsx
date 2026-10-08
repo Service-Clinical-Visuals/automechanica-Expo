@@ -13,22 +13,22 @@ export default function CustomisedSolutions() {
     {
       title: "Online Diagnostics",
       desc: "Our vision is to provide the right vehicle information when and where it is needed. We create customised online solutions based on your needs.",
-      img: "/moto/autocam/custom1.png"
+      img: "/moto/autocam/custom1.webp"
     },
     {
       title: "Predictive Maintenance",
       desc: "Preventative maintenance is a lucrative area in which many parties in the automotive industry can save a lot of time, energy and resources.",
-      img: "/moto/autocam/custom2.png"
+      img: "/moto/autocam/custom2.webp"
     },
     {
       title: "Real Time Data",
       desc: "Vehicle technical solutions are getting ever more advanced, and with them the needs to communicate with vehicles in real time.",
-      img: "/moto/autocam/custom3.png"
+      img: "/moto/autocam/custom3.webp"
     },
     {
       title: "Vehicle data",
       desc: "For over 30 years, Autocom has built up a massive database of raw, vehicle specific data that can provide access to every system in a vehicle.",
-      img: "/moto/autocam/custom4.png"
+      img: "/moto/autocam/custom4.webp"
     }
   ];
 

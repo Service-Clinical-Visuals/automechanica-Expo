@@ -51,7 +51,7 @@ export default function Header() {
       <div className="custom-container relative p-3 md:p-5 bg-secondary flex items-center justify-between py-4">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-1 z-50">
-          <img src="/moto/exol/logo.jpg" alt="EXOL" className="h-8 md:h-10 xl:h-12 w-auto object-contain" />
+          <img src="/moto/exol/logo.webp" alt="EXOL" className="h-8 md:h-10 xl:h-12 w-auto object-contain" />
         </Link>
 
         {/* Desktop Nav */}

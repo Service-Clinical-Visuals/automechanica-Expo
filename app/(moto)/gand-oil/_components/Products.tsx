@@ -7,17 +7,17 @@ import Container from "./Container";
 const products = [
   {
     key: "1",
-    src: "/moto/gand-oil/product/1.png",
+    src: "/moto/gand-oil/product/1.webp",
     label: "Petrols Engine Oils",
   },
   {
     key: "2",
-    src: "/moto/gand-oil/product/2.png",
+    src: "/moto/gand-oil/product/2.webp",
     label: "Diesel Engine Oils",
   },
   {
     key: "3",
-    src: "/moto/gand-oil/product/3.png",
+    src: "/moto/gand-oil/product/3.webp",
     label: "Motorcycle Lubricants",
   },
 ];
@@ -78,7 +78,7 @@ export default function Products() {
                       View Products
                     </button>
                     <Image
-                      src="/moto/gand-oil/arrow_green.png"
+                      src="/moto/gand-oil/arrow_green.webp"
                       alt="Go"
                       width={44}
                       height={44}

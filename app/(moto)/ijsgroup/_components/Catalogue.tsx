@@ -8,32 +8,32 @@ export default function Catalogue() {
   const catalogues = [
     {
       id: 1,
-      image: "/moto/ijsgroup/p1.png", 
+      image: "/moto/ijsgroup/p1.webp", 
       title: "Camshaft Pulley"
     },
     {
       id: 2,
-      image: "/moto/ijsgroup/p2.png",
+      image: "/moto/ijsgroup/p2.webp",
       title: "Wheel Hub Catalogues"
     },
     {
       id: 3,
-      image: "/moto/ijsgroup/p3.png",
+      image: "/moto/ijsgroup/p3.webp",
       title: "Timing Chain Kits"
     },
     {
       id: 4,
-      image: "/moto/ijsgroup/p4.png",
+      image: "/moto/ijsgroup/p4.webp",
       title: "Crankshaft Pulley Catalogue"
     },
     {
       id: 5,
-      image: "/moto/ijsgroup/p5.png",
+      image: "/moto/ijsgroup/p5.webp",
       title: "Averrunning alternator pulley catalogue"
     },
     {
       id: 6,
-      image: "/moto/ijsgroup/p6.png",
+      image: "/moto/ijsgroup/p6.webp",
       title: "Wheel Barring Kit Catalogue"
     },
   ];
@@ -132,7 +132,7 @@ export default function Catalogue() {
                   alt={item.title} 
                   className="w-full h-auto object-cover group-hover:scale-[1.03] transition-transform duration-500"
                   onError={(e) => {
-                    e.currentTarget.src = `/moto/ijsgroup/7.png`;
+                    e.currentTarget.src = `/moto/ijsgroup/7.webp`;
                   }}
                 />
               </div>

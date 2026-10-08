@@ -14,7 +14,7 @@ export default function AboutUs() {
           <div className="order-2 xl:order-1 h-full" data-aos="fade-right" data-aos-duration="1000">
             <div className="w-full h-full rounded-2xl overflow-hidden shadow-lg">
               <img 
-                src="/moto/amc-amadeo/abt.png" 
+                src="/moto/amc-amadeo/abt.webp" 
                 alt="AMC Facility" 
                 className="w-full h-full object-cover"
               />
@@ -48,7 +48,7 @@ export default function AboutUs() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10">
               {/* Card 1 */}
               <div className="flex items-center gap-4 bg-white border border-gray-100 rounded-lg p-6 shadow-md py-8">
-                <img src="/moto/amc-amadeo/icon1.png" alt="Expertise" className="w-16 h-16 object-contain" />
+                <img src="/moto/amc-amadeo/icon1.webp" alt="Expertise" className="w-16 h-16 object-contain" />
                 <div className="border-l-2 border-gray-100 pl-4 py-4">
                   <h4 className="card-title text-[#272727] font-semibold oswald leading-tight mb-3">
                     65+ Years of Expertise
@@ -61,7 +61,7 @@ export default function AboutUs() {
 
               {/* Card 2 */}
               <div className="flex items-center gap-4 bg-white border border-gray-100 rounded-lg p-6 shadow-lg">
-                <img src="/moto/amc-amadeo/icon2.png" alt="Facilities" className="w-16 h-16 object-contain" />
+                <img src="/moto/amc-amadeo/icon2.webp" alt="Facilities" className="w-16 h-16 object-contain" />
                 <div className="border-l-2 border-gray-100 pl-4 py-4">
                   <h4 className="card-title text-[#272727] font-semibold oswald leading-tight mb-1">
                     44,500 m² Facilities

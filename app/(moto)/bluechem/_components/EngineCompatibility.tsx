@@ -43,7 +43,7 @@ export default function EngineCompatibility() {
           <div className="xl:col-span-5 flex flex-col justify-center order-2 xl:order-1 " data-aos="fade-right">
             <div className="flex items-center gap-3 mb-8">
               <Image 
-                src="/moto/bluechem/arrow.png" 
+                src="/moto/bluechem/arrow.webp" 
                 alt="Arrow Icon" 
                 width={24} 
                 height={24} 
@@ -58,7 +58,7 @@ export default function EngineCompatibility() {
               {listItems.map((item, index) => (
                 <div key={index} className="flex items-start gap-4">
                   <div className="mt-1 shrink-0">
-                    <Image src="/moto/bluechem/wheel.png" alt="wheel" width={20} height={20} className="object-contain animate-spin [animation-duration:8s]" />
+                    <Image src="/moto/bluechem/wheel.webp" alt="wheel" width={20} height={20} className="object-contain animate-spin [animation-duration:8s]" />
                   </div>
                   <p className="text-[#484848] group-hover:text-gray-200 text-[15px] sm:text-[16px] lg:text-[18px] font-medium leading-relaxed  transition-colors duration-300 oxanium">
                     {item.title} – {item.desc}

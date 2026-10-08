@@ -38,12 +38,12 @@ export default function Environmental() {
           data-aos="fade-left"
         >
           <img 
-            src="/moto/autopartbattery/green.png" 
+            src="/moto/autopartbattery/green.webp" 
             alt="AUTOPART Environmental Responsibility and Battery Recycling" 
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             onError={(e) => {
               // Fallback to mannol who/office image or placeholder if environmental image is not yet uploaded
-              e.currentTarget.src = "/moto/mannol/who2.png";
+              e.currentTarget.src = "/moto/mannol/who2.webp";
             }}
           />
         </div>

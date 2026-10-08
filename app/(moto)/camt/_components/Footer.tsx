@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-[30fr_2fr_68fr] gap-10 py-16">
           {/* Logo + tagline */}
           <div data-aos="fade-up">
-            <img src="/moto/camt/logo.png" alt="CAMT" className="h-9 w-auto object-contain mb-5" />
+            <img src="/moto/camt/logo.webp" alt="CAMT" className="h-9 w-auto object-contain mb-5" />
             <p className="content max-w-[370px]">
               CAMT is a trusted automotive technology company delivering advanced NOx sensors and
               thermal management solutions through innovation, precision engineering, and quality

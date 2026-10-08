@@ -37,7 +37,7 @@ export default function Header() {
         <div className="flex items-center justify-between gap-6 py-4">
           {/* Logo */}
           <Link href="/" className="shrink-0">
-            <img src="/moto/belif/logo.png" alt="Belif" className="w-[110px] xl:w-[130px] h-auto object-contain self-center" />
+            <img src="/moto/belif/logo.webp" alt="Belif" className="w-[110px] xl:w-[130px] h-auto object-contain self-center" />
           </Link>
 
           {/* Desktop Navigation */}

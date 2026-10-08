@@ -13,7 +13,7 @@ export default function AboutUs() {
           {/* Left Image */}
           <div className="w-full lg:col-span-6 xl:col-span-6 h-full min-h-[400px] flex order-1" data-aos="fade-right">
             <img
-              src="/moto/efitaller/abt.png"
+              src="/moto/efitaller/abt.webp"
               alt="Efitaller Facility"
               className="w-full h-full object-cover rounded-sm"
             />

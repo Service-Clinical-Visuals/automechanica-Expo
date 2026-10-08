@@ -18,16 +18,16 @@ const tabs: { key: TabKey; label: string }[] = [
 
 const productsByTab: Record<TabKey, { img: string; title: string }[]> = {
   "engine-cooling": [
-    { img: "/moto/dasis/products/ec1.png", title: "Radiator Engine Cooling" },
-    { img: "/moto/dasis/products/ec2.png", title: "Fan Motor Cooling" },
-    { img: "/moto/dasis/products/ec3.png", title: "Fan Couplings" },
-    { img: "/moto/dasis/products/ec4.png", title: "Water Pump" },
+    { img: "/moto/dasis/products/ec1.webp", title: "Radiator Engine Cooling" },
+    { img: "/moto/dasis/products/ec2.webp", title: "Fan Motor Cooling" },
+    { img: "/moto/dasis/products/ec3.webp", title: "Fan Couplings" },
+    { img: "/moto/dasis/products/ec4.webp", title: "Water Pump" },
   ],
   "air-conditioning": [
-    { img: "/moto/dasis/products/ac1.png", title: "Climate Condenser" },
-    { img: "/moto/dasis/products/ac2.png", title: "Air Conditioning Compressor" },
-    { img: "/moto/dasis/products/ac3.png", title: "Evaporator" },
-    { img: "/moto/dasis/products/ac4.png", title: "Water Pump" },
+    { img: "/moto/dasis/products/ac1.webp", title: "Climate Condenser" },
+    { img: "/moto/dasis/products/ac2.webp", title: "Air Conditioning Compressor" },
+    { img: "/moto/dasis/products/ac3.webp", title: "Evaporator" },
+    { img: "/moto/dasis/products/ac4.webp", title: "Water Pump" },
   ],
 };
 

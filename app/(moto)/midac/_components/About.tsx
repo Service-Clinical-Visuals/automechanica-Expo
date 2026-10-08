@@ -6,22 +6,22 @@ import Container from "./Container";
 
 const features = [
   {
-    icon: "/moto/midac/about/innovation.png",
+    icon: "/moto/midac/about/innovation.webp",
     title: "Innovation",
     description: "Continuous Investment to deliver advanced & reliable battery technologies.",
   },
   {
-    icon: "/moto/midac/about/quality.png",
+    icon: "/moto/midac/about/quality.webp",
     title: "Quality",
     description: "Strict quality control & international certifications ensure products you can trust.",
   },
   {
-    icon: "/moto/midac/about/sustainability.png",
+    icon: "/moto/midac/about/sustainability.webp",
     title: "Sustainability",
     description: "We adopt responsible practices and use 97% recycled materials in our lead batteries.",
   },
   {
-    icon: "/moto/midac/about/global.png",
+    icon: "/moto/midac/about/global.webp",
     title: "Global Presence",
     description: "A worldwide network of partners and subsidiaries to be close to our customers.",
   },

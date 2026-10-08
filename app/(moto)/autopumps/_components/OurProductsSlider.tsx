@@ -13,7 +13,7 @@ const products = [
       "OE-Quality Precision – Engineered to original equipment standards for accurate fitment and dependable performance.",
       "Built for Durability – Manufactured from premium materials to withstand demanding operating conditions and extended use."
     ],
-    image: "/moto/autopumps/1.png"
+    image: "/moto/autopumps/1.webp"
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const products = [
       "Optimized Engine Performance – Enhances power delivery, fuel efficiency, and overall engine responsiveness for smoother operation.",
       "Exceptional Thermal Stability – Built to withstand extreme temperatures while maintaining strength, durability, and consistent performance."
     ],
-    image: "/moto/autopumps/2.png"
+    image: "/moto/autopumps/2.webp"
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const products = [
       "Reduced Component Wear – Minimizes friction and mechanical stress to improve engine durability and extend component lifespan.",
       "Smooth Engine Operation – Provides enhanced stability, reduced vibration, and consistent performance in every driving condition."
     ],
-    image: "/moto/autopumps/3.png"
+    image: "/moto/autopumps/3.webp"
   },
   {
     id: 4,
@@ -46,7 +46,7 @@ const products = [
       "Enhanced Performance – Optimizes power delivery, fuel efficiency, and engine responsiveness under all operating conditions.",
       "OE-Quality Engineering – Designed and tested to meet original equipment specifications for dependable long-term performance."
     ],
-    image: "/moto/autopumps/4.png"
+    image: "/moto/autopumps/4.webp"
   },
   {
     id: 5,
@@ -57,7 +57,7 @@ const products = [
       "Resistant to Extreme Conditions – Engineered to perform under high temperatures, pressure, and demanding operating environments.",
       "Long-Lasting Durability – Manufactured from premium materials to deliver consistent sealing performance throughout the product's lifespan."
     ],
-    image: "/moto/autopumps/5.png"
+    image: "/moto/autopumps/5.webp"
   },
   {
     id: 6,
@@ -68,7 +68,7 @@ const products = [
       "Enhanced Engine Protection – Safeguards vital moving parts against heat, friction, and demanding operating conditions.",
       "Extended Service Life – Supports improved engine durability, reduced maintenance requirements, and dependable long-term performance."
     ],
-    image: "/moto/autopumps/6.png"
+    image: "/moto/autopumps/6.webp"
   }
 ];
 

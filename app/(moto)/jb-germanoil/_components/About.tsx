@@ -33,7 +33,7 @@ export default function About() {
           {/* Image */}
           <div className="relative w-full " data-aos="fade-left">
             <img 
-              src="/moto/jb-germanoil/welcome.png" 
+              src="/moto/jb-germanoil/welcome.webp" 
               alt="JB Germanoil Facility" 
               className="w-full h-full object-contain "
             />

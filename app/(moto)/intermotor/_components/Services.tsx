@@ -4,22 +4,22 @@ import Container from "./Container";
 
 const services = [
   {
-    icon: "/moto/intermotor/services/1.png",
+    icon: "/moto/intermotor/services/1.webp",
     title: "OE-Quality Components",
     description: "Premium automotive parts built to OE standards.",
   },
   {
-    icon: "/moto/intermotor/services/2.png",
+    icon: "/moto/intermotor/services/2.webp",
     title: "Global Manufacturing",
     description: "Reliable production and global supply.",
   },
   {
-    icon: "/moto/intermotor/services/3.png",
+    icon: "/moto/intermotor/services/3.webp",
     title: "Engineering Support",
     description: "Premium automotive parts built to OE standards.",
   },
   {
-    icon: "/moto/intermotor/services/4.png",
+    icon: "/moto/intermotor/services/4.webp",
     title: "Trusted Brands",
     description: "Quality solutions from trusted brands.",
   },
@@ -61,7 +61,7 @@ export default function Services() {
           {/* Image */}
           <div className="w-full h-full" data-aos="fade-left">
             <img
-              src="/moto/intermotor/services/services.png"
+              src="/moto/intermotor/services/services.webp"
               alt="Intermotor Group exhibition stand"
               className="w-full h-full object-cover"
             />

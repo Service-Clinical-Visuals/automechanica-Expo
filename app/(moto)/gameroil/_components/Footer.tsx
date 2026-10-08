@@ -14,7 +14,7 @@ const Footer = () => {
 
           {/* Column 1: Logo & Welcome (Span 4) */}
           <div className="col-span-1 md:col-span-2 xl:col-span-4 flex flex-col gap-6 min-[2100px]:gap-10 min-[3800px]:gap-14">
-            <img src="/moto/gameroil/logo.png" alt="Gameroil Logo" className="w-[60%] md:w-[40%] xl:w-[50%] min-[2100px]:w-[60%] min-[3800px]:w-[70%] object-contain" />
+            <img src="/moto/gameroil/logo.webp" alt="Gameroil Logo" className="w-[60%] md:w-[40%] xl:w-[50%] min-[2100px]:w-[60%] min-[3800px]:w-[70%] object-contain" />
             <Typography variant="p" color="none" className="footer-body text-white leading-relaxed max-w-[95%] text-sm min-[2100px]:text-xl min-[3800px]:text-3xl">
               Precision-engineered automotive components manufacturer specializing in advanced casting, machining, and innovative solutions for OEM, OES, and aftermarket markets worldwide.
             </Typography>

@@ -35,7 +35,7 @@ export default function AboutUs() {
             {/* Button */}
             <div className="mt-2 mb-2">
               <Button href="#" variant="primary" className="!bg-[#1E5F2B] hover:!bg-[#154620] !font-sans !font-medium !rounded-md !px-5 !py-2 flex items-center gap-2">
-                Know More <img src="/moto/bg-automotive/tabler_arrow-right.png" alt="Right Arrow" className="w-5 h-5 object-contain" />
+                Know More <img src="/moto/bg-automotive/tabler_arrow-right.webp" alt="Right Arrow" className="w-5 h-5 object-contain" />
               </Button>
             </div>
           </div>
@@ -43,7 +43,7 @@ export default function AboutUs() {
           {/* Right Image */}
           <div className="w-full h-full flex" data-aos="fade-left">
             <img
-              src="/moto/bg-automotive/AbtCompanyImg.png"
+              src="/moto/bg-automotive/AbtCompanyImg.webp"
               alt="BG Automotive Facility"
               className="w-auto h-auto object-cover rounded-md"
             />

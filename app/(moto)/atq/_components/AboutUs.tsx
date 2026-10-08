@@ -62,7 +62,7 @@ const AboutUs = () => {
                 >
                   <div className="w-6 h-6 shrink-0 flex items-center justify-center">
                     <Image 
-                      src="/moto/atq/Vector.png" 
+                      src="/moto/atq/Vector.webp" 
                       alt="Check Icon" 
                       width={24} 
                       height={24} 
@@ -87,7 +87,7 @@ const AboutUs = () => {
           <div className="col-span-1 md:col-span-12 xl:col-span-6 order-2 xl:order-2 flex justify-center" data-aos="fade-left">
             <div className="relative w-full aspect-[790/749] rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="/moto/atq/section2.png"
+                src="/moto/atq/section2.webp"
                 alt="ATQ Exhibition Booth"
                 className="absolute inset-0 w-full h-full object-cover"
               />

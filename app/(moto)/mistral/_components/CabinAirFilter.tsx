@@ -10,7 +10,7 @@ export default function CabinAirFilter() {
         {/* Title Section */}
         <div className="flex flex-col items-center text-center mb-6" data-aos="fade-down">
           <div className="flex items-center gap-3">
-            <img src="/moto/mistral/Polygon.png" alt="" className="w-7 h-7 object-contain" />
+            <img src="/moto/mistral/Polygon.webp" alt="" className="w-7 h-7 object-contain" />
             <h2 className="section-title text-[#ffffff] font-medium tracking-wide">
               Andrea Campi Mistral – Cabin Air Filter
             </h2>
@@ -43,7 +43,7 @@ export default function CabinAirFilter() {
               {/* Feature 1 */}
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 mt-1">
-                    <img src="/moto/mistral/setting.png" alt="" className="w-[50px] h-[50px] object-contain" />
+                    <img src="/moto/mistral/setting.webp" alt="" className="w-[50px] h-[50px] object-contain" />
                 </div>
                 <p className="text-[#ffffff] section-text lato-font">
                   High-efficiency filtration of dust, pollen, soot, and other airborne particles.
@@ -55,7 +55,7 @@ export default function CabinAirFilter() {
               {/* Feature 2 */}
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 mt-1">
-                  <img src="/moto/mistral/setting.png" alt="" className="w-[50px] h-[50px] object-contain" />
+                  <img src="/moto/mistral/setting.webp" alt="" className="w-[50px] h-[50px] object-contain" />
                 </div>
                 <p className="text-[#ffffff] section-text lato-font">
                   Available in standard particulate and activated carbon versions to help reduce
@@ -90,7 +90,7 @@ export default function CabinAirFilter() {
               {/* Feature 1 */}
               <div className="flex items-start gap-4 w-1/2">
                 <div className="flex-shrink-0 mt-1">
-                    <img src="/moto/mistral/setting.png" alt="" className="w-[50px] h-[50px] object-contain" />
+                    <img src="/moto/mistral/setting.webp" alt="" className="w-[50px] h-[50px] object-contain" />
                 </div>
                 <p className="text-[#ffffff] section-text lato-font">
                   High-efficiency filtration of dust, pollen, soot, and other airborne particles.
@@ -102,7 +102,7 @@ export default function CabinAirFilter() {
               {/* Feature 2 */}
               <div className="flex items-start gap-4 w-1/2">
                 <div className="flex-shrink-0 mt-1">
-                  <img src="/moto/mistral/setting.png" alt="" className="w-[50px] h-[50px] object-contain" />
+                  <img src="/moto/mistral/setting.webp" alt="" className="w-[50px] h-[50px] object-contain" />
                 </div>
                 <p className="text-[#ffffff] section-text lato-font">
                   Available in standard particulate and activated carbon versions to help reduce

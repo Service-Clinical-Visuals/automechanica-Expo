@@ -10,29 +10,29 @@ type Tab = "sensors" | "thermal";
 const products: Record<Tab, { image: string; title: string; description: string }[]> = {
   sensors: [
     {
-      image: "/moto/camt/discover/sensors/1.png",
+      image: "/moto/camt/discover/sensors/1.webp",
       title: "Nox Sensor",
       description: "High-performance sensors for accurate emission monitoring and improved vehicle efficiency.",
     },
     {
-      image: "/moto/camt/discover/sensors/2.png",
+      image: "/moto/camt/discover/sensors/2.webp",
       title: "Pressure Sensor",
       description: "Accurate pressure monitoring solutions designed for reliable vehicle performance and efficiency.",
     },
     {
-      image: "/moto/camt/discover/sensors/3.png",
+      image: "/moto/camt/discover/sensors/3.webp",
       title: "Temperature Sensors",
       description: "Temperature Sensors monitor temperature with precision and reliability.",
     },
   ],
   thermal: [
     {
-      image: "/moto/camt/discover/thermal/1.png",
+      image: "/moto/camt/discover/thermal/1.webp",
       title: "Electric Coolant Pump",
       description: "Circulates coolant for efficient thermal management.",
     },
     {
-      image: "/moto/camt/discover/thermal/2.png",
+      image: "/moto/camt/discover/thermal/2.webp",
       title: "Electric Coolant Valve",
       description: "Controls coolant flow for precise temperature regulation.",
     },

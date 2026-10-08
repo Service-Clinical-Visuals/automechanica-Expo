@@ -43,7 +43,7 @@ const LubricantSection = () => {
 
             <div className="w-full md:w-2/5 p-8 pb-0 md:p-0 flex items-center justify-center order-1 md:order-2">
               <img
-                src="/moto/eurol/section2.png"
+                src="/moto/eurol/section2.webp"
                 alt="Oil bottle"
                 className="max-h-48 md:max-h-[300px] hover:scale-105 transition-all object-contain object-center"
                 onError={(e) => { e.currentTarget.style.display = 'none'; }}
@@ -66,7 +66,7 @@ const LubricantSection = () => {
 
             <div className="w-full md:w-2/5 p-8 pb-0 md:p-0 flex items-center justify-center order-1 md:order-2 bg-gray-50/50">
               <img
-                src="/moto/eurol/section21.png"
+                src="/moto/eurol/section21.webp"
                 alt="Specialty Lubricant Tub"
                 className="max-h-48 md:max-h-full hover:scale-105 transition-all   object-contain"
                 onError={(e) => { e.currentTarget.style.display = 'none'; }}

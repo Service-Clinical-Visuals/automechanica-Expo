@@ -10,7 +10,7 @@ export default function RepairServices() {
       
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img src="/moto/autocam/bg.png" alt="Services Background" className="w-full h-full object-cover" />
+        <img src="/moto/autocam/bg.webp" alt="Services Background" className="w-full h-full object-cover" />
         {/* Overlay with 55% opacity of secondary color #0A326B */}
         <div className="absolute inset-0 bg-[#0A326B]/55"></div>
       </div>

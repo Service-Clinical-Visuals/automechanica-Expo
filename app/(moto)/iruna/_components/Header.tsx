@@ -39,7 +39,7 @@ export default function Header() {
           <div className="flex-shrink-0 flex items-center">
             <Link href="#">
               {/* Space left for logo image as requested */}
-              <img src="/moto/iruna/logo.png" alt="Iruna Logo" className="w-[140px] md:w-[160px] h-auto object-contain" />
+              <img src="/moto/iruna/logo.webp" alt="Iruna Logo" className="w-[140px] md:w-[160px] h-auto object-contain" />
             </Link>
           </div>
 

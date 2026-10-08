@@ -10,7 +10,7 @@ export default function Regulations() {
           {/* Left: Content Section */}
           <div data-aos="fade-right" className="flex flex-col gap-6">
             <div className="flex items-center gap-3 mb-2">
-              <img src="/moto/mistral/Polygon.png" alt="" className="w-7 h-7 object-contain" />
+              <img src="/moto/mistral/Polygon.webp" alt="" className="w-7 h-7 object-contain" />
               <h2 className="section-title text-[#212121] font-medium tracking-wide">
                 Regulations about filtering
               </h2>
@@ -44,7 +44,7 @@ export default function Regulations() {
           {/* Right: Image Section */}
           <div data-aos="fade-left" className="w-full flex justify-center xl:justify-end mt-8 xl:mt-0">
             <img 
-              src="/moto/mistral/regulate.png" 
+              src="/moto/mistral/regulate.webp" 
               alt="Regulations about filtering diagram" 
               className="w-full  object-contain"
             />

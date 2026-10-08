@@ -13,17 +13,17 @@ const Products = () => {
     {
       title: "Wheel Aligner for Cars",
       desc: "Advanced alignment solutions for passenger vehicles with high accuracy and reliability.",
-      img: "/moto/koch/s1.jpg",
+      img: "/moto/koch/s1.webp",
     },
     {
       title: "Wheel Aligner for Commercial Vehicles",
       desc: "Heavy-duty alignment systems designed for trucks and commercial fleets.",
-      img: "/moto/koch/s2.jpg",
+      img: "/moto/koch/s2.webp",
     },
     {
       title: "Toe Aligner for Agricultural Machinery",
       desc: "Specialized alignment solutions for agricultural machinery and large vehicles.",
-      img: "/moto/koch/s3.jpg",
+      img: "/moto/koch/s3.webp",
     },
   ];
 

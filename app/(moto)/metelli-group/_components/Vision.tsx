@@ -8,7 +8,7 @@ export default function Vision() {
   return (
     <section
       className="relative w-full h-[40vh] md:h-[60vh] xl:h-[80vh] py-16 bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/moto/metelli-group/background.png')" }}
+      style={{ backgroundImage: "url('/moto/metelli-group/background.webp')" }}
 
     >
       {/* Optional Overlay if text is hard to read. Image 7 looks clear, but we add a subtle gradient just in case */}

@@ -6,19 +6,19 @@ export default function Quality() {
   const steps = [
     {
       num: "01",
-      icon: <img src="/moto/efitaller/search.png" alt="Search" className="w-auto h-auto object-contain mx-auto" />,
+      icon: <img src="/moto/efitaller/search.webp" alt="Search" className="w-auto h-auto object-contain mx-auto" />,
       title: "Choose your Equipment",
       desc: "Find the products and solutions that best fit your workshop and needs."
     },
     {
       num: "02",
-      icon: <img src="/moto/efitaller/cart.png" alt="Cart" className="w-auto h-auto object-contain mx-auto" />,
+      icon: <img src="/moto/efitaller/cart.webp" alt="Cart" className="w-auto h-auto object-contain mx-auto" />,
       title: "Place Your Order",
       desc: "With just a few clicks, complete your order quickly and securely."
     },
     {
       num: "03",
-      icon: <img src="/moto/efitaller/receive.png" alt="Receive" className="w-auto h-auto object-contain mx-auto" />,
+      icon: <img src="/moto/efitaller/receive.webp" alt="Receive" className="w-auto h-auto object-contain mx-auto" />,
       title: "Receive and Enjoy",
       desc: "Receive your equipment and start transforming your workshop with confidence."
     }
@@ -58,7 +58,7 @@ export default function Quality() {
               {/* Arrow separator (only show between items on desktop) */}
               {index < steps.length - 1 && (
                 <div className="hidden md:flex flex-col items-center justify-center w-auto h-auto absolute top-[110px]" style={{ left: index === 0 ? "33%" : "66%", transform: "translateX(-50%)" }}>
-                  <img src="/moto/efitaller/Arrow2.png" alt="arrow" className="w-auto h-auto object-contain" />
+                  <img src="/moto/efitaller/Arrow2.webp" alt="arrow" className="w-auto h-auto object-contain" />
                 </div>
               )}
             </React.Fragment>

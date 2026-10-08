@@ -41,11 +41,11 @@ const Button = ({
         <div
           className="w-5 h-5  bg-current transition-transform group-hover:translate-x-1 group-hover:-translate-y-1"
           style={{
-            WebkitMaskImage: 'url(/moto/ari-oil/arrow.png)',
+            WebkitMaskImage: 'url(/moto/ari-oil/arrow.webp)',
             WebkitMaskSize: 'contain',
             WebkitMaskRepeat: 'no-repeat',
             WebkitMaskPosition: 'center',
-            maskImage: 'url(/moto/ari-oil/arrow.png)',
+            maskImage: 'url(/moto/ari-oil/arrow.webp)',
             maskSize: 'contain',
             maskRepeat: 'no-repeat',
             maskPosition: 'center',

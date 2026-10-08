@@ -3,11 +3,11 @@ import React, { useState, useRef, useEffect } from "react";
 import Button from "./Button";
 
 const oilProducts = [
-  { id: 1, name: "BAROX ULTRA 20W-50 SL", image: "/moto/baroxoil/p1.png" },
-  { id: 2, name: "BAROX VIATA 20W-50 CF-4", image: "/moto/baroxoil/p2.png" },
-  { id: 3, name: "BAROX BOOSTA HYDRAULIC HLP 32", image: "/moto/baroxoil/p3.png" },
-  { id: 4, name: "BAROX SYNTHETIC 5W-40 SN", image: "/moto/baroxoil/p4.png" },
-  { id: 5, name: "BAROX GEAR OIL 80W-90", image: "/moto/baroxoil/p5.png" },
+  { id: 1, name: "BAROX ULTRA 20W-50 SL", image: "/moto/baroxoil/p1.webp" },
+  { id: 2, name: "BAROX VIATA 20W-50 CF-4", image: "/moto/baroxoil/p2.webp" },
+  { id: 3, name: "BAROX BOOSTA HYDRAULIC HLP 32", image: "/moto/baroxoil/p3.webp" },
+  { id: 4, name: "BAROX SYNTHETIC 5W-40 SN", image: "/moto/baroxoil/p4.webp" },
+  { id: 5, name: "BAROX GEAR OIL 80W-90", image: "/moto/baroxoil/p5.webp" },
 ];
 
 export default function OurProducts() {

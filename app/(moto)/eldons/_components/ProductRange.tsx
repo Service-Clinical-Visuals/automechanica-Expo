@@ -13,37 +13,37 @@ const newsItems = [
   {
     title: "EcoVadis Sustainability Rating",
     date: "2025-11-01",
-    image: "/moto/eldons/s1.jpg",
+    image: "/moto/eldons/s1.webp",
     link: "#"
   },
   {
     title: "HALKIAS RACING TEAM at the top of the ACROPOLIS RALLY 2025",
     date: "2025-07-03",
-    image: "/moto/eldons/s2.jpg",
+    image: "/moto/eldons/s2.webp",
     link: "#"
   },
   {
     title: "Rally of the Gods - Acropolis Rally 2021",
     date: "2021-09-10",
-    image: "/moto/eldons/s3.jpg",
+    image: "/moto/eldons/s3.webp",
     link: "#"
   },
   {
     title: "Yet again at the highest pedestal position! Time Attack 2021",
     date: "2021-06-04",
-    image: "/moto/eldons/s4.jpg",
+    image: "/moto/eldons/s4.webp",
     link: "#"
   },
   {
     title: "1st place in ranking for Simon Hatzipantelis in the Italian...",
     date: "2021-05-28",
-    image: "/moto/eldons/s5.jpg",
+    image: "/moto/eldons/s5.webp",
     link: "#"
   },
   {
     title: "Operational Programmes",
     date: "2020-02-02",
-    image: "/moto/eldons/s6.jpg",
+    image: "/moto/eldons/s6.webp",
     link: "#"
   }
 ];

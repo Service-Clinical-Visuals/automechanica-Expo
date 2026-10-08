@@ -50,7 +50,7 @@ export default function AboutUs() {
           {/* Right Image */}
           <div className="w-full xl:col-span-6 h-full min-h-[400px] flex order-1 xl:order-2" data-aos="fade-left">
             <img
-              src="/moto/ajusa/abt.png"
+              src="/moto/ajusa/abt.webp"
               alt="Ajusa Facility"
               className="w-full h-full object-cover"
             />

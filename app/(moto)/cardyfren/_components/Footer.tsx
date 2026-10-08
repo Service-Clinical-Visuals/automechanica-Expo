@@ -19,7 +19,7 @@ export default function Footer() {
             <div className="col-span-2 md:col-span-1 lg:col-span-4 flex flex-col space-y-6">
               <Link href="/cardyfren" className="inline-block w-[180px]">
                 <Image
-                  src="/moto/cardyfren/logo.png"
+                  src="/moto/cardyfren/logo.webp"
                   alt="Cardyfren Logo"
                   width={200}
                   height={60}
@@ -57,19 +57,19 @@ export default function Footer() {
               <ul className="space-y-5">
                 <li className="flex items-start gap-3">
                   <div className="flex-shrink-0 w-[18px] h-[18px] relative mt-0.5">
-                     <Image src="/moto/cardyfren/ph.png" alt="Phone" fill className="object-contain" />
+                     <Image src="/moto/cardyfren/ph.webp" alt="Phone" fill className="object-contain" />
                   </div>
                   <span className="text-white section-text">961665179</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="flex-shrink-0 w-[18px] h-[18px] relative mt-0.5">
-                     <Image src="/moto/cardyfren/mail.png" alt="Mail" fill className="object-contain" />
+                     <Image src="/moto/cardyfren/mail.webp" alt="Mail" fill className="object-contain" />
                   </div>
                   <span className="text-white section-text">info@cardyfren.com</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="flex-shrink-0 w-[18px] h-[18px] relative mt-0.5">
-                     <Image src="/moto/cardyfren/location.png" alt="Location" fill className="object-contain" />
+                     <Image src="/moto/cardyfren/location.webp" alt="Location" fill className="object-contain" />
                   </div>
                   <span className="text-white section-text leading-relaxed">
                     Calle N-III SubPoligono<br/>Ind. El Oliveral Fase<br/>Turia Spain
@@ -85,16 +85,16 @@ export default function Footer() {
             {/* Social Icons */}
             <div className="flex items-center gap-3 w-full lg:w-auto justify-center lg:justify-start">
               <Link href="#" className="w-8 h-8 relative hover:opacity-80 transition-opacity cursor-pointer">
-                <Image src="/moto/cardyfren/ins.png" alt="Instagram" fill className="object-contain" />
+                <Image src="/moto/cardyfren/ins.webp" alt="Instagram" fill className="object-contain" />
               </Link>
               <Link href="#" className="w-8 h-8 relative hover:opacity-80 transition-opacity cursor-pointer">
-                <Image src="/moto/cardyfren/fb.png" alt="Facebook" fill className="object-contain" />
+                <Image src="/moto/cardyfren/fb.webp" alt="Facebook" fill className="object-contain" />
               </Link>
               <Link href="#" className="w-8 h-8 relative hover:opacity-80 transition-opacity cursor-pointer">
-                <Image src="/moto/cardyfren/u.png" alt="YouTube" fill className="object-contain" />
+                <Image src="/moto/cardyfren/u.webp" alt="YouTube" fill className="object-contain" />
               </Link>
               <Link href="#" className="w-8 h-8 relative hover:opacity-80 transition-opacity cursor-pointer">
-                <Image src="/moto/cardyfren/in.png" alt="LinkedIn" fill className="object-contain" />
+                <Image src="/moto/cardyfren/in.webp" alt="LinkedIn" fill className="object-contain" />
               </Link>
             </div>
 

@@ -6,37 +6,37 @@ import Button from "./Button";
 
 const blogPosts = [
   {
-    image: "/moto/iadaAutomechanika/blog1.png",
+    image: "/moto/iadaAutomechanika/blog1.webp",
     title: "The Kemetyl Group takes a further step in its growth with the acquisition of the assets and brand of Flow...",
     date: "16 de June de 2026",
     link: "#"
   },
   {
-    image: "/moto/iadaAutomechanika/blog2.png",
+    image: "/moto/iadaAutomechanika/blog2.webp",
     title: "Last week, we attended the 15th annual CGA Group Convention, held in Malaga. The conference was...",
     date: "23 de October de 2025",
     link: "#"
   },
   {
-    image: "/moto/iadaAutomechanika/blog3.png",
+    image: "/moto/iadaAutomechanika/blog3.webp",
     title: "This year we had a different kind of sales meeting. The IADA Team was able to take advantage of the...",
     date: "30 de July de 2025",
     link: "#"
   },
   {
-    image: "/moto/iadaAutomechanika/news4.png",
+    image: "/moto/iadaAutomechanika/news4.webp",
     title: "Another year at Motortec. It has been 4 intense days, full of reunions, meetings, training sessions… 4 days with our...",
     date: "29 de April de 2025",
     link: "#"
   },
   {
-    image: "/moto/iadaAutomechanika/news5.png",
+    image: "/moto/iadaAutomechanika/news5.webp",
     title: "IADA’s diesel antifreeze is more than just a simple liquid; it is an ally in the care of your vehicle,...",
     date: "24 de January de 2025",
     link: "#"
   },
   {
-    image: "/moto/iadaAutomechanika/news6.png",
+    image: "/moto/iadaAutomechanika/news6.webp",
     title: "May this holiday season bring peace, joy and special moments.We wish that this coming 2025 will be full of new...",
     date: "19 de December de 2024",
     link: "#"

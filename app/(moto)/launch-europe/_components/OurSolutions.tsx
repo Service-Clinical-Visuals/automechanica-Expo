@@ -13,32 +13,32 @@ export default function OurSolutions() {
     {
       title: "Professional Diagnosis",
       text: "Advanced diagnostic Tools for accurate fault detection and complete system analysis",
-      image: "/moto/launch-europe/p1.png",
+      image: "/moto/launch-europe/p1.webp",
     },
     {
       title: "SDS",
       text: "Smart Diagnostic Service for remote diagnosis, guided functions and technical support.",
-      image: "/moto/launch-europe/p2.png",
+      image: "/moto/launch-europe/p2.webp",
     },
     {
       title: "Accessories",
       text: "High-quality accessories and adapters for a wide range of diagnostic applications.",
-      image: "/moto/launch-europe/p3.png",
+      image: "/moto/launch-europe/p3.webp",
     },
     {
       title: "Standalone Accessories",
       text: "Specialized standalone tools for TPMS, battery, emissions and other service functions.",
-      image: "/moto/launch-europe/p4.png",
+      image: "/moto/launch-europe/p4.webp",
     },
     {
       title: "Database",
       text: "Extensive vehicle database with up-to-date coverage and technical information.",
-      image: "/moto/launch-europe/p5.png",
+      image: "/moto/launch-europe/p5.webp",
     },
     {
       title: "Software",
       text: "Regular software updates for new vehicle coverage, features and improved performance.",
-      image: "/moto/launch-europe/p6.png",
+      image: "/moto/launch-europe/p6.webp",
     },
   ];
 

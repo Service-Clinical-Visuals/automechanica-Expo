@@ -18,12 +18,12 @@ export default function Footer() {
     <footer className=" text-white relative">
       {/* Curvy yellow/blue wave with logo */}
       <div className="relative w-full leading-[0]" data-aos="fade-up">
-        <img src="/moto/north-sea/footer-curve.png" alt="" className="w-full h-auto block" />
+        <img src="/moto/north-sea/footer-curve.webp" alt="" className="w-full h-auto block" />
         <div className="absolute inset-0 flex items-end">
           <Container className="w-full">
             <div className="flex flex-col items-end pb-2 xs:pb-3 sm:pb-4 md:pb-6 lg:pb-8 xl:pb-10">
               <img
-                src="/moto/north-sea/logo_white.png"
+                src="/moto/north-sea/logo_white.webp"
                 alt="North Sea Lubricants"
                 className="h-6 xs:h-8 sm:h-10 md:h-14 lg:h-16 xl:h-20 w-auto"
               />

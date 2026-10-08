@@ -8,15 +8,15 @@ const News = () => {
   const newsItems = [
     {
       title: "Canik Mayor İbrahim SANDIKÇI and Tekkeköy Mayor Mustafa CANDAL visited us.",
-      img: "/moto/mc-filter/news1.png",
+      img: "/moto/mc-filter/news1.webp",
     },
     {
       title: "H. Zafer ARAL, Chairman of the Board of Directors of Samsun Yurt Savunma",
-      img: "/moto/mc-filter/news2.png",
+      img: "/moto/mc-filter/news2.webp",
     },
     {
       title: "Tarık ALTUNCU, Chairman of the Board of SAMPA, visited our company.",
-      img: "/moto/mc-filter/news3.png",
+      img: "/moto/mc-filter/news3.webp",
     },
   ];
 

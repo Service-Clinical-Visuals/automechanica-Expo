@@ -99,7 +99,7 @@ const Header = () => {
             {/* Logo Section */}
             <Link href="/magma-brakes" className="flex items-center shrink-0 w-[200px]">
               <img
-                src="/moto/magma-brakes/logo.png"
+                src="/moto/magma-brakes/logo.webp"
                 alt="Magma Brakes Logo"
                 className="h-10 sm:h-12 md:h-14 lg:h-16 w-auto object-contain"
               />

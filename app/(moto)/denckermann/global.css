@@ -213,7 +213,7 @@ body {
 }
 
 .bg-pattern {
-    background-image: url('/moto/denckermann/bg.png');
+    background-image: url('/moto/denckermann/bg.webp');
     background-size: cover;
     background-position: center;
 }

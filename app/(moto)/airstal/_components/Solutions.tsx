@@ -6,19 +6,19 @@ import Button from "./Button";
 export default function Solutions() {
   const solutions = [
     {
-      image: "/moto/airstal/solution1.png",
+      image: "/moto/airstal/solution1.webp",
       title: "Compressors",
     },
     {
-      image: "/moto/airstal/solution2.png",
+      image: "/moto/airstal/solution2.webp",
       title: "Parts",
     },
     {
-      image: "/moto/airstal/solution3.png",
+      image: "/moto/airstal/solution3.webp",
       title: "Chemicals and oils",
     },
     {
-      image: "/moto/airstal/solution4.png",
+      image: "/moto/airstal/solution4.webp",
       title: "Refrigerants",
     },
   ];

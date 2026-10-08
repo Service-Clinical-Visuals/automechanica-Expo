@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title: "Eurocams",
   description: "Eurocams manufactures a range of engine components",
   icons: {
-    icon: "/tcp-logo.png",
+    icon: "/tcp-logo.webp",
   },
 };
 

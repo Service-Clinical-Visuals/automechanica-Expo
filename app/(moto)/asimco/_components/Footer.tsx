@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="xl:col-span-4 flex flex-col">
             <div className=" mb-2 relative w-48 ">
               <img 
-                src="/moto/asimco/logo.png" 
+                src="/moto/asimco/logo.webp" 
                 alt="Asimco Logo" 
                 className="object-contain "
               />
@@ -24,16 +24,16 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-4">
               <Link href="#" className="w-8 h-8 rounded hover:opacity-80 transition-opacity">
-                <img src="/moto/asimco/in.png" alt="LinkedIn" width={24} height={24} className="w-full h-full object-contain" />
+                <img src="/moto/asimco/in.webp" alt="LinkedIn" width={24} height={24} className="w-full h-full object-contain" />
               </Link>
               <Link href="#" className="w-8 h-8 rounded hover:opacity-80 transition-opacity">
-                <img src="/moto/asimco/x.png" alt="X" width={24} height={24} className="w-full h-full object-contain" />
+                <img src="/moto/asimco/x.webp" alt="X" width={24} height={24} className="w-full h-full object-contain" />
               </Link>
               <Link href="#" className="w-8 h-8 rounded hover:opacity-80 transition-opacity">
-                <img src="/moto/asimco/ins.png" alt="Instagram" width={24} height={24} className="w-full h-full object-contain" />
+                <img src="/moto/asimco/ins.webp" alt="Instagram" width={24} height={24} className="w-full h-full object-contain" />
               </Link>
               <Link href="#" className="w-8 h-8 rounded hover:opacity-80 transition-opacity">
-                <img src="/moto/asimco/u.png" alt="YouTube" width={24} height={24} className="w-full h-full object-contain" />
+                <img src="/moto/asimco/u.webp" alt="YouTube" width={24} height={24} className="w-full h-full object-contain" />
               </Link>
             </div>
           </div>
@@ -62,13 +62,13 @@ export default function Footer() {
             <ul className="flex flex-col gap-6">
               <li className="flex items-start gap-3">
                 <div className="w-5 h-5 flex-shrink-0 mt-0.5">
-                  <img src="/moto/asimco/ph.png" alt="Phone" width={20} height={20} className="w-full h-full object-contain" />
+                  <img src="/moto/asimco/ph.webp" alt="Phone" width={20} height={20} className="w-full h-full object-contain" />
                 </div>
                 <span className="text-white inter-font section-text">86 (25) 6902 2699.</span>
               </li>
               <li className="flex items-start gap-3">
                 <div className="w-5 h-5 flex-shrink-0 mt-0.5">
-                  <img src="/moto/asimco/mail.png" alt="Email" width={20} height={20} className="w-full h-full object-contain" />
+                  <img src="/moto/asimco/mail.webp" alt="Email" width={20} height={20} className="w-full h-full object-contain" />
                 </div>
                 <span className="text-white inter-font section-text">info@asimcoglobal.com</span>
               </li>

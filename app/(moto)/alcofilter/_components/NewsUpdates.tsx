@@ -8,7 +8,7 @@ import Link from "next/link";
 const newsData = [
   {
     id: 1,
-    image: "/moto/alcofilter/img1.jpg",
+    image: "/moto/alcofilter/img1.webp",
     date: { day: "14", month: "May", year: "2026" },
     category: "Event",
     title: "Autotech Future Budapest 2026",
@@ -16,7 +16,7 @@ const newsData = [
   },
   {
     id: 2,
-    image: "/moto/alcofilter/img2.jpg",
+    image: "/moto/alcofilter/img2.webp",
     date: { day: "14", month: "May", year: "2026" },
     category: "Expo",
     title: "A1 spring Trade Show 2026",
@@ -24,7 +24,7 @@ const newsData = [
   },
   {
     id: 3,
-    image: "/moto/alcofilter/img3.jpg",
+    image: "/moto/alcofilter/img3.webp",
     date: { day: "14", month: "May", year: "2026" },
     category: "Partnership",
     title: "Now Part of the TEMOT Network",
@@ -32,7 +32,7 @@ const newsData = [
   },
   {
     id: 4,
-    image: "/moto/alcofilter/img4.jpg",
+    image: "/moto/alcofilter/img4.webp",
     date: { day: "14", month: "May", year: "2026" },
     category: "Project",
     title: "Mini Monster Car project",

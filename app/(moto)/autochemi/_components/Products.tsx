@@ -17,10 +17,10 @@ export default function Products() {
       id: "Motor oils",
       brandTitle: "Motor Oils Our Brands",
       logos: [
-        "/moto/autochemi/icon1-1.png",
-        "/moto/autochemi/icon1-2.png",
-        "/moto/autochemi/icon1-3.png",
-        "/moto/autochemi/icon1-4.png",
+        "/moto/autochemi/icon1-1.webp",
+        "/moto/autochemi/icon1-2.webp",
+        "/moto/autochemi/icon1-3.webp",
+        "/moto/autochemi/icon1-4.webp",
       ],
       infoTitle: "Comprehensive Engine Solutions",
       infoText: [
@@ -32,10 +32,10 @@ export default function Products() {
       id: "Transmission oils",
       brandTitle: "Transmission Oils Our Brands",
       logos: [
-        "/moto/autochemi/icon1-1.png",
-        "/moto/autochemi/icon1-2.png",
-        "/moto/autochemi/icon1-3.png",
-        "/moto/autochemi/icon1-4.png",
+        "/moto/autochemi/icon1-1.webp",
+        "/moto/autochemi/icon1-2.webp",
+        "/moto/autochemi/icon1-3.webp",
+        "/moto/autochemi/icon1-4.webp",
       ],
       infoTitle: "Transmission Oils",
       infoText: [
@@ -47,10 +47,10 @@ export default function Products() {
       id: "Antifreezes & Coolants",
       brandTitle: "Antifreezes & Coolants Our Brands",
       logos: [
-        "/moto/autochemi/icon1-1.png",
-        "/moto/autochemi/icon1-2.png",
-        "/moto/autochemi/icon1-3.png",
-        "/moto/autochemi/icon1-4.png",
+        "/moto/autochemi/icon1-1.webp",
+        "/moto/autochemi/icon1-2.webp",
+        "/moto/autochemi/icon1-3.webp",
+        "/moto/autochemi/icon1-4.webp",
       ],
       infoTitle: "Antifreezes & Coolants",
       infoText: [
@@ -62,10 +62,10 @@ export default function Products() {
       id: "Brake fluids",
       brandTitle: "Brake Fluids Our Brands",
       logos: [
-        "/moto/autochemi/icon1-1.png",
-        "/moto/autochemi/icon1-2.png",
-        "/moto/autochemi/icon1-3.png",
-        "/moto/autochemi/icon1-4.png",
+        "/moto/autochemi/icon1-1.webp",
+        "/moto/autochemi/icon1-2.webp",
+        "/moto/autochemi/icon1-3.webp",
+        "/moto/autochemi/icon1-4.webp",
       ],
       infoTitle: "Brake Fluids",
       infoText: [
@@ -76,9 +76,9 @@ export default function Products() {
       id: "Screen washes",
       brandTitle: "Screenwashes Our Brands",
       logos: [
-        "/moto/autochemi/icon2-1.png",
-        "/moto/autochemi/icon2-2.png",
-        "/moto/autochemi/icon2-3.png",
+        "/moto/autochemi/icon2-1.webp",
+        "/moto/autochemi/icon2-2.webp",
+        "/moto/autochemi/icon2-3.webp",
       ],
       infoTitle: "Screen Washes",
       infoText: [

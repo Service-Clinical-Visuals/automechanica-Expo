@@ -12,7 +12,7 @@ export default function AboutCompany() {
           {/* Left: Image */}
           <div className="order-2 xl:order-1 w-full xl:col-span-7" data-aos="fade-right">
             <img 
-              src="/moto/birlik/abt1.png" 
+              src="/moto/birlik/abt1.webp" 
               alt="Birlik Conta Van" 
               className="w-full h-auto object-cover shadow-sm"
             />
@@ -41,31 +41,31 @@ export default function AboutCompany() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 xl:gap-8 w-full" data-aos="fade-up">
           <div className="w-full">
             <img 
-              src="/moto/birlik/abt2.png" 
+              src="/moto/birlik/abt2.webp" 
               alt="Download PDF Catalogue" 
               className="w-full h-auto object-cover shadow-sm hover:shadow-md transition-shadow duration-300"
               onError={(e) => {
-                e.currentTarget.src = "/moto/birlik/c1.png";
+                e.currentTarget.src = "/moto/birlik/c1.webp";
               }}
             />
           </div>
           <div className="w-full">
             <img 
-              src="/moto/birlik/abt3.png" 
+              src="/moto/birlik/abt3.webp" 
               alt="Photo Gallery" 
               className="w-full h-auto object-cover shadow-sm hover:shadow-md transition-shadow duration-300"
               onError={(e) => {
-                e.currentTarget.src = "/moto/birlik/c2.png";
+                e.currentTarget.src = "/moto/birlik/c2.webp";
               }}
             />
           </div>
           <div className="w-full">
             <img 
-              src="/moto/birlik/abt4.png" 
+              src="/moto/birlik/abt4.webp" 
               alt="About Us" 
               className="w-full h-auto object-cover shadow-sm hover:shadow-md transition-shadow duration-300"
               onError={(e) => {
-                e.currentTarget.src = "/moto/birlik/c3.png";
+                e.currentTarget.src = "/moto/birlik/c3.webp";
               }}
             />
           </div>

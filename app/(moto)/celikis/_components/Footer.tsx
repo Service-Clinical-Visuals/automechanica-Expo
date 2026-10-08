@@ -14,7 +14,7 @@ export default function Footer() {
           <div data-aos="fade-right" className="w-full xl:w-[40%] xl:pr-12 xl:pr-20 relative">
             <Link href="/" className="inline-block mb-6">
               <img 
-                src="/moto/celikis/logo.png" 
+                src="/moto/celikis/logo.webp" 
                 alt="Celikis Logo" 
                 className="w-[180px] h-auto object-contain" 
               />
@@ -42,16 +42,16 @@ export default function Footer() {
             
             <div className="flex items-center gap-4">
               <Link href="#" className="hover:opacity-75 transition-opacity">
-                <img src="/moto/celikis/fb.png" alt="Facebook" className="w-6 h-6 object-contain" />
+                <img src="/moto/celikis/fb.webp" alt="Facebook" className="w-6 h-6 object-contain" />
               </Link>
               <Link href="#" className="hover:opacity-75 transition-opacity">
-                <img src="/moto/celikis/insta.png" alt="Instagram" className="w-6 h-6 object-contain" />
+                <img src="/moto/celikis/insta.webp" alt="Instagram" className="w-6 h-6 object-contain" />
               </Link>
               <Link href="#" className="hover:opacity-75 transition-opacity">
-                <img src="/moto/celikis/youtube.png" alt="YouTube" className="w-6 h-6 object-contain" />
+                <img src="/moto/celikis/youtube.webp" alt="YouTube" className="w-6 h-6 object-contain" />
               </Link>
               <Link href="#" className="hover:opacity-75 transition-opacity">
-                <img src="/moto/celikis/linkedin.png" alt="LinkedIn" className="w-6 h-6 object-contain" />
+                <img src="/moto/celikis/linkedin.webp" alt="LinkedIn" className="w-6 h-6 object-contain" />
               </Link>
             </div>
 
@@ -88,11 +88,11 @@ export default function Footer() {
               <h4 className="footer-text font-semibold text-[#121C22] mb-6 font-cabin">Contact Info</h4>
               <ul className="flex flex-col gap-5 font-cabin text-[15px]">
                 <li className="flex items-center gap-3">
-                  <img src="/moto/celikis/mail.png" alt="Mail" className="w-[18px] h-[18px] object-contain" />
+                  <img src="/moto/celikis/mail.webp" alt="Mail" className="w-[18px] h-[18px] object-contain" />
                   <a href="mailto:celikis@celikis.com.tr" className="section-text text-[#4B5563] font-semibold hover:text-[#005CA9] transition-colors">celikis@celikis.com.tr</a>
                 </li>
                 <li className="flex items-center gap-3">
-                  <img src="/moto/celikis/phone.png" alt="Phone" className="w-[18px] h-[18px] object-contain" />
+                  <img src="/moto/celikis/phone.webp" alt="Phone" className="w-[18px] h-[18px] object-contain" />
                   <a href="tel:+02323767820" className="section-text text-[#4B5563] font-semibold hover:text-[#005CA9] transition-colors">+02323767820</a>
                 </li>
               </ul>

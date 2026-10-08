@@ -8,42 +8,42 @@ const products = [
   {
     title: "Turbo Kits",
     desc: "Turbo fitting kits are installation sets for turbochargers, including gaskets, bolts, lines, and connectors. They simplify installation and ensure fit and performance.",
-    image: "/moto/ajusa/p1.png",
+    image: "/moto/ajusa/p1.webp",
     btnText: "Explore Turbo Kits",
     link: "#"
   },
   {
     title: "Cylinder Head Gasket",
     desc: "A cylinder head gasket seals the engine block and cylinder head, preventing leaks and maintaining compression, and should be replaced in time to avoid engine damage.",
-    image: "/moto/ajusa/p2.png",
+    image: "/moto/ajusa/p2.webp",
     btnText: "Explore Cylinder Head Gasket",
     link: "#"
   },
   {
     title: "Gasket Kit",
     desc: "Ajusa provides over 200,000 OE-quality gasket references for reliable sealing in passenger and industrial vehicles.",
-    image: "/moto/ajusa/p3.png",
+    image: "/moto/ajusa/p3.webp",
     btnText: "Explore Gaskets",
     link: "#"
   },
   {
     title: "Hydraulic Lifters",
     desc: "Hydraulic lifters automatically adjust valve clearance for smooth, efficient engine performance. Ajusa lifters are durable and reliable under demanding conditions.",
-    image: "/moto/ajusa/p4.png",
+    image: "/moto/ajusa/p4.webp",
     btnText: "Explore Hydraulic Lifters",
     link: "#"
   },
   {
     title: "Cylinder Head Bolts",
     desc: "Cylinder head bolts secure the head to the block, ensuring sealing and compression. Ajusa bolts deliver high strength and reliable clamping.",
-    image: "/moto/ajusa/p5.png",
+    image: "/moto/ajusa/p5.webp",
     btnText: "Explore Cylinder Head Bolts",
     link: "#"
   },
   {
     title: "Oil Seals",
     desc: "Oil seals prevent leaks and protect components from contamination, ensuring durable, reliable performance.",
-    image: "/moto/ajusa/p6.png",
+    image: "/moto/ajusa/p6.webp",
     btnText: "Explore Oil Seals",
     link: "#"
   }

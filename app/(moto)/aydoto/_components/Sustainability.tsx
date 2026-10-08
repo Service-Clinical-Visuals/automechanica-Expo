@@ -28,12 +28,12 @@ export default function Sustainability() {
           data-aos-delay="100"
         >
           <img
-            src="/moto/aydoto/bg1.jpg"
+            src="/moto/aydoto/bg1.webp"
             alt="AYD Renewable Energy and Sustainability"
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
             onError={(e) => {
-              // Fallback to bg.png if bg1.jpg fails
-              e.currentTarget.src = "/moto/aydoto/bg.png";
+              // Fallback to bg.webp if bg1.webp fails
+              e.currentTarget.src = "/moto/aydoto/bg.webp";
             }}
           />
         </div>

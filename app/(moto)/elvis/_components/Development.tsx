@@ -60,7 +60,7 @@ export default function Development() {
           {/* Right Side: Image */}
           <div className="w-full h-full min-h-[300px]">
             <img 
-              src="/moto/elvis/section5.jpg" 
+              src="/moto/elvis/section5.webp" 
               alt="Product Development Camera Setup" 
               className="w-full h-full object-cover rounded-none"
             />

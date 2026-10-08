@@ -5,8 +5,8 @@ import { ArrowRight } from "lucide-react";
 import Container from "./Container";
 
 const certifications = [
-  { img: "/moto/ifa/about/cert1.png", title: "ISO 9001:2015", subtitle: "Certified" },
-  { img: "/moto/ifa/about/cert2.png", title: "TÜV NORD", subtitle: "Certified" },
+  { img: "/moto/ifa/about/cert1.webp", title: "ISO 9001:2015", subtitle: "Certified" },
+  { img: "/moto/ifa/about/cert2.webp", title: "TÜV NORD", subtitle: "Certified" },
 ];
 
 const About = () => {
@@ -23,7 +23,7 @@ const About = () => {
           {/* Row 1 - Left: Showroom image */}
           <div className="order-2 xl:order-1" data-aos="fade-right">
             <img
-              src="/moto/ifa/about/1.png"
+              src="/moto/ifa/about/1.webp"
               alt="IFA showroom"
               className="w-full h-auto object-cover"
             />
@@ -103,7 +103,7 @@ const About = () => {
           {/* Row 2 - Right: Facility image */}
           <div className="order-4" data-aos="fade-left">
             <img
-              src="/moto/ifa/about/2.png"
+              src="/moto/ifa/about/2.webp"
               alt="IFA facility"
               className="w-full h-full object-cover"
             />

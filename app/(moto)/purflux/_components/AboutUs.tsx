@@ -23,21 +23,21 @@ const AboutUs = () => {
         <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-6" data-aos="fade-up" data-aos-delay="100">
           <div className="w-full aspect-[4/3] rounded-sm overflow-hidden">
             <img
-              src="/moto/purflux/section21.png"
+              src="/moto/purflux/section21.webp"
               alt="Facility"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="w-full aspect-[4/3] rounded-sm overflow-hidden">
             <img
-              src="/moto/purflux/section22.png"
+              src="/moto/purflux/section22.webp"
               alt="Team"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="w-full aspect-[4/3] rounded-sm overflow-hidden">
             <img
-              src="/moto/purflux/section23.png"
+              src="/moto/purflux/section23.webp"
               alt="Exhibition"
               className="w-full h-full object-cover"
             />

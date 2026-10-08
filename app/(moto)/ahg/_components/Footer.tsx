@@ -22,7 +22,7 @@ export default function Footer() {
           {/* Logo & Intro (Col 1) */}
           <div className="col-span-2 md:col-span-1 xl:col-span-3 flex flex-col gap-6 xl:pr-8" data-aos="fade-up">
             <Link href="#">
-              <img src="/moto/ahg/logo.png" alt="AHG Logo" className="h-25 w-auto object-contain" />
+              <img src="/moto/ahg/logo.webp" alt="AHG Logo" className="h-25 w-auto object-contain" />
             </Link>
             <p className="section-text font-normal oswald-font text-[#212121] leading-[1.6] tracking-wider">
               Over 15 years of delivering reliable automotive components, innovative solutions, and trusted global service.
@@ -55,19 +55,19 @@ export default function Footer() {
             </h4>
             <div className="flex flex-col gap-5">
               <a href="tel:+49070312024790" className="flex items-start gap-3 group">
-                <img src="/moto/ahg/phone.png" alt="Phone" className="w-5 h-5 object-contain mt-0.5 flex-shrink-0" />
+                <img src="/moto/ahg/phone.webp" alt="Phone" className="w-5 h-5 object-contain mt-0.5 flex-shrink-0" />
                 <span className="section-text font-normal oswald-font text-[#212121] hover:text-[#00A1FF] transition-colors break-words tracking-wider">
                   +49 (0) 7031 / 2024790
                 </span>
               </a>
               <a href="mailto:info@ahg-welt.de" className="flex items-start gap-3 group">
-                <img src="/moto/ahg/mail.png" alt="Mail" className="w-5 h-5 object-contain mt-0.5 flex-shrink-0" />
+                <img src="/moto/ahg/mail.webp" alt="Mail" className="w-5 h-5 object-contain mt-0.5 flex-shrink-0" />
                 <span className="section-text font-normal oswald-font text-[#212121] hover:text-[#00A1FF] transition-colors break-words tracking-wider">
                   info@ahg-welt.de
                 </span>
               </a>
               <div className="flex items-start gap-3">
-                <img src="/moto/ahg/location.png" alt="Location" className="w-5 h-5 object-contain mt-1 flex-shrink-0" />
+                <img src="/moto/ahg/location.webp" alt="Location" className="w-5 h-5 object-contain mt-1 flex-shrink-0" />
                 <span className="section-text font-normal oswald-font text-[#212121] hover:text-[#00A1FF] transition-colors leading-[1.6] tracking-wider">
                   AHG GmbH<br />
                   Hanns-Klemm-Straße 40<br />

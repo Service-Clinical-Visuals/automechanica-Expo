@@ -84,7 +84,7 @@ export default function Catalyst() {
             >
               <div className="flex items-center justify-center gap-4 w-full mb-6">
                 <div className="w-12 h-12 bg-white rounded-full shadow-[0_2px_10px_rgba(0,0,0,0.3)] flex items-center justify-center border border-gray-50 flex-shrink-0">
-                  <img src="/moto/brain-srl/settings2.png" alt="Settings Icon" className="w-5 h-5 object-contain" />
+                  <img src="/moto/brain-srl/settings2.webp" alt="Settings Icon" className="w-5 h-5 object-contain" />
                 </div>
                 <Typography variant="h4" color="primary" font="bebas" className="uppercase  tracking-wide">
                   {feature.heading}

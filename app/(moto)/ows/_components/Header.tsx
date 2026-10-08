@@ -74,7 +74,7 @@ const Header = () => {
             {/* Logo Section */}
             <Link href="/" className="flex items-center shrink-0">
               <img
-                src="/ows/logo1.png"
+                src="/ows/logo1.webp"
                 alt="OWS Logo"
                 className="h-10 sm:h-12 w-auto object-contain"
               />

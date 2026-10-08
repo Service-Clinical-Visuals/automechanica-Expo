@@ -62,10 +62,10 @@ const productsColumn = [
 ];
 
 const socialLinks = [
-  { label: "Facebook", href: "#", icon: "/moto/gunesmotor/fb.png" },
-  { label: "LinkedIn", href: "#", icon: "/moto/gunesmotor/link.png" },
-  { label: "Instagram", href: "#", icon: "/moto/gunesmotor/insta.png" },
-  { label: "X", href: "#", icon: "/moto/gunesmotor/x.png" },
+  { label: "Facebook", href: "#", icon: "/moto/gunesmotor/fb.webp" },
+  { label: "LinkedIn", href: "#", icon: "/moto/gunesmotor/link.webp" },
+  { label: "Instagram", href: "#", icon: "/moto/gunesmotor/insta.webp" },
+  { label: "X", href: "#", icon: "/moto/gunesmotor/x.webp" },
 ];
 
 export default function Footer() {
@@ -93,13 +93,13 @@ export default function Footer() {
                 transition={{ duration: 0.2 }}
               >
                 {/* <Image
-                  src="/moto/gunesmotor/logo.png"
+                  src="/moto/gunesmotor/logo.webp"
                   alt="Güneş Engine Valve"
                   width={247}
                   height={67}
                   className="h-auto w-[200px] md:w-[225px] xl:w-[247px]"
                 /> */}
-                <img className="h-auto w-[200px] md:w-[225px] xl:w-[247px]" src="/moto/gunesmotor/logo.png" alt="logo" />
+                <img className="h-auto w-[200px] md:w-[225px] xl:w-[247px]" src="/moto/gunesmotor/logo.webp" alt="logo" />
               </motion.div>
             </Link>
 

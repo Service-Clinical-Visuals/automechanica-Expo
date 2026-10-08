@@ -90,14 +90,14 @@ body {
 }
 
 .researchdevelopmentbg{
-    background-image: url('/moto/bluechem/bg.png');
+    background-image: url('/moto/bluechem/bg.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
  }
 
  .productbg{
-    background-image: url('/moto/bluechem/productbg.png');
+    background-image: url('/moto/bluechem/productbg.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

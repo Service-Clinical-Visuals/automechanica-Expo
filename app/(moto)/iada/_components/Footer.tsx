@@ -12,7 +12,7 @@ export default function Footer() {
           {/* Column 1: Logo & About */}
           <div className="flex flex-col gap-4 col-span-2 xl:col-span-3 xl:pr-6">
             <Link href="/iadaAutomechanika" className="inline-block w-84 h-30 mb-2">
-              <img src="/moto/iadaAutomechanika/logo.png" alt="IADA car chemicals" className="w-full h-full object-contain object-left" />
+              <img src="/moto/iadaAutomechanika/logo.webp" alt="IADA car chemicals" className="w-full h-full object-contain object-left" />
             </Link>
              <p className="!text-[#5e676b] text-xs md:text-[16px] leading-[1.8] text-justify font-normal amaranth">
               Founded in 1957 by Manuel Brustenga, IADA began its<br className="hidden lg:block"/>
@@ -66,14 +66,14 @@ export default function Footer() {
             <div>
                <h4 className="text-[#1e1e1e] !font-normal text-xs md:text-[20px] mb-3 ">Social Media Links</h4>
                <div className="flex items-center ">
-                <img src="/moto/iadaAutomechanika/lnkin.png" alt="linkedin" className="drop-shadow-[0_1px_1px_rgba(0,0,0,0.50)]  hover:-translate-y-1 transition-transform cursor-pointer" />
-                <img src="/moto/iadaAutomechanika/in.png" alt="instagram" className="drop-shadow-[0_1px_1px_rgba(0,0,0,0.50)]  hover:-translate-y-1 transition-transform cursor-pointer" />
-                <img src="/moto/iadaAutomechanika/fb.png" alt="facebook" className="drop-shadow-[0_1px_1px_rgba(0,0,0,0.50)]  hover:-translate-y-1 transition-transform cursor-pointer" />
+                <img src="/moto/iadaAutomechanika/lnkin.webp" alt="linkedin" className="drop-shadow-[0_1px_1px_rgba(0,0,0,0.50)]  hover:-translate-y-1 transition-transform cursor-pointer" />
+                <img src="/moto/iadaAutomechanika/in.webp" alt="instagram" className="drop-shadow-[0_1px_1px_rgba(0,0,0,0.50)]  hover:-translate-y-1 transition-transform cursor-pointer" />
+                <img src="/moto/iadaAutomechanika/fb.webp" alt="facebook" className="drop-shadow-[0_1px_1px_rgba(0,0,0,0.50)]  hover:-translate-y-1 transition-transform cursor-pointer" />
                </div>
             </div>
             
             <div className="pt-2">
-               <img src="/moto/iadaAutomechanika/footer4.png" alt="Jodima GROUP" className="h-[70px] object-contain object-left hover:opacity-100 transition-opacity" />
+               <img src="/moto/iadaAutomechanika/footer4.webp" alt="Jodima GROUP" className="h-[70px] object-contain object-left hover:opacity-100 transition-opacity" />
             </div>
           </div>
 

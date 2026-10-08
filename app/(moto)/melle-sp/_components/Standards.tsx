@@ -40,7 +40,7 @@ export default function Standards() {
           {/* Right Column: Image space placeholder */}
           <div className="lg:col-span-6 w-full" data-aos="fade-left">
             <div className="w-full aspect-[16/11]">
-              <img src="/moto/melle-sp/distribution.png" alt="" className="rounded-3xl" />
+              <img src="/moto/melle-sp/distribution.webp" alt="" className="rounded-3xl" />
             </div>
           </div>
 

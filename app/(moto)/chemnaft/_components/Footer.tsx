@@ -9,7 +9,7 @@ export default function Footer() {
 
           {/* Logo + tagline */}
           <div className="lg:col-span-1 flex flex-col items-start gap-3">
-            <img src="/moto/chemnaft/footerlogo.png" alt="Chemnaft" className="h-50 w-auto mb-4" />
+            <img src="/moto/chemnaft/footerlogo.webp" alt="Chemnaft" className="h-50 w-auto mb-4" />
             <p className="content-white text-[16px]!">Producer of lubricating oils</p>
           </div>
 
@@ -86,13 +86,13 @@ export default function Footer() {
             <p className="content-white font-bold mb-5 text-[19px]!">Social Media Links</p>
             <div className="flex gap-1">
               <a href="#" className="w-12 h-12 hover:opacity-80 transition-opacity">
-                <img src="/moto/chemnaft/linkedin.png" alt="LinkedIn" className="w-full h-full object-contain" />
+                <img src="/moto/chemnaft/linkedin.webp" alt="LinkedIn" className="w-full h-full object-contain" />
               </a>
               <a href="#" className="w-12 h-12 hover:opacity-80 transition-opacity">
-                <img src="/moto/chemnaft/insta.png" alt="Instagram" className="w-full h-full object-contain" />
+                <img src="/moto/chemnaft/insta.webp" alt="Instagram" className="w-full h-full object-contain" />
               </a>
               <a href="#" className="w-12 h-12 hover:opacity-80 transition-opacity">
-                <img src="/moto/chemnaft/fb.png" alt="Facebook" className="w-full h-full object-contain" />
+                <img src="/moto/chemnaft/fb.webp" alt="Facebook" className="w-full h-full object-contain" />
               </a>
             </div>
           </div>

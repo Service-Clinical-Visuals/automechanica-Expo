@@ -7,13 +7,13 @@ export default function Partners() {
   const highlights = [
     {
       title: "Ajusa Technical Training",
-      image: "/moto/ajusa/partner1.png",
+      image: "/moto/ajusa/partner1.webp",
       tag: "Breaking News",
       link: "#"
     },
     {
       title: "Ajusa Turbocharger Coolant Pipes",
-      image: "/moto/ajusa/partner2.png",
+      image: "/moto/ajusa/partner2.webp",
       tag: "Breaking News",
       link: "#"
     }
@@ -61,12 +61,12 @@ export default function Partners() {
 
                 <div className="pl-2 flex items-center justify-between mt-auto pt-4 border-t border-gray-100">
                   <div className="flex items-center gap-3 text-gray-500">
-                    <img src="/moto/ajusa/speaker.png" alt="news" className="w-auto h-auto object-contain" />
+                    <img src="/moto/ajusa/speaker.webp" alt="news" className="w-auto h-auto object-contain" />
                     <span className="text-[#414141] card-text font-medium inter-font">{item.tag}</span>
                   </div>
 
                   <Link href={item.link} className="flex items-center justify-center hover:bg-gray-50 transition-colors">
-                    <img src="/moto/ajusa/arrow.png" alt="arrow" className="w-auto h-auto object-contain" />
+                    <img src="/moto/ajusa/arrow.webp" alt="arrow" className="w-auto h-auto object-contain" />
                   </Link>
                 </div>
               </div>

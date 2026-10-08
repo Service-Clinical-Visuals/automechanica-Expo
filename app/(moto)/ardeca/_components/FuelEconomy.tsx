@@ -8,7 +8,7 @@ export default function FuelEconomy() {
     <section className="relative w-full py-20 lg:py-28 overflow-hidden bg-[#111]">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 z-0 opacity-50 bg-[url('/moto/ardeca/fuelbg.png')] bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 z-0 opacity-50 bg-[url('/moto/ardeca/fuelbg.webp')] bg-cover bg-center bg-no-repeat"
       />
 
       <div className="custom-container relative z-10">

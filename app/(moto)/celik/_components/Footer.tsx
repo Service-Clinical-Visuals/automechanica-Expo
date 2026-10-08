@@ -13,7 +13,7 @@ const Footer = () => {
           {/* Column 1: Logo & Welcome (Span 4) */}
           <div className="col-span-1 md:col-span-2 xl:col-span-5 flex flex-col gap-6" data-aos="fade-up">
             <img 
-              src="/moto/celik/footerlogo.png" 
+              src="/moto/celik/footerlogo.webp" 
               alt="Celik Exhaust Systems" 
               className="w-[180px] min-[2100px]:w-[260px] min-[3800px]:w-[340px] object-contain" 
             />

@@ -9,55 +9,55 @@ import 'swiper/css';
 
 
 const categories = [
-  { name: "All", icon: <img src="/moto/aisin/1.png" alt="" className="w-6 h-6 object-contain" />, active: false },
-  { name: "Clutch", icon: <img src="/moto/aisin/2.png" alt="" className="w-6 h-6 object-contain" />, active: false },
-  { name: "Cooling", icon: <img src="/moto/aisin/3.png" alt="" className="w-6 h-6 object-contain" />, active: false },
-  { name: "Break", icon: <img src="/moto/aisin/4.png" alt="" className="w-6 h-6 object-contain" />, active: true },
-  { name: "Engine", icon: <img src="/moto/aisin/5.png" alt="" className="w-6 h-6 object-contain" />, active: false },
-  { name: "Drivetrain", icon: <img src="/moto/aisin/6.png" alt="" className="w-6 h-6 object-contain" />, active: false },
-  { name: "Fluids", icon: <img src="/moto/aisin/7.png" alt="" className="w-6 h-6 object-contain" />, active: false },
-  { name: "Steering & Suspension", icon: <img src="/moto/aisin/8.png" alt="" className="w-6 h-6 object-contain" />, active: false },
-  { name: "Performance", icon: <img src="/moto/aisin/9.png" alt="" className="w-6 h-6 object-contain" />, active: false },
+  { name: "All", icon: <img src="/moto/aisin/1.webp" alt="" className="w-6 h-6 object-contain" />, active: false },
+  { name: "Clutch", icon: <img src="/moto/aisin/2.webp" alt="" className="w-6 h-6 object-contain" />, active: false },
+  { name: "Cooling", icon: <img src="/moto/aisin/3.webp" alt="" className="w-6 h-6 object-contain" />, active: false },
+  { name: "Break", icon: <img src="/moto/aisin/4.webp" alt="" className="w-6 h-6 object-contain" />, active: true },
+  { name: "Engine", icon: <img src="/moto/aisin/5.webp" alt="" className="w-6 h-6 object-contain" />, active: false },
+  { name: "Drivetrain", icon: <img src="/moto/aisin/6.webp" alt="" className="w-6 h-6 object-contain" />, active: false },
+  { name: "Fluids", icon: <img src="/moto/aisin/7.webp" alt="" className="w-6 h-6 object-contain" />, active: false },
+  { name: "Steering & Suspension", icon: <img src="/moto/aisin/8.webp" alt="" className="w-6 h-6 object-contain" />, active: false },
+  { name: "Performance", icon: <img src="/moto/aisin/9.webp" alt="" className="w-6 h-6 object-contain" />, active: false },
 ];
 
 const products = [
   {
-    image: "/moto/aisin/p1.png",
+    image: "/moto/aisin/p1.webp",
     title: "ADVIC Brake Disk",
     desc: "ADVICS brake discs are friction components that work together with brake pads to convert kinetic energy into heat.",
   },
   {
-    image: "/moto/aisin/p2.png",
+    image: "/moto/aisin/p2.webp",
     title: "BRAKE PAD WEAR INDICATORS",
     desc: "ADVICS brake pad wear indicators are monitoring components designed to alert drivers & workshops.",
   },
   {
-    image: "/moto/aisin/p3.png",
+    image: "/moto/aisin/p3.webp",
     title: "ADVICS Brake Pads",
     desc: "ADVICS brake pads are friction components designed to generate braking force in disc brake systems.",
   },
   {
-    image: "/moto/aisin/p4.png",
+    image: "/moto/aisin/p4.webp",
     title: "ADVICS Brake Caliper",
     desc: "ADVICS brake calipers are hydraulic components that generate clamping force, pressing the brake pads",
   },
   {
-    image: "/moto/aisin/p5.png",
+    image: "/moto/aisin/p5.webp",
     title: "ADVICS Brake Master Cylinder",
     desc: "ADVICS master cylinders convert pedal force into precise hydraulic pressure for reliable, durable braking performance.",
   },
   {
-    image: "/moto/aisin/p6.png",
+    image: "/moto/aisin/p6.webp",
     title: "ADVICS Brake Wheel Cylinder",
     desc: "ADVICS wheel cylinders deliver reliable braking force in drum systems with OE-quality design, smooth actuation.",
   },
   {
-    image: "/moto/aisin/p7.png",
+    image: "/moto/aisin/p7.webp",
     title: "ADVICS Brake Booster",
     desc: "ADVICS brake boosters amplify pedal force for easier, safer, and more responsive braking performance.",
   },
   {
-    image: "/moto/aisin/p8.png",
+    image: "/moto/aisin/p8.webp",
     title: "ADVICS Brake Fluid",
     desc: "ADVICS high-performance brake fluid ensures stable operation and maximum safety under extreme conditions.",
   },

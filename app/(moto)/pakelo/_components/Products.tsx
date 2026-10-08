@@ -7,32 +7,32 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 export default function Products() {
   const products = [
     {
-      image: "/moto/pakelo/pro11.png",
+      image: "/moto/pakelo/pro11.webp",
       title: "HELIUM EVO - SAE 10W-30",
       imageBg: "bg-[#EAEAEA]",
-      badge: "/moto/pakelo/p1.png",
+      badge: "/moto/pakelo/p1.webp",
      
     },
     {
-      image: "/moto/pakelo/pro22.png",
+      image: "/moto/pakelo/pro22.webp",
       title: "HELIUM FXT - SAE 0W-16",
       imageBg: "bg-[#EAEAEA]",
-      badge: "/moto/pakelo/p2.png",
+      badge: "/moto/pakelo/p2.webp",
      
     }
     ,
      {
-      image: "/moto/pakelo/pro33.png",
+      image: "/moto/pakelo/pro33.webp",
       title: "HELIUM EVO - SAE 10W-30",
       imageBg: "bg-[#EAEAEA]",
-      badge: "/moto/pakelo/p2.png",
+      badge: "/moto/pakelo/p2.webp",
       
     },
      {
-      image: "/moto/pakelo/pro44.png",
+      image: "/moto/pakelo/pro44.webp",
       title: "HELIUM EVO - SAE 10W-30",
       imageBg: "bg-[#EAEAEA]",
-      badge: "/moto/pakelo/p2.png",
+      badge: "/moto/pakelo/p2.webp",
      
     },
   ];

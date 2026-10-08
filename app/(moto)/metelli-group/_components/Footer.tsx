@@ -15,7 +15,7 @@ export default function Footer() {
           {/* Column 1: Logo & Info */}
           <div className="flex flex-col gap-6 lg:col-span-3">
             <Link href="/" className="inline-block mb-2">
-              <img src="/moto/metelli-group/footer-logo.png" alt="Metelli Group Logo" className="h-10 w-10   max-w-[90%]  w-auto   object-contain" />
+              <img src="/moto/metelli-group/footer-logo.webp" alt="Metelli Group Logo" className="h-10 w-10   max-w-[90%]  w-auto   object-contain" />
             </Link>
             <Typography variant="p" className="footer-body leading-relaxed max-w-[95%] text-[13px] md:text-sm text-[#5D5D5D]">
               More than sixty years ago the Metelli Group was just a mechanical engineering workshop.

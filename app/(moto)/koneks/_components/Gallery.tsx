@@ -9,12 +9,12 @@ import "swiper/css/pagination";
 
 export default function Gallery() {
   const galleryImages = [
-    "/moto/koneks/gallery1.png",
-    "/moto/koneks/gallery2.png",
-    "/moto/koneks/gallery3.png",
-    "/moto/koneks/gallery4.png",
-    "/moto/koneks/gallery5.png",
-    "/moto/koneks/gallery6.png",
+    "/moto/koneks/gallery1.webp",
+    "/moto/koneks/gallery2.webp",
+    "/moto/koneks/gallery3.webp",
+    "/moto/koneks/gallery4.webp",
+    "/moto/koneks/gallery5.webp",
+    "/moto/koneks/gallery6.webp",
   ];
 
   return (

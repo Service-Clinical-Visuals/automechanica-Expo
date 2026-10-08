@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="flex flex-col gap-6 lg:col-span-3">
             <Link href="/magma-brakes">
               <img
-                src="/moto/magma-brakes/footerlogo.png"
+                src="/moto/magma-brakes/footerlogo.webp"
                 alt="Magma Brakes Logo"
                 className="h-12 h-[70%] object-contain"
               />

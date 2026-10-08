@@ -22,14 +22,14 @@ export default function Automation() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8" data-aos="fade-up" data-aos-delay="100">
           <div className="w-full h-auto overflow-hidden rounded-2xl shadow-md">
             <img
-              src="/airstal/section21.png"
+              src="/airstal/section21.webp"
               alt="Airstal Building Exterior"
               className="w-full h-full object-fill scale-[1.05] hover:scale-105 transition-transform duration-500"
             />
           </div>
           <div className="w-full h-auto overflow-hidden rounded-2xl shadow-md">
             <img
-              src="/airstal/section22.png"
+              src="/airstal/section22.webp"
               alt="Airstal Building Interior Logo"
               className="w-full h-full scale-[1.05] object-cover hover:scale-105 transition-transform duration-500"
             />

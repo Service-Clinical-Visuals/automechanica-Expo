@@ -7,17 +7,17 @@ import Container from "./Container";
 
 const features = [
   {
-    icon: "/moto/camt/quality/1.png",
+    icon: "/moto/camt/quality/1.webp",
     title: "Precision Emission Monitoring",
     description: "Accurate NOx monitoring.",
   },
   {
-    icon: "/moto/camt/quality/2.png",
+    icon: "/moto/camt/quality/2.webp",
     title: "High Durability & Reliability",
     description: "Long-lasting performance.",
   },
   {
-    icon: "/moto/camt/quality/3.png",
+    icon: "/moto/camt/quality/3.webp",
     title: "Global Compliance",
     description: "Meets global emission standards.",
   },

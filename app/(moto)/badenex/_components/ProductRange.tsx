@@ -7,52 +7,52 @@ const products = [
   {
     title: "EGTS",
     description: "BREMI exhaust gas temperature sensors provide precise temperature measurements and help to increase efficiency.",
-    image: "/moto/bremi/1.png"
+    image: "/moto/bremi/1.webp"
   },
   {
     title: "Glow Plugs",
     description: "Our glow plugs ensure reliable engine starting and optimum heating performance under extreme conditions.",
-    image: "/moto/bremi/2.png"
+    image: "/moto/bremi/2.webp"
   },
   {
     title: "Crankshaft Sensors",
     description: "BREMI cam and crankshaft sensors provide you with maximum precision for optimum engine control. Perfect for your engine.",
-    image: "/moto/bremi/3.png"
+    image: "/moto/bremi/3.webp"
   },
   {
     title: "Ignition Cables",
     description: "BREMI ignition cables and ignition cable sets offer reliable power transmission and optimum ignition performance.",
-    image: "/moto/bremi/4.png"
+    image: "/moto/bremi/4.webp"
   },
   {
     title: "Mass Air Flow Sensors",
     description: "BREMI mass air flow sensors guarantee precise measurements and improve engine performance and fuel efficiency.",
-    image: "/moto/bremi/5.png"
+    image: "/moto/bremi/5.webp"
   },
   {
     title: "Wheel Speed Sensors",
     description: "Our wheel speed sensors offer maximum safety and reliability for your vehicle. For the best balance for your car.",
-    image: "/moto/bremi/6.png"
+    image: "/moto/bremi/6.webp"
   },
   {
     title: "Rotors",
     description: "The BREMI ignition distributor rotor guarantees reliable ignition current distribution and optimum engine performance.",
-    image: "/moto/bremi/7.png"
+    image: "/moto/bremi/7.webp"
   },
   {
     title: "Boost Pressure Sensors",
     description: "BREMI intake manifold and boost pressure sensors provide precise pressure measurements for improved engine performance.",
-    image: "/moto/bremi/8.png"
+    image: "/moto/bremi/8.webp"
   },
   {
     title: "Distributor Caps",
     description: "Our BREMI distributor caps offer reliable protection and efficient ignition current distribution. Click here to learn more.",
-    image: "/moto/bremi/9.png"
+    image: "/moto/bremi/9.webp"
   },
   {
     title: "Ignition Coils",
     description: "BREMI ignition coils guarantee powerful ignition and improved engine performance. Click here for more information.",
-    image: "/moto/bremi/10.png"
+    image: "/moto/bremi/10.webp"
   }
 ];
 

@@ -7,17 +7,17 @@ import DynamicVideoPlayer from "../../../_components/DynamicVideoPlayer";
 export default function Explore360() {
   const features = [
     {
-      icon: "/moto/asimco/i1.png",
+      icon: "/moto/asimco/i1.webp",
       title: "Interactive Product Showcase",
       description: "Explore ASIMCO brake components through an immersive 360° experience that highlights every angle with exceptional clarity. Discover the precision engineering and premium craftsmanship behind each product.",
     },
     {
-      icon: "/moto/asimco/i2.png",
+      icon: "/moto/asimco/i2.webp",
       title: "Brake Pad & Brake Caliper",
       description: "Examine the detailed construction of ASIMCO brake pads and brake calipers, designed to deliver reliable braking performance, accurate fitment, and long-lasting durability for a wide range of vehicle applications.",
     },
     {
-      icon: "/moto/asimco/i3.png",
+      icon: "/moto/asimco/i3.webp",
       title: "Precision Engineering Advantage",
       description: "ASIMCO products are built with advanced engineering standards to ensure consistent performance under all driving conditions. Every component undergoes strict quality testing to meet global safety and durability benchmarks.",
     }

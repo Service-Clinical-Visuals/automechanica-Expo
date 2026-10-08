@@ -10,7 +10,7 @@ export default function Precision() {
       
       {/* Background Image */}
       <div className="absolute inset-0 z-0 pointer-events-none">
-        <img src="/moto/et-engine/bg.png" alt="Background pattern" className="w-full h-full object-cover" />
+        <img src="/moto/et-engine/bg.webp" alt="Background pattern" className="w-full h-full object-cover" />
       </div>
 
       <div className="custom-container relative z-10 flex flex-col items-center">

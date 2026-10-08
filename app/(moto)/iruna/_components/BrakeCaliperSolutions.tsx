@@ -39,7 +39,7 @@ export default function BrakeCaliperSolutions() {
             <ul className="space-y-5 mb-10">
               {benefits.map((benefit, idx) => (
                 <li key={idx} className="flex items-start gap-4">
-                  <img src="/moto/iruna/brlwheel.png" alt="Icon" className="w-[18px] h-[18px] object-contain flex-shrink-0 mt-1" />
+                  <img src="/moto/iruna/brlwheel.webp" alt="Icon" className="w-[18px] h-[18px] object-contain flex-shrink-0 mt-1" />
                   <span className="sora text-[#484848] section-text leading-[1.8] text-justify">
                     {benefit}
                   </span>

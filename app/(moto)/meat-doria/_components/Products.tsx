@@ -2,10 +2,10 @@ import { ArrowRightIcon, User } from "lucide-react";
 import Container from "./Container";
 
 const products = [
-  { img: "/moto/meat-doria/products/1.png", title: "Air Conditioning Compressor" },
-  { img: "/moto/meat-doria/products/2.png", title: "Air Conditioning Condenser" },
-  { img: "/moto/meat-doria/products/3.png", title: "Evaporators" },
-  { img: "/moto/meat-doria/products/4.png", title: "Air Conditioning Compressor" },
+  { img: "/moto/meat-doria/products/1.webp", title: "Air Conditioning Compressor" },
+  { img: "/moto/meat-doria/products/2.webp", title: "Air Conditioning Condenser" },
+  { img: "/moto/meat-doria/products/3.webp", title: "Evaporators" },
+  { img: "/moto/meat-doria/products/4.webp", title: "Air Conditioning Compressor" },
 ];
 
 export default function Products() {

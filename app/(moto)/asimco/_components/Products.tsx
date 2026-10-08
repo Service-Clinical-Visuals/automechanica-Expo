@@ -9,15 +9,15 @@ import Image from "next/image";
 import Button from "./Button";
 
 const products = [
-  { name: "Brake Pads", image: "/moto/asimco/1.png" },
-  { name: "Brake Shoes", image: "/moto/asimco/2.png" },
-  { name: "Brake Discs", image: "/moto/asimco/3.png" },
-  { name: "Rubber Parts", image: "/moto/asimco/4.png" },
-  { name: "Radiators", image: "/moto/asimco/5.png" },
-  { name: "Brake Fluids", image: "/moto/asimco/6.png" },
-  { name: "Horns", image: "/moto/asimco/7.png" },
-  { name: "Fuel Pumps", image: "/moto/asimco/8.png" },
-  { name: "Shock Absorbers", image: "/moto/asimco/9.png" },
+  { name: "Brake Pads", image: "/moto/asimco/1.webp" },
+  { name: "Brake Shoes", image: "/moto/asimco/2.webp" },
+  { name: "Brake Discs", image: "/moto/asimco/3.webp" },
+  { name: "Rubber Parts", image: "/moto/asimco/4.webp" },
+  { name: "Radiators", image: "/moto/asimco/5.webp" },
+  { name: "Brake Fluids", image: "/moto/asimco/6.webp" },
+  { name: "Horns", image: "/moto/asimco/7.webp" },
+  { name: "Fuel Pumps", image: "/moto/asimco/8.webp" },
+  { name: "Shock Absorbers", image: "/moto/asimco/9.webp" },
 ];
 
 export default function Products() {

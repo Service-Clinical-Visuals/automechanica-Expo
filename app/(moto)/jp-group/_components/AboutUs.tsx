@@ -12,7 +12,7 @@ const AboutUs = () => {
         {/* Image (Mobile: Order 3, Desktop: Left Column) */}
         <div className="w-full order-3 lg:order-1 lg:col-span-7 h-full flex justify-center lg:justify-start" data-aos="fade-right">
           <img
-            src="/moto/jp-group/section2.png"
+            src="/moto/jp-group/section2.webp"
             alt="JP Group Warehouse"
             className="w-full h-auto  object-cover"
           />

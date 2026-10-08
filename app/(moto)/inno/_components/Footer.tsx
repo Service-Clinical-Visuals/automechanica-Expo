@@ -3,6 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { Phone, Mail, MapPin } from "lucide-react";
+import { FaInstagram, FaFacebookF, FaYoutube, FaLinkedinIn } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -16,7 +17,7 @@ export default function Footer() {
           <div className="w-full lg:w-[70%] mr-20 flex flex-col gap-6" data-aos="fade-up">
             <Link href="#">
               <img
-                src="/moto/inno/logo.png"
+                src="/moto/inno/logo.webp"
                 alt="Inno Piston Logo"
                 className="w-auto h-auto object-contain"
               />
@@ -25,17 +26,17 @@ export default function Footer() {
               Inno Piston is a trusted manufacturer of precision-engineered engine components, specializing in pistons, piston rings, and cylinder liners. Combining advanced technology, quality craftsmanship, and rigorous testing, we deliver reliable solutions that enhance engine performance and durability across global automotive and industrial markets.
             </p>
             <div className="flex items-center gap-4 mt-2">
-              <Link href="#" className="text-gray-500 hover:text-[#F25C27]">
-                <img src="/moto/cevam/social_insta.png" alt="Insta" className="w-6 h-6 object-contain" onError={(e) => { e.currentTarget.src = 'https://cdn-icons-png.flaticon.com/512/174/174855.png' }} />
+              <Link href="#" className="text-gray-500 hover:text-[#F25C27] transition-colors">
+                <FaInstagram className="w-5 h-5" />
               </Link>
-              <Link href="#" className="text-gray-500 hover:text-[#F25C27]">
-                <img src="/moto/cevam/social_fb.png" alt="FB" className="w-6 h-6 object-contain" onError={(e) => { e.currentTarget.src = 'https://cdn-icons-png.flaticon.com/512/733/733547.png' }} />
+              <Link href="#" className="text-gray-500 hover:text-[#F25C27] transition-colors">
+                <FaFacebookF className="w-5 h-5" />
               </Link>
-              <Link href="#" className="text-gray-500 hover:text-[#F25C27]">
-                <img src="/moto/cevam/social_yt.png" alt="YT" className="w-6 h-6 object-contain" onError={(e) => { e.currentTarget.src = 'https://cdn-icons-png.flaticon.com/512/1384/1384060.png' }} />
+              <Link href="#" className="text-gray-500 hover:text-[#F25C27] transition-colors">
+                <FaYoutube className="w-5 h-5" />
               </Link>
-              <Link href="#" className="text-gray-500 hover:text-[#F25C27]">
-                <img src="/moto/cevam/social_li.png" alt="LI" className="w-6 h-6 object-contain" onError={(e) => { e.currentTarget.src = 'https://cdn-icons-png.flaticon.com/512/3536/3536505.png' }} />
+              <Link href="#" className="text-gray-500 hover:text-[#F25C27] transition-colors">
+                <FaLinkedinIn className="w-5 h-5" />
               </Link>
             </div>
           </div>

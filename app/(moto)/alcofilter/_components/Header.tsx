@@ -46,17 +46,17 @@ export default function Header() {
         <div className="absolute top-0 right-0 h-[40px] flex justify-end items-center z-10 hidden md:flex">
           <div className="flex items-center gap-6 xl:gap-10">
             <div className="flex items-center gap-2">
-              <img src="/moto/alcofilter/phone.png" alt="Phone" className="w-4 h-4 object-contain brightness-0 invert" />
+              <img src="/moto/alcofilter/phone.webp" alt="Phone" className="w-4 h-4 object-contain brightness-0 invert" />
               <span className="oswald-font text-white header-sublink font-medium">+357-22-467667</span>
             </div>
             <div className="flex items-center gap-2">
-              <img src="/moto/alcofilter/mail.png" alt="Mail" className="w-4 h-4 object-contain brightness-0 invert" />
+              <img src="/moto/alcofilter/mail.webp" alt="Mail" className="w-4 h-4 object-contain brightness-0 invert" />
               <span className="oswald-font text-white header-sublink font-medium">marketing@alcofilters.com</span>
             </div>
             <div className="flex items-center gap-2 pl-4 xl:pl-6">
               <div className="border border-white flex items-center gap-2 px-2 py-1 cursor-pointer hover:bg-white/10 transition-colors">
-                <img src="/moto/alcofilter/flag.png" alt="Flag" className="h-[20px] w-auto" />
-                <img src="/moto/alcofilter/dwnarrow.png" alt="Dropdown" className="w-[20px] h-auto " />
+                <img src="/moto/alcofilter/flag.webp" alt="Flag" className="h-[20px] w-auto" />
+                <img src="/moto/alcofilter/dwnarrow.webp" alt="Dropdown" className="w-[20px] h-auto " />
               </div>
             </div>
           </div>
@@ -69,7 +69,7 @@ export default function Header() {
           <div className="flex-shrink-0 flex items-center h-full">
             <Link href="#" className="h-full flex items-center">
               {/* If logo has red background in image, just use it, else apply bg */}
-              <img src="/moto/alcofilter/logo.png" alt="Alco Logo" className="h-[60px] md:h-[120px] w-auto object-contain" />
+              <img src="/moto/alcofilter/logo.webp" alt="Alco Logo" className="h-[60px] md:h-[120px] w-auto object-contain" />
             </Link>
           </div>
 
@@ -93,7 +93,7 @@ export default function Header() {
                   </Link>
                   {link.hasDropdown && (
                    
-                    <img src="/moto/alcofilter/dwnarrow1.png" alt="Alco Logo" className="h-[20px] w-auto object-contain" />
+                    <img src="/moto/alcofilter/dwnarrow1.webp" alt="Alco Logo" className="h-[20px] w-auto object-contain" />
                   )}
                 </div>
               ))}
@@ -108,7 +108,7 @@ export default function Header() {
                 className="px-3 h-full outline-none oswald-font header-link font-medium text-black placeholder:text-black w-[150px] xl:w-[200px]"
               />
               <button className="bg-[#E10600] w-[38px] h-[38px] flex items-center justify-center hover:bg-[#b30500] transition-colors">
-                <img src="/moto/alcofilter/search.png" alt="Search" className="w-[18px] h-[18px] brightness-0 invert" />
+                <img src="/moto/alcofilter/search.webp" alt="Search" className="w-[18px] h-[18px] brightness-0 invert" />
               </button>
             </div>
           </div>
@@ -147,7 +147,7 @@ export default function Header() {
                   {link.name}
                 </Link>
                 {link.hasDropdown && (
-                  <img src="/moto/alcofilter/dwnarrow1.png" alt="Alco Logo" className="h-[20px] w-auto object-contain" />
+                  <img src="/moto/alcofilter/dwnarrow1.webp" alt="Alco Logo" className="h-[20px] w-auto object-contain" />
                 )}
               </div>
             ))}
@@ -157,16 +157,16 @@ export default function Header() {
               <div className="flex items-center justify-between pb-4 border-b border-white/20">
                 <span className="oswald-font font-semibold header-sublink">Translate:</span>
                 <div className="flex items-center gap-2">
-                  <img src="/moto/alcofilter/flag.png" alt="Flag" className="h-4 w-auto" />
+                  <img src="/moto/alcofilter/flag.webp" alt="Flag" className="h-4 w-auto" />
                 </div>
               </div>
               <div className="flex flex-col gap-3">
                 <div className="flex items-center gap-3">
-                  <img src="/moto/alcofilter/phone.png" alt="" className="w-4 h-4 brightness-0 invert" />
+                  <img src="/moto/alcofilter/phone.webp" alt="" className="w-4 h-4 brightness-0 invert" />
                   <span className="oswald-font header-sublink font-normal">+357-22-467667</span>
                 </div>
                 <div className="flex items-center gap-3">
-                  <img src="/moto/alcofilter/mail.png" alt="" className="w-4 h-4 brightness-0 invert" />
+                  <img src="/moto/alcofilter/mail.webp" alt="" className="w-4 h-4 brightness-0 invert" />
                   <span className="oswald-font header-sublink font-normal">marketing@alcofilters.com</span>
                 </div>
               </div>

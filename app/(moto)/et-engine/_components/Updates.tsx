@@ -14,32 +14,32 @@ export default function Updates() {
     {
       date: "05/2026",
       title: "TSO069VR1 - ET ENGINETEAM Gasket Kit, cylinder head",
-      img: "/moto/et-engine/update1-1.png"
+      img: "/moto/et-engine/update1-1.webp"
     },
     {
       date: "05/2026",
       title: "TSO069VR4 - ET ENGINETEAM Gasket Kit, cylinder head",
-      img: "/moto/et-engine/update1-2.jpg"
+      img: "/moto/et-engine/update1-2.webp"
     },
     {
       date: "05/2026",
       title: "TSO069VR1 - ET ENGINETEAM Gasket Kit, cylinder head",
-      img: "/moto/et-engine/update1-3.jpg"
+      img: "/moto/et-engine/update1-3.webp"
     },
     {
       date: "04/2026",
       title: "VT0064 - ET ENGINETEAM Camshaft Adjuster, VVT hub",
-      img: "/moto/et-engine/update1-4.jpg"
+      img: "/moto/et-engine/update1-4.webp"
     },
     {
       date: "04/2026",
       title: "SB0033 - ET ENGINETEAM Complete Engine",
-      img: "/moto/et-engine/update1-5.jpg"
+      img: "/moto/et-engine/update1-5.webp"
     },
     {
       date: "04/2026",
       title: "ED0338 - ET ENGINETEAM Manifold, exhaust system",
-      img: "/moto/et-engine/update1-6.jpg"
+      img: "/moto/et-engine/update1-6.webp"
     }
   ];
 
@@ -48,7 +48,7 @@ export default function Updates() {
       
       {/* Background Image */}
       <div className="absolute inset-0 z-0 pointer-events-none">
-        <img src="/moto/et-engine/bg.png" alt="Background pattern" className="w-full h-full object-cover" />
+        <img src="/moto/et-engine/bg.webp" alt="Background pattern" className="w-full h-full object-cover" />
       </div>
 
       <div className="custom-container relative z-10 flex flex-col gap-8">

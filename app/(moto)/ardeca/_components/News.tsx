@@ -6,7 +6,7 @@ import Button from "./Button";
 export default function News() {
   const newsItems = [
     {
-      image: "/moto/ardeca/news3.png",
+      image: "/moto/ardeca/news3.webp",
       title: "Ardeca Ypres Rally 2024",
       desc: "Ardeca Ypres Rally 2024 is coming up! Mark your calendars for June 20-22 because the 59th edition of the Ardeca Ypres Rally is about to take off.",
       day: "25",
@@ -14,7 +14,7 @@ export default function News() {
       year: "2024",
     },
     {
-      image: "/moto/ardeca/news2.png",
+      image: "/moto/ardeca/news2.webp",
       title: "Visit us at Automechanika Frankfurt!",
       desc: "We kindly invite you to our booth at Automechanika Frankfurt, the world's leading event for the automotive industry!",
       day: "22",
@@ -77,7 +77,7 @@ export default function News() {
                 </div>
                 
                 <div className="w-10 h-10 md:w-11 md:h-11 bg-[#CE0E2D] group-hover:bg-[#a50b24] flex items-center justify-center transition-colors shadow-sm">
-                  <img src="/moto/ardeca/Arrow 2.png" alt="arrow icon" className="w-4 h-4 md:w-5 md:h-5 object-contain" />
+                  <img src="/moto/ardeca/Arrow 2.webp" alt="arrow icon" className="w-4 h-4 md:w-5 md:h-5 object-contain" />
                 </div>
               </div>
               

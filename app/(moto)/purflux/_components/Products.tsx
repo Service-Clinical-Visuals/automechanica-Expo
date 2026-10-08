@@ -13,27 +13,27 @@ const Products = () => {
     {
       title: "Oil Filters",
       desc: "Advanced filtration technology keeps the engine oil cleaner for longer, improving performance, durability, and engine life.",
-      img: "/moto/purflux/product1.png"
+      img: "/moto/purflux/product1.webp"
     },
     {
       title: "Air Filters",
       desc: "Built for superior filtration, Purflux air filters help maintain engine power, improve fuel economy, and extend engine life.",
-      img: "/moto/purflux/product2.png"
+      img: "/moto/purflux/product2.webp"
     },
     {
       title: "Diesel Filters",
       desc: "High-performance diesel filters that protect fuel systems from impurities, helping extend engine life.",
-      img: "/moto/purflux/product3.png"
+      img: "/moto/purflux/product3.webp"
     },
     {
       title: "Petrol Filters",
       desc: "Engineered for precise filtration, Purflux petrol filters deliver cleaner fuel, reliable engine protection.",
-      img: "/moto/purflux/product4.png"
+      img: "/moto/purflux/product4.webp"
     },
     {
       title: "Cabin Air Filters",
       desc: "Purflux cabin air filters remove dust, pollen, pollutants, and odors, creating a cleaner, healthier environment.",
-      img: "/moto/purflux/product5.png"
+      img: "/moto/purflux/product5.webp"
     }
   ];
 

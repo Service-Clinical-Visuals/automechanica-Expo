@@ -7,14 +7,14 @@ import AmadiniButton from "./AmadiniButton";
 
 export default function Distributors() {
   const distributorLogos = [
-    "/moto/amadini/d1.png",
-    "/moto/amadini/d2.png",
-    "/moto/amadini/d3.png",
-    "/moto/amadini/d4.png",
-    "/moto/amadini/d5.png",
-    "/moto/amadini/d6.png",
-    "/moto/amadini/d7.png",
-    "/moto/amadini/d8.png",
+    "/moto/amadini/d1.webp",
+    "/moto/amadini/d2.webp",
+    "/moto/amadini/d3.webp",
+    "/moto/amadini/d4.webp",
+    "/moto/amadini/d5.webp",
+    "/moto/amadini/d6.webp",
+    "/moto/amadini/d7.webp",
+    "/moto/amadini/d8.webp",
   ];
 
   return (

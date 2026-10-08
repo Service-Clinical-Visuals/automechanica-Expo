@@ -57,7 +57,7 @@ export default function Passion() {
           {/* Right Image */}
           <div className="w-full relative aspect-[4/3] rounded-[2rem] overflow-hidden shadow-2xl" data-aos="fade-left">
             <img
-              src="/moto/abs-allbrakes/section4.png"
+              src="/moto/abs-allbrakes/section4.webp"
               alt="ABS Passion"
               className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-700"
             />
@@ -75,7 +75,7 @@ export default function Passion() {
             {/* Stat 1 */}
             <div className="flex items-center space-x-6 px-2 lg:px-6 py-4 md:py-0">
               <div className="w-16 h-16 lg:w-25 lg:h-25 shrink-0">
-                <img src="/moto/abs-allbrakes/passion1.png" alt="People" className="w-full h-full object-contain" />
+                <img src="/moto/abs-allbrakes/passion1.webp" alt="People" className="w-full h-full object-contain" />
               </div>
               <div className="flex flex-col">
                 <Typography variant="h1" color="dark" weight="bold" className="text-6xl lg:text-[70px] leading-none mb-2">
@@ -90,7 +90,7 @@ export default function Passion() {
             {/* Stat 2 */}
             <div className="flex items-center space-x-6 px-2 lg:px-6 py-4 md:py-0">
               <div className="w-16 h-16 lg:w-25 lg:h-25 shrink-0">
-                <img src="/moto/abs-allbrakes/passion2.png" alt="Globe" className="w-full h-full object-contain" />
+                <img src="/moto/abs-allbrakes/passion2.webp" alt="Globe" className="w-full h-full object-contain" />
               </div>
               <div className="flex flex-col">
                 <Typography variant="h1" color="dark" weight="bold" className="text-6xl lg:text-[70px] leading-none mb-2">
@@ -105,7 +105,7 @@ export default function Passion() {
             {/* Stat 3 */}
             <div className="flex items-center space-x-6 px-2 lg:px-6 py-4 md:py-0">
               <div className="w-16 h-16 lg:w-25 lg:h-25 shrink-0">
-                <img src="/moto/abs-allbrakes/passion3.png" alt="Chart" className="w-full h-full object-contain" />
+                <img src="/moto/abs-allbrakes/passion3.webp" alt="Chart" className="w-full h-full object-contain" />
               </div>
               <div className="flex flex-col">
                 <Typography variant="h1" color="dark" weight="bold" className="text-6xl lg:text-[70px] leading-none mb-2">

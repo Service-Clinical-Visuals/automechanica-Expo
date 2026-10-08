@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="col-span-2 md:col-span-1 xl:col-span-6 max-w-md flex flex-col gap-6" data-aos="fade-up">
           <Link href="#">
             <img 
-              src="/moto/birlik/logo.png" 
+              src="/moto/birlik/logo.webp" 
               alt="Birlik Conta Logo" 
               className="h-10 md:h-12 w-auto object-contain"
             />
@@ -86,13 +86,13 @@ export default function Footer() {
           </h4>
           <div className="flex flex-col gap-5">
             <div className="flex items-start gap-3">
-              <img src="/moto/birlik/map.png" alt="Phone Icon" className="w-5 h-5 mt-1 flex-shrink-0" />
+              <img src="/moto/birlik/map.webp" alt="Phone Icon" className="w-5 h-5 mt-1 flex-shrink-0" />
               <p className="manrope-font section-text text-[#444444]  leading-relaxed">
                 Adil Mah. Ekol Cad. Pelitoren Sok. No:2 Pk:34935 SULTANBEYLI - ISTANBUL / TURKEY
               </p>
             </div>
             <div className="flex items-start gap-3">
-              <img src="/moto/birlik/ph.png" alt="Phone Icon" className="w-5 h-5 mt-1 flex-shrink-0" />
+              <img src="/moto/birlik/ph.webp" alt="Phone Icon" className="w-5 h-5 mt-1 flex-shrink-0" />
               <a href="tel:+902166690902" className="manrope-font section-text text-[#444444]  hover:text-[#1f5dd2] transition-colors">
                 +90 216 669 09 02
               </a>

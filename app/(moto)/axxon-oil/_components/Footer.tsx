@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[19fr_27fr_27fr_27fr] gap-10 pb-10">
           {/* Logo + tagline + social */}
           <div>
-            <img src="/moto/axon-oil/logo.png" alt="AxxonOil" className="w-[220px] h-auto object-contain mb-4" />
+            <img src="/moto/axon-oil/logo.webp" alt="AxxonOil" className="w-[220px] h-auto object-contain mb-4" />
             <p className="content text-[16px]! leading-[24px]! mb-6">
               AxxonOil is an international operating company, based in Italy, leader in the
               production of lubricants.

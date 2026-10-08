@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="md:col-span-2 xl:col-span-4 flex flex-col pr-4 xl:pr-8">
             <Link href="#" className="mb-6 block">
               <img
-                src="/moto/launch-europe/log.png"
+                src="/moto/launch-europe/log.webp"
                 alt="Launch Europe"
                 className="w-30 lg:w-40 h-auto object-contain"
               />
@@ -43,11 +43,11 @@ export default function Footer() {
             <h4 className="text-white font-heading font-normal section-title1 mb-6">Contact Us</h4>
             <div className="flex flex-col items-start gap-5 font-lato section-text">
               <Link href="tel:+490227398750" className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors group">
-              <img src="/moto/launch-europe/phone.png" alt="phone" />
+              <img src="/moto/launch-europe/phone.webp" alt="phone" />
                 <span className="text-white section-text  font-lato ">+49 (0) 2273 / 98 75-0</span>
               </Link>
               <Link href="mailto:info@launch-europe.de" className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors group">
-              <img src="/moto/launch-europe/mail.png" alt="mail" />
+              <img src="/moto/launch-europe/mail.webp" alt="mail" />
                 <span className="text-white section-text  font-lato ">info@launch-europe.de</span>
               </Link>
             </div>
@@ -57,10 +57,10 @@ export default function Footer() {
           <div className="xl:col-span-1 flex flex-col">
             <h4 className="text-white font-heading font-normal section-title1 mb-6">Social</h4>
             <div className="flex items-center gap-4 font-lato section-text">
-                <img src="/moto/launch-europe/in.png" alt="in" />
-              <img src="/moto/launch-europe/x.png" alt="x" />
-              <img src="/moto/launch-europe/ins.png" alt="ins" />
-              <img src="/moto/launch-europe/you.png" alt="you" />
+                <img src="/moto/launch-europe/in.webp" alt="in" />
+              <img src="/moto/launch-europe/x.webp" alt="x" />
+              <img src="/moto/launch-europe/ins.webp" alt="ins" />
+              <img src="/moto/launch-europe/you.webp" alt="you" />
             </div>
           </div>
 

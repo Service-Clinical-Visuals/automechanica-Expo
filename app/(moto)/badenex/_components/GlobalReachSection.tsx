@@ -32,7 +32,7 @@ export default function GlobalReachSection() {
                     {/* Card 1 */}
                     <div className="relative w-full h-[300px] sm:h-[400px] rounded-lg overflow-hidden group shadow-lg">
                         <img
-                            src="/moto/badenex/new1.png"
+                            src="/moto/badenex/new1.webp"
                             alt="Passenger cars"
                             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         />
@@ -51,7 +51,7 @@ export default function GlobalReachSection() {
                     {/* Card 2 */}
                     <div className="relative w-full h-[300px] sm:h-[400px] rounded-lg overflow-hidden group shadow-lg">
                         <img
-                            src="/moto/badenex/new2.png"
+                            src="/moto/badenex/new2.webp"
                             alt="Research & Development"
                             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         />

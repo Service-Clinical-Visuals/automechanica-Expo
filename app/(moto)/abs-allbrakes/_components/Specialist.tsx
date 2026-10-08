@@ -25,14 +25,14 @@ export default function Specialist() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full order-3 xl:order-none" data-aos="fade-up" data-aos-delay="200">
           <div className="w-full relative aspect-[4/3] md:aspect-[3/2] overflow-hidden rounded-sm shadow-sm group">
             <img
-              src="/moto/abs-allbrakes/section2.png"
+              src="/moto/abs-allbrakes/section2.webp"
               alt="ABS Building Exterior"
               className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-700"
             />
           </div>
           <div className="w-full relative aspect-[4/3] md:aspect-[3/2] overflow-hidden rounded-sm shadow-sm group">
             <img
-              src="/moto/abs-allbrakes/section3.png"
+              src="/moto/abs-allbrakes/section3.webp"
               alt="ABS Driven By Expertise"
               className="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-700"
             />

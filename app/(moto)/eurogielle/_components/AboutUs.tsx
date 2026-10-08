@@ -34,7 +34,7 @@ const AboutUs = () => {
           {/* Left: Image (Order 3 on mobile, Order 1 on Desktop) */}
           <div className="w-full order-3 xl:col-span-7 xl:order-1" data-aos="fade-right">
             <img
-              src="/moto/eurogielle/section22.png"
+              src="/moto/eurogielle/section22.webp"
               alt="Eurogielle Headquarters"
               className="w-full rounded-[24px] lg:rounded-[32px]  object-cover "
             />

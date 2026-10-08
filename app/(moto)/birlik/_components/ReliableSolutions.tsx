@@ -33,7 +33,7 @@ export default function ReliableSolutions() {
             <div className="flex flex-col gap-4">
               {/* Bullet 1 */}
               <div className="flex items-start gap-4">
-                <img src="/moto/birlik/aperture.png" alt="Icon" className="w-6 h-6 mt-1 flex-shrink-0" />
+                <img src="/moto/birlik/aperture.webp" alt="Icon" className="w-6 h-6 mt-1 flex-shrink-0" />
                 <p className="manrope-font section-text text-[#444444] font-normal leading-relaxed">
                   <strong className="text-[#1f5dd2] font-bold">OE-Quality Precision</strong> - Manufactured for an accurate fit, ensuring reliable sealing and hassle-free installation across a wide range of engine applications.
                 </p>
@@ -41,7 +41,7 @@ export default function ReliableSolutions() {
               
               {/* Bullet 2 */}
               <div className="flex items-start gap-4">
-                <img src="/moto/birlik/aperture.png" alt="Icon" className="w-6 h-6 mt-1 flex-shrink-0" />
+                <img src="/moto/birlik/aperture.webp" alt="Icon" className="w-6 h-6 mt-1 flex-shrink-0" />
                 <p className="manrope-font section-text text-[#444444] font-normal leading-relaxed">
                   <strong className="text-[#1f5dd2] font-bold">Superior Durability</strong> - Built with premium materials that withstand extreme temperatures, pressure, oil, and coolant exposure for long-lasting performance.
                 </p>

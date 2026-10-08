@@ -53,7 +53,7 @@ export default function Advanced() {
             onMouseLeave={() => setArrowHovered(false)}
           >
             <Image
-              src="/moto/gand-oil/arrow_grey.png"
+              src="/moto/gand-oil/arrow_grey.webp"
               alt="Explore"
               width={88}
               height={88}
@@ -61,7 +61,7 @@ export default function Advanced() {
               style={{ opacity: arrowHovered ? 0 : 1 }}
             />
             <Image
-              src="/moto/gand-oil/arrow_green.png"
+              src="/moto/gand-oil/arrow_green.webp"
               alt="Explore"
               width={88}
               height={88}
@@ -88,7 +88,7 @@ export default function Advanced() {
               >
                 <div className="flex gap-5">
                     <Image
-                        src="/moto/gand-oil/check.png"
+                        src="/moto/gand-oil/check.webp"
                         alt="check"
                         width={24}
                         height={24}

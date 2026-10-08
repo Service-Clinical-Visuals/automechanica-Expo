@@ -24,7 +24,7 @@ export default function Quality() {
           {/* Left: Image */}
           <div className="w-full h-full" data-aos="fade-right">
             <img
-              src="/moto/orijin/q1.png"
+              src="/moto/orijin/q1.webp"
               alt="Orjin Automotive Team"
               className="w-full h-full object-cover rounded-xl shadow-sm"
               onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-200 flex items-center justify-center text-gray-500 rounded-xl">Team Image</div>' }}
@@ -37,7 +37,7 @@ export default function Quality() {
             {/* Vision Card */}
             <div className="flex border border-[#E4E4E4] rounded-[6px] overflow-hidden shadow-sm h-auto">
               <div className="bg-[#F39200] w-24 md:w-32 flex items-center justify-center flex-shrink-0">
-                <img src="/moto/orijin/q2.png" alt="Vision" className="w-auto h-auto object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-white"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>' }} />
+                <img src="/moto/orijin/q2.webp" alt="Vision" className="w-auto h-auto object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-white"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>' }} />
               </div>
               <div className="p-6 md:p-8 bg-white flex flex-col justify-center flex-grow">
                 <h3 className="font-semibold text-[#272727] card-title oswald-font mb-2">Our Vision</h3>
@@ -55,7 +55,7 @@ export default function Quality() {
             {/* Mission Card */}
             <div className="flex border border-[#E4E4E4] rounded-[6px] overflow-hidden shadow-sm h-auto ">
               <div className="bg-[#F39200] w-24 md:w-32 flex items-center justify-center flex-shrink-0">
-                <img src="/moto/orijin/q3.png" alt="Mission" className="w-auto h-auto object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-white"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>' }} />
+                <img src="/moto/orijin/q3.webp" alt="Mission" className="w-auto h-auto object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-white"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>' }} />
               </div>
               <div className="p-6 md:p-8 bg-white flex flex-col justify-center flex-grow">
                 <h3 className="font-semibold text-[#272727] card-title oswald-font mb-2">Our Mission</h3>

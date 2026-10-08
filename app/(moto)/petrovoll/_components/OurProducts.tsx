@@ -8,27 +8,27 @@ export default function OurProducts() {
   const products = [
     {
       title: "Gasoline Engine Oils",
-      image: "/moto/petrovoll/pro1.png",
+      image: "/moto/petrovoll/pro1.webp",
       href: "#gasoline",
     },
     {
       title: "Diesel Engine Oils",
-      image: "/moto/petrovoll/pro2.png",
+      image: "/moto/petrovoll/pro2.webp",
       href: "#diesel",
     },
     {
       title: "Motorcycle Oils",
-      image: "/moto/petrovoll/pro3.png",
+      image: "/moto/petrovoll/pro3.webp",
       href: "#motorcycle",
     },
     {
       title: "Motorcycle oil",
-      image: "/moto/petrovoll/pro4.png",
+      image: "/moto/petrovoll/pro4.webp",
       href: "#motorcycle",
     },
     {
       title: "Motorcycle type",
-      image: "/moto/petrovoll/pro5.png",
+      image: "/moto/petrovoll/pro5.webp",
       href: "#motorcycle",
     },
   ];

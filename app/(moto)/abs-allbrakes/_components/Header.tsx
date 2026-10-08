@@ -112,7 +112,7 @@ const Header = () => {
                 className="block relative w-full h-full hover:scale-105 transition-transform duration-300"
               >
                 <img
-                  src="/moto/abs-allbrakes/logo.png"
+                  src="/moto/abs-allbrakes/logo.webp"
                   alt="ABS Logo"
                   className="absolute inset-0 w-full h-full  object-contain"
                 />

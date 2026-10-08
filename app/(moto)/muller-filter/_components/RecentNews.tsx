@@ -6,17 +6,17 @@ export default function RecentNews() {
   const news = [
     {
       title: "AUTOMECHANIKA Frankfurt 2022",
-      image: "/moto/muller-filter/news1.png",
+      image: "/moto/muller-filter/news1.webp",
       link: "#"
     },
     {
       title: "Equip Auto Paris 2019",
-      image: "/moto/muller-filter/news2.png",
+      image: "/moto/muller-filter/news2.webp",
       link: "#"
     },
     {
       title: "AUTOMECHANIKA Frankfurt 2018",
-      image: "/moto/muller-filter/news3.png",
+      image: "/moto/muller-filter/news3.webp",
       link: "#"
     }
   ];

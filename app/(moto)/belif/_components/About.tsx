@@ -13,7 +13,7 @@ const About = () => {
           {/* Image */}
           <div className="rounded-[10px] order-1 xl:order-2 overflow-hidden" data-aos="zoom-in">
             <img
-              src="/moto/belif/about.png"
+              src="/moto/belif/about.webp"
               alt="Belif facility"
               className="w-full h-full object-cover"
             />
@@ -25,7 +25,7 @@ const About = () => {
             data-aos="fade-left"
           >
             <img
-              src="/moto/belif/aboutbg.png"
+              src="/moto/belif/aboutbg.webp"
               alt=""
               className="absolute inset-0 w-full h-full object-cover"
             />

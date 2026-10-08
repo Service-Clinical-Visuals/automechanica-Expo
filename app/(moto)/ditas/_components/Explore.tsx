@@ -52,7 +52,7 @@ export default function Explore() {
                   data-aos-once="true"
                 >
                   <img
-                    src="/moto/ditas/tick.png"
+                    src="/moto/ditas/tick.webp"
                     alt="Tick"
                     className="h-[26px] w-[26px] flex-shrink-0"
                   />

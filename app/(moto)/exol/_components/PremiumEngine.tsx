@@ -66,7 +66,7 @@ export default function PremiumEngine() {
           {/* Polygon Center Image (Hidden on mobile/tablet) */}
           <div className="hidden lg:block absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 w-34 h-34">
             <img
-              src="/moto/exol/polygon.png"
+              src="/moto/exol/polygon.webp"
               alt="EXOL Polygon"
               className="w-full h-full object-contain"
             />

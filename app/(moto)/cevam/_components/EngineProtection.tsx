@@ -30,7 +30,7 @@ export default function EngineProtection() {
           {/* Right Image */}
           <div className="w-full h-full rounded-[10px] overflow-hidden lg:col-span-6" data-aos="fade-left">
             <img
-              src="/moto/cevam/q1.png"
+              src="/moto/cevam/q1.webp"
               alt="Workers packing CEVAM boxes"
               className="w-full h-full object-cover"
               onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-200 flex items-center justify-center text-gray-500 rounded-[16px]">Image 1</div>' }}
@@ -45,7 +45,7 @@ export default function EngineProtection() {
           {/* Left Image */}
           <div className="w-full h-full lg:col-span-6 rounded-[16px] overflow-hidden order-2 lg:order-1" data-aos="fade-right">
             <img
-              src="/moto/cevam/q2.png"
+              src="/moto/cevam/q2.webp"
               alt="CEVAM Warehouse"
               className="w-full h-full object-cover"
               onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full bg-gray-200 flex items-center justify-center text-gray-500 rounded-[16px]">Image 2</div>' }}

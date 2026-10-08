@@ -9,32 +9,32 @@ import Container from "./Container";
 
 const products = [
   {
-    img: "/moto/euroricambi/products/1.png",
+    img: "/moto/euroricambi/products/1.webp",
     title: "Gearboxes and Differentials",
     desc: "Our spare parts are fully interchangeable with the originals and are carefully manufactured using the most advanced production systems.",
   },
   {
-    img: "/moto/euroricambi/products/2.png",
+    img: "/moto/euroricambi/products/2.webp",
     title: "Earthmoving and Mining",
     desc: "An internal department entirely dedicated to Earthmoving and Mining steadily upholds the quality standards of the Euroricambi Group even on the...",
   },
   {
-    img: "/moto/euroricambi/products/3.png",
+    img: "/moto/euroricambi/products/3.webp",
     title: "Customized Production",
     desc: "Relying on forty years of experience in the industry and the best machinery on the market, we can have our factories produce full provisions from...",
   },
   {
-    img: "/moto/euroricambi/products/4.png",
+    img: "/moto/euroricambi/products/4.webp",
     title: "Complementary parts",
     desc: "We select the parts which complement our spare parts directly from the original manufacturers (Premium OE brand) or from selected and...",
   },
   {
-    img: "/moto/euroricambi/products/5.png",
+    img: "/moto/euroricambi/products/5.webp",
     title: "Technology and Quality",
     desc: "Technological innovation lies at the heart of our success. This is why our spare parts are manufactured using the most advanced production...",
   },
   {
-    img: "/moto/euroricambi/products/6.png",
+    img: "/moto/euroricambi/products/6.webp",
     title: "Metallurgical Laboratory",
     desc: "A state-of-the-art in-house department, equipped with advanced technologies and specialised skills to analyse materials, treatments and...",
   },

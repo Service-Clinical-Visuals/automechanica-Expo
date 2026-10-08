@@ -35,7 +35,7 @@ export default function Button({
     <>
       {children}
       {hasArrow && (
-        <img src="/moto/celikis/btnarow.png" alt="arrow-right" className="w-[18px] h-[18px] ml-4 transition-transform group-hover:translate-x-1" />
+        <img src="/moto/celikis/btnarow.webp" alt="arrow-right" className="w-[18px] h-[18px] ml-4 transition-transform group-hover:translate-x-1" />
       )}
     </>
   );

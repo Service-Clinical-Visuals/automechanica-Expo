@@ -38,7 +38,7 @@ const Explore = () => {
         <div className="w-full order-2 xl:order-none xl:col-span-6" data-aos="fade-left">
           <div className="w-full rounded-sm overflow-hidden shadow-sm">
             <img
-              src="/moto/purflux/section3.png"
+              src="/moto/purflux/section3.webp"
               alt="Purflux Catalogue"
               className="w-full h-auto object-contain"
             />

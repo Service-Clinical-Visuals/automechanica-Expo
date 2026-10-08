@@ -48,7 +48,7 @@ export default function TrustedSolutions() {
                 {/* Feature 1 */}
                 <div className="flex flex-col items-start">
                   <div className="flex items-center gap-2 text-secondary font-medium text-base sm:text-lg font-sans  tracking-wider">
-                    <img src="/moto/petrovoll/setting.png"></img>
+                    <img src="/moto/petrovoll/setting.webp"></img>
                     <span className="text-[#cc0b10] text-[16px] sm:text-md md:text-xl lg:text-xl leading-relaxed !font-heading">Proven Quality Standards</span>
                   </div>
                   
@@ -60,7 +60,7 @@ export default function TrustedSolutions() {
                 {/* Feature 2 */}
                 <div className="flex flex-col items-start">
                   <div className="flex items-center gap-2 text-secondary font-medium text-base sm:text-lg font-sans  tracking-wider">
-                    <img src="/moto/petrovoll/setting.png"></img>
+                    <img src="/moto/petrovoll/setting.webp"></img>
                     <span className="text-[#cc0b10] text-[16px] sm:text-md md:text-lg lg:text-xl leading-relaxed !font-heading">Comprehensive Product Range</span>
                   </div>
                 
@@ -80,7 +80,7 @@ export default function TrustedSolutions() {
       {/* Bottom Part: Full Width Banner Image */}
       <div className="w-full relative  overflow-hidden " data-aos="fade-up">
         <img
-          src="/moto/petrovoll/bg.png"
+          src="/moto/petrovoll/bg.webp"
           alt="Premium Lubricants and Grease"
           className="w-full h-full object-cover "
         />

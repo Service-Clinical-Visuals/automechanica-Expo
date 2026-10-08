@@ -9,21 +9,21 @@ export default function Blog() {
   const blogs = [
     {
       id: 1,
-      image: "/moto/denckermann/blog1.png",
+      image: "/moto/denckermann/blog1.webp",
       date: "February 6, 2026",
       title: "ABS Sensors – How Do They Work And When Should They Be Replaced?",
       active: true, // First one is orange in the screenshot
     },
     {
       id: 2,
-      image: "/moto/denckermann/blog2.png",
+      image: "/moto/denckermann/blog2.webp",
       date: "August 18, 2025",
       title: "Original Car Parts Substitutes Facts And Myths",
       active: false,
     },
     {
       id: 3,
-      image: "/moto/denckermann/blog3.png",
+      image: "/moto/denckermann/blog3.webp",
       date: "March 19, 2025",
       title: "How To Care For Your Engine To Avoid Costly Breakdowns",
       active: false,

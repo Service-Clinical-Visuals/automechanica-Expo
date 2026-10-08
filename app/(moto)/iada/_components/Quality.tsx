@@ -44,7 +44,7 @@ export default function Quality() {
           {/* Right Image */}
           <div className="relative w-full aspect-square md:aspect-video lg:aspect-auto h-full min-h-[400px] rounded-2xl overflow-hidden border border-gray-800" data-aos="fade-left">
              <img 
-               src="/moto/iadaAutomechanika/quality1.jpg" 
+               src="/moto/iadaAutomechanika/quality1.webp" 
                alt="Quality Assurance" 
                className="w-full h-full object-cover" 
              />
@@ -61,7 +61,7 @@ export default function Quality() {
           <div className="border border-[#ffffff]/30 p-5 flex flex-col sm:flex-row gap-6 items-center bg-[#202020] hover:bg-[#252525] transition-colors duration-300">
              <div className="w-40 sm:w-48 lg:w-60 xl:w-65 aspect-square flex-shrink-0 overflow-hidden border border-gray-800">
                 <img 
-                  src="/moto/iadaAutomechanika/quality2.jpg" 
+                  src="/moto/iadaAutomechanika/quality2.webp" 
                   alt="Customer Service" 
                   className="w-full h-full object-cover" 
                 />
@@ -78,7 +78,7 @@ export default function Quality() {
           <div className="border border-[#ffffff]/30 p-5 flex flex-col sm:flex-row gap-6 items-center bg-[#202020] hover:bg-[#252525] transition-colors duration-300">
              <div className="w-40 sm:w-48 lg:w-60 xl:w-65 aspect-square flex-shrink-0 overflow-hidden border border-gray-800">
                 <img 
-                  src="/moto/iadaAutomechanika/quality3.jpg" 
+                  src="/moto/iadaAutomechanika/quality3.webp" 
                   alt="I+D+i" 
                   className="w-full h-full object-cover" 
                 />

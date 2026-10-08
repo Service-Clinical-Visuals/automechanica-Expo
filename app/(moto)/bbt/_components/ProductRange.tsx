@@ -7,42 +7,42 @@ import { ArrowUpRight, ChevronLeft, ChevronRight } from 'lucide-react';
 export default function ProductRange() {
   const products = [
     {
-      image: "/moto/bbt/pro1.png",
+      image: "/moto/bbt/pro1.webp",
       title: "Ignition coils",
       description: "We supply you reliably with over 300 types of ignition coils for German, European..."
     },
     {
-      image: "/moto/bbt/pro2.png",
+      image: "/moto/bbt/pro2.webp",
       title: "Ignition cable sets",
       description: "The production of ignition cables Made in Germany has a long-standing..."
     },
     {
-      image: "/moto/bbt/pro3.png",
+      image: "/moto/bbt/pro3.webp",
       title: "Ignition cable sets for LPG/CNG",
       description: "Extensive tests show that the technology of our BBT ignition cables for gas..."
     },
     {
-      image: "/moto/bbt/pro4.png",
+      image: "/moto/bbt/pro4.webp",
       title: "Spark plug connector & ignition...",
       description: "We supply you reliably with over 300 types of ignition coils for German, European..."
     },
     {
-      image: "/moto/bbt/pro5.png",
+      image: "/moto/bbt/pro5.webp",
       title: "Crankshaft and camshaft sensors",
       description: "With components similar to those in an ignition coil, you also benefit from..."
     },
     {
-      image: "/moto/bbt/pro6.png",
+      image: "/moto/bbt/pro6.webp",
       title: "Air flow meters",
       description: "We develop our air flow meters in-house. Through numerous innovations..."
     },
     {
-      image: "/moto/bbt/pro7.png",
+      image: "/moto/bbt/pro7.webp",
       title: "Intake manifold pressure sensors",
       description: "The intake manifold pressure sensor measures the negative or positive..."
     },
     {
-      image: "/moto/bbt/pro8.png",
+      image: "/moto/bbt/pro8.webp",
       title: "Wheel speed sensors",
       description: "Today’s vehicles are packed with driver assistance systems such as ABS..."
     }

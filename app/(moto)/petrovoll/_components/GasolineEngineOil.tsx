@@ -61,7 +61,7 @@ export default function GasolineEngineOil() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full">
                 {features.map((feature, index) => (
                   <div key={index} className="flex items-start gap-3">
-                    <img src="/moto/petrovoll/setting.png"></img>
+                    <img src="/moto/petrovoll/setting.webp"></img>
                     <span className="text-white text-[14px] sm:text-xs md:text-sm lg:text-base  font-sans font-medium">
                       {feature}
                     </span>

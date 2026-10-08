@@ -11,32 +11,32 @@ const products = [
   {
     id: 1,
     name: "John Deere 6 Cyl Cylinder Head Gasket",
-    image: "/moto/birlik/p1.png",
+    image: "/moto/birlik/p1.webp",
   },
   {
     id: 2,
     name: "OM902/906 Cylinder Head Gasket",
-    image: "/moto/birlik/p2.png",
+    image: "/moto/birlik/p2.webp",
   },
   {
     id: 3,
     name: "Mercedes Benz OM471 133Ø Cylinder Head Gasket",
-    image: "/moto/birlik/p3.png",
+    image: "/moto/birlik/p3.webp",
   },
   {
     id: 4,
     name: "1.8 Ltr. 20V 4 Cyl. 82,5 Ø Cylinder Head Gasket",
-    image: "/moto/birlik/p3.png",
+    image: "/moto/birlik/p3.webp",
   },
   {
     id: 5,
     name: "Mot.F 2 L 1011   2 Cyl. 91 Ø Cylinder Head Gasket",
-    image: "/moto/birlik/p3.png",
+    image: "/moto/birlik/p3.webp",
   },
   {
     id: 6,
     name: "HH 403-11, 403C-21   3 Cyl.  75 Ø Cylinder Head Gasket",
-    image: "/moto/birlik/p3.png",
+    image: "/moto/birlik/p3.webp",
   },
 ];
 

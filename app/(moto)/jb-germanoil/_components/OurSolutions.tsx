@@ -11,27 +11,27 @@ export default function OurSolutions() {
   const products = [
     {
       title: "Reliable Performance For Industry",
-      image: "/moto/jb-germanoil/1.png",
+      image: "/moto/jb-germanoil/1.webp",
     },
     {
       title: "Winter Chemicals For Windshield And Engine",
-      image: "/moto/jb-germanoil/2.png",
+      image: "/moto/jb-germanoil/2.webp",
     },
     {
       title: "Reliable Performance For Industry",
-      image: "/moto/jb-germanoil/3.png",
+      image: "/moto/jb-germanoil/3.webp",
     },
     {
       title: "Winter Chemicals For Windshield And Engine",
-      image: "/moto/jb-germanoil/4.png",
+      image: "/moto/jb-germanoil/4.webp",
     },
     {
       title: "Reliable Performance For Industry",
-      image: "/moto/jb-germanoil/5.png",
+      image: "/moto/jb-germanoil/5.webp",
     },
     {
       title: "Winter Chemicals For Windshield And Engine",
-      image: "/moto/jb-germanoil/1.png",
+      image: "/moto/jb-germanoil/1.webp",
     }
   ];
 

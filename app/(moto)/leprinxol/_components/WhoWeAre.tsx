@@ -9,7 +9,7 @@ export default function WhoWeAre() {
           {/* Image */}
           <div data-aos="fade-right" className="order-2 xl:order-1">
             <img 
-              src="/moto/mistral/who.png" 
+              src="/moto/mistral/who.webp" 
               alt="Who We Are - Mistral" 
               className="w-full h-auto rounded-lg shadow-lg object-cover"
             />
@@ -18,7 +18,7 @@ export default function WhoWeAre() {
           {/* Content */}
           <div data-aos="fade-left" className="flex flex-col gap-5 order-1 xl:order-2">
             <div className="flex items-center gap-3 mb-1">
-              <img src="/moto/mistral/Polygon.png" alt="" className="w-7 h-7 object-contain" />
+              <img src="/moto/mistral/Polygon.webp" alt="" className="w-7 h-7 object-contain" />
               <h2 className="section-title text-[#212121] font-medium tracking-wide">
                 Who We Are
               </h2>

@@ -49,7 +49,7 @@ export default function Herobanner() {
                   <div className="flex w-fit mt-4">
                     <button className="flex navlink text-[18px]! font-bold! text-black! items-center gap-2 bg-white rounded-full pl-5 pr-1.5 py-1.5 hover:opacity-90 transition-opacity">
                       <span>Explore Products</span>
-                      <img src="/moto/lrt/arrowup.png" alt="" className="h-6.5 w-6.5" />
+                      <img src="/moto/lrt/arrowup.webp" alt="" className="h-6.5 w-6.5" />
                     </button>
                   </div>
                 </div>

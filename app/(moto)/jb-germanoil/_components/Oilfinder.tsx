@@ -9,7 +9,7 @@ export default function Oilfinder() {
       {/* Background Image */}
       <div className="absolute inset-0 w-full h-full">
         <img 
-          src="/moto/jb-germanoil/bg.jpg" 
+          src="/moto/jb-germanoil/bg.webp" 
           alt="JB Germanoil Oilfinder" 
           className="w-full h-full object-cover "
         />
@@ -31,7 +31,7 @@ export default function Oilfinder() {
 
         {/* Right Icons */}
         <div className="flex flex-wrap items-end justify-center md:justify-end gap-8 md:gap-10 lg:gap-12" data-aos="fade-left">
-          <img src="/moto/jb-germanoil/imgs.png" alt="Oil Finder" />
+          <img src="/moto/jb-germanoil/imgs.webp" alt="Oil Finder" />
         </div>
       </div>
     </section>

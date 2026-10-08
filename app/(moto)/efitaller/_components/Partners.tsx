@@ -8,25 +8,25 @@ export default function Partners() {
   const categories = [
     {
       title: "Diagnostics",
-      image: "/moto/efitaller/partner1.png",
+      image: "/moto/efitaller/partner1.webp",
       desc: "Multi-brand equipment with European, American and Asian coverage.",
       link: "#"
     },
     {
       title: "ADAS",
-      image: "/moto/efitaller/partner2.png",
+      image: "/moto/efitaller/partner2.webp",
       desc: "Calibration and adjustment of advanced driver assistance systems.",
       link: "#"
     },
     {
       title: "Alignment",
-      image: "/moto/efitaller/partner3.png",
+      image: "/moto/efitaller/partner3.webp",
       desc: "Wheel aligners and lifts for precision geometry.",
       link: "#"
     },
     {
       title: "Emissions",
-      image: "/moto/efitaller/partner4.png",
+      image: "/moto/efitaller/partner4.webp",
       desc: "Approved gas analyzers and opacimeters.",
       link: "#"
     }
@@ -76,7 +76,7 @@ export default function Partners() {
 
                 <div className="flex justify-end mt-auto">
                   <a href={item.link} className="w-auto h-auto rounded-full bg-[#f4f7d9] flex items-center justify-center text-[#C2D500] hover:bg-[#C2D500] hover:text-white transition-colors">
-                    <img src="/moto/efitaller/arrow.png" alt="Read more" className="w-auto h-auto object-contain" />
+                    <img src="/moto/efitaller/arrow.webp" alt="Read more" className="w-auto h-auto object-contain" />
                   </a>
                 </div>
               </div>

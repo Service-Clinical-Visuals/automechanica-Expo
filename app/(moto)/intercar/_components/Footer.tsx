@@ -13,7 +13,7 @@ export default function Footer() {
 
           {/* Logo + tagline */}
           <div className="lg:col-span-1 flex flex-col items-start gap-3" data-aos="fade-up">
-            <img src="/moto/intercar/logo.png" alt="InterCar" className="w-[90%] mb-4" />
+            <img src="/moto/intercar/logo.webp" alt="InterCar" className="w-[90%] mb-4" />
             <p className="content-white text-[16px]!">
               Part of the OMR Automotive Group, InterCar is an Italian manufacturer specialized in the
               production of high-performance brake discs.

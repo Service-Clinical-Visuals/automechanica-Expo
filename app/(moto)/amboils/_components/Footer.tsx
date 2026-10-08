@@ -32,7 +32,7 @@ export default function Footer() {
           {/* Column 1: Logo and Text */}
           <div className="lg:col-span-2 flex flex-col items-start pr-4">
             <Link href="#" className="mb-4 block">
-              <img src="/moto/amboils/logo.png" alt="AMB Oils Logo" className="w-[160px] h-auto object-contain" />
+              <img src="/moto/amboils/logo.webp" alt="AMB Oils Logo" className="w-[160px] h-auto object-contain" />
             </Link>
             <p className="oswald-font font-normal text-[#4e4e4e] section-text2 leading-[1.8]">
               Trusted worldwide for premium lubricants that deliver superior protection, efficiency, and consistent performance.
@@ -84,15 +84,15 @@ export default function Footer() {
            <h4 className="teko-font font-semibold text-[#333333] card-title tracking-wide mb-2">Contact Us</h4>
             <ul className="flex flex-col gap-4">
               <li className="flex items-start gap-3">
-                <img src="/moto/amboils/phone.png" alt="Phone" className="w-[16px] h-[16px] object-contain mt-1"  />
+                <img src="/moto/amboils/phone.webp" alt="Phone" className="w-[16px] h-[16px] object-contain mt-1"  />
                 <span className="oswald-font font-normal text-[#333333] section-text  leading-tight">+370 610 38717</span>
               </li>
               <li className="flex items-start gap-3">
-                <img src="/moto/amboils/mail.png" alt="Email" className="w-[16px] h-[16px] object-contain mt-1"  />
+                <img src="/moto/amboils/mail.webp" alt="Email" className="w-[16px] h-[16px] object-contain mt-1"  />
                 <span className="oswald-font font-normal text-[#333333] section-text  leading-tight">info@amboils.eu</span>
               </li>
               <li className="flex items-start gap-3">
-                <img src="/moto/amboils/location.png" alt="Location" className="w-[16px] h-[16px] object-contain mt-1"  />
+                <img src="/moto/amboils/location.webp" alt="Location" className="w-[16px] h-[16px] object-contain mt-1"  />
                 <span className="oswald-font font-normal text-[#333333] section-text  leading-tight">
                   UAB "AMB Oils" - Ežero Str. 8,<br/>Vaitkūnų Village,<br/>LT-56278 Kaišiadorių District,<br/>Lithuania
                 </span>

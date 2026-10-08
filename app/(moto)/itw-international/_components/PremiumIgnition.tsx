@@ -54,7 +54,7 @@ export default function PremiumIgnition() {
               {highlights.map((highlight, index) => (
                 <li key={index} className="flex items-start gap-4">
                  
-                  <img src="/itw-international/tck.png" alt="check" className="w-5 h-5 mt-1" />
+                  <img src="/itw-international/tck.webp" alt="check" className="w-5 h-5 mt-1" />
                   <p className="text-white section-text font-normal leading-snug">
                     {highlight}
                   </p>

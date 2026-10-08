@@ -40,7 +40,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/">
-              <img src="/moto/ifa/logo.png" alt="IFA" className="w-[160px] md:w-[190px] h-auto object-contain" />
+              <img src="/moto/ifa/logo.webp" alt="IFA" className="w-[160px] md:w-[190px] h-auto object-contain" />
             </Link>
           </div>
 

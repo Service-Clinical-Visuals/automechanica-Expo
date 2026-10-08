@@ -66,17 +66,17 @@ function ImageSlider({ slides }: { slides: SlideData[] }) {
 export default function Benefits() {
   const leftSlides: SlideData[] = [
     {
-      src: "/moto/denckermann/1.png",
+      src: "/moto/denckermann/1.webp",
       title: "Does your engine need turbo power?",
       subtitle: "Choose DENCKERMANN charge air pipes"
     },
     {
-      src: "/moto/denckermann/3.png",
+      src: "/moto/denckermann/3.webp",
       title: "Silver ION cabin air filters",
       subtitle: "Breathe clean air on every journey"
     },
     {
-      src: "/moto/denckermann/5.png",
+      src: "/moto/denckermann/5.webp",
       title: "DENCKERMANN wipers",
       subtitle: "Perfect visibility in all conditions"
     }
@@ -84,17 +84,17 @@ export default function Benefits() {
 
   const rightSlides: SlideData[] = [
     {
-      src: "/moto/denckermann/2.png",
+      src: "/moto/denckermann/2.webp",
       title: "Something didn't work out again?",
       subtitle: "Time to replace the ignition coil"
     },
     {
-      src: "/moto/denckermann/4.png",
+      src: "/moto/denckermann/4.webp",
       title: "Brake pads for commercial vehicles",
       subtitle: "High efficiency in all conditions"
     },
     {
-      src: "/moto/denckermann/6.png",
+      src: "/moto/denckermann/6.webp",
       title: "Window lifters",
       subtitle: "A safe and durable solution"
     }

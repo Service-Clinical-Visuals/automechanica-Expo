@@ -7,10 +7,10 @@ export default function ReadyToPower() {
       {/* Background Image with golden tint and dark overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/moto/amboils/bg1.png" 
+          src="/moto/amboils/bg1.webp" 
           alt="Engine Background" 
           className="w-full h-full object-cover " 
-          onError={(e) => { e.currentTarget.src = "/moto/amboils/bg.png"; }}
+          onError={(e) => { e.currentTarget.src = "/moto/amboils/bg.webp"; }}
         />
     
       </div>

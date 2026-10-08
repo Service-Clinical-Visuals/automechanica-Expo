@@ -13,22 +13,22 @@ export default function AboutUs() {
           <div className="relative" data-aos="fade-right">
             <div className="grid grid-cols-2 gap-3 md:gap-4 relative">
               <div className="w-full aspect-square md:aspect-[4/3] overflow-hidden ">
-                <img src="/moto/iruna/abt1.png" alt="About Image 1" className="w-full h-full object-cover" />
+                <img src="/moto/iruna/abt1.webp" alt="About Image 1" className="w-full h-full object-cover" />
               </div>
               <div className="w-full aspect-square md:aspect-[4/3] overflow-hidden ">
-                <img src="/moto/iruna/abt2.png" alt="About Image 2" className="w-full h-full object-cover" />
+                <img src="/moto/iruna/abt2.webp" alt="About Image 2" className="w-full h-full object-cover" />
               </div>
               <div className="w-full aspect-square md:aspect-[4/3] overflow-hidden ">
-                <img src="/moto/iruna/abt3.png" alt="About Image 3" className="w-full h-full object-cover" />
+                <img src="/moto/iruna/abt3.webp" alt="About Image 3" className="w-full h-full object-cover" />
               </div>
               <div className="w-full aspect-square md:aspect-[4/3] overflow-hidden  ">
-                <img src="/moto/iruna/abt4.png" alt="About Image 4" className="w-full h-full object-cover" />
+                <img src="/moto/iruna/abt4.webp" alt="About Image 4" className="w-full h-full object-cover" />
               </div>
               
               {/* Center Icon */}
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-24 h-24 md:w-32 md:h-32 lg:w-36 lg:h-36 xl:w-[120px] xl:h-[120px] z-10 flex items-center justify-center bg-transparent">
                 <img 
-                  src="/moto/iruna/wheel.png" 
+                  src="/moto/iruna/wheel.webp" 
                   alt="Wheel Icon" 
                   className="w-full h-full object-contain animate-slow-spin drop-shadow-md" 
                 />

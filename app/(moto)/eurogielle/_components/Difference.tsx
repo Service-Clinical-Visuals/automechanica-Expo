@@ -32,7 +32,7 @@ const Difference = () => {
           <div className="flex flex-col gap-6 group" data-aos="fade-up" data-aos-delay="100">
             <div className="relative w-full h-[70%] rounded-[24px] lg:rounded-[32px] overflow-hidden ">
               <img
-                src="/moto/eurogielle/section3.png"
+                src="/moto/eurogielle/section3.webp"
                 alt="An Italian company"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -54,7 +54,7 @@ const Difference = () => {
           <div className="flex flex-col gap-6 group" data-aos="fade-up" data-aos-delay="200">
             <div className="relative w-full h-[70%]   rounded-[24px] lg:rounded-[32px] overflow-hidden ">
               <img
-                src="/moto/eurogielle/section32.png"
+                src="/moto/eurogielle/section32.webp"
                 alt="One Family. One tradition"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />

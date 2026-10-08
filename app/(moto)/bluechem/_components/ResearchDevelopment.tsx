@@ -25,7 +25,7 @@ export default function ResearchDevelopment() {
         <div className="flex justify-center items-center mb-16 md:mb-20" data-aos="fade-up">
           <div className="flex items-center gap-3">
             <Image 
-              src="/moto/bluechem/arrow.png" 
+              src="/moto/bluechem/arrow.webp" 
               alt="Arrow Icon" 
               width={24} 
               height={24} 

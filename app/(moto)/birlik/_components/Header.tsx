@@ -38,7 +38,7 @@ export default function Header() {
         <div className="custom-container flex items-center justify-between py-2">
           {/* Left: Language Selector */}
           <div className="flex items-center gap-2 cursor-pointer">
-            <img src="/moto/birlik/flag.png" alt="UK Flag" className="h-4 w-auto" />
+            <img src="/moto/birlik/flag.webp" alt="UK Flag" className="h-4 w-auto" />
             <span className="manrope-font header-link font-semibold">English</span>
             <ChevronDown size={14} />
           </div>
@@ -65,7 +65,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="#" className="flex-shrink-0 z-50">
             <img 
-              src="/moto/birlik/logo.png" 
+              src="/moto/birlik/logo.webp" 
               alt="Birlik Conta Logo" 
               className="h-10 md:h-12 w-auto object-contain" 
             />

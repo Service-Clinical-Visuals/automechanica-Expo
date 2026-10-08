@@ -50,7 +50,7 @@ export default function Header() {
           {/* Logo Area */}
           <div className="flex-shrink-0 flex items-center lg:pl-6">
             <Link href="#">
-              <img src="/airstal/logo.png" alt="Airstal Logo" className="h-8 lg:h-12 w-auto object-contain" />
+              <img src="/airstal/logo.webp" alt="Airstal Logo" className="h-8 lg:h-12 w-auto object-contain" />
             </Link>
           </div>
 

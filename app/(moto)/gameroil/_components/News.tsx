@@ -26,7 +26,7 @@ const News = () => {
           <div className="flex flex-col h-full bg-white border border-gray-100 shadow-lg rounded-[24px] overflow-hidden hover:shadow-xl transition-shadow p-4 xl:p-[20px]" data-aos="fade-up" data-aos-delay="100">
             <div className="w-full aspect-[777/348] flex items-center justify-center border border-gray-100 rounded-[16px] overflow-hidden shrink-0">
               <img
-                src="/moto/gameroil/news1.png"
+                src="/moto/gameroil/news1.webp"
                 alt="Gameroil Supports the Mérida City 10K Charity Race"
                 className="w-full h-full object-contain"
               />
@@ -50,7 +50,7 @@ const News = () => {
           <div className="flex flex-col h-full bg-white border border-gray-100 shadow-lg rounded-[24px] overflow-hidden hover:shadow-xl transition-shadow p-4 xl:p-[20px]" data-aos="fade-up" data-aos-delay="200">
             <div className="w-full aspect-[777/348] flex items-center justify-center border border-gray-100 rounded-[16px] overflow-hidden shrink-0">
               <img
-                src="/moto/gameroil/news2.png"
+                src="/moto/gameroil/news2.webp"
                 alt="Expert Lubricant Manufacturer – Made in Extremadura"
                 className="w-full h-full object-cover"
               />

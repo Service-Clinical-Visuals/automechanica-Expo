@@ -9,7 +9,7 @@ export default function GlobalReachSection() {
             {/* Background Map Image */}
             <div className="absolute inset-0 pointer-events-none flex items-center justify-center" data-aos="zoom-in" data-aos-duration="1500">
                 <img
-                    src="/moto/alkim-petrokimya/centerbg.png"
+                    src="/moto/alkim-petrokimya/centerbg.webp"
                     alt="World map background"
                     className=" w-full h-auto object-contain"
                 />

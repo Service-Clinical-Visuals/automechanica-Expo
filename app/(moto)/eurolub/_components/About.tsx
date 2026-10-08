@@ -67,7 +67,7 @@ const About = () => {
           {/* Image */}
           <div className="rounded-2xl overflow-hidden" data-aos="zoom-in">
             <img
-              src="/moto/eurolub/about.png"
+              src="/moto/eurolub/about.webp"
               alt="Eurolub product range"
               className="w-full h-auto object-cover"
             />

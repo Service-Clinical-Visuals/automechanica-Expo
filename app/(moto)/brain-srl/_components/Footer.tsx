@@ -12,7 +12,7 @@ export default function Footer() {
 
           {/* Logo & Description */}
           <div className="flex flex-col gap-6" data-aos="fade-up" data-aos-delay="100">
-            <img src="/moto/brain-srl/logo.png" alt="Brain Logo" className="w-48 object-contain" />
+            <img src="/moto/brain-srl/logo.webp" alt="Brain Logo" className="w-48 object-contain" />
             <Typography variant="footer-body" color="dark" font="lato" className="text-gray-700 leading-relaxed lg:pr-8">
               We build and regenerate particulate filters for any engine with reductions of over 90%.
             </Typography>

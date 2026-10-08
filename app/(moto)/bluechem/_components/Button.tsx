@@ -14,7 +14,7 @@ export default function Button({ href, text }: ButtonProps) {
       </div>
       <div className="bg-white px-3 md:px-4 flex items-center justify-center border-l border-[#0E4194]">
         <Image 
-          src="/moto/bluechem/btnarrow.png" 
+          src="/moto/bluechem/btnarrow.webp" 
           alt="Arrow Right" 
           width={18} 
           height={18} 

@@ -39,7 +39,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="#" className="flex items-center z-20 shrink-0">
             <img
-              src="/moto/eldons/logo.png"
+              src="/moto/eldons/logo.webp"
               alt="ELDON'S Logo"
               className="h-10 md:h-[52px] min-[3800px]:h-[68px] w-auto object-contain"
             />

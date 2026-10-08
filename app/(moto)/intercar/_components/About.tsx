@@ -31,7 +31,7 @@ export default function About() {
           {/* Left: image */}
           <div className="w-full xl:w-1/2 shrink-0" data-aos="fade-right">
             <img
-              src="/moto/intercar/about.png"
+              src="/moto/intercar/about.webp"
               alt="InterCar brake disc manufacturing"
               className="w-full h-auto object-cover"
             />

@@ -7,10 +7,10 @@ import { CheckCircle } from "lucide-react";
 import DynamicVideoPlayer from "@/app/_components/DynamicVideoPlayer";
 export default function AboutUs() {
   const charities = [
-    { name: "The Royal Marines Charity", src: "/moto/eurocams/logo1.png" },
-    { name: "WaterAid", src: "/moto/eurocams/logo2.png" },
-    { name: "Children's Hospice South West", src: "/moto/eurocams/logo3.png" },
-    { name: "True Heroes Racing", src: "/moto/eurocams/logo4.png" },
+    { name: "The Royal Marines Charity", src: "/moto/eurocams/logo1.webp" },
+    { name: "WaterAid", src: "/moto/eurocams/logo2.webp" },
+    { name: "Children's Hospice South West", src: "/moto/eurocams/logo3.webp" },
+    { name: "True Heroes Racing", src: "/moto/eurocams/logo4.webp" },
   ];
 
   return (

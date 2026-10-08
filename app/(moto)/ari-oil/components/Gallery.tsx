@@ -10,14 +10,14 @@ import 'swiper/css/pagination';
 
 export default function Gallery() {
   const galleryImages = [
-    "/moto/ari-oil/gallery1.jpg",
-    "/moto/ari-oil/gallery2.jpg",
-    "/moto/ari-oil/gallery3.jpg",
-    "/moto/ari-oil/gallery4.jpg",
-    "/moto/ari-oil/gallery5.jpg",
-    "/moto/ari-oil/gallery6.jpg",
-    "/moto/ari-oil/gallery7.jpg",
-    "/moto/ari-oil/gallery8.jpg",
+    "/moto/ari-oil/gallery1.webp",
+    "/moto/ari-oil/gallery2.webp",
+    "/moto/ari-oil/gallery3.webp",
+    "/moto/ari-oil/gallery4.webp",
+    "/moto/ari-oil/gallery5.webp",
+    "/moto/ari-oil/gallery6.webp",
+    "/moto/ari-oil/gallery7.webp",
+    "/moto/ari-oil/gallery8.webp",
   ];
 
   return (

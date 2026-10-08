@@ -63,7 +63,7 @@ const AboutUs = () => {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 w-full pt-1" data-aos="fade-up">
             {/* Stat 1 */}
             <div className="flex items-center gap-3">
-              <img src="/moto/freccia/icon1.png" alt="Icon" className="w-10 h-10 xl:w-12 xl:h-12 object-contain shrink-0" />
+              <img src="/moto/freccia/icon1.webp" alt="Icon" className="w-10 h-10 xl:w-12 xl:h-12 object-contain shrink-0" />
               <div className="flex flex-col">
                 <Typography variant="h2" color="dark" className="font-bold text-2xl xl:text-[2rem]">35+</Typography>
                 <Typography variant="h6" color="dark" className="uppercase font-medium text-[10px] xl:text-xs tracking-wider leading-tight">Years of<br/>Excellence</Typography>
@@ -72,7 +72,7 @@ const AboutUs = () => {
 
             {/* Stat 2 */}
             <div className="flex items-center gap-3">
-              <img src="/moto/freccia/icon2.png" alt="Icon" className="w-10 h-10 xl:w-12 xl:h-12 object-contain shrink-0" />
+              <img src="/moto/freccia/icon2.webp" alt="Icon" className="w-10 h-10 xl:w-12 xl:h-12 object-contain shrink-0" />
               <div className="flex flex-col">
                 <Typography variant="h2" color="dark" className="font-bold text-2xl xl:text-[2rem]">80+</Typography>
                 <Typography variant="h6" color="dark" className="uppercase font-medium text-[10px] xl:text-xs tracking-wider leading-tight">Countries<br/>Worldwide</Typography>
@@ -81,7 +81,7 @@ const AboutUs = () => {
 
             {/* Stat 3 */}
             <div className="flex items-center gap-3">
-              <img src="/moto/freccia/icon3.png" alt="Icon" className="w-10 h-10 xl:w-12 xl:h-12 object-contain shrink-0" />
+              <img src="/moto/freccia/icon3.webp" alt="Icon" className="w-10 h-10 xl:w-12 xl:h-12 object-contain shrink-0" />
               <div className="flex flex-col">
                 <Typography variant="h2" color="dark" className="font-bold text-2xl xl:text-[2rem]">5K+</Typography>
                 <Typography variant="h6" color="dark" className="uppercase font-medium text-[10px] xl:text-xs tracking-wider leading-tight">Products<br/>In Range</Typography>
@@ -90,7 +90,7 @@ const AboutUs = () => {
 
             {/* Stat 4 */}
             <div className="flex items-center gap-3">
-              <img src="/moto/freccia/icon4.png" alt="Icon" className="w-10 h-10 xl:w-12 xl:h-12 object-contain shrink-0" />
+              <img src="/moto/freccia/icon4.webp" alt="Icon" className="w-10 h-10 xl:w-12 xl:h-12 object-contain shrink-0" />
               <div className="flex flex-col">
                 <Typography variant="h2" color="dark" className="font-bold text-2xl xl:text-[2rem]">100%</Typography>
                 <Typography variant="h6" color="dark" className="uppercase font-medium text-[10px] xl:text-xs tracking-wider leading-tight">Quality<br/>Assurance</Typography>
@@ -103,7 +103,7 @@ const AboutUs = () => {
         <div className="w-full order-2 xl:order-1 xl:col-start-1 xl:col-span-5" data-aos="fade-right">
           <div className="w-full mx-auto xl:mx-0 aspect-[655/813]">
             <img
-              src="/moto/freccia/section2.png"
+              src="/moto/freccia/section2.webp"
               alt="Freccia Logistics and Operations"
               className="w-full h-full object-contain"
             />

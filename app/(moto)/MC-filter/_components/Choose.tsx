@@ -68,7 +68,7 @@ const Choose = () => {
               {/* Icon Circle */}
               <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center shrink-0 shadow-inner group-hover:scale-110 transition-transform duration-300">
                 <img
-                  src="/moto/mc-filter/settings3.png"
+                  src="/moto/mc-filter/settings3.webp"
                   alt={card.title}
                   className="w-8 h-8 object-contain"
                 />

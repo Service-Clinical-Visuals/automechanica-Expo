@@ -49,7 +49,7 @@ export default function AboutUs() {
             {/* Image */}
             <div className="relative w-full aspect-[4/3] md:aspect-[16/10] overflow-hidden shadow-2xl z-10 bg-white">
               <img
-                src="/moto/ari-oil/section2.jpg"
+                src="/moto/ari-oil/section2.webp"
                 alt="ARI OIL Truck and Products"
                 className="w-full h-full object-cover"
               />

@@ -6,7 +6,7 @@ export default function Solutions() {
   return (
     <section 
       className="w-full py-16 md:py-24 relative bg-[var(--color-primary)] text-white bg-cover bg-center overflow-hidden rounded-4xl" 
-      style={{ backgroundImage: "url('/moto/liqui-moly/bg.png')" }}
+      style={{ backgroundImage: "url('/moto/liqui-moly/bg.webp')" }}
     >
       {/* Container */}
       <div className="custom-container relative z-10">
@@ -42,7 +42,7 @@ export default function Solutions() {
             <div className="space-y-6 block xl:hidden 2xl:block">
               {/* Item 1 */}
               <div className="flex items-center gap-4">
-                <img src="/moto/liqui-moly/setting.png" alt="Setting" className="w-8 h-8 mt-1 object-contain" />
+                <img src="/moto/liqui-moly/setting.webp" alt="Setting" className="w-8 h-8 mt-1 object-contain" />
                 <p className="section-text text-white font-normal">
                   <span className="font-bold text-white">LIQUI MOLY</span> delivers high-performance products engineered to improve vehicle efficiency, protection, and reliability through innovative technology and precision development.
                 </p>
@@ -50,7 +50,7 @@ export default function Solutions() {
 
               {/* Item 2 */}
               <div className="flex items-center gap-4">
-                <img src="/moto/liqui-moly/shield.png" alt="Shield" className="w-8 h-8 mt-1 object-contain" />
+                <img src="/moto/liqui-moly/shield.webp" alt="Shield" className="w-8 h-8 mt-1 object-contain" />
                  <p className="section-text text-white font-normal">
                   Our premium solutions reduce wear, enhance performance, and extend component life, ensuring dependable operation for drivers and automotive professionals worldwide.
                 </p>
@@ -58,7 +58,7 @@ export default function Solutions() {
 
               {/* Item 3 */}
               <div className="flex items-center gap-4">
-                <img src="/moto/liqui-moly/tool.png" alt="Tool" className="w-8 h-8 mt-1 object-contain" />
+                <img src="/moto/liqui-moly/tool.webp" alt="Tool" className="w-8 h-8 mt-1 object-contain" />
                  <p className="section-text text-white font-normal">
                   Our products support regular vehicle care by improving efficiency, maintaining optimal performance, and providing long-term protection for essential automotive components.
                 </p>
@@ -78,7 +78,7 @@ export default function Solutions() {
         <div className="hidden xl:grid 2xl:hidden grid-cols-3 gap-8 mt-12" data-aos="fade-up">
           {/* Item 1 */}
           <div className="flex flex-row items-center gap-4">
-            <img src="/moto/liqui-moly/setting.png" alt="Setting" className="w-8 h-8 mt-1 object-contain flex-shrink-0" />
+            <img src="/moto/liqui-moly/setting.webp" alt="Setting" className="w-8 h-8 mt-1 object-contain flex-shrink-0" />
             <p className="section-text text-white font-normal">
               <span className="font-bold text-white">LIQUI MOLY</span> delivers high-performance products engineered to improve vehicle efficiency, protection, and reliability through innovative technology and precision development.
             </p>
@@ -86,7 +86,7 @@ export default function Solutions() {
 
           {/* Item 2 */}
           <div className="flex flex-row items-center gap-4">
-            <img src="/moto/liqui-moly/shield.png" alt="Shield" className="w-8 h-8 mt-1 object-contain flex-shrink-0" />
+            <img src="/moto/liqui-moly/shield.webp" alt="Shield" className="w-8 h-8 mt-1 object-contain flex-shrink-0" />
               <p className="section-text text-white font-normal">
               Our premium solutions reduce wear, enhance performance, and extend component life, ensuring dependable operation for drivers and automotive professionals worldwide.
             </p>
@@ -94,7 +94,7 @@ export default function Solutions() {
 
           {/* Item 3 */}
           <div className="flex flex-row items-center gap-4">
-            <img src="/moto/liqui-moly/tool.png" alt="Tool" className="w-8 h-8 mt-1 object-contain flex-shrink-0" />
+            <img src="/moto/liqui-moly/tool.webp" alt="Tool" className="w-8 h-8 mt-1 object-contain flex-shrink-0" />
               <p className="section-text text-white font-normal">
               Our products support regular vehicle care by improving efficiency, maintaining optimal performance, and providing long-term protection for essential automotive components.
             </p>

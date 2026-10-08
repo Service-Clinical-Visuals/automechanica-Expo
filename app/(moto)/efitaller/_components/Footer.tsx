@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="xl:col-span-4 flex flex-col gap-6 xl:pr-10" data-aos="fade-up">
             <Link href="#">
               <img
-                src="/moto/efitaller/logo.png"
+                src="/moto/efitaller/logo.webp"
                 alt="Efitaller Logo"
                 className="w-auto md:w-auto h-auto object-contain"
               />
@@ -83,7 +83,7 @@ export default function Footer() {
           <div className="xl:col-span-2 flex flex-col gap-8" data-aos="fade-up" data-aos-delay="400">
             <div className="flex flex-col gap-2">
               <div className="flex items-center gap-2">
-                <img src="/moto/efitaller/eco-raee.png" alt="Eco Raee" className="h-auto w-auto object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<span class="text-green-500 font-bold text-xl flex items-center"><span class="mr-1">eco</span>raee\'s</span><span class="text-xs ml-2 italic">Gestión Sostenible</span>' }} />
+                <img src="/moto/efitaller/eco-raee.webp" alt="Eco Raee" className="h-auto w-auto object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<span class="text-green-500 font-bold text-xl flex items-center"><span class="mr-1">eco</span>raee\'s</span><span class="text-xs ml-2 italic">Gestión Sostenible</span>' }} />
               </div>
             </div>
 

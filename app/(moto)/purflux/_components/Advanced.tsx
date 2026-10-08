@@ -35,7 +35,7 @@ const Advanced = () => {
             ].map((text, index) => (
               <div key={index} className="flex items-center gap-4 ">
                 <div className="w-8 h-8 xl:w-10 xl:h-10 min-[3800px]:w-14 min-[3800px]:h-14 shrink-0 flex items-center justify-center ">
-                  <img src="/moto/purflux/vector2.png" alt="Bullet" className="w-full h-full object-contain" />
+                  <img src="/moto/purflux/vector2.webp" alt="Bullet" className="w-full h-full object-contain" />
                 </div>
                 <Typography variant="p" color="white" className="leading-relaxed opacity-90 text-sm xl:text-base min-[3800px]:text-xl">
                   {text}

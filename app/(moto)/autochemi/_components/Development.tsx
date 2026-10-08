@@ -23,14 +23,14 @@ export default function Development() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 xl:gap-8 w-full order-2 xl:order-2">
           <div className="w-full aspect-video rounded-3xl overflow-hidden shadow-sm border border-gray-200" data-aos="fade-up" data-aos-delay="100">
             <img 
-              src="/moto/autochemi/section21.png" 
+              src="/moto/autochemi/section21.webp" 
               alt="ET Engine Parts Collage" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
             />
           </div>
           <div className="w-full aspect-video rounded-3xl overflow-hidden shadow-sm border border-gray-200" data-aos="fade-up" data-aos-delay="200">
             <img 
-              src="/moto/autochemi/section22.png" 
+              src="/moto/autochemi/section22.webp" 
               alt="ET Engine Team Crest" 
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
             />

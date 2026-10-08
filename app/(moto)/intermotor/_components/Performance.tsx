@@ -5,22 +5,22 @@ import Container from "./Container";
 
 const features = [
   {
-    icon: "/moto/intermotor/performance/1.png",
+    icon: "/moto/intermotor/performance/1.webp",
     title: "Premium Materials",
     description: "Built with quality materials for reliable performance.",
   },
   {
-    icon: "/moto/intermotor/performance/2.png",
+    icon: "/moto/intermotor/performance/2.webp",
     title: "Quality Tested",
     description: "Tested for reliable and consistent operation.",
   },
   {
-    icon: "/moto/intermotor/performance/3.png",
+    icon: "/moto/intermotor/performance/3.webp",
     title: "Vehicle Compatibility",
     description: "Built with quality materials for reliable performance.",
   },
   {
-    icon: "/moto/intermotor/performance/4.png",
+    icon: "/moto/intermotor/performance/4.webp",
     title: "Long Service Life",
     description: "Quality materials for reliable performance.",
   },
@@ -71,7 +71,7 @@ export default function Performance() {
           {/* Image */}
           <div className="w-full" data-aos="fade-left">
             <img
-              src="/moto/intermotor/performance/performance..png"
+              src="/moto/intermotor/performance/performance..webp"
               alt="NOx sensor components on display"
               className="w-full h-auto object-cover"
             />

@@ -17,7 +17,7 @@ export default function Footer() {
                     <div className="flex flex-col space-y-6" data-aos="fade-up" data-aos-delay="0">
                         <Link href="/mapetrol">
                             <img
-                                src="/moto/mapetrol/logo.png"
+                                src="/moto/mapetrol/logo.webp"
                                 alt="Mapetrol Logo"
                                 className="h-6 sm:h-8 object-contain"
                             />
@@ -68,12 +68,12 @@ export default function Footer() {
                         </div>
                         <div className="flex items-center gap-8 lg:gap-15 pt-2">
                             <img
-                                src="/moto/mapetrol/certificate1.png"
+                                src="/moto/mapetrol/certificate1.webp"
                                 alt="TUV Austria Certification"
                                 className="h-15 lg:h-[95%]  w-auto object-contain "
                             />
                             <img
-                                src="/moto/mapetrol/certificate2.png"
+                                src="/moto/mapetrol/certificate2.webp"
                                 alt="EELQMS Certification"
                                 className="h-15 lg:h-[95%] w-auto object-contain"
                             />

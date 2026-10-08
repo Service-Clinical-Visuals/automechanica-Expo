@@ -40,7 +40,7 @@ export default function Discover() {
             {/* Left: image */}
             <div className="w-full xl:w-1/2 shrink-0" data-aos="fade-right">
             <img
-                src="/moto/north-sea/about.jpg"
+                src="/moto/north-sea/about.webp"
                 alt="North Sea Lubricants warehouse"
                 className="w-full h-auto object-cover "
             />

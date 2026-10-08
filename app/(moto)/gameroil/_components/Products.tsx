@@ -9,22 +9,22 @@ const catalogues = [
     id: 1,
     title: "Oil Lubricants",
     description: "Engine protection and performance.",
-    image: "/moto/gameroil/product1.png",
-    icon: "/moto/gameroil/icon1.png"
+    image: "/moto/gameroil/product1.webp",
+    icon: "/moto/gameroil/icon1.webp"
   },
   {
     id: 2,
     title: "Marine Lubricants",
     description: "Reliable protection for marine engines.",
-    image: "/moto/gameroil/product2.png",
-    icon: "/moto/gameroil/icon2.png"
+    image: "/moto/gameroil/product2.webp",
+    icon: "/moto/gameroil/icon2.webp"
   },
   {
     id: 3,
     title: "Max Oil",
     description: "Engine protection and performance.",
-    image: "/moto/gameroil/product3.png",
-    icon: "/moto/gameroil/icon3.png"
+    image: "/moto/gameroil/product3.webp",
+    icon: "/moto/gameroil/icon3.webp"
   }
 ];
 

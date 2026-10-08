@@ -32,7 +32,7 @@ export default function Banner() {
           <button className="heading flex gap-4 items-center rounded-lg text-white! mt-4 text-[16px]! uppercase  bg-primary px-5 py-4 hover:bg-primary/90 transition-colors">
             Find the Right Oil
             <img
-              src="/moto/eurolub/engine.png"
+              src="/moto/eurolub/engine.webp"
               alt="engine Logo"
               className="h-5 w-auto object-contain"
             />

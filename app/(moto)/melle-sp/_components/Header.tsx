@@ -80,7 +80,7 @@ const Header = () => {
               }}
               className="flex items-center shrink-0 hover:opacity-90 transition-opacity"
             >
-              <img src="/moto/melle-sp/k2-logo.png" alt="K2 Logo" className="h-12 sm:h-14" />
+              <img src="/moto/melle-sp/k2-logo.webp" alt="K2 Logo" className="h-12 sm:h-14" />
             </Link>
 
             {/* Desktop Navbar Links */}

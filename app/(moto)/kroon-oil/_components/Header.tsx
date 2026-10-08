@@ -46,7 +46,7 @@ export default function Header() {
         {/* Logo Area */}
         <div className="flex-shrink-0 flex items-center">
            <Link href="#">
-             <img src="/moto/kroon-oil/logo.png" alt="Kroon Oil Logo" className="h-10 xl:h-12 w-auto object-contain" />
+             <img src="/moto/kroon-oil/logo.webp" alt="Kroon Oil Logo" className="h-10 xl:h-12 w-auto object-contain" />
            </Link>
         </div>
 

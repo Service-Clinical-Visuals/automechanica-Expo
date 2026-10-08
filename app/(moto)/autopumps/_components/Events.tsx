@@ -5,19 +5,19 @@ const events = [
   {
     id: 1,
     title: "Autopumps UK at Automechanika Frankfurt 2026",
-    image: "/moto/autopumps/e1.png",
+    image: "/moto/autopumps/e1.webp",
     link: "/autopumps/events/automechanika-2026"
   },
   {
     id: 2,
     title: "Frankfurt 2024: A Milestone Moment",
-    image: "/moto/autopumps/e2.png",
+    image: "/moto/autopumps/e2.webp",
     link: "/autopumps/events/frankfurt-2024"
   },
   {
     id: 3,
     title: "Premium AP Hydraulic Pumps for Heavy-Duty...",
-    image: "/moto/autopumps/e3.png",
+    image: "/moto/autopumps/e3.webp",
     link: "/autopumps/events/hydraulic-pumps"
   }
 ];

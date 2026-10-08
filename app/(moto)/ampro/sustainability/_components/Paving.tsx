@@ -6,17 +6,17 @@ import Typography from "../../_components/Typography";
 const pavingFeatures = [
   {
     id: 1,
-    icon: "/moto/ampro/p1.png",
+    icon: "/moto/ampro/p1.webp",
     text: "By using electric cars, we reduce our CO2 emissions and thus contribute to improving air quality and combating climate change.",
   },
   {
     id: 2,
-    icon: "/moto/ampro/p2.png",
+    icon: "/moto/ampro/p2.webp",
     text: "We promote responsible, resource-conscious practices to build a sustainable future for our customers and society.",
   },
   {
     id: 3,
-    icon: "/moto/ampro/p3.png",
+    icon: "/moto/ampro/p3.webp",
     text: "We support sustainable shipping through eco-friendly packaging and consolidated deliveries to reduce our carbon footprint.",
   },
 ];
@@ -25,7 +25,7 @@ const Paving = () => {
   return (
     <section
       className="w-full py-16 xl:py-24 bg-cover bg-center bg-no-repeat overflow-hidden"
-      style={{ backgroundImage: "url('/moto/ampro/bg-4.png')" }}
+      style={{ backgroundImage: "url('/moto/ampro/bg-4.webp')" }}
     >
       <div className="custom-container flex flex-col gap-8 min-[3800px]:gap-16">
 
@@ -79,7 +79,7 @@ const Paving = () => {
           {/* Right: Image */}
           <div className="w-full xl:col-span-7 aspect-[959/525] relative rounded-2xl overflow-hidden shadow-2xl min-h-[300px] md:min-h-[400px] xl:min-h-full" data-aos="fade-left">
             <img
-              src="/moto/ampro/section44.png"
+              src="/moto/ampro/section44.webp"
               alt="Sustainable Tomorrow"
               className="absolute inset-0 w-full h-full object-cover"
             />

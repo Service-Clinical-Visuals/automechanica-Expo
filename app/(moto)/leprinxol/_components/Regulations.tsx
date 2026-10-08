@@ -27,21 +27,21 @@ export default function Regulations() {
         <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="w-full aspect-[4/3] overflow-hidden">
             <img
-              src="/moto/leprinxol/product1.jpg"
+              src="/moto/leprinxol/product1.webp"
               alt="Bottling production line"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="w-full aspect-[4/3] overflow-hidden">
             <img
-              src="/moto/leprinxol/product2.jpg"
+              src="/moto/leprinxol/product2.webp"
               alt="Quality certification"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="w-full aspect-[4/3] overflow-hidden">
             <img
-              src="/moto/leprinxol/product3.jpg"
+              src="/moto/leprinxol/product3.webp"
               alt="Production facility"
               className="w-full h-full object-cover"
             />

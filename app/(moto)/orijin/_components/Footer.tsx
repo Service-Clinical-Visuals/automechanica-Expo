@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="flex flex-col gap-6" data-aos="fade-up">
             <Link href="#">
               <img
-                src="/moto/orijin/logo.png"
+                src="/moto/orijin/logo.webp"
                 alt="Orjin Automotive Logo"
                 className="w-auto h-auto object-contain"
                 onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.parentElement!.innerHTML = '<span class="font-bold text-2xl text-[#222]">Orjin Automotive</span>' }}

@@ -9,19 +9,19 @@ import Button from "./Button";
 export default function ManufacturingProcess() {
   const features = [
     {
-      icon: <img src="/moto/amc-amadeo/i1.png" alt="" className="w-6 h-6 text-primary" />,
+      icon: <img src="/moto/amc-amadeo/i1.webp" alt="" className="w-6 h-6 text-primary" />,
       text: "Advanced design, simulation, and tooling processes ensure precision components that meet customer requirements and industry standards."
     },
     {
-      icon: <img src="/moto/amc-amadeo/i2.png" alt="" className="w-6 h-6 text-primary" />,
+      icon: <img src="/moto/amc-amadeo/i2.webp" alt="" className="w-6 h-6 text-primary" />,
       text: "Using gravity casting, sand casting, and HPDC, AMC produces durable, high-quality automotive components."
     },
     {
-      icon: <img src="/moto/amc-amadeo/i3.png" alt="" className="w-6 h-6 text-primary" />,
+      icon: <img src="/moto/amc-amadeo/i3.webp" alt="" className="w-6 h-6 text-primary" />,
       text: "Advanced CNC machining ensures precise dimensions, superior finishing, and consistent component quality."
     },
     {
-      icon: <img src="/moto/amc-amadeo/i4.png" alt="" className="w-6 h-6 text-primary" />,
+      icon: <img src="/moto/amc-amadeo/i4.webp" alt="" className="w-6 h-6 text-primary" />,
       text: "Automated finishing removes excess material and prepares components for final production."
     }
   ];

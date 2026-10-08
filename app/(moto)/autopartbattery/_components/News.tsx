@@ -5,7 +5,7 @@ export default function News() {
   const newsItems = [
     {
       id: 1,
-      image: "/moto/autopartbattery/nw1.png",
+      image: "/moto/autopartbattery/nw1.webp",
       dateDay: "15",
       dateMonth: "Jun",
       title: "AUTOMECHANIKA FRANKFURT 2026",
@@ -14,7 +14,7 @@ export default function News() {
     },
     {
       id: 2,
-      image: "/moto/autopartbattery/nw2.png",
+      image: "/moto/autopartbattery/nw2.webp",
       dateDay: "26",
       dateMonth: "Jan",
       title: "Capturing the 2026 Dakar Classic",
@@ -23,7 +23,7 @@ export default function News() {
     },
     {
       id: 3,
-      image: "/moto/autopartbattery/nw3.png",
+      image: "/moto/autopartbattery/nw3.webp",
       dateDay: "17",
       dateMonth: "Jan",
       title: "Poland's Historic Dakar Victory",
@@ -32,7 +32,7 @@ export default function News() {
     },
     {
       id: 4,
-      image: "/moto/autopartbattery/nw4.png",
+      image: "/moto/autopartbattery/nw4.webp",
       dateDay: "02",
       dateMonth: "Jan",
       title: "DAKAR CLASSIC RACE 2026",

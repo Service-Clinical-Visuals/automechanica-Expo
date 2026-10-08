@@ -10,7 +10,7 @@ export default function About() {
           {/* Image */}
           <div className="order-2 xl:order-1 xl:col-span-7 w-full h-full relative min-h-[300px] sm:min-h-[400px] lg:min-h-[500px] xl:min-h-[550px] rounded-3xl overflow-hidden shadow-sm">
             <img 
-              src="/moto/baroxoil/abt.png" 
+              src="/moto/baroxoil/abt.webp" 
               alt="About Barox" 
               className="absolute inset-0 w-full h-full object-cover"
             />

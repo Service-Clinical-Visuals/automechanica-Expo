@@ -15,7 +15,7 @@ const AboutUs = () => {
           data-aos="fade-right"
         >
           <img
-            src="/moto/lpr-srl/section2.png"
+            src="/moto/lpr-srl/section2.webp"
             alt="Factory"
             className="w-full h-auto max-w-[820px] rounded-xl object-cover shadow-sm min-[2100px]:max-w-[1400px] min-[3800px]:max-w-[1800px]"
           />

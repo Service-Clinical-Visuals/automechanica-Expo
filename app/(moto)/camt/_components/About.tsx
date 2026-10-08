@@ -66,7 +66,7 @@ const About = () => {
           {/* Image */}
           <div className="overflow-hidden rounded-2xl" data-aos="fade-left">
             <img
-              src="/moto/camt/about.png"
+              src="/moto/camt/about.webp"
               alt="CAMT Automotive exhibition stand"
               className="w-full h-auto object-cover"
             />

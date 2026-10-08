@@ -48,7 +48,7 @@ export default function Services() {
                     className="border border-secondary rounded-md p-5 text-center flex flex-col"
                   >
                     <div className="flex items-center justify-center gap-4 pb-3 mb-3 mt-3 border-b border-gray-200">
-                      <img src="/moto/dasis/tool.png" alt="" className="w-6 h-6 object-contain" />
+                      <img src="/moto/dasis/tool.webp" alt="" className="w-6 h-6 object-contain" />
                       <h3 className="heading text-[28px]!">{service.title}</h3>
                     </div>
                     <p className="content text-sm">{service.description}</p>
@@ -59,7 +59,7 @@ export default function Services() {
 
             <div className="w-full" data-aos="fade-left">
               <img
-                src="/moto/dasis/services/right.png"
+                src="/moto/dasis/services/right.webp"
                 alt="DASIS technicians at work"
                 className="w-full h-full object-cover rounded-md"
               />
@@ -70,7 +70,7 @@ export default function Services() {
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 xl:gap-12 items-center -mt-10">
             <div className="w-full mt-10" data-aos="fade-right">
               <img
-                src="/moto/dasis/services/left.png"
+                src="/moto/dasis/services/left.webp"
                 alt="Classic car restoration chassis"
                 className="w-full h-full object-cover rounded-md"
               />

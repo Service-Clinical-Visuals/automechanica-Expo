@@ -41,7 +41,7 @@ export default function Header() {
           {/* Logo Area */}
           <div className="flex-shrink-0 flex items-center">
             <Link href="#">
-              <img src="/moto/bbt/logo1.png" alt="BBT Logo" className="w-[80px] md:w-[120px] h-auto object-contain" />
+              <img src="/moto/bbt/logo1.webp" alt="BBT Logo" className="w-[80px] md:w-[120px] h-auto object-contain" />
             </Link>
           </div>
 

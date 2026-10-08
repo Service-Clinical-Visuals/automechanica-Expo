@@ -33,7 +33,7 @@ export default function Button({
           {iconType === "search" ? (
             <Search size={18} strokeWidth={2.5} />
           ) : (
-           <img src="/moto/jb-germanoil/btnarw.png" alt="arw" />
+           <img src="/moto/jb-germanoil/btnarw.webp" alt="arw" />
           )}
         </span>
       )}

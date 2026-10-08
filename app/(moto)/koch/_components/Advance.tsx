@@ -19,7 +19,7 @@ const Advance = () => {
         {/* Left: Image (Order 2 on Mobile, Order 1 on Desktop) */}
         <div className="w-full xl:w-[50%] min-[3800px]:w-[55%] flex shrink-0" data-aos="fade-right">
           <img
-            src="/moto/koch/section3.jpg"
+            src="/moto/koch/section3.webp"
             alt="Advanced Wheel Alignment"
             className="w-full h-auto object-cover rounded-2xl shadow-lg "
           />

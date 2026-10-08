@@ -13,14 +13,14 @@ import "swiper/css/pagination";
 
 export default function Products() {
   const products = [
-    { title: "PRO-SERIES PADS", image: "/moto/magma-brakes/product1.png" },
-    { title: "PREMIUM PADS", image: "/moto/magma-brakes/product2.png" },
-    { title: "SEVERE DUTY PADS", image: "/moto/magma-brakes/product3.png" },
-    { title: "MAXVALUE PADS", image: "/moto/magma-brakes/product4.png" },
-    { title: "PREMIUM SHOES", image: "/moto/magma-brakes/product5.png" },
-    { title: "PRO-SERIES ROTORS", image: "/moto/magma-brakes/product6.png" },
-    { title: "PREMIUM ROTORS", image: "/moto/magma-brakes/product7.png" },
-    { title: "PREMIUM DRUMS", image: "/moto/magma-brakes/product8.png" }
+    { title: "PRO-SERIES PADS", image: "/moto/magma-brakes/product1.webp" },
+    { title: "PREMIUM PADS", image: "/moto/magma-brakes/product2.webp" },
+    { title: "SEVERE DUTY PADS", image: "/moto/magma-brakes/product3.webp" },
+    { title: "MAXVALUE PADS", image: "/moto/magma-brakes/product4.webp" },
+    { title: "PREMIUM SHOES", image: "/moto/magma-brakes/product5.webp" },
+    { title: "PRO-SERIES ROTORS", image: "/moto/magma-brakes/product6.webp" },
+    { title: "PREMIUM ROTORS", image: "/moto/magma-brakes/product7.webp" },
+    { title: "PREMIUM DRUMS", image: "/moto/magma-brakes/product8.webp" }
   ];
 
   return (

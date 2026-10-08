@@ -117,7 +117,7 @@ const Header = () => {
             {/* Logo Section */}
             <Link href="/" className="flex items-center shrink-0  rounded-xl p-1 hover:opacity-90 transition-opacity">
               <img
-                src="/moto/eurol/logo.png"
+                src="/moto/eurol/logo.webp"
                 alt="Eurol Logo"
                 className="h-8 sm:h-10 md:h-10 xl:h-10 2xl:h-15 w-auto object-contain"
               />

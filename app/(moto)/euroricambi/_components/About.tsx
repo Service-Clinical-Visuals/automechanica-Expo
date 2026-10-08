@@ -26,14 +26,14 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
             <div data-aos="fade-right">
               <img
-                src="/moto/euroricambi/about1.png"
+                src="/moto/euroricambi/about1.webp"
                 alt="Euroricambi production facility"
                 className="w-full h-full object-cover rounded-2xl"
               />
             </div>
             <div data-aos="fade-left" data-aos-delay="150">
               <img
-                src="/moto/euroricambi/about2.png"
+                src="/moto/euroricambi/about2.webp"
                 alt="Euroricambi team"
                 className="w-full h-full object-cover rounded-2xl"
               />

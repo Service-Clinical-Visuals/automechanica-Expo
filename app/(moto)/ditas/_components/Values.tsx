@@ -4,12 +4,12 @@ import Button from "./Button";
 
 const values = [
   {
-    icon: "/moto/ditas/v1.png",
+    icon: "/moto/ditas/v1.webp",
     description:
       "We encourage creativity, curiosity, and continuous learning to develop new ideas and solutions. Our innovative mindset helps us adapt to change and deliver advanced solutions across every project we undertake.",
   },
   {
-    icon: "/moto/ditas/v2.png",
+    icon: "/moto/ditas/v2.webp",
     description:
       "We believe success is built through collaboration, trust, and shared knowledge. By working as one team, we create lasting value and achieve our common goals together.",
   },
@@ -58,7 +58,7 @@ export default function Values() {
             data-aos-once="true"
           >
             <img
-              src="/moto/ditas/values.png"
+              src="/moto/ditas/values.webp"
               alt="DİTAŞ partnership and collaboration"
               className="absolute inset-0 w-full h-full object-cover"
             />
@@ -114,7 +114,7 @@ export default function Values() {
             data-aos-once="true"
           >
             <img
-              src="/moto/ditas/values.png"
+              src="/moto/ditas/values.webp"
               alt="DİTAŞ partnership and collaboration"
               className="absolute inset-0 w-full h-full object-cover"
             />

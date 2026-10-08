@@ -6,28 +6,28 @@ const cardsData = [
     titleLine1: "Premium Raw",
     titleLine2: "Materials",
     paragraph: "Sourced from the highest quality base oils to guarantee superior, consistent results in every product, delivering exceptional performance, reliability, durability, and long-term equipment protection.",
-    icon: "oval.png",
+    icon: "oval.webp",
     delay: 0
   },
   {
     titleLine1: "Advanced",
     titleLine2: "Additives",
     paragraph: "Specially combined additive packages destroy harmful deposits and protect your engine under heavy loads, ensuring enhanced performance, efficiency, and long-lasting reliability.",
-    icon: "oval.png",
+    icon: "oval.webp",
     delay: 100
   },
   {
     titleLine1: "Every Blend",
     titleLine2: "Tested",
     paragraph: "We monitor and test each blend of every product to ensure the exact properties, consistent quality, superior performance, and long-lasting reliability of every lubricant.",
-    icon: "oval.png",
+    icon: "oval.webp",
     delay: 200
   },
   {
     titleLine1: "All-Temperature",
     titleLine2: "Film",
     paragraph: "Outstanding lubricating film that stays strong across any working temperature range, providing exceptional wear protection, stable performance, and reliability.",
-    icon: "oval.png",
+    icon: "oval.webp",
     delay: 300
   }
 ];
@@ -141,10 +141,10 @@ export default function WhyChoose() {
         {/* Bottom Banner (Stats) */}
         <div className="w-full rounded-4xl overflow-hidden relative  flex flex-col min-h-[300px]" data-aos="fade-up">
           {/* Background Image */}
-          <img src="/moto/amboils/bg.png" alt="Engine Background" className="absolute inset-0 w-full h-full object-cover z-0" />
+          <img src="/moto/amboils/bg.webp" alt="Engine Background" className="absolute inset-0 w-full h-full object-cover z-0" />
           
           {/* Oil Image (Absolute right) */}
-          <img src="/moto/amboils/oil.png" alt="Oil Splash" className="absolute right-0 bottom-0 h-auto w-full max-w-[300px] md:max-w-[400px] lg:max-w-[450px] object-contain object-right-bottom z-10 pointer-events-none opacity-90 lg:opacity-100" />
+          <img src="/moto/amboils/oil.webp" alt="Oil Splash" className="absolute right-0 bottom-0 h-auto w-full max-w-[300px] md:max-w-[400px] lg:max-w-[450px] object-contain object-right-bottom z-10 pointer-events-none opacity-90 lg:opacity-100" />
           
           {/* Stats Content */}
           <div className="relative z-20 flex-grow grid grid-cols-2 lg:grid-cols-5 items-center divide-white/20 text-center w-full h-full py-10 lg:py-14">

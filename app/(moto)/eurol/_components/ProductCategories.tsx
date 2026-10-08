@@ -14,27 +14,27 @@ const ProductCategories = () => {
   const categories = [
     {
       title: "Engine Oils",
-      image: "/moto/eurol/section5.jpg"
+      image: "/moto/eurol/section5.webp"
     },
     {
       title: "Transmission & Gear Oils",
-      image: "/moto/eurol/section52.jpg"
+      image: "/moto/eurol/section52.webp"
     },
     {
       title: "Industry Oils",
-      image: "/moto/eurol/section53.jpg"
+      image: "/moto/eurol/section53.webp"
     },
     {
       title: "Antifreeze, Coolants & Windshield washer fluids",
-      image: "/moto/eurol/section54.jpg"
+      image: "/moto/eurol/section54.webp"
     },
     {
       title: "Antifreeze, Coolants & Windshield washer fluids",
-      image: "/moto/eurol/section55.jpg"
+      image: "/moto/eurol/section55.webp"
     },
     {
       title: "Hygienic, Cleaning, Equipment & Promo",
-      image: "/moto/eurol/section56.jpg"
+      image: "/moto/eurol/section56.webp"
     }
   ];
 

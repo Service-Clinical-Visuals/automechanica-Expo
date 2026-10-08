@@ -35,7 +35,7 @@ export default function Header() {
               href="tel:+48228646700"
               className="flex items-center gap-2 group">
               <img
-                src="/moto/denckermann/phone.png"
+                src="/moto/denckermann/phone.webp"
                 alt="Phone"
                 className="object-cover w-4 h-4 "
               />
@@ -47,7 +47,7 @@ export default function Header() {
               href="mailto:biuro@denckermann.pl"
               className="flex items-center gap-2 group">
               <img
-                src="/moto/denckermann/mail.png"
+                src="/moto/denckermann/mail.webp"
                 alt="Email"
                 className="object-cover w-4 h-4"
               />
@@ -78,7 +78,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/denckermann" className="flex-shrink-0">
             <img
-              src="/moto/denckermann/logo1.png"
+              src="/moto/denckermann/logo1.webp"
               alt="Denckermann Logo"
               className="object-contain h-6 sm:h-10 w-auto"
             />
@@ -107,7 +107,7 @@ export default function Header() {
           <div className="flex gap-3 items-center">
             <button className="flex items-center gap-1 sm:gap-2 bg-white px-1 sm:px-3 py-1 sm:py-2 rounded-sm">
               <img
-                src="/moto/denckermann/globe.png"
+                src="/moto/denckermann/globe.webp"
                 alt="Language"
                 className="object-cover"
               />
@@ -115,13 +115,13 @@ export default function Header() {
                 PL
               </span>
               <img
-                src="/moto/denckermann/chevron-down.png"
+                src="/moto/denckermann/chevron-down.webp"
                 alt="arrow"
                 className="object-cover"
               />
             </button>
             <img
-              src="/moto/denckermann/certified.png"
+              src="/moto/denckermann/certified.webp"
               alt="certified"
               className="object-cover h-7 sm:h-10 w-auto"
             />

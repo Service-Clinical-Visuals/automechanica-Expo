@@ -9,37 +9,37 @@ export default function HighPerformance() {
   const categories = [
     {
       id: 1,
-      image: "/moto/kalebalata/b1.png",
+      image: "/moto/kalebalata/b1.webp",
       title: "Passenger Car",
       desc: "Disc brake pads developed for low noise, balanced braking..."
     },
     {
       id: 2,
-      image: "/moto/kalebalata/b2.png",
+      image: "/moto/kalebalata/b2.webp",
       title: "Light Commercial Vehicle",
       desc: "Brake pads suitable for heavy stop-and-go use in panel vans and minibuses. Sustainable performance with long life, low dust, and balanced brake feel."
     },
     {
       id: 3,
-      image: "/moto/kalebalata/b3.jpg",
+      image: "/moto/kalebalata/b3.webp",
       title: "Heavy Duty Vehicle",
       desc: "Heavy-duty brake pads developed for high tonnage and long-haul..."
     },
     {
       id: 4,
-      image: "/moto/kalebalata/b4.png",
+      image: "/moto/kalebalata/b4.webp",
       title: "Rail Systems",
       desc: "Safety and comfort-oriented braking solutions for metro..."
     },
     {
       id: 5,
-      image: "/moto/kalebalata/b5.png",
+      image: "/moto/kalebalata/b5.webp",
       title: "Defense Industry",
       desc: "Special formulations for high reliability in harsh field conditions..."
     },
     {
       id: 6,
-      image: "/moto/kalebalata/b6.png",
+      image: "/moto/kalebalata/b6.webp",
       title: "Motorcycle",
       desc: "Motorcycle disc pads providing fast warm-up and strong initial grip..."
     }

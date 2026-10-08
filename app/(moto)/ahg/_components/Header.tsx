@@ -48,7 +48,7 @@ export default function Header() {
         {/* Logo Area */}
         <div className="flex-shrink-0 flex items-center">
            <Link href="#">
-             <img src="/moto/ahg/logo.png" alt="AHG Logo" className="h-12 xl:h-14 w-auto object-contain" />
+             <img src="/moto/ahg/logo.webp" alt="AHG Logo" className="h-12 xl:h-14 w-auto object-contain" />
            </Link>
         </div>
 

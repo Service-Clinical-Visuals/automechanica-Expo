@@ -10,7 +10,7 @@ const Footer = () => {
 
         {/* Column 1: Logo & Text (Span 4) */}
         <div className="col-span-1 md:col-span-2 xl:col-span-4 flex flex-col gap-6 xl:pr-8">
-          <img src="/moto/nuova/logo.png" alt="Nuova Tecnodelta" className="w-[60%] sm:w-[40%] xl:w-[60%] object-contain" />
+          <img src="/moto/nuova/logo.webp" alt="Nuova Tecnodelta" className="w-[60%] sm:w-[40%] xl:w-[60%] object-contain" />
           <p className="footer-body text-white leading-relaxed max-w-full">
             Nuova Tecnodelta is a trusted Italian manufacturer of high-quality automotive components, delivering reliable, innovative, and precision-engineered solutions for OEM and aftermarket markets.
           </p>

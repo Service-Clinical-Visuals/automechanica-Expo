@@ -41,7 +41,7 @@ export default function Button({
       {children}
       {icon && <img src={icon} alt="" className="w-4 h-4 object-contain" />}
       {showArrow && !icon && (
-        <img src="/moto/liqui-moly/btnarrow.png" alt="" className="w-3.5 h-3.5 object-contain" />
+        <img src="/moto/liqui-moly/btnarrow.webp" alt="" className="w-3.5 h-3.5 object-contain" />
       )}
     </>
   );
