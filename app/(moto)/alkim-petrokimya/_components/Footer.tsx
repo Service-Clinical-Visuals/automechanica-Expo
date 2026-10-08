@@ -2,6 +2,8 @@
 
 import React from "react";
 import Link from "next/link";
+import { FaTiktok, FaFacebookF, FaLinkedinIn, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -74,13 +76,13 @@ export default function Footer() {
           {/* Social */}
           <div className="flex flex-col items-center xl:items-start gap-4">
             <span className="orbitron font-normal tracking-wide">Social</span>
-            <div className="flex items-center gap-4">
-              <Link href="#"><img src="/moto/sigam/music.png" alt="Tiktok" className="h-[15px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
-              <Link href="#"><img src="/moto/sigam/fb.png" alt="Facebook" className="h-[15px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
-              <Link href="#"><img src="/moto/sigam/in.png" alt="LinkedIn" className="h-[15px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
-              <Link href="#"><img src="/moto/sigam/x.png" alt="X" className="h-[15px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
-              <Link href="#"><img src="/moto/sigam/insta..png" alt="Instagram" className="h-[15px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
-              <Link href="#"><img src="/moto/sigam/you.png" alt="YouTube" className="h-[15px] w-auto object-contain brightness-0 invert hover:scale-110 transition-transform" /></Link>
+            <div className="flex items-center gap-4 text-white">
+              <Link href="#" className="hover:text-[#FEC52E] transition-colors hover:scale-110"><FaTiktok className="w-4 h-4" /></Link>
+              <Link href="#" className="hover:text-[#FEC52E] transition-colors hover:scale-110"><FaFacebookF className="w-4 h-4" /></Link>
+              <Link href="#" className="hover:text-[#FEC52E] transition-colors hover:scale-110"><FaLinkedinIn className="w-4 h-4" /></Link>
+              <Link href="#" className="hover:text-[#FEC52E] transition-colors hover:scale-110"><FaXTwitter className="w-4 h-4" /></Link>
+              <Link href="#" className="hover:text-[#FEC52E] transition-colors hover:scale-110"><FaInstagram className="w-4 h-4" /></Link>
+              <Link href="#" className="hover:text-[#FEC52E] transition-colors hover:scale-110"><FaYoutube className="w-4 h-4" /></Link>
             </div>
           </div>
 

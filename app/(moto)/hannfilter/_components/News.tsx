@@ -24,7 +24,7 @@ const News = () => {
               alt="Air Filter Type 1"
               className="w-full h-auto object-contain hover:scale-105 transition-transform duration-500 mix-blend-multiply"
               onError={(e) => {
-                e.currentTarget.src = "/moto/swd/abt.png";
+                e.currentTarget.src = "/moto/hannfilter/abt.webp";
               }}
             />
           </div>
@@ -35,7 +35,7 @@ const News = () => {
               alt="Air Filter Type 2"
               className="w-full h-auto object-contain hover:scale-105 transition-transform duration-500"
               onError={(e) => {
-                e.currentTarget.src = "/moto/swd/abt.png";
+                e.currentTarget.src = "/moto/hannfilter/abt.webp";
               }}
             />
           </div>

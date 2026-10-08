@@ -6,7 +6,6 @@ export default function PrecisionView() {
   return (
     <section className="py-20 xl:py-20 bg-[url('/moto/badenex/bg.webp')] bg-cover bg-center relative overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute inset-0 z-0 opacity-10 bg-[url('/moto/sigam/bg.png')] bg-repeat bg-center"></div>
 
       <div className="custom-container relative z-10">
         {/* Top Centered Content */}

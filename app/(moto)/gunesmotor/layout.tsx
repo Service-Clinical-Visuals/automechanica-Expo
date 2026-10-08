@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   title: "Güneş Motor Supapları",
   description: "Landing Page",
   icons: {
-    icon: "/logo.webp",
+    icon: "/moto/gunesmotor/logo.webp",
   },
 };
 
